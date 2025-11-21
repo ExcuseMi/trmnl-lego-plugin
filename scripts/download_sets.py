@@ -1,21 +1,50 @@
 #!/usr/bin/env python3
 """
-Download and convert Rebrickable sets data from CSV to JSON.
+Download and convert Rebrickable data from CSV to JSON and CSV.
 """
 import json
 import csv
 import zipfile
 import os
+import re
 from pathlib import Path
 from urllib.request import urlretrieve
 
 # Configuration
-CSV_URL = "https://cdn.rebrickable.com/media/downloads/sets.csv.zip"
+DATASETS = {
+    'sets': {
+        'url': 'https://cdn.rebrickable.com/media/downloads/sets.csv.zip',
+        'sort_key': 'set_num',
+        'numeric_fields': ['year', 'theme_id', 'num_parts']
+    },
+    'minifigs': {
+        'url': 'https://cdn.rebrickable.com/media/downloads/minifigs.csv.zip',
+        'sort_key': 'fig_num',
+        'numeric_fields': ['num_parts']
+    }
+}
+
 SCRIPT_DIR = Path(__file__).parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 DATA_DIR = PROJECT_ROOT / "data"
-OUTPUT_FILE = DATA_DIR / "sets.json"
-TEMP_ZIP = PROJECT_ROOT / "temp_sets.zip"
+
+
+def natural_sort_key(value):
+    """
+    Create a sort key that handles LEGO set numbers naturally.
+    Always return consistent tuple structure to avoid mixed-type comparison.
+    Example keys: "001-1", "10-1", "100-A1"
+    """
+
+    def convert(text):
+        if text.isdigit():
+            # Numeric portion: tuple (0, number)
+            return (0, int(text))
+        # Text portion: tuple (1, lowercase-string)
+        return (1, text.lower())
+
+    parts = re.split(r'(\d+)', str(value))
+    return [convert(part) for part in parts if part]
 
 
 def ensure_data_dir():
@@ -24,18 +53,18 @@ def ensure_data_dir():
     print(f"✓ Data directory ready: {DATA_DIR}")
 
 
-def download_zip():
+def download_zip(url, temp_file):
     """Download the CSV zip file."""
-    print(f"Downloading from {CSV_URL}...")
-    urlretrieve(CSV_URL, TEMP_ZIP)
-    print(f"✓ Downloaded to {TEMP_ZIP}")
+    print(f"Downloading from {url}...")
+    urlretrieve(url, temp_file)
+    print(f"✓ Downloaded to {temp_file}")
 
 
-def extract_and_convert():
-    """Extract CSV from zip and convert to JSON."""
-    print("Extracting and converting CSV to JSON...")
+def extract_and_convert(temp_zip, dataset_name, sort_key, numeric_fields):
+    """Extract CSV from zip and convert to sorted list."""
+    print(f"Extracting and processing {dataset_name} CSV...")
 
-    with zipfile.ZipFile(TEMP_ZIP, 'r') as zip_ref:
+    with zipfile.ZipFile(temp_zip, 'r') as zip_ref:
         # Find the CSV file in the zip
         csv_files = [f for f in zip_ref.namelist() if f.endswith('.csv')]
 
@@ -52,53 +81,94 @@ def extract_and_convert():
             csv_reader = csv.DictReader(csv_text.splitlines())
 
             # Convert to list of dictionaries
-            sets_data = []
+            data = []
             for row in csv_reader:
                 # Convert numeric fields
-                if row['year']:
-                    row['year'] = int(row['year']) if row['year'].isdigit() else None
-                if row['theme_id']:
-                    row['theme_id'] = int(row['theme_id']) if row['theme_id'].isdigit() else None
-                if row['num_parts']:
-                    row['num_parts'] = int(row['num_parts']) if row['num_parts'].isdigit() else None
+                for field in numeric_fields:
+                    if field in row and row[field]:
+                        row[field] = int(row[field]) if row[field].isdigit() else None
 
-                sets_data.append(row)
+                data.append(row)
 
-            print(f"✓ Converted {len(sets_data)} sets")
+            # Sort by the sort_key using natural sorting
+            data.sort(
+                key=lambda x: (
+                    x.get("year") if isinstance(x.get("year"), int) else float("inf"),
+                    natural_sort_key(x.get(sort_key, ""))
+                )
+            )
+            print(f"✓ Converted and sorted {len(data)} {dataset_name}")
 
-    return sets_data
+    return data, csv_reader.fieldnames
 
 
-def save_json(data):
+def save_json(data, filename):
     """Save data to JSON file."""
-    with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
-        json.dump(data, f, indent=0, ensure_ascii=False)
-    print(f"✓ Saved to {OUTPUT_FILE}")
+    output_file = DATA_DIR / filename
+    with open(output_file, 'w', encoding='utf-8') as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+    print(f"✓ Saved JSON to {output_file}")
 
 
-def cleanup():
+def save_csv(data, fieldnames, filename):
+    """Save data to CSV file."""
+    output_file = DATA_DIR / filename
+    with open(output_file, 'w', encoding='utf-8', newline='') as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer.writeheader()
+        writer.writerows(data)
+    print(f"✓ Saved CSV to {output_file}")
+
+
+def cleanup(temp_file):
     """Remove temporary zip file."""
-    if TEMP_ZIP.exists():
-        TEMP_ZIP.unlink()
+    if temp_file.exists():
+        temp_file.unlink()
         print(f"✓ Cleaned up temporary file")
+
+
+def process_dataset(dataset_name, config):
+    """Process a single dataset."""
+    print(f"\n--- Processing {dataset_name} ---")
+
+    temp_zip = PROJECT_ROOT / f"temp_{dataset_name}.zip"
+
+    try:
+        download_zip(config['url'], temp_zip)
+        data, fieldnames = extract_and_convert(
+            temp_zip,
+            dataset_name,
+            config['sort_key'],
+            config['numeric_fields']
+        )
+        save_json(data, f"{dataset_name}.json")
+        save_csv(data, fieldnames, f"{dataset_name}.csv")
+        cleanup(temp_zip)
+
+        return len(data)
+
+    except Exception as e:
+        print(f"✗ Error processing {dataset_name}: {e}")
+        cleanup(temp_zip)
+        raise
 
 
 def main():
     """Main execution function."""
     try:
-        print("=== Rebrickable Sets Data Updater ===\n")
+        print("=== Rebrickable Data Updater ===\n")
 
         ensure_data_dir()
-        download_zip()
-        sets_data = extract_and_convert()
-        save_json(sets_data)
-        cleanup()
 
-        print(f"\n✓ Success! JSON file created with {len(sets_data)} sets")
+        total_records = 0
+        for dataset_name, config in DATASETS.items():
+            count = process_dataset(dataset_name, config)
+            total_records += count
+
+        print(f"\n✓ Success! Processed {total_records} total records across {len(DATASETS)} datasets")
 
     except Exception as e:
         print(f"\n✗ Error: {e}")
-        cleanup()
         raise
 
 

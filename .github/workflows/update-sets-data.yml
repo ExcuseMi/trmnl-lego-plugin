@@ -33,4 +33,4 @@ jobs:
         with:
           commit_message: "🧱 Update Rebrickable sets data [automated]"
           commit_author: "GitHub Actions <actions@github.com>"
-          file_pattern: "data/sets.json"
+          file_pattern: "data/sets.json data/sets.csv data/minifigs.json data/minifigs.csv"
