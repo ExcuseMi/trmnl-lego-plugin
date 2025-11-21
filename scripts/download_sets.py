@@ -77,7 +77,7 @@ def extract_and_convert(temp_zip, dataset_name, sort_key, numeric_fields):
         # Read CSV directly from zip
         with zip_ref.open(csv_filename) as csv_file:
             # Decode bytes to string
-            csv_text = csv_file.read().decode('utf-8')
+            csv_text = csv_file.read().decode("utf-8").replace("\r\n", "\n").replace("\r", "\n")
 
             # Normalize newlines
             csv_text = csv_text.replace("\r\n", "\n").replace("\r", "\n")
