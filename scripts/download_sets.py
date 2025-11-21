@@ -61,47 +61,46 @@ def download_zip(url, temp_file):
 
 
 def extract_and_convert(temp_zip, dataset_name, sort_key, numeric_fields):
-    """Extract CSV from zip and convert to sorted list."""
+    """Extract CSV from zip and convert to sorted list, using '||' as line breaks."""
     print(f"Extracting and processing {dataset_name} CSV...")
 
     with zipfile.ZipFile(temp_zip, 'r') as zip_ref:
-        # Find the CSV file in the zip
         csv_files = [f for f in zip_ref.namelist() if f.endswith('.csv')]
-
         if not csv_files:
             raise FileNotFoundError("No CSV file found in the zip archive")
 
         csv_filename = csv_files[0]
         print(f"✓ Found CSV file: {csv_filename}")
 
-        # Read CSV directly from zip
         with zip_ref.open(csv_filename) as csv_file:
-            # Decode bytes to string
-            csv_text = csv_file.read().decode("utf-8").replace("\r\n", "\n").replace("\r", "\n")
+            # Decode CSV bytes to string
+            csv_text = csv_file.read().decode("utf-8")
 
-            # Normalize newlines
+            # Normalize line endings: treat '||' as line breaks
+            csv_text = csv_text.replace("||", "\n")
+
+            # Also normalize any CRLF just in case
             csv_text = csv_text.replace("\r\n", "\n").replace("\r", "\n")
 
-            # DictReader with preserved line endings
-            csv_reader = csv.DictReader(csv_text.splitlines(keepends=True))
+            # Read CSV
+            csv_reader = csv.DictReader(csv_text.splitlines())
 
             # Convert to list of dictionaries
             data = []
             for row in csv_reader:
-                # Convert numeric fields
                 for field in numeric_fields:
                     if field in row and row[field]:
                         row[field] = int(row[field]) if row[field].isdigit() else None
-
                 data.append(row)
 
-            # Sort by the sort_key using natural sorting
+            # Sort by year then natural sort key
             data.sort(
                 key=lambda x: (
                     x.get("year") if isinstance(x.get("year"), int) else float("inf"),
                     natural_sort_key(x.get(sort_key, ""))
                 )
             )
+
             print(f"✓ Converted and sorted {len(data)} {dataset_name}")
 
     return data, csv_reader.fieldnames
@@ -115,13 +114,15 @@ def save_json(data, filename):
     print(f"✓ Saved JSON to {output_file}")
 
 
-def save_csv(data, fieldnames, filename):
+def save_txt(data, fieldnames, filename):
+    """Save data to a TXT file with '||' as line endings."""
     output_file = DATA_DIR / filename
     with open(output_file, "w", encoding="utf-8", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames, lineterminator="\n")
+        writer = csv.DictWriter(f, fieldnames=fieldnames, lineterminator="||")
         writer.writeheader()
         writer.writerows(data)
-    print(f"✓ Saved CSV to {output_file}")
+    print(f"✓ Saved TXT to {output_file}")
+
 def cleanup(temp_file):
     """Remove temporary zip file."""
     if temp_file.exists():
@@ -144,7 +145,7 @@ def process_dataset(dataset_name, config):
             config['numeric_fields']
         )
         save_json(data, f"{dataset_name}.json")
-        save_csv(data, fieldnames, f"{dataset_name}.csv")
+        save_txt(data, fieldnames, f"{dataset_name}.txt")
         cleanup(temp_zip)
 
         return len(data)
