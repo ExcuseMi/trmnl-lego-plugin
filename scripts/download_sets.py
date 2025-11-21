@@ -78,7 +78,12 @@ def extract_and_convert(temp_zip, dataset_name, sort_key, numeric_fields):
         with zip_ref.open(csv_filename) as csv_file:
             # Decode bytes to string
             csv_text = csv_file.read().decode('utf-8')
-            csv_reader = csv.DictReader(csv_text.splitlines())
+
+            # Normalize newlines
+            csv_text = csv_text.replace("\r\n", "\n").replace("\r", "\n")
+
+            # DictReader with preserved line endings
+            csv_reader = csv.DictReader(csv_text.splitlines(keepends=True))
 
             # Convert to list of dictionaries
             data = []
@@ -111,15 +116,12 @@ def save_json(data, filename):
 
 
 def save_csv(data, fieldnames, filename):
-    """Save data to CSV file."""
     output_file = DATA_DIR / filename
-    with open(output_file, 'w', encoding='utf-8', newline='') as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
+    with open(output_file, "w", encoding="utf-8", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames, lineterminator="\n")
         writer.writeheader()
         writer.writerows(data)
     print(f"✓ Saved CSV to {output_file}")
-
-
 def cleanup(temp_file):
     """Remove temporary zip file."""
     if temp_file.exists():
