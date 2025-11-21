@@ -1,0 +1,36 @@
+name: Update Rebrickable Sets Data
+
+permissions:
+  contents: write
+
+on:
+  workflow_dispatch:  # Allows manual triggering
+  schedule:
+    - cron: '0 0 * * *'  # Runs daily at midnight UTC
+  push:
+    branches: [ main ]
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0   # ensures we get current main
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Run download script
+        run: python scripts/download_sets.py
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: "🧱 Update Rebrickable sets data [automated]"
+          commit_author: "GitHub Actions <actions@github.com>"
+          file_pattern: "data/sets.json"
