@@ -122,6 +122,7 @@ async def check_image(session, row, cache):
             return row
         return None
     try:
+        print(f"Checking: {url}")
         async with session.head(url, timeout=5) as resp:
             valid = resp.status == 200
             cache[url] = valid
