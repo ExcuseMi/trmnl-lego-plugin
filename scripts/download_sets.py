@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 """
 Download and convert Rebrickable data from CSV to JSON and TXT,
-including themes and parent themes, preserving old sets with images,
-sorting properly, assigning fallback images for missing entries,
-filtering to actual LEGO sets and valid minifigs,
-and validating image URLs asynchronously with caching.
+filtering out unwanted themes, sets with only 1 part or missing images,
+and non-actual minifigs (weapons, accessories, supplement packs),
+while preserving async image validation and natural sorting.
 """
 import csv
 import json
@@ -43,11 +42,16 @@ DATA_DIR = PROJECT_ROOT / "data"
 
 FIELDS_ORDER = ["set_num", "name", "year", "num_parts", "image", "theme", "parent_theme"]
 
-FALLBACK_IMAGE = "https://raw.githubusercontent.com/ExcuseMi/trmnl-lego-plugin/main/images/placeholder.png"
-IMAGE_CACHE_FILE = DATA_DIR / "image_cache.json"
-
 # Keywords to filter out non-actual minifigs
 MINIFIG_EXCLUDE_KEYWORDS = ["Weapon", "Accessory", "Supplement", "Promo", "Set", "Pack"]
+
+# Themes to exclude entirely
+BAD_THEME_NAMES = {
+    "Supplemental", "Promotional", "Designer Sets", "Seasonal",
+    "Minifigures", "Books", "Activity Books", "Non-fiction Books",
+    "SPIKE", "Clikits", "Modulex", "Control Lab", "Soft Bricks",
+    "Service Packs"
+}
 
 # ----------------------------
 # Logging setup
@@ -143,9 +147,9 @@ async def check_image(session, url, semaphore):
             return url, False
 
 async def validate_images(data):
-    # Load cache
-    if IMAGE_CACHE_FILE.exists():
-        with open(IMAGE_CACHE_FILE, 'r') as f:
+    cache_file = DATA_DIR / "image_cache.json"
+    if cache_file.exists():
+        with open(cache_file, 'r') as f:
             cache = json.load(f)
     else:
         cache = {}
@@ -161,15 +165,11 @@ async def validate_images(data):
             cache[url] = valid
             logging.info(f"{url} => {'OK' if valid else 'FAILED'}")
 
-    # Filter rows with invalid or missing images
-    filtered_data = []
-    for row in data:
-        img_url = row.get("image") or FALLBACK_IMAGE
-        row["image"] = img_url if cache.get(img_url, True) else FALLBACK_IMAGE
-        filtered_data.append(row)
+    # Filter rows with missing or invalid images
+    filtered_data = [row for row in data if row.get("image") and cache.get(row["image"], False)]
 
     # Save cache
-    with open(IMAGE_CACHE_FILE, 'w') as f:
+    with open(cache_file, 'w') as f:
         json.dump(cache, f, indent=2)
 
     logging.info(f"Image validation complete. {len(filtered_data)}/{len(data)} rows retained.")
@@ -183,7 +183,7 @@ def main():
         logging.info("=== Rebrickable Data Updater ===")
         ensure_data_dir()
 
-        # Step 1: Load themes
+        # Load themes
         temp_zip = PROJECT_ROOT / "temp_themes.zip"
         download_zip(DATASETS["themes"]["url"], temp_zip)
         themes_data, _ = extract_and_convert(temp_zip, "themes", "id", DATASETS["themes"]["numeric_fields"])
@@ -192,25 +192,7 @@ def main():
         parent_lookup = {t["id"]: themes_lookup.get(t.get("parent_id"), "") for t in themes_data if t.get("parent_id")}
         logging.info(f"Loaded {len(themes_lookup)} themes")
 
-        # Step 1a: Determine REAL_SET_THEME_IDS
-        REAL_SET_THEME_IDS = set()
-        set_theme_names = {
-            "Technic", "City", "Star Wars", "Creator", "Creator Expert", "Modular Buildings",
-            "Ninjago", "Friends", "Architecture", "Harry Potter", "Mindstorms",
-            "Ideas", "Speed Champions", "Pirates", "Classic Space", "Castle", "Trains",
-            "Super Mario", "DOTS", "Minecraft", "Disney Princess", "Marvel Super Heroes",
-            "DC Comics Super Heroes", "LEGO Art", "UCS", "Disney 100"
-        }
-        for t in themes_data:
-            if t["name"] in set_theme_names:
-                REAL_SET_THEME_IDS.add(t["id"])
-                # Include children themes
-                for child in themes_data:
-                    if child.get("parent_id") == t["id"]:
-                        REAL_SET_THEME_IDS.add(child["id"])
-        logging.info(f"Filtered to {len(REAL_SET_THEME_IDS)} themes considered 'actual sets'")
-
-        # Step 2: Process sets and minifigs
+        # Process sets and minifigs
         for dataset_name in ("sets", "minifigs"):
             config = DATASETS[dataset_name]
             temp_zip = PROJECT_ROOT / f"temp_{dataset_name}.zip"
@@ -220,18 +202,23 @@ def main():
             data, _ = extract_and_convert(temp_zip, dataset_name, config['sort_key'], config['numeric_fields'])
             cleanup(temp_zip)
 
-            # Filter sets/minifigs
-            if dataset_name == "sets":
-                data = [row for row in data if isinstance(row.get("theme_id"), int) and row["theme_id"] in REAL_SET_THEME_IDS]
-            else:
-                # Minifigs: filter out non-actual minifigs
-                data = [
-                    row for row in data
-                    if not any(kw.lower() in (row.get("name") or "").lower() for kw in MINIFIG_EXCLUDE_KEYWORDS)
-                ]
-
             # Add theme names
             data = add_theme_names(data, themes_lookup, parent_lookup)
+
+            # Filter sets/minifigs
+            if dataset_name == "sets":
+                data = [
+                    row for row in data
+                    if row.get("theme") not in BAD_THEME_NAMES
+                    and row.get("num_parts") and row["num_parts"] > 1
+                    and row.get("img_url")
+                ]
+            else:
+                data = [
+                    row for row in data
+                    if row.get("img_url") and
+                    not any(kw.lower() in (row.get("name") or "").lower() for kw in MINIFIG_EXCLUDE_KEYWORDS)
+                ]
 
             # Normalize for TXT/JSON
             normalized_data = []
@@ -241,7 +228,7 @@ def main():
                     "name": row.get("name", ""),
                     "year": row.get("year", ""),
                     "num_parts": row.get("num_parts", ""),
-                    "image": row.get("img_url", "") or FALLBACK_IMAGE,
+                    "image": row.get("img_url", ""),
                     "theme": row.get("theme", ""),
                     "parent_theme": row.get("parent_theme", "")
                 }
