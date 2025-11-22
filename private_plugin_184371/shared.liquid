@@ -8,15 +8,17 @@ assign sets_count = sets.size
 
 if trmnl.plugin_settings.custom_fields_values.selection_mode == "incremental"
 assign index = incremental_value | modulo: sets_count
+assign item = sets[index]
+
 elsif trmnl.plugin_settings.custom_fields_values.selection_mode == "reverse_incremental"
 assign reverse_index = incremental_value | modulo: sets_count
 assign index = sets_count | minus: reverse_index
-else
-assign index = trmnl.system.timestamp_utc | modulo: sets_count
+assign item = sets[index]
+else 
+  assign item = sets | sample
 endif
 
 # Get selected item
-assign item = sets[index]
 assign item_parts = item | split:'§'
 
 # Map columns to variables
@@ -27,7 +29,6 @@ assign num_parts = item_parts[3] | plus: 0
 assign image = item_parts[4] | default: "https://raw.githubusercontent.com/ExcuseMi/trmnl-lego-plugin/main/images/placeholder.png"
 assign theme = item_parts[5] | default: "" 
 assign parent_theme = item_parts[6] | default: "" 
-
 %}
 <style>
   .main-image {
@@ -39,7 +40,6 @@ assign parent_theme = item_parts[6] | default: ""
     filter: 
         grayscale(100%)       /* Convert to black and white */
         contrast(130%)        /* Boost contrast for clarity */
-        brightness(110%)      /* Slightly brighten to make details pop */
         saturate(0%)          /* Remove remaining color hints */
   }
 
