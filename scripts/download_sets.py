@@ -50,7 +50,7 @@ BAD_THEME_NAMES = {
     "Supplemental", "Promotional", "Designer Sets", "Seasonal",
     "Minifigures", "Books", "Activity Books", "Non-fiction Books",
     "SPIKE", "Clikits", "Modulex", "Control Lab", "Soft Bricks",
-    "Service Packs","Database Sets"
+    "Service Packs","Database Sets","Clocks and Watches","Key Chain"
 }
 
 # ----------------------------
