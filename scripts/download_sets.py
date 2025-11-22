@@ -210,8 +210,9 @@ def main():
                 data = [
                     row for row in data
                     if row.get("theme") not in BAD_THEME_NAMES
-                    and row.get("num_parts") and row["num_parts"] > 1
-                    and row.get("img_url")
+                       and row.get("parent_theme") not in BAD_THEME_NAMES
+                       and row.get("num_parts") and row["num_parts"] > 1
+                       and row.get("img_url")
                 ]
             else:
                 data = [
