@@ -156,7 +156,7 @@ def main():
                 data = add_theme_names(data, themes_lookup, parent_lookup)
 
                 # Filter out entries without images
-                data = [row for row in data if row.get("image")]
+                data = [row for row in data if row.get("img_url")]
 
                 # Normalize rows for consistent TXT output
                 normalized_data = []
@@ -166,7 +166,7 @@ def main():
                         "name": row.get("name", ""),
                         "year": row.get("year", ""),
                         "num_parts": row.get("num_parts", ""),
-                        "image": row.get("image", ""),
+                        "image": row.get("img_url", ""),
                         "theme": row.get("theme", ""),
                         "parent_theme": row.get("parent_theme", "")
                     }
