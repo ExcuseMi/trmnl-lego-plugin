@@ -50,7 +50,7 @@ BAD_THEME_NAMES = {
     "Supplemental", "Promotional", "Designer Sets", "Seasonal",
     "Minifigures", "Books", "Activity Books", "Non-fiction Books",
     "SPIKE", "Clikits", "Modulex", "Control Lab", "Soft Bricks",
-    "Service Packs"
+    "Service Packs","Database Sets"
 }
 
 # ----------------------------
@@ -122,9 +122,9 @@ def save_txt(data, fieldnames, filename):
         writer = csv.DictWriter(
             f,
             fieldnames=fieldnames,
-            lineterminator="||",
-            quotechar='"',
-            quoting=csv.QUOTE_ALL
+            delimiter="|",
+            quoting=csv.QUOTE_NONE,
+            escapechar="\\"
         )
         writer.writeheader()
         writer.writerows(data)
