@@ -98,16 +98,26 @@ def save_json(data, filename):
 
 
 def save_txt(data, fieldnames, filename):
+    """
+    Save data to TXT with consistent quoting and '||' line terminator.
+    Works safely with commas in names or missing fields.
+    """
     out = DATA_DIR / filename
-    # Ensure fieldnames are all strings
     fieldnames = list(fieldnames)
+
     with open(out, "w", encoding="utf-8", newline="") as f:
-        # Use quotechar='"' and quoting=csv.QUOTE_ALL
-        writer = csv.DictWriter(f, fieldnames=fieldnames, lineterminator="||",
-                                quotechar='"', quoting=csv.QUOTE_ALL)
+        writer = csv.DictWriter(
+            f,
+            fieldnames=fieldnames,
+            lineterminator="||",
+            quotechar='"',
+            quoting=csv.QUOTE_ALL  # quote every field
+        )
         writer.writeheader()
         writer.writerows(data)
+
     print(f"✓ Saved TXT to {out}")
+
 
 def cleanup(temp_file: Path):
     if temp_file.exists():
