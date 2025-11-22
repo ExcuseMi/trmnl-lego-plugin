@@ -21,7 +21,7 @@ def load_sets():
 
 
 def extract_themes(sets):
-    """Extract unique themes from sets data and return sorted list"""
+    """Extract unique themes and parent themes from sets data and return sorted lists"""
     themes = set()
     parent_themes = set()
 
@@ -34,10 +34,11 @@ def extract_themes(sets):
         if parent_theme:
             parent_themes.add(parent_theme)
 
-    # Combine and sort all unique themes
-    all_themes = sorted(themes | parent_themes)
+    # Sort themes alphabetically
+    sorted_themes = sorted(themes)
+    sorted_parent_themes = sorted(parent_themes)
 
-    return all_themes, len(themes), len(parent_themes)
+    return sorted_themes, sorted_parent_themes
 
 
 def create_options_yml():
@@ -55,11 +56,13 @@ def create_options_yml():
     print(f"\nLoaded {len(sets)} LEGO sets")
 
     # Extract themes
-    all_themes, theme_count, parent_theme_count = extract_themes(sets)
-    print(f"Found {len(all_themes)} unique themes ({theme_count} themes, {parent_theme_count} parent themes)")
+    themes, parent_themes = extract_themes(sets)
+    print(f"Found {len(themes)} unique themes")
+    print(f"Found {len(parent_themes)} unique parent themes")
 
     # Create theme options for multiselect
-    theme_options = [{theme: theme} for theme in all_themes]
+    theme_options = [{theme: theme} for theme in themes]
+    parent_theme_options = [{parent_theme: parent_theme} for parent_theme in parent_themes]
 
     # Create the custom fields
     custom_fields = []
@@ -71,43 +74,56 @@ def create_options_yml():
         'field_type': 'author_bio',
         'description': f"Display LEGO sets on your TRMNL device with flexible filtering and display options.<br /><br />"
                        f"<strong>Dataset:</strong><br />"
-                       f"● {len(sets)} curated LEGO sets from <a href='https://rebrickable.com/'>Rebrickable.com</a><br />"
+                       f"● {round(len(sets), -3):,}+ curated LEGO sets from <a href='https://rebrickable.com/'>Rebrickable.com</a><br />"
                        f"● Sets are sorted by release year, then by set number<br />"
-                       f"● Non-LEGO items (watches, bags, etc.) and single-piece sets are excluded<br /><br />"
+                       f"● Non-LEGO items (watches, bags, etc.), single-piece sets and sets without valid images are excluded<br /><br />"
                        f"<strong>Display Options:</strong><br />"
                        f"● <strong>Random:</strong> Show a different set each refresh<br />"
                        f"● <strong>Incremental:</strong> Progress through sets chronologically<br />"
                        f"● <strong>Reverse Incremental:</strong> Progress backwards from newest to oldest<br /><br />"
                        f"<strong>Filtering Options:</strong><br />"
                        f"● Filter by release year (min/max)<br />"
-                       f"● Filter by theme ({len(all_themes)} themes available)<br />"
+                       f"● Filter by parent theme ({len(parent_themes)} available) or specific theme ({len(themes)} available)<br />"
                        f"● Combine filters to create your perfect collection",
         'github_url': 'https://github.com/ExcuseMi/trmnl-lego-plugin'
     }
     custom_fields.append(about_field)
 
     # Selection mode field
-    selection_mode_field = {
-        'keyname': 's   election_mode',
-        'name': 'Set Selection Mode',
+    display_order_field = {
+        'keyname': 'display_order',
+        'name': 'Display Order',
         'field_type': 'select',
-        'description': 'Choose how sets should be selected each time the plugin runs.',
+        'description': 'Choose the order in which sets are displayed on your device.',
         'options': [
-            {'Random': 'random'},
-            {'Incremental': 'incremental'},
-            {'Reverse Incremental': 'reverse_incremental'}
+            {'Random (shuffle each refresh)': 'random'},
+            {'Chronological (oldest to newest)': 'incremental'},
+            {'Reverse Chronological (newest to oldest)': 'reverse_incremental'}
         ],
         'default': 'random',
         'optional': True
     }
-    custom_fields.append(selection_mode_field)
+    custom_fields.append(display_order_field)
+
+    # Parent themes multiselect field
+    parent_themes_field = {
+        'keyname': 'parent_themes',
+        'field_type': 'select',
+        'name': f'Filter by Parent Themes ({len(parent_themes)} available)',
+        'description': 'Select one or more parent themes (broad categories like "Star Wars" or "City"). Leave empty to show all parent themes.',
+        'multiple': True,
+        'help_text': 'Use <kbd>⌘</kbd>+<kbd>click</kbd> (Mac) or <kbd>ctrl</kbd>+<kbd>click</kbd> (Windows) to select multiple items. Use <kbd>Shift</kbd>+<kbd>click</kbd> to select a whole range at once.',
+        'options': parent_theme_options,
+        'optional': True
+    }
+    custom_fields.append(parent_themes_field)
 
     # Themes multiselect field
     themes_field = {
         'keyname': 'themes',
         'field_type': 'select',
-        'name': f'Filter by Themes ({len(all_themes)} available)',
-        'description': 'Select one or more themes to filter which sets are displayed. Leave empty to show all themes.',
+        'name': f'Filter by Specific Themes ({len(themes)} available)',
+        'description': 'Select one or more specific themes (sub-categories like "The Mandalorian" or "Police"). Leave empty to show all themes.',
         'multiple': True,
         'help_text': 'Use <kbd>⌘</kbd>+<kbd>click</kbd> (Mac) or <kbd>ctrl</kbd>+<kbd>click</kbd> (Windows) to select multiple items. Use <kbd>Shift</kbd>+<kbd>click</kbd> to select a whole range at once.',
         'options': theme_options,
@@ -159,17 +175,24 @@ def create_options_yml():
     print("SUMMARY")
     print("=" * 60)
     print(f"Total LEGO sets: {len(sets)}")
-    print(f"Total unique themes: {len(all_themes)}")
-    print(f"  - Themes: {theme_count}")
-    print(f"  - Parent themes: {parent_theme_count}")
+    print(f"Total parent themes: {len(parent_themes)}")
+    print(f"Total specific themes: {len(themes)}")
 
-    # Show sample of themes
-    print(f"\nSample themes (first 10):")
-    for i, theme in enumerate(all_themes[:10]):
+    # Show sample of parent themes
+    print(f"\nSample parent themes (first 10):")
+    for i, theme in enumerate(parent_themes[:10]):
         print(f"  {i + 1}. {theme}")
 
-    if len(all_themes) > 10:
-        print(f"  ... and {len(all_themes) - 10} more")
+    if len(parent_themes) > 10:
+        print(f"  ... and {len(parent_themes) - 10} more")
+
+    # Show sample of themes
+    print(f"\nSample specific themes (first 10):")
+    for i, theme in enumerate(themes[:10]):
+        print(f"  {i + 1}. {theme}")
+
+    if len(themes) > 10:
+        print(f"  ... and {len(themes) - 10} more")
 
 
 if __name__ == "__main__":

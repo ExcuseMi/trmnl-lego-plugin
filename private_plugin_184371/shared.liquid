@@ -1,35 +1,106 @@
 {% liquid 
-
+#Using a csv like format to cut on the data
+#This halves it (from 5MB to 2MB)
+#This does make the filtering somewhat harder to code
+#The plugin editor is becoming quite laggy :)
 assign sets = IDX_1.data | split: "||" 
 assign incremental_value = IDX_0.value | plus: 0
-assign sets_count = sets.size
-
-# Determine which item to show based on selection_mode
-
-if trmnl.plugin_settings.custom_fields_values.selection_mode == "incremental"
-assign index = incremental_value | modulo: sets_count
-assign item = sets[index]
-
-elsif trmnl.plugin_settings.custom_fields_values.selection_mode == "reverse_incremental"
-assign reverse_index = incremental_value | modulo: sets_count
-assign index = sets_count | minus: reverse_index
-assign item = sets[index]
-else 
-  assign item = sets | sample
+assign min_year = trmnl.plugin_settings.custom_fields_values.min_year | plus: 0
+assign max_year = trmnl.plugin_settings.custom_fields_values.max_year | plus: 0
+assign display_order = trmnl.plugin_settings.custom_fields_values.display_order | default: "random"
+assign parent_themes = trmnl.plugin_settings.custom_fields_values.parent_themes
+assign themes = trmnl.plugin_settings.custom_fields_values.themes
+# Filter sets by year range and themes if specified
+assign filtered_sets = ""
+assign has_filters = false
+if min_year > 0 or max_year > 0 or parent_themes.size > 0 or themes.size > 0
+  assign has_filters = true
 endif
+if has_filters
+  for set_item in sets
+    assign temp_parts = set_item | split: '§'
+    assign temp_year = temp_parts[2] | plus: 0
+    assign temp_theme = temp_parts[5] | default: ""
+    assign temp_parent_theme = temp_parts[6] | default: ""
+        
+    assign include_set = true
+    
+    # Year filters
+    if min_year > 0 and temp_year < min_year
+      assign include_set = false
+    endif
+    
+    if max_year > 0 and temp_year > max_year
+      assign include_set = false
+    endif
+    
+    # Theme filter - check if either parent_themes OR themes matches (OR logic between the two filters)
+    if include_set and parent_themes.size > 0 or themes.size > 0
+      assign theme_match = false
+      
+      # Check parent themes filter
+      if parent_themes.size > 0
+        for selected_parent_theme in parent_themes
+          if temp_parent_theme == selected_parent_theme or temp_theme == selected_parent_theme
+            assign theme_match = true
+            break
+          endif
+        endfor
+      endif
+      
+      # Check specific themes filter (only if not already matched)
+      if themes.size > 0 and theme_match == false
+        for selected_theme in themes
+          if temp_theme == selected_theme or temp_parent_theme == selected_theme
+            assign theme_match = true
+            break
+          endif
+        endfor
+      endif
+      
+      if theme_match == false
+        assign include_set = false
+      endif
+    endif
+    
+    if include_set
+      if filtered_sets == ""
+        assign filtered_sets = set_item
+      else
+        assign filtered_sets = filtered_sets | append: "||" | append: set_item
+      endif
+    endif
+  endfor
+  
+  assign sets = filtered_sets | split: "||"
+endif
+assign sets_count = sets.size
+# Only proceed if we have sets to display
+if sets_count > 0
+  # Determine which item to show based on display_order
+  if display_order == "incremental"
+    assign index = incremental_value | modulo: sets_count
+  elsif display_order== "reverse_incremental"
+    assign reverse_index = incremental_value | modulo: sets_count
+    assign index = sets_count | minus: reverse_index
+  else 
+    assign index = trmnl.system.timestamp_utc | modulo: sets_count
+  endif
+  assign item = sets[index]
 
-# Get selected item
-assign item_parts = item | split:'§'
-
-# Map columns to variables
-assign set_num = item_parts[0] | default: "" 
-assign name = item_parts[1] | default: "" 
-assign year = item_parts[2] | plus: 0
-assign num_parts = item_parts[3] | plus: 0
-assign image = item_parts[4] | default: "https://raw.githubusercontent.com/ExcuseMi/trmnl-lego-plugin/main/images/placeholder.png"
-assign theme = item_parts[5] | default: "" 
-assign parent_theme = item_parts[6] | default: "" 
+  # Get selected item
+  assign item_parts = item | split: '§'
+  # Map columns to variables
+  assign set_num = item_parts[0] | default: "" 
+  assign name = item_parts[1] | default: "" 
+  assign year = item_parts[2] | plus: 0
+  assign num_parts = item_parts[3] | plus: 0
+  assign image = item_parts[4] | default: "https://raw.githubusercontent.com/ExcuseMi/trmnl-lego-plugin/main/images/placeholder.png"
+  assign theme = item_parts[5] | default: "" 
+  assign parent_theme = item_parts[6] | default: "" 
+endif
 %}
+
 <style>
   .main-image {
     width: 100%;
@@ -39,10 +110,7 @@ assign parent_theme = item_parts[6] | default: ""
     display: block;
     filter: 
         grayscale(100%)       /* Convert to black and white */
-        contrast(130%)        /* Boost contrast for clarity */
-        saturate(0%)          /* Remove remaining color hints */
   }
-
   .brick {
     position: absolute; 
     top: 1px; 
@@ -53,13 +121,31 @@ assign parent_theme = item_parts[6] | default: ""
     border: solid 1px black;
     box-sizing: content-box;
   }
-
 </style>
 
-{% if IDX_1.data %}
+{% if IDX_1.data == blank %}
+<div class="layout layout--stretch layout--center">
+  <div class="title">No Data Available</div>
+  <div class="description">No LEGO sets data found.</div>
+</div>
+{% elsif sets_count == 0 %}
+<div class="layout layout--stretch layout--center">
+  <div class="title">No Sets Match Your Filters</div>
+  <div class="description">
+    No LEGO sets found with your current settings.<br/><br/>
+    Active filters:<br/>
+    {% if min_year > 0 %}Min year: {{ min_year }}<br/>{% endif %}
+    {% if max_year > 0 %}Max year: {{ max_year }}<br/>{% endif %}
+    {% if parent_themes.size > 0 %}Parent themes: {{ parent_themes.size }} selected<br/>{% endif %}
+    {% if themes.size > 0 %}Specific themes: {{ themes.size }} selected<br/>{% endif %}
+    <br/>
+    Adjust your filters to see more sets.
+  </div>
+</div>
+{% else %}
 <div class="layout layout--stretch">
-  <img src="{{image}}" class="image image--dither image-contain main-image" />
-  {% if num_parts >0 %}
+  <img src="{{image}}" class="image image-dither image-contain main-image" />
+  {% if num_parts > 0 %}
   <div class="brick rounded flex flex--row">
     <img class="image w--10" src="https://raw.githubusercontent.com/ExcuseMi/trmnl-lego-plugin/refs/heads/main/images/brick.svg" />
     <div class="value value--small">{{num_parts}}</div>
@@ -67,11 +153,8 @@ assign parent_theme = item_parts[6] | default: ""
   {% endif %}
 </div>
 <div class="title_bar">
+  {% if set_num != ""%}<span class="label label--inverted">{{set_num}}</span>{% endif %}
   <span class="title">{{name}}{% if year and year > 0 %} ({{year}}){% endif %}</span>
-  <span class="instance">{{theme}}</span>
-</div>
-{% else %}
-<div class="layout layout--stretch layout--center">
-  <div class="description">No item found to display.</div>
+  <span class="instance" data-content-limiter="true" >{{theme}}</span>
 </div>
 {% endif %}

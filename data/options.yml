@@ -1,22 +1,76 @@
 - keyname: about
   name: About This Plugin
   field_type: author_bio
-  description: Show LEGO sets in TRMNL in order, reverse order, or randomly.<br />Based on a curated set of 15412 sets from <a href='https://rebrickable.com/'>Rebrickable.com</a>.
+  description: Display LEGO sets on your TRMNL device with flexible filtering and display options.<br /><br /><strong>Dataset:</strong><br />● 15,000+ curated LEGO sets from <a href='https://rebrickable.com/'>Rebrickable.com</a><br />● Sets are sorted by release year, then by set number<br />● Non-LEGO items (watches, bags, etc.), single-piece sets and sets without valid images are excluded<br /><br /><strong>Display Options:</strong><br />● <strong>Random:</strong> Show a different set each refresh<br />● <strong>Incremental:</strong> Progress through sets chronologically<br />● <strong>Reverse Incremental:</strong> Progress backwards from newest to oldest<br /><br /><strong>Filtering Options:</strong><br />● Filter by release year (min/max)<br />● Filter by parent theme (46 available) or specific theme (372 available)<br />● Combine filters to create your perfect collection
   github_url: https://github.com/ExcuseMi/trmnl-lego-plugin
-- keyname: selection_mode
-  name: Set Selection Mode
+- keyname: display_order
+  name: Display Order
   field_type: select
-  description: Choose how sets should be selected each time the plugin runs.
+  description: Choose the order in which sets are displayed on your device.
   options:
-  - Random: random
-  - Incremental: incremental
-  - Reverse Incremental: reverse_incremental
+  - Random (shuffle each refresh): random
+  - Chronological (oldest to newest): incremental
+  - Reverse Chronological (newest to oldest): reverse_incremental
   default: random
+  optional: true
+- keyname: parent_themes
+  field_type: select
+  name: Filter by Parent Themes (46 available)
+  description: Select one or more parent themes (broad categories like "Star Wars" or "City"). Leave empty to show all parent themes.
+  multiple: true
+  help_text: Use <kbd>⌘</kbd>+<kbd>click</kbd> (Mac) or <kbd>ctrl</kbd>+<kbd>click</kbd> (Windows) to select multiple items. Use <kbd>Shift</kbd>+<kbd>click</kbd> to select a whole range at once.
+  options:
+  - 4 Juniors: 4 Juniors
+  - Advent: Advent
+  - Adventurers: Adventurers
+  - Agents: Agents
+  - Alpha Team: Alpha Team
+  - Aquazone: Aquazone
+  - Architecture: Architecture
+  - Batman: Batman
+  - Bionicle: Bionicle
+  - Castle: Castle
+  - Christmas: Christmas
+  - City: City
+  - Collectible Minifigures: Collectible Minifigures
+  - Creator: Creator
+  - Disney: Disney
+  - Duplo: Duplo
+  - Educational and Dacta: Educational and Dacta
+  - Gear: Gear
+  - Harry Potter: Harry Potter
+  - Hero Factory: Hero Factory
+  - Juniors: Juniors
+  - LEGO Brand Store: LEGO Brand Store
+  - Legends of Chima: Legends of Chima
+  - Legoland: Legoland
+  - Make & Create: Make & Create
+  - Mindstorms: Mindstorms
+  - Modular Buildings: Modular Buildings
+  - Ninjago: Ninjago
+  - Pirates: Pirates
+  - Power Functions: Power Functions
+  - Racers: Racers
+  - Sculptures: Sculptures
+  - Space: Space
+  - Spider-Man: Spider-Man
+  - Sports: Sports
+  - Star Wars: Star Wars
+  - Studios: Studios
+  - Super Heroes DC: Super Heroes DC
+  - Super Heroes Marvel: Super Heroes Marvel
+  - System: System
+  - Technic: Technic
+  - The Hobbit and Lord of the Rings: The Hobbit and Lord of the Rings
+  - The LEGO Movie: The LEGO Movie
+  - Town: Town
+  - Train: Train
+  - Universal Building Set: Universal Building Set
   optional: true
 - keyname: themes
   field_type: select
-  name: Filter by Themes (377 available)
-  description: Select one or more themes to filter which sets are displayed. Leave empty to show all themes.
+  name: Filter by Specific Themes (372 available)
+  description: Select one or more specific themes (sub-categories like "The Mandalorian" or "Police"). Leave empty to show all themes.
   multiple: true
   help_text: Use <kbd>⌘</kbd>+<kbd>click</kbd> (Mac) or <kbd>ctrl</kbd>+<kbd>click</kbd> (Windows) to select multiple items. Use <kbd>Shift</kbd>+<kbd>click</kbd> to select a whole range at once.
   options:
@@ -25,8 +79,6 @@
   - 4.5V: 4.5V
   - 9V: 9V
   - Action Wheelers: Action Wheelers
-  - Advent: Advent
-  - Adventurers: Adventurers
   - Agents: Agents
   - Airport: Airport
   - Alien Conquest: Alien Conquest
@@ -72,7 +124,6 @@
   - Cars: Cars
   - Castle: Castle
   - Chinese Traditional Festivals: Chinese Traditional Festivals
-  - Christmas: Christmas
   - Cities of Wonders: Cities of Wonders
   - City: City
   - City Center: City Center
@@ -197,7 +248,6 @@
   - Launch Command: Launch Command
   - Learning: Learning
   - Legends of Chima: Legends of Chima
-  - Legoland: Legoland
   - Legoland Parks: Legoland Parks
   - Legoville: Legoville
   - Life On Mars: Life On Mars
@@ -343,7 +393,6 @@
   - Technic: Technic
   - Teenage Mutant Ninja Turtles: Teenage Mutant Ninja Turtles
   - The Hobbit: The Hobbit
-  - The Hobbit and Lord of the Rings: The Hobbit and Lord of the Rings
   - The Infinity Saga: The Infinity Saga
   - The LEGO Batman Movie: The LEGO Batman Movie
   - The LEGO Batman Movie Series 1: The LEGO Batman Movie Series 1
