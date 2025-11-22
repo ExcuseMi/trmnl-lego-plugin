@@ -211,7 +211,25 @@ def main():
                     fields.append("parent_theme")
 
                 save_json(data, f"{dataset_name}.json")
-                save_txt(data, fields, f"{dataset_name}.txt")
+                # Desired field order
+                fields_order = ["id", "name", "year", "num_parts", "image", "theme", "parent_theme"]
+
+                # Map existing data to match fields_order
+                normalized_data = []
+                for row in data:
+                    normalized_row = {
+                        "id": row.get("set_num") or row.get("fig_num") or "",
+                        "name": row.get("name", ""),
+                        "year": row.get("year", ""),
+                        "num_parts": row.get("num_parts", ""),
+                        "image": row.get("image", ""),
+                        "theme": row.get("theme", ""),
+                        "parent_theme": row.get("parent_theme", "")
+                    }
+                    normalized_data.append(normalized_row)
+
+                # Save TXT
+                save_txt(normalized_data, fields_order, f"{dataset_name}.txt")
 
             except Exception as e:
                 print(f"✗ Error processing {dataset_name}: {e}")
