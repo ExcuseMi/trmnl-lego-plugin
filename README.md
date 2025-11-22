@@ -1,1 +1,5 @@
-# trmnl-lego-plugin
+# tmrnl-lego-sets-plugin
+
+<!-- PLUGIN_STATS_START -->
+
+<!-- PLUGIN_STATS_END -->
