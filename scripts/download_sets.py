@@ -3,6 +3,7 @@
 Download and convert Rebrickable data from CSV to JSON and TXT,
 including themes and parent themes, preserving old sets with images,
 sorting properly, assigning fallback images for missing entries,
+filtering to actual LEGO sets and valid minifigs,
 and validating image URLs asynchronously with caching.
 """
 import csv
@@ -44,6 +45,9 @@ FIELDS_ORDER = ["set_num", "name", "year", "num_parts", "image", "theme", "paren
 
 FALLBACK_IMAGE = "https://raw.githubusercontent.com/ExcuseMi/trmnl-lego-plugin/main/images/placeholder.png"
 IMAGE_CACHE_FILE = DATA_DIR / "image_cache.json"
+
+# Keywords to filter out non-actual minifigs
+MINIFIG_EXCLUDE_KEYWORDS = ["Weapon", "Accessory", "Supplement", "Promo", "Set", "Pack"]
 
 # ----------------------------
 # Logging setup
@@ -146,10 +150,10 @@ async def validate_images(data):
     else:
         cache = {}
 
-    urls_to_check = [row["image"] for row in data if row["image"] not in cache]
+    urls_to_check = [row["image"] for row in data if row["image"] and row["image"] not in cache]
     logging.info(f"Checking {len(urls_to_check)} new images...")
 
-    semaphore = asyncio.Semaphore(20)  # Limit concurrent requests
+    semaphore = asyncio.Semaphore(20)
     async with aiohttp.ClientSession() as session:
         tasks = [check_image(session, url, semaphore) for url in urls_to_check]
         for coro in asyncio.as_completed(tasks):
@@ -157,14 +161,18 @@ async def validate_images(data):
             cache[url] = valid
             logging.info(f"{url} => {'OK' if valid else 'FAILED'}")
 
-    # Filter out rows with invalid or missing images
-    filtered_data = [row for row in data if cache.get(row["image"], False)]
+    # Filter rows with invalid or missing images
+    filtered_data = []
+    for row in data:
+        img_url = row.get("image") or FALLBACK_IMAGE
+        row["image"] = img_url if cache.get(img_url, True) else FALLBACK_IMAGE
+        filtered_data.append(row)
 
     # Save cache
     with open(IMAGE_CACHE_FILE, 'w') as f:
         json.dump(cache, f, indent=2)
 
-    logging.info(f"Image validation complete. {len(filtered_data)}/{len(data)} rows remaining.")
+    logging.info(f"Image validation complete. {len(filtered_data)}/{len(data)} rows retained.")
     return filtered_data
 
 # ----------------------------
@@ -184,6 +192,24 @@ def main():
         parent_lookup = {t["id"]: themes_lookup.get(t.get("parent_id"), "") for t in themes_data if t.get("parent_id")}
         logging.info(f"Loaded {len(themes_lookup)} themes")
 
+        # Step 1a: Determine REAL_SET_THEME_IDS
+        REAL_SET_THEME_IDS = set()
+        set_theme_names = {
+            "Technic", "City", "Star Wars", "Creator", "Creator Expert", "Modular Buildings",
+            "Ninjago", "Friends", "Architecture", "Harry Potter", "Mindstorms",
+            "Ideas", "Speed Champions", "Pirates", "Classic Space", "Castle", "Trains",
+            "Super Mario", "DOTS", "Minecraft", "Disney Princess", "Marvel Super Heroes",
+            "DC Comics Super Heroes", "LEGO Art", "UCS", "Disney 100"
+        }
+        for t in themes_data:
+            if t["name"] in set_theme_names:
+                REAL_SET_THEME_IDS.add(t["id"])
+                # Include children themes
+                for child in themes_data:
+                    if child.get("parent_id") == t["id"]:
+                        REAL_SET_THEME_IDS.add(child["id"])
+        logging.info(f"Filtered to {len(REAL_SET_THEME_IDS)} themes considered 'actual sets'")
+
         # Step 2: Process sets and minifigs
         for dataset_name in ("sets", "minifigs"):
             config = DATASETS[dataset_name]
@@ -193,6 +219,16 @@ def main():
             download_zip(config['url'], temp_zip)
             data, _ = extract_and_convert(temp_zip, dataset_name, config['sort_key'], config['numeric_fields'])
             cleanup(temp_zip)
+
+            # Filter sets/minifigs
+            if dataset_name == "sets":
+                data = [row for row in data if isinstance(row.get("theme_id"), int) and row["theme_id"] in REAL_SET_THEME_IDS]
+            else:
+                # Minifigs: filter out non-actual minifigs
+                data = [
+                    row for row in data
+                    if not any(kw.lower() in (row.get("name") or "").lower() for kw in MINIFIG_EXCLUDE_KEYWORDS)
+                ]
 
             # Add theme names
             data = add_theme_names(data, themes_lookup, parent_lookup)
@@ -205,13 +241,13 @@ def main():
                     "name": row.get("name", ""),
                     "year": row.get("year", ""),
                     "num_parts": row.get("num_parts", ""),
-                    "image": row.get("img_url", ""),
+                    "image": row.get("img_url", "") or FALLBACK_IMAGE,
                     "theme": row.get("theme", ""),
                     "parent_theme": row.get("parent_theme", "")
                 }
                 normalized_data.append(normalized_row)
 
-            # Sort sets by year then natural set_num
+            # Sort
             sort_key = "set_num" if dataset_name == "sets" else "fig_num"
             year_key = "year" if dataset_name == "sets" else None
             normalized_data.sort(key=lambda x: (
@@ -222,7 +258,7 @@ def main():
             # Async image validation
             normalized_data = asyncio.run(validate_images(normalized_data))
 
-            logging.info(f"{dataset_name}: {len(normalized_data)} rows after validation")
+            logging.info(f"{dataset_name}: {len(normalized_data)} rows after filtering and validation")
 
             save_json(normalized_data, f"{dataset_name}.json")
             save_txt(normalized_data, FIELDS_ORDER, f"{dataset_name}.txt")
