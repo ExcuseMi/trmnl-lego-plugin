@@ -1,0 +1,33 @@
+---
+strategy: polling
+no_screen_padding: 'no'
+dark_mode: 'no'
+static_data: ''
+polling_verb: get
+polling_url: "{% if item_type %}\r\n  {% assign random_index = \"now\" | date: \"%s\" | modulo:  item_type.size %}\r\n  {% assign selected_item_type = item_type[random_index] %}\r\n{% else %}\r\n  {% assign selected_item_type = \"sets\" %}\r\n{% endif %}\r\n{% if selection_mode == \"random\" %}\r\nhttps://usetrmnl.com/custom_plugin_example_data.json\r\n{% else %}\r\nhttps://abacus.jasoncameron.dev/hit/trmnl-lego-sets-plugin/{{selected_item_type}}-{{trmnl.user.id}}\r\n{% endif %}\r\n\r\nhttps://raw.githubusercontent.com/ExcuseMi/trmnl-lego-plugin/refs/heads/main/data/{{selected_item_type}}.txt"
+polling_headers: ''
+polling_body: ''
+id: 184371
+custom_fields:
+- keyname: item_type
+  name: Item Type
+  field_type: select
+  description: Choose whether the plugin should display LEGO Sets or Minifigs.
+  options:
+  - Sets
+  - Minifigs
+  default: sets,minifigs
+  multiple: true
+  help_text: Use <kbd>⌘</kbd>+<kbd>click</kbd> (Mac) or <kbd>ctrl</kbd>+<kbd>click</kbd> (Windows) to select multiple items. Use <kbd>Shift</kbd>+<kbd>click</kbd> to select a whole range at once.
+- keyname: selection_mode
+  name: Set Selection Mode
+  field_type: select
+  description: Choose how sets should be selected each time the plugin runs.
+  options:
+  - Random
+  - Incremental
+  - Reverse Incremental
+  default: Random
+  optional: true
+name: Lego Sets & Minifigs
+refresh_interval: 15

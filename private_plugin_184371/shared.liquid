@@ -1,0 +1,74 @@
+{% liquid 
+
+assign sets = IDX_1.data | split: "||" 
+assign incremental_value = IDX_0.value | plus: 0
+assign sets_count = sets.size
+
+# Determine which item to show based on selection_mode
+
+if trmnl.plugin_settings.custom_fields_values.selection_mode == "incremental"
+assign index = incremental_value | modulo: sets_count | plus: 1
+elsif trmnl.plugin_settings.custom_fields_values.selection_mode == "reverse_incremental"
+assign reverse_index = incremental_value | modulo: sets_count
+assign index = sets_count | minus: reverse_index
+else
+assign index = trmnl.system.timestamp_utc | modulo: sets_count | plus: 1
+endif
+
+# Get selected item
+assign item = sets[index]
+assign item_parts = item | remove_first:'"' | remove_last:'"' | split:'","' 
+
+# Map columns to variables
+assign set_num = item_parts[0] | default: "" 
+assign name = item_parts[1] | default: "" 
+assign year = item_parts[2] | plus: 0
+assign num_parts = item_parts[3] | plus: 0
+assign image = item_parts[4] | default: "https://raw.githubusercontent.com/ExcuseMi/trmnl-lego-plugin/main/images/placeholder.png"
+assign theme = item_parts[5] | default: "" 
+assign parent_theme = item_parts[6] | default: "" 
+
+%}
+<style>
+  .grayscale { filter: grayscale(100%); -webkit-filter: grayscale(100%); }
+
+  .main-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* never crop, scale proportionally */
+    object-position: center;
+    display: block;
+  }
+
+  .brick {
+    position: absolute; 
+    top: 1px; 
+    right: 1px; 
+    z-index: 100;
+    background-color: white;
+    padding: 5px;
+    border: solid 1px black;
+    box-sizing: content-box;
+  }
+
+</style>
+
+{% if IDX_1.data %}
+<div class="layout layout--stretch grayscale">
+  <img src="{{image}}" class="image image--dither image-contain main-image" />
+  {% if num_parts >0 %}
+  <div class="brick rounded flex flex--row">
+    <img class="image w--10" src="https://raw.githubusercontent.com/ExcuseMi/trmnl-lego-plugin/refs/heads/main/images/brick.svg" />
+    <div class="value value--small">{{num_parts}}</div>
+  </div>
+  {% endif %}
+</div>
+<div class="title_bar">
+  <span class="title">{{name}}{% if year and year > 0 %} ({{year}}){% endif %}</span>
+  <span class="instance">{{theme}}</span>
+</div>
+{% else %}
+<div class="layout layout--stretch layout--center">
+  <div class="description">No item found to display.</div>
+</div>
+{% endif %}
