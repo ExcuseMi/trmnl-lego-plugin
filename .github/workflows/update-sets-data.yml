@@ -18,12 +18,17 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v5
         with:
-          fetch-depth: 0   # ensures we get current main
+          fetch-depth: 0   # ensures we get full history
 
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install aiohttp
 
       - name: Run download script
         run: python scripts/download_sets.py
@@ -33,4 +38,9 @@ jobs:
         with:
           commit_message: "🧱 Update Rebrickable sets data [automated]"
           commit_author: "GitHub Actions <actions@github.com>"
-          file_pattern: "data/sets.json data/sets.txt data/minifigs.json data/minifigs.txt"
+          file_pattern: |
+            data/sets.json
+            data/sets.txt
+            data/minifigs.json
+            data/minifigs.txt
+            data/img_url_cache.json
