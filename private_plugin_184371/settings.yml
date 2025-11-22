@@ -9,6 +9,11 @@ polling_headers: ''
 polling_body: ''
 id: 184371
 custom_fields:
+- keyname: about
+  name: About This Plugin
+  field_type: author_bio
+  description: Show LEGO sets in TRMNL in order, reverse order, or randomly.<br />Based on a curated set from <a href='https://rebrickable.com/'>Rebrickable.com</a>.
+  github_url: https://github.com/ExcuseMi/trmnl-lego-plugin
 - keyname: selection_mode
   name: Set Selection Mode
   field_type: select
