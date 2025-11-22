@@ -211,24 +211,22 @@ def main():
                     fields.append("parent_theme")
 
                 save_json(data, f"{dataset_name}.json")
-                # Desired field order
-                fields_order = ["id", "name", "year", "num_parts", "image", "theme", "parent_theme"]
+                # Desired field order for all datasets
+                fields_order = ["set_num", "name", "year", "num_parts", "image", "theme", "parent_theme"]
 
-                # Map existing data to match fields_order
                 normalized_data = []
                 for row in data:
                     normalized_row = {
-                        "id": row.get("set_num") or row.get("fig_num") or "",
+                        "set_num": row.get("set_num") or row.get("fig_num") or "",
                         "name": row.get("name", ""),
                         "year": row.get("year", ""),
-                        "num_parts": row.get("num_parts", ""),
+                        "num_parts": row.get("num_parts", ""),  # already integer from extract_and_convert
                         "image": row.get("image", ""),
-                        "theme": row.get("theme", ""),
-                        "parent_theme": row.get("parent_theme", "")
+                        "theme": row.get("theme", ""),  # added by add_theme_names
+                        "parent_theme": row.get("parent_theme", "")  # added by add_theme_names
                     }
                     normalized_data.append(normalized_row)
 
-                # Save TXT
                 save_txt(normalized_data, fields_order, f"{dataset_name}.txt")
 
             except Exception as e:
