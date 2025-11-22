@@ -1,4 +1,3 @@
-set_num|name|year|num_parts|image|theme|parent_theme
 700.1-1|Extra-Large Gift Set (ABB)|1949|142|https://cdn.rebrickable.com/media/sets/700.1-1.jpg|System|
 700.2-1|Large Gift Set (ABB)|1949|178|https://cdn.rebrickable.com/media/sets/700.2-1.jpg|System|
 700.3-1|Medium Gift Set (ABB)|1949|126|https://cdn.rebrickable.com/media/sets/700.3-1.jpg|System|

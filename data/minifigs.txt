@@ -1,4 +1,3 @@
-set_num|name|year|num_parts|image|theme|parent_theme
 fig-000001|Toy Store Employee||4|https://cdn.rebrickable.com/media/sets/fig-000001.jpg||
 fig-000002|Customer Kid||4|https://cdn.rebrickable.com/media/sets/fig-000002.jpg||
 fig-000003|Assassin Droid, White||8|https://cdn.rebrickable.com/media/sets/fig-000003.jpg||

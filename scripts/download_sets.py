@@ -126,8 +126,9 @@ def save_txt(data, fieldnames, filename):
             quoting=csv.QUOTE_NONE,
             escapechar="\\"
         )
-        writer.writeheader()
-        writer.writerows(data)
+        # Skip writing the header
+        for row in data:
+            writer.writerow(row)
     logging.info(f"Saved TXT to {out}")
 
 def cleanup(temp_file):
