@@ -118,18 +118,13 @@ def save_json(data, filename):
 
 def save_txt(data, fieldnames, filename):
     out = DATA_DIR / filename
-    with open(out, "w", encoding="utf-8", newline="") as f:
-        writer = csv.DictWriter(
-            f,
-            fieldnames=fieldnames,
-            delimiter="|",
-            quoting=csv.QUOTE_NONE,
-            escapechar="\\"
-        )
-        # Skip writing the header
+    with open(out, "w", encoding="utf-8") as f:
         for row in data:
-            writer.writerow(row)
+            # Join fields with pipe | and write with || as row separator
+            line = "§".join(str(row[field]) for field in FIELDS_ORDER)
+            f.write(line + "||")
     logging.info(f"Saved TXT to {out}")
+
 
 def cleanup(temp_file):
     if temp_file.exists():
