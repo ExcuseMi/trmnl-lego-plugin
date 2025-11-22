@@ -99,14 +99,15 @@ def save_json(data, filename):
 
 def save_txt(data, fieldnames, filename):
     out = DATA_DIR / filename
-    # Ensure fieldnames are all strings and in a deterministic order
+    # Ensure fieldnames are all strings
     fieldnames = list(fieldnames)
     with open(out, "w", encoding="utf-8", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames, lineterminator="||")
+        # Use quotechar='"' and quoting=csv.QUOTE_ALL
+        writer = csv.DictWriter(f, fieldnames=fieldnames, lineterminator="||",
+                                quotechar='"', quoting=csv.QUOTE_ALL)
         writer.writeheader()
         writer.writerows(data)
     print(f"✓ Saved TXT to {out}")
-
 
 def cleanup(temp_file: Path):
     if temp_file.exists():
