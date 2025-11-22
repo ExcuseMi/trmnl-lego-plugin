@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
-Download and convert Rebrickable data from CSV to JSON and CSV.
+Download and convert Rebrickable data from CSV to JSON and CSV,
+including themes, and attach theme names to sets and minifigs.
 """
 import json
 import csv
@@ -12,6 +13,11 @@ from urllib.request import urlretrieve
 
 # Configuration
 DATASETS = {
+    'themes': {
+        'url': 'https://cdn.rebrickable.com/media/downloads/themes.csv.zip',
+        'sort_key': 'id',
+        'numeric_fields': ['id', 'parent_id']
+    },
     'sets': {
         'url': 'https://cdn.rebrickable.com/media/downloads/sets.csv.zip',
         'sort_key': 'set_num',
@@ -20,7 +26,7 @@ DATASETS = {
     'minifigs': {
         'url': 'https://cdn.rebrickable.com/media/downloads/minifigs.csv.zip',
         'sort_key': 'fig_num',
-        'numeric_fields': ['num_parts']
+        'numeric_fields': ['num_parts', 'num_minifigs', 'theme_id']  # theme_id added
     }
 }
 
@@ -30,62 +36,40 @@ DATA_DIR = PROJECT_ROOT / "data"
 
 
 def natural_sort_key(value):
-    """
-    Create a sort key that handles LEGO set numbers naturally.
-    Always return consistent tuple structure to avoid mixed-type comparison.
-    Example keys: "001-1", "10-1", "100-A1"
-    """
-
+    """Natural sorting for LEGO set/fig numbers."""
     def convert(text):
-        if text.isdigit():
-            # Numeric portion: tuple (0, number)
-            return (0, int(text))
-        # Text portion: tuple (1, lowercase-string)
-        return (1, text.lower())
-
+        return (0, int(text)) if text.isdigit() else (1, text.lower())
     parts = re.split(r'(\d+)', str(value))
-    return [convert(part) for part in parts if part]
+    return [convert(p) for p in parts if p]
 
 
 def ensure_data_dir():
-    """Create data directory if it doesn't exist."""
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     print(f"✓ Data directory ready: {DATA_DIR}")
 
 
 def download_zip(url, temp_file):
-    """Download the CSV zip file."""
     print(f"Downloading from {url}...")
     urlretrieve(url, temp_file)
     print(f"✓ Downloaded to {temp_file}")
 
 
 def extract_and_convert(temp_zip, dataset_name, sort_key, numeric_fields):
-    """Extract CSV from zip and convert to sorted list, using '||' as line breaks."""
+    """Extract CSV, normalize `||` line breaks, convert rows, sort."""
     print(f"Extracting and processing {dataset_name} CSV...")
 
     with zipfile.ZipFile(temp_zip, 'r') as zip_ref:
         csv_files = [f for f in zip_ref.namelist() if f.endswith('.csv')]
         if not csv_files:
-            raise FileNotFoundError("No CSV file found in the zip archive")
-
+            raise FileNotFoundError("No CSV found in ZIP")
         csv_filename = csv_files[0]
         print(f"✓ Found CSV file: {csv_filename}")
 
         with zip_ref.open(csv_filename) as csv_file:
-            # Decode CSV bytes to string
             csv_text = csv_file.read().decode("utf-8")
+            csv_text = csv_text.replace("||", "\n").replace("\r\n", "\n").replace("\r", "\n")
 
-            # Normalize line endings: treat '||' as line breaks
-            csv_text = csv_text.replace("||", "\n")
-
-            # Also normalize any CRLF just in case
-            csv_text = csv_text.replace("\r\n", "\n").replace("\r", "\n")
-
-            # Read CSV
             csv_reader = csv.DictReader(csv_text.splitlines())
-
-            # Convert to list of dictionaries
             data = []
             for row in csv_reader:
                 for field in numeric_fields:
@@ -93,13 +77,10 @@ def extract_and_convert(temp_zip, dataset_name, sort_key, numeric_fields):
                         row[field] = int(row[field]) if row[field].isdigit() else None
                 data.append(row)
 
-            # Sort by year then natural sort key
-            data.sort(
-                key=lambda x: (
-                    x.get("year") if isinstance(x.get("year"), int) else float("inf"),
-                    natural_sort_key(x.get(sort_key, ""))
-                )
-            )
+            data.sort(key=lambda x: (
+                x.get("year") if isinstance(x.get("year"), int) else float("inf"),
+                natural_sort_key(x.get(sort_key, ""))
+            ))
 
             print(f"✓ Converted and sorted {len(data)} {dataset_name}")
 
@@ -107,68 +88,73 @@ def extract_and_convert(temp_zip, dataset_name, sort_key, numeric_fields):
 
 
 def save_json(data, filename):
-    """Save data to JSON file."""
-    output_file = DATA_DIR / filename
-    with open(output_file, 'w', encoding='utf-8') as f:
+    out = DATA_DIR / filename
+    with open(out, 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
-    print(f"✓ Saved JSON to {output_file}")
+    print(f"✓ Saved JSON to {out}")
 
 
 def save_txt(data, fieldnames, filename):
-    """Save data to a TXT file with '||' as line endings."""
-    output_file = DATA_DIR / filename
-    with open(output_file, "w", encoding="utf-8", newline="") as f:
+    out = DATA_DIR / filename
+    with open(out, "w", encoding="utf-8", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames, lineterminator="||")
         writer.writeheader()
         writer.writerows(data)
-    print(f"✓ Saved TXT to {output_file}")
+    print(f"✓ Saved TXT to {out}")
+
 
 def cleanup(temp_file):
-    """Remove temporary zip file."""
     if temp_file.exists():
         temp_file.unlink()
-        print(f"✓ Cleaned up temporary file")
+        print("✓ Cleaned up temporary file")
 
 
-def process_dataset(dataset_name, config):
-    """Process a single dataset."""
-    print(f"\n--- Processing {dataset_name} ---")
-
-    temp_zip = PROJECT_ROOT / f"temp_{dataset_name}.zip"
-
-    try:
-        download_zip(config['url'], temp_zip)
-        data, fieldnames = extract_and_convert(
-            temp_zip,
-            dataset_name,
-            config['sort_key'],
-            config['numeric_fields']
-        )
-        save_json(data, f"{dataset_name}.json")
-        save_txt(data, fieldnames, f"{dataset_name}.txt")
-        cleanup(temp_zip)
-
-        return len(data)
-
-    except Exception as e:
-        print(f"✗ Error processing {dataset_name}: {e}")
-        cleanup(temp_zip)
-        raise
+def add_theme_names(data, themes_lookup):
+    """Attach theme name using theme_id."""
+    for item in data:
+        tid = item.get("theme_id")
+        item["theme"] = themes_lookup.get(tid) if isinstance(tid, int) else None
+    return data
 
 
 def main():
-    """Main execution function."""
     try:
         print("=== Rebrickable Data Updater ===\n")
-
         ensure_data_dir()
 
-        total_records = 0
-        for dataset_name, config in DATASETS.items():
-            count = process_dataset(dataset_name, config)
-            total_records += count
+        # Step 1: Load themes first
+        temp_zip = PROJECT_ROOT / "temp_themes.zip"
+        download_zip(DATASETS["themes"]["url"], temp_zip)
+        themes_data, _ = extract_and_convert(temp_zip, "themes", "id", DATASETS["themes"]["numeric_fields"])
+        cleanup(temp_zip)
 
-        print(f"\n✓ Success! Processed {total_records} total records across {len(DATASETS)} datasets")
+        themes_lookup = {t["id"]: t.get("name") for t in themes_data}
+        print(f"✓ Loaded {len(themes_lookup)} themes")
+
+        # Step 2: Process sets and minifigs with theme names
+        for dataset_name in ("sets", "minifigs"):
+            config = DATASETS[dataset_name]
+            temp_zip = PROJECT_ROOT / f"temp_{dataset_name}.zip"
+
+            try:
+                download_zip(config['url'], temp_zip)
+                data, fields = extract_and_convert(temp_zip, dataset_name, config['sort_key'], config['numeric_fields'])
+                cleanup(temp_zip)
+
+                # Add theme names
+                data = add_theme_names(data, themes_lookup)
+                if "theme" not in fields:
+                    fields.append("theme")
+
+                save_json(data, f"{dataset_name}.json")
+                save_txt(data, fields, f"{dataset_name}.txt")
+
+            except Exception as e:
+                print(f"✗ Error processing {dataset_name}: {e}")
+                cleanup(temp_zip)
+                raise
+
+        print("\n✓ Success! All datasets processed.")
 
     except Exception as e:
         print(f"\n✗ Error: {e}")
