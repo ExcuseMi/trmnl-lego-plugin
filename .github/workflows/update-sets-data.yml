@@ -41,4 +41,4 @@ jobs:
             data/sets.txt
             data/minifigs.json
             data/minifigs.txt
-            data/img_url_cache.json
+            data/image_cache.json

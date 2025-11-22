@@ -2,12 +2,16 @@
 """
 Download and convert Rebrickable data from CSV to JSON and TXT,
 including themes and parent themes, preserving old sets with images,
-sorting properly, and assigning fallback images for missing entries.
+sorting properly, assigning fallback images for missing entries,
+and validating image URLs asynchronously with caching.
 """
 import csv
 import json
 import zipfile
 import re
+import asyncio
+import aiohttp
+import logging
 from pathlib import Path
 from urllib.request import urlretrieve
 
@@ -39,6 +43,15 @@ DATA_DIR = PROJECT_ROOT / "data"
 FIELDS_ORDER = ["set_num", "name", "year", "num_parts", "image", "theme", "parent_theme"]
 
 FALLBACK_IMAGE = "https://raw.githubusercontent.com/ExcuseMi/trmnl-lego-plugin/main/images/placeholder.png"
+IMAGE_CACHE_FILE = DATA_DIR / "image_cache.json"
+
+# ----------------------------
+# Logging setup
+# ----------------------------
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s"
+)
 
 # ----------------------------
 # Utility functions
@@ -51,22 +64,21 @@ def natural_sort_key(value):
 
 def ensure_data_dir():
     DATA_DIR.mkdir(parents=True, exist_ok=True)
-    print(f"✓ Data directory ready: {DATA_DIR}")
+    logging.info(f"Data directory ready: {DATA_DIR}")
 
 def download_zip(url, temp_file):
-    print(f"Downloading from {url}...")
+    logging.info(f"Downloading from {url}...")
     urlretrieve(url, temp_file)
-    print(f"✓ Downloaded to {temp_file}")
+    logging.info(f"Downloaded to {temp_file}")
 
 def extract_and_convert(temp_zip, dataset_name, sort_key, numeric_fields):
-    """Extract CSV, normalize line breaks, convert numeric fields, sort."""
-    print(f"Extracting and processing {dataset_name} CSV...")
+    logging.info(f"Extracting and processing {dataset_name} CSV...")
     with zipfile.ZipFile(temp_zip, 'r') as zip_ref:
         csv_files = [f for f in zip_ref.namelist() if f.endswith('.csv')]
         if not csv_files:
             raise FileNotFoundError(f"No CSV found in ZIP for {dataset_name}")
         csv_filename = csv_files[0]
-        print(f"✓ Found CSV file: {csv_filename}")
+        logging.info(f"Found CSV file: {csv_filename}")
 
         with zip_ref.open(csv_filename) as csv_file:
             csv_text = csv_file.read().decode("utf-8")
@@ -80,11 +92,10 @@ def extract_and_convert(temp_zip, dataset_name, sort_key, numeric_fields):
                         row[field] = int(row[field]) if row[field].isdigit() else None
                 data.append(row)
 
-    print(f"✓ Extracted {len(data)} rows for {dataset_name}")
+    logging.info(f"Extracted {len(data)} rows for {dataset_name}")
     return data, csv_reader.fieldnames
 
 def add_theme_names(data, themes_lookup, parent_lookup):
-    """Attach theme and parent theme names using theme_id."""
     for item in data:
         tid = item.get("theme_id")
         item["theme"] = themes_lookup.get(tid, "") if isinstance(tid, int) else ""
@@ -95,7 +106,7 @@ def save_json(data, filename):
     out = DATA_DIR / filename
     with open(out, 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
-    print(f"✓ Saved JSON to {out}")
+    logging.info(f"Saved JSON to {out}")
 
 def save_txt(data, fieldnames, filename):
     out = DATA_DIR / filename
@@ -109,19 +120,59 @@ def save_txt(data, fieldnames, filename):
         )
         writer.writeheader()
         writer.writerows(data)
-    print(f"✓ Saved TXT to {out}")
+    logging.info(f"Saved TXT to {out}")
 
 def cleanup(temp_file):
     if temp_file.exists():
         temp_file.unlink()
-        print("✓ Cleaned up temporary file")
+        logging.info("Cleaned up temporary file")
+
+# ----------------------------
+# Async Image Validation
+# ----------------------------
+async def check_image(session, url, semaphore):
+    async with semaphore:
+        try:
+            async with session.head(url, timeout=10) as resp:
+                return url, resp.status == 200
+        except Exception:
+            return url, False
+
+async def validate_images(data):
+    # Load cache
+    if IMAGE_CACHE_FILE.exists():
+        with open(IMAGE_CACHE_FILE, 'r') as f:
+            cache = json.load(f)
+    else:
+        cache = {}
+
+    urls_to_check = [row["image"] for row in data if row["image"] not in cache]
+    logging.info(f"Checking {len(urls_to_check)} new images...")
+
+    semaphore = asyncio.Semaphore(20)  # Limit concurrent requests
+    async with aiohttp.ClientSession() as session:
+        tasks = [check_image(session, url, semaphore) for url in urls_to_check]
+        for coro in asyncio.as_completed(tasks):
+            url, valid = await coro
+            cache[url] = valid
+            logging.info(f"{url} => {'OK' if valid else 'FAILED'}")
+
+    # Filter out rows with invalid or missing images
+    filtered_data = [row for row in data if cache.get(row["image"], False)]
+
+    # Save cache
+    with open(IMAGE_CACHE_FILE, 'w') as f:
+        json.dump(cache, f, indent=2)
+
+    logging.info(f"Image validation complete. {len(filtered_data)}/{len(data)} rows remaining.")
+    return filtered_data
 
 # ----------------------------
 # Main processing
 # ----------------------------
 def main():
     try:
-        print("=== Rebrickable Data Updater ===\n")
+        logging.info("=== Rebrickable Data Updater ===")
         ensure_data_dir()
 
         # Step 1: Load themes
@@ -131,14 +182,13 @@ def main():
         cleanup(temp_zip)
         themes_lookup = {t["id"]: t.get("name", "") for t in themes_data}
         parent_lookup = {t["id"]: themes_lookup.get(t.get("parent_id"), "") for t in themes_data if t.get("parent_id")}
-        print(f"✓ Loaded {len(themes_lookup)} themes")
+        logging.info(f"Loaded {len(themes_lookup)} themes")
 
-        # Step 2: Process sets and minifigs
         # Step 2: Process sets and minifigs
         for dataset_name in ("sets", "minifigs"):
             config = DATASETS[dataset_name]
             temp_zip = PROJECT_ROOT / f"temp_{dataset_name}.zip"
-            print(f"\nProcessing dataset: {dataset_name}")
+            logging.info(f"Processing dataset: {dataset_name}")
 
             download_zip(config['url'], temp_zip)
             data, _ = extract_and_convert(temp_zip, dataset_name, config['sort_key'], config['numeric_fields'])
@@ -146,17 +196,6 @@ def main():
 
             # Add theme names
             data = add_theme_names(data, themes_lookup, parent_lookup)
-
-            # Filter out rows without a valid image
-            data = [row for row in data if row.get("img_url") and row["img_url"].strip() != ""]
-
-            # Sort sets by year then natural set_num
-            sort_key = "set_num" if dataset_name == "sets" else "fig_num"
-            year_key = "year" if dataset_name == "sets" else None
-            data.sort(key=lambda x: (
-                x.get(year_key) if year_key and isinstance(x.get(year_key), int) else float("inf"),
-                natural_sort_key(x.get(sort_key, ""))
-            ))
 
             # Normalize for TXT/JSON
             normalized_data = []
@@ -172,15 +211,26 @@ def main():
                 }
                 normalized_data.append(normalized_row)
 
-            print(f"{dataset_name}: {len(normalized_data)} rows remaining after filtering images")
+            # Sort sets by year then natural set_num
+            sort_key = "set_num" if dataset_name == "sets" else "fig_num"
+            year_key = "year" if dataset_name == "sets" else None
+            normalized_data.sort(key=lambda x: (
+                x.get(year_key) if year_key and isinstance(x.get(year_key), int) else float("inf"),
+                natural_sort_key(x.get(sort_key, ""))
+            ))
+
+            # Async image validation
+            normalized_data = asyncio.run(validate_images(normalized_data))
+
+            logging.info(f"{dataset_name}: {len(normalized_data)} rows after validation")
 
             save_json(normalized_data, f"{dataset_name}.json")
             save_txt(normalized_data, FIELDS_ORDER, f"{dataset_name}.txt")
 
-        print("\n✓ Success! All datasets processed.")
+        logging.info("✓ Success! All datasets processed.")
 
     except Exception as e:
-        print(f"\n✗ Error: {e}")
+        logging.exception("Error during processing")
         raise
 
 if __name__ == "__main__":
