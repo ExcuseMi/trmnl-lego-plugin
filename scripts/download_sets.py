@@ -1,11 +1,9 @@
 #!/usr/bin/env python3
 """
 Download and convert Rebrickable data from CSV to JSON and TXT,
-including themes and parent themes, filtering out invalid images asynchronously,
-with persistent cache and normalized TXT output.
+including themes and parent themes, preserving old sets with images,
+sorting properly, and assigning fallback images for missing entries.
 """
-import asyncio
-import aiohttp
 import csv
 import json
 import zipfile
@@ -37,10 +35,10 @@ DATASETS = {
 SCRIPT_DIR = Path(__file__).parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 DATA_DIR = PROJECT_ROOT / "data"
-CACHE_FILE = DATA_DIR / "img_url_cache.json"
 
-# Desired consistent TXT field order
 FIELDS_ORDER = ["set_num", "name", "year", "num_parts", "image", "theme", "parent_theme"]
+
+FALLBACK_IMAGE = "https://raw.githubusercontent.com/ExcuseMi/trmnl-lego-plugin/main/images/placeholder.png"
 
 # ----------------------------
 # Utility functions
@@ -82,78 +80,17 @@ def extract_and_convert(temp_zip, dataset_name, sort_key, numeric_fields):
                         row[field] = int(row[field]) if row[field].isdigit() else None
                 data.append(row)
 
-            # Sort by year then natural sort key
-            data.sort(key=lambda x: (
-                x.get("year") if isinstance(x.get("year"), int) else float("inf"),
-                natural_sort_key(x.get(sort_key, ""))
-            ))
-
-            print(f"✓ Converted and sorted {len(data)} {dataset_name}")
-
+    print(f"✓ Extracted {len(data)} rows for {dataset_name}")
     return data, csv_reader.fieldnames
 
 def add_theme_names(data, themes_lookup, parent_lookup):
     """Attach theme and parent theme names using theme_id."""
     for item in data:
         tid = item.get("theme_id")
-        item["theme"] = themes_lookup.get(tid) if isinstance(tid, int) else ""
-        item["parent_theme"] = parent_lookup.get(tid) if isinstance(tid, int) else ""
+        item["theme"] = themes_lookup.get(tid, "") if isinstance(tid, int) else ""
+        item["parent_theme"] = parent_lookup.get(tid, "") if isinstance(tid, int) else ""
     return data
 
-# ----------------------------
-# Async image validation with cache
-# ----------------------------
-def load_image_cache():
-    if CACHE_FILE.exists():
-        with open(CACHE_FILE, 'r', encoding='utf-8') as f:
-            return json.load(f)
-    return {}
-
-def save_image_cache(cache):
-    with open(CACHE_FILE, 'w', encoding='utf-8') as f:
-        json.dump(cache, f, indent=2)
-
-async def check_image(session, row, cache):
-    url = row.get("img_url") or ""
-    if not url:
-        return None
-    if url in cache:
-        if cache[url]:
-            return row
-        return None
-    try:
-        print(f"Checking: {url}")
-        async with session.head(url, timeout=5) as resp:
-            valid = resp.status == 200
-            cache[url] = valid
-            if valid:
-                return row
-    except Exception:
-        cache[url] = False
-    return None
-
-async def filter_valid_images_async(data, cache, concurrency=50):
-    """Filter rows with valid images using cache and asyncio."""
-    valid_data = []
-    total = len(data)
-    print(f"Filtering {total} rows for valid images...")
-
-    connector = aiohttp.TCPConnector(limit=concurrency)
-    async with aiohttp.ClientSession(connector=connector) as session:
-        tasks = [check_image(session, row, cache) for row in data]
-        for count, coro in enumerate(asyncio.as_completed(tasks), start=1):
-            row = await coro
-            if row:
-                valid_data.append(row)
-            if count % 50 == 0 or count == total:
-                print(f"✓ Checked {count}/{total}, valid so far: {len(valid_data)}", end="\r")
-
-    print(f"\n✓ Filtering complete, {len(valid_data)} rows with valid images remain.")
-    return valid_data
-
-# ----------------------------
-# Save functions
-# ----------------------------
 def save_json(data, filename):
     out = DATA_DIR / filename
     with open(out, 'w', encoding='utf-8') as f:
@@ -162,7 +99,6 @@ def save_json(data, filename):
 
 def save_txt(data, fieldnames, filename):
     out = DATA_DIR / filename
-    fieldnames = list(fieldnames)
     with open(out, "w", encoding="utf-8", newline="") as f:
         writer = csv.DictWriter(
             f,
@@ -188,18 +124,16 @@ def main():
         print("=== Rebrickable Data Updater ===\n")
         ensure_data_dir()
 
-        # Load or initialize image cache
-        img_cache = load_image_cache()
-
         # Step 1: Load themes
         temp_zip = PROJECT_ROOT / "temp_themes.zip"
         download_zip(DATASETS["themes"]["url"], temp_zip)
         themes_data, _ = extract_and_convert(temp_zip, "themes", "id", DATASETS["themes"]["numeric_fields"])
         cleanup(temp_zip)
         themes_lookup = {t["id"]: t.get("name", "") for t in themes_data}
-        parent_lookup = {t["id"]: themes_lookup.get(t.get("parent_id")) for t in themes_data if t.get("parent_id")}
+        parent_lookup = {t["id"]: themes_lookup.get(t.get("parent_id"), "") for t in themes_data if t.get("parent_id")}
         print(f"✓ Loaded {len(themes_lookup)} themes")
 
+        # Step 2: Process sets and minifigs
         # Step 2: Process sets and minifigs
         for dataset_name in ("sets", "minifigs"):
             config = DATASETS[dataset_name]
@@ -213,10 +147,18 @@ def main():
             # Add theme names
             data = add_theme_names(data, themes_lookup, parent_lookup)
 
-            # Filter images asynchronously
-            data = asyncio.run(filter_valid_images_async(data, img_cache))
+            # Filter out rows without a valid image
+            data = [row for row in data if row.get("img_url") and row["img_url"].strip() != ""]
 
-            # Normalize rows for TXT/JSON
+            # Sort sets by year then natural set_num
+            sort_key = "set_num" if dataset_name == "sets" else "fig_num"
+            year_key = "year" if dataset_name == "sets" else None
+            data.sort(key=lambda x: (
+                x.get(year_key) if year_key and isinstance(x.get(year_key), int) else float("inf"),
+                natural_sort_key(x.get(sort_key, ""))
+            ))
+
+            # Normalize for TXT/JSON
             normalized_data = []
             for row in data:
                 normalized_row = {
@@ -235,8 +177,6 @@ def main():
             save_json(normalized_data, f"{dataset_name}.json")
             save_txt(normalized_data, FIELDS_ORDER, f"{dataset_name}.txt")
 
-        # Save image cache
-        save_image_cache(img_cache)
         print("\n✓ Success! All datasets processed.")
 
     except Exception as e:
