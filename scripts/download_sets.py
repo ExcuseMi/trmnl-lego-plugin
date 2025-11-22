@@ -1,16 +1,15 @@
 #!/usr/bin/env python3
 """
 Download and convert Rebrickable data from CSV to JSON and TXT,
-including themes, and attach theme names and parent theme names to sets and minifigs.
+including themes and parent themes, filtering out entries without images,
+and ensuring consistent TXT column order.
 """
 import json
 import csv
 import zipfile
-import os
 import re
 from pathlib import Path
 from urllib.request import urlretrieve
-from typing import Dict, List, Optional
 
 # Configuration
 DATASETS = {
@@ -27,7 +26,7 @@ DATASETS = {
     'minifigs': {
         'url': 'https://cdn.rebrickable.com/media/downloads/minifigs.csv.zip',
         'sort_key': 'fig_num',
-        'numeric_fields': ['num_parts', 'num_minifigs', 'theme_id']
+        'numeric_fields': ['num_parts', 'theme_id']
     }
 }
 
@@ -37,7 +36,6 @@ DATA_DIR = PROJECT_ROOT / "data"
 
 
 def natural_sort_key(value):
-    """Natural sorting for LEGO set/fig numbers."""
     def convert(text):
         return (0, int(text)) if text.isdigit() else (1, text.lower())
     parts = re.split(r'(\d+)', str(value))
@@ -49,20 +47,19 @@ def ensure_data_dir():
     print(f"✓ Data directory ready: {DATA_DIR}")
 
 
-def download_zip(url, temp_file: Path):
+def download_zip(url, temp_file):
     print(f"Downloading from {url}...")
     urlretrieve(url, temp_file)
     print(f"✓ Downloaded to {temp_file}")
 
 
-def extract_and_convert(temp_zip: Path, dataset_name: str, sort_key: str, numeric_fields: List[str]):
-    """Extract CSV, normalize `||` line breaks, convert rows, sort."""
+def extract_and_convert(temp_zip, dataset_name, sort_key, numeric_fields):
+    """Extract CSV, normalize '||' line breaks, convert numeric fields, sort."""
     print(f"Extracting and processing {dataset_name} CSV...")
-
     with zipfile.ZipFile(temp_zip, 'r') as zip_ref:
         csv_files = [f for f in zip_ref.namelist() if f.endswith('.csv')]
         if not csv_files:
-            raise FileNotFoundError("No CSV found in ZIP")
+            raise FileNotFoundError(f"No CSV found in ZIP for {dataset_name}")
         csv_filename = csv_files[0]
         print(f"✓ Found CSV file: {csv_filename}")
 
@@ -75,11 +72,10 @@ def extract_and_convert(temp_zip: Path, dataset_name: str, sort_key: str, numeri
             for row in csv_reader:
                 for field in numeric_fields:
                     if field in row and row[field]:
-                        # attempt integer conversion; non-digit values -> None
                         row[field] = int(row[field]) if row[field].isdigit() else None
                 data.append(row)
 
-            # Use stable sort: by year if present, then natural sort of sort_key
+            # Sort by year then natural sort key
             data.sort(key=lambda x: (
                 x.get("year") if isinstance(x.get("year"), int) else float("inf"),
                 natural_sort_key(x.get(sort_key, ""))
@@ -90,6 +86,15 @@ def extract_and_convert(temp_zip: Path, dataset_name: str, sort_key: str, numeri
     return data, csv_reader.fieldnames
 
 
+def add_theme_names(data, themes_lookup, parent_lookup):
+    """Attach theme and parent theme names using theme_id."""
+    for item in data:
+        tid = item.get("theme_id")
+        item["theme"] = themes_lookup.get(tid) if isinstance(tid, int) else ""
+        item["parent_theme"] = parent_lookup.get(tid) if isinstance(tid, int) else ""
+    return data
+
+
 def save_json(data, filename):
     out = DATA_DIR / filename
     with open(out, 'w', encoding='utf-8') as f:
@@ -98,70 +103,25 @@ def save_json(data, filename):
 
 
 def save_txt(data, fieldnames, filename):
-    """
-    Save data to TXT with consistent quoting and '||' line terminator.
-    Works safely with commas in names or missing fields.
-    """
     out = DATA_DIR / filename
     fieldnames = list(fieldnames)
-
     with open(out, "w", encoding="utf-8", newline="") as f:
         writer = csv.DictWriter(
             f,
             fieldnames=fieldnames,
             lineterminator="||",
             quotechar='"',
-            quoting=csv.QUOTE_ALL  # quote every field
+            quoting=csv.QUOTE_ALL
         )
         writer.writeheader()
         writer.writerows(data)
-
     print(f"✓ Saved TXT to {out}")
 
 
-def cleanup(temp_file: Path):
+def cleanup(temp_file):
     if temp_file.exists():
         temp_file.unlink()
         print("✓ Cleaned up temporary file")
-
-
-def add_theme_names(
-    data: List[Dict],
-    themes_lookup: Dict[int, str],
-    themes_parent_lookup: Dict[int, Optional[int]],
-    max_parent_levels: int = 1
-) -> List[Dict]:
-    """
-    Attach theme name and parent theme name using theme_id.
-
-    - themes_lookup: { theme_id: theme_name }
-    - themes_parent_lookup: { theme_id: parent_id_or_None }
-    - max_parent_levels: how many steps up the parent chain to include (1 = immediate parent)
-    """
-    for item in data:
-        tid = item.get("theme_id")
-        # Normalize tid to int when possible
-        if isinstance(tid, str) and tid.isdigit():
-            tid = int(tid)
-        item["theme"] = themes_lookup.get(tid) if isinstance(tid, int) else None
-
-        # Resolve immediate parent and optionally climb more levels
-        parent_name = None
-        if isinstance(tid, int):
-            parent_id = themes_parent_lookup.get(tid)
-            levels = 0
-            while parent_id and levels < max_parent_levels:
-                # parent_id might be stored as str or int; normalize
-                if isinstance(parent_id, str) and parent_id.isdigit():
-                    parent_id = int(parent_id)
-                parent_name = themes_lookup.get(parent_id)
-                # climb
-                parent_id = themes_parent_lookup.get(parent_id) if parent_id is not None else None
-                levels += 1
-
-        item["parent_theme"] = parent_name
-
-    return data
 
 
 def main():
@@ -172,61 +132,47 @@ def main():
         # Step 1: Load themes first
         temp_zip = PROJECT_ROOT / "temp_themes.zip"
         download_zip(DATASETS["themes"]["url"], temp_zip)
-        themes_data, themes_fields = extract_and_convert(temp_zip, "themes", "id", DATASETS["themes"]["numeric_fields"])
+        themes_data, _ = extract_and_convert(temp_zip, "themes", "id", DATASETS["themes"]["numeric_fields"])
         cleanup(temp_zip)
 
-        # Build lookups; ensure keys are ints when possible
-        themes_lookup = {}
-        themes_parent_lookup = {}
-        for t in themes_data:
-            tid = t.get("id")
-            if isinstance(tid, str) and tid.isdigit():
-                tid = int(tid)
-            name = t.get("name")
-            parent_id = t.get("parent_id")
-            if isinstance(parent_id, str) and parent_id.isdigit():
-                parent_id = int(parent_id)
-            themes_lookup[tid] = name
-            themes_parent_lookup[tid] = parent_id
+        themes_lookup = {t["id"]: t.get("name", "") for t in themes_data}
+        parent_lookup = {t["id"]: themes_lookup.get(t.get("parent_id")) for t in themes_data if t.get("parent_id")}
+        print(f"✓ Loaded {len(themes_lookup)} themes")
 
-        print(f"✓ Loaded {len([k for k in themes_lookup.keys() if k is not None])} themes")
+        # Desired consistent field order for all TXT files
+        fields_order = ["set_num", "name", "year", "num_parts", "image", "theme", "parent_theme"]
 
-        # Step 2: Process sets and minifigs with theme names
+        # Step 2: Process sets and minifigs
         for dataset_name in ("sets", "minifigs"):
             config = DATASETS[dataset_name]
             temp_zip = PROJECT_ROOT / f"temp_{dataset_name}.zip"
 
             try:
                 download_zip(config['url'], temp_zip)
-                data, fields = extract_and_convert(temp_zip, dataset_name, config['sort_key'], config['numeric_fields'])
+                data, _ = extract_and_convert(temp_zip, dataset_name, config['sort_key'], config['numeric_fields'])
                 cleanup(temp_zip)
 
-                # Add theme names and parent theme names
-                data = add_theme_names(data, themes_lookup, themes_parent_lookup, max_parent_levels=1)
+                # Add theme names
+                data = add_theme_names(data, themes_lookup, parent_lookup)
 
-                # Ensure fields include theme + parent_theme
-                if "theme" not in fields:
-                    fields.append("theme")
-                if "parent_theme" not in fields:
-                    fields.append("parent_theme")
+                # Filter out entries without images
+                data = [row for row in data if row.get("image")]
 
-                save_json(data, f"{dataset_name}.json")
-                # Desired field order for all datasets
-                fields_order = ["set_num", "name", "year", "num_parts", "image", "theme", "parent_theme"]
-
+                # Normalize rows for consistent TXT output
                 normalized_data = []
                 for row in data:
                     normalized_row = {
                         "set_num": row.get("set_num") or row.get("fig_num") or "",
                         "name": row.get("name", ""),
                         "year": row.get("year", ""),
-                        "num_parts": row.get("num_parts", ""),  # already integer from extract_and_convert
+                        "num_parts": row.get("num_parts", ""),
                         "image": row.get("image", ""),
-                        "theme": row.get("theme", ""),  # added by add_theme_names
-                        "parent_theme": row.get("parent_theme", "")  # added by add_theme_names
+                        "theme": row.get("theme", ""),
+                        "parent_theme": row.get("parent_theme", "")
                     }
                     normalized_data.append(normalized_row)
 
+                save_json(normalized_data, f"{dataset_name}.json")
                 save_txt(normalized_data, fields_order, f"{dataset_name}.txt")
 
             except Exception as e:
