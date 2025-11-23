@@ -2,7 +2,6 @@
 #Using a csv like format to cut on the data
 #This halves it (from 5MB to 2MB)
 #This does make the filtering somewhat harder to code
-#The plugin editor is becoming quite laggy :)
 assign sets = IDX_1.data | split: "||" 
 assign incremental_value = IDX_0.value | plus: 0
 assign min_year = trmnl.plugin_settings.custom_fields_values.min_year | plus: 0
@@ -82,7 +81,7 @@ if sets_count > 0
     assign index = incremental_value | modulo: sets_count
   elsif display_order== "reverse_incremental"
     assign reverse_index = incremental_value | modulo: sets_count
-    assign index = sets_count | minus: reverse_index
+    assign index = sets_count | minus: reverse_index | minus: 1
   else 
     assign index = trmnl.system.timestamp_utc | modulo: sets_count
   endif
@@ -100,7 +99,6 @@ if sets_count > 0
   assign parent_theme = item_parts[6] | default: "" 
 endif
 %}
-
 <style>
   .main-image {
     width: 100%;

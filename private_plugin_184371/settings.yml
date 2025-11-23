@@ -4,7 +4,7 @@ no_screen_padding: 'no'
 dark_mode: 'no'
 static_data: ''
 polling_verb: get
-polling_url: "{% if selection_mode == \"random\" %}\r\nhttps://usetrmnl.com/custom_plugin_example_data.json\r\n{% else %}\r\nhttps://abacus.jasoncameron.dev/hit/trmnl-lego-sets-plugin/sets-{{trmnl.user.id}}\r\n{% endif %}\r\n\r\nhttps://raw.githubusercontent.com/ExcuseMi/trmnl-lego-plugin/refs/heads/main/data/sets.txt"
+polling_url: "{% if display_order == \"random\" %}\r\nhttps://usetrmnl.com/custom_plugin_example_data.json\r\n{% else %}\r\nhttps://abacus.jasoncameron.dev/hit/trmnl-lego-sets-plugin/sets-{{trmnl.user.id}}\r\n{% endif %}\r\n\r\nhttps://raw.githubusercontent.com/ExcuseMi/trmnl-lego-plugin/refs/heads/main/data/sets.txt"
 polling_headers: ''
 polling_body: ''
 id: 184371

@@ -142,35 +142,63 @@ async def check_image(session, url, semaphore):
         except Exception:
             return url, False
 
+
 async def validate_images(data):
+    """
+    Validate images and filter out rows with missing or invalid images.
+    Uses cache to avoid re-checking known URLs.
+    """
     cache_file = DATA_DIR / "image_cache.json"
+
+    # Load existing cache
     if cache_file.exists():
         with open(cache_file, 'r') as f:
             cache = json.load(f)
+        logging.info(f"Loaded cache with {len(cache)} entries")
     else:
         cache = {}
 
-    urls_to_check = [row["image"] for row in data if row["image"] and row["image"] not in cache]
+    # Separate URLs into cached and uncached
+    urls_to_check = []
+    for row in data:
+        url = row.get("image")
+        if url and url not in cache:
+            urls_to_check.append(url)
+
     logging.info(f"Checking {len(urls_to_check)} new images...")
 
-    semaphore = asyncio.Semaphore(20)
-    async with aiohttp.ClientSession() as session:
-        tasks = [check_image(session, url, semaphore) for url in urls_to_check]
-        for coro in asyncio.as_completed(tasks):
-            url, valid = await coro
-            cache[url] = valid
-            logging.info(f"{url} => {'OK' if valid else 'FAILED'}")
+    # Check uncached URLs
+    if urls_to_check:
+        semaphore = asyncio.Semaphore(20)
+        async with aiohttp.ClientSession() as session:
+            tasks = [check_image(session, url, semaphore) for url in urls_to_check]
+            checked = 0
+            for coro in asyncio.as_completed(tasks):
+                url, valid = await coro
+                cache[url] = valid
+                checked += 1
+                if checked % 100 == 0:
+                    logging.info(f"Progress: {checked}/{len(urls_to_check)} images checked")
 
-    # Filter rows with missing or invalid images
-    filtered_data = [row for row in data if row.get("image") and cache.get(row["image"], False)]
+    # Filter data using cache (both old and new results)
+    filtered_data = []
+    removed_count = 0
+    for row in data:
+        url = row.get("image")
+        if url and cache.get(url, False):
+            filtered_data.append(row)
+        else:
+            removed_count += 1
 
-    # Save cache
+    # Save updated cache
     with open(cache_file, 'w') as f:
         json.dump(cache, f, indent=2)
 
-    logging.info(f"Image validation complete. {len(filtered_data)}/{len(data)} rows retained.")
-    return filtered_data
+    logging.info(f"Image validation complete.")
+    logging.info(f"Retained: {len(filtered_data)} rows")
+    logging.info(f"Removed: {removed_count} rows (invalid/missing images)")
 
+    return filtered_data
 # ----------------------------
 # Main processing
 # ----------------------------
