@@ -41,7 +41,7 @@ SETS_FILE = DATA_DIR / "sets.json"
 COMPACT_JSON = DATA_DIR / "reduced_sets.json"
 OUTPUT_FILE = DATA_DIR / "options.yml"
 
-FIELDS_ORDER = ["set_num", "name", "year", "num_parts", "image", "theme", "parent_theme"]
+FIELDS_ORDER = ["set_num", "name", "year", "num_parts", "theme", "parent_theme"]
 
 MINIFIG_EXCLUDE_KEYWORDS = ["Weapon", "Accessory", "Supplement", "Promo", "Set", "Pack"]
 
@@ -120,6 +120,7 @@ def save_json(data, filename):
 
 
 
+
 def cleanup(temp_file):
     if temp_file.exists():
         temp_file.unlink()
@@ -137,6 +138,8 @@ async def check_image(session, url, semaphore):
 
 
 async def validate_images(data):
+    """Validate images and filter out rows with missing or invalid images.
+    Only stores set_num in the data, not the full URL."""
     cache_file = DATA_DIR / "image_cache.json"
 
     if cache_file.exists():
@@ -146,11 +149,16 @@ async def validate_images(data):
     else:
         cache = {}
 
+    # Build URLs from set_num for validation
     urls_to_check = []
+    set_num_to_url = {}
     for row in data:
-        url = row.get("image")
-        if url and url not in cache:
-            urls_to_check.append(url)
+        set_num = row.get("set_num")
+        if set_num:
+            url = f"https://cdn.rebrickable.com/media/sets/{set_num}.jpg"
+            set_num_to_url[set_num] = url
+            if url not in cache:
+                urls_to_check.append(url)
 
     logging.info(f"Checking {len(urls_to_check)} new images...")
 
@@ -166,12 +174,19 @@ async def validate_images(data):
                 if checked % 100 == 0:
                     logging.info(f"Progress: {checked}/{len(urls_to_check)} images checked")
 
+    # Filter data - only keep rows with valid images, store only set_num
     filtered_data = []
     removed_count = 0
     for row in data:
-        url = row.get("image")
-        if url and cache.get(url, False):
-            filtered_data.append(row)
+        set_num = row.get("set_num")
+        if set_num:
+            url = set_num_to_url.get(set_num)
+            if url and cache.get(url, False):
+                # Remove the full URL, keep only set_num (image will be reconstructed later)
+                row.pop("image", None)
+                filtered_data.append(row)
+            else:
+                removed_count += 1
         else:
             removed_count += 1
 
@@ -235,7 +250,6 @@ def download_and_process_rebrickable():
                 "name": row.get("name", ""),
                 "year": row.get("year", ""),
                 "num_parts": row.get("num_parts", ""),
-                "image": row.get("img_url", ""),
                 "theme": row.get("theme", ""),
                 "parent_theme": row.get("parent_theme", "")
             }
@@ -267,8 +281,7 @@ def filter_quality_sets(sets, target_count=8000):
 
     filtered = [
         s for s in sets
-        if s.get('image')
-           and s.get('num_parts', 0) >= 20
+        if s.get('num_parts', 0) >= 20
            and s.get('year', 0) >= 1970
            and s.get('theme') not in excluded_themes
            and s.get('parent_theme') not in excluded_parent_themes
@@ -308,12 +321,11 @@ def filter_quality_sets(sets, target_count=8000):
 
 # ==== Compact JSON Creation ====
 def create_compact_json(sets):
-    fields = ["set_num", "name", "year", "num_parts", "image", "theme", "parent_theme"]
+    fields = ["set_num", "name", "year", "num_parts", "theme", "parent_theme"]
     compact = [fields] + [
         [
             s.get("set_num", ""), s.get("name", ""), s.get("year", ""),
-            s.get("num_parts", ""), s.get("image", ""),
-            s.get("theme", ""), s.get("parent_theme", "")
+            s.get("num_parts", ""), s.get("theme", ""), s.get("parent_theme", "")
         ]
         for s in sets
     ]

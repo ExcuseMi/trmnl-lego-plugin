@@ -55,7 +55,7 @@
   optional: true
 - keyname: themes
   field_type: select
-  name: Filter by Themes (205)
+  name: Filter by Themes (218)
   multiple: true
   options:
   - Airport: Airport
@@ -69,9 +69,11 @@
   - Avengers: Avengers
   - Basic Set: Basic Set
   - Batman: Batman
+  - Ben 10: Ben 10
   - Bionicle: Bionicle
   - Black Falcons: Black Falcons
   - Black Knights: Black Knights
+  - Blacktron II: Blacktron II
   - Bluey: Bluey
   - Botanicals: Botanicals
   - Brick Sketches: Brick Sketches
@@ -86,6 +88,7 @@
   - Cities of Wonders: Cities of Wonders
   - City: City
   - Classic: Classic
+  - Classic Castle: Classic Castle
   - Coast Guard: Coast Guard
   - Collectible Minifigures: Collectible Minifigures
   - Competition: Competition
@@ -98,12 +101,14 @@
   - DC Comics Super Heroes: DC Comics Super Heroes
   - DC Super Hero Girls: DC Super Hero Girls
   - DOTS: DOTS
+  - Dark Forest: Dark Forest
   - Despicable Me 4: Despicable Me 4
   - Dimensions: Dimensions
   - Dino: Dino
   - Disney: Disney
   - Disney Princess: Disney Princess
   - Doc McStuffins: Doc McStuffins
+  - Dragon Knights: Dragon Knights
   - Dreamzzz: Dreamzzz
   - Duplo: Duplo
   - Duplo and Explore: Duplo and Explore
@@ -111,6 +116,7 @@
   - Early Creator: Early Creator
   - Educational and Dacta: Educational and Dacta
   - Elves: Elves
+  - Exo-Force: Exo-Force
   - Exploriens: Exploriens
   - FIRST LEGO League: FIRST LEGO League
   - Factory: Factory
@@ -138,9 +144,11 @@
   - Hidden Side: Hidden Side
   - Horizon Adventures: Horizon Adventures
   - Hospital: Hospital
+  - Ice Planet 2002: Ice Planet 2002
   - Icons: Icons
   - Incredibles 2: Incredibles 2
   - Indiana Jones: Indiana Jones
+  - Insectoids: Insectoids
   - Inventor: Inventor
   - Iron Man: Iron Man
   - Jake and the Never Land Pirates: Jake and the Never Land Pirates
@@ -156,10 +164,12 @@
   - LEGO Brand Store: LEGO Brand Store
   - LEGO Exclusive: LEGO Exclusive
   - LEGO Ideas and CUUSOO: LEGO Ideas and CUUSOO
+  - LEGO Originals: LEGO Originals
   - Legends of Chima: Legends of Chima
   - Legoland Parks: Legoland Parks
   - Life On Mars: Life On Mars
   - Lion Knights: Lion Knights
+  - M:Tron: M:Tron
   - Make & Create: Make & Create
   - Mars Exploration: Mars Exploration
   - Mars Mission: Mars Mission
@@ -202,6 +212,7 @@
   - Prince of Persia: Prince of Persia
   - Protectors: Protectors
   - Racers: Racers
+  - RoboForce: RoboForce
   - RoboRiders: RoboRiders
   - Royal Knights: Royal Knights
   - Scooby-Doo: Scooby-Doo
@@ -211,6 +222,7 @@
   - Sofia the First: Sofia the First
   - Sonic The Hedgehog: Sonic The Hedgehog
   - Space: Space
+  - Space Police II: Space Police II
   - Space Police III: Space Police III
   - Speed Champions: Speed Champions
   - Speed Slammers: Speed Slammers
@@ -218,6 +230,7 @@
   - Spider-Man: Spider-Man
   - Spidey and His Amazing Friends: Spidey and His Amazing Friends
   - SpongeBob SquarePants: SpongeBob SquarePants
+  - Spyrius: Spyrius
   - Star Wars: Star Wars
   - Stranger Things: Stranger Things
   - Stuntz: Stuntz
@@ -245,6 +258,7 @@
   - Trains: Trains
   - 'Trolls: World Tour': 'Trolls: World Tour'
   - UCS: UCS
+  - UFO: UFO
   - Ultimate Collector Series: Ultimate Collector Series
   - Ultra Agents: Ultra Agents
   - Unikitty!: Unikitty!
@@ -252,7 +266,6 @@
   - Universal Building Set: Universal Building Set
   - Universe: Universe
   - VIDIYO: VIDIYO
-  - Vikings: Vikings
   - Villains: Villains
   - WeDo: WeDo
   - Wednesday: Wednesday
@@ -267,10 +280,10 @@
 - keyname: min_year
   field_type: number
   name: Minimum Release Year
-  min: 1985
+  min: 1978
   optional: true
 - keyname: max_year
   field_type: number
   name: Maximum Release Year
-  min: 1985
+  min: 1978
   optional: true
