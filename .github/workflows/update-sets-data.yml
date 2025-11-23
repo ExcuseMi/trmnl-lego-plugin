@@ -26,15 +26,15 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests aiohttp asyncio
+          pip install aiohttp pyyaml
 
-      - name: Run download script
-        run: python scripts/download_sets.py
+      - name: Run merged pipeline script
+        run: python scripts/merged_pipeline.py
 
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
-          commit_message: "🧱 Update Rebrickable sets data [automated]"
+          commit_message: "🧱 Update Rebrickable data and plugin options [automated]"
           commit_author: "GitHub Actions <actions@github.com>"
           file_pattern: |
             data/sets.json
@@ -42,3 +42,5 @@ jobs:
             data/minifigs.json
             data/minifigs.txt
             data/image_cache.json
+            data/reduced_sets.json
+            data/options.yml

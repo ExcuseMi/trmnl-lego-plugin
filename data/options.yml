@@ -267,8 +267,10 @@
 - keyname: min_year
   field_type: number
   name: Minimum Release Year
+  min: 1985
   optional: true
 - keyname: max_year
   field_type: number
   name: Maximum Release Year
+  min: 1985
   optional: true
