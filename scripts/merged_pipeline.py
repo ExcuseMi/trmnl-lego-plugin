@@ -383,6 +383,18 @@ def create_options_yml(filtered_sets, themes, parent_themes):
             'optional': True
         },
         {
+            'keyname': 'show_qr_code',
+            'name': 'Show QR Code',
+            'field_type': 'select',
+            'description': 'Display a QR code linking to the set details on Rebrickable',
+            'options': [
+                {'Show QR Code': 'show'},
+                {'Hide QR Code': 'hide'},
+            ],
+            'default': 'hide',
+            'optional': True
+        },
+        {
             'keyname': 'parent_themes',
             'field_type': 'select',
             'name': f'Filter by Parent Themes ({len(parent_themes)})',

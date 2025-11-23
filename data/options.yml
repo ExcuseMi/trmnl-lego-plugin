@@ -13,6 +13,15 @@
   - Newest to Oldest: reverse_incremental
   default: random
   optional: true
+- keyname: show_qr_code
+  name: Show QR Code
+  field_type: select
+  description: Display a QR code linking to the set details on Rebrickable
+  options:
+  - Show QR Code: show
+  - Hide QR Code: hide
+  default: hide
+  optional: true
 - keyname: parent_themes
   field_type: select
   name: Filter by Parent Themes (34)
