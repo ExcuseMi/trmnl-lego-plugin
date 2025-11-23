@@ -119,14 +119,6 @@ def save_json(data, filename):
     logging.info(f"Saved JSON to {out}")
 
 
-def save_txt(data, fieldnames, filename):
-    out = DATA_DIR / filename
-    with open(out, "w", encoding="utf-8") as f:
-        for row in data:
-            line = "§".join(str(row[field]) for field in FIELDS_ORDER)
-            f.write(line + "||")
-    logging.info(f"Saved TXT to {out}")
-
 
 def cleanup(temp_file):
     if temp_file.exists():
@@ -366,7 +358,10 @@ def create_options_yml(filtered_sets, themes, parent_themes):
             'keyname': 'display_order',
             'name': 'Display Order',
             'field_type': 'select',
-            'description': 'Choose the order in which sets appear.',
+            'description': 'Choose how sets are displayed on your device:<br />'
+                           '<strong>Random:</strong> Shows a different set each refresh for variety<br />'
+                           '<strong>Oldest to Newest:</strong> Progress chronologically through LEGO history, starting from vintage sets<br />'
+                           '<strong>Newest to Oldest:</strong> Start with the latest releases and work backwards',
             'options': [
                 {'Random': 'random'},
                 {'Oldest to Newest': 'incremental'},

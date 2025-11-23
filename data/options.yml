@@ -6,7 +6,7 @@
 - keyname: display_order
   name: Display Order
   field_type: select
-  description: Choose the order in which sets appear.
+  description: Choose how sets are displayed on your device:<br /><strong>Random:</strong> Shows a different set each refresh for variety<br /><strong>Oldest to Newest:</strong> Progress chronologically through LEGO history, starting from vintage sets<br /><strong>Newest to Oldest:</strong> Start with the latest releases and work backwards
   options:
   - Random: random
   - Oldest to Newest: incremental
