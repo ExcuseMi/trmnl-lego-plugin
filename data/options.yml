@@ -291,8 +291,10 @@
   name: Minimum Release Year
   min: 1978
   optional: true
+  placeholder: '1978'
 - keyname: max_year
   field_type: number
   name: Maximum Release Year
   min: 1978
   optional: true
+  placeholder: ''

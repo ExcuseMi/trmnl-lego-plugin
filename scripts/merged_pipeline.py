@@ -415,14 +415,16 @@ def create_options_yml(filtered_sets, themes, parent_themes):
             'field_type': 'number',
             'name': 'Minimum Release Year',
             'min': min_year,
-            'optional': True
+            'optional': True,
+            'placeholder': f"{min_year}"
         },
         {
             'keyname': 'max_year',
             'field_type': 'number',
             'name': 'Maximum Release Year',
             'min': min_year,
-            'optional': True
+            'optional': True,
+            'placeholder': ''
         }
     ]
 

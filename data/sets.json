@@ -118328,6 +118328,14 @@
     "parent_theme": "Super Heroes DC"
   },
   {
+    "set_num": "212504-1",
+    "name": "Superman",
+    "year": 2025,
+    "num_parts": 5,
+    "theme": "Superman",
+    "parent_theme": "Super Heroes DC"
+  },
+  {
     "set_num": "212505-1",
     "name": "The Joker and Robot",
     "year": 2025,
@@ -118592,6 +118600,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "662512-1",
+    "name": "Hero and Shulker",
+    "year": 2025,
+    "num_parts": 14,
+    "theme": "Minecraft",
+    "parent_theme": ""
+  },
+  {
     "set_num": "682501-1",
     "name": "Venom",
     "year": 2025,
@@ -118628,6 +118644,14 @@
     "name": "Green Goblin",
     "year": 2025,
     "num_parts": 13,
+    "theme": "Spider-Man",
+    "parent_theme": "Super Heroes Marvel"
+  },
+  {
+    "set_num": "682506-1",
+    "name": "Ghost-Spider",
+    "year": 2025,
+    "num_parts": 11,
     "theme": "Spider-Man",
     "parent_theme": "Super Heroes Marvel"
   },
@@ -119006,6 +119030,14 @@
     "num_parts": 26,
     "theme": "Construction",
     "parent_theme": "City"
+  },
+  {
+    "set_num": "952511-1",
+    "name": "Astronaut with Alien and Crystal",
+    "year": 2025,
+    "num_parts": 20,
+    "theme": "City",
+    "parent_theme": ""
   },
   {
     "set_num": "2000483-1",
