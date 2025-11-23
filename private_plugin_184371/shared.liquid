@@ -1,158 +1,195 @@
-{% liquid 
-#Using a csv like format to cut on the data
-#This halves it (from 5MB to 2MB)
-#This does make the filtering somewhat harder to code
-assign sets = IDX_1.data | split: "||" 
+{% liquid
+
+assign raw = IDX_1.data | parse_json
+assign fields = raw[0]
+assign sets = raw | slice: 1, raw.size
+assign raw_size = raw.size
+assign sets_size = sets.size
 assign incremental_value = IDX_0.value | plus: 0
 assign min_year = trmnl.plugin_settings.custom_fields_values.min_year | plus: 0
 assign max_year = trmnl.plugin_settings.custom_fields_values.max_year | plus: 0
 assign display_order = trmnl.plugin_settings.custom_fields_values.display_order | default: "random"
 assign parent_themes = trmnl.plugin_settings.custom_fields_values.parent_themes
 assign themes = trmnl.plugin_settings.custom_fields_values.themes
-# Filter sets by year range and themes if specified
-assign filtered_sets = ""
-assign has_filters = false
-if min_year > 0 or max_year > 0 or parent_themes.size > 0 or themes.size > 0
-  assign has_filters = true
-endif
-if has_filters
-  for set_item in sets
-    assign temp_parts = set_item | split: '§'
-    assign temp_year = temp_parts[2] | plus: 0
-    assign temp_theme = temp_parts[5] | default: ""
-    assign temp_parent_theme = temp_parts[6] | default: ""
-        
-    assign include_set = true
-    
-    # Year filters
-    if min_year > 0 and temp_year < min_year
-      assign include_set = false
-    endif
-    
-    if max_year > 0 and temp_year > max_year
-      assign include_set = false
-    endif
-    
-    # Theme filter - check if either parent_themes OR themes matches (OR logic between the two filters)
-    if include_set and parent_themes.size > 0 or themes.size > 0
-      assign theme_match = false
-      
-      # Check parent themes filter
-      if parent_themes.size > 0
-        for selected_parent_theme in parent_themes
-          if temp_parent_theme == selected_parent_theme or temp_theme == selected_parent_theme
-            assign theme_match = true
-            break
-          endif
-        endfor
-      endif
-      
-      # Check specific themes filter (only if not already matched)
-      if themes.size > 0 and theme_match == false
-        for selected_theme in themes
-          if temp_theme == selected_theme or temp_parent_theme == selected_theme
-            assign theme_match = true
-            break
-          endif
-        endfor
-      endif
-      
-      if theme_match == false
-        assign include_set = false
-      endif
-    endif
-    
-    if include_set
-      if filtered_sets == ""
-        assign filtered_sets = set_item
-      else
-        assign filtered_sets = filtered_sets | append: "||" | append: set_item
-      endif
-    endif
-  endfor
-  
-  assign sets = filtered_sets | split: "||"
-endif
-assign sets_count = sets.size
-# Only proceed if we have sets to display
-if sets_count > 0
-  # Determine which item to show based on display_order
-  if display_order == "incremental"
-    assign index = incremental_value | modulo: sets_count
-  elsif display_order== "reverse_incremental"
-    assign reverse_index = incremental_value | modulo: sets_count
-    assign index = sets_count | minus: reverse_index | minus: 1
-  else 
-    assign index = trmnl.system.timestamp_utc | modulo: sets_count
-  endif
-  assign item = sets[index]
+assign show_qr_code = trmnl.plugin_settings.custom_fields_values.show_qr_code | default: "hide"
 
-  # Get selected item
-  assign item_parts = item | split: '§'
-  # Map columns to variables
-  assign set_num = item_parts[0] | default: "" 
-  assign name = item_parts[1] | default: "" 
-  assign year = item_parts[2] | plus: 0
-  assign num_parts = item_parts[3] | plus: 0
-  assign image = item_parts[4] | default: "https://raw.githubusercontent.com/ExcuseMi/trmnl-lego-plugin/main/images/placeholder.png"
-  assign theme = item_parts[5] | default: "" 
-  assign parent_theme = item_parts[6] | default: "" 
+# -----------------------------
+# Filter sets - store indices
+# -----------------------------
+assign filtered_indices = ""
+
+for s in sets
+  assign year = s[2] | plus: 0
+  assign theme = s[4] | default: ""
+  assign parent_theme = s[5] | default: ""
+  assign include = true
+  
+  # Year filters
+  if min_year > 0 and year < min_year
+    assign include = false
+  endif
+  if max_year > 0 and year > max_year
+    assign include = false
+  endif
+  
+  # Theme/parent filter (OR logic)
+  # Only apply theme filter if themes are actually specified
+  assign has_theme_filters = false
+  if parent_themes.size > 0 or themes.size > 0
+    assign has_theme_filters = true
+  endif
+  
+  if include and has_theme_filters
+    assign matched = false
+    
+    # Check parent themes
+    if parent_themes.size > 0
+      for t in parent_themes
+        assign t_stripped = t | strip
+        assign theme_stripped = theme | strip
+        assign parent_theme_stripped = parent_theme | strip
+        if theme_stripped == t_stripped or parent_theme_stripped == t_stripped
+          assign matched = true
+          break
+        endif
+      endfor
+    endif
+    
+    # Check specific themes
+    if themes.size > 0 and matched == false
+      for t in themes
+        assign t_stripped = t | strip
+        assign theme_stripped = theme | strip
+        assign parent_theme_stripped = parent_theme | strip
+        if theme_stripped == t_stripped or parent_theme_stripped == t_stripped
+          assign matched = true
+          break
+        endif
+      endfor
+    endif
+    
+    if matched == false
+      assign include = false
+    endif
+  endif
+  
+  # Store index if included
+  if include
+    if filtered_indices == ""
+      assign filtered_indices = forloop.index0 | append: ""
+    else
+      assign filtered_indices = filtered_indices | append: "," | append: forloop.index0
+    endif
+  endif
+endfor
+
+# Convert indices string to array
+assign filtered_array = filtered_indices | split: ","
+assign sets_count = filtered_array.size
+
+# -----------------------------
+# Select item based on display order
+# -----------------------------
+if sets_count > 0
+  if display_order == "incremental"
+    assign selected_position = incremental_value | modulo: sets_count
+  elsif display_order == "reverse_incremental"
+    assign reverse_index = incremental_value | modulo: sets_count
+    assign selected_position = sets_count | minus: reverse_index | minus: 1
+  else
+    # Random: use current timestamp to pick a pseudo-random index
+    assign now_raw = 'now' | date: '%s'
+    assign now_number = now_raw | plus: 0
+    assign selected_position = now_number | modulo: sets_count
+  endif
+  
+  # Get the actual index from filtered array
+  assign actual_index = filtered_array[selected_position] | plus: 0
+  assign item = sets | slice: actual_index, 1 | first
+  
+  # Map columns
+  assign set_num = item[0] | default: ""
+  assign name = item[1] | default: ""
+  assign year = item[2] | plus: 0
+  assign num_parts = item[3] | plus: 0
+  assign theme = item[4] | default: ""
+  assign parent_theme = item[5] | default: ""
+  assign image = "https://cdn.rebrickable.com/media/sets/" | append: set_num | append: ".jpg"
+  assign set_url = "https://rebrickable.com/sets/" | append: set_num
 endif
 %}
-<style>
-  .main-image {
-    width: 100%;
-    height: 100%;
-    object-fit: contain; /* never crop, scale proportionally */
-    object-position: center;
-    display: block;
-    filter: 
-        grayscale(100%)       /* Convert to black and white */
-  }
-  .brick {
-    position: absolute; 
-    top: 1px; 
-    right: 1px; 
-    z-index: 100;
-    background-color: white;
-    padding: 5px;
-    border: solid 1px black;
-    box-sizing: content-box;
-  }
-</style>
+  <style>
+    .main-image {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      object-position: center;
+      display: block;
+      filter: 
+        grayscale(100%)
+    }
+    .brick {
+      position: absolute; 
+      top: 1px; 
+      right: 1px; 
+      z-index: 100;
+      padding: 5px;
+      border: solid 1px black;
+      box-sizing: content-box;
+    }
+    .qr-code {
+      position: absolute; 
+      top: 1px; 
+      left: 1px; 
+      z-index: 100;
+      background-color: white;
+      padding: 5px;
+      border: solid 1px black;
+      box-sizing: content-box;
+      border-radius: 8px;
+    }
 
-{% if IDX_1.data == blank %}
-<div class="layout layout--stretch layout--center">
-  <div class="title">No Data Available</div>
-  <div class="description">No LEGO sets data found.</div>
-</div>
-{% elsif sets_count == 0 %}
-<div class="layout layout--stretch layout--center">
-  <div class="title">No Sets Match Your Filters</div>
-  <div class="description">
-    No LEGO sets found with your current settings.<br/><br/>
-    Active filters:<br/>
-    {% if min_year > 0 %}Min year: {{ min_year }}<br/>{% endif %}
-    {% if max_year > 0 %}Max year: {{ max_year }}<br/>{% endif %}
-    {% if parent_themes.size > 0 %}Parent themes: {{ parent_themes.size }} selected<br/>{% endif %}
-    {% if themes.size > 0 %}Specific themes: {{ themes.size }} selected<br/>{% endif %}
-    <br/>
-    Adjust your filters to see more sets.
+  </style>
+
+  {% if raw.size == 0 %}
+  <div class="layout layout--stretch layout--center">
+    <div class="title">No Data Available</div>
+    <div class="description">No LEGO sets data found.</div>
   </div>
-</div>
-{% else %}
-<div class="layout layout--stretch">
-  <img src="{{image}}" class="image image-dither image-contain main-image" />
-  {% if num_parts > 0 %}
-  <div class="brick rounded flex flex--row">
-    <img class="image w--10" src="https://raw.githubusercontent.com/ExcuseMi/trmnl-lego-plugin/refs/heads/main/images/brick.svg" />
-    <div class="value value--small">{{num_parts}}</div>
+  {% elsif sets_count == 0 %}
+  <div class="layout layout--stretch layout--center">
+    <div class="title">No Sets Match Your Filters</div>
+    <div class="description">
+      No LEGO sets found with your current settings.<br/><br/>
+      Active filters:<br/>
+      {% if min_year > 0 %}Min year: {{ min_year }}<br/>{% endif %}
+      {% if max_year > 0 %}Max year: {{ max_year }}<br/>{% endif %}
+      {% if parent_themes.size > 0 %}Parent themes: {{ parent_themes.size }} selected<br/>{% endif %}
+      {% if themes.size > 0 %}Specific themes: {{ themes.size }} selected<br/>{% endif %}
+      <br/>
+      Adjust your filters to see more sets.
+    </div>
+  </div>
+  {% else %}
+  <div class="layout layout--stretch">
+    <img src="{{image}}" class="image image-dither image-contain main-image" />
+    {% if num_parts > 0 %}
+    <div class="brick rounded bg--gray-75">
+      <div class="flex flex--row">
+        <img class="image w--10" src="https://raw.githubusercontent.com/ExcuseMi/trmnl-lego-plugin/refs/heads/main/images/brick.png" />
+        <div class="value value--small">{{num_parts}}</div>
+      </div>
+      <div>
+      </div>
+    </div>
+    {% endif %}
+    {% if show_qr_code == "show" %}
+                      {{ set_url | qr_code: 3, 'm'}}
+    {% endif %}
+  </div>
+  <div class="title_bar">
+    {% if set_num != ""%}<span class="label label--inverted">{{set_num}}</span>{% endif %}
+    <span class="title">{{name}}{% if year and year > 0 %} ({{year}}){% endif %}</span>
+    <span class="instance" data-content-limiter="true" >{{theme}}</span>
   </div>
   {% endif %}
-</div>
-<div class="title_bar">
-  {% if set_num != ""%}<span class="label label--inverted">{{set_num}}</span>{% endif %}
-  <span class="title">{{name}}{% if year and year > 0 %} ({{year}}){% endif %}</span>
-  <span class="instance" data-content-limiter="true" >{{theme}}</span>
-</div>
-{% endif %}
