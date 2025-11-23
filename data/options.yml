@@ -1,24 +1,22 @@
 - keyname: about
   name: About This Plugin
   field_type: author_bio
-  description: Display LEGO sets on your TRMNL device with flexible filtering and display options.<br /><br /><strong>Dataset:</strong><br />● 8,000+ curated LEGO sets from <a href='https://rebrickable.com/'>Rebrickable.com</a><br />● Sets are sorted by release year, then by set number<br />● Non-LEGO items (watches, bags, etc.), single-piece sets and sets without valid images are excluded<br /><br /><strong>Display Options:</strong><br />● <strong>Random:</strong> Show a different set each refresh<br />● <strong>Incremental:</strong> Progress through sets chronologically<br />● <strong>Reverse Incremental:</strong> Progress backwards from newest to oldest<br /><br /><strong>Filtering Options:</strong><br />● Filter by release year (min/max)<br />● Filter by parent theme (34 available) or specific theme (205 available)<br />● Combine filters to create your perfect collection
+  description: Display LEGO sets on your TRMNL device with filtering options.<br /><br /><strong>Dataset:</strong><br />● 8,000 curated LEGO sets from Rebrickable<br />● Non-LEGO items, micro sets, and sets without images excluded<br />
   github_url: https://github.com/ExcuseMi/trmnl-lego-plugin
 - keyname: display_order
   name: Display Order
   field_type: select
-  description: Choose the order in which sets are displayed on your device.
+  description: Choose the order in which sets appear.
   options:
-  - Random (shuffle each refresh): random
-  - Chronological (oldest to newest): incremental
-  - Reverse Chronological (newest to oldest): reverse_incremental
+  - Random: random
+  - Oldest to Newest: incremental
+  - Newest to Oldest: reverse_incremental
   default: random
   optional: true
 - keyname: parent_themes
   field_type: select
-  name: Filter by Parent Themes (34 available)
-  description: Select one or more parent themes (broad categories like "Star Wars" or "City"). Leave empty to show all parent themes.
+  name: Filter by Parent Themes (34)
   multiple: true
-  help_text: Use <kbd>⌘</kbd>+<kbd>click</kbd> (Mac) or <kbd>ctrl</kbd>+<kbd>click</kbd> (Windows) to select multiple items. Use <kbd>Shift</kbd>+<kbd>click</kbd> to select a whole range at once.
   options:
   - Advent: Advent
   - Agents: Agents
@@ -57,10 +55,8 @@
   optional: true
 - keyname: themes
   field_type: select
-  name: Filter by Specific Themes (205 available)
-  description: Select one or more specific themes (sub-categories like "The Mandalorian" or "Police"). Leave empty to show all themes.
+  name: Filter by Themes (205)
   multiple: true
-  help_text: Use <kbd>⌘</kbd>+<kbd>click</kbd> (Mac) or <kbd>ctrl</kbd>+<kbd>click</kbd> (Windows) to select multiple items. Use <kbd>Shift</kbd>+<kbd>click</kbd> to select a whole range at once.
   options:
   - Airport: Airport
   - Alien Conquest: Alien Conquest
@@ -271,16 +267,8 @@
 - keyname: min_year
   field_type: number
   name: Minimum Release Year
-  description: Only show sets released in or after this year.<br /><i>Leave empty to use no restrictions.</i>
-  min: 1900
-  max: 2050
-  placeholder: '1970'
   optional: true
 - keyname: max_year
   field_type: number
   name: Maximum Release Year
-  description: Only show sets released in or before this year.<br /><i>Leave empty to use no restrictions.</i>
-  min: 1900
-  max: 2050
-  placeholder: '2025'
   optional: true
