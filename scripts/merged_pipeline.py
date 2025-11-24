@@ -331,10 +331,12 @@ def create_theme_files(sets):
 
     for theme_name, items in themes.items():
         slug = slugify(theme_name)
-        items.sort(key=lambda x: (x.get("year") if isinstance(x.get("year"), int) else float("inf"),
-                                  natural_sort_key(x.get("set_num", ""))))
+        items.sort(key=lambda x: (
+            x.get("year") if isinstance(x.get("year"), int) else float("inf"),
+            natural_sort_key(x.get("set_num", ""))
+        ))
         total_sets = len(items)
-        fields = list(items[0].keys())
+        fields = FIELDS_ORDER  # Use your fixed order
         start = 0
         file_idx = 0
 
