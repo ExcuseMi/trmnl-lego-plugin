@@ -2,7 +2,7 @@
   name: About This Plugin
   field_type: author_bio
   description: 'Display LEGO® sets on your TRMNL device with powerful filtering options using community APIs.<br /><br /><strong>Data Sources:</strong><br />● <strong>Rebrickable Mode (Default):</strong> Uses curated dataset from <a href=''https://rebrickable.com/''>Rebrickable.com</a> with theme and part count filters<br />● <strong>BrickSet Mode:</strong> Uses live API from <a href=''https://brickset.com/''>BrickSet.com</a> with personal collection features (owned/wanted), minifigure counts, and regional pricing<br /><br /><strong>BrickSet Setup (Optional):</strong><br />1. Create a free account at <a href=''https://brickset.com/signup''>brickset.com/signup</a><br />2. Request your API key at <a href=''https://brickset.com/tools/webservices/requestkey''>brickset.com/tools/webservices/requestkey</a><br />3. Enter your API key in the field below to enable BrickSet mode<br />4. (Optional) For owned/wanted filtering: obtain your userHash via the <a href=''https://brickset.com/article/52664/api-version-3-documentation''>BrickSet
-    login API</a><br /><br /><strong>Important Notes:</strong><br />● Theme names differ between Rebrickable and BrickSet APIs<br />● When using BrickSet mode, you must select at least one theme OR set a min/max year filter<br />● Filter options automatically adjust based on your selected data source'
+    login API</a><br /><br /><strong>Important Notes:</strong><br />● When using BrickSet mode, you must select at least one theme OR set a min/max year filter OR owned/wanted filter<br />● Filter options automatically adjust based on your selected data source'
   github_url: https://github.com/ExcuseMi/trmnl-lego-plugin
   category: life
 - keyname: vendor
@@ -661,9 +661,9 @@
 - keyname: brickset_show_minifigs_included
   field_type: select
   name: Show Minifigure Count (Brickset Only)
-  description: Display the number of minifigures included in each set (when data is available from Brickset).
+  description: Display the number of minifigures included in each set.
   options:
-  - Yes, Show Minifigures: 'yes'
+  - Yes, Show Minifigure Count: 'yes'
   - No, Do Not Display: 'no'
   default: 'no'
 - keyname: min_year

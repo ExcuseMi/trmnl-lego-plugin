@@ -530,9 +530,9 @@ async def create_options_yml(theme_info):
             'keyname': 'brickset_show_minifigs_included',
             'field_type': 'select',
             'name': 'Show Minifigure Count (Brickset Only)',
-            'description': 'Display the number of minifigures included in each set (when data is available from Brickset).',
+            'description': 'Display the number of minifigures included in each set.',
             'options': [
-                {'Yes, Show Minifigures': 'yes'},
+                {'Yes, Show Minifigure Count': 'yes'},
                 {'No, Do Not Display': 'no'},
             ],
             'default': 'no',

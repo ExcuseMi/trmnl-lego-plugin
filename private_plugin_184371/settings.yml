@@ -4,7 +4,7 @@ no_screen_padding: 'no'
 dark_mode: 'no'
 static_data: ''
 polling_verb: get
-polling_url: "https://usetrmnl.com/custom_plugin_example_data.json\r\n{% if vendor==  \"rebrickable\" %}\r\n{%- assign cleaned = themes_rebrickable \r\n  | replace: '[', ''\r\n  | replace: ']', ''\r\n  | replace: '\"', ''\r\n  | replace: ' ', '' -%}\r\n\r\n{%- assign themes_rebrickable_list = cleaned | split: \",\" -%}\r\n\r\n{%- comment -%} Count total weight first {%- endcomment -%}\r\n{%- assign total_weight = 0 -%}\r\n{%- for theme_data in themes_rebrickable_list -%}\r\n  {%- if theme_data != \"\" -%}\r\n    {%- assign parts = theme_data | split: \"|\" -%}\r\n    {%- if parts.size >= 3 -%}\r\n      {%- assign file_count = parts[1] | plus: 0 -%}  {%- comment -%} Second value is file_count {%- endcomment -%}\r\n      {%- assign total_weight = total_weight | plus: file_count -%}\r\n    {%- endif -%}\r\n  {%- endif -%}\r\n{%- endfor -%}\r\n\r\n{%- comment -%} Use cumulative weight approach {%- endcomment -%}\r\n{%- assign random_value = \"now\" | date: \"%s\" | modulo: total_weight -%}\r\n{%- assign cumulative_weight = 0 -%}\r\n{%- assign selected_theme = \"\" -%}\r\n\r\n{%- for theme_data in themes_rebrickable_list -%}\r\n  {%- if selected_theme == \"\" and theme_data != \"\" -%}\r\n    {%- assign parts = theme_data | split: \"|\" -%}\r\n    {%- if parts.size >= 3 -%}\r\n      {%- assign file_count = parts[1] | plus: 0 -%}  {%- comment -%} Second value is file_count {%- endcomment -%}\r\n      {%- assign cumulative_weight = cumulative_weight | plus: file_count -%}\r\n      {%- if random_value < cumulative_weight -%}\r\n        {%- assign selected_theme = theme_data -%}\r\n      {%- endif -%}\r\n    {%- endif -%}\r\n  {%- endif -%}\r\n{%- endfor -%}\r\n\r\n{%- if selected_theme != \"\" -%}\r\n  {%- assign parts = selected_theme | split: \"|\" -%}\r\n  {%- assign theme = parts[0] -%}\r\n  {%- assign file_count = parts[1] | plus: 0 -%}  {%- comment -%} Second value is file_count {%- endcomment -%}\r\n  \r\n  {%- comment -%} Select random file from 0 to (file_count - 1) {%- endcomment -%}\r\n  {%- assign random_file_index = \"now\" | date: \"%N\" | plus: 0 | modulo: file_count -%}\r\n  \r\n  https://raw.githubusercontent.com/ExcuseMi/trmnl-lego-plugin/refs/heads/main/data/themes/{{theme}}/{{random_file_index}}.json\r\n{%- else -%}\r\n  No valid themes with files found\r\n{%- endif -%}\r\n{% else %}\r\nhttps://brickset.com/api/v3.asmx/getSets?apikey={{brickset_api_key}}&userhash={{brickset_user_hash}}&params=%7B{% if themes.size > 0 %}%27theme%27:%27{{themes | join: \",\"}}%27,{% endif %}{% if min_year != blank or max_year != blank %}%27year%27:%27{% assign start_year = min_year | default: 1949 %}{% assign end_year = max_year | default: \\\"now\\\" | date: \"%Y\" %}{% for year in (start_year..end_year) %}{{year}}{% unless forloop.last %},{% endunless %}{% endfor %}%27,{% endif %}{{brickset_owned_wanted}}%27pageSize%27:500%7D\r\n{% endif %}"
+polling_url: "https://usetrmnl.com/custom_plugin_example_data.json\r\n\r\n{% if vendor ==  \"rebrickable\" %}\r\n{%- assign cleaned = themes_rebrickable \r\n  | replace: '[', ''\r\n  | replace: ']', ''\r\n  | replace: '\"', ''\r\n  | replace: ' ', '' -%}\r\n\r\n{%- assign themes_rebrickable_list = cleaned | split: \",\" -%}\r\n{%- comment -%} Count total weight first {%- endcomment -%}\r\n{%- assign total_weight = 0 -%}\r\n{%- for theme_data in themes_rebrickable_list -%}\r\n  {%- if theme_data != \"\" -%}\r\n    {%- assign parts = theme_data | split: \"|\" -%}\r\n    {%- if parts.size >= 3 -%}\r\n      {%- assign file_count = parts[1] | plus: 0 -%}  {%- comment -%} Second value is file_count {%- endcomment -%}\r\n      {%- assign total_weight = total_weight | plus: file_count -%}\r\n    {%- endif -%}\r\n  {%- endif -%}\r\n{%- endfor -%}\r\n\r\n{%- comment -%} Use cumulative weight approach {%- endcomment -%}\r\n{%- assign random_value = \"now\" | date: \"%s\" | modulo: total_weight -%}\r\n{%- assign cumulative_weight = 0 -%}\r\n{%- assign selected_theme = \"\" -%}\r\n\r\n{%- for theme_data in themes_rebrickable_list -%}\r\n  {%- if selected_theme == \"\" and theme_data != \"\" -%}\r\n    {%- assign parts = theme_data | split: \"|\" -%}\r\n    {%- if parts.size >= 3 -%}\r\n      {%- assign file_count = parts[1] | plus: 0 -%}  {%- comment -%} Second value is file_count {%- endcomment -%}\r\n      {%- assign cumulative_weight = cumulative_weight | plus: file_count -%}\r\n      {%- if random_value < cumulative_weight -%}\r\n        {%- assign selected_theme = theme_data -%}\r\n      {%- endif -%}\r\n    {%- endif -%}\r\n  {%- endif -%}\r\n{%- endfor -%}\r\n\r\n  {%- assign parts = selected_theme | split: \"|\" -%}\r\n  {%- assign theme = parts[0] -%}\r\n  {%- assign file_count = parts[1] | plus: 0 -%}  {%- comment -%} Second value is file_count {%- endcomment -%}\r\n  \r\n  {%- comment -%} Select random file from 0 to (file_count - 1) {%- endcomment -%}\r\n  {%- assign random_file_index = \"now\" | date: \"%N\" | plus: 0 | modulo: file_count -%}\r\n  \r\n  https://raw.githubusercontent.com/ExcuseMi/trmnl-lego-plugin/refs/heads/main/data/themes/{{theme}}/{{random_file_index}}.json\r\n\r\n{% else %}\r\nhttps://brickset.com/api/v3.asmx/getSets?apikey={{brickset_api_key}}&userhash={{brickset_user_hash}}&params=%7B{% if themes_brickset.size > 0 %}%27theme%27:%27{{themes_brickset| join: \",\"}}%27,{% endif %}{% if min_year != blank or max_year != blank %}%27year%27:%27{% assign start_year = min_year | default: 1949 %}{% assign end_year = max_year | default: \\\"now\\\" | date: \"%Y\" %}{% for year in (start_year..end_year) %}{{year}}{% unless forloop.last %},{% endunless %}{% endfor %}%27,{% endif %}{{brickset_owned_wanted}}%27pageSize%27:500%7D\r\n{% endif %}"
 polling_headers: ''
 polling_body: ''
 id: 184371
@@ -12,13 +12,13 @@ custom_fields:
 - keyname: about
   name: About This Plugin
   field_type: author_bio
-  description: 'Display LEGO® sets on your TRMNL device with filtering options using live data from community APIs.<br /><br /><strong>Data Sources:</strong><br />● <strong>Rebrickable Mode (default):</strong> Uses cached data from <a href=''https://rebrickable.com/''>Rebrickable.com</a> with theme and part filters<br />● <strong>BrickSet Mode:</strong> Uses live set data from <a href=''https://brickset.com/''>BrickSet.com</a> with optional personal collection features (owned/wanted), minifigs, and regional pricing<br /><br /><strong>BrickSet Setup (Optional):</strong><br />1. Create a free account at <a href=''https://brickset.com/signup''>brickset.com/signup</a><br />2. Request your API key at <a href=''https://brickset.com/tools/webservices/requestkey''>brickset.com/tools/webservices/requestkey</a><br />3. Enter your API key below to enable BrickSet mode<br />4. (Optional) For owned/wanted filtering: call the login API to get your userHash (see Brickset API docs)<br /><br /><strong>Theme Note:</strong> Both APIs use different theme names and categories. Your filter options will automatically change depending on the selected data source.'
+  description: 'Display LEGO® sets on your TRMNL device with powerful filtering options using community APIs.<br /><br /><strong>Data Sources:</strong><br />● <strong>Rebrickable Mode (Default):</strong> Uses curated dataset from <a href=''https://rebrickable.com/''>Rebrickable.com</a> with theme and part count filters<br />● <strong>BrickSet Mode:</strong> Uses live API from <a href=''https://brickset.com/''>BrickSet.com</a> with personal collection features (owned/wanted), minifigure counts, and regional pricing<br /><br /><strong>BrickSet Setup (Optional):</strong><br />1. Create a free account at <a href=''https://brickset.com/signup''>brickset.com/signup</a><br />2. Request your API key at <a href=''https://brickset.com/tools/webservices/requestkey''>brickset.com/tools/webservices/requestkey</a><br />3. Enter your API key in the field below to enable BrickSet mode<br />4. (Optional) For owned/wanted filtering: obtain your userHash via the <a href=''https://brickset.com/article/52664/api-version-3-documentation''>BrickSet login API</a><br /><br /><strong>Important Notes:</strong><br />● When using BrickSet mode, you must select at least one theme OR set a min/max year filter OR owned/wanted filter<br />● Filter options automatically adjust based on your selected data source'
   github_url: https://github.com/ExcuseMi/trmnl-lego-plugin
   category: life
 - keyname: vendor
   field_type: select
   name: Data Source
-  description: Select which LEGO® data source to use.
+  description: Choose which LEGO® data source to use for displaying sets.
   options:
   - Rebrickable (Curated Dataset): rebrickable
   - Brickset (Live API): brickset
@@ -46,23 +46,22 @@ custom_fields:
     - brickset_show_minifigs_included
 - keyname: brickset_api_key
   field_type: string
-  name: Brickset API Key (Optional)
-  description: Enter your Brickset Web Services API key to enable Brickset mode. Get your key at brickset.com.
-  placeholder: Your API key
+  name: Brickset API Key
+  description: Your BrickSet API key enables live data access. Request your key at <a href="https://brickset.com/tools/webservices/requestkey" target="_blank">brickset.com/tools/webservices/requestkey</a>
+  placeholder: Enter your API key
   optional: true
 - keyname: brickset_user_hash
   field_type: string
-  name: Brickset User Hash (Optional)
-  description: Required to display owned/wanted collections. Obtain it via the Brickset API login method.
+  name: Brickset User Hash
+  description: 'Your user hash enables filtering by sets you own or want. Obtain it by calling the BrickSet login API: <code>https://brickset.com/api/v3.asmx/login?apiKey=YOUR_KEY&username=YOUR_USERNAME&password=YOUR_PASSWORD</code><br />See the <a href="https://brickset.com/article/52664/api-version-3-documentation" target="_blank">login method documentation</a> for details.'
+  placeholder: Enter your user hash
   optional: true
-  placeholder: Your user hash
 - keyname: themes_rebrickable
   field_type: select
-  name: Filter by Themes – Rebrickable (408)
-  description: Applicable only when using the curated Rebrickable dataset.
+  name: Filter by Themes – Rebrickable (407)
+  description: Select one or more themes to display. Only applicable when using Rebrickable as your data source.
   multiple: true
   options:
-  - " (14270)": unknown|19|14270
   - 12V (52): 12v|1|52
   - 4 Juniors (23): 4-juniors|1|23
   - 4.5V (85): 45v|1|85
@@ -91,7 +90,7 @@ custom_fields:
   - 'Avatar: The Last Airbender (2)': avatar-the-last-airbender|1|2
   - Avengers (93): avengers|1|93
   - Bag and Luggage Tags (121): bag-and-luggage-tags|1|121
-  - Bags, Totes, & Luggage (715): bags-totes-luggage|2|715
+  - Bags, Totes, & Luggage (715): bags-totes-luggage|1|715
   - Basic (197): basic|1|197
   - Basic Set (325): basic-set|1|325
   - Basketball (33): basketball|1|33
@@ -395,7 +394,7 @@ custom_fields:
   - Sports (4): sports|1|4
   - Spybotics (4): spybotics|1|4
   - Spyrius (9): spyrius|1|9
-  - Star Wars (949): star-wars|2|949
+  - Star Wars (949): star-wars|1|949
   - Stationery and Office Supplies (579): stationery-and-office-supplies|1|579
   - Stingrays (5): stingrays|1|5
   - Storage (165): storage|1|165
@@ -470,11 +469,12 @@ custom_fields:
   - Xtra (19): xtra|1|19
   - Znap (19): znap|1|19
   - Zooters (3): zooters|1|3
-  help_text: Use <kbd>⌘</kbd>+<kbd>click</kbd> or <kbd>Ctrl</kbd>+<kbd>click</kbd> to select multiple item types.<br />Leave empty to show all item types.
+  help_text: Use <kbd>⌘</kbd>+<kbd>click</kbd> or <kbd>Ctrl</kbd>+<kbd>click</kbd> to select multiple themes.<br />Leave empty to show sets from all themes.
+  optional: true
 - keyname: themes_brickset
   field_type: select
   name: Filter by Themes – Brickset (170)
-  description: Applicable only in Brickset API mode.
+  description: "<strong>Required:</strong> Select at least one theme, OR set a min/max year below. Only applicable when using Brickset as your data source."
   multiple: true
   options:
   - 4 Juniors: 4 Juniors
@@ -647,11 +647,12 @@ custom_fields:
   - Xtra: Xtra
   - Znap: Znap
   - tbd: tbd
-  help_text: Use <kbd>⌘</kbd>+<kbd>click</kbd> or <kbd>Ctrl</kbd>+<kbd>click</kbd> to select multiple item types.<br />Leave empty to show all item types.
+  help_text: Use <kbd>⌘</kbd>+<kbd>click</kbd> or <kbd>Ctrl</kbd>+<kbd>click</kbd> to select multiple themes.<br /><strong>You must select at least one theme OR specify a year range.</strong>
+  optional: true
 - keyname: show_qr_code
-  name: Show QR Code Link
+  name: Show QR Code
   field_type: select
-  description: Display a QR code linking to the selected set’s details page.
+  description: Display a QR code linking to the set's details page on the selected data source.
   options:
   - Hide QR Code: hide
   - Show QR Code: show
@@ -659,7 +660,7 @@ custom_fields:
 - keyname: brickset_pricing
   field_type: select
   name: Show Set Price (Brickset Only)
-  description: Displays the LEGO® retail price from LEGO.com in the selected region (if available).
+  description: Display the LEGO® retail price from the official LEGO store in your selected region (when available).
   options:
   - Do Not Show Price: ''
   - Canada (CA): CA
@@ -669,30 +670,30 @@ custom_fields:
   default: ''
 - keyname: brickset_show_minifigs_included
   field_type: select
-  name: Show Number of Minifigures (Brickset Only)
-  description: Displays the number of minifigures included in the set when Brickset provides the data.
+  name: Show Minifigure Count (Brickset Only)
+  description: Display the number of minifigures included in each set.
   options:
-  - Yes, Show Minifigs: 'yes'
+  - Yes, Show Minifigure Count: 'yes'
   - No, Do Not Display: 'no'
   default: 'no'
 - keyname: min_year
   field_type: number
   name: Minimum Release Year
-  description: Filters by release year. This filter occurs locally for curated mode and server-side for Brickset.
+  description: Show only sets released in or after this year. <strong>For Brickset mode:</strong> at least one theme OR a year range (min/max) is required.
   min: 1900
   optional: true
   placeholder: '1950'
 - keyname: max_year
   field_type: number
   name: Maximum Release Year
-  description: Filters by release year. This filter occurs locally for curated mode and on the API request for Brickset.
+  description: Show only sets released in or before this year. <strong>For Brickset mode:</strong> at least one theme OR a year range (min/max) is required.
   min: 1900
   optional: true
   placeholder: '2025'
 - keyname: brickset_owned_wanted
   field_type: select
   name: Filter by Collection Status (Brickset Only)
-  description: Filter Brickset results to only show sets you own or want. Requires a user hash to be provided.
+  description: Filter results to show only sets you own or want. Requires your Brickset user hash to be configured above.
   options:
   - Show All Sets: ''
   - Only Show Owned Sets: "%27owned%27:1,"
@@ -702,14 +703,14 @@ custom_fields:
 - keyname: min_parts
   field_type: number
   name: Minimum Number of Parts
-  description: Show only sets containing at least this many pieces. Filter applied locally in both modes.
+  description: Show only sets containing at least this many pieces. Applied locally after data retrieval in both modes.
   min: 0
   optional: true
   placeholder: '100'
 - keyname: max_parts
   field_type: number
   name: Maximum Number of Parts
-  description: Show only sets containing at most this many pieces. Filter applied locally in both modes.
+  description: Show only sets containing at most this many pieces. Applied locally after data retrieval in both modes.
   min: 0
   optional: true
   placeholder: '5000'
