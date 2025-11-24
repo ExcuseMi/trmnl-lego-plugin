@@ -27,6 +27,27 @@
   - Show QR Code (BrickSet): show_brickset
   default: hide
   optional: true
+- keyname: brickset_pricing
+  field_type: select
+  name: Show Set Price (BrickSet Only)
+  description: <strong>BrickSet mode only:</strong> Show the Lego Sets retail price from LEGO.com
+  options:
+  - No pricing: ''
+  - CA: CA
+  - DE: DE
+  - UK: UK
+  - US: US
+  default: ''
+  optional: true
+- keyname: brickset_show_minifigs_included
+  field_type: select
+  name: Show minifigs included (BrickSet Only)
+  description: <strong>BrickSet mode only:</strong> Show the number of minifigs included
+  options:
+  - 'Yes': 'yes'
+  - 'No': 'no'
+  default: 'no'
+  optional: true
 - keyname: themes_rebrickable
   field_type: select
   name: Filter by Themes - Rebrickable (218)

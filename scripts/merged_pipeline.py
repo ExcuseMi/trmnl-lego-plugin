@@ -447,6 +447,33 @@ async def create_options_yml(filtered_sets, themes_rebrickable, parent_themes_re
             'optional': True
         },
         {
+            'keyname': 'brickset_pricing',
+            'field_type': 'select',
+            'name': 'Show Set Price (BrickSet Only)',
+            'description': '<strong>BrickSet mode only:</strong> Show the Lego Sets retail price from LEGO.com',
+            'options': [
+                {'No pricing': ''},
+                {'CA': 'CA'},
+                {'DE': 'DE'},
+                {'UK': 'UK'},
+                {'US': 'US'},
+            ],
+            'default': '',
+            'optional': True
+        },
+        {
+            'keyname': 'brickset_show_minifigs_included',
+            'field_type': 'select',
+            'name': 'Show minifigs included (BrickSet Only)',
+            'description': '<strong>BrickSet mode only:</strong> Show the number of minifigs included',
+            'options': [
+                {'Yes': 'yes'},
+                {'No': 'no'},
+            ],
+            'default': 'no',
+            'optional': True
+        },
+        {
             'keyname': 'themes_rebrickable',
             'field_type': 'select',
             'name': f'Filter by Themes - Rebrickable ({len(themes_rebrickable)})',
