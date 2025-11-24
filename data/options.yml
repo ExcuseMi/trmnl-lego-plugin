@@ -1,7 +1,8 @@
 - keyname: about
   name: About This Plugin
   field_type: author_bio
-  description: Display LEGO® sets on your TRMNL device...
+  description: 'Display LEGO® sets on your TRMNL device with filtering options using live data from community APIs.<br /><br /><strong>Data Sources:</strong><br />● <strong>Rebrickable Mode (default):</strong> Uses cached data from <a href=''https://rebrickable.com/''>Rebrickable.com</a> with theme and part filters<br />● <strong>BrickSet Mode:</strong> Uses live set data from <a href=''https://brickset.com/''>BrickSet.com</a> with optional personal collection features (owned/wanted), minifigs, and regional pricing<br /><br /><strong>BrickSet Setup (Optional):</strong><br />1. Create a free account at <a href=''https://brickset.com/signup''>brickset.com/signup</a><br />2. Request your API key at <a href=''https://brickset.com/tools/webservices/requestkey''>brickset.com/tools/webservices/requestkey</a><br />3. Enter your API key below to enable BrickSet mode<br />4. (Optional) For owned/wanted filtering: call the login API to get your userHash (see Brickset API docs)<br /><br /><strong>Theme
+    Note:</strong> Both APIs use different theme names and categories. Your filter options will automatically change depending on the selected data source.'
   github_url: https://github.com/ExcuseMi/trmnl-lego-plugin
   category: life
 - keyname: vendor
@@ -12,9 +13,42 @@
   - Rebrickable (Curated Dataset): rebrickable
   - Brickset (Live API): brickset
   default: rebrickable
+  conditional_validation:
+  - when: brickset
+    required:
+    - brickset_api_key
+    - brickset_user_hash
+    - themes_brickset
+    - brickset_owned_wanted
+    - brickset_pricing
+    - brickset_show_minifigs_included
+    hidden:
+    - themes_rebrickable
+  - when: rebrickable
+    required:
+    - themes_rebrickable
+    hidden:
+    - brickset_api_key
+    - brickset_user_hash
+    - themes_brickset
+    - brickset_owned_wanted
+    - brickset_pricing
+    - brickset_show_minifigs_included
+- keyname: brickset_api_key
+  field_type: string
+  name: Brickset API Key (Optional)
+  description: Enter your Brickset Web Services API key to enable Brickset mode. Get your key at brickset.com.
+  placeholder: Your API key
+- keyname: brickset_user_hash
+  field_type: string
+  name: Brickset User Hash (Optional)
+  description: Required to display owned/wanted collections. Obtain it via the Brickset API login method.
+  optional: true
+  placeholder: Your user hash
 - keyname: themes_rebrickable
   field_type: select
   name: Filter by Themes – Rebrickable (407)
+  description: Applicable only when using the curated Rebrickable dataset. Select themes to include in the display.
   multiple: true
   options:
   - '12V : 52': 12v|1
@@ -63,8 +97,8 @@
   - 'Books : 1': books|1
   - 'Botanicals : 32': botanicals|1
   - 'Brick Sketches : 8': brick-sketches|1
-  - 'BrickLink Designer Program : 58': bricklink-designer-program|1
   - 'Brickheadz : 183': brickheadz|1
+  - 'BrickLink Designer Program : 58': bricklink-designer-program|1
   - 'Bricks & More : 67': bricks-more|1
   - 'Bricktober : 43': bricktober|1
   - 'Building : 17': building|1
@@ -96,16 +130,15 @@
   - 'Creator : 219': creator|1
   - 'Creator 3-in-1 : 251': creator-3-in-1|1
   - 'Creator Expert : 46': creator-expert|1
+  - 'Dark Forest : 3': dark-forest|1
   - 'DC Comics : 8': dc-comics|1
   - 'DC Comics Super Heroes : 4': dc-comics-super-heroes|1
   - 'DC Super Hero Girls : 11': dc-super-hero-girls|1
   - 'DC Super Heroes : 19': dc-super-heroes|1
-  - 'DFB Minifigures : 19': dfb-minifigures|1
-  - 'DOTS : 93': dots|1
-  - 'Dark Forest : 3': dark-forest|1
   - 'Desert : 26': desert|1
   - 'Designer Sets : 50': designer-sets|1
   - 'Despicable Me 4 : 5': despicable-me-4|1
+  - 'DFB Minifigures : 19': dfb-minifigures|1
   - 'Dimensions : 68': dimensions|1
   - 'Dino : 20': dino|1
   - 'Dino Attack / Dino 2010 : 12': dino-attack-dino-2010|1
@@ -121,21 +154,22 @@
   - 'Doc McStuffins : 4': doc-mcstuffins|1
   - 'Dolls : 6': dolls|1
   - 'Dora the Explorer : 5': dora-the-explorer|1
+  - 'DOTS : 93': dots|1
   - 'Dragon Knights : 13': dragon-knights|1
   - 'Dreamzzz : 60': dreamzzz|1
   - 'Dungeons & Dragons : 16': dungeons-dragons|1
   - 'Duplo : 144': duplo|1
   - 'Duplo and Explore : 189': duplo-and-explore|1
-  - 'EV3 : 12': ev3|1
   - 'Early Creator : 35': early-creator|1
   - 'Easter : 52': easter|1
   - 'Educational and Dacta : 108': educational-and-dacta|1
+  - 'eLAB : 5': elab|1
   - 'Elves : 42': elves|1
+  - 'EV3 : 12': ev3|1
   - 'Exo-Force : 49': exo-force|1
   - 'Expert Builder : 39': expert-builder|1
   - 'Exploriens : 9': exploriens|1
   - 'Extreme Team : 20': extreme-team|1
-  - 'FIRST LEGO League : 53': first-lego-league|1
   - 'Fabuland : 107': fabuland|1
   - 'Factory : 7': factory|1
   - 'Fantastic Beasts : 1': fantastic-beasts|1
@@ -144,6 +178,7 @@
   - 'Ferrari : 30': ferrari|1
   - 'Ferries : 17': ferries|1
   - 'Fire : 122': fire|1
+  - 'FIRST LEGO League : 53': first-lego-league|1
   - 'Forestmen : 7': forestmen|1
   - 'Forma : 4': forma|1
   - 'Formula 1 : 17': formula-1|1
@@ -164,7 +199,6 @@
   - 'Ghostbusters : 2': ghostbusters|1
   - 'Gravity Games : 10': gravity-games|1
   - 'Guardians of the Galaxy : 14': guardians-of-the-galaxy|1
-  - 'HO 1:87 Vehicles : 46': ho-187-vehicles|1
   - 'Halloween : 31': halloween|1
   - 'Harbor : 25': harbor|1
   - 'Harry Potter : 178': harry-potter|1
@@ -173,6 +207,7 @@
   - 'Hero Factory : 34': hero-factory|1
   - 'Heroes : 44': heroes|1
   - 'Hidden Side : 32': hidden-side|1
+  - 'HO 1:87 Vehicles : 46': ho-187-vehicles|1
   - 'Hobby Sets : 9': hobby-sets|1
   - 'Hockey : 18': hockey|1
   - 'Homemaker : 32': homemaker|1
@@ -202,14 +237,14 @@
   - 'Kingdoms : 17': kingdoms|1
   - 'Knights Kingdom I : 20': knights-kingdom-i|1
   - 'Knights Kingdom II : 71': knights-kingdom-ii|1
+  - 'Launch Command : 5': launch-command|1
+  - 'Learning : 5': learning|1
+  - 'Legends of Chima : 96': legends-of-chima|1
   - 'LEGO Art : 24': lego-art|1
   - 'LEGO Brand Store : 107': lego-brand-store|1
   - 'LEGO Exclusive : 67': lego-exclusive|1
   - 'LEGO Ideas and CUUSOO : 86': lego-ideas-and-cuusoo|1
   - 'LEGO Originals : 19': lego-originals|1
-  - 'Launch Command : 5': launch-command|1
-  - 'Learning : 5': learning|1
-  - 'Legends of Chima : 96': legends-of-chima|1
   - 'Legoland Parks : 34': legoland-parks|1
   - 'Legoville : 76': legoville|1
   - 'Life On Mars : 25': life-on-mars|1
@@ -246,12 +281,12 @@
   - 'Monthly Mini Model Build : 109': monthly-mini-model-build|1
   - 'Mosaic : 6': mosaic|1
   - 'My Town : 11': my-town|1
-  - 'NXT : 30': nxt|1
   - 'Nexo Knights : 104': nexo-knights|1
   - 'Nike : 3': nike|1
   - 'Ninja : 31': ninja|1
   - 'Ninjago : 587': ninjago|1
   - 'Non-fiction Books : 172': non-fiction-books|1
+  - 'NXT : 30': nxt|1
   - 'Off-Road : 12': off-road|1
   - 'One Piece : 6': one-piece|1
   - 'Orient Expedition : 22': orient-expedition|1
@@ -281,18 +316,17 @@
   - 'Promotional : 170': promotional|1
   - 'Protectors : 6': protectors|1
   - 'Quatro : 9': quatro|1
-  - 'RC : 22': rc|1
-  - 'RCX : 31': rcx|1
   - 'Race : 16': race|1
   - 'Racers : 185': racers|1
   - 'Rattles : 21': rattles|1
+  - 'RC : 22': rc|1
+  - 'RCX : 31': rcx|1
   - 'Res-Q : 11': res-q|1
   - 'RoboForce : 4': roboforce|1
   - 'RoboRiders : 20': roboriders|1
   - 'Rock Raiders : 15': rock-raiders|1
   - 'Role Play Toys and Costumes : 229': role-play-toys-and-costumes|1
   - 'Royal Knights : 9': royal-knights|1
-  - 'SPIKE : 31': spike|1
   - 'Samsonite : 113': samsonite|1
   - 'Scala : 72': scala|1
   - 'Scooby-Doo : 7': scooby-doo|1
@@ -344,6 +378,7 @@
   - 'Spider-Man : 113': spider-man|1
   - 'Spider-Man - Across the Spider-Verse : 17': spider-man-across-the-spider-verse|1
   - 'Spidey and His Amazing Friends : 9': spidey-and-his-amazing-friends|1
+  - 'SPIKE : 31': spike|1
   - 'SpongeBob SquarePants : 14': spongebob-squarepants|1
   - 'Sports : 4': sports|1
   - 'Spybotics : 4': spybotics|1
@@ -369,13 +404,13 @@
   - 'Thanksgiving : 9': thanksgiving|1
   - 'The Hobbit : 20': the-hobbit|1
   - 'The Infinity Saga : 56': the-infinity-saga|1
+  - 'The Legend of Zelda : 1': the-legend-of-zelda|1
   - 'The LEGO Batman Movie : 42': the-lego-batman-movie|1
   - 'The LEGO Batman Movie Series 1 : 23': the-lego-batman-movie-series-1|1
   - 'The LEGO Batman Movie Series 2 : 23': the-lego-batman-movie-series-2|1
   - 'The LEGO Movie : 46': the-lego-movie|1
   - 'The LEGO Movie II : 63': the-lego-movie-ii|1
   - 'The LEGO Ninjago Movie : 55': the-lego-ninjago-movie|1
-  - 'The Legend of Zelda : 1': the-legend-of-zelda|1
   - 'The Lone Ranger : 8': the-lone-ranger|1
   - 'The Lord of the Rings : 17': the-lord-of-the-rings|1
   - 'The Muppets : 16': the-muppets|1
@@ -402,16 +437,16 @@
   - 'Unitron : 4': unitron|1
   - 'Universal Building Set : 102': universal-building-set|1
   - 'Universe : 2': universe|1
-  - 'VIDIYO : 50': vidiyo|1
-  - 'VIP Add-On Packs : 10': vip-add-on-packs|1
   - 'Valentine : 21': valentine|1
   - 'Value Packs : 35': value-packs|1
   - 'Vehicle : 31': vehicle|1
   - 'Video Games and Accessories : 257': video-games-and-accessories|1
+  - 'VIDIYO : 50': vidiyo|1
   - 'Vikings : 8': vikings|1
   - 'Villains : 33': villains|1
-  - 'WeDo : 26': wedo|1
+  - 'VIP Add-On Packs : 10': vip-add-on-packs|1
   - 'Wednesday : 5': wednesday|1
+  - 'WeDo : 26': wedo|1
   - 'Western : 32': western|1
   - 'Wicked : 11': wicked|1
   - 'Winnie the Pooh : 19': winnie-the-pooh|1
@@ -423,10 +458,10 @@
   - 'Xtra : 19': xtra|1
   - 'Znap : 19': znap|1
   - 'Zooters : 3': zooters|1
-  - 'eLAB : 5': elab|1
 - keyname: themes_brickset
   field_type: select
   name: Filter by Themes – Brickset (170)
+  description: Applicable only in Brickset API mode. Filters sets at the server level using Brickset’s official theme names.
   multiple: true
   options:
   - 4 Juniors: 4 Juniors
@@ -599,3 +634,68 @@
   - Xtra: Xtra
   - Znap: Znap
   - tbd: tbd
+- keyname: show_qr_code
+  name: Show QR Code Link
+  field_type: select
+  description: Display a QR code linking to the selected set’s details page.
+  options:
+  - Hide QR Code: hide
+  - Show QR Code: show
+  default: hide
+- keyname: brickset_pricing
+  field_type: select
+  name: Show Set Price (Brickset Only)
+  description: Displays the LEGO® retail price from LEGO.com in the selected region (if available).
+  options:
+  - Do Not Show Price: ''
+  - Canada (CA): CA
+  - Germany (DE): DE
+  - United Kingdom (UK): UK
+  - United States (US): US
+  default: ''
+- keyname: brickset_show_minifigs_included
+  field_type: select
+  name: Show Number of Minifigures (Brickset Only)
+  description: Displays the number of minifigures included in the set when Brickset provides the data.
+  options:
+  - Yes, Show Minifigs: 'yes'
+  - No, Do Not Display: 'no'
+  default: 'no'
+- keyname: min_year
+  field_type: number
+  name: Minimum Release Year
+  description: Filters by release year. This filter occurs locally for curated mode and server-side for Brickset.
+  min: 1900
+  optional: true
+  placeholder: '1950'
+- keyname: max_year
+  field_type: number
+  name: Maximum Release Year
+  description: Filters by release year. This filter occurs locally for curated mode and on the API request for Brickset.
+  min: 1900
+  optional: true
+  placeholder: '2025'
+- keyname: brickset_owned_wanted
+  field_type: select
+  name: Filter by Collection Status (Brickset Only)
+  description: Filter Brickset results to only show sets you own or want. Requires a user hash to be provided.
+  options:
+  - Show All Sets: ''
+  - Only Show Owned Sets: '%27owned%27:1,'
+  - Only Show Wanted Sets: '%27wanted%27:1,'
+  default: ''
+  optional: true
+- keyname: min_parts
+  field_type: number
+  name: Minimum Number of Parts
+  description: Show only sets containing at least this many pieces. Filter applied locally in both modes.
+  min: 0
+  optional: true
+  placeholder: '100'
+- keyname: max_parts
+  field_type: number
+  name: Maximum Number of Parts
+  description: Show only sets containing at most this many pieces. Filter applied locally in both modes.
+  min: 0
+  optional: true
+  placeholder: '5000'
