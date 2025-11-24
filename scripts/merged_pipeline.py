@@ -395,34 +395,41 @@ async def create_options_yml(theme_info):
     # Sort themes by human-readable name
     sorted_themes = sorted(theme_info.items(), key=lambda x: x[1]["name"].lower())
 
+    # TRMNL LEGO Plugin - Field Definitions
+    # Displays LEGO® sets with filtering options using Rebrickable or Brickset APIs
+
     # About field (rich description)
     about_field = {
         'keyname': 'about',
         'name': 'About This Plugin',
         'field_type': 'author_bio',
         'description':
-            f"Display LEGO® sets on your TRMNL device with filtering options using live data from community APIs.<br /><br />"
+            f"Display LEGO® sets on your TRMNL device with powerful filtering options using community APIs.<br /><br />"
             f"<strong>Data Sources:</strong><br />"
-            f"● <strong>Rebrickable Mode (default):</strong> Uses cached data from <a href='https://rebrickable.com/'>Rebrickable.com</a> with theme and part filters<br />"
-            f"● <strong>BrickSet Mode:</strong> Uses live set data from <a href='https://brickset.com/'>BrickSet.com</a> with optional personal collection features (owned/wanted), minifigs, and regional pricing<br /><br />"
+            f"● <strong>Rebrickable Mode (Default):</strong> Uses curated dataset from <a href='https://rebrickable.com/'>Rebrickable.com</a> with theme and part count filters<br />"
+            f"● <strong>BrickSet Mode:</strong> Uses live API from <a href='https://brickset.com/'>BrickSet.com</a> with personal collection features (owned/wanted), minifigure counts, and regional pricing<br /><br />"
             f"<strong>BrickSet Setup (Optional):</strong><br />"
             f"1. Create a free account at <a href='https://brickset.com/signup'>brickset.com/signup</a><br />"
             f"2. Request your API key at <a href='https://brickset.com/tools/webservices/requestkey'>brickset.com/tools/webservices/requestkey</a><br />"
-            f"3. Enter your API key below to enable BrickSet mode<br />"
-            f"4. (Optional) For owned/wanted filtering: call the login API to get your userHash (see Brickset API docs)<br /><br />"
-            f"<strong>Theme Note:</strong> Both APIs use different theme names and categories. Your filter options will automatically change depending on the selected data source.",
+            f"3. Enter your API key in the field below to enable BrickSet mode<br />"
+            f"4. (Optional) For owned/wanted filtering: obtain your userHash via the <a href='https://brickset.com/article/52664/api-version-3-documentation'>BrickSet login API</a><br /><br />"
+            f"<strong>Important Notes:</strong><br />"
+            f"● When using BrickSet mode, you must select at least one theme OR set a min/max year filter OR owned/wanted filter<br />"
+            f"● Filter options automatically adjust based on your selected data source",
         'github_url': 'https://github.com/ExcuseMi/trmnl-lego-plugin',
         'category': 'life'
     }
 
-    # Build fields list with Rebrickable theme options formatted as requested
+    # Field definitions
     fields = [
         about_field,
+
+        # Data Source Selection
         {
             'keyname': 'vendor',
             'field_type': 'select',
             'name': 'Data Source',
-            'description': 'Select which LEGO® data source to use.',
+            'description': 'Choose which LEGO® data source to use for displaying sets.',
             'options': [
                 {'Rebrickable (Curated Dataset)': 'rebrickable'},
                 {'Brickset (Live API)': 'brickset'},
@@ -443,59 +450,72 @@ async def create_options_yml(theme_info):
                 }
             ]
         },
+
+        # Brickset API Configuration
         {
             'keyname': 'brickset_api_key',
             'field_type': 'string',
-            'name': 'Brickset API Key (Optional)',
-            'description': 'Enter your Brickset Web Services API key to enable Brickset mode. Get your key at brickset.com.',
-            'placeholder': 'Your API key',
-             'optional': True
+            'name': 'Brickset API Key',
+            'description': 'Your BrickSet API key enables live data access. Request your key at <a href="https://brickset.com/tools/webservices/requestkey" target="_blank">brickset.com/tools/webservices/requestkey</a>',
+            'placeholder': 'Enter your API key',
+            'optional': True
         },
+
         {
             'keyname': 'brickset_user_hash',
             'field_type': 'string',
-            'name': 'Brickset User Hash (Optional)',
-            'description': 'Required to display owned/wanted collections. Obtain it via the Brickset API login method.',
-            'optional': True,
-            'placeholder': 'Your user hash'
+            'name': 'Brickset User Hash',
+            'description': 'Your user hash enables filtering by sets you own or want. Obtain it by calling the BrickSet login API: <code>https://brickset.com/api/v3.asmx/login?apiKey=YOUR_KEY&username=YOUR_USERNAME&password=YOUR_PASSWORD</code><br />See the <a href="https://brickset.com/article/52664/api-version-3-documentation" target="_blank">login method documentation</a> for details.',
+            'placeholder': 'Enter your user hash',
+            'optional': True
         },
+
+        # Theme Selection (Rebrickable)
         {
             'keyname': 'themes_rebrickable',
             'field_type': 'select',
             'name': f'Filter by Themes – Rebrickable ({len(sorted_themes)})',
-            'description': 'Applicable only when using the curated Rebrickable dataset.',
+            'description': 'Select one or more themes to display. Only applicable when using Rebrickable as your data source.',
             'multiple': True,
             'options': [
                 {info['name'] + f" ({info['total_sets']})": slug + f"|{info['max_file_count']}|{info['total_sets']}"}
-                for slug, info in sorted_themes],
-            'help_text': "Use <kbd>⌘</kbd>+<kbd>click</kbd> or <kbd>Ctrl</kbd>+<kbd>click</kbd> to select multiple item types.<br />Leave empty to show all item types."
-
+                for slug, info in sorted_themes
+            ],
+            'help_text': "Use <kbd>⌘</kbd>+<kbd>click</kbd> or <kbd>Ctrl</kbd>+<kbd>click</kbd> to select multiple themes.<br />Leave empty to show sets from all themes.",
+            'optional': True
         },
+
+        # Theme Selection (Brickset)
         {
             'keyname': 'themes_brickset',
             'field_type': 'select',
             'name': f'Filter by Themes – Brickset ({len(themes_brickset)})',
-            'description': 'Applicable only in Brickset API mode.',
+            'description': '<strong>Required:</strong> Select at least one theme, OR set a min/max year below. Only applicable when using Brickset as your data source.',
             'multiple': True,
             'options': [{t: t} for t in themes_brickset],
-            'help_text': "Use <kbd>⌘</kbd>+<kbd>click</kbd> or <kbd>Ctrl</kbd>+<kbd>click</kbd> to select multiple item types.<br />Leave empty to show all item types."
+            'help_text': "Use <kbd>⌘</kbd>+<kbd>click</kbd> or <kbd>Ctrl</kbd>+<kbd>click</kbd> to select multiple themes.<br /><strong>You must select at least one theme OR specify a year range.</strong>",
+            'optional': True
         },
+
+        # QR Code Display
         {
             'keyname': 'show_qr_code',
-            'name': 'Show QR Code Link',
+            'name': 'Show QR Code',
             'field_type': 'select',
-            'description': 'Display a QR code linking to the selected set’s details page.',
+            'description': 'Display a QR code linking to the set\'s details page on the selected data source.',
             'options': [
                 {'Hide QR Code': 'hide'},
                 {'Show QR Code': 'show'},
             ],
             'default': 'hide',
         },
+
+        # Brickset-Specific Display Options
         {
             'keyname': 'brickset_pricing',
             'field_type': 'select',
             'name': 'Show Set Price (Brickset Only)',
-            'description': 'Displays the LEGO® retail price from LEGO.com in the selected region (if available).',
+            'description': 'Display the LEGO® retail price from the official LEGO store in your selected region (when available).',
             'options': [
                 {'Do Not Show Price': ''},
                 {'Canada (CA)': 'CA'},
@@ -505,40 +525,46 @@ async def create_options_yml(theme_info):
             ],
             'default': '',
         },
+
         {
             'keyname': 'brickset_show_minifigs_included',
             'field_type': 'select',
-            'name': 'Show Number of Minifigures (Brickset Only)',
-            'description': 'Displays the number of minifigures included in the set when Brickset provides the data.',
+            'name': 'Show Minifigure Count (Brickset Only)',
+            'description': 'Display the number of minifigures included in each set (when data is available from Brickset).',
             'options': [
-                {'Yes, Show Minifigs': 'yes'},
+                {'Yes, Show Minifigures': 'yes'},
                 {'No, Do Not Display': 'no'},
             ],
             'default': 'no',
         },
+
+        # Year Filtering
         {
             'keyname': 'min_year',
             'field_type': 'number',
             'name': 'Minimum Release Year',
-            'description': 'Filters by release year. This filter occurs locally for curated mode and server-side for Brickset.',
+            'description': 'Show only sets released in or after this year. <strong>For Brickset mode:</strong> at least one theme OR a year range (min/max) is required.',
             'min': 1900,
             'optional': True,
             'placeholder': "1950"
         },
+
         {
             'keyname': 'max_year',
             'field_type': 'number',
             'name': 'Maximum Release Year',
-            'description': 'Filters by release year. This filter occurs locally for curated mode and on the API request for Brickset.',
+            'description': 'Show only sets released in or before this year. <strong>For Brickset mode:</strong> at least one theme OR a year range (min/max) is required.',
             'min': 1900,
             'optional': True,
             'placeholder': f'{datetime.date.today().year}'
         },
+
+        # Collection Status (Brickset)
         {
             'keyname': 'brickset_owned_wanted',
             'field_type': 'select',
             'name': 'Filter by Collection Status (Brickset Only)',
-            'description': 'Filter Brickset results to only show sets you own or want. Requires a user hash to be provided.',
+            'description': 'Filter results to show only sets you own or want. Requires your Brickset user hash to be configured above.',
             'options': [
                 {'Show All Sets': ''},
                 {'Only Show Owned Sets': '%27owned%27:1,'},
@@ -547,20 +573,23 @@ async def create_options_yml(theme_info):
             'default': '',
             'optional': True
         },
+
+        # Part Count Filtering
         {
             'keyname': 'min_parts',
             'field_type': 'number',
             'name': 'Minimum Number of Parts',
-            'description': 'Show only sets containing at least this many pieces. Filter applied locally in both modes.',
+            'description': 'Show only sets containing at least this many pieces. Applied locally after data retrieval in both modes.',
             'min': 0,
             'optional': True,
             'placeholder': "100"
         },
+
         {
             'keyname': 'max_parts',
             'field_type': 'number',
             'name': 'Maximum Number of Parts',
-            'description': 'Show only sets containing at most this many pieces. Filter applied locally in both modes.',
+            'description': 'Show only sets containing at most this many pieces. Applied locally after data retrieval in both modes.',
             'min': 0,
             'optional': True,
             'placeholder': "5000"
