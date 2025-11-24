@@ -453,7 +453,9 @@ async def create_options_yml(theme_info):
             'multiple': True,
             'options': [
                 {info['name'] + f" ({info['total_sets']})": slug + f"|{info['max_file_count']}|{info['total_sets']}"}
-                for slug, info in sorted_themes]
+                for slug, info in sorted_themes],
+            'help_text': "Use <kbd>⌘</kbd>+<kbd>click</kbd> or <kbd>Ctrl</kbd>+<kbd>click</kbd> to select multiple item types.<br />Leave empty to show all item types."
+
         },
         {
             'keyname': 'themes_brickset',
@@ -461,7 +463,8 @@ async def create_options_yml(theme_info):
             'name': f'Filter by Themes – Brickset ({len(themes_brickset)})',
             'description': 'Applicable only in Brickset API mode.',
             'multiple': True,
-            'options': [{t: t} for t in themes_brickset]
+            'options': [{t: t} for t in themes_brickset],
+            'help_text': "Use <kbd>⌘</kbd>+<kbd>click</kbd> or <kbd>Ctrl</kbd>+<kbd>click</kbd> to select multiple item types.<br />Leave empty to show all item types."
         },
         {
             'keyname': 'show_qr_code',
