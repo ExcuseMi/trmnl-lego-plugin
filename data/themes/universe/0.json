@@ -1,1 +1,1 @@
-[["set_num","name","year","num_parts","theme","parent_theme"],["55001-1","LEGO Universe Rocket",2010,56,"Universe",""],["2853944-1","Astronaut",2010,5,"Universe",""]]
+[["set_num","name","year","theme_id","num_parts","img_url","theme","parent_theme"],["55001-1","LEGO Universe Rocket",2010,560,56,"https://cdn.rebrickable.com/media/sets/55001-1.jpg","Universe",""],["2853944-1","Astronaut",2010,560,5,"https://cdn.rebrickable.com/media/sets/2853944-1.jpg","Universe",""]]

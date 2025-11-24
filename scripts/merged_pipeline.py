@@ -138,47 +138,24 @@ def download_zip(url, temp_file: Path):
     logging.info(f"Downloaded to {temp_file}")
 
 
-def extract_and_convert(temp_zip: Path, dataset_name: str, sort_key: str, numeric_fields: list):
-    """
-    Extract the first CSV from the supplied ZIP and convert to list of dicts.
-    Numeric fields that look like ints will be converted.
-    Returns (data_list, fieldnames)
-    """
-    logging.info(f"Extracting and processing {dataset_name} CSV from {temp_zip}...")
+def extract_and_convert(temp_zip, dataset_name, numeric_fields):
+    logging.info(f"Extracting {dataset_name}...")
     with zipfile.ZipFile(temp_zip, 'r') as zip_ref:
-        csv_files = [f for f in zip_ref.namelist() if f.endswith('.csv')]
+        csv_files = [f for f in zip_ref.namelist() if f.endswith(".csv")]
         if not csv_files:
-            raise FileNotFoundError(f"No CSV found in ZIP for {dataset_name}")
+            raise FileNotFoundError(f"No CSV in {dataset_name} ZIP")
         csv_filename = csv_files[0]
-        logging.info(f"Found CSV file in zip: {csv_filename}")
-
-        with zip_ref.open(csv_filename) as csv_file:
-            csv_text = csv_file.read().decode("utf-8", errors="replace")
-            # Fix common format oddities
-            csv_text = csv_text.replace("||", "\n").replace("\r\n", "\n").replace("\r", "\n")
-            csv_reader = csv.DictReader(csv_text.splitlines())
+        with zip_ref.open(csv_filename) as f:
+            text = f.read().decode("utf-8").replace("||","\n").replace("\r\n","\n").replace("\r","\n")
+            reader = csv.DictReader(text.splitlines())
             data = []
-            for row in csv_reader:
-                # Convert numeric-ish fields
+            for row in reader:
                 for field in numeric_fields:
-                    if field in row and row[field] != "":
-                        v = row[field].strip()
-                        if v.isdigit():
-                            row[field] = int(v)
-                        else:
-                            # try int conversion ignoring non-digits
-                            try:
-                                row[field] = int(re.sub(r'\D', '', v))
-                            except Exception:
-                                row[field] = None
-                    else:
-                        row[field] = None
-                # Keep original row (including extra fields) for possible future use.
+                    if field in row and row[field]:
+                        row[field] = int(row[field]) if row[field].isdigit() else None
                 data.append(row)
-    logging.info(f"Extracted {len(data)} rows for {dataset_name}")
-    return data, csv_reader.fieldnames
-
-
+    logging.info(f"{len(data)} rows extracted for {dataset_name}")
+    return data
 def add_theme_names(data, themes_lookup, parent_lookup):
     """
     Add 'theme' and 'parent_theme' textual fields to the data rows based on theme_id.
@@ -311,233 +288,83 @@ async def validate_images(data):
 
 # ==== Data Download & Processing ====
 async def download_and_process_rebrickable():
-    """Download and process Rebrickable CSV datasets: themes, sets, minifigs."""
-    logging.info("=== Phase 1: Download & Process Rebrickable Data ===")
+    ensure_data_dir()
+    temp_zip = PROJECT_ROOT/"temp_themes.zip"
+    download_zip(DATASETS["themes"]["url"],temp_zip)
+    themes_data = extract_and_convert(temp_zip,"themes",DATASETS["themes"]["numeric_fields"])
+    temp_zip.unlink()
+    themes_lookup = {t["id"]:t.get("name","") for t in themes_data}
+    parent_lookup = {t["id"]:themes_lookup.get(t.get("parent_id"),"") for t in themes_data if t.get("parent_id")}
 
-    # === Themes ===
-    temp_zip = PROJECT_ROOT / "temp_themes.zip"
-    download_zip(DATASETS["themes"]["url"], temp_zip)
-    themes_data, _ = extract_and_convert(temp_zip, "themes", DATASETS["themes"]["sort_key"],
-                                         DATASETS["themes"]["numeric_fields"])
-    cleanup(temp_zip)
+    all_sets=[]
+    for ds in ("sets","minifigs"):
+        config = DATASETS[ds]
+        temp_zip = PROJECT_ROOT/f"temp_{ds}.zip"
+        download_zip(config["url"],temp_zip)
+        data = extract_and_convert(temp_zip,ds,config["numeric_fields"])
+        temp_zip.unlink()
+        data = add_theme_names(data,themes_lookup,parent_lookup)
+        # preserve all fields
+        data.sort(key=lambda x: (x.get("year") if isinstance(x.get("year"),int) else float("inf"),
+                                 natural_sort_key(x.get("set_num",""))))
+        data = await validate_images(data)
+        all_sets.extend(data)
 
-    # Build lookups for theme id -> name and parent id -> parent name
-    themes_lookup = {}
-    for t in themes_data:
-        # theme CSV may have 'id' and 'name' or different keys; handle robustly
-        tid = t.get("id")
-        name = t.get("name") or t.get("theme") or t.get("title") or ""
-        if isinstance(tid, str) and tid.isdigit():
-            try:
-                tid = int(tid)
-            except Exception:
-                pass
-        themes_lookup[tid] = name
-
-    parent_lookup = {}
-    for t in themes_data:
-        tid = t.get("id")
-        parent_id = t.get("parent_id")
-        if isinstance(tid, str) and tid.isdigit():
-            try:
-                tid = int(tid)
-            except Exception:
-                pass
-        if isinstance(parent_id, str) and parent_id.isdigit():
-            try:
-                parent_id = int(parent_id)
-            except Exception:
-                parent_id = None
-        parent_name = themes_lookup.get(parent_id, "") if parent_id else ""
-        parent_lookup[tid] = parent_name
-
-    logging.info(f"Loaded {len(themes_lookup)} themes")
-
-    # Save themes full data for reference
-    save_json(themes_data, "themes.json")
-
-    # === Sets and Minifigs ===
-    for dataset_name in ("sets", "minifigs"):
-        config = DATASETS[dataset_name]
-        temp_zip = PROJECT_ROOT / f"temp_{dataset_name}.zip"
-        logging.info(f"Processing dataset: {dataset_name}")
-
-        download_zip(config['url'], temp_zip)
-        data, fieldnames = extract_and_convert(temp_zip, dataset_name, config['sort_key'], config['numeric_fields'])
-        cleanup(temp_zip)
-
-        # Add theme display names
-        data = add_theme_names(data, themes_lookup, parent_lookup)
-
-        # Normalize rows to preserve many original fields but guarantee some keys exist
-        normalized_data = []
-        for row in data:
-            # Keep all original fields but add/normalize our standard ones
-            normalized_row = dict(row)  # shallow copy of original
-            # ensure keys exist
-            normalized_row.setdefault("set_num", row.get("set_num") or row.get("fig_num") or "")
-            normalized_row.setdefault("name", row.get("name") or "")
-            normalized_row.setdefault("year", row.get("year") if row.get("year") is not None else "")
-            normalized_row.setdefault("num_parts", row.get("num_parts") if row.get("num_parts") is not None else "")
-            normalized_row.setdefault("theme", row.get("theme") or "")
-            normalized_row.setdefault("parent_theme", row.get("parent_theme") or "")
-            normalized_data.append(normalized_row)
-
-        # Sorting: sets by year then natural set_num; minifigs by fig_num natural order
-        sort_key = "set_num" if dataset_name == "sets" else "fig_num"
-        year_key = "year" if dataset_name == "sets" else None
-
-        def sort_key_fn(x):
-            primary = x.get(year_key) if year_key and isinstance(x.get(year_key), int) else float("inf")
-            secondary = natural_sort_key(x.get(sort_key, ""))
-            return (primary, secondary)
-
-        normalized_data.sort(key=sort_key_fn)
-
-        # Validate images (this trims rows without valid set image)
-        validated = await validate_images(normalized_data)
-
-        logging.info(f"{dataset_name}: {len(validated)} rows after validation")
-
-        # Save full dataset (validated rows) for future usage
-        if dataset_name == "sets":
-            save_json(validated, "sets.json")
-        else:
-            save_json(validated, "minifigs.json")
+    with open(SETS_FILE,"w",encoding="utf-8") as f:
+        json.dump(all_sets,f,indent=2,ensure_ascii=False)
+    logging.info(f"Saved sets.json ({len(all_sets)} sets)")
+    return all_sets
 
 
 # ==== Theme-Based File Creation ====
 def create_theme_files(sets):
-    """
-    Create compact per-theme JSON files under:
-        data/themes/{theme-slug}/0.json
-    Each file will be trimmed so its UTF-8 JSON size is <= MAX_FILE_SIZE_KB.
-    Returns a theme_info dict mapping slug -> {"name":..., "count":..., "max_file_count": ...}
-    (max_file_count is 1 currently since we only create 0.json; reserved for future pagination)
-    """
-    # Group sets by theme name (use 'Unknown' if missing)
-    theme_sets = {}
+    THEME_DIR.mkdir(exist_ok=True)
+    theme_info={}
+    themes={}
     for s in sets:
-        theme_name = s.get("theme") or "Unknown"
-        theme_sets.setdefault(theme_name, []).append(s)
+        theme=s.get("theme","Unknown")
+        themes.setdefault(theme,[]).append(s)
 
-    logging.info(f"Found {len(theme_sets)} unique themes")
-
-    theme_info = {}
-
-    for theme_name, theme_set_list in theme_sets.items():
+    for theme_name, items in themes.items():
         slug = slugify(theme_name)
-        theme_path = THEME_DIR / slug
-        theme_path.mkdir(parents=True, exist_ok=True)
-        output_file = theme_path / "0.json"
-
-        # Use the agreed compact fields order
-        fields = list(FIELDS_ORDER)
-
-        # Sort by year and natural set number
-        theme_set_list.sort(key=lambda x: (
-            x.get("year") if isinstance(x.get("year"), int) else float("inf"),
-            natural_sort_key(x.get("set_num", ""))
-        ))
-
-        # Build the compact structure (fields + rows)
-        compact = [fields] + [
-            [
-                s.get("set_num", "") or "",
-                s.get("name", "") or "",
-                s.get("year", "") or "",
-                s.get("num_parts", "") or "",
-                s.get("theme", "") or "",
-                s.get("parent_theme", "") or ""
-            ]
-            for s in theme_set_list
-        ]
-
-        # Check size and trim via binary search if necessary
-        json_str = json.dumps(compact, separators=(",", ":"), ensure_ascii=False)
-        size_kb = len(json_str.encode('utf-8')) / 1024
-
-        if size_kb > MAX_FILE_SIZE_KB:
-            logging.warning(f"Theme '{theme_name}' ({len(theme_set_list)} sets) exceeds {MAX_FILE_SIZE_KB}KB ({size_kb:.2f}KB)")
-            left, right = 1, len(theme_set_list)
-            max_sets = 1
-            while left <= right:
-                mid = (left + right) // 2
-                test_compact = [fields] + [
-                    [
-                        s.get("set_num", "") or "",
-                        s.get("name", "") or "",
-                        s.get("year", "") or "",
-                        s.get("num_parts", "") or "",
-                        s.get("theme", "") or "",
-                        s.get("parent_theme", "") or ""
-                    ]
-                    for s in theme_set_list[:mid]
-                ]
-                test_size_kb = len(json.dumps(test_compact, separators=(",", ":"), ensure_ascii=False).encode('utf-8')) / 1024
-                if test_size_kb <= MAX_FILE_SIZE_KB:
-                    max_sets = mid
-                    left = mid + 1
+        items.sort(key=lambda x: (x.get("year") if isinstance(x.get("year"),int) else float("inf"),
+                                  natural_sort_key(x.get("set_num",""))))
+        total_sets=len(items)
+        fields=list(items[0].keys())
+        start=0
+        file_idx=0
+        while start<total_sets:
+            left,right=1,total_sets-start
+            max_fit=1
+            while left<=right:
+                mid=(left+right)//2
+                chunk=[ [s.get(f,"") for f in fields] for s in items[start:start+mid]]
+                json_size_kb=len(json.dumps([fields]+chunk,separators=(",",":"),ensure_ascii=False).encode("utf-8"))/1024
+                if json_size_kb<=MAX_FILE_SIZE_KB:
+                    max_fit=mid
+                    left=mid+1
                 else:
-                    right = mid - 1
-
-            # Trim the list to the determined maximum
-            theme_set_list = theme_set_list[:max_sets]
-            compact = [fields] + [
-                [
-                    s.get("set_num", "") or "",
-                    s.get("name", "") or "",
-                    s.get("year", "") or "",
-                    s.get("num_parts", "") or "",
-                    s.get("theme", "") or "",
-                    s.get("parent_theme", "") or ""
-                ]
-                for s in theme_set_list
-            ]
-            json_str = json.dumps(compact, separators=(",", ":"), ensure_ascii=False)
-            size_kb = len(json_str.encode('utf-8')) / 1024
-            logging.info(f"  Trimmed to {len(theme_set_list)} sets ({size_kb:.2f}KB)")
-
-        # Write compact JSON to file
-        try:
-            with open(output_file, "w", encoding="utf-8") as f:
-                f.write(json_str)
-            logging.info(f"Created {output_file.relative_to(PROJECT_ROOT)}: {len(theme_set_list)} sets, {size_kb:.2f}KB")
-        except Exception as e:
-            logging.error(f"Failed to write {output_file}: {e}")
-
-        # Record theme info; max_file_count remains 1 (we create only one file per theme currently)
-        theme_info[slug] = {
-            "name": theme_name,
-            "count": len(theme_set_list),
-            "max_file_count": 1
-        }
-
+                    right=mid-1
+            chunk_items=items[start:start+max_fit]
+            out_dir=THEME_DIR/slug
+            out_dir.mkdir(exist_ok=True)
+            out_file=out_dir/f"{file_idx}.json"
+            json_chunk=[fields]+[[s.get(f,"") for f in fields] for s in chunk_items]
+            with open(out_file,"w",encoding="utf-8") as f: f.write(json.dumps(json_chunk,separators=(",",":"),ensure_ascii=False))
+            start+=max_fit
+            file_idx+=1
+        theme_info[slug]={"name":theme_name,"total_sets":total_sets,"max_file_count":file_idx}
+        logging.info(f"Theme '{theme_name}': {total_sets} sets in {file_idx} files")
     return theme_info
-
 def save_theme_option_files(theme_info, brickset_themes):
-    """Save theme options for both vendors into two JSON files"""
+    rebrickable_options=[{ f"{info['name']} : {info['total_sets']}": f"{slug}|{info['max_file_count']}|{info['total_sets']}" }
+                         for slug,info in sorted(theme_info.items(), key=lambda x:x[1]["name"])]
+    with open(DATA_DIR/"rebrickable_themes.json","w",encoding="utf-8") as f: json.dump(rebrickable_options,f,ensure_ascii=False,indent=2)
+    logging.info("Saved rebrickable_themes.json")
 
-    # ===== Rebrickable themes =====
-    rebrickable_options = [
-        { info["name"] : f"{slug}|{info['max_file_count']}" }
-        for slug, info in sorted(theme_info.items(), key=lambda x: x[1]["name"])
-    ]
-
-    with open(DATA_DIR / "rebrickable_themes.json", "w", encoding="utf-8") as f:
-        json.dump(rebrickable_options, f, ensure_ascii=False, indent=2)
-
-    logging.info(f"✓ Saved rebrickable themes → data/rebrickable_themes.json")
-
-    # ===== Brickset themes =====
-    brickset_options = [
-        { name : name } for name in sorted(brickset_themes)
-    ]
-
-    with open(DATA_DIR / "brickset_themes.json", "w", encoding="utf-8") as f:
-        json.dump(brickset_options, f, ensure_ascii=False, indent=2)
-
-    logging.info(f"✓ Saved brickset themes → data/brickset_themes.json")
+    brickset_options=[{name:name} for name in sorted(brickset_themes)]
+    with open(DATA_DIR/"brickset_themes.json","w",encoding="utf-8") as f: json.dump(brickset_options,f,ensure_ascii=False,indent=2)
+    logging.info("Saved brickset_themes.json")
 
 # ==== Create YAML (options.yml) ====
 async def create_options_yml(theme_info):
@@ -622,20 +449,19 @@ async def create_options_yml(theme_info):
             'keyname': 'themes_rebrickable',
             'field_type': 'select',
             'name': f'Filter by Themes – Rebrickable ({len(sorted_themes)})',
-            'description': 'Applicable only when using the curated Rebrickable dataset. Select themes to include in the display.',
+            'description': 'Applicable only when using the curated Rebrickable dataset.',
             'multiple': True,
             'options': [
-                {f"{info['name']} : {info['count']}": f"{slug}|{info['max_file_count']}"}
-                for slug, info in sorted_themes
-            ],
+                {info['name'] + f" ({info['total_sets']})": slug + f"|{info['max_file_count']}|{info['total_sets']}"}
+                for slug, info in sorted_themes]
         },
         {
             'keyname': 'themes_brickset',
             'field_type': 'select',
             'name': f'Filter by Themes – Brickset ({len(themes_brickset)})',
-            'description': 'Applicable only in Brickset API mode. Filters sets at the server level using Brickset’s official theme names.',
+            'description': 'Applicable only in Brickset API mode.',
             'multiple': True,
-            'options': [{t: t} for t in themes_brickset],
+            'options': [{t: t} for t in themes_brickset]
         },
         {
             'keyname': 'show_qr_code',
@@ -764,16 +590,13 @@ async def main():
         logging.info("=" * 60)
         logging.info(" LEGO Data Pipeline for TRMNL Plugin")
         logging.info("=" * 60)
-
         ensure_data_dir()
-
-        # Phase 1: Download and process Rebrickable data
-        await download_and_process_rebrickable()
-
-        # Phase 2: Generate plugin options and per-theme files
-        await generate_options()
-
-        logging.info("\n✓ Success! Pipeline complete. 🎉")
+        all_sets = await download_and_process_rebrickable()
+        theme_info = create_theme_files(all_sets)
+        brickset_themes = await fetch_brickset_themes()
+        save_theme_option_files(theme_info, brickset_themes)
+        await create_options_yml(theme_info)
+        logging.info("✓ Pipeline complete 🎉")
 
     except Exception as e:
         logging.exception("Error during processing")

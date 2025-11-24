@@ -47,421 +47,422 @@
   placeholder: Your user hash
 - keyname: themes_rebrickable
   field_type: select
-  name: Filter by Themes – Rebrickable (407)
-  description: Applicable only when using the curated Rebrickable dataset. Select themes to include in the display.
+  name: Filter by Themes – Rebrickable (408)
+  description: Applicable only when using the curated Rebrickable dataset.
   multiple: true
   options:
-  - '12V : 52': 12v|1
-  - '4 Juniors : 23': 4-juniors|1
-  - '4.5V : 85': 45v|1
-  - '9V : 67': 9v|1
-  - 'Action Wheelers : 9': action-wheelers|1
-  - 'Activity Books : 230': activity-books|1
-  - 'Activity Books with LEGO Parts : 399': activity-books-with-lego-parts|1
-  - 'Advent : 5': advent|1
-  - 'Agents : 13': agents|1
-  - 'Airlines : 16': airlines|1
-  - 'Airport : 56': airport|1
-  - 'Alien Conquest : 10': alien-conquest|1
-  - 'Alpha Team : 7': alpha-team|1
-  - 'Angry Birds : 6': angry-birds|1
-  - 'Animal Crossing : 17': animal-crossing|1
-  - 'Aquanauts : 8': aquanauts|1
-  - 'Aquaraiders I : 3': aquaraiders-i|1
-  - 'Aquaraiders II : 7': aquaraiders-ii|1
-  - 'Aquasharks : 4': aquasharks|1
-  - 'Aquazone : 1': aquazone|1
-  - 'Architecture : 50': architecture|1
-  - 'Arctic : 39': arctic|1
-  - 'Atlantis : 24': atlantis|1
-  - 'Audio and Visual Media : 59': audio-and-visual-media|1
-  - 'Avatar : 9': avatar|1
-  - 'Avatar: The Last Airbender : 2': avatar-the-last-airbender|1
-  - 'Avengers : 93': avengers|1
-  - 'Bag and Luggage Tags : 121': bag-and-luggage-tags|1
-  - 'Bags, Totes, & Luggage : 715': bags-totes-luggage|1
-  - 'Basic : 197': basic|1
-  - 'Basic Set : 325': basic-set|1
-  - 'Basketball : 33': basketball|1
-  - 'Batman : 131': batman|1
-  - 'Belville : 84': belville|1
-  - 'Ben 10 : 6': ben-10|1
-  - 'Bionicle : 402': bionicle|1
-  - 'Black Falcons : 7': black-falcons|1
-  - 'Black Knights : 14': black-knights|1
-  - 'Blacktron I : 7': blacktron-i|1
-  - 'Blacktron II : 14': blacktron-ii|1
-  - 'Bluey : 4': bluey|1
-  - 'Boat : 21': boat|1
-  - 'Bob the Builder : 31': bob-the-builder|1
-  - 'Books : 1': books|1
-  - 'Botanicals : 32': botanicals|1
-  - 'Brick Sketches : 8': brick-sketches|1
-  - 'Brickheadz : 183': brickheadz|1
-  - 'BrickLink Designer Program : 58': bricklink-designer-program|1
-  - 'Bricks & More : 67': bricks-more|1
-  - 'Bricktober : 43': bricktober|1
-  - 'Building : 17': building|1
-  - 'Building Set with People : 32': building-set-with-people|1
-  - 'Bulk Bricks : 128': bulk-bricks|1
-  - 'Captain America : 7': captain-america|1
-  - 'Cargo : 8': cargo|1
-  - 'Cars : 57': cars|1
-  - 'Castle : 29': castle|1
-  - 'Chinese (Lunar) New Year : 21': chinese-lunar-new-year|1
-  - 'Chinese Traditional Festivals : 32': chinese-traditional-festivals|1
-  - 'Christmas : 168': christmas|1
-  - 'Cities of Wonders : 10': cities-of-wonders|1
-  - 'City : 264': city|1
-  - 'City Center : 21': city-center|1
-  - 'Classic : 78': classic|1
-  - 'Classic Basic : 52': classic-basic|1
-  - 'Classic Castle : 8': classic-castle|1
-  - 'Classic Space : 89': classic-space|1
-  - 'Classic Town : 410': classic-town|1
-  - 'Clikits : 80': clikits|1
-  - 'Clocks and Watches : 213': clocks-and-watches|1
-  - 'Coast Guard : 28': coast-guard|1
-  - 'Collectible Minifigures : 36': collectible-minifigures|1
-  - 'Competition : 17': competition|1
-  - 'Constraction : 16': constraction|1
-  - 'Construction : 120': construction|1
-  - 'Control Lab : 7': control-lab|1
-  - 'Creator : 219': creator|1
-  - 'Creator 3-in-1 : 251': creator-3-in-1|1
-  - 'Creator Expert : 46': creator-expert|1
-  - 'Dark Forest : 3': dark-forest|1
-  - 'DC Comics : 8': dc-comics|1
-  - 'DC Comics Super Heroes : 4': dc-comics-super-heroes|1
-  - 'DC Super Hero Girls : 11': dc-super-hero-girls|1
-  - 'DC Super Heroes : 19': dc-super-heroes|1
-  - 'Desert : 26': desert|1
-  - 'Designer Sets : 50': designer-sets|1
-  - 'Despicable Me 4 : 5': despicable-me-4|1
-  - 'DFB Minifigures : 19': dfb-minifigures|1
-  - 'Dimensions : 68': dimensions|1
-  - 'Dino : 20': dino|1
-  - 'Dino Attack / Dino 2010 : 12': dino-attack-dino-2010|1
-  - 'Dino Island : 17': dino-island|1
-  - 'Dinosaurs : 16': dinosaurs|1
-  - 'Discovery : 6': discovery|1
-  - 'Disney : 62': disney|1
-  - 'Disney 100 : 22': disney-100|1
-  - 'Disney Princess : 127': disney-princess|1
-  - 'Disney Series 1 : 21': disney-series-1|1
-  - 'Disney Series 2 : 21': disney-series-2|1
-  - 'Divers : 12': divers|1
-  - 'Doc McStuffins : 4': doc-mcstuffins|1
-  - 'Dolls : 6': dolls|1
-  - 'Dora the Explorer : 5': dora-the-explorer|1
-  - 'DOTS : 93': dots|1
-  - 'Dragon Knights : 13': dragon-knights|1
-  - 'Dreamzzz : 60': dreamzzz|1
-  - 'Dungeons & Dragons : 16': dungeons-dragons|1
-  - 'Duplo : 144': duplo|1
-  - 'Duplo and Explore : 189': duplo-and-explore|1
-  - 'Early Creator : 35': early-creator|1
-  - 'Easter : 52': easter|1
-  - 'Educational and Dacta : 108': educational-and-dacta|1
-  - 'eLAB : 5': elab|1
-  - 'Elves : 42': elves|1
-  - 'EV3 : 12': ev3|1
-  - 'Exo-Force : 49': exo-force|1
-  - 'Expert Builder : 39': expert-builder|1
-  - 'Exploriens : 9': exploriens|1
-  - 'Extreme Team : 20': extreme-team|1
-  - 'Fabuland : 107': fabuland|1
-  - 'Factory : 7': factory|1
-  - 'Fantastic Beasts : 1': fantastic-beasts|1
-  - 'Fantasy Era : 29': fantasy-era|1
-  - 'Farm : 21': farm|1
-  - 'Ferrari : 30': ferrari|1
-  - 'Ferries : 17': ferries|1
-  - 'Fire : 122': fire|1
-  - 'FIRST LEGO League : 53': first-lego-league|1
-  - 'Forestmen : 7': forestmen|1
-  - 'Forma : 4': forma|1
-  - 'Formula 1 : 17': formula-1|1
-  - 'Fortnite : 9': fortnite|1
-  - 'Freestyle : 64': freestyle|1
-  - 'Friends : 653': friends|1
-  - 'Fright Knights : 16': fright-knights|1
-  - 'Frozen : 33': frozen|1
-  - 'Fusion : 4': fusion|1
-  - 'Futuron : 19': futuron|1
-  - 'Gabby''s Dollhouse : 9': gabbys-dollhouse|1
-  - 'Galaxy Squad : 12': galaxy-squad|1
-  - 'Galidor : 20': galidor|1
-  - 'Games : 46': games|1
-  - 'Gas Station : 6': gas-station|1
-  - 'Gear : 461': gear|1
-  - 'Gears : 9': gears|1
-  - 'Ghostbusters : 2': ghostbusters|1
-  - 'Gravity Games : 10': gravity-games|1
-  - 'Guardians of the Galaxy : 14': guardians-of-the-galaxy|1
-  - 'Halloween : 31': halloween|1
-  - 'Harbor : 25': harbor|1
-  - 'Harry Potter : 178': harry-potter|1
-  - 'Harry Potter and Fantastic Beasts Series 1 : 25': harry-potter-and-fantastic-beasts-series-1|1
-  - 'Harry Potter and Fantastic Beasts Series 2 : 19': harry-potter-and-fantastic-beasts-series-2|1
-  - 'Hero Factory : 34': hero-factory|1
-  - 'Heroes : 44': heroes|1
-  - 'Hidden Side : 32': hidden-side|1
-  - 'HO 1:87 Vehicles : 46': ho-187-vehicles|1
-  - 'Hobby Sets : 9': hobby-sets|1
-  - 'Hockey : 18': hockey|1
-  - 'Homemaker : 32': homemaker|1
-  - 'Horizon Adventures : 1': horizon-adventures|1
-  - 'Hospital : 31': hospital|1
-  - 'Houseware : 382': houseware|1
-  - 'Hydronauts : 7': hydronauts|1
-  - 'Ice Planet 2002 : 10': ice-planet-2002|1
-  - 'Icons : 69': icons|1
-  - 'Ideas Books : 117': ideas-books|1
-  - 'Incredibles 2 : 3': incredibles-2|1
-  - 'Indiana Jones : 20': indiana-jones|1
-  - 'Insectoids : 18': insectoids|1
-  - 'Inventor : 5': inventor|1
-  - 'Iron Man : 5': iron-man|1
-  - 'Island Xtreme Stunts : 13': island-xtreme-stunts|1
-  - 'Jack Stone : 25': jack-stone|1
-  - 'Jake and the Never Land Pirates : 7': jake-and-the-never-land-pirates|1
-  - 'Jumbo Bricks : 4': jumbo-bricks|1
-  - 'Jungle : 27': jungle|1
-  - 'Juniors : 29': juniors|1
-  - 'Jurassic Park III : 2': jurassic-park-iii|1
-  - 'Jurassic World : 116': jurassic-world|1
-  - 'Jurassic World: Fallen Kingdom : 3': jurassic-world-fallen-kingdom|1
-  - 'Justice League : 16': justice-league|1
-  - 'Key Chain : 692': key-chain|1
-  - 'Kingdoms : 17': kingdoms|1
-  - 'Knights Kingdom I : 20': knights-kingdom-i|1
-  - 'Knights Kingdom II : 71': knights-kingdom-ii|1
-  - 'Launch Command : 5': launch-command|1
-  - 'Learning : 5': learning|1
-  - 'Legends of Chima : 96': legends-of-chima|1
-  - 'LEGO Art : 24': lego-art|1
-  - 'LEGO Brand Store : 107': lego-brand-store|1
-  - 'LEGO Exclusive : 67': lego-exclusive|1
-  - 'LEGO Ideas and CUUSOO : 86': lego-ideas-and-cuusoo|1
-  - 'LEGO Originals : 19': lego-originals|1
-  - 'Legoland Parks : 34': legoland-parks|1
-  - 'Legoville : 76': legoville|1
-  - 'Life On Mars : 25': life-on-mars|1
-  - 'Lion Knights : 26': lion-knights|1
-  - 'Little Forest Friends : 10': little-forest-friends|1
-  - 'Little Robots : 16': little-robots|1
-  - 'Looney Tunes : 16': looney-tunes|1
-  - 'M:Tron : 9': mtron|1
-  - 'Magnets : 133': magnets|1
-  - 'Make & Create : 49': make-create|1
-  - 'Mars Exploration : 12': mars-exploration|1
-  - 'Mars Mission : 19': mars-mission|1
-  - 'Marvel : 13': marvel|1
-  - 'Marvel Series 1 : 16': marvel-series-1|1
-  - 'Marvel Series 2 : 16': marvel-series-2|1
-  - 'Marvel Super Heroes : 4': marvel-super-heroes|1
-  - 'Master Builder Academy : 17': master-builder-academy|1
-  - 'McDonalds : 19': mcdonalds|1
-  - 'Mickey & Friends : 18': mickey-friends|1
-  - 'Mickey Mouse : 14': mickey-mouse|1
-  - 'Miles From Tomorrowland : 3': miles-from-tomorrowland|1
-  - 'Mindstorms : 24': mindstorms|1
-  - 'Minecraft : 188': minecraft|1
-  - 'Mini : 1': mini|1
-  - 'Minions : 9': minions|1
-  - 'Minitalia : 19': minitalia|1
-  - 'Mission Deep Freeze : 8': mission-deep-freeze|1
-  - 'Mission Deep Sea : 17': mission-deep-sea|1
-  - 'Mixels : 123': mixels|1
-  - 'Model Team : 16': model-team|1
-  - 'Modular Buildings : 20': modular-buildings|1
-  - 'Monkie Kid : 58': monkie-kid|1
-  - 'Monster Fighters : 14': monster-fighters|1
-  - 'Monthly Mini Model Build : 109': monthly-mini-model-build|1
-  - 'Mosaic : 6': mosaic|1
-  - 'My Town : 11': my-town|1
-  - 'Nexo Knights : 104': nexo-knights|1
-  - 'Nike : 3': nike|1
-  - 'Ninja : 31': ninja|1
-  - 'Ninjago : 587': ninjago|1
-  - 'Non-fiction Books : 172': non-fiction-books|1
-  - 'NXT : 30': nxt|1
-  - 'Off-Road : 12': off-road|1
-  - 'One Piece : 6': one-piece|1
-  - 'Orient Expedition : 22': orient-expedition|1
-  - 'Other : 96': other|1
-  - 'Outback : 5': outback|1
-  - 'Overwatch : 9': overwatch|1
-  - 'Paradisa : 18': paradisa|1
-  - 'Pharaoh''s Quest : 9': pharaohs-quest|1
-  - 'Pick A Model : 24': pick-a-model|1
-  - 'Pirates : 5': pirates|1
-  - 'Pirates I : 66': pirates-i|1
-  - 'Pirates II : 14': pirates-ii|1
-  - 'Pirates III : 9': pirates-iii|1
-  - 'Pirates of the Caribbean : 17': pirates-of-the-caribbean|1
-  - 'Planes : 4': planes|1
-  - 'Playhouse : 58': playhouse|1
-  - 'Playsets : 11': playsets|1
-  - 'Plush Toys : 101': plush-toys|1
-  - 'Police : 203': police|1
-  - 'Posters and Art Prints : 89': posters-and-art-prints|1
-  - 'Power Functions : 18': power-functions|1
-  - 'Power Miners : 19': power-miners|1
-  - 'Powered Up : 15': powered-up|1
-  - 'Primo : 114': primo|1
-  - 'Prince of Persia : 6': prince-of-persia|1
-  - 'Princess Castle : 6': princess-castle|1
-  - 'Promotional : 170': promotional|1
-  - 'Protectors : 6': protectors|1
-  - 'Quatro : 9': quatro|1
-  - 'Race : 16': race|1
-  - 'Racers : 185': racers|1
-  - 'Rattles : 21': rattles|1
-  - 'RC : 22': rc|1
-  - 'RCX : 31': rcx|1
-  - 'Res-Q : 11': res-q|1
-  - 'RoboForce : 4': roboforce|1
-  - 'RoboRiders : 20': roboriders|1
-  - 'Rock Raiders : 15': rock-raiders|1
-  - 'Role Play Toys and Costumes : 229': role-play-toys-and-costumes|1
-  - 'Royal Knights : 9': royal-knights|1
-  - 'Samsonite : 113': samsonite|1
-  - 'Scala : 72': scala|1
-  - 'Scooby-Doo : 7': scooby-doo|1
-  - 'Sculptures : 3': sculptures|1
-  - 'Seasonal : 65': seasonal|1
-  - 'Series 1 Minifigures : 19': series-1-minifigures|1
-  - 'Series 10 Minifigures : 20': series-10-minifigures|1
-  - 'Series 11 Minifigures : 19': series-11-minifigures|1
-  - 'Series 12 Minifigures : 19': series-12-minifigures|1
-  - 'Series 13 Minifigures : 19': series-13-minifigures|1
-  - 'Series 14 Minifigures : 19': series-14-minifigures|1
-  - 'Series 15 Minifigures : 19': series-15-minifigures|1
-  - 'Series 16 Minifigures : 19': series-16-minifigures|1
-  - 'Series 17 Minifigures : 19': series-17-minifigures|1
-  - 'Series 18 Minifigures : 20': series-18-minifigures|1
-  - 'Series 19 Minifigures : 20': series-19-minifigures|1
-  - 'Series 2 Minifigures : 19': series-2-minifigures|1
-  - 'Series 20 Minifigures : 19': series-20-minifigures|1
-  - 'Series 21 Minifigures : 16': series-21-minifigures|1
-  - 'Series 22 Minifigures : 16': series-22-minifigures|1
-  - 'Series 23 Minifigures : 16': series-23-minifigures|1
-  - 'Series 24 Minifigures : 16': series-24-minifigures|1
-  - 'Series 25 Minifigures : 16': series-25-minifigures|1
-  - 'Series 26 Minifigures : 16': series-26-minifigures|1
-  - 'Series 27 Minifigures : 16': series-27-minifigures|1
-  - 'Series 3 Minifigures : 19': series-3-minifigures|1
-  - 'Series 4 Minifigures : 19': series-4-minifigures|1
-  - 'Series 5 Minifigures : 19': series-5-minifigures|1
-  - 'Series 6 Minifigures : 19': series-6-minifigures|1
-  - 'Series 7 Minifigures : 19': series-7-minifigures|1
-  - 'Series 8 Minifigures : 19': series-8-minifigures|1
-  - 'Series 9 Minifigures : 19': series-9-minifigures|1
-  - 'Serious Play : 13': serious-play|1
-  - 'Service Packs : 328': service-packs|1
-  - 'Skylines : 14': skylines|1
-  - 'Soccer : 98': soccer|1
-  - 'Sofia the First : 3': sofia-the-first|1
-  - 'Soft Bricks : 6': soft-bricks|1
-  - 'Sonic The Hedgehog : 20': sonic-the-hedgehog|1
-  - 'Space : 8': space|1
-  - 'Space Police I : 6': space-police-i|1
-  - 'Space Police II : 8': space-police-ii|1
-  - 'Space Police III : 16': space-police-iii|1
-  - 'Space Port : 20': space-port|1
-  - 'Speed Champions : 95': speed-champions|1
-  - 'Speed Racer : 4': speed-racer|1
-  - 'Speed Slammers : 5': speed-slammers|1
-  - 'Speedorz : 30': speedorz|1
-  - 'Spider-Man : 113': spider-man|1
-  - 'Spider-Man - Across the Spider-Verse : 17': spider-man-across-the-spider-verse|1
-  - 'Spidey and His Amazing Friends : 9': spidey-and-his-amazing-friends|1
-  - 'SPIKE : 31': spike|1
-  - 'SpongeBob SquarePants : 14': spongebob-squarepants|1
-  - 'Sports : 4': sports|1
-  - 'Spybotics : 4': spybotics|1
-  - 'Spyrius : 9': spyrius|1
-  - 'Star Wars : 949': star-wars|1
-  - 'Stationery and Office Supplies : 579': stationery-and-office-supplies|1
-  - 'Stingrays : 5': stingrays|1
-  - 'Storage : 165': storage|1
-  - 'Story Books : 350': story-books|1
-  - 'Stranger Things : 1': stranger-things|1
-  - 'Studios : 50': studios|1
-  - 'Stuntz : 27': stuntz|1
-  - 'Super Heroes DC : 21': super-heroes-dc|1
-  - 'Super Heroes Marvel : 51': super-heroes-marvel|1
-  - 'Super Mario : 178': super-mario|1
-  - 'Superman : 9': superman|1
-  - 'Supplemental : 335': supplemental|1
-  - 'System : 48': system|1
-  - 'Tabletop Games and Puzzles : 58': tabletop-games-and-puzzles|1
-  - 'Team GB : 12': team-gb|1
-  - 'Technic : 757': technic|1
-  - 'Teenage Mutant Ninja Turtles : 20': teenage-mutant-ninja-turtles|1
-  - 'Thanksgiving : 9': thanksgiving|1
-  - 'The Hobbit : 20': the-hobbit|1
-  - 'The Infinity Saga : 56': the-infinity-saga|1
-  - 'The Legend of Zelda : 1': the-legend-of-zelda|1
-  - 'The LEGO Batman Movie : 42': the-lego-batman-movie|1
-  - 'The LEGO Batman Movie Series 1 : 23': the-lego-batman-movie-series-1|1
-  - 'The LEGO Batman Movie Series 2 : 23': the-lego-batman-movie-series-2|1
-  - 'The LEGO Movie : 46': the-lego-movie|1
-  - 'The LEGO Movie II : 63': the-lego-movie-ii|1
-  - 'The LEGO Ninjago Movie : 55': the-lego-ninjago-movie|1
-  - 'The Lone Ranger : 8': the-lone-ranger|1
-  - 'The Lord of the Rings : 17': the-lord-of-the-rings|1
-  - 'The Muppets : 16': the-muppets|1
-  - 'The Powerpuff Girls : 2': the-powerpuff-girls|1
-  - 'The Simpsons Series 1 : 19': the-simpsons-series-1|1
-  - 'The Simpsons Series 2 : 19': the-simpsons-series-2|1
-  - 'Thomas & Friends : 16': thomas-friends|1
-  - 'Throwbot Slizer : 14': throwbot-slizer|1
-  - 'Time Cruisers : 9': time-cruisers|1
-  - 'Toolo : 13': toolo|1
-  - 'Town : 407': town|1
-  - 'Town Jr. : 39': town-jr|1
-  - 'Town Plan : 32': town-plan|1
-  - 'Toy Story : 27': toy-story|1
-  - 'Traffic : 61': traffic|1
-  - 'Train : 68': train|1
-  - 'Trains : 101': trains|1
-  - 'Trolls: World Tour : 9': trolls-world-tour|1
-  - 'UCS : 6': ucs|1
-  - 'UFO : 18': ufo|1
-  - 'Ultimate Collector Series : 49': ultimate-collector-series|1
-  - 'Ultra Agents : 15': ultra-agents|1
-  - 'Unikitty! : 26': unikitty|1
-  - 'Unitron : 4': unitron|1
-  - 'Universal Building Set : 102': universal-building-set|1
-  - 'Universe : 2': universe|1
-  - 'Valentine : 21': valentine|1
-  - 'Value Packs : 35': value-packs|1
-  - 'Vehicle : 31': vehicle|1
-  - 'Video Games and Accessories : 257': video-games-and-accessories|1
-  - 'VIDIYO : 50': vidiyo|1
-  - 'Vikings : 8': vikings|1
-  - 'Villains : 33': villains|1
-  - 'VIP Add-On Packs : 10': vip-add-on-packs|1
-  - 'Wednesday : 5': wednesday|1
-  - 'WeDo : 26': wedo|1
-  - 'Western : 32': western|1
-  - 'Wicked : 11': wicked|1
-  - 'Winnie the Pooh : 19': winnie-the-pooh|1
-  - 'Wolfpack : 3': wolfpack|1
-  - 'World City : 42': world-city|1
-  - 'World Racers : 9': world-racers|1
-  - 'X-Men : 8': x-men|1
-  - 'X-Pod : 22': x-pod|1
-  - 'Xtra : 19': xtra|1
-  - 'Znap : 19': znap|1
-  - 'Zooters : 3': zooters|1
+  - ' (14270)': unknown|19|14270
+  - 12V (52): 12v|1|52
+  - 4 Juniors (23): 4-juniors|1|23
+  - 4.5V (85): 45v|1|85
+  - 9V (67): 9v|1|67
+  - Action Wheelers (9): action-wheelers|1|9
+  - Activity Books (230): activity-books|1|230
+  - Activity Books with LEGO Parts (399): activity-books-with-lego-parts|1|399
+  - Advent (5): advent|1|5
+  - Agents (13): agents|1|13
+  - Airlines (16): airlines|1|16
+  - Airport (56): airport|1|56
+  - Alien Conquest (10): alien-conquest|1|10
+  - Alpha Team (7): alpha-team|1|7
+  - Angry Birds (6): angry-birds|1|6
+  - Animal Crossing (17): animal-crossing|1|17
+  - Aquanauts (8): aquanauts|1|8
+  - Aquaraiders I (3): aquaraiders-i|1|3
+  - Aquaraiders II (7): aquaraiders-ii|1|7
+  - Aquasharks (4): aquasharks|1|4
+  - Aquazone (1): aquazone|1|1
+  - Architecture (50): architecture|1|50
+  - Arctic (39): arctic|1|39
+  - Atlantis (24): atlantis|1|24
+  - Audio and Visual Media (59): audio-and-visual-media|1|59
+  - Avatar (9): avatar|1|9
+  - 'Avatar: The Last Airbender (2)': avatar-the-last-airbender|1|2
+  - Avengers (93): avengers|1|93
+  - Bag and Luggage Tags (121): bag-and-luggage-tags|1|121
+  - Bags, Totes, & Luggage (715): bags-totes-luggage|2|715
+  - Basic (197): basic|1|197
+  - Basic Set (325): basic-set|1|325
+  - Basketball (33): basketball|1|33
+  - Batman (131): batman|1|131
+  - Belville (84): belville|1|84
+  - Ben 10 (6): ben-10|1|6
+  - Bionicle (402): bionicle|1|402
+  - Black Falcons (7): black-falcons|1|7
+  - Black Knights (14): black-knights|1|14
+  - Blacktron I (7): blacktron-i|1|7
+  - Blacktron II (14): blacktron-ii|1|14
+  - Bluey (4): bluey|1|4
+  - Boat (21): boat|1|21
+  - Bob the Builder (31): bob-the-builder|1|31
+  - Books (1): books|1|1
+  - Botanicals (32): botanicals|1|32
+  - Brick Sketches (8): brick-sketches|1|8
+  - Brickheadz (183): brickheadz|1|183
+  - BrickLink Designer Program (58): bricklink-designer-program|1|58
+  - Bricks & More (67): bricks-more|1|67
+  - Bricktober (43): bricktober|1|43
+  - Building (17): building|1|17
+  - Building Set with People (32): building-set-with-people|1|32
+  - Bulk Bricks (128): bulk-bricks|1|128
+  - Captain America (7): captain-america|1|7
+  - Cargo (8): cargo|1|8
+  - Cars (57): cars|1|57
+  - Castle (29): castle|1|29
+  - Chinese (Lunar) New Year (21): chinese-lunar-new-year|1|21
+  - Chinese Traditional Festivals (32): chinese-traditional-festivals|1|32
+  - Christmas (168): christmas|1|168
+  - Cities of Wonders (10): cities-of-wonders|1|10
+  - City (264): city|1|264
+  - City Center (21): city-center|1|21
+  - Classic (78): classic|1|78
+  - Classic Basic (52): classic-basic|1|52
+  - Classic Castle (8): classic-castle|1|8
+  - Classic Space (89): classic-space|1|89
+  - Classic Town (410): classic-town|1|410
+  - Clikits (80): clikits|1|80
+  - Clocks and Watches (213): clocks-and-watches|1|213
+  - Coast Guard (28): coast-guard|1|28
+  - Collectible Minifigures (36): collectible-minifigures|1|36
+  - Competition (17): competition|1|17
+  - Constraction (16): constraction|1|16
+  - Construction (120): construction|1|120
+  - Control Lab (7): control-lab|1|7
+  - Creator (219): creator|1|219
+  - Creator 3-in-1 (251): creator-3-in-1|1|251
+  - Creator Expert (46): creator-expert|1|46
+  - Dark Forest (3): dark-forest|1|3
+  - DC Comics (8): dc-comics|1|8
+  - DC Comics Super Heroes (4): dc-comics-super-heroes|1|4
+  - DC Super Hero Girls (11): dc-super-hero-girls|1|11
+  - DC Super Heroes (19): dc-super-heroes|1|19
+  - Desert (26): desert|1|26
+  - Designer Sets (50): designer-sets|1|50
+  - Despicable Me 4 (5): despicable-me-4|1|5
+  - DFB Minifigures (19): dfb-minifigures|1|19
+  - Dimensions (68): dimensions|1|68
+  - Dino (20): dino|1|20
+  - Dino Attack / Dino 2010 (12): dino-attack-dino-2010|1|12
+  - Dino Island (17): dino-island|1|17
+  - Dinosaurs (16): dinosaurs|1|16
+  - Discovery (6): discovery|1|6
+  - Disney (62): disney|1|62
+  - Disney 100 (22): disney-100|1|22
+  - Disney Princess (127): disney-princess|1|127
+  - Disney Series 1 (21): disney-series-1|1|21
+  - Disney Series 2 (21): disney-series-2|1|21
+  - Divers (12): divers|1|12
+  - Doc McStuffins (4): doc-mcstuffins|1|4
+  - Dolls (6): dolls|1|6
+  - Dora the Explorer (5): dora-the-explorer|1|5
+  - DOTS (93): dots|1|93
+  - Dragon Knights (13): dragon-knights|1|13
+  - Dreamzzz (60): dreamzzz|1|60
+  - Dungeons & Dragons (16): dungeons-dragons|1|16
+  - Duplo (144): duplo|1|144
+  - Duplo and Explore (189): duplo-and-explore|1|189
+  - Early Creator (35): early-creator|1|35
+  - Easter (52): easter|1|52
+  - Educational and Dacta (108): educational-and-dacta|1|108
+  - eLAB (5): elab|1|5
+  - Elves (42): elves|1|42
+  - EV3 (12): ev3|1|12
+  - Exo-Force (49): exo-force|1|49
+  - Expert Builder (39): expert-builder|1|39
+  - Exploriens (9): exploriens|1|9
+  - Extreme Team (20): extreme-team|1|20
+  - Fabuland (107): fabuland|1|107
+  - Factory (7): factory|1|7
+  - Fantastic Beasts (1): fantastic-beasts|1|1
+  - Fantasy Era (29): fantasy-era|1|29
+  - Farm (21): farm|1|21
+  - Ferrari (30): ferrari|1|30
+  - Ferries (17): ferries|1|17
+  - Fire (122): fire|1|122
+  - FIRST LEGO League (53): first-lego-league|1|53
+  - Forestmen (7): forestmen|1|7
+  - Forma (4): forma|1|4
+  - Formula 1 (17): formula-1|1|17
+  - Fortnite (9): fortnite|1|9
+  - Freestyle (64): freestyle|1|64
+  - Friends (653): friends|1|653
+  - Fright Knights (16): fright-knights|1|16
+  - Frozen (33): frozen|1|33
+  - Fusion (4): fusion|1|4
+  - Futuron (19): futuron|1|19
+  - Gabby's Dollhouse (9): gabbys-dollhouse|1|9
+  - Galaxy Squad (12): galaxy-squad|1|12
+  - Galidor (20): galidor|1|20
+  - Games (46): games|1|46
+  - Gas Station (6): gas-station|1|6
+  - Gear (461): gear|1|461
+  - Gears (9): gears|1|9
+  - Ghostbusters (2): ghostbusters|1|2
+  - Gravity Games (10): gravity-games|1|10
+  - Guardians of the Galaxy (14): guardians-of-the-galaxy|1|14
+  - Halloween (31): halloween|1|31
+  - Harbor (25): harbor|1|25
+  - Harry Potter (178): harry-potter|1|178
+  - Harry Potter and Fantastic Beasts Series 1 (25): harry-potter-and-fantastic-beasts-series-1|1|25
+  - Harry Potter and Fantastic Beasts Series 2 (19): harry-potter-and-fantastic-beasts-series-2|1|19
+  - Hero Factory (34): hero-factory|1|34
+  - Heroes (44): heroes|1|44
+  - Hidden Side (32): hidden-side|1|32
+  - HO 1:87 Vehicles (46): ho-187-vehicles|1|46
+  - Hobby Sets (9): hobby-sets|1|9
+  - Hockey (18): hockey|1|18
+  - Homemaker (32): homemaker|1|32
+  - Horizon Adventures (1): horizon-adventures|1|1
+  - Hospital (31): hospital|1|31
+  - Houseware (382): houseware|1|382
+  - Hydronauts (7): hydronauts|1|7
+  - Ice Planet 2002 (10): ice-planet-2002|1|10
+  - Icons (69): icons|1|69
+  - Ideas Books (117): ideas-books|1|117
+  - Incredibles 2 (3): incredibles-2|1|3
+  - Indiana Jones (20): indiana-jones|1|20
+  - Insectoids (18): insectoids|1|18
+  - Inventor (5): inventor|1|5
+  - Iron Man (5): iron-man|1|5
+  - Island Xtreme Stunts (13): island-xtreme-stunts|1|13
+  - Jack Stone (25): jack-stone|1|25
+  - Jake and the Never Land Pirates (7): jake-and-the-never-land-pirates|1|7
+  - Jumbo Bricks (4): jumbo-bricks|1|4
+  - Jungle (27): jungle|1|27
+  - Juniors (29): juniors|1|29
+  - Jurassic Park III (2): jurassic-park-iii|1|2
+  - Jurassic World (116): jurassic-world|1|116
+  - 'Jurassic World: Fallen Kingdom (3)': jurassic-world-fallen-kingdom|1|3
+  - Justice League (16): justice-league|1|16
+  - Key Chain (692): key-chain|1|692
+  - Kingdoms (17): kingdoms|1|17
+  - Knights Kingdom I (20): knights-kingdom-i|1|20
+  - Knights Kingdom II (71): knights-kingdom-ii|1|71
+  - Launch Command (5): launch-command|1|5
+  - Learning (5): learning|1|5
+  - Legends of Chima (96): legends-of-chima|1|96
+  - LEGO Art (24): lego-art|1|24
+  - LEGO Brand Store (107): lego-brand-store|1|107
+  - LEGO Exclusive (67): lego-exclusive|1|67
+  - LEGO Ideas and CUUSOO (86): lego-ideas-and-cuusoo|1|86
+  - LEGO Originals (19): lego-originals|1|19
+  - Legoland Parks (34): legoland-parks|1|34
+  - Legoville (76): legoville|1|76
+  - Life On Mars (25): life-on-mars|1|25
+  - Lion Knights (26): lion-knights|1|26
+  - Little Forest Friends (10): little-forest-friends|1|10
+  - Little Robots (16): little-robots|1|16
+  - Looney Tunes (16): looney-tunes|1|16
+  - M:Tron (9): mtron|1|9
+  - Magnets (133): magnets|1|133
+  - Make & Create (49): make-create|1|49
+  - Mars Exploration (12): mars-exploration|1|12
+  - Mars Mission (19): mars-mission|1|19
+  - Marvel (13): marvel|1|13
+  - Marvel Series 1 (16): marvel-series-1|1|16
+  - Marvel Series 2 (16): marvel-series-2|1|16
+  - Marvel Super Heroes (4): marvel-super-heroes|1|4
+  - Master Builder Academy (17): master-builder-academy|1|17
+  - McDonalds (19): mcdonalds|1|19
+  - Mickey & Friends (18): mickey-friends|1|18
+  - Mickey Mouse (14): mickey-mouse|1|14
+  - Miles From Tomorrowland (3): miles-from-tomorrowland|1|3
+  - Mindstorms (24): mindstorms|1|24
+  - Minecraft (188): minecraft|1|188
+  - Mini (1): mini|1|1
+  - Minions (9): minions|1|9
+  - Minitalia (19): minitalia|1|19
+  - Mission Deep Freeze (8): mission-deep-freeze|1|8
+  - Mission Deep Sea (17): mission-deep-sea|1|17
+  - Mixels (123): mixels|1|123
+  - Model Team (16): model-team|1|16
+  - Modular Buildings (20): modular-buildings|1|20
+  - Monkie Kid (58): monkie-kid|1|58
+  - Monster Fighters (14): monster-fighters|1|14
+  - Monthly Mini Model Build (109): monthly-mini-model-build|1|109
+  - Mosaic (6): mosaic|1|6
+  - My Town (11): my-town|1|11
+  - Nexo Knights (104): nexo-knights|1|104
+  - Nike (3): nike|1|3
+  - Ninja (31): ninja|1|31
+  - Ninjago (587): ninjago|1|587
+  - Non-fiction Books (172): non-fiction-books|1|172
+  - NXT (30): nxt|1|30
+  - Off-Road (12): off-road|1|12
+  - One Piece (6): one-piece|1|6
+  - Orient Expedition (22): orient-expedition|1|22
+  - Other (96): other|1|96
+  - Outback (5): outback|1|5
+  - Overwatch (9): overwatch|1|9
+  - Paradisa (18): paradisa|1|18
+  - Pharaoh's Quest (9): pharaohs-quest|1|9
+  - Pick A Model (24): pick-a-model|1|24
+  - Pirates (5): pirates|1|5
+  - Pirates I (66): pirates-i|1|66
+  - Pirates II (14): pirates-ii|1|14
+  - Pirates III (9): pirates-iii|1|9
+  - Pirates of the Caribbean (17): pirates-of-the-caribbean|1|17
+  - Planes (4): planes|1|4
+  - Playhouse (58): playhouse|1|58
+  - Playsets (11): playsets|1|11
+  - Plush Toys (101): plush-toys|1|101
+  - Police (203): police|1|203
+  - Posters and Art Prints (89): posters-and-art-prints|1|89
+  - Power Functions (18): power-functions|1|18
+  - Power Miners (19): power-miners|1|19
+  - Powered Up (15): powered-up|1|15
+  - Primo (114): primo|1|114
+  - Prince of Persia (6): prince-of-persia|1|6
+  - Princess Castle (6): princess-castle|1|6
+  - Promotional (170): promotional|1|170
+  - Protectors (6): protectors|1|6
+  - Quatro (9): quatro|1|9
+  - Race (16): race|1|16
+  - Racers (185): racers|1|185
+  - Rattles (21): rattles|1|21
+  - RC (22): rc|1|22
+  - RCX (31): rcx|1|31
+  - Res-Q (11): res-q|1|11
+  - RoboForce (4): roboforce|1|4
+  - RoboRiders (20): roboriders|1|20
+  - Rock Raiders (15): rock-raiders|1|15
+  - Role Play Toys and Costumes (229): role-play-toys-and-costumes|1|229
+  - Royal Knights (9): royal-knights|1|9
+  - Samsonite (113): samsonite|1|113
+  - Scala (72): scala|1|72
+  - Scooby-Doo (7): scooby-doo|1|7
+  - Sculptures (3): sculptures|1|3
+  - Seasonal (65): seasonal|1|65
+  - Series 1 Minifigures (19): series-1-minifigures|1|19
+  - Series 10 Minifigures (20): series-10-minifigures|1|20
+  - Series 11 Minifigures (19): series-11-minifigures|1|19
+  - Series 12 Minifigures (19): series-12-minifigures|1|19
+  - Series 13 Minifigures (19): series-13-minifigures|1|19
+  - Series 14 Minifigures (19): series-14-minifigures|1|19
+  - Series 15 Minifigures (19): series-15-minifigures|1|19
+  - Series 16 Minifigures (19): series-16-minifigures|1|19
+  - Series 17 Minifigures (19): series-17-minifigures|1|19
+  - Series 18 Minifigures (20): series-18-minifigures|1|20
+  - Series 19 Minifigures (20): series-19-minifigures|1|20
+  - Series 2 Minifigures (19): series-2-minifigures|1|19
+  - Series 20 Minifigures (19): series-20-minifigures|1|19
+  - Series 21 Minifigures (16): series-21-minifigures|1|16
+  - Series 22 Minifigures (16): series-22-minifigures|1|16
+  - Series 23 Minifigures (16): series-23-minifigures|1|16
+  - Series 24 Minifigures (16): series-24-minifigures|1|16
+  - Series 25 Minifigures (16): series-25-minifigures|1|16
+  - Series 26 Minifigures (16): series-26-minifigures|1|16
+  - Series 27 Minifigures (16): series-27-minifigures|1|16
+  - Series 3 Minifigures (19): series-3-minifigures|1|19
+  - Series 4 Minifigures (19): series-4-minifigures|1|19
+  - Series 5 Minifigures (19): series-5-minifigures|1|19
+  - Series 6 Minifigures (19): series-6-minifigures|1|19
+  - Series 7 Minifigures (19): series-7-minifigures|1|19
+  - Series 8 Minifigures (19): series-8-minifigures|1|19
+  - Series 9 Minifigures (19): series-9-minifigures|1|19
+  - Serious Play (13): serious-play|1|13
+  - Service Packs (328): service-packs|1|328
+  - Skylines (14): skylines|1|14
+  - Soccer (98): soccer|1|98
+  - Sofia the First (3): sofia-the-first|1|3
+  - Soft Bricks (6): soft-bricks|1|6
+  - Sonic The Hedgehog (20): sonic-the-hedgehog|1|20
+  - Space (8): space|1|8
+  - Space Police I (6): space-police-i|1|6
+  - Space Police II (8): space-police-ii|1|8
+  - Space Police III (16): space-police-iii|1|16
+  - Space Port (20): space-port|1|20
+  - Speed Champions (95): speed-champions|1|95
+  - Speed Racer (4): speed-racer|1|4
+  - Speed Slammers (5): speed-slammers|1|5
+  - Speedorz (30): speedorz|1|30
+  - Spider-Man (113): spider-man|1|113
+  - Spider-Man - Across the Spider-Verse (17): spider-man-across-the-spider-verse|1|17
+  - Spidey and His Amazing Friends (9): spidey-and-his-amazing-friends|1|9
+  - SPIKE (31): spike|1|31
+  - SpongeBob SquarePants (14): spongebob-squarepants|1|14
+  - Sports (4): sports|1|4
+  - Spybotics (4): spybotics|1|4
+  - Spyrius (9): spyrius|1|9
+  - Star Wars (949): star-wars|2|949
+  - Stationery and Office Supplies (579): stationery-and-office-supplies|1|579
+  - Stingrays (5): stingrays|1|5
+  - Storage (165): storage|1|165
+  - Story Books (350): story-books|1|350
+  - Stranger Things (1): stranger-things|1|1
+  - Studios (50): studios|1|50
+  - Stuntz (27): stuntz|1|27
+  - Super Heroes DC (21): super-heroes-dc|1|21
+  - Super Heroes Marvel (51): super-heroes-marvel|1|51
+  - Super Mario (178): super-mario|1|178
+  - Superman (9): superman|1|9
+  - Supplemental (335): supplemental|1|335
+  - System (48): system|1|48
+  - Tabletop Games and Puzzles (58): tabletop-games-and-puzzles|1|58
+  - Team GB (12): team-gb|1|12
+  - Technic (757): technic|1|757
+  - Teenage Mutant Ninja Turtles (20): teenage-mutant-ninja-turtles|1|20
+  - Thanksgiving (9): thanksgiving|1|9
+  - The Hobbit (20): the-hobbit|1|20
+  - The Infinity Saga (56): the-infinity-saga|1|56
+  - The Legend of Zelda (1): the-legend-of-zelda|1|1
+  - The LEGO Batman Movie (42): the-lego-batman-movie|1|42
+  - The LEGO Batman Movie Series 1 (23): the-lego-batman-movie-series-1|1|23
+  - The LEGO Batman Movie Series 2 (23): the-lego-batman-movie-series-2|1|23
+  - The LEGO Movie (46): the-lego-movie|1|46
+  - The LEGO Movie II (63): the-lego-movie-ii|1|63
+  - The LEGO Ninjago Movie (55): the-lego-ninjago-movie|1|55
+  - The Lone Ranger (8): the-lone-ranger|1|8
+  - The Lord of the Rings (17): the-lord-of-the-rings|1|17
+  - The Muppets (16): the-muppets|1|16
+  - The Powerpuff Girls (2): the-powerpuff-girls|1|2
+  - The Simpsons Series 1 (19): the-simpsons-series-1|1|19
+  - The Simpsons Series 2 (19): the-simpsons-series-2|1|19
+  - Thomas & Friends (16): thomas-friends|1|16
+  - Throwbot Slizer (14): throwbot-slizer|1|14
+  - Time Cruisers (9): time-cruisers|1|9
+  - Toolo (13): toolo|1|13
+  - Town (407): town|1|407
+  - Town Jr. (39): town-jr|1|39
+  - Town Plan (32): town-plan|1|32
+  - Toy Story (27): toy-story|1|27
+  - Traffic (61): traffic|1|61
+  - Train (68): train|1|68
+  - Trains (101): trains|1|101
+  - 'Trolls: World Tour (9)': trolls-world-tour|1|9
+  - UCS (6): ucs|1|6
+  - UFO (18): ufo|1|18
+  - Ultimate Collector Series (49): ultimate-collector-series|1|49
+  - Ultra Agents (15): ultra-agents|1|15
+  - Unikitty! (26): unikitty|1|26
+  - Unitron (4): unitron|1|4
+  - Universal Building Set (102): universal-building-set|1|102
+  - Universe (2): universe|1|2
+  - Valentine (21): valentine|1|21
+  - Value Packs (35): value-packs|1|35
+  - Vehicle (31): vehicle|1|31
+  - Video Games and Accessories (257): video-games-and-accessories|1|257
+  - VIDIYO (50): vidiyo|1|50
+  - Vikings (8): vikings|1|8
+  - Villains (33): villains|1|33
+  - VIP Add-On Packs (10): vip-add-on-packs|1|10
+  - Wednesday (5): wednesday|1|5
+  - WeDo (26): wedo|1|26
+  - Western (32): western|1|32
+  - Wicked (11): wicked|1|11
+  - Winnie the Pooh (19): winnie-the-pooh|1|19
+  - Wolfpack (3): wolfpack|1|3
+  - World City (42): world-city|1|42
+  - World Racers (9): world-racers|1|9
+  - X-Men (8): x-men|1|8
+  - X-Pod (22): x-pod|1|22
+  - Xtra (19): xtra|1|19
+  - Znap (19): znap|1|19
+  - Zooters (3): zooters|1|3
 - keyname: themes_brickset
   field_type: select
   name: Filter by Themes – Brickset (170)
-  description: Applicable only in Brickset API mode. Filters sets at the server level using Brickset’s official theme names.
+  description: Applicable only in Brickset API mode.
   multiple: true
   options:
   - 4 Juniors: 4 Juniors
