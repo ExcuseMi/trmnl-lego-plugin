@@ -517,7 +517,7 @@ async def create_options_yml(theme_info):
             'name': f'Filter by Themes - Rebrickable ({len(sorted_themes)})',
             'description': f'<strong>For Curated Dataset mode:</strong> Select themes to filter. Uses Rebrickable theme names. Number in parentheses shows available sets per theme.',
             'multiple': True,
-            'options': [{f"{info['name']} ({info['count']})": slug} for slug, info in sorted_themes],
+            'options': [{info['name'] + f" ({info['count']})": slug} for slug, info in sorted_themes],
             'optional': True
         },
         {
