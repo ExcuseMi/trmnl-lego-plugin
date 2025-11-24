@@ -4,7 +4,7 @@ no_screen_padding: 'no'
 dark_mode: 'no'
 static_data: ''
 polling_verb: get
-polling_url: "https://usetrmnl.com/custom_plugin_example_data.json\r\n\r\n{% if vendor ==  \"rebrickable\" %}\r\n{%- assign cleaned = themes_rebrickable \r\n  | replace: '[', ''\r\n  | replace: ']', ''\r\n  | replace: '\"', ''\r\n  | replace: ' ', '' -%}\r\n\r\n{%- assign themes_rebrickable_list = cleaned | split: \",\" -%}\r\n{%- comment -%} Count total weight first {%- endcomment -%}\r\n{%- assign total_weight = 0 -%}\r\n{%- for theme_data in themes_rebrickable_list -%}\r\n  {%- if theme_data != \"\" -%}\r\n    {%- assign parts = theme_data | split: \"|\" -%}\r\n    {%- if parts.size >= 3 -%}\r\n      {%- assign file_count = parts[1] | plus: 0 -%}  {%- comment -%} Second value is file_count {%- endcomment -%}\r\n      {%- assign total_weight = total_weight | plus: file_count -%}\r\n    {%- endif -%}\r\n  {%- endif -%}\r\n{%- endfor -%}\r\n\r\n{%- comment -%} Use cumulative weight approach {%- endcomment -%}\r\n{%- assign random_value = \"now\" | date: \"%s\" | modulo: total_weight -%}\r\n{%- assign cumulative_weight = 0 -%}\r\n{%- assign selected_theme = \"\" -%}\r\n\r\n{%- for theme_data in themes_rebrickable_list -%}\r\n  {%- if selected_theme == \"\" and theme_data != \"\" -%}\r\n    {%- assign parts = theme_data | split: \"|\" -%}\r\n    {%- if parts.size >= 3 -%}\r\n      {%- assign file_count = parts[1] | plus: 0 -%}  {%- comment -%} Second value is file_count {%- endcomment -%}\r\n      {%- assign cumulative_weight = cumulative_weight | plus: file_count -%}\r\n      {%- if random_value < cumulative_weight -%}\r\n        {%- assign selected_theme = theme_data -%}\r\n      {%- endif -%}\r\n    {%- endif -%}\r\n  {%- endif -%}\r\n{%- endfor -%}\r\n\r\n  {%- assign parts = selected_theme | split: \"|\" -%}\r\n  {%- assign theme = parts[0] -%}\r\n  {%- assign file_count = parts[1] | plus: 0 -%}  {%- comment -%} Second value is file_count {%- endcomment -%}\r\n  \r\n  {%- comment -%} Select random file from 0 to (file_count - 1) {%- endcomment -%}\r\n  {%- assign random_file_index = \"now\" | date: \"%N\" | plus: 0 | modulo: file_count -%}\r\n  \r\n  https://raw.githubusercontent.com/ExcuseMi/trmnl-lego-plugin/refs/heads/main/data/themes/{{theme}}/{{random_file_index}}.json\r\n\r\n{% else %}\r\nhttps://brickset.com/api/v3.asmx/getSets?apikey={{brickset_api_key}}&userhash={{brickset_user_hash}}&params=%7B{% if themes_brickset.size > 0 %}%27theme%27:%27{{themes_brickset| join: \",\"}}%27,{% endif %}{% if min_year != blank or max_year != blank %}%27year%27:%27{% assign start_year = min_year | default: 1949 %}{% assign end_year = max_year | default: \\\"now\\\" | date: \"%Y\" %}{% for year in (start_year..end_year) %}{{year}}{% unless forloop.last %},{% endunless %}{% endfor %}%27,{% endif %}{{brickset_owned_wanted}}%27pageSize%27:500%7D\r\n{% endif %}"
+polling_url: "https://usetrmnl.com/custom_plugin_example_data.json\r\n\r\n{% if vendor ==  \"rebrickable\" %}\r\n{%- assign cleaned = themes_rebrickable \r\n  | replace: '[', ''\r\n  | replace: ']', ''\r\n  | replace: '\"', ''\r\n  | replace: ' ', '' -%}\r\n\r\n{%- assign themes_rebrickable_list = cleaned | split: \",\" -%}\r\n{%- comment -%} Count total weight first {%- endcomment -%}\r\n{%- assign total_weight = 0 -%}\r\n{%- for theme_data in themes_rebrickable_list -%}\r\n  {%- if theme_data != \"\" -%}\r\n    {%- assign parts = theme_data | split: \"|\" -%}\r\n    {%- if parts.size >= 3 -%}\r\n      {%- assign file_count = parts[1] | plus: 0 -%}  {%- comment -%} Second value is file_count {%- endcomment -%}\r\n      {%- assign total_weight = total_weight | plus: file_count -%}\r\n    {%- endif -%}\r\n  {%- endif -%}\r\n{%- endfor -%}\r\n\r\n{%- comment -%} Use cumulative weight approach {%- endcomment -%}\r\n{%- assign random_value = \"now\" | date: \"%s\" | modulo: total_weight -%}\r\n{%- assign cumulative_weight = 0 -%}\r\n{%- assign selected_theme = \"\" -%}\r\n\r\n{%- for theme_data in themes_rebrickable_list -%}\r\n  {%- if selected_theme == \"\" and theme_data != \"\" -%}\r\n    {%- assign parts = theme_data | split: \"|\" -%}\r\n    {%- if parts.size >= 3 -%}\r\n      {%- assign file_count = parts[1] | plus: 0 -%}  {%- comment -%} Second value is file_count {%- endcomment -%}\r\n      {%- assign cumulative_weight = cumulative_weight | plus: file_count -%}\r\n      {%- if random_value < cumulative_weight -%}\r\n        {%- assign selected_theme = theme_data -%}\r\n      {%- endif -%}\r\n    {%- endif -%}\r\n  {%- endif -%}\r\n{%- endfor -%}\r\n\r\n  {%- assign parts = selected_theme | split: \"|\" -%}\r\n  {%- assign theme = parts[0] -%}\r\n  {%- assign file_count = parts[1] | plus: 0 -%}  {%- comment -%} Second value is file_count {%- endcomment -%}\r\n  \r\n  {%- comment -%} Select random file from 0 to (file_count - 1) {%- endcomment -%}\r\n  {%- assign random_file_index = \"now\" | date: \"%N\" | plus: 0 | modulo: file_count -%}\r\n  \r\n  https://raw.githubusercontent.com/ExcuseMi/trmnl-lego-plugin/refs/heads/main/data/themes/{{theme}}/{{random_file_index}}.json\r\n\r\n{% else %}\r\n{% comment %}\r\nBrickset API URL Builder - Production Ready\r\nGenerates 1 or 2 URLs depending on owned/wanted selection.\r\nRandomly picks 1–3 themes. Skips owned/wanted param if blank.\r\n{% endcomment %}\r\n\r\n{%- comment -%} 1️⃣ Build Year Parameter {%- endcomment -%}\r\n{% assign year_param = \"\" %}\r\n{% if min_year != blank or max_year != blank %}\r\n  {% assign start_year = min_year | default: 1949 %}\r\n  {% assign end_year = max_year | default: \"now\" | date: \"%Y\" %}\r\n\r\n  {% assign year_list = \"\" %}\r\n  {% for year in (start_year..end_year) %}\r\n    {% if forloop.first %}\r\n      {% assign year_list = year | append: \"\" %}\r\n    {% else %}\r\n      {% assign year_list = year_list | append: \",\" | append: year %}\r\n    {% endif %}\r\n  {% endfor %}\r\n\r\n  {% assign year_param = \"%27year%27:%27\" | append: year_list | append: \"%27,\" %}\r\n{% endif %}\r\n{%- comment -%} 2️⃣ Build Theme Parameter for Brickset API {% endcomment -%}\r\n{% assign theme_param = \"\" %}\r\n\r\n{%- comment -%} Build Theme Parameter for Brickset API {% endcomment -%}\r\n{% assign theme_param = \"\" %}\r\n\r\n{% if themes_brickset.size > 0 %}\r\n  {% if brickset_order_by == \"Random\" %}\r\n    {% assign pick_count = themes_brickset.size | min: 3 %}\r\n    {% assign selected_themes = themes_brickset | sample: pick_count %}\r\n  {% else %}\r\n    {% assign selected_themes = themes_brickset %}\r\n  {% endif %}\r\n\r\n  {% comment %} Join array into comma-separated string first {% endcomment %}\r\n  {% assign theme_string = selected_themes | join: \",\" %}\r\n\r\n  {% comment %} Then append to API param {% endcomment %}\r\n  {% assign theme_param = \"%27theme%27:%27\" | append: theme_string | append: \"%27,\" %}\r\n{% endif %}\r\n\r\n{%- comment -%} 3️⃣ Build OrderBy Parameter {%- endcomment -%}\r\n{% assign order_param = \"\" %}\r\n{% if brickset_order_by != blank %}\r\n  {% assign order_param = \"%27orderBy%27:%27\" | append: brickset_order_by | append: \"%27,\" %}\r\n{% endif %}\r\n\r\n{%- comment -%} 4️⃣ Build Owned/Wanted URLs as a concatenated string using a safe delimiter {%- endcomment -%}\r\n{% assign urls_string = \"\" %}\r\n\r\n{% if brickset_owned_wanted == \"ownedwanted\" %}\r\n  {% assign owned_param = \"%27owned%27:1,\" %}\r\n  {% assign wanted_param = \"%27wanted%27:1,\" %}\r\n\r\n  {% assign owned_url = \"https://brickset.com/api/v3.asmx/getSets?apikey=\" | append: brickset_api_key | append: \"&userhash=\" | append: brickset_user_hash | append: \"&params=%7B\" | append: theme_param | append: year_param | append: owned_param | append: order_param | append: \"%27pageSize%27:50%7D\" %}\r\n  \r\n  {% assign wanted_url = \"https://brickset.com/api/v3.asmx/getSets?apikey=\" | append: brickset_api_key | append: \"&userhash=\" | append: brickset_user_hash | append: \"&params=%7B\" | append: theme_param | append: year_param | append: wanted_param | append: order_param | append: \"%27pageSize%27:50%7D\" %}\r\n\r\n  {% assign urls_string = owned_url | append: \"||\" | append: wanted_url %}\r\n\r\n{% elsif brickset_owned_wanted != blank %}\r\n  {% assign param = \"%27\" | append: brickset_owned_wanted | append: \"%27:1,\" %}\r\n  {% assign url = \"https://brickset.com/api/v3.asmx/getSets?apikey=\" | append: brickset_api_key | append: \"&userhash=\" | append: brickset_user_hash | append: \"&params=%7B\" | append: theme_param | append: year_param | append: param | append: order_param | append: \"%27pageSize%27:50%7D\" %}\r\n  \r\n  {% assign urls_string = url %}\r\n{% else %}\r\n  {% comment %}No owned/wanted param, just themes, year, order, pageSize{% endcomment %}\r\n  {% assign url = \"https://brickset.com/api/v3.asmx/getSets?apikey=\" | append: brickset_api_key | append: \"&userhash=\" | append: brickset_user_hash | append: \"&params=%7B\" | append: theme_param | append: year_param | append: order_param | append: \"%27pageSize%27:50%7D\" %}\r\n  \r\n  {% assign urls_string = url %}\r\n{% endif %}\r\n\r\n{%- comment -%} 5️⃣ Split URLs string into array using || and output individually {%- endcomment -%}\r\n{% assign urls_array = urls_string | split: \"||\" %}\r\n\r\n{% for url in urls_array %}\r\n  {{ url }}\r\n{% endfor %}\r\n\r\n{% endif %}"
 polling_headers: ''
 polling_body: ''
 id: 184371
@@ -32,6 +32,7 @@ custom_fields:
     - brickset_owned_wanted
     - brickset_pricing
     - brickset_show_minifigs_included
+    - brickset_order_by
     hidden:
     - themes_rebrickable
   - when: rebrickable
@@ -44,6 +45,7 @@ custom_fields:
     - brickset_owned_wanted
     - brickset_pricing
     - brickset_show_minifigs_included
+    - brickset_order_by
 - keyname: brickset_api_key
   field_type: string
   name: Brickset API Key
@@ -649,6 +651,36 @@ custom_fields:
   - tbd: tbd
   help_text: Use <kbd>⌘</kbd>+<kbd>click</kbd> or <kbd>Ctrl</kbd>+<kbd>click</kbd> to select multiple themes.<br /><strong>You must select at least one theme OR specify a year range.</strong>
   optional: true
+- keyname: brickset_order_by
+  field_type: select
+  name: Sort Order (Brickset Only)
+  description: Choose how to sort the sets returned from Brickset.
+  options:
+  - Set Number: Number
+  - Year (Oldest First): YearFrom
+  - Year (Newest First): YearFromDESC
+  - Piece Count (Low to High): Pieces
+  - Piece Count (High to Low): PiecesDESC
+  - Minifigures (Low to High): Minifigs
+  - Minifigures (High to Low): MinifigsDESC
+  - Rating (Low to High): Rating
+  - Rating (High to Low): RatingDESC
+  - Theme Name: Theme
+  - Set Name: Name
+  - Random: Random
+  - Price (Low to High): RetailPrice
+  - Price (High to Low): RetailPriceDESC
+  - Price Per Piece (Low to High): PricePerPiece
+  - Price Per Piece (High to Low): PricePerPieceDESC
+  default: Random
+- keyname: show_brick_count
+  field_type: select
+  name: Show Brick Count
+  description: Display the number of pieces included in each set.
+  options:
+  - Yes, Show Brick Count: 'yes'
+  - No, Do Not Display: 'no'
+  default: 'yes'
 - keyname: show_qr_code
   name: Show QR Code
   field_type: select
@@ -659,7 +691,7 @@ custom_fields:
   default: hide
 - keyname: brickset_pricing
   field_type: select
-  name: Show Set Price (Brickset Only)
+  name: Show Set Price
   description: Display the LEGO® retail price from the official LEGO store in your selected region (when available).
   options:
   - Do Not Show Price: ''
@@ -670,12 +702,45 @@ custom_fields:
   default: ''
 - keyname: brickset_show_minifigs_included
   field_type: select
-  name: Show Minifigure Count (Brickset Only)
+  name: Show Minifigure Count
   description: Display the number of minifigures included in each set.
   options:
   - Yes, Show Minifigure Count: 'yes'
   - No, Do Not Display: 'no'
   default: 'no'
+- keyname: brickset_show_owned_wanted_indicators
+  field_type: select
+  name: Show Owned & Wanted Indicators
+  description: Display the indicators when a set is marked as owned or wanted on Brickset.
+  options:
+  - Yes, Show Owned & Wanted Indicators: 'yes'
+  - No, Do Not Display: 'no'
+  default: 'yes'
+  conditional_validation:
+  - when: 'yes'
+    required:
+    - brickset_user_hash
+- keyname: brickset_owned_wanted
+  field_type: select
+  name: Filter by Collection Status (Brickset Only)
+  description: Filter results to show only sets you own or want. Requires your Brickset user hash to be configured above.
+  options:
+  - Show All Sets: ''
+  - Only Show Owned Sets: owned
+  - Only Show Wanted Sets: wanted
+  - Only Show Owned & Wanted Sets: ownedwanted
+  default: ''
+  optional: true
+  conditional_validation:
+  - when: owned
+    required:
+    - brickset_user_hash
+  - when: wanted
+    required:
+    - brickset_user_hash
+  - when: ownedwanted
+    required:
+    - brickset_user_hash
 - keyname: min_year
   field_type: number
   name: Minimum Release Year
@@ -690,16 +755,6 @@ custom_fields:
   min: 1900
   optional: true
   placeholder: '2025'
-- keyname: brickset_owned_wanted
-  field_type: select
-  name: Filter by Collection Status (Brickset Only)
-  description: Filter results to show only sets you own or want. Requires your Brickset user hash to be configured above.
-  options:
-  - Show All Sets: ''
-  - Only Show Owned Sets: "%27owned%27:1,"
-  - Only Show Wanted Sets: "%27wanted%27:1,"
-  default: ''
-  optional: true
 - keyname: min_parts
   field_type: number
   name: Minimum Number of Parts

@@ -549,7 +549,7 @@ async def create_options_yml(theme_info):
         {
             'keyname': 'brickset_pricing',
             'field_type': 'select',
-            'name': 'Show Set Price (Brickset Only)',
+            'name': 'Show Set Price',
             'description': 'Display the LEGO® retail price from the official LEGO store in your selected region (when available).',
             'options': [
                 {'Do Not Show Price': ''},
@@ -563,13 +563,30 @@ async def create_options_yml(theme_info):
         {
             'keyname': 'brickset_show_minifigs_included',
             'field_type': 'select',
-            'name': 'Show Minifigure Count (Brickset Only)',
+            'name': 'Show Minifigure Count',
             'description': 'Display the number of minifigures included in each set.',
             'options': [
                 {'Yes, Show Minifigure Count': 'yes'},
                 {'No, Do Not Display': 'no'},
             ],
             'default': 'no',
+        },
+        {
+            'keyname': 'brickset_show_owned_wanted_indicators',
+            'field_type': 'select',
+            'name': 'Show Owned & Wanted Indicators',
+            'description': 'Display the indicators when a set is marked as owned or wanted on Brickset.',
+            'options': [
+                {'Yes, Show Owned & Wanted Indicators': 'yes'},
+                {'No, Do Not Display': 'no'},
+            ],
+            'default': 'yes',
+            'conditional_validation': [
+                {
+                    "when": "yes",
+                    "required": ["brickset_user_hash"]
+                }
+            ]
         },
         # Collection Status (Brickset)
         {
@@ -579,11 +596,26 @@ async def create_options_yml(theme_info):
             'description': 'Filter results to show only sets you own or want. Requires your Brickset user hash to be configured above.',
             'options': [
                 {'Show All Sets': ''},
-                {'Only Show Owned Sets': '%27owned%27:1,'},
-                {'Only Show Wanted Sets': '%27wanted%27:1,'},
+                {'Only Show Owned Sets': 'owned'},
+                {'Only Show Wanted Sets': 'wanted'},
+                {'Only Show Owned & Wanted Sets': 'ownedwanted'}
             ],
             'default': '',
-            'optional': True
+            'optional': True,
+            'conditional_validation': [
+                {
+                    "when": "owned",
+                    "required": ["brickset_user_hash"]
+                },
+                {
+                    "when": "wanted",
+                    "required": ["brickset_user_hash"]
+                },
+                {
+                    "when": "ownedwanted",
+                    "required": ["brickset_user_hash"]
+                }
+            ]
         },
         # Year Filtering
         {
