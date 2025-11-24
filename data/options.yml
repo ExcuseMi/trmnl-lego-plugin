@@ -39,6 +39,7 @@
   name: Brickset API Key (Optional)
   description: Enter your Brickset Web Services API key to enable Brickset mode. Get your key at brickset.com.
   placeholder: Your API key
+  optional: true
 - keyname: brickset_user_hash
   field_type: string
   name: Brickset User Hash (Optional)
@@ -459,6 +460,7 @@
   - Xtra (19): xtra|1|19
   - Znap (19): znap|1|19
   - Zooters (3): zooters|1|3
+  help_text: Use <kbd>⌘</kbd>+<kbd>click</kbd> or <kbd>Ctrl</kbd>+<kbd>click</kbd> to select multiple item types.<br />Leave empty to show all item types.
 - keyname: themes_brickset
   field_type: select
   name: Filter by Themes – Brickset (170)
@@ -635,6 +637,7 @@
   - Xtra: Xtra
   - Znap: Znap
   - tbd: tbd
+  help_text: Use <kbd>⌘</kbd>+<kbd>click</kbd> or <kbd>Ctrl</kbd>+<kbd>click</kbd> to select multiple item types.<br />Leave empty to show all item types.
 - keyname: show_qr_code
   name: Show QR Code Link
   field_type: select

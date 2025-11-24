@@ -435,7 +435,8 @@ async def create_options_yml(theme_info):
             'field_type': 'string',
             'name': 'Brickset API Key (Optional)',
             'description': 'Enter your Brickset Web Services API key to enable Brickset mode. Get your key at brickset.com.',
-            'placeholder': 'Your API key'
+            'placeholder': 'Your API key',
+             'optional': True
         },
         {
             'keyname': 'brickset_user_hash',
