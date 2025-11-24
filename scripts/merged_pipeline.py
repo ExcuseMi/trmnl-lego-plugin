@@ -518,7 +518,6 @@ async def create_options_yml(filtered_sets, themes_rebrickable, parent_themes_re
                 {'All Sets': ''},
                 {'Only Owned Sets': '%27owned%27:1,'},
                 {'Only Wanted Sets': '%27wanted%27:1,'},
-                {'Only Owned & Wanted Sets': '%27owned%27:1,%27wanted%27:1,'},
             ],
             'default': '',
             'optional': True

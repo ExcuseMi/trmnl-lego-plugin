@@ -1,17 +1,118 @@
 {% liquid
+assign min_year = trmnl.plugin_settings.custom_fields_values.min_year | plus: 0
+assign max_year = trmnl.plugin_settings.custom_fields_values.max_year | plus: 0
+assign min_parts = trmnl.plugin_settings.custom_fields_values.min_parts | plus: 0
+assign max_parts = trmnl.plugin_settings.custom_fields_values.max_parts | plus: 0
+assign show_qr_code = trmnl.plugin_settings.custom_fields_values.show_qr_code | default: "hide"
+assign brickset_pricing = trmnl.plugin_settings.custom_fields_values.brickset_pricing| default: ""
+assign brickset_show_minifigs_included = trmnl.plugin_settings.custom_fields_values.brickset_show_minifigs_included | default: "no"
+
+if trmnl.plugin_settings.custom_fields_values.brickset_api_key == blank
+assign brickset_mode = false
+else
+assign brickset_mode = true
+endif
+
+# -----------------------------
+# Load and normalize data
+# -----------------------------
+if brickset_mode
+assign themes = trmnl.plugin_settings.custom_fields_values.themes_brickset
+
+# BrickSet API response - IDX_1 is already the parsed JSON
+assign raw_sets = IDX_1.sets
+
+# Normalize BrickSet data to common format
+assign normalized_sets = ""
+for s in raw_sets
+# Extract BrickSet fields
+assign bs_set_num = s.number | default: ""
+assign bs_name = s.name | default: ""
+assign bs_year = s.year | plus: 0
+assign bs_num_parts = s.pieces | plus: 0
+assign bs_theme = s.theme | default: ""
+assign bs_subtheme = s.subtheme | default: ""
+assign bs_image = s.image.imageURL | default: ""
+assign bs_owned = s.collection.owned | default: false
+assign bs_wanted = s.collection.wanted | default: false
+assign minifigs = s.minifigs | plus: 0
+
+# Skip sets without images
+if bs_image != ""
+# Create normalized object (simulate array structure) using unique delimiter
+assign normalized = ""
+assign normalized = normalized | append: bs_set_num | append: "|||"
+assign normalized = normalized | append: bs_name | append: "|||"
+assign normalized = normalized | append: bs_year | append: "|||"
+assign normalized = normalized | append: bs_num_parts | append: "|||"
+assign normalized = normalized | append: bs_theme | append: "|||"
+assign normalized = normalized | append: bs_subtheme | append: "|||"
+assign normalized = normalized | append: bs_image  | append: "|||"
+assign normalized = normalized | append: minifigs  | append: "|||"
+
+if bs_owned
+assign normalized = normalized | append: '1' | append: "|||"
+else
+assign normalized = normalized | append: '0' | append: "|||"
+endif      
+if bs_wanted
+assign normalized = normalized | append: '1' | append: "|||"
+else
+assign normalized = normalized | append: '0' | append: "|||"
+endif   
+assign formatted_price = ""
+assign currency = ""
+unless brickset_pricing == ""
+if s.LEGOCom
+if s.LEGOCom[brickset_pricing]
+if s.LEGOCom[brickset_pricing].retailPrice
+assign price_value = s.LEGOCom[brickset_pricing].retailPrice | round: 2
+if brickset_pricing == "US" or brickset_pricing == "CA"
+assign currency = "$"
+elsif brickset_pricing == "UK"
+assign currency = "£"
+elsif brickset_pricing == "DE"
+assign currency = "€"
+endif
+assign formatted_price = currency | append: ' ' | append: price_value
+endif
+else
+assign test= "no " | append: brickset_pricing
+
+endif
+else
+assign test= "no lego"
+
+endif
+else
+assign test= "no pricing"
+endunless
+
+if formatted_price != ""
+assign normalized = normalized | append: formatted_price | append: "|||"
+else
+assign normalized = normalized | append: "" | append: "|||"
+endif
+
+if normalized_sets == ""
+assign normalized_sets = normalized
+else
+assign normalized_sets = normalized_sets | append: "~~~~" | append: normalized
+endif
+endif
+endfor
+
+assign sets = normalized_sets | split: "~~~~"
+else
+# Local JSON data
+assign themes = trmnl.plugin_settings.custom_fields_values.themes_rebrickable
 
 assign raw = IDX_1.data | parse_json
 assign fields = raw[0]
 assign sets = raw | slice: 1, raw.size
 assign raw_size = raw.size
 assign sets_size = sets.size
-assign incremental_value = IDX_0.value | plus: 0
-assign min_year = trmnl.plugin_settings.custom_fields_values.min_year | plus: 0
-assign max_year = trmnl.plugin_settings.custom_fields_values.max_year | plus: 0
-assign display_order = trmnl.plugin_settings.custom_fields_values.display_order | default: "random"
-assign parent_themes = trmnl.plugin_settings.custom_fields_values.parent_themes
-assign themes = trmnl.plugin_settings.custom_fields_values.themes
-assign show_qr_code = trmnl.plugin_settings.custom_fields_values.show_qr_code | default: "hide"
+endif
 
 # -----------------------------
 # Filter sets - store indices
@@ -19,177 +120,232 @@ assign show_qr_code = trmnl.plugin_settings.custom_fields_values.show_qr_code | 
 assign filtered_indices = ""
 
 for s in sets
-  assign year = s[2] | plus: 0
-  assign theme = s[4] | default: ""
-  assign parent_theme = s[5] | default: ""
-  assign include = true
-  
+if brickset_mode
+# Parse normalized BrickSet data - no filtering needed, API already filtered
+assign parts = s | split: "|||"
+assign num_parts = parts[3] | plus: 0
+else
+# Use local JSON structure
+assign year = s[2] | plus: 0
+assign theme = s[4] | default: ""
+assign parent_theme = s[5] | default: ""
+assign num_parts = s[3] | plus: 0
+endif
+
+assign include = true
+
+if brickset_mode
+# BrickSet API already filtered by year and theme, only apply parts filter
+if min_parts > 0 and num_parts < min_parts
+                                 assign include = false
+                                 endif
+                                 if max_parts > 0 and num_parts > max_parts
+  assign include = false
+  endif
+  else
+  # Apply all filters for local JSON data
   # Year filters
   if min_year > 0 and year < min_year
+                             assign include = false
+                             endif
+                             if max_year > 0 and year > max_year
     assign include = false
-  endif
-  if max_year > 0 and year > max_year
-    assign include = false
-  endif
-  
-  # Theme/parent filter (OR logic)
-  # Only apply theme filter if themes are actually specified
-  assign has_theme_filters = false
-  if parent_themes.size > 0 or themes.size > 0
-    assign has_theme_filters = true
-  endif
-  
-  if include and has_theme_filters
-    assign matched = false
-    
-    # Check parent themes
-    if parent_themes.size > 0
-      for t in parent_themes
-        assign t_stripped = t | strip
-        assign theme_stripped = theme | strip
-        assign parent_theme_stripped = parent_theme | strip
-        if theme_stripped == t_stripped or parent_theme_stripped == t_stripped
-          assign matched = true
-          break
-        endif
-      endfor
     endif
-    
-    # Check specific themes
-    if themes.size > 0 and matched == false
-      for t in themes
-        assign t_stripped = t | strip
-        assign theme_stripped = theme | strip
-        assign parent_theme_stripped = parent_theme | strip
-        if theme_stripped == t_stripped or parent_theme_stripped == t_stripped
-          assign matched = true
-          break
-        endif
-      endfor
-    endif
-    
-    if matched == false
+
+    # Parts filters
+    if min_parts > 0 and num_parts < min_parts
+                                     assign include = false
+                                     endif
+                                     if max_parts > 0 and num_parts > max_parts
       assign include = false
-    endif
-  endif
-  
-  # Store index if included
-  if include
-    if filtered_indices == ""
+      endif
+
+      # Theme/parent filter (OR logic)
+      assign has_theme_filters = false
+      if parent_themes.size > 0 or themes.size > 0
+      assign has_theme_filters = true
+      endif
+
+      if include and has_theme_filters
+      assign matched = false
+
+      # Check parent themes
+      if parent_themes.size > 0
+      for t in parent_themes
+      assign t_stripped = t | strip
+      assign theme_stripped = theme | strip
+      assign parent_theme_stripped = parent_theme | strip
+      if theme_stripped == t_stripped or parent_theme_stripped == t_stripped
+      assign matched = true
+      break
+      endif
+      endfor
+      endif
+
+      # Check specific themes
+      if themes.size > 0 and matched == false
+      for t in themes
+      assign t_stripped = t | strip
+      assign theme_stripped = theme | strip
+      assign parent_theme_stripped = parent_theme | strip
+      if theme_stripped == t_stripped or parent_theme_stripped == t_stripped
+      assign matched = true
+      break
+      endif
+      endfor
+      endif
+
+      if matched == false
+      assign include = false
+      endif
+      endif
+      endif
+
+      # Store index if included
+      if include
+      if filtered_indices == ""
       assign filtered_indices = forloop.index0 | append: ""
-    else
+      else
       assign filtered_indices = filtered_indices | append: "," | append: forloop.index0
-    endif
-  endif
-endfor
+      endif
+      endif
+      endfor
 
-# Convert indices string to array
-assign filtered_array = filtered_indices | split: ","
-assign sets_count = filtered_array.size
+      # Convert indices string to array
+      assign filtered_array = filtered_indices | split: ","
+      assign sets_count = filtered_array.size
 
-# -----------------------------
-# Select item based on display order
-# -----------------------------
-if sets_count > 0
-  if display_order == "incremental"
-    assign selected_position = incremental_value | modulo: sets_count
-  elsif display_order == "reverse_incremental"
-    assign reverse_index = incremental_value | modulo: sets_count
-    assign selected_position = sets_count | minus: reverse_index | minus: 1
-  else
-    # Random: use current timestamp to pick a pseudo-random index
-    assign now_raw = 'now' | date: '%s'
-    assign now_number = now_raw | plus: 0
-    assign selected_position = now_number | modulo: sets_count
-  endif
-  
-  # Get the actual index from filtered array
-  assign actual_index = filtered_array[selected_position] | plus: 0
-  assign item = sets | slice: actual_index, 1 | first
-  
-  # Map columns
-  assign set_num = item[0] | default: ""
-  assign name = item[1] | default: ""
-  assign year = item[2] | plus: 0
-  assign num_parts = item[3] | plus: 0
-  assign theme = item[4] | default: ""
-  assign parent_theme = item[5] | default: ""
-  assign image = "https://cdn.rebrickable.com/media/sets/" | append: set_num | append: ".jpg"
-  assign set_url = "https://rebrickable.com/sets/" | append: set_num
-endif
-%}
-  <style>
-    .main-image {
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
-      object-position: center;
-      display: block;
-      filter: 
-        grayscale(100%)
-    }
-    .brick {
-      position: absolute; 
-      top: 1px; 
-      right: 1px; 
-      z-index: 100;
-      padding: 5px;
-      border: solid 1px black;
-      box-sizing: content-box;
-    }
-    .qr-code {
-      position: absolute; 
-      top: 1px; 
-      left: 1px; 
-      z-index: 100;
-      background-color: white;
-      padding: 5px;
-      border: solid 1px black;
-      box-sizing: content-box;
-      border-radius: 8px;
-    }
+      # -----------------------------
+      # Select item based on display order
+      # -----------------------------
+      if sets_count > 0
+      assign now_raw = 'now' | date: '%s'
+      assign now_number = now_raw | plus: 0
+      assign selected_position = now_number | modulo: sets_count
 
-  </style>
+      # Get the actual index from filtered array
+      assign actual_index = filtered_array[selected_position] | plus: 0
+      assign item = sets | slice: actual_index, 1 | first
 
-  {% if raw.size == 0 %}
-  <div class="layout layout--stretch layout--center">
-    <div class="title">No Data Available</div>
-    <div class="description">No LEGO sets data found.</div>
-  </div>
-  {% elsif sets_count == 0 %}
-  <div class="layout layout--stretch layout--center">
-    <div class="title">No Sets Match Your Filters</div>
-    <div class="description">
-      No LEGO sets found with your current settings.<br/><br/>
-      Active filters:<br/>
-      {% if min_year > 0 %}Min year: {{ min_year }}<br/>{% endif %}
-      {% if max_year > 0 %}Max year: {{ max_year }}<br/>{% endif %}
-      {% if parent_themes.size > 0 %}Parent themes: {{ parent_themes.size }} selected<br/>{% endif %}
-      {% if themes.size > 0 %}Specific themes: {{ themes.size }} selected<br/>{% endif %}
-      <br/>
-      Adjust your filters to see more sets.
-    </div>
-  </div>
-  {% else %}
-  <div class="layout layout--stretch">
-    <img src="{{image}}" class="image image-dither image-contain main-image" />
-    {% if num_parts > 0 %}
-    <div class="brick rounded bg--gray-75">
-      <div class="flex flex--row">
-        <img class="image w--10" src="https://raw.githubusercontent.com/ExcuseMi/trmnl-lego-plugin/refs/heads/main/images/brick.png" />
-        <div class="value value--small">{{num_parts}}</div>
+      if brickset_mode
+      # Parse BrickSet normalized data
+      assign parts = item | split: "|||"
+      assign set_num = parts[0]
+      assign name = parts[1]
+      assign year = parts[2] | plus: 0
+      assign num_parts = parts[3] | plus: 0
+      assign theme = parts[4]
+      assign parent_theme = parts[5]
+      assign image = parts[6]
+      assign minifigs = parts[7] | plus: 0
+
+      assign owned = parts[8]
+      assign wanted = parts[9]
+      assign price = parts[10]
+
+
+      else
+      # Map local JSON columns
+      assign set_num = item[0] | default: ""
+      assign name = item[1] | default: ""
+      assign year = item[2] | plus: 0
+      assign num_parts = item[3] | plus: 0
+      assign theme = item[4] | default: ""
+      assign parent_theme = item[5] | default: ""
+      assign image = "https://cdn.rebrickable.com/media/sets/" | append: set_num | append: ".jpg"
+      endif
+
+      assign rebrickable_url = "https://rebrickable.com/sets/" | append: set_num
+      assign brickset_url = "https://brickset.com/sets/" | append: set_num
+      endif
+      %}
+
+      <style>
+        .main-image {
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+          object-position: center;
+          display: block;
+          filter: grayscale(100%);
+        }
+        .brick {
+          position: absolute; 
+          top: 1px; 
+          right: 1px; 
+          z-index: 100;
+          padding: 5px;
+          border: solid 1px black;
+          box-sizing: content-box;
+        }
+        .qr-code {
+          position: absolute; 
+          top: 1px; 
+          left: 1px; 
+          z-index: 100;
+          background-color: white;
+          padding: 5px;
+          border: solid 1px black;
+          box-sizing: content-box;
+          border-radius: 8px;
+        }
+      </style>
+
+      {% if brickset_mode == false and raw.size == 0 %}
+      <div class="layout layout--stretch layout--center">
+        <div class="title">No Data Available</div>
+        <div class="description">No LEGO sets data found.</div>
       </div>
-      <div>
+      {% elsif sets_count == 0 %}
+      <div class="layout layout--stretch layout--center">
+        <div class="title">No Sets Match Your Filters</div>
+        <div class="description">
+          No LEGO sets found with your current settings.<br/><br/>
+          Active filters:<br/>
+          {% if min_year > 0 %}Min year: {{ min_year }}<br/>{% endif %}
+          {% if max_year > 0 %}Max year: {{ max_year }}<br/>{% endif %}
+          {% if min_parts > 0 %}Min parts: {{ min_parts }}<br/>{% endif %}
+          {% if max_parts > 0 %}Max parts: {{ max_parts }}<br/>{% endif %}
+          {% if parent_themes.size > 0 %}Parent themes: {{ parent_themes.size }} selected<br/>{% endif %}
+          {% if themes.size > 0 %}Specific themes: {{ themes.size }} selected<br/>{% endif %}
+          <br/>
+          Adjust your filters to see more sets.
+        </div>
       </div>
+      {% else %}
+      <div class="layout layout--stretch">
+        <img src="{{image}}" class="image image-dither image-contain main-image" />
+        {% if num_parts > 0 or  owned == "1" or wanted == "1" or price != "" or (brickset_show_minifigs_included and minifigs > 0) %}
+        <div class="brick rounded bg--gray-75 ">
+          <div class="grid  grid--cols-3 p--0 m--0"> 
+            {% if num_parts > 0 %} 
+            <img class="image w--10 col--span-1" src="https://raw.githubusercontent.com/ExcuseMi/trmnl-lego-plugin/refs/heads/main/images/brick.png" /> 
+            <div class="value value--small col--span-2">{{num_parts}}</div>
+            {% endif %} 
+            {% if brickset_show_minifigs_included and minifigs > 0 %} 
+            <img class="image w--8 col--span-1" src="https://raw.githubusercontent.com/ExcuseMi/trmnl-lego-plugin/refs/heads/main/images/minifig.png" /> 
+            <div class="value value--small  col--span-2">{{minifigs}}</div> 
+            {% endif %} 
+            {% if owned == "1" %} 
+            <img class="image w--8 col--span-1" src="https://raw.githubusercontent.com/ExcuseMi/trmnl-lego-plugin/refs/heads/main/images/own.png" /> 
+            {% elsif wanted == "1" %} 
+            <img class="image w--8 col--span-1" src="https://raw.githubusercontent.com/ExcuseMi/trmnl-lego-plugin/refs/heads/main/images/want.png" /> 
+            {% endif %} {% if price != "" %} 
+            <div class="label  col--span-2">{{price}}</div>
+            {% endif %} 
+
+        </div>      
+      </div>
+      {% endif %}
+      {% if show_qr_code == "show_rebrickable" %}
+      {{ rebrickable_url | qr_code: 3, 'm'}}
+      {% elsif show_qr_code == "show_brickset" %}
+      {{ brickset_url | qr_code: 3, 'm'}}
+      {% endif %}
     </div>
-    {% endif %}
-    {% if show_qr_code == "show" %}
-                      {{ set_url | qr_code: 3, 'm'}}
-    {% endif %}
-  </div>
-  <div class="title_bar">
-    {% if set_num != ""%}<span class="label label--inverted">{{set_num}}</span>{% endif %}
-    <span class="title">{{name}}{% if year and year > 0 %} ({{year}}){% endif %}</span>
-    <span class="instance" data-content-limiter="true" >{{theme}}</span>
-  </div>
-  {% endif %}
+      <div class="title_bar">
+        {% if set_num != ""%}<span class="label label--inverted">{{set_num}}</span>{% endif %}
+        <span class="title">{{name}}{% if year and year > 0 %} ({{year}}){% endif %}</span>
+        <span class="instance" data-content-limiter="true">{{theme}}</span>
+      </div>
+      {% endif %}

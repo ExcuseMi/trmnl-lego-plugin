@@ -472,7 +472,6 @@
   - All Sets: ''
   - Only Owned Sets: '%27owned%27:1,'
   - Only Wanted Sets: '%27wanted%27:1,'
-  - Only Owned & Wanted Sets: '%27owned%27:1,%27wanted%27:1,'
   default: ''
   optional: true
 - keyname: min_parts
