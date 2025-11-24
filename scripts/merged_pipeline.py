@@ -45,7 +45,7 @@ DATASETS = {
 SCRIPT_DIR = Path(__file__).parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 DATA_DIR = PROJECT_ROOT / "data"
-THEME_DIR = DATA_DIR / "theme"
+THEME_DIR = DATA_DIR / "themes"
 
 SETS_FILE = DATA_DIR / "sets.json"
 OUTPUT_FILE = DATA_DIR / "options.yml"
