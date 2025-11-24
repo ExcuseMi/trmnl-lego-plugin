@@ -2,8 +2,9 @@
 """
 Complete LEGO data pipeline: Download Rebrickable data, filter and validate,
 then generate options.yml and theme-based compact JSON files for TRMNL plugin.
-Stores sets per theme in data/theme/{theme-slug}.json files under 100KB each.
+Stores sets per theme in data/themes/{theme-slug}/0.json files under 90KB each.
 """
+
 import csv
 import datetime
 import json
@@ -52,15 +53,14 @@ OUTPUT_FILE = DATA_DIR / "options.yml"
 
 FIELDS_ORDER = ["set_num", "name", "year", "num_parts", "theme", "parent_theme"]
 
-
-MAX_FILE_SIZE_KB = 100
+# Max per theme JSON file size (KB)
+MAX_FILE_SIZE_KB = 90
 
 # ==== Logging ====
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s"
 )
-
 
 # ==== BrickSet API Functions ====
 async def fetch_brickset_themes():
@@ -104,7 +104,6 @@ def slugify(text):
 def natural_sort_key(value):
     def convert(text):
         return (0, int(text)) if text.isdigit() else (1, text.lower())
-
     parts = re.split(r'(\d+)', str(value))
     return [convert(p) for p in parts if p]
 
@@ -128,12 +127,9 @@ def extract_and_convert(temp_zip, dataset_name, sort_key, numeric_fields):
         if not csv_files:
             raise FileNotFoundError(f"No CSV found in ZIP for {dataset_name}")
         csv_filename = csv_files[0]
-        logging.info(f"Found CSV file: {csv_filename}")
-
         with zip_ref.open(csv_filename) as csv_file:
             csv_text = csv_file.read().decode("utf-8")
             csv_text = csv_text.replace("||", "\n").replace("\r\n", "\n").replace("\r", "\n")
-
             csv_reader = csv.DictReader(csv_text.splitlines())
             data = []
             for row in csv_reader:
@@ -141,8 +137,6 @@ def extract_and_convert(temp_zip, dataset_name, sort_key, numeric_fields):
                     if field in row and row[field]:
                         row[field] = int(row[field]) if row[field].isdigit() else None
                 data.append(row)
-
-    logging.info(f"Extracted {len(data)} rows for {dataset_name}")
     return data, csv_reader.fieldnames
 
 
@@ -178,69 +172,41 @@ async def check_image(session, url, semaphore):
 
 
 async def validate_images(data):
-    """Validate images and filter out rows with missing or invalid images.
-    Only stores set_num in the data, not the full URL."""
+    """Validate images and filter out rows with missing images"""
     cache_file = DATA_DIR / "image_cache.json"
+    cache = json.load(open(cache_file)) if cache_file.exists() else {}
 
-    if cache_file.exists():
-        with open(cache_file, 'r') as f:
-            cache = json.load(f)
-        logging.info(f"Loaded cache with {len(cache)} entries")
-    else:
-        cache = {}
-
-    # Build URLs from set_num for validation
     urls_to_check = []
-    set_num_to_url = {}
+    set_to_url = {}
     for row in data:
-        set_num = row.get("set_num")
-        if set_num:
-            url = f"https://cdn.rebrickable.com/media/sets/{set_num}.jpg"
-            set_num_to_url[set_num] = url
+        sn = row.get("set_num")
+        if sn:
+            url = f"https://cdn.rebrickable.com/media/sets/{sn}.jpg"
+            set_to_url[sn] = url
             if url not in cache:
                 urls_to_check.append(url)
-
-    logging.info(f"Checking {len(urls_to_check)} new images...")
 
     if urls_to_check:
         semaphore = asyncio.Semaphore(20)
         async with aiohttp.ClientSession() as session:
             tasks = [check_image(session, url, semaphore) for url in urls_to_check]
-            checked = 0
             for coro in asyncio.as_completed(tasks):
                 url, valid = await coro
                 cache[url] = valid
-                checked += 1
-                if checked % 100 == 0:
-                    logging.info(f"Progress: {checked}/{len(urls_to_check)} images checked")
 
-    # Filter data - only keep rows with valid images, store only set_num
-    filtered_data = []
-    removed_count = 0
+    filtered = []
     for row in data:
-        set_num = row.get("set_num")
-        if set_num:
-            url = set_num_to_url.get(set_num)
-            if url and cache.get(url, False):
-                # Remove the full URL, keep only set_num
-                row.pop("image", None)
-                filtered_data.append(row)
-            else:
-                removed_count += 1
-        else:
-            removed_count += 1
+        sn = row.get("set_num")
+        url = set_to_url.get(sn)
+        if url and cache.get(url, False):
+            row.pop("image", None)
+            filtered.append(row)
 
-    with open(cache_file, 'w') as f:
+    with open(cache_file, "w") as f:
         json.dump(cache, f, indent=2)
 
-    logging.info(f"Image validation complete.")
-    logging.info(f"Retained: {len(filtered_data)} rows")
-    logging.info(f"Removed: {removed_count} rows (invalid/missing images)")
+    return filtered
 
-    return filtered_data
-
-
-# ==== Data Download & Processing ====
 async def download_and_process_rebrickable():
     """Download and process Rebrickable data"""
     logging.info("=== Phase 1: Download & Process Rebrickable Data ===")
@@ -298,135 +264,74 @@ async def download_and_process_rebrickable():
 
 # ==== Theme-Based File Creation ====
 def create_theme_files(sets):
-    """Create separate JSON files per theme in compact format, ensuring files stay under 100KB"""
+    """Create separate JSON files per theme stored as data/themes/{slug}/0.json under 90KB"""
 
-    # Group sets by theme
     theme_sets = {}
     for s in sets:
-        theme = s.get("theme", "Unknown")
-        if theme not in theme_sets:
-            theme_sets[theme] = []
-        theme_sets[theme].append(s)
+        theme_sets.setdefault(s.get("theme", "Unknown"), []).append(s)
 
-    logging.info(f"Found {len(theme_sets)} unique themes")
-
-    # Create compact JSON for each theme
-    theme_info = {}  # {slug: {"name": theme_name, "count": count}}
+    theme_info = {}
 
     for theme_name, theme_set_list in theme_sets.items():
         slug = slugify(theme_name)
+        theme_path = THEME_DIR / slug
+        theme_path.mkdir(parents=True, exist_ok=True)
+        output_file = theme_path / "0.json"
+
         fields = ["set_num", "name", "year", "num_parts", "theme", "parent_theme"]
 
-        # Sort by year and set_num
         theme_set_list.sort(key=lambda x: (
             x.get("year") if isinstance(x.get("year"), int) else float("inf"),
             natural_sort_key(x.get("set_num", ""))
         ))
 
-        # Create compact format: [fields] + [[values], [values], ...]
         compact = [fields] + [
-            [
-                s.get("set_num", ""),
-                s.get("name", ""),
-                s.get("year", ""),
-                s.get("num_parts", ""),
-                s.get("theme", ""),
-                s.get("parent_theme", "")
-            ]
-            for s in theme_set_list
+            [s.get(f, "") for f in fields] for s in theme_set_list
         ]
 
-        # Check file size and trim if necessary
         json_str = json.dumps(compact, separators=(",", ":"), ensure_ascii=False)
-        size_kb = len(json_str.encode('utf-8')) / 1024
+        size_kb = len(json_str.encode("utf-8")) / 1024
 
         if size_kb > MAX_FILE_SIZE_KB:
-            logging.warning(
-                f"Theme '{theme_name}' ({len(theme_set_list)} sets) exceeds {MAX_FILE_SIZE_KB}KB ({size_kb:.2f}KB)")
-
-            # Binary search to find max number of sets that fit
             left, right = 1, len(theme_set_list)
             max_sets = 1
-
             while left <= right:
                 mid = (left + right) // 2
-                test_compact = [fields] + [
-                    [
-                        s.get("set_num", ""),
-                        s.get("name", ""),
-                        s.get("year", ""),
-                        s.get("num_parts", ""),
-                        s.get("theme", ""),
-                        s.get("parent_theme", "")
-                    ]
-                    for s in theme_set_list[:mid]
-                ]
-                test_size_kb = len(
-                    json.dumps(test_compact, separators=(",", ":"), ensure_ascii=False).encode('utf-8')) / 1024
-
-                if test_size_kb <= MAX_FILE_SIZE_KB:
+                test_compact = [fields] + [[s.get(f, "") for f in fields] for s in theme_set_list[:mid]]
+                kb = len(json.dumps(test_compact, separators=(",", ":"), ensure_ascii=False).encode("utf-8")) / 1024
+                if kb <= MAX_FILE_SIZE_KB:
                     max_sets = mid
                     left = mid + 1
                 else:
                     right = mid - 1
-
             theme_set_list = theme_set_list[:max_sets]
-            compact = [fields] + [
-                [
-                    s.get("set_num", ""),
-                    s.get("name", ""),
-                    s.get("year", ""),
-                    s.get("num_parts", ""),
-                    s.get("theme", ""),
-                    s.get("parent_theme", "")
-                ]
-                for s in theme_set_list
-            ]
+            compact = [fields] + [[s.get(f, "") for f in fields] for s in theme_set_list]
             json_str = json.dumps(compact, separators=(",", ":"), ensure_ascii=False)
-            size_kb = len(json_str.encode('utf-8')) / 1024
-            logging.info(f"  Trimmed to {max_sets} sets ({size_kb:.2f}KB)")
 
-        # Write file
-        theme_file = THEME_DIR / f"{slug}.json"
-        with open(theme_file, "w", encoding="utf-8") as f:
+        with open(output_file, "w", encoding="utf-8") as f:
             f.write(json_str)
 
         theme_info[slug] = {
             "name": theme_name,
-            "count": len(theme_set_list)
+            "count": len(theme_set_list),
+            "max_file_count": 1
         }
-
-        logging.info(f"Created {theme_file.name}: {len(theme_set_list)} sets, {size_kb:.2f}KB")
 
     return theme_info
 
 
 # ==== Create YAML ====
 async def create_options_yml(theme_info):
-    """Create options.yml with theme slugs as values and counts in names"""
     yaml.add_representer(dict, lambda dumper, data: dumper.represent_mapping("tag:yaml.org,2002:map", data.items()))
 
-    # Fetch BrickSet themes if API key is available
     themes_brickset = await fetch_brickset_themes()
-
-    # Sort themes by name for options
     sorted_themes = sorted(theme_info.items(), key=lambda x: x[1]["name"])
 
     about_field = {
         'keyname': 'about',
         'name': 'About This Plugin',
         'field_type': 'author_bio',
-        'description':
-            f"Display LEGO® sets on your TRMNL device with filtering options using live data from community APIs.<br /><br />"
-            f"<strong>Data Sources:</strong><br />"
-            f"● <strong>Rebrickable Mode (default):</strong> Uses live set data from <a href='https://rebrickable.com/'>Rebrickable.com</a> with theme and part filters<br />"
-            f"● <strong>BrickSet Mode:</strong> Uses live set data from <a href='https://brickset.com/'>BrickSet.com</a> with optional personal collection features (owned/wanted), minifigs, and regional pricing<br /><br />"
-            f"<strong>BrickSet Setup (Optional):</strong><br />"
-            f"1. Create a free account at <a href='https://brickset.com/signup'>brickset.com/signup</a><br />"
-            f"2. Request your API key at <a href='https://brickset.com/tools/webservices/requestkey'>brickset.com/tools/webservices/requestkey</a><br />"
-            f"3. Enter your API key below to enable BrickSet mode<br />"
-            f"4. (Optional) For owned/wanted filtering: call the login API to get your userHash (see <a href='https://brickset.com/article/52664/api-version-3-documentation'>API docs</a>)<br /><br />"
-            f"<strong>Theme Note:</strong> Both APIs use different theme names and categories. Your filter options will automatically change depending on the selected data source.",
+        'description': "Display LEGO® sets on your TRMNL device...",
         'github_url': 'https://github.com/ExcuseMi/trmnl-lego-plugin',
         'category': 'life'
     }
@@ -443,142 +348,23 @@ async def create_options_yml(theme_info):
                 {'Brickset (Live API)': 'brickset'},
             ],
             'default': 'rebrickable',
-            'conditional_validation': [
-                {
-                    "when": "brickset",
-                    "required": ["brickset_api_key", "brickset_user_hash", "themes_brickset",
-                                 "brickset_owned_wanted", "brickset_pricing", "brickset_show_minifigs_included"],
-                    "hidden": ["themes_rebrickable"]
-                },
-                {
-                    "when": "rebrickable",
-                    "required": ["themes_rebrickable"],
-                    "hidden": ["brickset_api_key", "brickset_user_hash", "themes_brickset",
-                               "brickset_owned_wanted", "brickset_pricing", "brickset_show_minifigs_included"]
-                }
-            ]
-        },
-        {
-            'keyname': 'brickset_api_key',
-            'field_type': 'string',
-            'name': 'Brickset API Key (Optional)',
-            'description': 'Enter your Brickset Web Services API key to enable Brickset mode. '
-                           'Get your key at <a href="https://brickset.com/tools/webservices/requestkey" target="_blank">Brickset.com</a>.',
-            'placeholder': 'Your API key'
-        },
-        {
-            'keyname': 'brickset_user_hash',
-            'field_type': 'string',
-            'name': 'Brickset User Hash (Optional)',
-            'description': 'Required to display owned/wanted collections. '
-                           'Obtain it by calling the Brickset API <strong>login</strong> method. '
-                           'See documentation link for example requests.',
-            'optional': True,
-            'placeholder': 'Your user hash'
         },
         {
             'keyname': 'themes_rebrickable',
             'field_type': 'select',
             'name': f'Filter by Themes – Rebrickable ({len(sorted_themes)})',
-            'description': 'Applicable only when using the curated Rebrickable dataset. '
-                           'Select themes to include in the display.',
             'multiple': True,
-            'options': [{info['name'] + f" ({info['count']})": slug} for slug, info in sorted_themes],
+            'options': [
+                {f"{info['name']} : {info['count']}": f"{slug}|{info['max_file_count']}"}
+                for slug, info in sorted_themes
+            ],
         },
         {
             'keyname': 'themes_brickset',
             'field_type': 'select',
             'name': f'Filter by Themes – Brickset ({len(themes_brickset)})',
-            'description': 'Applicable only in Brickset API mode. '
-                           'Filters sets at the server level using Brickset’s official theme names.',
             'multiple': True,
             'options': [{t: t} for t in themes_brickset],
-        },
-        {
-            'keyname': 'show_qr_code',
-            'name': 'Show QR Code Link',
-            'field_type': 'select',
-            'description': 'Display a QR code linking to the selected set’s details page.',
-            'options': [
-                {'Hide QR Code': 'hide'},
-                {'Show QR Code': 'show'},
-            ],
-            'default': 'hide',
-        },
-        {
-            'keyname': 'brickset_pricing',
-            'field_type': 'select',
-            'name': 'Show Set Price (Brickset Only)',
-            'description': 'Displays the LEGO® retail price from LEGO.com in the selected region (if available).',
-            'options': [
-                {'Do Not Show Price': ''},
-                {'Canada (CA)': 'CA'},
-                {'Germany (DE)': 'DE'},
-                {'United Kingdom (UK)': 'UK'},
-                {'United States (US)': 'US'},
-            ],
-            'default': '',
-        },
-        {
-            'keyname': 'brickset_show_minifigs_included',
-            'field_type': 'select',
-            'name': 'Show Number of Minifigures (Brickset Only)',
-            'description': 'Displays the number of minifigures included in the set when Brickset provides the data.',
-            'options': [
-                {'Yes, Show Minifigs': 'yes'},
-                {'No, Do Not Display': 'no'},
-            ],
-            'default': 'no',
-        },
-        {
-            'keyname': 'min_year',
-            'field_type': 'number',
-            'name': 'Minimum Release Year',
-            'description': 'Filters by release year. This filter occurs locally for curated mode and server-side for Brickset.',
-            'min': 1900,
-            'optional': True,
-            'placeholder': "1950"
-        },
-        {
-            'keyname': 'max_year',
-            'field_type': 'number',
-            'name': 'Maximum Release Year',
-            'description': 'Filters by release year. This filter occurs locally for curated mode and on the API request for Brickset.',
-            'min': 1900,
-            'optional': True,
-            'placeholder': f'{datetime.date.today().year}'
-        },
-        {
-            'keyname': 'brickset_owned_wanted',
-            'field_type': 'select',
-            'name': 'Filter by Collection Status (Brickset Only)',
-            'description': 'Filter Brickset results to only show sets you own or want. '
-                           'Requires a user hash to be provided.',
-            'options': [
-                {'Show All Sets': ''},
-                {'Only Show Owned Sets': '%27owned%27:1,'},
-                {'Only Show Wanted Sets': '%27wanted%27:1,'},
-            ],
-            'default': '',
-            'optional': True
-        },
-        {
-            'keyname': 'min_parts',
-            'field_type': 'number',
-            'name': 'Minimum Number of Parts',
-            'description': 'Show only sets containing at least this many pieces. Filter applied locally in both modes.',
-            'min': 0,
-            'optional': True,
-            'placeholder': "100"
-        },
-        {
-            'keyname': 'max_parts',
-            'field_type': 'number',
-            'name': 'Maximum Number of Parts',
-            'description': 'Show only sets containing at most this many pieces. Filter applied locally in both modes.',
-            'min': 0,
-            'optional': True,
-            'placeholder': "5000"
         }
     ]
 
@@ -590,22 +376,11 @@ async def create_options_yml(theme_info):
 
 # ==== Generate Options ====
 async def generate_options():
-    """Generate options.yml and theme-based JSON files from sets.json"""
-    logging.info("=== Phase 2: Generate Plugin Options ===")
-
     if not SETS_FILE.exists():
         logging.error(f"Error: {SETS_FILE} not found. Run Phase 1 first.")
         return
-
-    with open(SETS_FILE, 'r', encoding='utf-8') as f:
-        sets = json.load(f)
-
-    logging.info(f"Loaded {len(sets)} total LEGO sets")
-
-    logging.info("Creating theme-based files...")
+    sets = json.load(open(SETS_FILE, 'r', encoding='utf-8'))
     theme_info = create_theme_files(sets)
-
-    logging.info("Creating options.yml...")
     await create_options_yml(theme_info)
 
 
