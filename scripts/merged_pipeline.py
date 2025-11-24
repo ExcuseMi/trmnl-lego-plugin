@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
 Complete LEGO data pipeline: Download Rebrickable data, filter and validate,
-then generate options.yml and compact JSON for TRMNL plugin.
-Supports dual theme naming for Rebrickable and BrickSet compatibility.
+then generate options.yml and theme-based compact JSON files for TRMNL plugin.
+Stores sets per theme in data/theme/{theme-slug}.json files under 100KB each.
 """
 import csv
 import datetime
@@ -45,9 +45,9 @@ DATASETS = {
 SCRIPT_DIR = Path(__file__).parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 DATA_DIR = PROJECT_ROOT / "data"
+THEME_DIR = DATA_DIR / "theme"
 
 SETS_FILE = DATA_DIR / "sets.json"
-COMPACT_JSON = DATA_DIR / "reduced_sets.json"
 OUTPUT_FILE = DATA_DIR / "options.yml"
 
 FIELDS_ORDER = ["set_num", "name", "year", "num_parts", "theme", "parent_theme"]
@@ -60,6 +60,8 @@ BAD_THEME_NAMES = {
     "SPIKE", "Clikits", "Modulex", "Control Lab", "Soft Bricks",
     "Service Packs", "Database Sets", "Clocks and Watches", "Key Chain"
 }
+
+MAX_FILE_SIZE_KB = 100
 
 # ==== Logging ====
 logging.basicConfig(
@@ -84,8 +86,6 @@ async def fetch_brickset_themes():
         async with aiohttp.ClientSession() as session:
             async with session.get(url, headers=headers) as response:
                 if response.status == 200:
-                    # Read as text first, then parse as JSON manually
-                    # BrickSet returns JSON but with incorrect content-type header
                     text = await response.text()
                     data = json.loads(text)
                     themes = data.get('themes', [])
@@ -101,6 +101,14 @@ async def fetch_brickset_themes():
 
 
 # ==== Utility Functions ====
+def slugify(text):
+    """Convert text to URL-safe slug"""
+    text = text.lower()
+    text = re.sub(r'[^\w\s-]', '', text)
+    text = re.sub(r'[-\s]+', '-', text)
+    return text.strip('-')
+
+
 def natural_sort_key(value):
     def convert(text):
         return (0, int(text)) if text.isdigit() else (1, text.lower())
@@ -111,7 +119,8 @@ def natural_sort_key(value):
 
 def ensure_data_dir():
     DATA_DIR.mkdir(parents=True, exist_ok=True)
-    logging.info(f"Data directory ready: {DATA_DIR}")
+    THEME_DIR.mkdir(parents=True, exist_ok=True)
+    logging.info(f"Data directories ready: {DATA_DIR}, {THEME_DIR}")
 
 
 def download_zip(url, temp_file):
@@ -221,7 +230,7 @@ async def validate_images(data):
         if set_num:
             url = set_num_to_url.get(set_num)
             if url and cache.get(url, False):
-                # Remove the full URL, keep only set_num (image will be reconstructed later)
+                # Remove the full URL, keep only set_num
                 row.pop("image", None)
                 filtered_data.append(row)
             else:
@@ -265,13 +274,12 @@ async def download_and_process_rebrickable():
 
         data = add_theme_names(data, themes_lookup, parent_lookup)
 
-        # Filter
+        # Filter - only bad themes and image requirement
         if dataset_name == "sets":
             data = [
                 row for row in data
                 if row.get("theme") not in BAD_THEME_NAMES
                    and row.get("parent_theme") not in BAD_THEME_NAMES
-                   and row.get("num_parts") and row["num_parts"] > 1
                    and row.get("img_url")
             ]
         else:
@@ -310,91 +318,121 @@ async def download_and_process_rebrickable():
         save_json(normalized_data, f"{dataset_name}.json")
 
 
-# ==== Quality Filtering ====
-def filter_quality_sets(sets, target_count=8000):
-    excluded_themes = {
-        'Service Packs', 'Promotional', 'Seasonal', 'Books', 'Gear',
-        'Key Chain', 'Magnets', 'Pins', 'Stickers', 'Card Holder'
-    }
-    excluded_parent_themes = {'Promotional', 'Gear', 'Books'}
+# ==== Theme-Based File Creation ====
+def create_theme_files(sets):
+    """Create separate JSON files per theme in compact format, ensuring files stay under 100KB"""
 
-    filtered = [
-        s for s in sets
-        if s.get('num_parts', 0) >= 20
-           and s.get('year', 0) >= 1970
-           and s.get('theme') not in excluded_themes
-           and s.get('parent_theme') not in excluded_parent_themes
-    ]
+    # Group sets by theme
+    theme_sets = {}
+    for s in sets:
+        theme = s.get("theme", "Unknown")
+        if theme not in theme_sets:
+            theme_sets[theme] = []
+        theme_sets[theme].append(s)
 
-    logging.info(f"After initial filtering: {len(filtered)} sets")
+    logging.info(f"Found {len(theme_sets)} unique themes")
 
-    if len(filtered) > target_count:
-        def score(s):
-            score = min(s.get("num_parts", 0), 2000) / 10
+    # Create compact JSON for each theme
+    theme_info = {}  # {slug: {"name": theme_name, "count": count}}
 
-            year = s.get("year", 1970)
-            if year >= 2020:
-                score += 500
-            elif year >= 2010:
-                score += 300
-            elif year >= 2000:
-                score += 150
-            elif year >= 1990:
-                score += 50
+    for theme_name, theme_set_list in theme_sets.items():
+        slug = slugify(theme_name)
+        fields = ["set_num", "name", "year", "num_parts", "theme", "parent_theme"]
 
-            popular = {
-                'Star Wars', 'City', 'Creator', 'Technic', 'Friends',
-                'Ninjago', 'Harry Potter', 'Marvel', 'DC', 'Architecture',
-                'Ideas', 'Castle', 'Space', 'Pirates', 'Trains'
-            }
-            if s.get("theme") in popular or s.get("parent_theme") in popular:
-                score += 200
+        # Sort by year and set_num
+        theme_set_list.sort(key=lambda x: (
+            x.get("year") if isinstance(x.get("year"), int) else float("inf"),
+            natural_sort_key(x.get("set_num", ""))
+        ))
 
-            return score
-
-        filtered = sorted(filtered, key=score, reverse=True)[:target_count]
-        logging.info(f"Reduced to top {target_count} sets")
-
-    return filtered
-
-
-# ==== Compact JSON Creation ====
-def create_compact_json(sets):
-    fields = ["set_num", "name", "year", "num_parts", "theme", "parent_theme"]
-    compact = [fields] + [
-        [
-            s.get("set_num", ""), s.get("name", ""), s.get("year", ""),
-            s.get("num_parts", ""), s.get("theme", ""), s.get("parent_theme", "")
+        # Create compact format: [fields] + [[values], [values], ...]
+        compact = [fields] + [
+            [
+                s.get("set_num", ""),
+                s.get("name", ""),
+                s.get("year", ""),
+                s.get("num_parts", ""),
+                s.get("theme", ""),
+                s.get("parent_theme", "")
+            ]
+            for s in theme_set_list
         ]
-        for s in sets
-    ]
 
-    with open(COMPACT_JSON, "w", encoding="utf-8") as f:
-        json.dump(compact, f, separators=(",", ":"), ensure_ascii=False)
+        # Check file size and trim if necessary
+        json_str = json.dumps(compact, separators=(",", ":"), ensure_ascii=False)
+        size_kb = len(json_str.encode('utf-8')) / 1024
 
-    size_mb = COMPACT_JSON.stat().st_size / (1024 * 1024)
-    logging.info(f"Created {COMPACT_JSON.name}: {size_mb:.2f} MB")
+        if size_kb > MAX_FILE_SIZE_KB:
+            logging.warning(
+                f"Theme '{theme_name}' ({len(theme_set_list)} sets) exceeds {MAX_FILE_SIZE_KB}KB ({size_kb:.2f}KB)")
 
+            # Binary search to find max number of sets that fit
+            left, right = 1, len(theme_set_list)
+            max_sets = 1
 
-# ==== Extract Themes ====
-def extract_themes(sets):
-    return (
-        sorted({s.get("theme") for s in sets if s.get("theme")}),
-        sorted({s.get("parent_theme") for s in sets if s.get("parent_theme")})
-    )
+            while left <= right:
+                mid = (left + right) // 2
+                test_compact = [fields] + [
+                    [
+                        s.get("set_num", ""),
+                        s.get("name", ""),
+                        s.get("year", ""),
+                        s.get("num_parts", ""),
+                        s.get("theme", ""),
+                        s.get("parent_theme", "")
+                    ]
+                    for s in theme_set_list[:mid]
+                ]
+                test_size_kb = len(
+                    json.dumps(test_compact, separators=(",", ":"), ensure_ascii=False).encode('utf-8')) / 1024
+
+                if test_size_kb <= MAX_FILE_SIZE_KB:
+                    max_sets = mid
+                    left = mid + 1
+                else:
+                    right = mid - 1
+
+            theme_set_list = theme_set_list[:max_sets]
+            compact = [fields] + [
+                [
+                    s.get("set_num", ""),
+                    s.get("name", ""),
+                    s.get("year", ""),
+                    s.get("num_parts", ""),
+                    s.get("theme", ""),
+                    s.get("parent_theme", "")
+                ]
+                for s in theme_set_list
+            ]
+            json_str = json.dumps(compact, separators=(",", ":"), ensure_ascii=False)
+            size_kb = len(json_str.encode('utf-8')) / 1024
+            logging.info(f"  Trimmed to {max_sets} sets ({size_kb:.2f}KB)")
+
+        # Write file
+        theme_file = THEME_DIR / f"{slug}.json"
+        with open(theme_file, "w", encoding="utf-8") as f:
+            f.write(json_str)
+
+        theme_info[slug] = {
+            "name": theme_name,
+            "count": len(theme_set_list)
+        }
+
+        logging.info(f"Created {theme_file.name}: {len(theme_set_list)} sets, {size_kb:.2f}KB")
+
+    return theme_info
 
 
 # ==== Create YAML ====
-async def create_options_yml(filtered_sets, themes_rebrickable, parent_themes_rebrickable):
+async def create_options_yml(theme_info):
+    """Create options.yml with theme slugs as values and counts in names"""
     yaml.add_representer(dict, lambda dumper, data: dumper.represent_mapping("tag:yaml.org,2002:map", data.items()))
-
-    min_year = min(s.get('year', 9999) for s in filtered_sets)
-    max_year = max(s.get('year', 0) for s in filtered_sets)
-    min_parts = min(s.get('num_parts', 9999) for s in filtered_sets)
-    max_parts = max(s.get('num_parts', 0) for s in filtered_sets)
 
     # Fetch BrickSet themes if API key is available
     themes_brickset = await fetch_brickset_themes()
+
+    # Sort themes by name for options
+    sorted_themes = sorted(theme_info.items(), key=lambda x: x[1]["name"])
 
     about_field = {
         'keyname': 'about',
@@ -403,7 +441,7 @@ async def create_options_yml(filtered_sets, themes_rebrickable, parent_themes_re
         'description':
             f"Display LEGO sets on your TRMNL device with filtering options.<br /><br />"
             f"<strong>Two Data Modes:</strong><br />"
-            f"● <strong>Curated Dataset (default):</strong> {len(filtered_sets):,} pre-selected sets from <a href='https://rebrickable.com/'>Rebrickable.com</a> (non-LEGO items, micro sets, and sets without images excluded)<br />"
+            f"● <strong>Curated Dataset (default):</strong> Pre-selected sets from <a href='https://rebrickable.com/'>Rebrickable.com</a> organized by theme (non-LEGO items and sets without images excluded)<br />"
             f"● <strong>BrickSet API Mode:</strong> Live data from <a href='https://brickset.com/'>BrickSet.com</a> with access to your collection (requires free API key)<br /><br />"
             f"<strong>BrickSet Setup (Optional):</strong><br />"
             f"1. Create a free account at <a href='https://brickset.com/signup'>brickset.com/signup</a><br />"
@@ -476,10 +514,10 @@ async def create_options_yml(filtered_sets, themes_rebrickable, parent_themes_re
         {
             'keyname': 'themes_rebrickable',
             'field_type': 'select',
-            'name': f'Filter by Themes - Rebrickable ({len(themes_rebrickable)})',
-            'description': f'<strong>For Curated Dataset mode:</strong> Select themes to filter from {len(filtered_sets):,} pre-selected sets. Uses Rebrickable theme names.',
+            'name': f'Filter by Themes - Rebrickable ({len(sorted_themes)})',
+            'description': f'<strong>For Curated Dataset mode:</strong> Select themes to filter. Uses Rebrickable theme names. Number in parentheses shows available sets per theme.',
             'multiple': True,
-            'options': [{t: t} for t in themes_rebrickable],
+            'options': [{f"{info['name']} ({info['count']})": slug} for slug, info in sorted_themes],
             'optional': True
         },
         {
@@ -498,7 +536,7 @@ async def create_options_yml(filtered_sets, themes_rebrickable, parent_themes_re
             'description': '<strong>Curated mode:</strong> Filters the curated dataset<br /><strong>BrickSet mode:</strong> Server-side filtering (only fetches matching sets)',
             'min': 1900,
             'optional': True,
-            'placeholder': f"{min_year}"
+            'placeholder': "1950"
         },
         {
             'keyname': 'max_year',
@@ -529,7 +567,7 @@ async def create_options_yml(filtered_sets, themes_rebrickable, parent_themes_re
             'description': 'Only display sets with at least this many pieces (filtered on your device in both modes)',
             'min': 0,
             'optional': True,
-            'placeholder': "1000"
+            'placeholder': "100"
         },
         {
             'keyname': 'max_parts',
@@ -538,7 +576,7 @@ async def create_options_yml(filtered_sets, themes_rebrickable, parent_themes_re
             'description': 'Only display sets with at most this many pieces (filtered on your device in both modes)',
             'min': 0,
             'optional': True,
-            'placeholder': f'{max_parts}'
+            'placeholder': "5000"
         }
     ]
 
@@ -550,7 +588,7 @@ async def create_options_yml(filtered_sets, themes_rebrickable, parent_themes_re
 
 # ==== Generate Options ====
 async def generate_options():
-    """Generate options.yml and compact JSON from sets.json"""
+    """Generate options.yml and theme-based JSON files from sets.json"""
     logging.info("=== Phase 2: Generate Plugin Options ===")
 
     if not SETS_FILE.exists():
@@ -562,17 +600,11 @@ async def generate_options():
 
     logging.info(f"Loaded {len(sets)} total LEGO sets")
 
-    logging.info("Filtering sets...")
-    filtered = filter_quality_sets(sets)
-    logging.info(f"Final dataset: {len(filtered)} sets")
-
-    logging.info("Creating compact JSON...")
-    create_compact_json(filtered)
-
-    themes, parent_themes = extract_themes(filtered)
+    logging.info("Creating theme-based files...")
+    theme_info = create_theme_files(sets)
 
     logging.info("Creating options.yml...")
-    await create_options_yml(filtered, themes, parent_themes)
+    await create_options_yml(theme_info)
 
 
 # ==== Main ====
