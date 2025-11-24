@@ -48,11 +48,10 @@
   placeholder: Your user hash
 - keyname: themes_rebrickable
   field_type: select
-  name: Filter by Themes – Rebrickable (408)
+  name: Filter by Themes – Rebrickable (407)
   description: Applicable only when using the curated Rebrickable dataset.
   multiple: true
   options:
-  - ' (14270)': unknown|19|14270
   - 12V (52): 12v|1|52
   - 4 Juniors (23): 4-juniors|1|23
   - 4.5V (85): 45v|1|85

@@ -319,42 +319,53 @@ async def download_and_process_rebrickable():
 # ==== Theme-Based File Creation ====
 def create_theme_files(sets):
     THEME_DIR.mkdir(exist_ok=True)
-    theme_info={}
-    themes={}
+    theme_info = {}
+    themes = {}
+
+    # Filter out unknown themes
+    sets = [s for s in sets if s.get("theme") and s.get("theme") != "Unknown"]
+
     for s in sets:
-        theme=s.get("theme","Unknown")
-        themes.setdefault(theme,[]).append(s)
+        theme = s.get("theme")
+        themes.setdefault(theme, []).append(s)
 
     for theme_name, items in themes.items():
         slug = slugify(theme_name)
-        items.sort(key=lambda x: (x.get("year") if isinstance(x.get("year"),int) else float("inf"),
-                                  natural_sort_key(x.get("set_num",""))))
-        total_sets=len(items)
-        fields=list(items[0].keys())
-        start=0
-        file_idx=0
-        while start<total_sets:
-            left,right=1,total_sets-start
-            max_fit=1
-            while left<=right:
-                mid=(left+right)//2
-                chunk=[ [s.get(f,"") for f in fields] for s in items[start:start+mid]]
-                json_size_kb=len(json.dumps([fields]+chunk,separators=(",",":"),ensure_ascii=False).encode("utf-8"))/1024
-                if json_size_kb<=MAX_FILE_SIZE_KB:
-                    max_fit=mid
-                    left=mid+1
+        items.sort(key=lambda x: (x.get("year") if isinstance(x.get("year"), int) else float("inf"),
+                                  natural_sort_key(x.get("set_num", ""))))
+        total_sets = len(items)
+        fields = list(items[0].keys())
+        start = 0
+        file_idx = 0
+
+        while start < total_sets:
+            left, right = 1, total_sets - start
+            max_fit = 1
+
+            while left <= right:
+                mid = (left + right) // 2
+                chunk = [[s.get(f, "") for f in fields] for s in items[start:start + mid]]
+                json_size_kb = len(json.dumps([fields] + chunk, separators=(",", ":"), ensure_ascii=False).encode("utf-8")) / 1024
+                if json_size_kb <= MAX_FILE_SIZE_KB:
+                    max_fit = mid
+                    left = mid + 1
                 else:
-                    right=mid-1
-            chunk_items=items[start:start+max_fit]
-            out_dir=THEME_DIR/slug
+                    right = mid - 1
+
+            chunk_items = items[start:start + max_fit]
+            out_dir = THEME_DIR / slug
             out_dir.mkdir(exist_ok=True)
-            out_file=out_dir/f"{file_idx}.json"
-            json_chunk=[fields]+[[s.get(f,"") for f in fields] for s in chunk_items]
-            with open(out_file,"w",encoding="utf-8") as f: f.write(json.dumps(json_chunk,separators=(",",":"),ensure_ascii=False))
-            start+=max_fit
-            file_idx+=1
-        theme_info[slug]={"name":theme_name,"total_sets":total_sets,"max_file_count":file_idx}
+            out_file = out_dir / f"{file_idx}.json"
+            json_chunk = [fields] + [[s.get(f, "") for f in fields] for s in chunk_items]
+            with open(out_file, "w", encoding="utf-8") as f:
+                f.write(json.dumps(json_chunk, separators=(",", ":"), ensure_ascii=False))
+
+            start += max_fit
+            file_idx += 1
+
+        theme_info[slug] = {"name": theme_name, "total_sets": total_sets, "max_file_count": file_idx}
         logging.info(f"Theme '{theme_name}': {total_sets} sets in {file_idx} files")
+
     return theme_info
 def save_theme_option_files(theme_info, brickset_themes):
     rebrickable_options=[{ f"{info['name']} : {info['total_sets']}": f"{slug}|{info['max_file_count']}|{info['total_sets']}" }
