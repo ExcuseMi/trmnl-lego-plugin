@@ -52,14 +52,6 @@ OUTPUT_FILE = DATA_DIR / "options.yml"
 
 FIELDS_ORDER = ["set_num", "name", "year", "num_parts", "theme", "parent_theme"]
 
-MINIFIG_EXCLUDE_KEYWORDS = ["Weapon", "Accessory", "Supplement", "Promo", "Set", "Pack"]
-
-BAD_THEME_NAMES = {
-    "Supplemental", "Promotional", "Designer Sets", "Seasonal",
-    "Minifigures", "Books", "Activity Books", "Non-fiction Books",
-    "SPIKE", "Clikits", "Modulex", "Control Lab", "Soft Bricks",
-    "Service Packs", "Database Sets", "Clocks and Watches", "Key Chain"
-}
 
 MAX_FILE_SIZE_KB = 100
 
@@ -274,20 +266,6 @@ async def download_and_process_rebrickable():
 
         data = add_theme_names(data, themes_lookup, parent_lookup)
 
-        # Filter - only bad themes and image requirement
-        if dataset_name == "sets":
-            data = [
-                row for row in data
-                if row.get("theme") not in BAD_THEME_NAMES
-                   and row.get("parent_theme") not in BAD_THEME_NAMES
-                   and row.get("img_url")
-            ]
-        else:
-            data = [
-                row for row in data
-                if row.get("img_url") and
-                   not any(kw.lower() in (row.get("name") or "").lower() for kw in MINIFIG_EXCLUDE_KEYWORDS)
-            ]
 
         # Normalize - Keep Rebrickable theme names
         normalized_data = []
@@ -439,16 +417,16 @@ async def create_options_yml(theme_info):
         'name': 'About This Plugin',
         'field_type': 'author_bio',
         'description':
-            f"Display LEGO sets on your TRMNL device with filtering options.<br /><br />"
-            f"<strong>Two Data Modes:</strong><br />"
-            f"● <strong>Curated Dataset (default):</strong> Pre-selected sets from <a href='https://rebrickable.com/'>Rebrickable.com</a> organized by theme (non-LEGO items and sets without images excluded)<br />"
-            f"● <strong>BrickSet API Mode:</strong> Live data from <a href='https://brickset.com/'>BrickSet.com</a> with access to your collection (requires free API key)<br /><br />"
+            f"Display LEGO® sets on your TRMNL device with filtering options using live data from community APIs.<br /><br />"
+            f"<strong>Data Sources:</strong><br />"
+            f"● <strong>Rebrickable Mode (default):</strong> Uses live set data from <a href='https://rebrickable.com/'>Rebrickable.com</a> with theme and part filters<br />"
+            f"● <strong>BrickSet Mode:</strong> Uses live set data from <a href='https://brickset.com/'>BrickSet.com</a> with optional personal collection features (owned/wanted), minifigs, and regional pricing<br /><br />"
             f"<strong>BrickSet Setup (Optional):</strong><br />"
             f"1. Create a free account at <a href='https://brickset.com/signup'>brickset.com/signup</a><br />"
             f"2. Request your API key at <a href='https://brickset.com/tools/webservices/requestkey'>brickset.com/tools/webservices/requestkey</a><br />"
             f"3. Enter your API key below to enable BrickSet mode<br />"
-            f"4. (Optional) To show sets you own/want: call the login API method to get your userHash - see <a href='https://brickset.com/article/52664/api-version-3-documentation'>API docs</a> (search for 'login' method)<br /><br />"
-            f"<strong>Note:</strong> Each data mode has its own theme filter since Rebrickable and BrickSet use different theme naming conventions.",
+            f"4. (Optional) For owned/wanted filtering: call the login API to get your userHash (see <a href='https://brickset.com/article/52664/api-version-3-documentation'>API docs</a>)<br /><br />"
+            f"<strong>Theme Note:</strong> Both APIs use different theme names and categories. Your filter options will automatically change depending on the selected data source.",
         'github_url': 'https://github.com/ExcuseMi/trmnl-lego-plugin',
         'category': 'life'
     }
@@ -456,84 +434,107 @@ async def create_options_yml(theme_info):
     fields = [
         about_field,
         {
+            'keyname': 'vendor',
+            'field_type': 'select',
+            'name': 'Data Source',
+            'description': 'Select which LEGO® data source to use.',
+            'options': [
+                {'Rebrickable (Curated Dataset)': 'rebrickable'},
+                {'Brickset (Live API)': 'brickset'},
+            ],
+            'default': 'rebrickable',
+            'conditional_validation': [
+                {
+                    "when": "brickset",
+                    "required": ["brickset_api_key", "brickset_user_hash", "themes_brickset",
+                                 "brickset_owned_wanted", "brickset_pricing", "brickset_show_minifigs_included"],
+                    "hidden": ["themes_rebrickable"]
+                },
+                {
+                    "when": "rebrickable",
+                    "required": ["themes_rebrickable"],
+                    "hidden": ["brickset_api_key", "brickset_user_hash", "themes_brickset",
+                               "brickset_owned_wanted", "brickset_pricing", "brickset_show_minifigs_included"]
+                }
+            ]
+        },
+        {
             'keyname': 'brickset_api_key',
             'field_type': 'string',
-            'name': 'BrickSet API Key (Optional)',
-            'description': 'Enter your BrickSet API key to use live data from BrickSet instead of the curated dataset. Get your key from <a href="https://brickset.com/tools/webservices/requestkey" target="_blank">brickset.com/tools/webservices/requestkey</a>',
-            'optional': True,
+            'name': 'Brickset API Key (Optional)',
+            'description': 'Enter your Brickset Web Services API key to enable Brickset mode. '
+                           'Get your key at <a href="https://brickset.com/tools/webservices/requestkey" target="_blank">Brickset.com</a>.',
             'placeholder': 'Your API key'
         },
         {
             'keyname': 'brickset_user_hash',
             'field_type': 'string',
-            'name': 'BrickSet User Hash (Optional)',
-            'description': 'Enter your user hash to filter by sets you own or want. To get it: call the BrickSet login API with your credentials. See the <a href="https://brickset.com/article/52664/api-version-3-documentation" target="_blank">login method documentation</a>. Example: <code>https://brickset.com/api/v3.asmx/login?apiKey=YOUR_KEY&username=YOUR_USERNAME&password=YOUR_PASSWORD</code>',
+            'name': 'Brickset User Hash (Optional)',
+            'description': 'Required to display owned/wanted collections. '
+                           'Obtain it by calling the Brickset API <strong>login</strong> method. '
+                           'See documentation link for example requests.',
             'optional': True,
-            'placeholder': 'Your user hash from login API response'
-        },
-        {
-            'keyname': 'show_qr_code',
-            'name': 'Show QR Code',
-            'field_type': 'select',
-            'description': 'Display a QR code that links to the set details page',
-            'options': [
-                {'Hide QR Code': 'hide'},
-                {'Show QR Code (Rebrickable)': 'show_rebrickable'},
-                {'Show QR Code (BrickSet)': 'show_brickset'},
-            ],
-            'default': 'hide',
-            'optional': True
-        },
-        {
-            'keyname': 'brickset_pricing',
-            'field_type': 'select',
-            'name': 'Show Set Price (BrickSet Only)',
-            'description': '<strong>BrickSet mode only:</strong> Show the Lego Sets retail price from LEGO.com',
-            'options': [
-                {'No pricing': ''},
-                {'CA': 'CA'},
-                {'DE': 'DE'},
-                {'UK': 'UK'},
-                {'US': 'US'},
-            ],
-            'default': '',
-            'optional': True
-        },
-        {
-            'keyname': 'brickset_show_minifigs_included',
-            'field_type': 'select',
-            'name': 'Show minifigs included (BrickSet Only)',
-            'description': '<strong>BrickSet mode only:</strong> Show the number of minifigs included',
-            'options': [
-                {'Yes': 'yes'},
-                {'No': 'no'},
-            ],
-            'default': 'no',
-            'optional': True
+            'placeholder': 'Your user hash'
         },
         {
             'keyname': 'themes_rebrickable',
             'field_type': 'select',
-            'name': f'Filter by Themes - Rebrickable ({len(sorted_themes)})',
-            'description': f'<strong>For Curated Dataset mode:</strong> Select themes to filter. Uses Rebrickable theme names. Number in parentheses shows available sets per theme.',
+            'name': f'Filter by Themes – Rebrickable ({len(sorted_themes)})',
+            'description': 'Applicable only when using the curated Rebrickable dataset. '
+                           'Select themes to include in the display.',
             'multiple': True,
             'options': [{info['name'] + f" ({info['count']})": slug} for slug, info in sorted_themes],
-            'optional': True
         },
         {
             'keyname': 'themes_brickset',
             'field_type': 'select',
-            'name': f'Filter by Themes - BrickSet ({len(themes_brickset)})',
-            'description': '<strong>For BrickSet API mode:</strong> Select themes for server-side filtering. Uses BrickSet theme names. Only applies when BrickSet API key is provided.',
+            'name': f'Filter by Themes – Brickset ({len(themes_brickset)})',
+            'description': 'Applicable only in Brickset API mode. '
+                           'Filters sets at the server level using Brickset’s official theme names.',
             'multiple': True,
             'options': [{t: t} for t in themes_brickset],
-            'optional': True
+        },
+        {
+            'keyname': 'show_qr_code',
+            'name': 'Show QR Code Link',
+            'field_type': 'select',
+            'description': 'Display a QR code linking to the selected set’s details page.',
+            'options': [
+                {'Hide QR Code': 'hide'},
+                {'Show QR Code': 'show'},
+            ],
+            'default': 'hide',
+        },
+        {
+            'keyname': 'brickset_pricing',
+            'field_type': 'select',
+            'name': 'Show Set Price (Brickset Only)',
+            'description': 'Displays the LEGO® retail price from LEGO.com in the selected region (if available).',
+            'options': [
+                {'Do Not Show Price': ''},
+                {'Canada (CA)': 'CA'},
+                {'Germany (DE)': 'DE'},
+                {'United Kingdom (UK)': 'UK'},
+                {'United States (US)': 'US'},
+            ],
+            'default': '',
+        },
+        {
+            'keyname': 'brickset_show_minifigs_included',
+            'field_type': 'select',
+            'name': 'Show Number of Minifigures (Brickset Only)',
+            'description': 'Displays the number of minifigures included in the set when Brickset provides the data.',
+            'options': [
+                {'Yes, Show Minifigs': 'yes'},
+                {'No, Do Not Display': 'no'},
+            ],
+            'default': 'no',
         },
         {
             'keyname': 'min_year',
             'field_type': 'number',
             'name': 'Minimum Release Year',
-            'description': '<strong>Curated mode:</strong> Filters the curated dataset<br /><strong>BrickSet mode:</strong> Server-side filtering (only fetches matching sets)',
+            'description': 'Filters by release year. This filter occurs locally for curated mode and server-side for Brickset.',
             'min': 1900,
             'optional': True,
             'placeholder': "1950"
@@ -542,7 +543,7 @@ async def create_options_yml(theme_info):
             'keyname': 'max_year',
             'field_type': 'number',
             'name': 'Maximum Release Year',
-            'description': '<strong>Curated mode:</strong> Filters the curated dataset<br /><strong>BrickSet mode:</strong> Server-side filtering (only fetches matching sets)',
+            'description': 'Filters by release year. This filter occurs locally for curated mode and on the API request for Brickset.',
             'min': 1900,
             'optional': True,
             'placeholder': f'{datetime.date.today().year}'
@@ -550,12 +551,13 @@ async def create_options_yml(theme_info):
         {
             'keyname': 'brickset_owned_wanted',
             'field_type': 'select',
-            'name': 'Show Owned and/or Wanted Sets (BrickSet Only)',
-            'description': '<strong>BrickSet mode only:</strong> Filter sets based on your collection. Requires user hash to be provided above.',
+            'name': 'Filter by Collection Status (Brickset Only)',
+            'description': 'Filter Brickset results to only show sets you own or want. '
+                           'Requires a user hash to be provided.',
             'options': [
-                {'All Sets': ''},
-                {'Only Owned Sets': '%27owned%27:1,'},
-                {'Only Wanted Sets': '%27wanted%27:1,'},
+                {'Show All Sets': ''},
+                {'Only Show Owned Sets': '%27owned%27:1,'},
+                {'Only Show Wanted Sets': '%27wanted%27:1,'},
             ],
             'default': '',
             'optional': True
@@ -564,7 +566,7 @@ async def create_options_yml(theme_info):
             'keyname': 'min_parts',
             'field_type': 'number',
             'name': 'Minimum Number of Parts',
-            'description': 'Only display sets with at least this many pieces (filtered on your device in both modes)',
+            'description': 'Show only sets containing at least this many pieces. Filter applied locally in both modes.',
             'min': 0,
             'optional': True,
             'placeholder': "100"
@@ -573,7 +575,7 @@ async def create_options_yml(theme_info):
             'keyname': 'max_parts',
             'field_type': 'number',
             'name': 'Maximum Number of Parts',
-            'description': 'Only display sets with at most this many pieces (filtered on your device in both modes)',
+            'description': 'Show only sets containing at most this many pieces. Filter applied locally in both modes.',
             'min': 0,
             'optional': True,
             'placeholder': "5000"

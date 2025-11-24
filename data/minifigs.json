@@ -616,6 +616,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-000079",
+    "name": "Astronaut, White, White Hips, Helmet with Large Chrome Gold Visor, Headset",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-000080",
     "name": "Pretzel Girl (CMF)",
     "year": "",
@@ -768,6 +776,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-000099",
+    "name": "Astronaut, White, Light Gray Hips, Helmet with Breastplate and Large Chrome Gold Visor, Headset",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-000100",
     "name": "Man, Blue Torso, Black Legs, Red Hard Hat",
     "year": "",
@@ -792,6 +808,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-000103",
+    "name": "Astronaut, White, Light Gray Hips, Helmet with Large Chrome Gold Visor, Headset",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-000104",
     "name": "Racer, Plain Black, White Helmet (3842b Helmet)",
     "year": "",
@@ -808,8 +832,32 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-000106",
+    "name": "Blacktron II - Jetpack, 3626a Head",
+    "year": "",
+    "num_parts": 8,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-000107",
+    "name": "Blacktron II - Jetpack, 3626b Head",
+    "year": "",
+    "num_parts": 8,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-000108",
     "name": "Policeman, Black Jacket with Zipper, Radio, and Badge, White Hat, Sunglasses",
+    "year": "",
+    "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-000109",
+    "name": "Cole (The Golden Weapons)",
     "year": "",
     "num_parts": 4,
     "theme": "",
@@ -1600,6 +1648,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-000213",
+    "name": "Lord Garmadon (The Golden Weapons)",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-000214",
     "name": "Grumlo with Flat Silver Shoulder Armor",
     "year": "",
@@ -1770,6 +1826,14 @@
   {
     "set_num": "fig-000237",
     "name": "LEGOLAND Blue, White Hat",
+    "year": "",
+    "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-000238",
+    "name": "Boba Fett, Helmet and Jetpack, Light Gray Armor, Plain Legs",
     "year": "",
     "num_parts": 4,
     "theme": "",
@@ -2336,6 +2400,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-000314",
+    "name": "Man, Black Torso, White Legs, Blue Cap, Backpack, Sunglasses",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-000316",
     "name": "Boba Fett, White Armor, Plain Black Head",
     "year": "",
@@ -2672,6 +2744,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-000361",
+    "name": "Astronaut, White, Blue Cap, Headset",
+    "year": "",
+    "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-000362",
     "name": "Ninja, Dark Gray",
     "year": "",
@@ -2812,6 +2892,14 @@
     "name": "LEGOLAND Blue Torso, Red Legs, Black Hat",
     "year": "",
     "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-000380",
+    "name": "Man, Dark Azure Shirt, Dark Tan Legs, Dark Bluish Gray Hat, Red Backpack",
+    "year": "",
+    "num_parts": 5,
     "theme": "",
     "parent_theme": ""
   },
@@ -3088,6 +3176,22 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-000417",
+    "name": "Zane (The Golden Weapons)",
+    "year": "",
+    "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-000418",
+    "name": "Kai (The Golden Weapons)",
+    "year": "",
+    "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-000419",
     "name": "Arctic Crew, Green, Hood",
     "year": "",
@@ -3138,6 +3242,14 @@
   {
     "set_num": "fig-000425",
     "name": "Pilot, Black Jacket with Zipper, White Helmet with Trans-Light Blue Visor",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-000426",
+    "name": "Master Wu (The Golden Weapons)",
     "year": "",
     "num_parts": 5,
     "theme": "",
@@ -3300,6 +3412,14 @@
     "name": "Fireman, Red Jacket with Straps, White Helmet with Visor, Orange Sunglasses",
     "year": "",
     "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-000447",
+    "name": "Jay (The Golden Weapons)",
+    "year": "",
+    "num_parts": 4,
     "theme": "",
     "parent_theme": ""
   },
@@ -3890,6 +4010,14 @@
   {
     "set_num": "fig-000527",
     "name": "Fireman with Reflective Stripes and Radio, White Fire Helmet, and Beard Stubble",
+    "year": "",
+    "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-000528",
+    "name": "Nya (The Golden Weapons)",
     "year": "",
     "num_parts": 4,
     "theme": "",
@@ -4552,6 +4680,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-000622",
+    "name": "Max Villano with Backpack",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-000623",
     "name": "Race Driver, Black Racing Suit, Black Hair",
     "year": "",
@@ -4620,6 +4756,14 @@
     "name": "Dr. Charles Lightning",
     "year": "",
     "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-000632",
+    "name": "Miss Gail Storm with Backpack",
+    "year": "",
+    "num_parts": 5,
     "theme": "",
     "parent_theme": ""
   },
@@ -4804,6 +4948,14 @@
     "name": "Knight - Blue Torso, Dark Bluish Grey legs, Metallic Silver Helmet",
     "year": "",
     "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-000660",
+    "name": "Paisley - White Top, Sand Blue Legs, Medium Lavendar Fanny Pack",
+    "year": "",
+    "num_parts": 5,
     "theme": "",
     "parent_theme": ""
   },
@@ -5416,6 +5568,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-000740",
+    "name": "Criminal, Black Striped Top with Rope, Black Hat, Dark Tan Backpack, Stubble",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-000741",
     "name": "Ogel",
     "year": "",
@@ -5672,6 +5832,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-000773",
+    "name": "Obi-Wan Kenobi, Yellow Skin, Headset",
+    "year": "",
+    "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-000774",
     "name": "Man - Black Torso, Blue Pants",
     "year": "",
@@ -5884,6 +6052,14 @@
     "name": "Man, Green Overalls over Red Shirt, Black Cap",
     "year": "",
     "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-000802",
+    "name": "Johnny Thunder with Backpack (Desert)",
+    "year": "",
+    "num_parts": 5,
     "theme": "",
     "parent_theme": ""
   },
@@ -7072,6 +7248,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-000953",
+    "name": "Trendsetter",
+    "year": "",
+    "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-000954",
     "name": "Brawny Boxer, Team GB (CMF)",
     "year": "",
@@ -7272,6 +7456,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-000980",
+    "name": "Astronaut, White, Helmet with Large Chrome Gold Visor, Airtanks, Headset",
+    "year": "",
+    "num_parts": 6,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-000981",
     "name": "Grandpa Abe Simpson (CMF)",
     "year": "",
@@ -7308,6 +7500,14 @@
     "name": "Flex with Trans-Dark Blue Diving Mask",
     "year": "",
     "num_parts": 6,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-000986",
+    "name": "Astronaut, White, Helmet with Visor, Headset",
+    "year": "",
+    "num_parts": 5,
     "theme": "",
     "parent_theme": ""
   },
@@ -7364,6 +7564,14 @@
     "name": "Ryo in Gold Armor",
     "year": "",
     "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-000994",
+    "name": "Astronaut, White, Black Hips, Helmet with Large Chrome Gold Visor, Headset",
+    "year": "",
+    "num_parts": 5,
     "theme": "",
     "parent_theme": ""
   },
@@ -7872,6 +8080,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-001063",
+    "name": "Yoda, Sand Green Head, Santa Outfit, Backpack",
+    "year": "",
+    "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-001064",
     "name": "Red Cheerleader",
     "year": "",
@@ -8204,6 +8420,14 @@
     "name": "Johnny Thunder (Desert) with Chin Scar",
     "year": "",
     "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-001109",
+    "name": "Boba Fett, Helmet, Jetpack Neckwear, Olive Green Pauldron, Dark Green Hips",
+    "year": "",
+    "num_parts": 7,
     "theme": "",
     "parent_theme": ""
   },
@@ -9456,6 +9680,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-001273",
+    "name": "Pilot, Red Jumpsuit with TV Logo, Black Helmet with Visor, Headset",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-001274",
     "name": "Captain Jack Sparrow with Tricorne",
     "year": "",
@@ -9570,6 +9802,14 @@
   {
     "set_num": "fig-001288",
     "name": "Explorer",
+    "year": "",
+    "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-001289",
+    "name": "Space Port Ground Crew, Red Jumpsuit, White Cap, Headset and Glasses",
     "year": "",
     "num_parts": 4,
     "theme": "",
@@ -9992,6 +10232,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-001343",
+    "name": "ADU Trooper, Big Smile / Confused, with Jetpack",
+    "year": "",
+    "num_parts": 6,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-001344",
     "name": "Samurai",
     "year": "",
@@ -10332,6 +10580,14 @@
     "name": "Miner, Dark Red Flannel Shirt, Mining Hat, Goatee Beard and Goggles",
     "year": "",
     "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-001387",
+    "name": "Astronaut, White and Dark Azure Spacesuit, Dark Azure Backpack and Helmet, Stubble Beard",
+    "year": "",
+    "num_parts": 6,
     "theme": "",
     "parent_theme": ""
   },
@@ -12040,6 +12296,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-001606",
+    "name": "Astronaut, White Spacesuit, Bright Green Backpack and Helmet, Goatee",
+    "year": "",
+    "num_parts": 6,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-001607",
     "name": "Rebel Pilot A-wing, Red Uniform",
     "year": "",
@@ -12116,6 +12380,14 @@
     "name": "Dance Instructor",
     "year": "",
     "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-001618",
+    "name": "Astronaut - White Torso and Legs, Backpack",
+    "year": "",
+    "num_parts": 11,
     "theme": "",
     "parent_theme": ""
   },
@@ -12300,6 +12572,14 @@
     "name": "Misako (Koko) (CMF)",
     "year": "",
     "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-001643",
+    "name": "Zane with Backpack (CMF)",
+    "year": "",
+    "num_parts": 5,
     "theme": "",
     "parent_theme": ""
   },
@@ -13200,6 +13480,22 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-001757",
+    "name": "Astronaut, White and Dark Blue Spacesuit, Dark Azure Backpack and Helmet, Earpiece",
+    "year": "",
+    "num_parts": 6,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-001758",
+    "name": "Astronaut, White Spacesuit, Bright Green Backpack and Helmet",
+    "year": "",
+    "num_parts": 6,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-001760",
     "name": "Robin Underwood with Hair and Shoulder Armor",
     "year": "",
@@ -13520,6 +13816,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-001806",
+    "name": "Astronaut, White and Dark Azure Spacesuit, Dark Azure Backpack and Helmet",
+    "year": "",
+    "num_parts": 6,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-001807",
     "name": "Aaron Fox with Hair and Shoulder Armor",
     "year": "",
@@ -13800,6 +14104,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-001843",
+    "name": "Obi-Wan Kenobi, Tan Printed Legs, Headset",
+    "year": "",
+    "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-001844",
     "name": "The Joker with Long Coattails",
     "year": "",
@@ -14040,6 +14352,22 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-001875",
+    "name": "Master Wu in White Robes (The Golden Weapons)",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-001877",
+    "name": "Astronaut, White Spacesuit, Bright Green Backpack, Dark Green Helmet, Eyepiece",
+    "year": "",
+    "num_parts": 6,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-001878",
     "name": "Pilot, Black Torso, Black Legs, Black Hat",
     "year": "",
@@ -14076,6 +14404,14 @@
     "name": "Criminal, Open Light Bluish Gray Jacket over Prison Shirt, Light Bluish Gray Legs, Black Hat, Missing Tooth",
     "year": "",
     "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-001884",
+    "name": "Astronaut, White Spacesuit, Bright Green Backpack and Helmet, Glasses",
+    "year": "",
+    "num_parts": 6,
     "theme": "",
     "parent_theme": ""
   },
@@ -14124,6 +14460,14 @@
     "name": "Mountain Police Chief, Dark Blue Shirt with Radio and Badge, Campaign Hat, Moustache",
     "year": "",
     "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-001891",
+    "name": "Santa, Plain Red with Backpack",
+    "year": "",
+    "num_parts": 6,
     "theme": "",
     "parent_theme": ""
   },
@@ -14332,6 +14676,14 @@
     "name": "Race Driver, White Torso, White Legs, Red Helmet, Ferrari",
     "year": "",
     "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-001921",
+    "name": "Astronaut, White and Dark Azure Spacesuit, Dark Azure Backpack and Helmet, Glasses",
+    "year": "",
+    "num_parts": 6,
     "theme": "",
     "parent_theme": ""
   },
@@ -14564,6 +14916,14 @@
     "name": "White Torso, Blue Legs, Long Reddish Brown Hair",
     "year": "",
     "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-001956",
+    "name": "Astronaut, White and Dark Blue Spacesuit, Dark Azure Backpack, Dark Blue Helmet",
+    "year": "",
+    "num_parts": 6,
     "theme": "",
     "parent_theme": ""
   },
@@ -15108,6 +15468,14 @@
     "name": "Astronaut - White Torso and Legs, Orange Trim, Smirk, Black Eyebrows",
     "year": "",
     "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-002028",
+    "name": "Astronaut, White Spacesuit, Bright Green Backpack and Helmet",
+    "year": "",
+    "num_parts": 6,
     "theme": "",
     "parent_theme": ""
   },
@@ -16560,6 +16928,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-002224",
+    "name": "Dr. Charles Lightning with Backpack",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-002225",
     "name": "Miss Gail Storm",
     "year": "",
@@ -16584,6 +16960,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-002228",
+    "name": "Señor (Senor) Palomar with Backpack",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-002229",
     "name": "Skeleton, Standard Face, Ball Joint Arms (3626b Head)",
     "year": "",
@@ -16596,6 +16980,14 @@
     "name": "Mr. Cunningham with Black Hips",
     "year": "",
     "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-002231",
+    "name": "M:Tron - Backpack",
+    "year": "",
+    "num_parts": 8,
     "theme": "",
     "parent_theme": ""
   },
@@ -16804,6 +17196,14 @@
     "name": "Ngan Pa",
     "year": "",
     "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-002259",
+    "name": "Sherpa Sangye Dorje with Backpack",
+    "year": "",
+    "num_parts": 5,
     "theme": "",
     "parent_theme": ""
   },
@@ -18136,6 +18536,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-002444",
+    "name": "Axel with Backpack with Narrow Lights",
+    "year": "",
+    "num_parts": 11,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-002446",
     "name": "Jeff Fisher",
     "year": "",
@@ -18148,6 +18556,14 @@
     "name": "Ace Speedman",
     "year": "",
     "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-002448",
+    "name": "Axel with Backpack with Wide Lights",
+    "year": "",
+    "num_parts": 13,
     "theme": "",
     "parent_theme": ""
   },
@@ -19044,6 +19460,14 @@
     "name": "Pythor P. Chumsworth (Purple)",
     "year": "",
     "num_parts": 3,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-002572",
+    "name": "Kai ZX with Rocket Pack",
+    "year": "",
+    "num_parts": 15,
     "theme": "",
     "parent_theme": ""
   },
@@ -20160,10 +20584,26 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-002725",
+    "name": "Jay DX (The Golden Weapons)",
+    "year": "",
+    "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-002726",
     "name": "Samukai",
     "year": "",
     "num_parts": 9,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-002727",
+    "name": "Kai DX (The Golden Weapons)",
+    "year": "",
+    "num_parts": 4,
     "theme": "",
     "parent_theme": ""
   },
@@ -20516,6 +20956,14 @@
     "name": "Cole with Hair (Legacy) - Manter Torso",
     "year": "",
     "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-002777",
+    "name": "Blacktron II - Jetpack, 3626a Head, No Plate 1 x 1 Round",
+    "year": "",
+    "num_parts": 6,
     "theme": "",
     "parent_theme": ""
   },
@@ -23968,6 +24416,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-003231",
+    "name": "Green Army Man Medic with Backpack",
+    "year": "",
+    "num_parts": 6,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-003232",
     "name": "Zurg",
     "year": "",
@@ -26096,6 +26552,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-003529",
+    "name": "Rebel Trooper in Hoth Uniform, White Hat, Yellow Skin, Backpack, White Goggles",
+    "year": "",
+    "num_parts": 6,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-003530",
     "name": "Greedo, Dark Turquoise Skin",
     "year": "",
@@ -26236,6 +26700,14 @@
     "name": "Astromech Droid, R2-D2, White Dome, Dark Bluish Gray Serving Tray",
     "year": "",
     "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-003548",
+    "name": "Boba Fett, Helmet and Jetpack with Dark Brown Highlights, Light Bluish Gray Armor",
+    "year": "",
+    "num_parts": 4,
     "theme": "",
     "parent_theme": ""
   },
@@ -26636,6 +27108,14 @@
     "name": "Reaper",
     "year": "",
     "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-003608",
+    "name": "Rebel Trooper in Hoth Uniform, White Hat, Yellow Skin, Backpack, Brown Visor",
+    "year": "",
+    "num_parts": 6,
     "theme": "",
     "parent_theme": ""
   },
@@ -27144,6 +27624,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-003672",
+    "name": "Obi-Wan Kenobi, Dark Orange Legs, Headset",
+    "year": "",
+    "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-003673",
     "name": "Emperor Palpatine, Light Bluish Gray Skin",
     "year": "",
@@ -27284,6 +27772,14 @@
     "name": "Kit Fisto",
     "year": "",
     "num_parts": 3,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-003691",
+    "name": "Obi-Wan Kenobi, Tan Plain Legs, Headset",
+    "year": "",
+    "num_parts": 4,
     "theme": "",
     "parent_theme": ""
   },
@@ -27548,6 +28044,14 @@
     "name": "Han Solo, Hoth Outfit, Dark Blue Hood, Black Eyes",
     "year": "",
     "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-003728",
+    "name": "Clone Trooper, Phase I Armor, Brown Eyes, Jetpack",
+    "year": "",
+    "num_parts": 5,
     "theme": "",
     "parent_theme": ""
   },
@@ -27844,6 +28348,14 @@
     "name": "Yoda, Sand Green Head with Gray Hair, Dark Red Sash (Clone Wars)",
     "year": "",
     "num_parts": 3,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-003766",
+    "name": "Clone Trooper, Wolfpack, with Jet Pack and Sand Blue Arms",
+    "year": "",
+    "num_parts": 5,
     "theme": "",
     "parent_theme": ""
   },
@@ -28336,6 +28848,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-003831",
+    "name": "Anakin Skywalker, Pilot Uniform, Printed Headset",
+    "year": "",
+    "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-003832",
     "name": "Obi-Wan Kenobi, Old, Tan Robes, Hair, White Pupils, Gray Beard, 3626bpr0638",
     "year": "",
@@ -28452,6 +28972,14 @@
     "name": "Bossk, Yellow Outfit",
     "year": "",
     "num_parts": 3,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-003849",
+    "name": "Boba Fett, Helmet, Jetpack Neckwear, Reddish Brown Pauldron",
+    "year": "",
+    "num_parts": 7,
     "theme": "",
     "parent_theme": ""
   },
@@ -28890,6 +29418,14 @@
   {
     "set_num": "fig-003907",
     "name": "Owen Lars",
+    "year": "",
+    "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-003908",
+    "name": "Boba Fett, Helmet and Jetpack, Light Gray Armor, Printed Legs",
     "year": "",
     "num_parts": 4,
     "theme": "",
@@ -29768,6 +30304,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-004031",
+    "name": "Anakin Skywalker, Black Robe, Dark Brown Legs, Printed Headset",
+    "year": "",
+    "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-004032",
     "name": "Clone BARC Trooper, Dark Red Markings - Clone Commander Neyo",
     "year": "",
@@ -29804,6 +30348,14 @@
     "name": "Plo Koon, Dark Tan Undershirt",
     "year": "",
     "num_parts": 3,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-004038",
+    "name": "Clone Trooper, Wolfpack",
+    "year": "",
+    "num_parts": 4,
     "theme": "",
     "parent_theme": ""
   },
@@ -29916,6 +30468,14 @@
     "name": "Obi-Wan Kenobi, Padawan, Printed Legs, Cape",
     "year": "",
     "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-004054",
+    "name": "Imperial Trooper with Black Helmet and Headset",
+    "year": "",
+    "num_parts": 4,
     "theme": "",
     "parent_theme": ""
   },
@@ -30132,6 +30692,14 @@
     "name": "Han Solo, White Shirt, Reddish Brown Legs, Dual Sided Head Open Mouth / Closed Eyes",
     "year": "",
     "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-004085",
+    "name": "Boba Fett, Helmet, Jetpack Neckwear, Dark Tan Pauldron, Printed Arms, Smile",
+    "year": "",
+    "num_parts": 7,
     "theme": "",
     "parent_theme": ""
   },
@@ -30456,6 +31024,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-004132",
+    "name": "Rebel Trooper in Hoth Uniform, White Hat, White Jacket, Tan Beard, Backpack",
+    "year": "",
+    "num_parts": 6,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-004133",
     "name": "Rebel Trooper in Hoth Uniform, White Hat, White Jacket",
     "year": "",
@@ -30728,6 +31304,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-004169",
+    "name": "Rebel Trooper in Hoth Uniform, White Hat, White Jacket, Tan Beard, No Backpack",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-004170",
     "name": "Naare with Dark Blue Hood",
     "year": "",
@@ -30824,6 +31408,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-004182",
+    "name": "Boba Fett, Helmet, Jetpack Neckwear, Dark Tan Pauldron, Plain Arms",
+    "year": "",
+    "num_parts": 7,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-004183",
     "name": "Han Solo, White Shirt, Dark Brown Legs, Dual Sided Head Open Mouth / Closed Eyes, Smooth Hair",
     "year": "",
@@ -30834,6 +31426,14 @@
   {
     "set_num": "fig-004184",
     "name": "Astromech Droid, R4-P17, Yellow/Orange Rectangles",
+    "year": "",
+    "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-004185",
+    "name": "Obi-Wan Kenobi, Dark Tan Printed Legs, Headset",
     "year": "",
     "num_parts": 4,
     "theme": "",
@@ -30856,6 +31456,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-004190",
+    "name": "Jumptrooper, Jet Pack",
+    "year": "",
+    "num_parts": 8,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-004191",
     "name": "Rodian Alliance Fighter",
     "year": "",
@@ -30864,10 +31472,26 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-004192",
+    "name": "Duros Alliance Fighter with Jet Pack",
+    "year": "",
+    "num_parts": 7,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-004193",
     "name": "Rebel Trooper, Dark Tan Helmet and White Snow Goggles",
     "year": "",
     "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-004194",
+    "name": "Rebel Trooper, Helmet, Jet Pack",
+    "year": "",
+    "num_parts": 8,
     "theme": "",
     "parent_theme": ""
   },
@@ -30882,6 +31506,14 @@
   {
     "set_num": "fig-004197",
     "name": "Stormtrooper, First Order, / Heavy Assault Stormtrooper, No Neck Bracket",
+    "year": "",
+    "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-004198",
+    "name": "Resistance Officer, Printed Headset",
     "year": "",
     "num_parts": 4,
     "theme": "",
@@ -31268,6 +31900,14 @@
     "name": "Skiff Guard",
     "year": "",
     "num_parts": 3,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-004251",
+    "name": "Boba Fett, Helmet, Jetpack Neckwear, Olive Green Pauldron, Light Bluish Gray Hips",
+    "year": "",
+    "num_parts": 7,
     "theme": "",
     "parent_theme": ""
   },
@@ -31940,6 +32580,14 @@
     "name": "Ugnaught, Light Bluish Gray Jacket",
     "year": "",
     "num_parts": 3,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-004345",
+    "name": "Boba Fett, Helmet, Jetpack Neckwear, Dark Tan Pauldron, Printed Arms, Stern",
+    "year": "",
+    "num_parts": 7,
     "theme": "",
     "parent_theme": ""
   },
@@ -33210,6 +33858,14 @@
   {
     "set_num": "fig-004518",
     "name": "Luke Skywalker, Bacta Tank Outfit, Dark Tan Hair",
+    "year": "",
+    "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-004519",
+    "name": "Poe Dameron, Black Jacket, Hair with Headset",
     "year": "",
     "num_parts": 4,
     "theme": "",
@@ -34688,6 +35344,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-004736",
+    "name": "Blacktron II - Jetpack, 3626b Head, No Plate 1 x 1 Round",
+    "year": "",
+    "num_parts": 6,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-004737",
     "name": "C-3PO, Santa Jacket and White Beard",
     "year": "",
@@ -34864,6 +35528,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-004759",
+    "name": "Soldier (Imperial Soldier) - Backpack, 3626a",
+    "year": "",
+    "num_parts": 6,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-004760",
     "name": "Soldier (Imperial Soldier) - Governor, Red Plume",
     "year": "",
@@ -34876,6 +35548,14 @@
     "name": "Soldier (Imperial Soldier) - Yellow Epaulettes, 3626a",
     "year": "",
     "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-004762",
+    "name": "Soldier (Imperial Soldier) - Backpack, 3626b",
+    "year": "",
+    "num_parts": 6,
     "theme": "",
     "parent_theme": ""
   },
@@ -35020,6 +35700,14 @@
     "name": "Man - Dark Blue Jacket, Black Legs, Glasses",
     "year": "",
     "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-004782",
+    "name": "Man - Red Jacket, Black Legs, Black Cap, Green Backpack",
+    "year": "",
+    "num_parts": 5,
     "theme": "",
     "parent_theme": ""
   },
@@ -35320,6 +36008,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-004820",
+    "name": "Man - Blue/White Striped Torso, Blue Legs, Brown Backpack",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-004821",
     "name": "Man - Blue/White Striped Torso, Blue Legs, Brown Hair",
     "year": "",
@@ -35396,6 +36092,14 @@
     "name": "Chef - White Torso, Light Gray Legs (3626a Head)",
     "year": "",
     "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-004831",
+    "name": "Woman - Red/White Striped Shirt, Red Arms, Red Legs, Brown Backpack",
+    "year": "",
+    "num_parts": 5,
     "theme": "",
     "parent_theme": ""
   },
@@ -36144,6 +36848,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-004946",
+    "name": "Man, Green Jacket, Light Grey Legs, Sunglasses, Brown Backpack",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-004947",
     "name": "Subway Train Conductor",
     "year": "",
@@ -36244,6 +36956,14 @@
     "name": "TV Worker - Blue Torso, White Legs, Female",
     "year": "",
     "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-004963",
+    "name": "Jewel Thief with Blue Backpack",
+    "year": "",
+    "num_parts": 5,
     "theme": "",
     "parent_theme": ""
   },
@@ -37488,6 +38208,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-005133",
+    "name": "Man - Red Torso, Blue Legs, Backpack",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-005134",
     "name": "Woman - Red Sweater, Tan Legs, Reddish Brown Hair, Black Eyebrows",
     "year": "",
@@ -37708,6 +38436,22 @@
     "name": "Pirate - Anchor Tattoo, Blue Legs, Red Bandana",
     "year": "",
     "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-005162",
+    "name": "Cavalry Soldier - Crooked Smile, Backpack",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-005163",
+    "name": "Cavalry Soldier - Crooked Open Smile, Backpack",
+    "year": "",
+    "num_parts": 5,
     "theme": "",
     "parent_theme": ""
   },
@@ -38914,6 +39658,14 @@
   {
     "set_num": "fig-005320",
     "name": "Soldier (Imperial Soldier II) - Shako, Scowl",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-005322",
+    "name": "Soldier (Imperial Soldier II) - Shako, Smile, Backpack",
     "year": "",
     "num_parts": 5,
     "theme": "",
@@ -40836,6 +41588,14 @@
     "name": "Black Panther with Collar",
     "year": "",
     "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-005590",
+    "name": "AIM Agent with Backpack, Pins",
+    "year": "",
+    "num_parts": 8,
     "theme": "",
     "parent_theme": ""
   },
@@ -42768,6 +43528,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-005858",
+    "name": "Russian Guard with Backpack",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-005859",
     "name": "Irina Spalko",
     "year": "",
@@ -43656,6 +44424,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-005979",
+    "name": "Actress - Pippin Read, Red Leg, Brown Backpack",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-005981",
     "name": "Vet with Fedora Hat, Stern",
     "year": "",
@@ -43932,6 +44708,14 @@
     "name": "Gunnar Eversol",
     "year": "",
     "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-006017",
+    "name": "Owen Grady with Backpack",
+    "year": "",
+    "num_parts": 5,
     "theme": "",
     "parent_theme": ""
   },
@@ -46256,6 +47040,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-006317",
+    "name": "Setam",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-006318",
     "name": "Dwayne, Possessed",
     "year": "",
@@ -48544,6 +49336,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-006622",
+    "name": "Amset-Ra",
+    "year": "",
+    "num_parts": 3,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-006623",
     "name": "Anubis Guard",
     "year": "",
@@ -49090,6 +49890,14 @@
   {
     "set_num": "fig-006691",
     "name": "Jet, Trans-Light Blue Visor",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-006692",
+    "name": "Docs with Backpack",
     "year": "",
     "num_parts": 5,
     "theme": "",
@@ -50056,8 +50864,24 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-006824",
+    "name": "Girl, White Corset with Stars, Short Dark Azure Legs, Black Witch Hat",
+    "year": "",
+    "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-006825",
     "name": "Vampire, Ruffled Shirt, Gold Chain",
+    "year": "",
+    "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-006826",
+    "name": "Woman, White Corset with Red Sides, Necklace, Red Legs",
     "year": "",
     "num_parts": 4,
     "theme": "",
@@ -50204,6 +51028,14 @@
     "name": "Viking Blue Chess King",
     "year": "",
     "num_parts": 7,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-006847",
+    "name": "Mrs. Claus, White Corset with Red Sides, Apron with Candy Canes, Red Dress",
+    "year": "",
+    "num_parts": 5,
     "theme": "",
     "parent_theme": ""
   },
@@ -50464,6 +51296,38 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-006882",
+    "name": "Fighter (Wolfpack) - Brown Hood",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-006883",
+    "name": "Fighter (Wolfpack) - Black Hood, Black Plastic Cape",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-006884",
+    "name": "Fighter (Wolfpack) - Black Hood",
+    "year": "",
+    "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-006885",
+    "name": "Fighter (Wolfpack) - Black Hood, Red Plastic Cape",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-006886",
     "name": "Knight (Black Falcons) - Black Legs, Chin-Protector",
     "year": "",
@@ -50612,6 +51476,14 @@
     "name": "Knight (Dragon Knights) - Black Legs, Yellow Plumes",
     "year": "",
     "num_parts": 7,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-006905",
+    "name": "Classic Spaceman, White with Blue Jet Pack",
+    "year": "",
+    "num_parts": 10,
     "theme": "",
     "parent_theme": ""
   },
@@ -50788,6 +51660,14 @@
     "name": "Soccer Player White Torso, Blue Legs, #14",
     "year": "",
     "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-006944",
+    "name": "Classic Spaceman, Yellow with Jetpack",
+    "year": "",
+    "num_parts": 10,
     "theme": "",
     "parent_theme": ""
   },
@@ -51092,6 +51972,22 @@
     "name": "Mars Astronaut, Balaclava",
     "year": "",
     "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-006983",
+    "name": "Mars Astronaut, Balaclava, and Backpack",
+    "year": "",
+    "num_parts": 6,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-006984",
+    "name": "Mars Astronaut, Cheek Lines, and Backpack",
+    "year": "",
+    "num_parts": 6,
     "theme": "",
     "parent_theme": ""
   },
@@ -53144,6 +54040,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-007266",
+    "name": "Man, Sunset Shirt with Palm Trees, Green Legs, Yellow Life Vest, Glasses",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-007267",
     "name": "Coast Guard, Open Sand Blue Jacket with Badge over Orange Sweater, White Hat, Yellow Life Vest, Beard",
     "year": "",
@@ -54066,6 +54970,14 @@
   {
     "set_num": "fig-007384",
     "name": "Boy, Green Jacket, Short Tan Legs, Dark Orange Hair",
+    "year": "",
+    "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-007385",
+    "name": "Woman, Corset, Black Legs, Black Hair",
     "year": "",
     "num_parts": 4,
     "theme": "",
@@ -55400,6 +56312,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-007579",
+    "name": "Criminal, Open Prison Shirt, Dark Tan Legs, Dark Bluish Gray Hat, Backpack",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-007580",
     "name": "Boy, Green Sweater, Short Blue Legs, Dark Orange Hair",
     "year": "",
@@ -56448,6 +57368,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-007732",
+    "name": "Criminal, Prison Shirt with #50380, Dark Bluish Gray Legs, Black Hat and Dark Tan Back Pack (3626bpr0387 Head)",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-007733",
     "name": "Jester, Red and Blue",
     "year": "",
@@ -56568,6 +57496,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-007748",
+    "name": "Explorer, Jacket with Pouches, Radio, and Rope, Dark Tan Cap, Backpack",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-007749",
     "name": "Explorer, Jacket with Pouches, Radio, and Rope, Dark Orange Hair, Yellow Life Vest, Moustache",
     "year": "",
@@ -56652,6 +57588,14 @@
     "name": "Explorer, Jacket with Pouches, Radio, and Rope, Dark Tan Cap, Scar",
     "year": "",
     "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-007760",
+    "name": "Explorer, Jacket with Pouches, Radio, and Rope, Dark Tan Cap, Backpack, Stubble",
+    "year": "",
+    "num_parts": 5,
     "theme": "",
     "parent_theme": ""
   },
@@ -56832,6 +57776,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-007784",
+    "name": "Criminal, Prison Shirt with #50380, Dark Bluish Gray Legs, Black Hat, Dark Tan Back Pack, Open Mouth",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-007785",
     "name": "Criminal, Prison Shirt with #50380, Dark Bluish Gray Legs, Dark Bluish Gray Hat, Gold Tooth",
     "year": "",
@@ -56936,10 +57888,26 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-007798",
+    "name": "Criminal, Prison Shirt with #50380, Dark Bluish Gray Legs, Dark Bluish Gray Hat, Dark Tan Backpack, Gold Tooth",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-007799",
     "name": "Policeman, Black Suit with Badge, White Cap",
     "year": "",
     "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-007800",
+    "name": "Criminal, Open Light Bluish Gray Jacket over Prison Shirt, Dark Bluish Gray Hat, Dark Tan Backpack, Gold Tooth",
+    "year": "",
+    "num_parts": 5,
     "theme": "",
     "parent_theme": ""
   },
@@ -57176,6 +58144,22 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-007830",
+    "name": "Criminal, Woman, Open Black Jacket over Prison Shirt, Dark Brown Hair, Dark Tan Backpack",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-007831",
+    "name": "Criminal, Prison Shirt with #86753, Dark Bluish Gray Legs, Dark Bluish Gray Hat, Dark Tan Backpack, Stubble",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-007832",
     "name": "Policeman, Dark Blue Jacket with Zipper, Badge, and 'POLICE' on Back, Dark Blue Cap, Yellow Life Vest",
     "year": "",
@@ -57266,6 +58250,14 @@
   {
     "set_num": "fig-007843",
     "name": "Policeman, Dark Blue Jacket with Zipper, Badge, and 'POLICE' on Back, White Helmet with Visor, Silver Sunglasses",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-007844",
+    "name": "Criminal, Torn Prison Shirt, Dark Bluish Gray Legs, Black Hat, Dark Tan Backpack Beard",
     "year": "",
     "num_parts": 5,
     "theme": "",
@@ -57376,6 +58368,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-007859",
+    "name": "Criminal, Prison Shirt with #86753, Dark Bluish Gray Legs, Dark Bluish Gray Hat, Dark Tan Backpack",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-007860",
     "name": "Criminal, Torn Prison Shirt, Dark Bluish Gray Legs, Dark Bluish Gray Hat, Beard",
     "year": "",
@@ -57480,6 +58480,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-007873",
+    "name": "Criminal, Open Black Jacket over Prison Shirt, Dark Bluish Grey Legs, Black Hat, Dark Tan Backpack, Black Eyemask",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-007874",
     "name": "Policeman, Blue Shirt with Badge and Pouches, Dark Blue Legs, Dark Blue Police Hat with Badge, Stern",
     "year": "",
@@ -57498,6 +58506,14 @@
   {
     "set_num": "fig-007876",
     "name": "Criminal, Open Black Jacket over Prison Shirt, Dark Bluish Grey Legs, Black Hat with Goggles",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-007877",
+    "name": "Criminal, Open Prison Shirt #18675 over Orange Top, Dark Bluish Gray Hat, Dark Tan Backpack, Stubble",
     "year": "",
     "num_parts": 5,
     "theme": "",
@@ -57648,6 +58664,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-007896",
+    "name": "Criminal, Red Overalls over Prison Shirt, Black Hat, Dark Tan Backpack",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-007897",
     "name": "Criminal, Woman, Green Overalls over Prison Shirt, Dark Orange Hair",
     "year": "",
@@ -57768,6 +58792,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-007912",
+    "name": "Criminal, Woman, Green Overalls over Prison Shirt, Black Hair, Backpack",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-007913",
     "name": "Policeman, Bright Light Blue Shirt with Dark Blue Tie, Badge, and Radio on Belt, Dark Blue Cap, Moustache",
     "year": "",
@@ -57808,6 +58840,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-007918",
+    "name": "Criminal, Prison Shirt with #86753, Dark Red Hat, Headset",
+    "year": "",
+    "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-007920",
     "name": "Criminal, Open Dark Brown Jacket over Prison Shirt, Red Cap, Beard",
     "year": "",
@@ -57818,6 +58858,14 @@
   {
     "set_num": "fig-007921",
     "name": "Policewoman, Sand Blue Vest with Zipper, Radio, Badge and Pouches, Tan Legs, Dark Blue Dirt Bike Helmet with Goggles",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-007922",
+    "name": "Criminal, Woman, Open Red Flannel Shirt over Prison Shirt, Medium Nougat Hair, Backpack",
     "year": "",
     "num_parts": 5,
     "theme": "",
@@ -58240,8 +59288,32 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-007978",
+    "name": "Policeman, Black Vest with Badge and Pouches over Bright Light Blue Shirt, White Helmet with Visor, Neck Bracket, Headset",
+    "year": "",
+    "num_parts": 6,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-007979",
     "name": "Policeman, Black Vest with Badge and Pouches over Bright Light Blue Shirt, White Helmet with Visor, Breathing Apparatus",
+    "year": "",
+    "num_parts": 6,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-007980",
+    "name": "Criminal, Woman, Prison Shirt with #50382, Black Helmet with Visor, Headset",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-007981",
+    "name": "Criminal, Open Dark Bluish Gray Jacket with Zipper over Prison Shirt, Black Helmet with Visor, Neck Bracket, Headset",
     "year": "",
     "num_parts": 6,
     "theme": "",
@@ -58532,6 +59604,14 @@
     "name": "Criminal, Prison Shirt with #86753, Light Bluish Gray Legs, Dark Bluish Gray Hat",
     "year": "",
     "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-008020",
+    "name": "Criminal, Prison Shirt with #86753, Dark Bluish Gray Legs, Reddish Brown Helmet with Goggles, Dark Tan Backpack, Beard",
+    "year": "",
+    "num_parts": 6,
     "theme": "",
     "parent_theme": ""
   },
@@ -59192,6 +60272,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-008104",
+    "name": "Fireman, Bright Light Orange Fire Suit, White Helmet with Visor, Headset",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-008105",
     "name": "Firewoman, Dark Tan Fire Suit with Gauge and Straps, Red Helmet, Breathing Apparatus, Airtanks, Dirty",
     "year": "",
@@ -59322,6 +60410,14 @@
   {
     "set_num": "fig-008122",
     "name": "Fireman, Light Gray Jacket with Radio and Pocket, Black Hair, Moustache",
+    "year": "",
+    "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-008123",
+    "name": "Fireman, Light Gray Fire Suit with Gauges and Straps, Black Helmet, Headset",
     "year": "",
     "num_parts": 4,
     "theme": "",
@@ -59484,6 +60580,22 @@
     "name": "Fireman, Light Gray Jacket with Radio and Pocket, White Cap, Moustache",
     "year": "",
     "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-008144",
+    "name": "Fireman, Light Gray Fire Suit with Gauges and Straps, White Cap, Headset",
+    "year": "",
+    "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-008145",
+    "name": "Fireman, Light Gray Fire Suit with Gauges and Straps, Breathing Apparatus with Visor, Airtanks, Headset",
+    "year": "",
+    "num_parts": 6,
     "theme": "",
     "parent_theme": ""
   },
@@ -60152,6 +61264,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-008231",
+    "name": "Criminal, Prison Shirt with #86753, Dark Bluish Gray Legs, Black Hat, Backpack, Black Eyemask",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-008232",
     "name": "Paramedic, Red Jacket, Red Legs, White Helmet with Visor",
     "year": "",
@@ -60186,6 +61306,14 @@
   {
     "set_num": "fig-008236",
     "name": "Policeman, Black Jacket with Zipper, Radio, and Badge, White Helmet and Visor, Brown Eyebrows",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-008237",
+    "name": "Criminal, Prison Shirt with #50380, Dark Bluish Gray Legs, Dark Bluish Gray Hat, Backpack, Black Eyemask",
     "year": "",
     "num_parts": 5,
     "theme": "",
@@ -62392,6 +63520,30 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-008536",
+    "name": "Res-Q Man, Black Cap, Headset",
+    "year": "",
+    "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-008537",
+    "name": "Res-Q Man, Black Hair, Headset",
+    "year": "",
+    "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-008538",
+    "name": "Res-Q Man, White Helmet with Visor, Headset",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-008539",
     "name": "Diver, Man, Black, Yellow, and Blue Wetsuit with Extreme Team Logo, Blue Helmet with Mask, Airtank",
     "year": "",
@@ -62400,8 +63552,24 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-008540",
+    "name": "Res-Q Man, Helmet with Mask, Airtanks, Headset",
+    "year": "",
+    "num_parts": 6,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-008541",
     "name": "Res-Q Woman, Pink Swimsuit, Yellow Life Vest",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-008542",
+    "name": "Res-Q Man, Yellow Legs, White Helmet with Visor, Headset",
     "year": "",
     "num_parts": 5,
     "theme": "",
@@ -62464,6 +63632,22 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-008551",
+    "name": "Marine Explorer, Red Shirt with Divers Logo, Black Cap, Glasses and Headset",
+    "year": "",
+    "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-008552",
+    "name": "Marine Explorer, Red Shirt with Divers Logo, Black Cap, Headset",
+    "year": "",
+    "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-008553",
     "name": "Marine Explorer, White Shirt with Fish, Blue Cap, Sunglasses",
     "year": "",
@@ -62476,6 +63660,14 @@
     "name": "Diver, Man, Blue Wetsuit, Black Helmet with Mask, Airtank, Moustache",
     "year": "",
     "num_parts": 6,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-008555",
+    "name": "Marine Explorer, Red Shirt with Divers Logo, Red Legs, Red Cap, Glasses and Headset",
+    "year": "",
+    "num_parts": 4,
     "theme": "",
     "parent_theme": ""
   },
@@ -62496,6 +63688,30 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-008558",
+    "name": "Marine Explorer, Red Shirt with Divers Logo, Black Cap, Yellow Life Vest, Headset",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-008559",
+    "name": "Marine Explorer, Red Shirt with Divers Logo, White Cap, Headset",
+    "year": "",
+    "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-008560",
+    "name": "Marine Explorer, Red Shirt with Divers Logo, White Cap, Glasses and Headset",
+    "year": "",
+    "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-008561",
     "name": "Diver, Man, Red Wetsuit, Black Helmet with Mask, Airtank, Stubble",
     "year": "",
@@ -62512,6 +63728,22 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-008564",
+    "name": "Marine Explorer, Red Shirt with Divers Logo, Black Legs, Red Cap, Glasses and Headset",
+    "year": "",
+    "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-008565",
+    "name": "Marine Explorer, Red Shirt with Divers Logo, Red Legs, Black Cap, Yellow Life Vest, Headset",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-008566",
     "name": "Marine Explorer, White Shirt with Fish, Brown Hair, Sunglasses",
     "year": "",
@@ -62524,6 +63756,14 @@
     "name": "Marine Explorer, White Shirt with Fish, Blue Cap, Yellow Life Vest, Sunglasses",
     "year": "",
     "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-008568",
+    "name": "Marine Explorer, Blue Wetsuit, Red Cap, Headset",
+    "year": "",
+    "num_parts": 4,
     "theme": "",
     "parent_theme": ""
   },
@@ -63096,6 +64336,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-008643",
+    "name": "Coast Guard, Blue Jacket with Zipper and ID Badge. White Helmet with Visor, Headset",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-008646",
     "name": "Construction Worker, Blue Jacket with Zipper and Bulldozer Badge, Blue Legs, Red Cap, Moustache",
     "year": "",
@@ -63152,10 +64400,66 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-008653",
+    "name": "Astronaut, Woman, White, Light Gray Hips, Helmet with Breastplate and Large Chrome Gold Visor, Headset",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-008654",
+    "name": "Space Port Ground Crew, Red Jumpsuit, White Hard Hat, Headset and Glasses",
+    "year": "",
+    "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-008655",
+    "name": "Space Port Ground Crew, Red Jumpsuit, Red Cap, Headset and Glasses",
+    "year": "",
+    "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-008656",
     "name": "Fireman, Light Gray Fire Suit with Gauge and Pocket, White Helmet with Visor, Breathing Apparatus, Airtanks, Moustache",
     "year": "",
     "num_parts": 7,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-008657",
+    "name": "Astronaut, White, Light Gray Hips, Helmet with Large Chrome Gold Visor, Rocket Pack, Headset",
+    "year": "",
+    "num_parts": 6,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-008658",
+    "name": "Launch Command Ground Crew, Blue Jumpsuit, Red Cap, Headset",
+    "year": "",
+    "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-008659",
+    "name": "Launch Command Pilot, Blue Jumpsuit, Red Helmet with Visor, Headset",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-008660",
+    "name": "Astronaut, White, Helmet with Large Chrome Gold Visor, Headset",
+    "year": "",
+    "num_parts": 5,
     "theme": "",
     "parent_theme": ""
   },
@@ -64504,6 +65808,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-008836",
+    "name": "Woman, Blue and Light Gray Jogging Suit, Light Gray Cowboy Hat, Backpack",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-008837",
     "name": "Man, Blue Torso, Red Legs, Light Gray Cowboy Hat",
     "year": "",
@@ -64712,6 +66024,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-008863",
+    "name": "Criminal, Torn Prison Shirt, Black Legs, Black Hat, Dark Tan Backpack, Stubble and Scar",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-008864",
     "name": "Policeman, Medium Blue Shirt with Badge and Tie, Blue Legs, Blue Hat, Brown Eyebrows",
     "year": "",
@@ -64842,6 +66162,14 @@
   {
     "set_num": "fig-008881",
     "name": "Man, Blue Torso, White Legs, Dark Brown Hair",
+    "year": "",
+    "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-008884",
+    "name": "Man, Medium Blue Shirt with Palm Trees and Sunset, Red Legs, Lime Cap",
     "year": "",
     "num_parts": 4,
     "theme": "",
@@ -66024,6 +67352,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-009050",
+    "name": "Pilot, Light Gray Jumpsuit with Gauges and Straps, White Helmet with Visor, Headset",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-009051",
     "name": "Man, Black Torso with Yellow Arms, Light Gray Legs, Red Cap, Sunglasses",
     "year": "",
@@ -66352,6 +67688,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-009119",
+    "name": "Obi-Wan Kenobi, Tan Legs, Headset, Reddish Brown Hood and Cape",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-009120",
     "name": "Woman, White Shirt with Pockets, Blue Legs, Blue Helmet with Visor",
     "year": "",
@@ -66452,6 +67796,14 @@
     "name": "Pepper Roni with Dark Bluish Gray Hat",
     "year": "",
     "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-009133",
+    "name": "Sky Lane with Backpack",
+    "year": "",
+    "num_parts": 5,
     "theme": "",
     "parent_theme": ""
   },
@@ -67824,6 +69176,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-009315",
+    "name": "Blue Torso, Tan Legs, Red Cap, Green Backpack",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-009316",
     "name": "Driver - Blue Torso, Blue Legs, White Helmet",
     "year": "",
@@ -69168,6 +70528,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-009519",
+    "name": "Astronaut - White Torso and Legs, Black Backpack",
+    "year": "",
+    "num_parts": 6,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-009520",
     "name": "Astronaut - White Torso and Legs, Neck Bracket, Glasses",
     "year": "",
@@ -70056,6 +71424,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-009637",
+    "name": "Man, Medium Blue Shirt with Palm Trees and Sunset, Dark Blue Legs, Black Hair",
+    "year": "",
+    "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-009638",
     "name": "Pilot, Black Suit with Tie and Airplane Badge, Black Hat, Cheek Lines",
     "year": "",
@@ -70170,6 +71546,14 @@
   {
     "set_num": "fig-009653",
     "name": "Ground Crew, Dark Blue Jumpsuit, Red Hard Hat with Ear Defenders",
+    "year": "",
+    "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-009654",
+    "name": "Man, Medium Blue Shirt with Palm Trees and Sunset, Tan Legs, Bright Light Yellow Hair",
     "year": "",
     "num_parts": 4,
     "theme": "",
@@ -70834,6 +72218,14 @@
   {
     "set_num": "fig-009739",
     "name": "Marine Scientist, Woman, Open White Lab Coat, Sand Blue Legs, Medium Nougat Hair, Glasses",
+    "year": "",
+    "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-009740",
+    "name": "Marine Explorer, Sand Blue Jumpsuit, Red Cap, Headset",
     "year": "",
     "num_parts": 4,
     "theme": "",
@@ -71672,6 +73064,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-009846",
+    "name": "Man, Medium Blue Shirt with Palm Trees and Sunset, Tan Legs, Dark Brown Hair, Moustache",
+    "year": "",
+    "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-009847",
     "name": "Girl, Bright Pink Striped Top with Cat Head, Dark Azure Shorts, Medium Nougat Hair",
     "year": "",
@@ -71698,6 +73098,14 @@
   {
     "set_num": "fig-009850",
     "name": "Man, Dark Tan Vest with Zippers and Pouches, Black Hair, Baby Carrier, Stubble",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-009851",
+    "name": "Boy, Tan Shirt, Short Medium Nougat Legs, Reddish Brown Hair, Backpack, Glasses",
     "year": "",
     "num_parts": 5,
     "theme": "",
@@ -72808,6 +74216,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-010020",
+    "name": "Mrs. Claus, White Corset with Red Sides, Apron with Candy Canes, Dark Green Dress",
+    "year": "",
+    "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-010022",
     "name": "Elf, Green Jacket, Red Hat with Ears",
     "year": "",
@@ -72818,6 +74234,22 @@
   {
     "set_num": "fig-010023",
     "name": "Groom, Black Suit with Tie, Top Hat",
+    "year": "",
+    "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-010024",
+    "name": "Bride, White Corset Dress",
+    "year": "",
+    "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-010025",
+    "name": "Bride, White and Blue Corset Dress with Bow",
     "year": "",
     "num_parts": 4,
     "theme": "",
@@ -74112,6 +75544,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-010293",
+    "name": "Anakin Skywalker, Pilot Uniform, Printed Headset, No Collar",
+    "year": "",
+    "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-010294",
     "name": "Ahsoka Tano (Adult)",
     "year": "",
@@ -74940,6 +76380,22 @@
     "name": "Classic Spaceman, White with Airtanks (3842a Helmet), Plain Torso",
     "year": "",
     "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-010426",
+    "name": "Classic Spaceman, Yellow with Jetpack (3842b Helmet)",
+    "year": "",
+    "num_parts": 9,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-010427",
+    "name": "Classic Spaceman, Black with Jetpack (3842b Helmet)",
+    "year": "",
+    "num_parts": 9,
     "theme": "",
     "parent_theme": ""
   },
@@ -76914,6 +78370,14 @@
   {
     "set_num": "fig-010720",
     "name": "Jay / Digi Jay",
+    "year": "",
+    "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-010723",
+    "name": "Yoda, Olive Green Head, Backpack",
     "year": "",
     "num_parts": 4,
     "theme": "",
@@ -82872,6 +84336,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-011723",
+    "name": "The Mandalorian / Din Djarin, Dark Brown Outfit with Jet Pack, Black Head",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-011724",
     "name": "The Armorer",
     "year": "",
@@ -83794,6 +85266,14 @@
   {
     "set_num": "fig-011864",
     "name": "Kate McCallister",
+    "year": "",
+    "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-011865",
+    "name": "Sinjin Prescott - No Backpack",
     "year": "",
     "num_parts": 4,
     "theme": "",
@@ -84736,6 +86216,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-012007",
+    "name": "Boy, Bright Light Blue Jacket, Blue Hair, Reddish Brown Backpack",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-012008",
     "name": "Girl, Dark Turquoise Jacket, Dark Purple Bike Helmet",
     "year": "",
@@ -84764,6 +86252,22 @@
     "name": "Crossing Guard, Orange Safety Vest, Dark Blue Legs",
     "year": "",
     "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-012012",
+    "name": "Madison - Orange Jacket, Dark Azure Backpack",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-012013",
+    "name": "Billy McCloud - Blue Jacket, Red Cap and Backpack",
+    "year": "",
+    "num_parts": 5,
     "theme": "",
     "parent_theme": ""
   },
@@ -85060,6 +86564,14 @@
     "name": "Kai - EVO",
     "year": "",
     "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-012054",
+    "name": "Boa Destructor - Back Pack",
+    "year": "",
+    "num_parts": 16,
     "theme": "",
     "parent_theme": ""
   },
@@ -85648,6 +87160,22 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-012146",
+    "name": "Kid - Dark Blue Torso, Medium Blue Legs, Dark Azure Helmet, Backpack",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-012147",
+    "name": "Kid - White Torso, Medium Blue Legs, Dark Brown Hair, Backpack",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-012148",
     "name": "Rebel Trooper in Hoth Uniform, Dark Tan Hat, Reddish Brown Head",
     "year": "",
@@ -85700,6 +87228,14 @@
     "name": "AT-ST Driver, White Jacket",
     "year": "",
     "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-012156",
+    "name": "Rebel Trooper in Hoth Uniform, Nougat Head, Backpack",
+    "year": "",
+    "num_parts": 6,
     "theme": "",
     "parent_theme": ""
   },
@@ -86444,6 +87980,22 @@
     "name": "Astronaut, Dark Azure Jumpsuit, Medium Nougat Hair",
     "year": "",
     "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-012324",
+    "name": "Astronaut, White Spacesuit, Dark Azure Backpack, Gold Visor",
+    "year": "",
+    "num_parts": 6,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-012325",
+    "name": "Astronaut, Male, White Spacesuit, Dark Azure Backpack, Gold Visor",
+    "year": "",
+    "num_parts": 6,
     "theme": "",
     "parent_theme": ""
   },
@@ -88512,6 +90064,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-012674",
+    "name": "The Mandalorian / Din Djarin, Dark Brown Outfit with Jet Pack",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-012675",
     "name": "Peli Motto",
     "year": "",
@@ -89460,6 +91020,14 @@
     "name": "Train Conductor, Dark Turquoise Vest, Reddish Brown Hair, Glasses",
     "year": "",
     "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-012810",
+    "name": "Man, Red Plaid Shirt, Reddish Brown Legs, Tan Hair, Backpack on Front",
+    "year": "",
+    "num_parts": 5,
     "theme": "",
     "parent_theme": ""
   },
@@ -90656,6 +92224,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-013018",
+    "name": "Mars Astronaut, Stubble, Printed Hair, Jet Pack",
+    "year": "",
+    "num_parts": 6,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-013019",
     "name": "Bright Light Blue Torso, Coral Legs, Black Hair",
     "year": "",
@@ -90900,6 +92476,14 @@
     "name": "C-3PO, Blue Holiday Sweater",
     "year": "",
     "num_parts": 3,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-013054",
+    "name": "Darth Vader, Vest with Sunset and Palm Tree Silhouettes",
+    "year": "",
+    "num_parts": 5,
     "theme": "",
     "parent_theme": ""
   },
@@ -91696,6 +93280,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-013183",
+    "name": "AIM Agent with Backpack",
+    "year": "",
+    "num_parts": 6,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-013186",
     "name": "AIM Agent with Neck Bracket at Front",
     "year": "",
@@ -91836,6 +93428,14 @@
     "name": "Boy, White and Blue Hoodie, Short Light Bluish Gray Legs, Red Cap (3626c Head)",
     "year": "",
     "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-013213",
+    "name": "Owen Grady in Light Bluish Gray Shirt, Backpack",
+    "year": "",
+    "num_parts": 5,
     "theme": "",
     "parent_theme": ""
   },
@@ -92952,6 +94552,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-013360",
+    "name": "Dirt Bike Rider, Male - Dark Azure Top, Dark Tan Legs, Red Backpack, Dark Blue Cap",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-013361",
     "name": "Construction Worker, Orange Safety Jacket, Sand Blue Legs, Red Hard Hat with Ponytail",
     "year": "",
@@ -93252,6 +94860,14 @@
     "name": "Monkie Kid, Neck Bracket",
     "year": "",
     "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-013404",
+    "name": "The Golden-Winged Eagle, Backpack",
+    "year": "",
+    "num_parts": 7,
     "theme": "",
     "parent_theme": ""
   },
@@ -93756,6 +95372,14 @@
     "name": "Girl, Bright Pink Top, Short Tan Legs, Dark Azure Hair",
     "year": "",
     "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-013501",
+    "name": "Red Torso, Dark Tan/Reddish Brown Legs, Dark Brown Hair, Backpack",
+    "year": "",
+    "num_parts": 5,
     "theme": "",
     "parent_theme": ""
   },
@@ -96736,6 +98360,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-013973",
+    "name": "Arctic Explorer, Tina Tarantula, Orange Suit, Dark Blue Backpack and Beanie",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-013974",
     "name": "Arctic Explorer Pilot, Iris Icicle, Medium Azure and Orange Suit, Dark Blue Helmet",
     "year": "",
@@ -97152,10 +98784,26 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-014031",
+    "name": "Luigi (Cars), Headset",
+    "year": "",
+    "num_parts": 51,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-014044",
     "name": "Lightning McQueen, White Sides (LBG 3710)",
     "year": "",
     "num_parts": 33,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-014045",
+    "name": "Finn McMissile, Weapons",
+    "year": "",
+    "num_parts": 52,
     "theme": "",
     "parent_theme": ""
   },
@@ -97496,6 +99144,30 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-014117",
+    "name": "Soldier (Bluecoat) - Backpack, Red Epaulette, Reddish Brown Sideburns",
+    "year": "",
+    "num_parts": 6,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-014118",
+    "name": "Soldier (Bluecoat) - Backpack, Red Epaulette, Black Moustache",
+    "year": "",
+    "num_parts": 6,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-014119",
+    "name": "Soldier (Bluecoat) - Backpack, Red Epaulette, Female",
+    "year": "",
+    "num_parts": 6,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-014120",
     "name": "Soldier (Bluecoat) - Captain, Female, Reddish Brow Hair",
     "year": "",
@@ -97784,6 +99456,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-014164",
+    "name": "Mateo, Red Backpack",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-014165",
     "name": "Mrs. Castillo",
     "year": "",
@@ -97960,6 +99640,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-014188",
+    "name": "Boba Fett, Helmet, Jetpack Neckwear, Printed Arms, Nougat Head",
+    "year": "",
+    "num_parts": 6,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-014190",
     "name": "Darth Vader, White Skin, 50231 Cape, Robe Hem and Stripes on Legs",
     "year": "",
@@ -97972,6 +99660,14 @@
     "name": "Yoda, Olive Green Head, Dark Tan Undershirt, Thin Creases",
     "year": "",
     "num_parts": 3,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-014193",
+    "name": "Clone Trooper, 332nd Company, Orange Markings, Jetpack",
+    "year": "",
+    "num_parts": 5,
     "theme": "",
     "parent_theme": ""
   },
@@ -98760,6 +100456,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-014320",
+    "name": "Man, Dark Bluish Gray Tracksuit, Fanny Pack",
+    "year": "",
+    "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-014321",
     "name": "Ground Crew, Vibrant Yellow Safety Vest, Ponytail",
     "year": "",
@@ -99228,6 +100932,14 @@
     "name": "Woman, Tan Sweater Vest, Sand Blue Legs, Black Hair",
     "year": "",
     "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-014387",
+    "name": "Skier, Azure and Red Suit, Reddish Brown Backpack and Hair",
+    "year": "",
+    "num_parts": 5,
     "theme": "",
     "parent_theme": ""
   },
@@ -100280,6 +101992,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-014547",
+    "name": "Lee, Backpack",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-014548",
     "name": "Lady Yu",
     "year": "",
@@ -100772,6 +102492,22 @@
     "name": "Man, Bright Light Blue Jacket, Dark Blue Legs, Reddish Brown Hair",
     "year": "",
     "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-014634",
+    "name": "Robot with Battery Pack",
+    "year": "",
+    "num_parts": 23,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-014635",
+    "name": "Robot, Opal Trans-Purple Battery Pack",
+    "year": "",
+    "num_parts": 16,
     "theme": "",
     "parent_theme": ""
   },
@@ -101860,6 +103596,14 @@
     "name": "Kid, Tan Torso, Dark Brown Legs, Sand Green Hat",
     "year": "",
     "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-014815",
+    "name": "Wolfpack, Reddish Brown Torso, Dark Bluish Grey Legs, Hood",
+    "year": "",
+    "num_parts": 5,
     "theme": "",
     "parent_theme": ""
   },
@@ -103576,6 +105320,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-015150",
+    "name": "Pigsy, Bright Light Blue Jacket, Backpack",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-015152",
     "name": "Kai, Red Robes, Shoulder Guard, Mask",
     "year": "",
@@ -104084,6 +105836,14 @@
     "name": "Woman, Dark Turquoise Jacket, Dark Bluish Gray Legs",
     "year": "",
     "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-015226",
+    "name": "Vet, Sand Blue Jacket, Dark Tan Legs, Black Hair and Goatee, Backpack",
+    "year": "",
+    "num_parts": 5,
     "theme": "",
     "parent_theme": ""
   },
@@ -106112,6 +107872,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-015633",
+    "name": "Passenger, Dark Green Torso, Sand Blue Legs, Dark Brown Hair, Backpack",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-015634",
     "name": "Pianist, Dark Green Torso, Dark Brown Legs, Light Bluish Grey Hair",
     "year": "",
@@ -106156,6 +107924,14 @@
     "name": "Passenger, Tan Torso, Dark Bluish Grey Legs, Dark Brown Hair",
     "year": "",
     "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-015646",
+    "name": "Elf, Green Torso, Dark Brown Legs, Reddish Brown Hair, Backpack",
+    "year": "",
+    "num_parts": 5,
     "theme": "",
     "parent_theme": ""
   },
@@ -106264,6 +108040,14 @@
     "parent_theme": ""
   },
   {
+    "set_num": "fig-015687",
+    "name": "Arctic Explorer, Orange Suit, Beanie, Backpack",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
     "set_num": "fig-015688",
     "name": "End Warrior",
     "year": "",
@@ -106356,6 +108140,22 @@
     "name": "Hamster Costume Fan",
     "year": "",
     "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-015703",
+    "name": "Wolfpack Beastmaster",
+    "year": "",
+    "num_parts": 5,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-015704",
+    "name": "Jetpack Racer",
+    "year": "",
+    "num_parts": 5,
     "theme": "",
     "parent_theme": ""
   },
@@ -107852,6 +109652,14 @@
     "name": "Baby Peach",
     "year": "",
     "num_parts": 29,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-015958",
+    "name": "Lakitu, Headset",
+    "year": "",
+    "num_parts": 22,
     "theme": "",
     "parent_theme": ""
   },
@@ -112068,6 +113876,14 @@
     "name": "Mrs. Claus, Red Dress",
     "year": "",
     "num_parts": 4,
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "fig-016885",
+    "name": "Elf - Bright Green Torso, Red Legs, Bright Green Hat, Backpack",
+    "year": "",
+    "num_parts": 5,
     "theme": "",
     "parent_theme": ""
   },

@@ -1,57 +1,54 @@
 - keyname: about
   name: About This Plugin
   field_type: author_bio
-  description: 'Display LEGO sets on your TRMNL device with filtering options.<br /><br /><strong>Two Data Modes:</strong><br />● <strong>Curated Dataset (default):</strong> Pre-selected sets from <a href=''https://rebrickable.com/''>Rebrickable.com</a> organized by theme (non-LEGO items and sets without images excluded)<br />● <strong>BrickSet API Mode:</strong> Live data from <a href=''https://brickset.com/''>BrickSet.com</a> with access to your collection (requires free API key)<br /><br /><strong>BrickSet Setup (Optional):</strong><br />1. Create a free account at <a href=''https://brickset.com/signup''>brickset.com/signup</a><br />2. Request your API key at <a href=''https://brickset.com/tools/webservices/requestkey''>brickset.com/tools/webservices/requestkey</a><br />3. Enter your API key below to enable BrickSet mode<br />4. (Optional) To show sets you own/want: call the login API method to get your userHash - see <a href=''https://brickset.com/article/52664/api-version-3-documentation''>API
-    docs</a> (search for ''login'' method)<br /><br /><strong>Note:</strong> Each data mode has its own theme filter since Rebrickable and BrickSet use different theme naming conventions.'
+  description: 'Display LEGO® sets on your TRMNL device with filtering options using live data from community APIs.<br /><br /><strong>Data Sources:</strong><br />● <strong>Rebrickable Mode (default):</strong> Uses live set data from <a href=''https://rebrickable.com/''>Rebrickable.com</a> with theme and part filters<br />● <strong>BrickSet Mode:</strong> Uses live set data from <a href=''https://brickset.com/''>BrickSet.com</a> with optional personal collection features (owned/wanted), minifigs, and regional pricing<br /><br /><strong>BrickSet Setup (Optional):</strong><br />1. Create a free account at <a href=''https://brickset.com/signup''>brickset.com/signup</a><br />2. Request your API key at <a href=''https://brickset.com/tools/webservices/requestkey''>brickset.com/tools/webservices/requestkey</a><br />3. Enter your API key below to enable BrickSet mode<br />4. (Optional) For owned/wanted filtering: call the login API to get your userHash (see <a href=''https://brickset.com/article/52664/api-version-3-documentation''>API
+    docs</a>)<br /><br /><strong>Theme Note:</strong> Both APIs use different theme names and categories. Your filter options will automatically change depending on the selected data source.'
   github_url: https://github.com/ExcuseMi/trmnl-lego-plugin
   category: life
+- keyname: vendor
+  field_type: select
+  name: Data Source
+  description: Select which LEGO® data source to use.
+  options:
+  - Rebrickable (Curated Dataset): rebrickable
+  - Brickset (Live API): brickset
+  default: rebrickable
+  conditional_validation:
+  - when: brickset
+    required:
+    - brickset_api_key
+    - brickset_user_hash
+    - themes_brickset
+    - brickset_owned_wanted
+    - brickset_pricing
+    - brickset_show_minifigs_included
+    hidden:
+    - themes_rebrickable
+  - when: rebrickable
+    required:
+    - themes_rebrickable
+    hidden:
+    - brickset_api_key
+    - brickset_user_hash
+    - themes_brickset
+    - brickset_owned_wanted
+    - brickset_pricing
+    - brickset_show_minifigs_included
 - keyname: brickset_api_key
   field_type: string
-  name: BrickSet API Key (Optional)
-  description: Enter your BrickSet API key to use live data from BrickSet instead of the curated dataset. Get your key from <a href="https://brickset.com/tools/webservices/requestkey" target="_blank">brickset.com/tools/webservices/requestkey</a>
-  optional: true
+  name: Brickset API Key (Optional)
+  description: Enter your Brickset Web Services API key to enable Brickset mode. Get your key at <a href="https://brickset.com/tools/webservices/requestkey" target="_blank">Brickset.com</a>.
   placeholder: Your API key
 - keyname: brickset_user_hash
   field_type: string
-  name: BrickSet User Hash (Optional)
-  description: 'Enter your user hash to filter by sets you own or want. To get it: call the BrickSet login API with your credentials. See the <a href="https://brickset.com/article/52664/api-version-3-documentation" target="_blank">login method documentation</a>. Example: <code>https://brickset.com/api/v3.asmx/login?apiKey=YOUR_KEY&username=YOUR_USERNAME&password=YOUR_PASSWORD</code>'
+  name: Brickset User Hash (Optional)
+  description: Required to display owned/wanted collections. Obtain it by calling the Brickset API <strong>login</strong> method. See documentation link for example requests.
   optional: true
-  placeholder: Your user hash from login API response
-- keyname: show_qr_code
-  name: Show QR Code
-  field_type: select
-  description: Display a QR code that links to the set details page
-  options:
-  - Hide QR Code: hide
-  - Show QR Code (Rebrickable): show_rebrickable
-  - Show QR Code (BrickSet): show_brickset
-  default: hide
-  optional: true
-- keyname: brickset_pricing
-  field_type: select
-  name: Show Set Price (BrickSet Only)
-  description: <strong>BrickSet mode only:</strong> Show the Lego Sets retail price from LEGO.com
-  options:
-  - No pricing: ''
-  - CA: CA
-  - DE: DE
-  - UK: UK
-  - US: US
-  default: ''
-  optional: true
-- keyname: brickset_show_minifigs_included
-  field_type: select
-  name: Show minifigs included (BrickSet Only)
-  description: <strong>BrickSet mode only:</strong> Show the number of minifigs included
-  options:
-  - 'Yes': 'yes'
-  - 'No': 'no'
-  default: 'no'
-  optional: true
+  placeholder: Your user hash
 - keyname: themes_rebrickable
   field_type: select
-  name: Filter by Themes - Rebrickable (378)
-  description: <strong>For Curated Dataset mode:</strong> Select themes to filter. Uses Rebrickable theme names. Number in parentheses shows available sets per theme.
+  name: Filter by Themes – Rebrickable (407)
+  description: Applicable only when using the curated Rebrickable dataset. Select themes to include in the display.
   multiple: true
   options:
   - 12V (52): 12v
@@ -59,7 +56,11 @@
   - 4.5V (85): 45v
   - 9V (67): 9v
   - Action Wheelers (9): action-wheelers
+  - Activity Books (230): activity-books
+  - Activity Books with LEGO Parts (399): activity-books-with-lego-parts
+  - Advent (5): advent
   - Agents (13): agents
+  - Airlines (16): airlines
   - Airport (56): airport
   - Alien Conquest (10): alien-conquest
   - Alpha Team (7): alpha-team
@@ -93,11 +94,13 @@
   - Bluey (4): bluey
   - Boat (21): boat
   - Bob the Builder (31): bob-the-builder
+  - Books (1): books
   - Botanicals (32): botanicals
   - Brick Sketches (8): brick-sketches
   - BrickLink Designer Program (58): bricklink-designer-program
   - Brickheadz (183): brickheadz
   - Bricks & More (67): bricks-more
+  - Bricktober (43): bricktober
   - Building (17): building
   - Building Set with People (32): building-set-with-people
   - Bulk Bricks (128): bulk-bricks
@@ -105,7 +108,9 @@
   - Cargo (8): cargo
   - Cars (57): cars
   - Castle (29): castle
+  - Chinese (Lunar) New Year (21): chinese-lunar-new-year
   - Chinese Traditional Festivals (32): chinese-traditional-festivals
+  - Christmas (168): christmas
   - Cities of Wonders (10): cities-of-wonders
   - City (264): city
   - City Center (21): city-center
@@ -114,11 +119,14 @@
   - Classic Castle (8): classic-castle
   - Classic Space (89): classic-space
   - Classic Town (410): classic-town
+  - Clikits (80): clikits
+  - Clocks and Watches (213): clocks-and-watches
   - Coast Guard (28): coast-guard
   - Collectible Minifigures (36): collectible-minifigures
   - Competition (17): competition
   - Constraction (16): constraction
   - Construction (120): construction
+  - Control Lab (7): control-lab
   - Creator (219): creator
   - Creator 3-in-1 (251): creator-3-in-1
   - Creator Expert (46): creator-expert
@@ -130,6 +138,7 @@
   - DOTS (93): dots
   - Dark Forest (3): dark-forest
   - Desert (26): desert
+  - Designer Sets (50): designer-sets
   - Despicable Me 4 (5): despicable-me-4
   - Dimensions (68): dimensions
   - Dino (20): dino
@@ -153,6 +162,7 @@
   - Duplo and Explore (189): duplo-and-explore
   - EV3 (12): ev3
   - Early Creator (35): early-creator
+  - Easter (52): easter
   - Educational and Dacta (108): educational-and-dacta
   - Elves (42): elves
   - Exo-Force (49): exo-force
@@ -166,6 +176,7 @@
   - Fantasy Era (29): fantasy-era
   - Farm (21): farm
   - Ferrari (30): ferrari
+  - Ferries (17): ferries
   - Fire (122): fire
   - Forestmen (7): forestmen
   - Forma (4): forma
@@ -188,6 +199,7 @@
   - Gravity Games (10): gravity-games
   - Guardians of the Galaxy (14): guardians-of-the-galaxy
   - HO 1:87 Vehicles (46): ho-187-vehicles
+  - Halloween (31): halloween
   - Harbor (25): harbor
   - Harry Potter (178): harry-potter
   - Harry Potter and Fantastic Beasts Series 1 (25): harry-potter-and-fantastic-beasts-series-1
@@ -204,6 +216,7 @@
   - Hydronauts (7): hydronauts
   - Ice Planet 2002 (10): ice-planet-2002
   - Icons (69): icons
+  - Ideas Books (117): ideas-books
   - Incredibles 2 (3): incredibles-2
   - Indiana Jones (20): indiana-jones
   - Insectoids (18): insectoids
@@ -219,6 +232,7 @@
   - Jurassic World (116): jurassic-world
   - 'Jurassic World: Fallen Kingdom (3)': jurassic-world-fallen-kingdom
   - Justice League (16): justice-league
+  - Key Chain (692): key-chain
   - Kingdoms (17): kingdoms
   - Knights Kingdom I (20): knights-kingdom-i
   - Knights Kingdom II (71): knights-kingdom-ii
@@ -247,6 +261,7 @@
   - Marvel Series 2 (16): marvel-series-2
   - Marvel Super Heroes (4): marvel-super-heroes
   - Master Builder Academy (17): master-builder-academy
+  - McDonalds (19): mcdonalds
   - Mickey & Friends (18): mickey-friends
   - Mickey Mouse (14): mickey-mouse
   - Miles From Tomorrowland (3): miles-from-tomorrowland
@@ -270,6 +285,7 @@
   - Nike (3): nike
   - Ninja (31): ninja
   - Ninjago (587): ninjago
+  - Non-fiction Books (172): non-fiction-books
   - Off-Road (12): off-road
   - One Piece (6): one-piece
   - Orient Expedition (22): orient-expedition
@@ -296,6 +312,7 @@
   - Primo (114): primo
   - Prince of Persia (6): prince-of-persia
   - Princess Castle (6): princess-castle
+  - Promotional (170): promotional
   - Protectors (6): protectors
   - Quatro (9): quatro
   - RC (22): rc
@@ -309,10 +326,12 @@
   - Rock Raiders (15): rock-raiders
   - Role Play Toys and Costumes (229): role-play-toys-and-costumes
   - Royal Knights (9): royal-knights
+  - SPIKE (31): spike
   - Samsonite (113): samsonite
   - Scala (72): scala
   - Scooby-Doo (7): scooby-doo
   - Sculptures (3): sculptures
+  - Seasonal (65): seasonal
   - Series 1 Minifigures (19): series-1-minifigures
   - Series 10 Minifigures (20): series-10-minifigures
   - Series 11 Minifigures (19): series-11-minifigures
@@ -341,9 +360,11 @@
   - Series 8 Minifigures (19): series-8-minifigures
   - Series 9 Minifigures (19): series-9-minifigures
   - Serious Play (13): serious-play
+  - Service Packs (328): service-packs
   - Skylines (14): skylines
   - Soccer (98): soccer
   - Sofia the First (3): sofia-the-first
+  - Soft Bricks (6): soft-bricks
   - Sonic The Hedgehog (20): sonic-the-hedgehog
   - Space (8): space
   - Space Police I (6): space-police-i
@@ -365,6 +386,7 @@
   - Stationery and Office Supplies (579): stationery-and-office-supplies
   - Stingrays (5): stingrays
   - Storage (165): storage
+  - Story Books (350): story-books
   - Stranger Things (1): stranger-things
   - Studios (50): studios
   - Stuntz (27): stuntz
@@ -372,11 +394,13 @@
   - Super Heroes Marvel (51): super-heroes-marvel
   - Super Mario (178): super-mario
   - Superman (9): superman
+  - Supplemental (335): supplemental
   - System (48): system
   - Tabletop Games and Puzzles (58): tabletop-games-and-puzzles
   - Team GB (12): team-gb
-  - Technic (464): technic
+  - Technic (757): technic
   - Teenage Mutant Ninja Turtles (20): teenage-mutant-ninja-turtles
+  - Thanksgiving (9): thanksgiving
   - The Hobbit (20): the-hobbit
   - The Infinity Saga (56): the-infinity-saga
   - The LEGO Batman Movie (42): the-lego-batman-movie
@@ -401,7 +425,7 @@
   - Town Plan (32): town-plan
   - Toy Story (27): toy-story
   - Traffic (61): traffic
-  - Train (5): train
+  - Train (68): train
   - Trains (101): trains
   - 'Trolls: World Tour (9)': trolls-world-tour
   - UCS (6): ucs
@@ -413,6 +437,8 @@
   - Universal Building Set (102): universal-building-set
   - Universe (2): universe
   - VIDIYO (50): vidiyo
+  - VIP Add-On Packs (10): vip-add-on-packs
+  - Valentine (21): valentine
   - Value Packs (35): value-packs
   - Vehicle (31): vehicle
   - Video Games and Accessories (257): video-games-and-accessories
@@ -432,11 +458,10 @@
   - Znap (19): znap
   - Zooters (3): zooters
   - eLAB (5): elab
-  optional: true
 - keyname: themes_brickset
   field_type: select
-  name: Filter by Themes - BrickSet (170)
-  description: <strong>For BrickSet API mode:</strong> Select themes for server-side filtering. Uses BrickSet theme names. Only applies when BrickSet API key is provided.
+  name: Filter by Themes – Brickset (170)
+  description: Applicable only in Brickset API mode. Filters sets at the server level using Brickset’s official theme names.
   multiple: true
   options:
   - 4 Juniors: 4 Juniors
@@ -609,42 +634,68 @@
   - Xtra: Xtra
   - Znap: Znap
   - tbd: tbd
-  optional: true
+- keyname: show_qr_code
+  name: Show QR Code Link
+  field_type: select
+  description: Display a QR code linking to the selected set’s details page.
+  options:
+  - Hide QR Code: hide
+  - Show QR Code: show
+  default: hide
+- keyname: brickset_pricing
+  field_type: select
+  name: Show Set Price (Brickset Only)
+  description: Displays the LEGO® retail price from LEGO.com in the selected region (if available).
+  options:
+  - Do Not Show Price: ''
+  - Canada (CA): CA
+  - Germany (DE): DE
+  - United Kingdom (UK): UK
+  - United States (US): US
+  default: ''
+- keyname: brickset_show_minifigs_included
+  field_type: select
+  name: Show Number of Minifigures (Brickset Only)
+  description: Displays the number of minifigures included in the set when Brickset provides the data.
+  options:
+  - Yes, Show Minifigs: 'yes'
+  - No, Do Not Display: 'no'
+  default: 'no'
 - keyname: min_year
   field_type: number
   name: Minimum Release Year
-  description: <strong>Curated mode:</strong> Filters the curated dataset<br /><strong>BrickSet mode:</strong> Server-side filtering (only fetches matching sets)
+  description: Filters by release year. This filter occurs locally for curated mode and server-side for Brickset.
   min: 1900
   optional: true
   placeholder: '1950'
 - keyname: max_year
   field_type: number
   name: Maximum Release Year
-  description: <strong>Curated mode:</strong> Filters the curated dataset<br /><strong>BrickSet mode:</strong> Server-side filtering (only fetches matching sets)
+  description: Filters by release year. This filter occurs locally for curated mode and on the API request for Brickset.
   min: 1900
   optional: true
   placeholder: '2025'
 - keyname: brickset_owned_wanted
   field_type: select
-  name: Show Owned and/or Wanted Sets (BrickSet Only)
-  description: <strong>BrickSet mode only:</strong> Filter sets based on your collection. Requires user hash to be provided above.
+  name: Filter by Collection Status (Brickset Only)
+  description: Filter Brickset results to only show sets you own or want. Requires a user hash to be provided.
   options:
-  - All Sets: ''
-  - Only Owned Sets: '%27owned%27:1,'
-  - Only Wanted Sets: '%27wanted%27:1,'
+  - Show All Sets: ''
+  - Only Show Owned Sets: '%27owned%27:1,'
+  - Only Show Wanted Sets: '%27wanted%27:1,'
   default: ''
   optional: true
 - keyname: min_parts
   field_type: number
   name: Minimum Number of Parts
-  description: Only display sets with at least this many pieces (filtered on your device in both modes)
+  description: Show only sets containing at least this many pieces. Filter applied locally in both modes.
   min: 0
   optional: true
   placeholder: '100'
 - keyname: max_parts
   field_type: number
   name: Maximum Number of Parts
-  description: Only display sets with at most this many pieces (filtered on your device in both modes)
+  description: Show only sets containing at most this many pieces. Filter applied locally in both modes.
   min: 0
   optional: true
   placeholder: '5000'
