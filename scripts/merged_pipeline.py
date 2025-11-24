@@ -2,8 +2,10 @@
 """
 Complete LEGO data pipeline: Download Rebrickable data, filter and validate,
 then generate options.yml and compact JSON for TRMNL plugin.
+Supports dual theme naming for Rebrickable and BrickSet compatibility.
 """
 import csv
+import datetime
 import json
 import zipfile
 import re
@@ -11,10 +13,17 @@ import asyncio
 import aiohttp
 import logging
 import yaml
+import os
 from pathlib import Path
 from urllib.request import urlretrieve
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
 
 # ==== Configuration ====
+BRICKSET_API_KEY = os.getenv('BRICKSET_API_KEY')
+
 DATASETS = {
     'themes': {
         'url': 'https://cdn.rebrickable.com/media/downloads/themes.csv.zip',
@@ -57,6 +66,38 @@ logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s"
 )
+
+
+# ==== BrickSet API Functions ====
+async def fetch_brickset_themes():
+    """Fetch all themes from BrickSet API"""
+    if not BRICKSET_API_KEY:
+        logging.warning("No BRICKSET_API_KEY found in .env, skipping BrickSet theme fetch")
+        return []
+
+    url = f"https://brickset.com/api/v3.asmx/getThemes?apikey={BRICKSET_API_KEY}"
+
+    try:
+        headers = {
+            'Accept': 'application/json'
+        }
+        async with aiohttp.ClientSession() as session:
+            async with session.get(url, headers=headers) as response:
+                if response.status == 200:
+                    # Read as text first, then parse as JSON manually
+                    # BrickSet returns JSON but with incorrect content-type header
+                    text = await response.text()
+                    data = json.loads(text)
+                    themes = data.get('themes', [])
+                    theme_names = sorted([t['theme'] for t in themes if 'theme' in t])
+                    logging.info(f"Fetched {len(theme_names)} themes from BrickSet")
+                    return theme_names
+                else:
+                    logging.error(f"Failed to fetch BrickSet themes: HTTP {response.status}")
+                    return []
+    except Exception as e:
+        logging.error(f"Error fetching BrickSet themes: {e}")
+        return []
 
 
 # ==== Utility Functions ====
@@ -117,8 +158,6 @@ def save_json(data, filename):
     with open(out, 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
     logging.info(f"Saved JSON to {out}")
-
-
 
 
 def cleanup(temp_file):
@@ -201,7 +240,7 @@ async def validate_images(data):
 
 
 # ==== Data Download & Processing ====
-def download_and_process_rebrickable():
+async def download_and_process_rebrickable():
     """Download and process Rebrickable data"""
     logging.info("=== Phase 1: Download & Process Rebrickable Data ===")
 
@@ -242,7 +281,7 @@ def download_and_process_rebrickable():
                    not any(kw.lower() in (row.get("name") or "").lower() for kw in MINIFIG_EXCLUDE_KEYWORDS)
             ]
 
-        # Normalize
+        # Normalize - Keep Rebrickable theme names
         normalized_data = []
         for row in data:
             normalized_row = {
@@ -264,7 +303,7 @@ def download_and_process_rebrickable():
         ))
 
         # Validate images
-        normalized_data = asyncio.run(validate_images(normalized_data))
+        normalized_data = await validate_images(normalized_data)
 
         logging.info(f"{dataset_name}: {len(normalized_data)} rows after filtering and validation")
 
@@ -346,11 +385,16 @@ def extract_themes(sets):
 
 
 # ==== Create YAML ====
-def create_options_yml(filtered_sets, themes, parent_themes):
+async def create_options_yml(filtered_sets, themes_rebrickable, parent_themes_rebrickable):
     yaml.add_representer(dict, lambda dumper, data: dumper.represent_mapping("tag:yaml.org,2002:map", data.items()))
 
     min_year = min(s.get('year', 9999) for s in filtered_sets)
     max_year = max(s.get('year', 0) for s in filtered_sets)
+    min_parts = min(s.get('num_parts', 9999) for s in filtered_sets)
+    max_parts = max(s.get('num_parts', 0) for s in filtered_sets)
+
+    # Fetch BrickSet themes if API key is available
+    themes_brickset = await fetch_brickset_themes()
 
     about_field = {
         'keyname': 'about',
@@ -358,63 +402,74 @@ def create_options_yml(filtered_sets, themes, parent_themes):
         'field_type': 'author_bio',
         'description':
             f"Display LEGO sets on your TRMNL device with filtering options.<br /><br />"
-            f"<strong>Dataset:</strong><br />"
-            f"● {len(filtered_sets):,} curated LEGO sets from Rebrickable<br />"
-            f"● Non-LEGO items, micro sets, and sets without images excluded<br />",
-        'github_url': 'https://github.com/ExcuseMi/trmnl-lego-plugin'
+            f"<strong>Two Data Modes:</strong><br />"
+            f"● <strong>Curated Dataset (default):</strong> {len(filtered_sets):,} pre-selected sets from <a href='https://rebrickable.com/'>Rebrickable.com</a> (non-LEGO items, micro sets, and sets without images excluded)<br />"
+            f"● <strong>BrickSet API Mode:</strong> Live data from <a href='https://brickset.com/'>BrickSet.com</a> with access to your collection (requires free API key)<br /><br />"
+            f"<strong>BrickSet Setup (Optional):</strong><br />"
+            f"1. Create a free account at <a href='https://brickset.com/signup'>brickset.com/signup</a><br />"
+            f"2. Request your API key at <a href='https://brickset.com/tools/webservices/requestkey'>brickset.com/tools/webservices/requestkey</a><br />"
+            f"3. Enter your API key below to enable BrickSet mode<br />"
+            f"4. (Optional) To show sets you own/want: call the login API method to get your userHash - see <a href='https://brickset.com/article/52664/api-version-3-documentation'>API docs</a> (search for 'login' method)<br /><br />"
+            f"<strong>Note:</strong> Each data mode has its own theme filter since Rebrickable and BrickSet use different theme naming conventions.",
+        'github_url': 'https://github.com/ExcuseMi/trmnl-lego-plugin',
+        'category': 'life'
     }
 
     fields = [
         about_field,
         {
-            'keyname': 'display_order',
-            'name': 'Display Order',
-            'field_type': 'select',
-            'description': 'Choose how sets are displayed on your device:<br />'
-                           '<strong>Random:</strong> Shows a different set each refresh for variety<br />'
-                           '<strong>Oldest to Newest:</strong> Progress chronologically through LEGO history, starting from vintage sets<br />'
-                           '<strong>Newest to Oldest:</strong> Start with the latest releases and work backwards',
-            'options': [
-                {'Random': 'random'},
-                {'Oldest to Newest': 'incremental'},
-                {'Newest to Oldest': 'reverse_incremental'}
-            ],
-            'default': 'random',
-            'optional': True
+            'keyname': 'brickset_api_key',
+            'field_type': 'string',
+            'name': 'BrickSet API Key (Optional)',
+            'description': 'Enter your BrickSet API key to use live data from BrickSet instead of the curated dataset. Get your key from <a href="https://brickset.com/tools/webservices/requestkey" target="_blank">brickset.com/tools/webservices/requestkey</a>',
+            'optional': True,
+            'placeholder': 'Your API key'
+        },
+        {
+            'keyname': 'brickset_user_hash',
+            'field_type': 'string',
+            'name': 'BrickSet User Hash (Optional)',
+            'description': 'Enter your user hash to filter by sets you own or want. To get it: call the BrickSet login API with your credentials. See the <a href="https://brickset.com/article/52664/api-version-3-documentation" target="_blank">login method documentation</a>. Example: <code>https://brickset.com/api/v3.asmx/login?apiKey=YOUR_KEY&username=YOUR_USERNAME&password=YOUR_PASSWORD</code>',
+            'optional': True,
+            'placeholder': 'Your user hash from login API response'
         },
         {
             'keyname': 'show_qr_code',
             'name': 'Show QR Code',
             'field_type': 'select',
-            'description': 'Display a QR code linking to the set details on Rebrickable',
+            'description': 'Display a QR code that links to the set details page',
             'options': [
-                {'Show QR Code': 'show'},
                 {'Hide QR Code': 'hide'},
+                {'Show QR Code (Rebrickable)': 'show_rebrickable'},
+                {'Show QR Code (BrickSet)': 'show_brickset'},
             ],
             'default': 'hide',
             'optional': True
         },
         {
-            'keyname': 'parent_themes',
+            'keyname': 'themes_rebrickable',
             'field_type': 'select',
-            'name': f'Filter by Parent Themes ({len(parent_themes)})',
+            'name': f'Filter by Themes - Rebrickable ({len(themes_rebrickable)})',
+            'description': f'<strong>For Curated Dataset mode:</strong> Select themes to filter from {len(filtered_sets):,} pre-selected sets. Uses Rebrickable theme names.',
             'multiple': True,
-            'options': [{p: p} for p in parent_themes],
+            'options': [{t: t} for t in themes_rebrickable],
             'optional': True
         },
         {
-            'keyname': 'themes',
+            'keyname': 'themes_brickset',
             'field_type': 'select',
-            'name': f'Filter by Themes ({len(themes)})',
+            'name': f'Filter by Themes - BrickSet ({len(themes_brickset)})',
+            'description': '<strong>For BrickSet API mode:</strong> Select themes for server-side filtering. Uses BrickSet theme names. Only applies when BrickSet API key is provided.',
             'multiple': True,
-            'options': [{t: t} for t in themes],
+            'options': [{t: t} for t in themes_brickset],
             'optional': True
         },
         {
             'keyname': 'min_year',
             'field_type': 'number',
             'name': 'Minimum Release Year',
-            'min': min_year,
+            'description': '<strong>Curated mode:</strong> Filters the curated dataset<br /><strong>BrickSet mode:</strong> Server-side filtering (only fetches matching sets)',
+            'min': 1900,
             'optional': True,
             'placeholder': f"{min_year}"
         },
@@ -422,9 +477,42 @@ def create_options_yml(filtered_sets, themes, parent_themes):
             'keyname': 'max_year',
             'field_type': 'number',
             'name': 'Maximum Release Year',
-            'min': min_year,
+            'description': '<strong>Curated mode:</strong> Filters the curated dataset<br /><strong>BrickSet mode:</strong> Server-side filtering (only fetches matching sets)',
+            'min': 1900,
             'optional': True,
-            'placeholder': ''
+            'placeholder': f'{datetime.date.today().year}'
+        },
+        {
+            'keyname': 'brickset_owned_wanted',
+            'field_type': 'select',
+            'name': 'Show Owned and/or Wanted Sets (BrickSet Only)',
+            'description': '<strong>BrickSet mode only:</strong> Filter sets based on your collection. Requires user hash to be provided above.',
+            'options': [
+                {'All Sets': ''},
+                {'Only Owned Sets': '%27owned%27:1,'},
+                {'Only Wanted Sets': '%27wanted%27:1,'},
+                {'Only Owned & Wanted Sets': '%27owned%27:1,%27wanted%27:1,'},
+            ],
+            'default': '',
+            'optional': True
+        },
+        {
+            'keyname': 'min_parts',
+            'field_type': 'number',
+            'name': 'Minimum Number of Parts',
+            'description': 'Only display sets with at least this many pieces (filtered on your device in both modes)',
+            'min': 0,
+            'optional': True,
+            'placeholder': "1000"
+        },
+        {
+            'keyname': 'max_parts',
+            'field_type': 'number',
+            'name': 'Maximum Number of Parts',
+            'description': 'Only display sets with at most this many pieces (filtered on your device in both modes)',
+            'min': 0,
+            'optional': True,
+            'placeholder': f'{max_parts}'
         }
     ]
 
@@ -435,7 +523,7 @@ def create_options_yml(filtered_sets, themes, parent_themes):
 
 
 # ==== Generate Options ====
-def generate_options():
+async def generate_options():
     """Generate options.yml and compact JSON from sets.json"""
     logging.info("=== Phase 2: Generate Plugin Options ===")
 
@@ -458,11 +546,11 @@ def generate_options():
     themes, parent_themes = extract_themes(filtered)
 
     logging.info("Creating options.yml...")
-    create_options_yml(filtered, themes, parent_themes)
+    await create_options_yml(filtered, themes, parent_themes)
 
 
 # ==== Main ====
-def main():
+async def main():
     try:
         logging.info("=" * 60)
         logging.info(" LEGO Data Pipeline for TRMNL Plugin")
@@ -471,10 +559,10 @@ def main():
         ensure_data_dir()
 
         # Phase 1: Download and process Rebrickable data
-        download_and_process_rebrickable()
+        await download_and_process_rebrickable()
 
         # Phase 2: Generate plugin options
-        generate_options()
+        await generate_options()
 
         logging.info("\n✓ Success! Pipeline complete. 🎉")
 
@@ -484,4 +572,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    asyncio.run(main())
