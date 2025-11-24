@@ -439,14 +439,14 @@ async def create_options_yml(theme_info):
                 {
                     "when": "brickset",
                     "required": ["brickset_api_key", "brickset_user_hash", "themes_brickset",
-                                 "brickset_owned_wanted", "brickset_pricing", "brickset_show_minifigs_included"],
+                                 "brickset_owned_wanted", "brickset_pricing", "brickset_show_minifigs_included","brickset_order_by"],
                     "hidden": ["themes_rebrickable"]
                 },
                 {
                     "when": "rebrickable",
                     "required": ["themes_rebrickable"],
                     "hidden": ["brickset_api_key", "brickset_user_hash", "themes_brickset",
-                               "brickset_owned_wanted", "brickset_pricing", "brickset_show_minifigs_included"]
+                               "brickset_owned_wanted", "brickset_pricing", "brickset_show_minifigs_included","brickset_order_by"]
                 }
             ]
         },
@@ -496,7 +496,42 @@ async def create_options_yml(theme_info):
             'help_text': "Use <kbd>⌘</kbd>+<kbd>click</kbd> or <kbd>Ctrl</kbd>+<kbd>click</kbd> to select multiple themes.<br /><strong>You must select at least one theme OR specify a year range.</strong>",
             'optional': True
         },
-
+    {
+        'keyname': 'brickset_order_by',
+        'field_type': 'select',
+        'name': 'Sort Order (Brickset Only)',
+        'description': 'Choose how to sort the sets returned from Brickset.',
+        'options': [
+            {'Set Number': 'Number'},
+            {'Year (Oldest First)': 'YearFrom'},
+            {'Year (Newest First)': 'YearFromDESC'},
+            {'Piece Count (Low to High)': 'Pieces'},
+            {'Piece Count (High to Low)': 'PiecesDESC'},
+            {'Minifigures (Low to High)': 'Minifigs'},
+            {'Minifigures (High to Low)': 'MinifigsDESC'},
+            {'Rating (Low to High)': 'Rating'},
+            {'Rating (High to Low)': 'RatingDESC'},
+            {'Theme Name': 'Theme'},
+            {'Set Name': 'Name'},
+            {'Random': 'Random'},
+            {'Price (Low to High)': 'RetailPrice'},
+            {'Price (High to Low)': 'RetailPriceDESC'},
+            {'Price Per Piece (Low to High)': 'PricePerPiece'},
+            {'Price Per Piece (High to Low)': 'PricePerPieceDESC'},
+        ],
+        'default': 'Random',
+    },
+        {
+            'keyname': 'show_brick_count',
+            'field_type': 'select',
+            'name': 'Show Brick Count',
+            'description': 'Display the number of pieces included in each set.',
+            'options': [
+                {'Yes, Show Brick Count': 'yes'},
+                {'No, Do Not Display': 'no'},
+            ],
+            'default': 'yes',
+        },
         # QR Code Display
         {
             'keyname': 'show_qr_code',
@@ -525,7 +560,6 @@ async def create_options_yml(theme_info):
             ],
             'default': '',
         },
-
         {
             'keyname': 'brickset_show_minifigs_included',
             'field_type': 'select',
@@ -537,7 +571,20 @@ async def create_options_yml(theme_info):
             ],
             'default': 'no',
         },
-
+        # Collection Status (Brickset)
+        {
+            'keyname': 'brickset_owned_wanted',
+            'field_type': 'select',
+            'name': 'Filter by Collection Status (Brickset Only)',
+            'description': 'Filter results to show only sets you own or want. Requires your Brickset user hash to be configured above.',
+            'options': [
+                {'Show All Sets': ''},
+                {'Only Show Owned Sets': '%27owned%27:1,'},
+                {'Only Show Wanted Sets': '%27wanted%27:1,'},
+            ],
+            'default': '',
+            'optional': True
+        },
         # Year Filtering
         {
             'keyname': 'min_year',
@@ -558,22 +605,6 @@ async def create_options_yml(theme_info):
             'optional': True,
             'placeholder': f'{datetime.date.today().year}'
         },
-
-        # Collection Status (Brickset)
-        {
-            'keyname': 'brickset_owned_wanted',
-            'field_type': 'select',
-            'name': 'Filter by Collection Status (Brickset Only)',
-            'description': 'Filter results to show only sets you own or want. Requires your Brickset user hash to be configured above.',
-            'options': [
-                {'Show All Sets': ''},
-                {'Only Show Owned Sets': '%27owned%27:1,'},
-                {'Only Show Wanted Sets': '%27wanted%27:1,'},
-            ],
-            'default': '',
-            'optional': True
-        },
-
         # Part Count Filtering
         {
             'keyname': 'min_parts',
