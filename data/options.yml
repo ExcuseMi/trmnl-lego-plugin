@@ -17,8 +17,6 @@
   - when: brickset
     required:
     - brickset_api_key
-    - brickset_user_hash
-    - themes_brickset
     - brickset_owned_wanted
     - brickset_pricing
     - brickset_show_minifigs_included
