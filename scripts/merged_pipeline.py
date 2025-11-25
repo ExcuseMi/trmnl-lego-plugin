@@ -438,7 +438,7 @@ async def create_options_yml(theme_info):
             'conditional_validation': [
                 {
                     "when": "brickset",
-                    "required": ["brickset_api_key", "brickset_user_hash", "themes_brickset",
+                    "required": ["brickset_api_key",
                                  "brickset_owned_wanted", "brickset_pricing", "brickset_show_minifigs_included","brickset_order_by"],
                     "hidden": ["themes_rebrickable"]
                 },
@@ -454,7 +454,7 @@ async def create_options_yml(theme_info):
         # Brickset API Configuration
         {
             'keyname': 'brickset_api_key',
-            'field_type': 'string',
+            'field_type': 'password',
             'name': 'Brickset API Key',
             'description': 'Your BrickSet API key enables live data access. Request your key at <a href="https://brickset.com/tools/webservices/requestkey" target="_blank">brickset.com/tools/webservices/requestkey</a>',
             'placeholder': 'Enter your API key',
@@ -463,7 +463,7 @@ async def create_options_yml(theme_info):
 
         {
             'keyname': 'brickset_user_hash',
-            'field_type': 'string',
+            'field_type': 'password',
             'name': 'Brickset User Hash',
             'description': 'Your user hash enables filtering by sets you own or want. Obtain it by calling the BrickSet login API: <code>https://brickset.com/api/v3.asmx/login?apiKey=YOUR_KEY&username=YOUR_USERNAME&password=YOUR_PASSWORD</code><br />See the <a href="https://brickset.com/article/52664/api-version-3-documentation" target="_blank">login method documentation</a> for details.',
             'placeholder': 'Enter your user hash',

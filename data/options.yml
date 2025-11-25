@@ -37,13 +37,13 @@
     - brickset_show_minifigs_included
     - brickset_order_by
 - keyname: brickset_api_key
-  field_type: string
+  field_type: password
   name: Brickset API Key
   description: Your BrickSet API key enables live data access. Request your key at <a href="https://brickset.com/tools/webservices/requestkey" target="_blank">brickset.com/tools/webservices/requestkey</a>
   placeholder: Enter your API key
   optional: true
 - keyname: brickset_user_hash
-  field_type: string
+  field_type: password
   name: Brickset User Hash
   description: 'Your user hash enables filtering by sets you own or want. Obtain it by calling the BrickSet login API: <code>https://brickset.com/api/v3.asmx/login?apiKey=YOUR_KEY&username=YOUR_USERNAME&password=YOUR_PASSWORD</code><br />See the <a href="https://brickset.com/article/52664/api-version-3-documentation" target="_blank">login method documentation</a> for details.'
   placeholder: Enter your user hash
@@ -77,7 +77,7 @@
   - Architecture (50): architecture|1|50
   - Arctic (39): arctic|1|39
   - Atlantis (24): atlantis|1|24
-  - Audio and Visual Media (59): audio-and-visual-media|1|59
+  - Audio and Visual Media (71): audio-and-visual-media|1|71
   - Avatar (9): avatar|1|9
   - 'Avatar: The Last Airbender (2)': avatar-the-last-airbender|1|2
   - Avengers (93): avengers|1|93
@@ -233,7 +233,7 @@
   - Jungle (27): jungle|1|27
   - Juniors (29): juniors|1|29
   - Jurassic Park III (2): jurassic-park-iii|1|2
-  - Jurassic World (116): jurassic-world|1|116
+  - Jurassic World (117): jurassic-world|1|117
   - 'Jurassic World: Fallen Kingdom (3)': jurassic-world-fallen-kingdom|1|3
   - Justice League (16): justice-league|1|16
   - Key Chain (692): key-chain|1|692
@@ -316,7 +316,7 @@
   - Primo (114): primo|1|114
   - Prince of Persia (6): prince-of-persia|1|6
   - Princess Castle (6): princess-castle|1|6
-  - Promotional (170): promotional|1|170
+  - Promotional (173): promotional|1|173
   - Protectors (6): protectors|1|6
   - Quatro (9): quatro|1|9
   - Race (16): race|1|16
@@ -400,7 +400,7 @@
   - Superman (9): superman|1|9
   - Supplemental (335): supplemental|1|335
   - System (48): system|1|48
-  - Tabletop Games and Puzzles (58): tabletop-games-and-puzzles|1|58
+  - Tabletop Games and Puzzles (59): tabletop-games-and-puzzles|1|59
   - Team GB (12): team-gb|1|12
   - Technic (757): technic|1|757
   - Teenage Mutant Ninja Turtles (20): teenage-mutant-ninja-turtles|1|20
