@@ -17,8 +17,6 @@
   - when: brickset
     required:
     - brickset_api_key
-    - brickset_user_hash
-    - themes_brickset
     - brickset_owned_wanted
     - brickset_pricing
     - brickset_show_minifigs_included
@@ -643,7 +641,7 @@
   optional: true
 - keyname: brickset_order_by
   field_type: select
-  name: Sort Order (Brickset Only)
+  name: Sort Order
   description: Choose how to sort the sets returned from Brickset.
   options:
   - Set Number: Number
@@ -712,7 +710,7 @@
     - brickset_user_hash
 - keyname: brickset_owned_wanted
   field_type: select
-  name: Filter by Collection Status (Brickset Only)
+  name: Filter by Collection Status
   description: Filter results to show only sets you own or want. Requires your Brickset user hash to be configured above.
   options:
   - Show All Sets: ''

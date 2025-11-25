@@ -499,7 +499,7 @@ async def create_options_yml(theme_info):
     {
         'keyname': 'brickset_order_by',
         'field_type': 'select',
-        'name': 'Sort Order (Brickset Only)',
+        'name': 'Sort Order',
         'description': 'Choose how to sort the sets returned from Brickset.',
         'options': [
             {'Set Number': 'Number'},
@@ -592,7 +592,7 @@ async def create_options_yml(theme_info):
         {
             'keyname': 'brickset_owned_wanted',
             'field_type': 'select',
-            'name': 'Filter by Collection Status (Brickset Only)',
+            'name': 'Filter by Collection Status',
             'description': 'Filter results to show only sets you own or want. Requires your Brickset user hash to be configured above.',
             'options': [
                 {'Show All Sets': ''},
