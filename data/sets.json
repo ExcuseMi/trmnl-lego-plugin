@@ -27074,7 +27074,7 @@
     "name": "Magic Flash",
     "year": 1993,
     "theme_id": 278,
-    "num_parts": 786,
+    "num_parts": 787,
     "img_url": "https://cdn.rebrickable.com/media/sets/5581-1.jpg",
     "theme": "Model Team",
     "parent_theme": ""
@@ -231126,6 +231126,16 @@
     "theme_id": 598,
     "num_parts": 48,
     "img_url": "https://cdn.rebrickable.com/media/sets/6581677-1.jpg",
+    "theme": "Promotional",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6581680-1",
+    "name": "Mixer",
+    "year": 2025,
+    "theme_id": 598,
+    "num_parts": 34,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6581680-1.jpg",
     "theme": "Promotional",
     "parent_theme": ""
   },
