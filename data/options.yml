@@ -185,7 +185,7 @@
   - Formula 1 (17): formula-1|1|17
   - Fortnite (9): fortnite|1|9
   - Freestyle (64): freestyle|1|64
-  - Friends (653): friends|1|653
+  - Friends (654): friends|1|654
   - Fright Knights (16): fright-knights|1|16
   - Frozen (33): frozen|1|33
   - Fusion (4): fusion|1|4
@@ -463,10 +463,180 @@
   optional: true
 - keyname: themes_brickset
   field_type: select
-  name: Filter by Themes – Brickset (0)
+  name: Filter by Themes – Brickset (170)
   description: <strong>Required:</strong> Select at least one theme, OR set a min/max year below. Only applicable when using Brickset as your data source.
   multiple: true
-  options: []
+  options:
+  - 4 Juniors: 4 Juniors
+  - Action Wheelers: Action Wheelers
+  - Advanced models: Advanced models
+  - Adventurers: Adventurers
+  - Agents: Agents
+  - Alpha Team: Alpha Team
+  - Animal Crossing: Animal Crossing
+  - Aqua Raiders: Aqua Raiders
+  - Aquazone: Aquazone
+  - Architecture: Architecture
+  - Art: Art
+  - Assorted: Assorted
+  - Atlantis: Atlantis
+  - Avatar: Avatar
+  - 'Avatar: The Last Airbender': 'Avatar: The Last Airbender'
+  - Baby: Baby
+  - Basic: Basic
+  - Batman: Batman
+  - Belville: Belville
+  - 'Ben 10: Alien Force': 'Ben 10: Alien Force'
+  - Bionicle: Bionicle
+  - Bluey: Bluey
+  - Boats: Boats
+  - Books: Books
+  - Boost: Boost
+  - Botanicals: Botanicals
+  - Brick Sketches: Brick Sketches
+  - BrickHeadz: BrickHeadz
+  - BrickLink: BrickLink
+  - Bricks and More: Bricks and More
+  - Building Set with People: Building Set with People
+  - Bulk Bricks: Bulk Bricks
+  - Cars: Cars
+  - Castle: Castle
+  - City: City
+  - Classic: Classic
+  - Clikits: Clikits
+  - Collectable Minifigures: Collectable Minifigures
+  - Creator: Creator
+  - Creator Expert: Creator Expert
+  - DC Comics Super Heroes: DC Comics Super Heroes
+  - DC Super Hero Girls: DC Super Hero Girls
+  - Dacta: Dacta
+  - Despicable Me: Despicable Me
+  - Dimensions: Dimensions
+  - Dino: Dino
+  - Dino 2010: Dino 2010
+  - Dino Attack: Dino Attack
+  - Dinosaurs: Dinosaurs
+  - Discovery: Discovery
+  - Disney: Disney
+  - Dots: Dots
+  - Dreamzzz: Dreamzzz
+  - Duplo: Duplo
+  - Education: Education
+  - Elves: Elves
+  - Exo-Force: Exo-Force
+  - Explore: Explore
+  - FORMA: FORMA
+  - Fabuland: Fabuland
+  - Factory: Factory
+  - Fortnite: Fortnite
+  - Freestyle: Freestyle
+  - Friends: Friends
+  - Fusion: Fusion
+  - Gabby's Dollhouse: Gabby's Dollhouse
+  - Galidor: Galidor
+  - Games: Games
+  - Gear: Gear
+  - Ghostbusters: Ghostbusters
+  - HERO Factory: HERO Factory
+  - Harry Potter: Harry Potter
+  - Hidden Side: Hidden Side
+  - Hobby Set: Hobby Set
+  - Homemaker: Homemaker
+  - Horizon: Horizon
+  - Icons: Icons
+  - Ideas: Ideas
+  - Indiana Jones: Indiana Jones
+  - Island Xtreme Stunts: Island Xtreme Stunts
+  - Jack Stone: Jack Stone
+  - Juniors: Juniors
+  - Jurassic World: Jurassic World
+  - LEGO Games: LEGO Games
+  - LEGO Universe: LEGO Universe
+  - LEGOLAND: LEGOLAND
+  - Legends of Chima: Legends of Chima
+  - Life of George: Life of George
+  - Make and Create: Make and Create
+  - Marvel Super Heroes: Marvel Super Heroes
+  - Master Builder Academy: Master Builder Academy
+  - Mickey Mouse: Mickey Mouse
+  - Mindstorms: Mindstorms
+  - Minecraft: Minecraft
+  - Minitalia: Minitalia
+  - Miscellaneous: Miscellaneous
+  - Mixels: Mixels
+  - Model Team: Model Team
+  - Monkie Kid: Monkie Kid
+  - Monster Fighters: Monster Fighters
+  - Nexo Knights: Nexo Knights
+  - Nike: Nike
+  - Ninjago: Ninjago
+  - One Piece: One Piece
+  - Overwatch: Overwatch
+  - Pharaoh's Quest: Pharaoh's Quest
+  - Pirates: Pirates
+  - Pirates of the Caribbean: Pirates of the Caribbean
+  - Pokémon: Pokémon
+  - Power Functions: Power Functions
+  - Power Miners: Power Miners
+  - Powered Up: Powered Up
+  - PreSchool: PreSchool
+  - Primo: Primo
+  - Prince of Persia: Prince of Persia
+  - Promotional: Promotional
+  - Quatro: Quatro
+  - Racers: Racers
+  - Rock Raiders: Rock Raiders
+  - Samsonite: Samsonite
+  - Scala: Scala
+  - Scooby-Doo: Scooby-Doo
+  - Seasonal: Seasonal
+  - Serious Play: Serious Play
+  - Service Packs: Service Packs
+  - Sonic the Hedgehog: Sonic the Hedgehog
+  - Space: Space
+  - Speed Champions: Speed Champions
+  - Speed Racer: Speed Racer
+  - Spider-Man: Spider-Man
+  - SpongeBob SquarePants: SpongeBob SquarePants
+  - Sports: Sports
+  - Spybotics: Spybotics
+  - Star Wars: Star Wars
+  - Stranger Things: Stranger Things
+  - Studios: Studios
+  - Super Mario: Super Mario
+  - System: System
+  - Technic: Technic
+  - Teenage Mutant Ninja Turtles: Teenage Mutant Ninja Turtles
+  - The Angry Birds Movie: The Angry Birds Movie
+  - The Hobbit: The Hobbit
+  - The LEGO Batman Movie: The LEGO Batman Movie
+  - The LEGO Movie: The LEGO Movie
+  - The LEGO Movie 2: The LEGO Movie 2
+  - The LEGO Ninjago Movie: The LEGO Ninjago Movie
+  - The Legend of Zelda: The Legend of Zelda
+  - The Lone Ranger: The Lone Ranger
+  - The Lord of the Rings: The Lord of the Rings
+  - The Powerpuff Girls: The Powerpuff Girls
+  - The Simpsons: The Simpsons
+  - Time Cruisers: Time Cruisers
+  - Town: Town
+  - Toy Story: Toy Story
+  - Trains: Trains
+  - Trolls World Tour: Trolls World Tour
+  - Ultra Agents: Ultra Agents
+  - Unikitty: Unikitty
+  - Universal Building Set: Universal Building Set
+  - Various: Various
+  - Vidiyo: Vidiyo
+  - Vikings: Vikings
+  - Wednesday: Wednesday
+  - Western: Western
+  - Wicked: Wicked
+  - World City: World City
+  - World Racers: World Racers
+  - Xtra: Xtra
+  - Znap: Znap
+  - tbd: tbd
   help_text: Use <kbd>⌘</kbd>+<kbd>click</kbd> or <kbd>Ctrl</kbd>+<kbd>click</kbd> to select multiple themes.<br /><strong>You must select at least one theme OR specify a year range.</strong>
   optional: true
 - keyname: brickset_order_by

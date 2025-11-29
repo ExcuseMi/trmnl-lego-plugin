@@ -216980,6 +216980,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "562409-1",
+    "name": "Apiary",
+    "year": 2024,
+    "theme_id": 494,
+    "num_parts": 26,
+    "img_url": "https://cdn.rebrickable.com/media/sets/562409-1.jpg",
+    "theme": "Friends",
+    "parent_theme": ""
+  },
+  {
     "set_num": "562410-1",
     "name": "Cat Grooming",
     "year": 2024,
@@ -221754,7 +221764,7 @@
     "name": "Star Trek: U.S.S. Enterprise NCC-1701-D",
     "year": 2025,
     "theme_id": 721,
-    "num_parts": 0,
+    "num_parts": 3600,
     "img_url": "https://cdn.rebrickable.com/media/sets/10356-1.jpg",
     "theme": "Icons",
     "parent_theme": ""
@@ -223184,7 +223194,7 @@
     "name": "Star Trek: Type-15 Shuttlepod",
     "year": 2025,
     "theme_id": 721,
-    "num_parts": 0,
+    "num_parts": 261,
     "img_url": "https://cdn.rebrickable.com/media/sets/40768-1.jpg",
     "theme": "Icons",
     "parent_theme": ""
