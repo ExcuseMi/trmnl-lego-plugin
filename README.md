@@ -3,7 +3,7 @@
 <!-- PLUGIN_STATS_START -->
 ## 🚀 TRMNL Plugin(s)
 
-*Last updated: 2025-11-29 06:17:58 UTC*
+*Last updated: 2025-11-30 06:18:41 UTC*
 
 
 ## <img src="assets/plugin-images/184371_icon.png" alt="Lego Sets icon" width="32"/> [Lego Sets](https://usetrmnl.com/recipes/184371)
