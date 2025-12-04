@@ -113,7 +113,7 @@
   - Chinese Traditional Festivals (32): chinese-traditional-festivals|1|32
   - Christmas (168): christmas|1|168
   - Cities of Wonders (10): cities-of-wonders|1|10
-  - City (286): city|1|286
+  - City (288): city|1|288
   - City Center (21): city-center|1|21
   - Classic (78): classic|1|78
   - Classic Basic (52): classic-basic|1|52
@@ -185,7 +185,7 @@
   - Formula 1 (17): formula-1|1|17
   - Fortnite (9): fortnite|1|9
   - Freestyle (64): freestyle|1|64
-  - Friends (670): friends|1|670
+  - Friends (672): friends|1|672
   - Fright Knights (16): fright-knights|1|16
   - Frozen (36): frozen|1|36
   - Fusion (4): fusion|1|4
@@ -285,7 +285,7 @@
   - Nexo Knights (104): nexo-knights|1|104
   - Nike (3): nike|1|3
   - Ninja (31): ninja|1|31
-  - Ninjago (599): ninjago|1|599
+  - Ninjago (600): ninjago|1|600
   - Non-fiction Books (172): non-fiction-books|1|172
   - NXT (30): nxt|1|30
   - Off-Road (12): off-road|1|12
@@ -464,7 +464,7 @@
   optional: true
 - keyname: themes_brickset
   field_type: select
-  name: Filter by Themes – Brickset (170)
+  name: Filter by Themes – Brickset (171)
   description: <strong>Required:</strong> Select at least one theme, OR set a min/max year below. Only applicable when using Brickset as your data source.
   multiple: true
   options:
@@ -522,6 +522,7 @@
   - Dots: Dots
   - Dreamzzz: Dreamzzz
   - Duplo: Duplo
+  - Editions: Editions
   - Education: Education
   - Elves: Elves
   - Exo-Force: Exo-Force

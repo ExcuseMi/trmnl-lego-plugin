@@ -223314,7 +223314,7 @@
     "name": "Winter Gazebo",
     "year": 2025,
     "theme_id": 301,
-    "num_parts": 0,
+    "num_parts": 245,
     "img_url": "https://cdn.rebrickable.com/media/sets/40778-1.jpg",
     "theme": "Other",
     "parent_theme": ""
@@ -227860,6 +227860,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "112506-1",
+    "name": "Arin vs. Spectral Dragonian Scout",
+    "year": 2025,
+    "theme_id": 435,
+    "num_parts": 14,
+    "img_url": "https://cdn.rebrickable.com/media/sets/112506-1.jpg",
+    "theme": "Ninjago",
+    "parent_theme": ""
+  },
+  {
     "set_num": "122501-1",
     "name": "Guard and Raptor",
     "year": 2025,
@@ -230444,7 +230454,7 @@
     "name": "Ninjago: Dragons Rising: Adventure Atlas: Journey Through the World of Ninjago",
     "year": 2025,
     "theme_id": 758,
-    "num_parts": 4,
+    "num_parts": 8,
     "img_url": "https://cdn.rebrickable.com/media/sets/5009938-1.jpg",
     "theme": "Non-fiction Books",
     "parent_theme": "Books"
@@ -233220,6 +233230,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "42684-1",
+    "name": "Unicorn Dream Café",
+    "year": 2026,
+    "theme_id": 494,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/42684-1.jpg",
+    "theme": "Friends",
+    "parent_theme": ""
+  },
+  {
     "set_num": "42685-1",
     "name": "Heartlake City Fashion Show",
     "year": 2026,
@@ -233266,6 +233286,16 @@
     "theme_id": 494,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/42689-1.jpg",
+    "theme": "Friends",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "42691-1",
+    "name": "Garden Restaurant",
+    "year": 2026,
+    "theme_id": 494,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/42691-1.jpg",
     "theme": "Friends",
     "parent_theme": ""
   },
@@ -233520,12 +233550,32 @@
     "parent_theme": ""
   },
   {
+    "set_num": "60491-1",
+    "name": "Motorcycle Transporter",
+    "year": 2026,
+    "theme_id": 52,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/60491-1.jpg",
+    "theme": "City",
+    "parent_theme": ""
+  },
+  {
     "set_num": "60493-1",
     "name": "F1 Display Truck with Audi F1 Race Car",
     "year": 2026,
     "theme_id": 52,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/60493-1.jpg",
+    "theme": "City",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "60495-1",
+    "name": "Recycling Truck",
+    "year": 2026,
+    "theme_id": 52,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/60495-1.jpg",
     "theme": "City",
     "parent_theme": ""
   },
