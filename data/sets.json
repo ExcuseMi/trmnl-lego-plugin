@@ -221843,11 +221843,11 @@
     "set_num": "10361-1",
     "name": "Holiday Express Train",
     "year": 2025,
-    "theme_id": 721,
+    "theme_id": 227,
     "num_parts": 956,
     "img_url": "https://cdn.rebrickable.com/media/sets/10361-1.jpg",
-    "theme": "Icons",
-    "parent_theme": ""
+    "theme": "Christmas",
+    "parent_theme": "Seasonal"
   },
   {
     "set_num": "10362-1",
@@ -229660,6 +229660,16 @@
     "parent_theme": "Books"
   },
   {
+    "set_num": "5009389-1",
+    "name": "Westend Grand Opening",
+    "year": 2025,
+    "theme_id": 408,
+    "num_parts": 158,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5009389-1.jpg",
+    "theme": "LEGO Brand Store",
+    "parent_theme": ""
+  },
+  {
     "set_num": "5009391-1",
     "name": "Craiova Grand Opening",
     "year": 2025,
@@ -229821,21 +229831,11 @@
   },
   {
     "set_num": "5009483-1",
-    "name": "Mushroom Sprite Key Light",
-    "year": 2025,
-    "theme_id": 503,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/5009483-1.jpg",
-    "theme": "Key Chain",
-    "parent_theme": "Gear"
-  },
-  {
-    "set_num": "5009483-2",
     "name": "Mushroom Girl Key Light",
     "year": 2025,
     "theme_id": 503,
     "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/5009483-2.jpg",
+    "img_url": "https://cdn.rebrickable.com/media/sets/5009483-1.jpg",
     "theme": "Key Chain",
     "parent_theme": "Gear"
   },
@@ -231248,6 +231248,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/6575259-1.jpg",
     "theme": "LEGO Brand Store",
     "parent_theme": ""
+  },
+  {
+    "set_num": "6575260-1",
+    "name": "Christmas Ornament",
+    "year": 2025,
+    "theme_id": 227,
+    "num_parts": 61,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6575260-1.jpg",
+    "theme": "Christmas",
+    "parent_theme": "Seasonal"
   },
   {
     "set_num": "6577643-1",
@@ -232720,6 +232730,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "11371-1",
+    "name": "Shopping Street",
+    "year": 2026,
+    "theme_id": 155,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/11371-1.jpg",
+    "theme": "Modular Buildings",
+    "parent_theme": ""
+  },
+  {
     "set_num": "11372-1",
     "name": "Autumn Cottage Garden",
     "year": 2026,
@@ -232870,6 +232890,26 @@
     "parent_theme": ""
   },
   {
+    "set_num": "30714-1",
+    "name": "Orange Cat",
+    "year": 2026,
+    "theme_id": 22,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/30714-1.jpg",
+    "theme": "Creator",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "30715-1",
+    "name": "Cute Animal Birthday Party",
+    "year": 2026,
+    "theme_id": 22,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/30715-1.jpg",
+    "theme": "Creator",
+    "parent_theme": ""
+  },
+  {
     "set_num": "30719-1",
     "name": "Go-Kart Racer",
     "year": 2026,
@@ -232880,12 +232920,32 @@
     "parent_theme": ""
   },
   {
+    "set_num": "30720-1",
+    "name": "Ariel & Flounder's Birthday Music Fun",
+    "year": 2026,
+    "theme_id": 579,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/30720-1.jpg",
+    "theme": "Disney Princess",
+    "parent_theme": "Disney"
+  },
+  {
     "set_num": "30721-1",
     "name": "Flower Stand with Roses",
     "year": 2026,
     "theme_id": 494,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/30721-1.jpg",
+    "theme": "Friends",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "30722-1",
+    "name": "Garden Bunny House",
+    "year": 2026,
+    "theme_id": 494,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/30722-1.jpg",
     "theme": "Friends",
     "parent_theme": ""
   },
@@ -232907,6 +232967,16 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/30727-1.jpg",
     "theme": "Star Wars",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "30735-1",
+    "name": "Hot Rod Car",
+    "year": 2026,
+    "theme_id": 1,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/30735-1.jpg",
+    "theme": "Technic",
     "parent_theme": ""
   },
   {
@@ -233046,6 +233116,16 @@
     "theme_id": 721,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/40891-1.jpg",
+    "theme": "Icons",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "40913-1",
+    "name": "Vintage Parade Car",
+    "year": 2026,
+    "theme_id": 721,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40913-1.jpg",
     "theme": "Icons",
     "parent_theme": ""
   },
@@ -233337,6 +233417,16 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/42699-1.jpg",
     "theme": "Friends",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "43020-1",
+    "name": "FIFA World Cup Official Trophy",
+    "year": 2026,
+    "theme_id": 301,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/43020-1.jpg",
+    "theme": "Other",
     "parent_theme": ""
   },
   {
