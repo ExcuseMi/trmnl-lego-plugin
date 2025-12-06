@@ -171704,7 +171704,7 @@
     "name": "Fuzzy",
     "year": 2020,
     "theme_id": 690,
-    "num_parts": 30,
+    "num_parts": 29,
     "img_url": "https://cdn.rebrickable.com/media/sets/71361-2.jpg",
     "theme": "Super Mario",
     "parent_theme": ""
@@ -231251,10 +231251,10 @@
   },
   {
     "set_num": "6575260-1",
-    "name": "Christmas Ornament",
+    "name": "LBC Holiday Ornament",
     "year": 2025,
     "theme_id": 227,
-    "num_parts": 61,
+    "num_parts": 60,
     "img_url": "https://cdn.rebrickable.com/media/sets/6575260-1.jpg",
     "theme": "Christmas",
     "parent_theme": "Seasonal"
@@ -233423,10 +233423,10 @@
     "set_num": "43020-1",
     "name": "FIFA World Cup Official Trophy",
     "year": 2026,
-    "theme_id": 301,
+    "theme_id": 787,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/43020-1.jpg",
-    "theme": "Other",
+    "theme": "Editions",
     "parent_theme": ""
   },
   {

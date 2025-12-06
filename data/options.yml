@@ -48,7 +48,7 @@
   optional: true
 - keyname: themes_rebrickable
   field_type: select
-  name: Filter by Themes – Rebrickable (408)
+  name: Filter by Themes – Rebrickable (409)
   description: Select one or more themes to display. Only applicable when using Rebrickable as your data source.
   multiple: true
   options:
@@ -163,6 +163,7 @@
   - Duplo and Explore (189): duplo-and-explore|1|189
   - Early Creator (35): early-creator|1|35
   - Easter (53): easter|1|53
+  - Editions (1): editions|1|1
   - Educational and Dacta (108): educational-and-dacta|1|108
   - eLAB (5): elab|1|5
   - Elves (42): elves|1|42
@@ -291,7 +292,7 @@
   - Off-Road (12): off-road|1|12
   - One Piece (6): one-piece|1|6
   - Orient Expedition (22): orient-expedition|1|22
-  - Other (99): other|1|99
+  - Other (98): other|1|98
   - Outback (5): outback|1|5
   - Overwatch (9): overwatch|1|9
   - Paradisa (18): paradisa|1|18
