@@ -91734,7 +91734,7 @@
     "name": "World Grand Prix Racing Rivalry",
     "year": 2011,
     "theme_id": 269,
-    "num_parts": 138,
+    "num_parts": 136,
     "img_url": "https://cdn.rebrickable.com/media/sets/8423-1.jpg",
     "theme": "Cars",
     "parent_theme": ""
@@ -223294,7 +223294,7 @@
     "name": "Mini Knight's Castle",
     "year": 2025,
     "theme_id": 598,
-    "num_parts": 591,
+    "num_parts": 590,
     "img_url": "https://cdn.rebrickable.com/media/sets/40775-1.jpg",
     "theme": "Promotional",
     "parent_theme": ""
@@ -230214,7 +230214,7 @@
     "name": "Fish Tank",
     "year": 2025,
     "theme_id": 598,
-    "num_parts": 0,
+    "num_parts": 146,
     "img_url": "https://cdn.rebrickable.com/media/sets/5009626-1.jpg",
     "theme": "Promotional",
     "parent_theme": ""
@@ -231184,7 +231184,7 @@
     "name": "Lego Eid Mosaic",
     "year": 2025,
     "theme_id": 598,
-    "num_parts": 158,
+    "num_parts": 169,
     "img_url": "https://cdn.rebrickable.com/media/sets/6565182-1.jpg",
     "theme": "Promotional",
     "parent_theme": ""
@@ -231271,13 +231271,13 @@
   },
   {
     "set_num": "6575260-1",
-    "name": "LBC Holiday Ornament",
+    "name": "Holiday Ornament",
     "year": 2025,
-    "theme_id": 227,
+    "theme_id": 598,
     "num_parts": 60,
     "img_url": "https://cdn.rebrickable.com/media/sets/6575260-1.jpg",
-    "theme": "Christmas",
-    "parent_theme": "Seasonal"
+    "theme": "Promotional",
+    "parent_theme": ""
   },
   {
     "set_num": "6577643-1",
@@ -232913,11 +232913,11 @@
     "set_num": "30714-1",
     "name": "Orange Cat",
     "year": 2026,
-    "theme_id": 22,
+    "theme_id": 672,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/30714-1.jpg",
-    "theme": "Creator",
-    "parent_theme": ""
+    "theme": "Creator 3-in-1",
+    "parent_theme": "Creator"
   },
   {
     "set_num": "30715-1",
