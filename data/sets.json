@@ -223314,7 +223314,7 @@
     "name": "Celebration Series: Gingerbread Train Ornament",
     "year": 2025,
     "theme_id": 227,
-    "num_parts": 0,
+    "num_parts": 190,
     "img_url": "https://cdn.rebrickable.com/media/sets/40777-1.jpg",
     "theme": "Christmas",
     "parent_theme": "Seasonal"
@@ -232820,6 +232820,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "21365-1",
+    "name": "Love Birds",
+    "year": 2026,
+    "theme_id": 576,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/21365-1.jpg",
+    "theme": "LEGO Ideas and CUUSOO",
+    "parent_theme": ""
+  },
+  {
     "set_num": "21583-1",
     "name": "Steve's Taiga Adventure",
     "year": 2026,
@@ -234086,6 +234096,16 @@
     "theme_id": 435,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/71860-1.jpg",
+    "theme": "Ninjago",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "71861-1",
+    "name": "The Old Town 15th Anniversary",
+    "year": 2026,
+    "theme_id": 435,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/71861-1.jpg",
     "theme": "Ninjago",
     "parent_theme": ""
   },
