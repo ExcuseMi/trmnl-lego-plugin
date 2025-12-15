@@ -230214,7 +230214,7 @@
     "name": "Fish Tank",
     "year": 2025,
     "theme_id": 598,
-    "num_parts": 146,
+    "num_parts": 150,
     "img_url": "https://cdn.rebrickable.com/media/sets/5009626-1.jpg",
     "theme": "Promotional",
     "parent_theme": ""
@@ -230418,6 +230418,26 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/5009897-1.jpg",
     "theme": "Stationery and Office Supplies",
     "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5009898-1",
+    "name": "Minifgure Shaped Cushion",
+    "year": 2025,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5009898-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "5009899-1",
+    "name": "Masterbrand Sherpa Backed Throw",
+    "year": 2025,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5009899-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
   },
   {
     "set_num": "5009903-1",
