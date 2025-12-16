@@ -127070,6 +127070,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "8020400-1",
+    "name": "Han Solo and Chewbacca Buildable Watch with Toy",
+    "year": 2015,
+    "theme_id": 732,
+    "num_parts": 34,
+    "img_url": "https://cdn.rebrickable.com/media/sets/8020400-1.jpg",
+    "theme": "Clocks and Watches",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "9009853-1",
     "name": "Brick Alarm Clock (Friends)",
     "year": 2015,
@@ -223090,6 +223100,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "40231-1",
+    "name": "LEGO Design Seminar Set 2025",
+    "year": 2025,
+    "theme_id": 599,
+    "num_parts": 175,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40231-1.jpg",
+    "theme": "LEGO Exclusive",
+    "parent_theme": ""
+  },
+  {
     "set_num": "40506-1",
     "name": "LEGO Fabuland Tribute",
     "year": 2025,
@@ -230423,21 +230443,21 @@
     "set_num": "5009898-1",
     "name": "Minifgure Shaped Cushion",
     "year": 2025,
-    "theme_id": 501,
+    "theme_id": 733,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/5009898-1.jpg",
-    "theme": "Gear",
-    "parent_theme": ""
+    "theme": "Houseware",
+    "parent_theme": "Gear"
   },
   {
     "set_num": "5009899-1",
     "name": "Masterbrand Sherpa Backed Throw",
     "year": 2025,
-    "theme_id": 501,
+    "theme_id": 733,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/5009899-1.jpg",
-    "theme": "Gear",
-    "parent_theme": ""
+    "theme": "Houseware",
+    "parent_theme": "Gear"
   },
   {
     "set_num": "5009903-1",
