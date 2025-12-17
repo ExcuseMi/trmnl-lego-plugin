@@ -304,7 +304,7 @@
     "name": "Windows and Door without Glass",
     "year": 1955,
     "theme_id": 371,
-    "num_parts": 6,
+    "num_parts": 7,
     "img_url": "https://cdn.rebrickable.com/media/sets/1230-2.jpg",
     "theme": "Supplemental",
     "parent_theme": "System"
@@ -234333,10 +234333,10 @@
     "set_num": "76341-1",
     "name": "Ravager Jumpsuit Groot",
     "year": 2026,
-    "theme_id": 704,
+    "theme_id": 781,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/76341-1.jpg",
-    "theme": "Guardians of the Galaxy",
+    "theme": "The Infinity Saga",
     "parent_theme": "Super Heroes Marvel"
   },
   {
