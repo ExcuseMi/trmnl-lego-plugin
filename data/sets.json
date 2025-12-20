@@ -41404,7 +41404,7 @@
     "name": "Blaze Responder",
     "year": 1999,
     "theme_id": 106,
-    "num_parts": 47,
+    "num_parts": 46,
     "img_url": "https://cdn.rebrickable.com/media/sets/6429-1.jpg",
     "theme": "City Center",
     "parent_theme": "Town"
@@ -43514,7 +43514,7 @@
     "name": "Carla's Winter Camp",
     "year": 2000,
     "theme_id": 668,
-    "num_parts": 253,
+    "num_parts": 303,
     "img_url": "https://cdn.rebrickable.com/media/sets/3148-1.jpg",
     "theme": "Scala",
     "parent_theme": ""
@@ -235657,7 +235657,7 @@
   },
   {
     "fig_num": "fig-000119",
-    "name": "Spaceman (23318 Visor)",
+    "name": "Spaceman, Assistant (23318 Visor)",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000119.jpg",
     "theme": "",
@@ -236225,7 +236225,7 @@
   },
   {
     "fig_num": "fig-000194",
-    "name": "Spaceman (2447 Visor)",
+    "name": "Spaceman, Assistant (2447 Visor)",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000194.jpg",
     "theme": "",
