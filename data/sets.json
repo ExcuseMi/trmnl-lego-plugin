@@ -233970,16 +233970,6 @@
     "parent_theme": "Collectible Minifigures"
   },
   {
-    "set_num": "71051-14",
-    "name": "Series 28 - Sealed Box",
-    "year": 2026,
-    "theme_id": 786,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/71051-14.jpg",
-    "theme": "Series 28 Minifigures",
-    "parent_theme": "Collectible Minifigures"
-  },
-  {
     "set_num": "71508-1",
     "name": "Fox Guardian Mech",
     "year": 2026,
@@ -234618,6 +234608,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/910058-1.jpg",
     "theme": "BrickLink Designer Program",
     "parent_theme": ""
+  },
+  {
+    "set_num": "6581056-1",
+    "name": "Series 28 - Sealed Box",
+    "year": 2026,
+    "theme_id": 786,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6581056-1.jpg",
+    "theme": "Series 28 Minifigures",
+    "parent_theme": "Collectible Minifigures"
   },
   {
     "set_num": "9780241785829-1",
