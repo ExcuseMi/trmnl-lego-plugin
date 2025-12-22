@@ -144354,7 +144354,7 @@
     "name": "LEGO House Tree of Creativity",
     "year": 2017,
     "theme_id": 599,
-    "num_parts": 1007,
+    "num_parts": 1008,
     "img_url": "https://cdn.rebrickable.com/media/sets/4000024-1.jpg",
     "theme": "LEGO Exclusive",
     "parent_theme": ""
@@ -229068,6 +229068,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/952511-1.jpg",
     "theme": "City",
     "parent_theme": ""
+  },
+  {
+    "set_num": "952512-1",
+    "name": "Snowmobile",
+    "year": 2025,
+    "theme_id": 65,
+    "num_parts": 23,
+    "img_url": "https://cdn.rebrickable.com/media/sets/952512-1.jpg",
+    "theme": "Arctic",
+    "parent_theme": "City"
   },
   {
     "set_num": "2000483-1",
