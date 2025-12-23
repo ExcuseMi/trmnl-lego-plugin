@@ -154554,7 +154554,7 @@
     "name": "Ferguson Tractor",
     "year": 2018,
     "theme_id": 599,
-    "num_parts": 446,
+    "num_parts": 445,
     "img_url": "https://cdn.rebrickable.com/media/sets/4000025-1.jpg",
     "theme": "LEGO Exclusive",
     "parent_theme": ""
@@ -197460,6 +197460,16 @@
     "parent_theme": "Seasonal"
   },
   {
+    "set_num": "6440028-1",
+    "name": "Christmas Sleigh",
+    "year": 2022,
+    "theme_id": 227,
+    "num_parts": 38,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6440028-1.jpg",
+    "theme": "Christmas",
+    "parent_theme": "Seasonal"
+  },
+  {
     "set_num": "6451545-1",
     "name": "Sewing Machine",
     "year": 2022,
@@ -206070,6 +206080,16 @@
     "parent_theme": "Super Heroes Marvel"
   },
   {
+    "set_num": "431260-1",
+    "name": "Kinderpostzegels 2023",
+    "year": 2023,
+    "theme_id": 736,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/431260-1.jpg",
+    "theme": "Posters and Art Prints",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "472302-1",
     "name": "Fireman",
     "year": 2023,
@@ -208781,7 +208801,7 @@
   },
   {
     "set_num": "6471332-1",
-    "name": "Turtle Van",
+    "name": "Mrs. Castillo's Turtle Van",
     "year": 2023,
     "theme_id": 749,
     "num_parts": 42,
@@ -219281,7 +219301,7 @@
   },
   {
     "set_num": "6515332-1",
-    "name": "Chick in Egg",
+    "name": "Chick",
     "year": 2024,
     "theme_id": 229,
     "num_parts": 34,
@@ -221281,10 +221301,10 @@
   },
   {
     "set_num": "9781837250134-1",
-    "name": "Junior Detective agency",
+    "name": "Junior Detective Agency",
     "year": 2024,
     "theme_id": 761,
-    "num_parts": 0,
+    "num_parts": 23,
     "img_url": "https://cdn.rebrickable.com/media/sets/9781837250134-1.jpg",
     "theme": "Activity Books with LEGO Parts",
     "parent_theme": "Books"
@@ -221754,7 +221774,7 @@
     "name": "Sherlock Holmes: Book Nook",
     "year": 2025,
     "theme_id": 721,
-    "num_parts": 1364,
+    "num_parts": 1359,
     "img_url": "https://cdn.rebrickable.com/media/sets/10351-1.jpg",
     "theme": "Icons",
     "parent_theme": ""
@@ -223348,6 +223368,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/40778-1.jpg",
     "theme": "Other",
     "parent_theme": ""
+  },
+  {
+    "set_num": "40779-1",
+    "name": "Year of the Horse",
+    "year": 2025,
+    "theme_id": 779,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40779-1.jpg",
+    "theme": "Chinese (Lunar) New Year",
+    "parent_theme": "Seasonal"
   },
   {
     "set_num": "40780-1",
@@ -225034,7 +225064,7 @@
     "name": "Pen Pal Gel Pen with Minifigure (Blue)",
     "year": 2025,
     "theme_id": 739,
-    "num_parts": 4,
+    "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/53702-1.jpg",
     "theme": "Stationery and Office Supplies",
     "parent_theme": "Gear"
@@ -231141,7 +231171,7 @@
   },
   {
     "set_num": "6562116-1",
-    "name": "Botanical Heart",
+    "name": "Heart Floral Display",
     "year": 2025,
     "theme_id": 598,
     "num_parts": 38,
@@ -231231,7 +231261,7 @@
   },
   {
     "set_num": "6565180-1",
-    "name": "Mother's Day Flower",
+    "name": "Potted Roses",
     "year": 2025,
     "theme_id": 206,
     "num_parts": 23,
@@ -231298,6 +231328,26 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/6570382-1.jpg",
     "theme": "LEGO Brand Store",
     "parent_theme": ""
+  },
+  {
+    "set_num": "6570695-1",
+    "name": "F1 Activities Card",
+    "year": 2025,
+    "theme_id": 736,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6570695-1.jpg",
+    "theme": "Posters and Art Prints",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "6572607-1",
+    "name": "Easter Stickers",
+    "year": 2025,
+    "theme_id": 736,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6572607-1.jpg",
+    "theme": "Posters and Art Prints",
+    "parent_theme": "Gear"
   },
   {
     "set_num": "6573698-1",
@@ -348886,6 +348936,14 @@
     "name": "Woody, Happy, Plain Legs",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-016938.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017040",
+    "name": "Black Torso, Dark Red Legs, Dark Red Beanie",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017040.jpg",
     "theme": "",
     "parent_theme": ""
   }
