@@ -102690,6 +102690,16 @@
     "parent_theme": "Books"
   },
   {
+    "set_num": "9781472608772-1",
+    "name": "Friends Bag Tag",
+    "year": 2012,
+    "theme_id": 731,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9781472608772-1.jpg",
+    "theme": "Bag and Luggage Tags",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "9781597074025-1",
     "name": "Ninjago: It All Begins Here",
     "year": 2012,
@@ -135691,21 +135701,11 @@
   },
   {
     "set_num": "5005042-1",
-    "name": "Ninjago Luggage Tag",
+    "name": "Luggage Tag 2 x 3 (All Colors)",
     "year": 2016,
     "theme_id": 731,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/5005042-1.jpg",
-    "theme": "Bag and Luggage Tags",
-    "parent_theme": "Gear"
-  },
-  {
-    "set_num": "5005043-1",
-    "name": "City Luggage Tag",
-    "year": 2016,
-    "theme_id": 731,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/5005043-1.jpg",
     "theme": "Bag and Luggage Tags",
     "parent_theme": "Gear"
   },
@@ -206083,10 +206083,10 @@
     "set_num": "431260-1",
     "name": "Kinderpostzegels 2023",
     "year": 2023,
-    "theme_id": 736,
+    "theme_id": 739,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/431260-1.jpg",
-    "theme": "Posters and Art Prints",
+    "theme": "Stationery and Office Supplies",
     "parent_theme": "Gear"
   },
   {
@@ -223374,7 +223374,7 @@
     "name": "Year of the Horse",
     "year": 2025,
     "theme_id": 779,
-    "num_parts": 0,
+    "num_parts": 132,
     "img_url": "https://cdn.rebrickable.com/media/sets/40779-1.jpg",
     "theme": "Chinese (Lunar) New Year",
     "parent_theme": "Seasonal"
@@ -223814,7 +223814,7 @@
     "name": "Fortune Master",
     "year": 2025,
     "theme_id": 686,
-    "num_parts": 0,
+    "num_parts": 386,
     "img_url": "https://cdn.rebrickable.com/media/sets/40864-1.jpg",
     "theme": "Chinese Traditional Festivals",
     "parent_theme": ""
@@ -227834,7 +227834,7 @@
     "name": "Fortune Firecracker",
     "year": 2025,
     "theme_id": 686,
-    "num_parts": 0,
+    "num_parts": 1039,
     "img_url": "https://cdn.rebrickable.com/media/sets/80118-1.jpg",
     "theme": "Chinese Traditional Festivals",
     "parent_theme": ""
@@ -227844,7 +227844,7 @@
     "name": "Galloping Horse Canvas",
     "year": 2025,
     "theme_id": 686,
-    "num_parts": 0,
+    "num_parts": 1650,
     "img_url": "https://cdn.rebrickable.com/media/sets/80119-1.jpg",
     "theme": "Chinese Traditional Festivals",
     "parent_theme": ""
@@ -227990,6 +227990,56 @@
     "parent_theme": ""
   },
   {
+    "set_num": "169920-1",
+    "name": "Ninjago: Dragons Rising Nya Plush",
+    "year": 2025,
+    "theme_id": 735,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/169920-1.jpg",
+    "theme": "Plush Toys",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "169940-1",
+    "name": "Ninjago: Dragons Rising Cole Plush",
+    "year": 2025,
+    "theme_id": 735,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/169940-1.jpg",
+    "theme": "Plush Toys",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "169950-1",
+    "name": "Ninjago: Dragons Rising Jay Plush",
+    "year": 2025,
+    "theme_id": 735,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/169950-1.jpg",
+    "theme": "Plush Toys",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "170210-1",
+    "name": "Friends Sparkle Parakeet Plush",
+    "year": 2025,
+    "theme_id": 735,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/170210-1.jpg",
+    "theme": "Plush Toys",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "170620-1",
+    "name": "Friends Flamingo Plush",
+    "year": 2025,
+    "theme_id": 735,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/170620-1.jpg",
+    "theme": "Plush Toys",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "212501-1",
     "name": "Off-road Batmobile",
     "year": 2025,
@@ -228088,6 +228138,56 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/242505-1.jpg",
     "theme": "Avengers",
     "parent_theme": "Super Heroes Marvel"
+  },
+  {
+    "set_num": "353990-1",
+    "name": "Friends Getrude Cat Plush",
+    "year": 2025,
+    "theme_id": 735,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/353990-1.jpg",
+    "theme": "Plush Toys",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "354000-1",
+    "name": "Friends Melody Bunny Plush",
+    "year": 2025,
+    "theme_id": 735,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/354000-1.jpg",
+    "theme": "Plush Toys",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "354010-1",
+    "name": "Friends Aira Dog Plush",
+    "year": 2025,
+    "theme_id": 735,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/354010-1.jpg",
+    "theme": "Plush Toys",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "354040-1",
+    "name": "Friends Popsy Dog Plush",
+    "year": 2025,
+    "theme_id": 735,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/354040-1.jpg",
+    "theme": "Plush Toys",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "354140-1",
+    "name": "Friends Marshmallow Hedgehog Plush",
+    "year": 2025,
+    "theme_id": 735,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/354140-1.jpg",
+    "theme": "Plush Toys",
+    "parent_theme": "Gear"
   },
   {
     "set_num": "412502-1",
@@ -231343,11 +231443,11 @@
     "set_num": "6572607-1",
     "name": "Easter Stickers",
     "year": 2025,
-    "theme_id": 736,
+    "theme_id": 501,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/6572607-1.jpg",
-    "theme": "Posters and Art Prints",
-    "parent_theme": "Gear"
+    "theme": "Gear",
+    "parent_theme": ""
   },
   {
     "set_num": "6573698-1",
@@ -348944,6 +349044,70 @@
     "name": "Black Torso, Dark Red Legs, Dark Red Beanie",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-017040.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017041",
+    "name": "Horse Costume, Red Torso, Red/Black Legs",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017041.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017042",
+    "name": "Kid, Yellowish Green Torso, Dark Green Legs, Black Hair",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017042.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017043",
+    "name": "God of Fortune",
+    "num_parts": 7,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017043.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017044",
+    "name": "Kid, Sand Green Torso, Medium Azure Legs, Black Hair",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017044.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017045",
+    "name": "Dad, Sand Green Torso, Blue Legs Black Hair",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017045.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017046",
+    "name": "Grandma, Tan Torso, Reddish Brown Legs, Light Bluish Grey",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017046.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017047",
+    "name": "Grandpa, Light Bluish Grey Suit, White Hair",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017047.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017048",
+    "name": "Mom, Red Torso, Dark Blue Legs, Black Hair",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017048.jpg",
     "theme": "",
     "parent_theme": ""
   }
