@@ -228140,6 +228140,16 @@
     "parent_theme": "Super Heroes Marvel"
   },
   {
+    "set_num": "242506-1",
+    "name": "Captain America",
+    "year": 2025,
+    "theme_id": 702,
+    "num_parts": 18,
+    "img_url": "https://cdn.rebrickable.com/media/sets/242506-1.jpg",
+    "theme": "Avengers",
+    "parent_theme": "Super Heroes Marvel"
+  },
+  {
     "set_num": "353990-1",
     "name": "Friends Getrude Cat Plush",
     "year": 2025,
@@ -228466,6 +228476,16 @@
     "theme_id": 577,
     "num_parts": 14,
     "img_url": "https://cdn.rebrickable.com/media/sets/662512-1.jpg",
+    "theme": "Minecraft",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "662513-1",
+    "name": "Pirate with Frog, Slime and Cartography Table",
+    "year": 2025,
+    "theme_id": 577,
+    "num_parts": 12,
+    "img_url": "https://cdn.rebrickable.com/media/sets/662513-1.jpg",
     "theme": "Minecraft",
     "parent_theme": ""
   },
@@ -229086,6 +229106,16 @@
     "theme_id": 158,
     "num_parts": 38,
     "img_url": "https://cdn.rebrickable.com/media/sets/912513-1.jpg",
+    "theme": "Star Wars",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "912514-1",
+    "name": "Phase 1 Clone Pilot",
+    "year": 2025,
+    "theme_id": 158,
+    "num_parts": 5,
+    "img_url": "https://cdn.rebrickable.com/media/sets/912514-1.jpg",
     "theme": "Star Wars",
     "parent_theme": ""
   },
@@ -229747,6 +229777,36 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/5009303-1.jpg",
     "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5009321-1",
+    "name": "Minifigure Gingerbread Man 9” Plush Character",
+    "year": 2025,
+    "theme_id": 735,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5009321-1.jpg",
+    "theme": "Plush Toys",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5009322-1",
+    "name": "Minifigure Reindeer Costume Girl 10” Plush Character",
+    "year": 2025,
+    "theme_id": 735,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5009322-1.jpg",
+    "theme": "Plush Toys",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5009323-1",
+    "name": "Minifigure Santa 10” Plush Character",
+    "year": 2025,
+    "theme_id": 735,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5009323-1.jpg",
+    "theme": "Plush Toys",
     "parent_theme": "Gear"
   },
   {
@@ -234004,7 +234064,7 @@
     "name": "Peacock Suit",
     "year": 2026,
     "theme_id": 786,
-    "num_parts": 0,
+    "num_parts": 9,
     "img_url": "https://cdn.rebrickable.com/media/sets/71051-1.jpg",
     "theme": "Series 28 Minifigures",
     "parent_theme": "Collectible Minifigures"
@@ -234014,7 +234074,7 @@
     "name": "Cat Suit",
     "year": 2026,
     "theme_id": 786,
-    "num_parts": 0,
+    "num_parts": 7,
     "img_url": "https://cdn.rebrickable.com/media/sets/71051-2.jpg",
     "theme": "Series 28 Minifigures",
     "parent_theme": "Collectible Minifigures"
@@ -234024,7 +234084,7 @@
     "name": "Goldfish Suit",
     "year": 2026,
     "theme_id": 786,
-    "num_parts": 0,
+    "num_parts": 7,
     "img_url": "https://cdn.rebrickable.com/media/sets/71051-3.jpg",
     "theme": "Series 28 Minifigures",
     "parent_theme": "Collectible Minifigures"
@@ -234034,7 +234094,7 @@
     "name": "Monkey Suit",
     "year": 2026,
     "theme_id": 786,
-    "num_parts": 0,
+    "num_parts": 7,
     "img_url": "https://cdn.rebrickable.com/media/sets/71051-4.jpg",
     "theme": "Series 28 Minifigures",
     "parent_theme": "Collectible Minifigures"
@@ -234044,7 +234104,7 @@
     "name": "Frog Suit",
     "year": 2026,
     "theme_id": 786,
-    "num_parts": 0,
+    "num_parts": 9,
     "img_url": "https://cdn.rebrickable.com/media/sets/71051-5.jpg",
     "theme": "Series 28 Minifigures",
     "parent_theme": "Collectible Minifigures"
@@ -234054,7 +234114,7 @@
     "name": "Koala Suit",
     "year": 2026,
     "theme_id": 786,
-    "num_parts": 0,
+    "num_parts": 7,
     "img_url": "https://cdn.rebrickable.com/media/sets/71051-6.jpg",
     "theme": "Series 28 Minifigures",
     "parent_theme": "Collectible Minifigures"
@@ -234064,7 +234124,7 @@
     "name": "Dalmatian Suit",
     "year": 2026,
     "theme_id": 786,
-    "num_parts": 0,
+    "num_parts": 7,
     "img_url": "https://cdn.rebrickable.com/media/sets/71051-7.jpg",
     "theme": "Series 28 Minifigures",
     "parent_theme": "Collectible Minifigures"
@@ -234074,7 +234134,7 @@
     "name": "Crocodile Suit",
     "year": 2026,
     "theme_id": 786,
-    "num_parts": 0,
+    "num_parts": 7,
     "img_url": "https://cdn.rebrickable.com/media/sets/71051-8.jpg",
     "theme": "Series 28 Minifigures",
     "parent_theme": "Collectible Minifigures"
@@ -234084,7 +234144,7 @@
     "name": "Dolphin Suit",
     "year": 2026,
     "theme_id": 786,
-    "num_parts": 0,
+    "num_parts": 7,
     "img_url": "https://cdn.rebrickable.com/media/sets/71051-9.jpg",
     "theme": "Series 28 Minifigures",
     "parent_theme": "Collectible Minifigures"
@@ -234094,7 +234154,7 @@
     "name": "Rabbit Suit",
     "year": 2026,
     "theme_id": 786,
-    "num_parts": 0,
+    "num_parts": 7,
     "img_url": "https://cdn.rebrickable.com/media/sets/71051-10.jpg",
     "theme": "Series 28 Minifigures",
     "parent_theme": "Collectible Minifigures"
@@ -234104,7 +234164,7 @@
     "name": "Lion Suit",
     "year": 2026,
     "theme_id": 786,
-    "num_parts": 0,
+    "num_parts": 7,
     "img_url": "https://cdn.rebrickable.com/media/sets/71051-11.jpg",
     "theme": "Series 28 Minifigures",
     "parent_theme": "Collectible Minifigures"
@@ -234114,7 +234174,7 @@
     "name": "Parrot Suit",
     "year": 2026,
     "theme_id": 786,
-    "num_parts": 0,
+    "num_parts": 9,
     "img_url": "https://cdn.rebrickable.com/media/sets/71051-12.jpg",
     "theme": "Series 28 Minifigures",
     "parent_theme": "Collectible Minifigures"
@@ -349108,6 +349168,102 @@
     "name": "Mom, Red Torso, Dark Blue Legs, Black Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-017048.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017050",
+    "name": "Peacock Suit",
+    "num_parts": 5,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017050.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017051",
+    "name": "Cat Suit",
+    "num_parts": 5,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017051.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017052",
+    "name": "Goldfish Suit",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017052.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017053",
+    "name": "Monkey Suit",
+    "num_parts": 5,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017053.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017054",
+    "name": "Frog Suit",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017054.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017055",
+    "name": "Koala Suit",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017055.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017056",
+    "name": "Dalmatian Suit",
+    "num_parts": 5,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017056.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017057",
+    "name": "Crocodile Suit",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017057.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017058",
+    "name": "Dolphin Suit",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017058.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017059",
+    "name": "Rabbit Suit",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017059.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017060",
+    "name": "Lion Suit",
+    "num_parts": 5,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017060.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017061",
+    "name": "Parrot Suit",
+    "num_parts": 6,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017061.jpg",
     "theme": "",
     "parent_theme": ""
   }
