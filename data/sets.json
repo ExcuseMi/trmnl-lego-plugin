@@ -214991,7 +214991,7 @@
   },
   {
     "set_num": "71808-1",
-    "name": "Kai's Fire Mech",
+    "name": "Kai's Elemental Fire Mech",
     "year": 2024,
     "theme_id": 435,
     "num_parts": 322,
@@ -216846,6 +216846,26 @@
     "theme_id": 735,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/353920-1.jpg",
+    "theme": "Plush Toys",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "353940-1",
+    "name": "Friends French Bulldog Plush",
+    "year": 2024,
+    "theme_id": 735,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/353940-1.jpg",
+    "theme": "Plush Toys",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "354050-1",
+    "name": "Friends Dash Dog Plush",
+    "year": 2024,
+    "theme_id": 735,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/354050-1.jpg",
     "theme": "Plush Toys",
     "parent_theme": "Gear"
   },
