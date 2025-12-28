@@ -127450,16 +127450,6 @@
     "parent_theme": "Gear"
   },
   {
-    "set_num": "5055285346720-1",
-    "name": "Star Wars Duvet Set",
-    "year": 2015,
-    "theme_id": 733,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/5055285346720-1.jpg",
-    "theme": "Houseware",
-    "parent_theme": "Gear"
-  },
-  {
     "set_num": "5055285378912-1",
     "name": "Star Wars Duvet Set",
     "year": 2015,
@@ -176440,6 +176430,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "5056197140147-1",
+    "name": "DC Comics Super Heroes Batman Duvet Set",
+    "year": 2020,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5056197140147-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "5700067848908-1",
     "name": "Friends Socks",
     "year": 2020,
@@ -198200,6 +198200,36 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "5056197158371-1",
+    "name": "Harry Potter Duvet Set",
+    "year": 2022,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5056197158371-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5056197158388-1",
+    "name": "Harry Potter Fleece Blanket",
+    "year": 2022,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5056197158388-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5056197158425-1",
+    "name": "Harry Potter Duvet Set",
+    "year": 2022,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5056197158425-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "5060373574329-1",
     "name": "90 Years of Water Drink (750ml)",
     "year": 2022,
@@ -209177,6 +209207,26 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/5060373575944-1.jpg",
     "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5063852324866-1",
+    "name": "Ninjago: Dragons Rising Duvet Set",
+    "year": 2023,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5063852324866-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5063852332960-1",
+    "name": "Ninjago: Dragons Rising Fleece Blanket",
+    "year": 2023,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5063852332960-1.jpg",
+    "theme": "Houseware",
     "parent_theme": "Gear"
   },
   {
@@ -232040,6 +232090,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "100342603-1",
+    "name": "Ninjago Ninja Skills Gym Bag",
+    "year": 2025,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/100342603-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "100502507-1",
     "name": "Ninjago Elemental Master Of Energy Pencil Case",
     "year": 2025,
@@ -232070,6 +232130,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "100522603-1",
+    "name": "Ninjago Ninja Skills Pencil Case",
+    "year": 2025,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/100522603-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "100672507-1",
     "name": "Ninjago Elemental Master Of Energy School Bag Trolley",
     "year": 2025,
@@ -232086,6 +232156,16 @@
     "theme_id": 777,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/100682507-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "100682603-1",
+    "name": "Ninjago Ninja Skills School Bag",
+    "year": 2025,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/100682603-1.jpg",
     "theme": "Bags, Totes, & Luggage",
     "parent_theme": "Gear"
   },
@@ -232136,6 +232216,16 @@
     "theme_id": 501,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/101032511-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "101032603-1",
+    "name": "Ninjago Ninja Skills Wallet",
+    "year": 2025,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/101032603-1.jpg",
     "theme": "Gear",
     "parent_theme": ""
   },
@@ -232400,6 +232490,36 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "202662603-1",
+    "name": "Ninjago Ninja Skills Backpack",
+    "year": 2025,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/202662603-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "202742603-1",
+    "name": "Ninjago Ninja Skills Backpack Trolley",
+    "year": 2025,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/202742603-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "202792603-1",
+    "name": "Ninjago Ninja Skills Backpack",
+    "year": 2025,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/202792603-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "202842501-1",
     "name": "Ninjago Elemental Master Of Energy Lunch Bag",
     "year": 2025,
@@ -232490,6 +232610,56 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "202912603-1",
+    "name": "Ninjago Ninja Skills 3-Layered Pencil Case with Pencils",
+    "year": 2025,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/202912603-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "203242603-1",
+    "name": "Ninjago Ninja Skills Backpack",
+    "year": 2025,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/203242603-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "203332603-1",
+    "name": "Ninjago Ninja Skills Standing Pencil Case",
+    "year": 2025,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/203332603-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "203392603-1",
+    "name": "Ninjago Ninja Skills Lunch Box",
+    "year": 2025,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/203392603-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "203522603-1",
+    "name": "Ninjago Ninja Skills Pencil Case",
+    "year": 2025,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/203522603-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "648663888-1",
     "name": "Series 27 - Sealed Box",
     "year": 2025,
@@ -232516,6 +232686,16 @@
     "theme_id": 733,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/5710348105255-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5904209617876-1",
+    "name": "Ninjago Dragons Rising Duvet Set",
+    "year": 2025,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5904209617876-1.jpg",
     "theme": "Houseware",
     "parent_theme": "Gear"
   },
