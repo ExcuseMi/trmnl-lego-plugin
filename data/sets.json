@@ -228160,6 +228160,16 @@
     "parent_theme": "Super Heroes DC"
   },
   {
+    "set_num": "212506-1",
+    "name": "Batgirl",
+    "year": 2025,
+    "theme_id": 697,
+    "num_parts": 11,
+    "img_url": "https://cdn.rebrickable.com/media/sets/212506-1.jpg",
+    "theme": "Batman",
+    "parent_theme": "Super Heroes DC"
+  },
+  {
     "set_num": "242501-1",
     "name": "Iron Legion",
     "year": 2025,
@@ -230241,7 +230251,7 @@
   },
   {
     "set_num": "5009518-1",
-    "name": "CARDIFF Grand Opening",
+    "name": "Cardiff Grand Opening",
     "year": 2025,
     "theme_id": 408,
     "num_parts": 158,
@@ -231826,16 +231836,6 @@
     "theme_id": 408,
     "num_parts": 1,
     "img_url": "https://cdn.rebrickable.com/media/sets/6596089-1.jpg",
-    "theme": "LEGO Brand Store",
-    "parent_theme": ""
-  },
-  {
-    "set_num": "6596091-1",
-    "name": "Cardiff Grand Opening",
-    "year": 2025,
-    "theme_id": 408,
-    "num_parts": 158,
-    "img_url": "https://cdn.rebrickable.com/media/sets/6596091-1.jpg",
     "theme": "LEGO Brand Store",
     "parent_theme": ""
   },
@@ -336454,7 +336454,7 @@
   {
     "fig_num": "fig-014443",
     "name": "The Wasp (Hope van Dyne), Foil Wings",
-    "num_parts": 6,
+    "num_parts": 7,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-014443.jpg",
     "theme": "",
     "parent_theme": ""
