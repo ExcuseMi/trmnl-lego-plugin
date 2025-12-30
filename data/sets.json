@@ -78574,7 +78574,7 @@
     "name": "Early Simple Machines Set",
     "year": 2008,
     "theme_id": 516,
-    "num_parts": 102,
+    "num_parts": 108,
     "img_url": "https://cdn.rebrickable.com/media/sets/9656-1.jpg",
     "theme": "Duplo and Explore",
     "parent_theme": "Educational and Dacta"
@@ -78634,7 +78634,7 @@
     "name": "Upgrade Kit for 9654",
     "year": 2008,
     "theme_id": 516,
-    "num_parts": 7,
+    "num_parts": 13,
     "img_url": "https://cdn.rebrickable.com/media/sets/9999-1.jpg",
     "theme": "Duplo and Explore",
     "parent_theme": "Educational and Dacta"
@@ -94044,7 +94044,7 @@
     "name": "Canada Key Chain",
     "year": 2011,
     "theme_id": 503,
-    "num_parts": 0,
+    "num_parts": 1,
     "img_url": "https://cdn.rebrickable.com/media/sets/853307-1.jpg",
     "theme": "Key Chain",
     "parent_theme": "Gear"
@@ -139656,6 +139656,16 @@
     "theme_id": 494,
     "num_parts": 185,
     "img_url": "https://cdn.rebrickable.com/media/sets/41310-1.jpg",
+    "theme": "Friends",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "41310-1-s2",
+    "name": "Delivery Truck",
+    "year": 2017,
+    "theme_id": 494,
+    "num_parts": 108,
+    "img_url": "https://cdn.rebrickable.com/media/sets/41310-1-s2.jpg",
     "theme": "Friends",
     "parent_theme": ""
   },
@@ -212654,7 +212664,7 @@
     "name": "Emirates Team New Zealand AC75 Yacht",
     "year": 2024,
     "theme_id": 1,
-    "num_parts": 962,
+    "num_parts": 964,
     "img_url": "https://cdn.rebrickable.com/media/sets/42174-1.jpg",
     "theme": "Technic",
     "parent_theme": ""
@@ -213974,7 +213984,7 @@
     "name": "Downtown Streetcar and Station",
     "year": 2024,
     "theme_id": 66,
-    "num_parts": 813,
+    "num_parts": 811,
     "img_url": "https://cdn.rebrickable.com/media/sets/60423-1.jpg",
     "theme": "Trains",
     "parent_theme": "City"
@@ -226334,7 +226344,7 @@
     "name": "Arc Dragon of Focus",
     "year": 2025,
     "theme_id": 435,
-    "num_parts": 869,
+    "num_parts": 872,
     "img_url": "https://cdn.rebrickable.com/media/sets/71836-1.jpg",
     "theme": "Ninjago",
     "parent_theme": ""
@@ -228326,6 +228336,16 @@
     "theme_id": 1,
     "num_parts": 77,
     "img_url": "https://cdn.rebrickable.com/media/sets/412506-1.jpg",
+    "theme": "Technic",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "412601-1",
+    "name": "Submarine",
+    "year": 2025,
+    "theme_id": 1,
+    "num_parts": 70,
+    "img_url": "https://cdn.rebrickable.com/media/sets/412601-1.jpg",
     "theme": "Technic",
     "parent_theme": ""
   },

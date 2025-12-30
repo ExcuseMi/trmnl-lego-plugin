@@ -186,7 +186,7 @@
   - Formula 1 (17): formula-1|1|17
   - Fortnite (9): fortnite|1|9
   - Freestyle (64): freestyle|1|64
-  - Friends (673): friends|1|673
+  - Friends (674): friends|1|674
   - Fright Knights (16): fright-knights|1|16
   - Frozen (36): frozen|1|36
   - Fusion (4): fusion|1|4
@@ -402,7 +402,7 @@
   - System (49): system|1|49
   - Tabletop Games and Puzzles (58): tabletop-games-and-puzzles|1|58
   - Team GB (12): team-gb|1|12
-  - Technic (767): technic|1|767
+  - Technic (768): technic|1|768
   - Teenage Mutant Ninja Turtles (20): teenage-mutant-ninja-turtles|1|20
   - Thanksgiving (9): thanksgiving|1|9
   - The Hobbit (20): the-hobbit|1|20
@@ -465,7 +465,7 @@
   optional: true
 - keyname: themes_brickset
   field_type: select
-  name: Filter by Themes – Brickset (171)
+  name: Filter by Themes – Brickset (172)
   description: <strong>Required:</strong> Select at least one theme, OR set a min/max year below. Only applicable when using Brickset as your data source.
   multiple: true
   options:
@@ -640,6 +640,7 @@
   - Xtra: Xtra
   - Znap: Znap
   - tbd: tbd
+  - '{Undefined}': '{Undefined}'
   help_text: Use <kbd>⌘</kbd>+<kbd>click</kbd> or <kbd>Ctrl</kbd>+<kbd>click</kbd> to select multiple themes.<br /><strong>You must select at least one theme OR specify a year range.</strong>
   optional: true
 - keyname: brickset_order_by
