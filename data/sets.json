@@ -139660,16 +139660,6 @@
     "parent_theme": ""
   },
   {
-    "set_num": "41310-1-s2",
-    "name": "Delivery Truck",
-    "year": 2017,
-    "theme_id": 494,
-    "num_parts": 108,
-    "img_url": "https://cdn.rebrickable.com/media/sets/41310-1-s2.jpg",
-    "theme": "Friends",
-    "parent_theme": ""
-  },
-  {
     "set_num": "41311-1",
     "name": "Heartlake Pizzeria",
     "year": 2017,
@@ -234414,7 +234404,7 @@
     "name": "Fox Guardian Mech",
     "year": 2026,
     "theme_id": 749,
-    "num_parts": 0,
+    "num_parts": 883,
     "img_url": "https://cdn.rebrickable.com/media/sets/71508-1.jpg",
     "theme": "Dreamzzz",
     "parent_theme": ""
@@ -234424,7 +234414,7 @@
     "name": "Crocodile Submarine",
     "year": 2026,
     "theme_id": 749,
-    "num_parts": 0,
+    "num_parts": 1107,
     "img_url": "https://cdn.rebrickable.com/media/sets/71512-1.jpg",
     "theme": "Dreamzzz",
     "parent_theme": ""
@@ -234434,7 +234424,7 @@
     "name": "Nightmare Scorpion Digger",
     "year": 2026,
     "theme_id": 749,
-    "num_parts": 0,
+    "num_parts": 505,
     "img_url": "https://cdn.rebrickable.com/media/sets/71513-1.jpg",
     "theme": "Dreamzzz",
     "parent_theme": ""
@@ -234444,7 +234434,7 @@
     "name": "Dino Jet",
     "year": 2026,
     "theme_id": 749,
-    "num_parts": 0,
+    "num_parts": 994,
     "img_url": "https://cdn.rebrickable.com/media/sets/71514-1.jpg",
     "theme": "Dreamzzz",
     "parent_theme": ""
@@ -234454,7 +234444,7 @@
     "name": "Tiger Shark Tank",
     "year": 2026,
     "theme_id": 749,
-    "num_parts": 0,
+    "num_parts": 1548,
     "img_url": "https://cdn.rebrickable.com/media/sets/71515-1.jpg",
     "theme": "Dreamzzz",
     "parent_theme": ""
@@ -349484,6 +349474,166 @@
     "name": "Parrot Suit",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-017061.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017062",
+    "name": "Mateo, Trans-Bright Green Shoulder Armor",
+    "num_parts": 5,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017062.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017063",
+    "name": "Izzie, Opal Trans-Clear Shoulder Armor",
+    "num_parts": 5,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017063.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017064",
+    "name": "Nightmare Emperor",
+    "num_parts": 6,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017064.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017065",
+    "name": "Grimspawn, Knight Helmet, Trans-Pink Plume",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017065.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017066",
+    "name": "Grimspawn, Hood",
+    "num_parts": 3,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017066.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017067",
+    "name": "Logan, Trans-Light Blue Shoulder Armor",
+    "num_parts": 5,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017067.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017068",
+    "name": "Zoey, Dark Purple Torso",
+    "num_parts": 5,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017068.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017069",
+    "name": "Arika, Spider",
+    "num_parts": 19,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017069.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017070",
+    "name": "Grimspawn, Knight Helmet, Black Plume",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017070.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017071",
+    "name": "Arika",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017071.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017072",
+    "name": "Cooper, Red Harness",
+    "num_parts": 5,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017072.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017073",
+    "name": "Grimspawn, Horns",
+    "num_parts": 3,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017073.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017074",
+    "name": "Logan, Trans-Light Blue Shoulder Armor. Tile",
+    "num_parts": 6,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017074.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017075",
+    "name": "Cooper, Red Hood, Trans-Orange Shoulder Armor",
+    "num_parts": 5,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017075.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017076",
+    "name": "Dreamling, Tricorn",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017076.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017077",
+    "name": "Dreamling, Aviator",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017077.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017078",
+    "name": "Grimspawn, Top Hat",
+    "num_parts": 3,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017078.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017079",
+    "name": "Izzie, Opal Trans-Clear Shoulder Armor, Crystal",
+    "num_parts": 6,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017079.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017080",
+    "name": "Mr. Oz, Pearl Gold Shoulder Armor",
+    "num_parts": 5,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017080.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017081",
+    "name": "Arika, Centipede",
+    "num_parts": 54,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017081.jpg",
     "theme": "",
     "parent_theme": ""
   }
