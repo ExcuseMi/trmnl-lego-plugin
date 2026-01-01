@@ -36824,7 +36824,7 @@
     "name": "Hook-Truck",
     "year": 1998,
     "theme_id": 480,
-    "num_parts": 30,
+    "num_parts": 32,
     "img_url": "https://cdn.rebrickable.com/media/sets/3504-1.jpg",
     "theme": "Znap",
     "parent_theme": ""
@@ -221750,16 +221750,6 @@
     "parent_theme": "Books"
   },
   {
-    "set_num": "4013-2",
-    "name": "Shelf (All Colors)",
-    "year": 2025,
-    "theme_id": 501,
-    "num_parts": 3,
-    "img_url": "https://cdn.rebrickable.com/media/sets/4013-2.jpg",
-    "theme": "Gear",
-    "parent_theme": ""
-  },
-  {
     "set_num": "10342-1",
     "name": "Pretty Pink Flower Bouquet",
     "year": 2025,
@@ -228000,6 +227990,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "112507-1",
+    "name": "Rogue vs. Zarkt",
+    "year": 2025,
+    "theme_id": 435,
+    "num_parts": 11,
+    "img_url": "https://cdn.rebrickable.com/media/sets/112507-1.jpg",
+    "theme": "Ninjago",
+    "parent_theme": ""
+  },
+  {
     "set_num": "122501-1",
     "name": "Guard and Raptor",
     "year": 2025,
@@ -230554,7 +230554,7 @@
     "name": "Star Wars: Character Encyclopedia: Updated Edition",
     "year": 2025,
     "theme_id": 758,
-    "num_parts": 0,
+    "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/5009818-1.jpg",
     "theme": "Non-fiction Books",
     "parent_theme": "Books"
@@ -231198,6 +231198,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/5010093-1.jpg",
     "theme": "Ideas Books",
     "parent_theme": "Books"
+  },
+  {
+    "set_num": "5010106-1",
+    "name": "Shelf (All Colors)",
+    "year": 2025,
+    "theme_id": 501,
+    "num_parts": 3,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010106-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
   },
   {
     "set_num": "6458401-1",
@@ -233617,6 +233627,16 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/40891-1.jpg",
     "theme": "Icons",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "40905-1",
+    "name": "Birthday Cupcake",
+    "year": 2026,
+    "theme_id": 206,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40905-1.jpg",
+    "theme": "Seasonal",
     "parent_theme": ""
   },
   {
@@ -344255,7 +344275,7 @@
   },
   {
     "fig_num": "fig-015860",
-    "name": "Rogue, Scabbard",
+    "name": "Rogue, Dark Blue Hat, Scabbard",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-015860.jpg",
     "theme": "",
@@ -347023,7 +347043,7 @@
   },
   {
     "fig_num": "fig-016392",
-    "name": "Rogue, Hat",
+    "name": "Rogue, Dark Blue Hat",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-016392.jpg",
     "theme": "",
