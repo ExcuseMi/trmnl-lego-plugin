@@ -225040,16 +225040,6 @@
     "parent_theme": "Gear"
   },
   {
-    "set_num": "53667-1",
-    "name": "Stationery Creativity Set Project Bloom",
-    "year": 2025,
-    "theme_id": 739,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/53667-1.jpg",
-    "theme": "Stationery and Office Supplies",
-    "parent_theme": "Gear"
-  },
-  {
     "set_num": "53668-1",
     "name": "Pen Pal Gel Pen with Botanicals Mini-Build (Bright Purple)",
     "year": 2025,
@@ -230790,6 +230780,26 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "5009907-1",
+    "name": "Love Mug",
+    "year": 2025,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5009907-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5009908-1",
+    "name": "Wild Flowers Mug",
+    "year": 2025,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5009908-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "5009937-1",
     "name": "Marvel Spider-Man: Explore the Spider-Verse",
     "year": 2025,
@@ -230948,6 +230958,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/5009962-1.jpg",
     "theme": "Gear",
     "parent_theme": ""
+  },
+  {
+    "set_num": "5009964-1",
+    "name": "Stationery Creativity Set Project Bloom",
+    "year": 2025,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5009964-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
   },
   {
     "set_num": "5009966-1",
@@ -231177,6 +231197,36 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/5010067-1.jpg",
     "theme": "Ideas Books",
+    "parent_theme": "Books"
+  },
+  {
+    "set_num": "5010068-1",
+    "name": "Dreamzzz: World Builder: Create a World of Play",
+    "year": 2025,
+    "theme_id": 757,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010068-1.jpg",
+    "theme": "Ideas Books",
+    "parent_theme": "Books"
+  },
+  {
+    "set_num": "5010070-1",
+    "name": "Minecraft: Alex vs. Creeper",
+    "year": 2025,
+    "theme_id": 760,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010070-1.jpg",
+    "theme": "Activity Books",
+    "parent_theme": "Books"
+  },
+  {
+    "set_num": "5010071-1",
+    "name": "Minecraft: Skeleton Quest: Seek-and-Find: Sticker Activity Book",
+    "year": 2025,
+    "theme_id": 761,
+    "num_parts": 8,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010071-1.jpg",
+    "theme": "Activity Books with LEGO Parts",
     "parent_theme": "Books"
   },
   {
@@ -231948,16 +231998,6 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/6615760-1.jpg",
     "theme": "Promotional",
     "parent_theme": ""
-  },
-  {
-    "set_num": "40450815-1",
-    "name": "Wild Flowers Mug",
-    "year": 2025,
-    "theme_id": 733,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/40450815-1.jpg",
-    "theme": "Houseware",
-    "parent_theme": "Gear"
   },
   {
     "set_num": "40520800-1",
@@ -232760,16 +232800,6 @@
     "parent_theme": "Books"
   },
   {
-    "set_num": "9780241712467-1",
-    "name": "Dreamzzz: World Builder: Create a World of Play",
-    "year": 2025,
-    "theme_id": 757,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/9780241712467-1.jpg",
-    "theme": "Ideas Books",
-    "parent_theme": "Books"
-  },
-  {
     "set_num": "9780241716410-1",
     "name": "LEGO Minifigure: A Visual History: Updated and Expanded",
     "year": 2025,
@@ -232960,16 +232990,6 @@
     "parent_theme": "Books"
   },
   {
-    "set_num": "9781837250943-1",
-    "name": "Minecraft: Alex vs. Creeper",
-    "year": 2025,
-    "theme_id": 760,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/9781837250943-1.jpg",
-    "theme": "Activity Books",
-    "parent_theme": "Books"
-  },
-  {
     "set_num": "9781837251100-1",
     "name": "Official Annual 2026",
     "year": 2025,
@@ -233080,16 +233100,6 @@
     "parent_theme": "Gear"
   },
   {
-    "set_num": "9798217119196-1",
-    "name": "Minecraft: Skeleton Quest: Seek-and-Find: Sticker Activity Book",
-    "year": 2025,
-    "theme_id": 761,
-    "num_parts": 8,
-    "img_url": "https://cdn.rebrickable.com/media/sets/9798217119196-1.jpg",
-    "theme": "Activity Books with LEGO Parts",
-    "parent_theme": "Books"
-  },
-  {
     "set_num": "10463-1",
     "name": "Dinosaur Spidey-Rex vs. Green Goblin",
     "year": 2026,
@@ -233114,7 +233124,7 @@
     "name": "3 in 1 Modern Family House with Figures",
     "year": 2026,
     "theme_id": 504,
-    "num_parts": 0,
+    "num_parts": 166,
     "img_url": "https://cdn.rebrickable.com/media/sets/10470-1.jpg",
     "theme": "Duplo",
     "parent_theme": ""
@@ -233124,7 +233134,7 @@
     "name": "Blue Police Motorcycle",
     "year": 2026,
     "theme_id": 504,
-    "num_parts": 0,
+    "num_parts": 11,
     "img_url": "https://cdn.rebrickable.com/media/sets/10471-1.jpg",
     "theme": "Duplo",
     "parent_theme": ""
@@ -233134,7 +233144,7 @@
     "name": "Fire Truck with Hose and Firefighter",
     "year": 2026,
     "theme_id": 504,
-    "num_parts": 0,
+    "num_parts": 28,
     "img_url": "https://cdn.rebrickable.com/media/sets/10473-1.jpg",
     "theme": "Duplo",
     "parent_theme": ""
@@ -233144,7 +233154,7 @@
     "name": "Creative Vehicles",
     "year": 2026,
     "theme_id": 504,
-    "num_parts": 0,
+    "num_parts": 42,
     "img_url": "https://cdn.rebrickable.com/media/sets/10474-1.jpg",
     "theme": "Duplo",
     "parent_theme": ""
@@ -233154,7 +233164,7 @@
     "name": "3 in 1 Construction Vehicles",
     "year": 2026,
     "theme_id": 504,
-    "num_parts": 0,
+    "num_parts": 22,
     "img_url": "https://cdn.rebrickable.com/media/sets/10475-1.jpg",
     "theme": "Duplo",
     "parent_theme": ""
@@ -233164,7 +233174,7 @@
     "name": "3 in 1 Construction Site and Vehicles",
     "year": 2026,
     "theme_id": 504,
-    "num_parts": 0,
+    "num_parts": 84,
     "img_url": "https://cdn.rebrickable.com/media/sets/10476-1.jpg",
     "theme": "Duplo",
     "parent_theme": ""
@@ -233174,7 +233184,7 @@
     "name": "3 in 1 Creative Cute Pets",
     "year": 2026,
     "theme_id": 504,
-    "num_parts": 0,
+    "num_parts": 24,
     "img_url": "https://cdn.rebrickable.com/media/sets/10477-1.jpg",
     "theme": "Duplo",
     "parent_theme": ""
@@ -233670,6 +233680,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "40957-1",
+    "name": "Spring Wreath",
+    "year": 2026,
+    "theme_id": 229,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40957-1.jpg",
+    "theme": "Easter",
+    "parent_theme": "Seasonal"
+  },
+  {
     "set_num": "42218-1",
     "name": "John Deere 1470H Wheeled Harvester",
     "year": 2026,
@@ -233904,7 +233924,7 @@
     "name": "Ice Cream & Balloon Stand",
     "year": 2026,
     "theme_id": 494,
-    "num_parts": 109,
+    "num_parts": 107,
     "img_url": "https://cdn.rebrickable.com/media/sets/42692-1.jpg",
     "theme": "Friends",
     "parent_theme": ""
@@ -234244,7 +234264,7 @@
     "name": "Coast Guard Rescue Boat & Helicopter",
     "year": 2026,
     "theme_id": 52,
-    "num_parts": 742,
+    "num_parts": 743,
     "img_url": "https://cdn.rebrickable.com/media/sets/60504-1.jpg",
     "theme": "City",
     "parent_theme": ""
@@ -234814,7 +234834,7 @@
     "name": "Hagrid & Harry's Privet Drive Escape",
     "year": 2026,
     "theme_id": 246,
-    "num_parts": 0,
+    "num_parts": 139,
     "img_url": "https://cdn.rebrickable.com/media/sets/76459-1.jpg",
     "theme": "Harry Potter",
     "parent_theme": ""
@@ -234824,7 +234844,7 @@
     "name": "Hogwarts Castle: Sorting Hat Ceremony",
     "year": 2026,
     "theme_id": 246,
-    "num_parts": 0,
+    "num_parts": 127,
     "img_url": "https://cdn.rebrickable.com/media/sets/76460-1.jpg",
     "theme": "Harry Potter",
     "parent_theme": ""
@@ -234834,7 +234854,7 @@
     "name": "Cornish Pixie",
     "year": 2026,
     "theme_id": 246,
-    "num_parts": 0,
+    "num_parts": 320,
     "img_url": "https://cdn.rebrickable.com/media/sets/76461-1.jpg",
     "theme": "Harry Potter",
     "parent_theme": ""
@@ -234844,7 +234864,7 @@
     "name": "Hogwarts Castle: Hospital Wing",
     "year": 2026,
     "theme_id": 246,
-    "num_parts": 0,
+    "num_parts": 927,
     "img_url": "https://cdn.rebrickable.com/media/sets/76463-1.jpg",
     "theme": "Harry Potter",
     "parent_theme": ""
@@ -234854,7 +234874,7 @@
     "name": "Cauldron: Secret Potions Classroom",
     "year": 2026,
     "theme_id": 246,
-    "num_parts": 0,
+    "num_parts": 662,
     "img_url": "https://cdn.rebrickable.com/media/sets/76464-1.jpg",
     "theme": "Harry Potter",
     "parent_theme": ""
@@ -234864,7 +234884,7 @@
     "name": "Sorcerer's Stone – Collectors' Edition",
     "year": 2026,
     "theme_id": 246,
-    "num_parts": 0,
+    "num_parts": 1586,
     "img_url": "https://cdn.rebrickable.com/media/sets/76466-1.jpg",
     "theme": "Harry Potter",
     "parent_theme": ""
@@ -234874,7 +234894,7 @@
     "name": "Luna Lovegood's House",
     "year": 2026,
     "theme_id": 246,
-    "num_parts": 0,
+    "num_parts": 789,
     "img_url": "https://cdn.rebrickable.com/media/sets/76467-1.jpg",
     "theme": "Harry Potter",
     "parent_theme": ""
@@ -234884,7 +234904,7 @@
     "name": "Enchanted Flying Ford Anglia",
     "year": 2026,
     "theme_id": 246,
-    "num_parts": 0,
+    "num_parts": 868,
     "img_url": "https://cdn.rebrickable.com/media/sets/76470-1.jpg",
     "theme": "Harry Potter",
     "parent_theme": ""
@@ -325075,7 +325095,7 @@
   },
   {
     "fig_num": "fig-012652",
-    "name": "Strider, Red 1x3 Plate",
+    "name": "Strider, Black Jumper Plates, Red 1x3 Plate",
     "num_parts": 31,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-012652.jpg",
     "theme": "",
@@ -342051,7 +342071,7 @@
   },
   {
     "fig_num": "fig-015412",
-    "name": "Micromob Steve",
+    "name": "Micromob Steve, Dark Azure Legs, Reddish Brown Hair",
     "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-015412.jpg",
     "theme": "",
@@ -344539,7 +344559,7 @@
   },
   {
     "fig_num": "fig-015909",
-    "name": "Strider, Dark Red 1x3 Plate",
+    "name": "Strider, Black Jumper Plates, Dark Red 1x3 Plate",
     "num_parts": 31,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-015909.jpg",
     "theme": "",
@@ -349654,6 +349674,262 @@
     "name": "Arika, Centipede",
     "num_parts": 54,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-017081.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017133",
+    "name": "Loyalist Leader",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017133.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017152",
+    "name": "Loyalist",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017152.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017162",
+    "name": "Music Shop Owner",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017162.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017163",
+    "name": "Carpenter",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017163.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017164",
+    "name": "Plumber",
+    "num_parts": 5,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017164.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017165",
+    "name": "Mum",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017165.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017166",
+    "name": "Furniture Mover",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017166.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017167",
+    "name": "Marching Band Kid, Short Hair",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017167.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017168",
+    "name": "Marching Band Kid, Long Hair",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017168.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017171",
+    "name": "Mystake",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017171.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017173",
+    "name": "Master Wu",
+    "num_parts": 5,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017173.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017174",
+    "name": "Statue",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017174.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017175",
+    "name": "Chuck",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017175.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017177",
+    "name": "Kai",
+    "num_parts": 5,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017177.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017178",
+    "name": "Garmadon",
+    "num_parts": 5,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017178.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017180",
+    "name": "Nya",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017180.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017182",
+    "name": "Jay",
+    "num_parts": 6,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017182.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017183",
+    "name": "Acronix",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017183.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017184",
+    "name": "Mailman",
+    "num_parts": 5,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017184.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017185",
+    "name": "Administration Agent",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017185.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017187",
+    "name": "Faith",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017187.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017188",
+    "name": "Dr. Saunders",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017188.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017190",
+    "name": "Zane",
+    "num_parts": 5,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017190.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017192",
+    "name": "Cole",
+    "num_parts": 5,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017192.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017193",
+    "name": "Dr. Julien",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017193.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017196",
+    "name": "Krux",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017196.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017198",
+    "name": "Garmadon, Young",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017198.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017199",
+    "name": "First Spinjitzu Master",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017199.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017201",
+    "name": "Young Wu",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017201.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017214",
+    "name": "Lloyd",
+    "num_parts": 5,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017214.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017215",
+    "name": "Master of Lightning",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017215.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017216",
+    "name": "Kabuki Harumi",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017216.jpg",
     "theme": "",
     "parent_theme": ""
   }
