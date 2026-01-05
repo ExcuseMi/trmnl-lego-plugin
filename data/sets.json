@@ -217111,10 +217111,10 @@
   },
   {
     "set_num": "562409-1",
-    "name": "Apiary",
+    "name": "Otter's Day at the Beach",
     "year": 2024,
     "theme_id": 494,
-    "num_parts": 26,
+    "num_parts": 22,
     "img_url": "https://cdn.rebrickable.com/media/sets/562409-1.jpg",
     "theme": "Friends",
     "parent_theme": ""
@@ -217136,6 +217136,16 @@
     "theme_id": 494,
     "num_parts": 24,
     "img_url": "https://cdn.rebrickable.com/media/sets/562411-1.jpg",
+    "theme": "Friends",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "562412-1",
+    "name": "Apiary",
+    "year": 2024,
+    "theme_id": 494,
+    "num_parts": 26,
+    "img_url": "https://cdn.rebrickable.com/media/sets/562412-1.jpg",
     "theme": "Friends",
     "parent_theme": ""
   },
@@ -234834,7 +234844,7 @@
     "name": "Hagrid & Harry's Privet Drive Escape",
     "year": 2026,
     "theme_id": 246,
-    "num_parts": 139,
+    "num_parts": 127,
     "img_url": "https://cdn.rebrickable.com/media/sets/76459-1.jpg",
     "theme": "Harry Potter",
     "parent_theme": ""
@@ -234864,7 +234874,7 @@
     "name": "Hogwarts Castle: Hospital Wing",
     "year": 2026,
     "theme_id": 246,
-    "num_parts": 927,
+    "num_parts": 911,
     "img_url": "https://cdn.rebrickable.com/media/sets/76463-1.jpg",
     "theme": "Harry Potter",
     "parent_theme": ""
@@ -234884,7 +234894,7 @@
     "name": "Sorcerer's Stone – Collectors' Edition",
     "year": 2026,
     "theme_id": 246,
-    "num_parts": 1586,
+    "num_parts": 1574,
     "img_url": "https://cdn.rebrickable.com/media/sets/76466-1.jpg",
     "theme": "Harry Potter",
     "parent_theme": ""
@@ -235078,6 +235088,46 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/910058-1.jpg",
     "theme": "BrickLink Designer Program",
     "parent_theme": ""
+  },
+  {
+    "set_num": "951309-1",
+    "name": "Construction Worker",
+    "year": 2026,
+    "theme_id": 56,
+    "num_parts": 25,
+    "img_url": "https://cdn.rebrickable.com/media/sets/951309-1.jpg",
+    "theme": "Construction",
+    "parent_theme": "City"
+  },
+  {
+    "set_num": "5009866-1",
+    "name": "Hydration Bottle - Floral",
+    "year": 2026,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5009866-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010097-1",
+    "name": "Thermo Bottle (All Colors)",
+    "year": 2026,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010097-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010098-1",
+    "name": "Thermo Bottle Wildflowers",
+    "year": 2026,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010098-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
   },
   {
     "set_num": "6581056-1",
@@ -271663,7 +271713,7 @@
   },
   {
     "fig_num": "fig-004895",
-    "name": "J. Jonah Jameson",
+    "name": "J. Jonah Jameson, Sand Blue Suit",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004895.jpg",
     "theme": "",
@@ -272055,7 +272105,7 @@
   },
   {
     "fig_num": "fig-004948",
-    "name": "J. Jonah Jameson with Black Hair and Black Suit",
+    "name": "J. Jonah Jameson, Black Suit, Black Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004948.jpg",
     "theme": "",
@@ -272911,7 +272961,7 @@
   },
   {
     "fig_num": "fig-005070",
-    "name": "Rhino",
+    "name": "Rhino, No Helmet",
     "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005070.jpg",
     "theme": "",
@@ -276087,7 +276137,7 @@
   },
   {
     "fig_num": "fig-005495",
-    "name": "Spider-Man 2099",
+    "name": "Spider-Man 2099, Bright Light Blue Dots",
     "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005495.jpg",
     "theme": "",
@@ -276663,7 +276713,7 @@
   },
   {
     "fig_num": "fig-005575",
-    "name": "Nick Fury in Long Black Coat Over Gray Sweater",
+    "name": "Nick Fury in Long Black Coat Over Gray Sweater, Line on Hips",
     "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005575.jpg",
     "theme": "",
@@ -281239,7 +281289,7 @@
   },
   {
     "fig_num": "fig-006189",
-    "name": "Rubeus Hagrid, Medium Nougat Overcoat, Arms with Pins",
+    "name": "Rubeus Hagrid, Medium Nougat Overcoat, Arms with Pins (3626c Head)",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-006189.jpg",
     "theme": "",
@@ -316943,7 +316993,7 @@
   },
   {
     "fig_num": "fig-011304",
-    "name": "J. Jonah Jameson",
+    "name": "J. Jonah Jameson, Black Suit, Dark Bluish Gray Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-011304.jpg",
     "theme": "",
@@ -322071,7 +322121,7 @@
   },
   {
     "fig_num": "fig-012101",
-    "name": "Rhino",
+    "name": "Rhino, White Horn",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-012101.jpg",
     "theme": "",
@@ -347447,7 +347497,7 @@
   },
   {
     "fig_num": "fig-016474",
-    "name": "Harry Potter, Red Sweater, Short Legs",
+    "name": "Harry Potter, Red Sweater, Short Dark Tan Legs",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-016474.jpg",
     "theme": "",
@@ -347903,7 +347953,7 @@
   },
   {
     "fig_num": "fig-016617",
-    "name": "J. Jonah Jameson, Dark Blue Suit",
+    "name": "J. Jonah Jameson, Dark Blue Suit, Reddish Brown Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-016617.jpg",
     "theme": "",
@@ -349930,6 +349980,38 @@
     "name": "Kabuki Harumi",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-017216.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017323",
+    "name": "Cobb Vanth",
+    "num_parts": 6,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017323.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017324",
+    "name": "Cad Bane",
+    "num_parts": 5,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017324.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017325",
+    "name": "Mandalorian, Umber Brown Head",
+    "num_parts": 5,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017325.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017326",
+    "name": "Mandalorian, Light Nougat Head",
+    "num_parts": 5,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017326.jpg",
     "theme": "",
     "parent_theme": ""
   }
