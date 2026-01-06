@@ -90,7 +90,7 @@
     "Basic : 197": "basic|1|197"
   },
   {
-    "Basic Set : 325": "basic-set|1|325"
+    "Basic Set : 351": "basic-set|1|351"
   },
   {
     "Basketball : 33": "basketball|1|33"
@@ -120,7 +120,7 @@
     "Blacktron II : 14": "blacktron-ii|1|14"
   },
   {
-    "Bluey : 4": "bluey|1|4"
+    "Bluey : 6": "bluey|1|6"
   },
   {
     "Boat : 21": "boat|1|21"
@@ -321,7 +321,7 @@
     "Dungeons & Dragons : 16": "dungeons-dragons|1|16"
   },
   {
-    "Duplo : 153": "duplo|1|153"
+    "Duplo : 104": "duplo|1|104"
   },
   {
     "Duplo and Explore : 189": "duplo-and-explore|1|189"
@@ -618,7 +618,7 @@
     "Mars Mission : 19": "mars-mission|1|19"
   },
   {
-    "Marvel : 13": "marvel|1|13"
+    "Marvel : 14": "marvel|1|14"
   },
   {
     "Marvel Series 1 : 16": "marvel-series-1|1|16"
@@ -727,6 +727,9 @@
   },
   {
     "Paradisa : 18": "paradisa|1|18"
+  },
+  {
+    "Peppa Pig : 8": "peppa-pig|1|8"
   },
   {
     "Pharaoh's Quest : 9": "pharaohs-quest|1|9"
@@ -843,7 +846,7 @@
     "Sculptures : 3": "sculptures|1|3"
   },
   {
-    "Seasonal : 66": "seasonal|1|66"
+    "Seasonal : 70": "seasonal|1|70"
   },
   {
     "Series 1 Minifigures : 19": "series-1-minifigures|1|19"
@@ -1113,7 +1116,7 @@
     "Toolo : 13": "toolo|1|13"
   },
   {
-    "Town : 407": "town|1|407"
+    "Town : 415": "town|1|415"
   },
   {
     "Town Jr. : 39": "town-jr|1|39"

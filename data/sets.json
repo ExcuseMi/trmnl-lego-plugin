@@ -96823,11 +96823,11 @@
     "set_num": "6785-1",
     "name": "Creative Cakes",
     "year": 2012,
-    "theme_id": 504,
+    "theme_id": 505,
     "num_parts": 56,
     "img_url": "https://cdn.rebrickable.com/media/sets/6785-1.jpg",
-    "theme": "Duplo",
-    "parent_theme": ""
+    "theme": "Basic Set",
+    "parent_theme": "Duplo"
   },
   {
     "set_num": "6857-1",
@@ -128463,11 +128463,11 @@
     "set_num": "10815-1",
     "name": "My First Rocket",
     "year": 2016,
-    "theme_id": 504,
+    "theme_id": 505,
     "num_parts": 21,
     "img_url": "https://cdn.rebrickable.com/media/sets/10815-1.jpg",
-    "theme": "Duplo",
-    "parent_theme": ""
+    "theme": "Basic Set",
+    "parent_theme": "Duplo"
   },
   {
     "set_num": "10816-1",
@@ -128603,11 +128603,11 @@
     "set_num": "10831-1",
     "name": "My First Caterpillar",
     "year": 2016,
-    "theme_id": 504,
+    "theme_id": 505,
     "num_parts": 22,
     "img_url": "https://cdn.rebrickable.com/media/sets/10831-1.jpg",
-    "theme": "Duplo",
-    "parent_theme": ""
+    "theme": "Basic Set",
+    "parent_theme": "Duplo"
   },
   {
     "set_num": "16091-1",
@@ -137893,11 +137893,11 @@
     "set_num": "10837-1",
     "name": "Santa's Winter Holiday",
     "year": 2017,
-    "theme_id": 504,
+    "theme_id": 790,
     "num_parts": 45,
     "img_url": "https://cdn.rebrickable.com/media/sets/10837-1.jpg",
-    "theme": "Duplo",
-    "parent_theme": ""
+    "theme": "Seasonal",
+    "parent_theme": "Duplo"
   },
   {
     "set_num": "10838-1",
@@ -138023,11 +138023,11 @@
     "set_num": "10850-1",
     "name": "My First Cakes",
     "year": 2017,
-    "theme_id": 504,
+    "theme_id": 505,
     "num_parts": 8,
     "img_url": "https://cdn.rebrickable.com/media/sets/10850-1.jpg",
-    "theme": "Duplo",
-    "parent_theme": ""
+    "theme": "Basic Set",
+    "parent_theme": "Duplo"
   },
   {
     "set_num": "10851-1",
@@ -148153,11 +148153,11 @@
     "set_num": "10858-1",
     "name": "My First Puzzle Pets",
     "year": 2018,
-    "theme_id": 504,
+    "theme_id": 505,
     "num_parts": 18,
     "img_url": "https://cdn.rebrickable.com/media/sets/10858-1.jpg",
-    "theme": "Duplo",
-    "parent_theme": ""
+    "theme": "Basic Set",
+    "parent_theme": "Duplo"
   },
   {
     "set_num": "10859-1",
@@ -148173,41 +148173,41 @@
     "set_num": "10860-1",
     "name": "My First Race Car",
     "year": 2018,
-    "theme_id": 504,
+    "theme_id": 505,
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/10860-1.jpg",
-    "theme": "Duplo",
-    "parent_theme": ""
+    "theme": "Basic Set",
+    "parent_theme": "Duplo"
   },
   {
     "set_num": "10861-1",
     "name": "My First Emotions",
     "year": 2018,
-    "theme_id": 504,
+    "theme_id": 505,
     "num_parts": 28,
     "img_url": "https://cdn.rebrickable.com/media/sets/10861-1.jpg",
-    "theme": "Duplo",
-    "parent_theme": ""
+    "theme": "Basic Set",
+    "parent_theme": "Duplo"
   },
   {
     "set_num": "10862-1",
     "name": "My First Celebration",
     "year": 2018,
-    "theme_id": 504,
+    "theme_id": 505,
     "num_parts": 41,
     "img_url": "https://cdn.rebrickable.com/media/sets/10862-1.jpg",
-    "theme": "Duplo",
-    "parent_theme": ""
+    "theme": "Basic Set",
+    "parent_theme": "Duplo"
   },
   {
     "set_num": "10863-1",
     "name": "My First Animal Brick Box",
     "year": 2018,
-    "theme_id": 504,
+    "theme_id": 505,
     "num_parts": 34,
     "img_url": "https://cdn.rebrickable.com/media/sets/10863-1.jpg",
-    "theme": "Duplo",
-    "parent_theme": ""
+    "theme": "Basic Set",
+    "parent_theme": "Duplo"
   },
   {
     "set_num": "10864-1",
@@ -157793,21 +157793,21 @@
     "set_num": "10884-1",
     "name": "My First Balancing Animals",
     "year": 2019,
-    "theme_id": 504,
+    "theme_id": 505,
     "num_parts": 15,
     "img_url": "https://cdn.rebrickable.com/media/sets/10884-1.jpg",
-    "theme": "Duplo",
-    "parent_theme": ""
+    "theme": "Basic Set",
+    "parent_theme": "Duplo"
   },
   {
     "set_num": "10885-1",
     "name": "My First Fun Puzzle",
     "year": 2019,
-    "theme_id": 504,
+    "theme_id": 505,
     "num_parts": 15,
     "img_url": "https://cdn.rebrickable.com/media/sets/10885-1.jpg",
-    "theme": "Duplo",
-    "parent_theme": ""
+    "theme": "Basic Set",
+    "parent_theme": "Duplo"
   },
   {
     "set_num": "10886-1",
@@ -177813,11 +177813,11 @@
     "set_num": "10943-1",
     "name": "Happy Childhood Moments",
     "year": 2021,
-    "theme_id": 504,
+    "theme_id": 790,
     "num_parts": 231,
     "img_url": "https://cdn.rebrickable.com/media/sets/10943-1.jpg",
-    "theme": "Duplo",
-    "parent_theme": ""
+    "theme": "Seasonal",
+    "parent_theme": "Duplo"
   },
   {
     "set_num": "10944-1",
@@ -177963,11 +177963,11 @@
     "set_num": "10958-1",
     "name": "Creative Birthday Party",
     "year": 2021,
-    "theme_id": 504,
+    "theme_id": 505,
     "num_parts": 200,
     "img_url": "https://cdn.rebrickable.com/media/sets/10958-1.jpg",
-    "theme": "Duplo",
-    "parent_theme": ""
+    "theme": "Basic Set",
+    "parent_theme": "Duplo"
   },
   {
     "set_num": "10961-1",
@@ -189233,31 +189233,31 @@
     "set_num": "10976-1",
     "name": "Santa's Gingerbread House",
     "year": 2022,
-    "theme_id": 504,
+    "theme_id": 790,
     "num_parts": 50,
     "img_url": "https://cdn.rebrickable.com/media/sets/10976-1.jpg",
-    "theme": "Duplo",
-    "parent_theme": ""
+    "theme": "Seasonal",
+    "parent_theme": "Duplo"
   },
   {
     "set_num": "10977-1",
     "name": "My First Puppy & Kitten With Sounds",
     "year": 2022,
-    "theme_id": 504,
+    "theme_id": 505,
     "num_parts": 22,
     "img_url": "https://cdn.rebrickable.com/media/sets/10977-1.jpg",
-    "theme": "Duplo",
-    "parent_theme": ""
+    "theme": "Basic Set",
+    "parent_theme": "Duplo"
   },
   {
     "set_num": "10978-1",
     "name": "Creative Building Time",
     "year": 2022,
-    "theme_id": 504,
+    "theme_id": 505,
     "num_parts": 120,
     "img_url": "https://cdn.rebrickable.com/media/sets/10978-1.jpg",
-    "theme": "Duplo",
-    "parent_theme": ""
+    "theme": "Basic Set",
+    "parent_theme": "Duplo"
   },
   {
     "set_num": "10979-1",
@@ -200193,11 +200193,11 @@
     "set_num": "10411-1",
     "name": "Learn About Chinese Culture",
     "year": 2023,
-    "theme_id": 504,
+    "theme_id": 790,
     "num_parts": 124,
     "img_url": "https://cdn.rebrickable.com/media/sets/10411-1.jpg",
-    "theme": "Duplo",
-    "parent_theme": ""
+    "theme": "Seasonal",
+    "parent_theme": "Duplo"
   },
   {
     "set_num": "010423-1",
@@ -200283,11 +200283,11 @@
     "set_num": "10935-1",
     "name": "Alphabet Town",
     "year": 2023,
-    "theme_id": 504,
+    "theme_id": 505,
     "num_parts": 87,
     "img_url": "https://cdn.rebrickable.com/media/sets/10935-1.jpg",
-    "theme": "Duplo",
-    "parent_theme": ""
+    "theme": "Basic Set",
+    "parent_theme": "Duplo"
   },
   {
     "set_num": "10981-1",
@@ -210753,11 +210753,11 @@
     "set_num": "10412-1",
     "name": "Animal Train",
     "year": 2024,
-    "theme_id": 504,
+    "theme_id": 505,
     "num_parts": 19,
     "img_url": "https://cdn.rebrickable.com/media/sets/10412-1.jpg",
-    "theme": "Duplo",
-    "parent_theme": ""
+    "theme": "Basic Set",
+    "parent_theme": "Duplo"
   },
   {
     "set_num": "10413-1",
@@ -210783,11 +210783,11 @@
     "set_num": "10415-1",
     "name": "Big Feelings & Emotions",
     "year": 2024,
-    "theme_id": 504,
+    "theme_id": 505,
     "num_parts": 23,
     "img_url": "https://cdn.rebrickable.com/media/sets/10415-1.jpg",
-    "theme": "Duplo",
-    "parent_theme": ""
+    "theme": "Basic Set",
+    "parent_theme": "Duplo"
   },
   {
     "set_num": "10416-1",
@@ -210863,11 +210863,11 @@
     "set_num": "10423-1",
     "name": "Buildable People with Big Emotions",
     "year": 2024,
-    "theme_id": 504,
+    "theme_id": 505,
     "num_parts": 71,
     "img_url": "https://cdn.rebrickable.com/media/sets/10423-1.jpg",
-    "theme": "Duplo",
-    "parent_theme": ""
+    "theme": "Basic Set",
+    "parent_theme": "Duplo"
   },
   {
     "set_num": "10424-1",
@@ -210883,41 +210883,41 @@
     "set_num": "10431-1",
     "name": "Peppa Pig Garden and Tree House",
     "year": 2024,
-    "theme_id": 504,
+    "theme_id": 789,
     "num_parts": 20,
     "img_url": "https://cdn.rebrickable.com/media/sets/10431-1.jpg",
-    "theme": "Duplo",
-    "parent_theme": ""
+    "theme": "Peppa Pig",
+    "parent_theme": "Duplo"
   },
   {
     "set_num": "10432-1",
     "name": "Peppa Pig Boat Trip",
     "year": 2024,
-    "theme_id": 504,
+    "theme_id": 789,
     "num_parts": 23,
     "img_url": "https://cdn.rebrickable.com/media/sets/10432-1.jpg",
-    "theme": "Duplo",
-    "parent_theme": ""
+    "theme": "Peppa Pig",
+    "parent_theme": "Duplo"
   },
   {
     "set_num": "10433-1",
     "name": "Peppa Pig Birthday House",
     "year": 2024,
-    "theme_id": 504,
+    "theme_id": 789,
     "num_parts": 59,
     "img_url": "https://cdn.rebrickable.com/media/sets/10433-1.jpg",
-    "theme": "Duplo",
-    "parent_theme": ""
+    "theme": "Peppa Pig",
+    "parent_theme": "Duplo"
   },
   {
     "set_num": "10434-1",
     "name": "Peppa Pig Supermarket",
     "year": 2024,
-    "theme_id": 504,
+    "theme_id": 789,
     "num_parts": 70,
     "img_url": "https://cdn.rebrickable.com/media/sets/10434-1.jpg",
-    "theme": "Duplo",
-    "parent_theme": ""
+    "theme": "Peppa Pig",
+    "parent_theme": "Duplo"
   },
   {
     "set_num": "10435-1",
@@ -210943,11 +210943,11 @@
     "set_num": "10439-1",
     "name": "Cars and Trucks Brick Box",
     "year": 2024,
-    "theme_id": 504,
+    "theme_id": 505,
     "num_parts": 80,
     "img_url": "https://cdn.rebrickable.com/media/sets/10439-1.jpg",
-    "theme": "Duplo",
-    "parent_theme": ""
+    "theme": "Basic Set",
+    "parent_theme": "Duplo"
   },
   {
     "set_num": "10792-1",
@@ -211473,11 +211473,11 @@
     "set_num": "30673-1",
     "name": "My First Duck",
     "year": 2024,
-    "theme_id": 504,
+    "theme_id": 505,
     "num_parts": 7,
     "img_url": "https://cdn.rebrickable.com/media/sets/30673-1.jpg",
-    "theme": "Duplo",
-    "parent_theme": ""
+    "theme": "Basic Set",
+    "parent_theme": "Duplo"
   },
   {
     "set_num": "30674-1",
@@ -216963,11 +216963,11 @@
     "set_num": "472402-1",
     "name": "George Pig",
     "year": 2024,
-    "theme_id": 504,
+    "theme_id": 789,
     "num_parts": 2,
     "img_url": "https://cdn.rebrickable.com/media/sets/472402-1.jpg",
-    "theme": "Duplo",
-    "parent_theme": ""
+    "theme": "Peppa Pig",
+    "parent_theme": "Duplo"
   },
   {
     "set_num": "472407-1",
@@ -222113,21 +222113,21 @@
     "set_num": "10443-1",
     "name": "First Time at the Airport",
     "year": 2025,
-    "theme_id": 504,
+    "theme_id": 632,
     "num_parts": 23,
     "img_url": "https://cdn.rebrickable.com/media/sets/10443-1.jpg",
-    "theme": "Duplo",
-    "parent_theme": ""
+    "theme": "Town",
+    "parent_theme": "Duplo"
   },
   {
     "set_num": "10444-1",
     "name": "Creative Garden & Flowers",
     "year": 2025,
-    "theme_id": 504,
+    "theme_id": 505,
     "num_parts": 45,
     "img_url": "https://cdn.rebrickable.com/media/sets/10444-1.jpg",
-    "theme": "Duplo",
-    "parent_theme": ""
+    "theme": "Basic Set",
+    "parent_theme": "Duplo"
   },
   {
     "set_num": "10445-1",
@@ -222153,11 +222153,11 @@
     "set_num": "10447-1",
     "name": "Ambulance & Driver",
     "year": 2025,
-    "theme_id": 504,
+    "theme_id": 632,
     "num_parts": 19,
     "img_url": "https://cdn.rebrickable.com/media/sets/10447-1.jpg",
-    "theme": "Duplo",
-    "parent_theme": ""
+    "theme": "Town",
+    "parent_theme": "Duplo"
   },
   {
     "set_num": "10448-1",
@@ -222173,11 +222173,11 @@
     "set_num": "10449-1",
     "name": "First Time: Visit with the Doctor",
     "year": 2025,
-    "theme_id": 504,
+    "theme_id": 632,
     "num_parts": 65,
     "img_url": "https://cdn.rebrickable.com/media/sets/10449-1.jpg",
-    "theme": "Duplo",
-    "parent_theme": ""
+    "theme": "Town",
+    "parent_theme": "Duplo"
   },
   {
     "set_num": "10450-1",
@@ -222203,21 +222203,21 @@
     "set_num": "10452-1",
     "name": "Camping Trip",
     "year": 2025,
-    "theme_id": 504,
+    "theme_id": 789,
     "num_parts": 32,
     "img_url": "https://cdn.rebrickable.com/media/sets/10452-1.jpg",
-    "theme": "Duplo",
-    "parent_theme": ""
+    "theme": "Peppa Pig",
+    "parent_theme": "Duplo"
   },
   {
     "set_num": "10453-1",
     "name": "Funfair",
     "year": 2025,
-    "theme_id": 504,
+    "theme_id": 789,
     "num_parts": 53,
     "img_url": "https://cdn.rebrickable.com/media/sets/10453-1.jpg",
-    "theme": "Duplo",
-    "parent_theme": ""
+    "theme": "Peppa Pig",
+    "parent_theme": "Duplo"
   },
   {
     "set_num": "10454-1",
@@ -222263,41 +222263,41 @@
     "set_num": "10458-1",
     "name": "Ice Cream Trip with Bluey",
     "year": 2025,
-    "theme_id": 504,
+    "theme_id": 788,
     "num_parts": 22,
     "img_url": "https://cdn.rebrickable.com/media/sets/10458-1.jpg",
-    "theme": "Duplo",
-    "parent_theme": ""
+    "theme": "Bluey",
+    "parent_theme": "Duplo"
   },
   {
     "set_num": "10459-1",
     "name": "Bluey’s Family House",
     "year": 2025,
-    "theme_id": 504,
+    "theme_id": 788,
     "num_parts": 83,
     "img_url": "https://cdn.rebrickable.com/media/sets/10459-1.jpg",
-    "theme": "Duplo",
-    "parent_theme": ""
+    "theme": "Bluey",
+    "parent_theme": "Duplo"
   },
   {
     "set_num": "10460-1",
     "name": "Green Building Plate",
     "year": 2025,
-    "theme_id": 504,
+    "theme_id": 505,
     "num_parts": 1,
     "img_url": "https://cdn.rebrickable.com/media/sets/10460-1.jpg",
-    "theme": "Duplo",
-    "parent_theme": ""
+    "theme": "Basic Set",
+    "parent_theme": "Duplo"
   },
   {
     "set_num": "10461-1",
     "name": "Grandpa Pig's Garden and Greenhouse",
     "year": 2025,
-    "theme_id": 504,
+    "theme_id": 789,
     "num_parts": 102,
     "img_url": "https://cdn.rebrickable.com/media/sets/10461-1.jpg",
-    "theme": "Duplo",
-    "parent_theme": ""
+    "theme": "Peppa Pig",
+    "parent_theme": "Duplo"
   },
   {
     "set_num": "11039-1",
@@ -222723,11 +222723,11 @@
     "set_num": "30686-1",
     "name": "My First Flower & Bee",
     "year": 2025,
-    "theme_id": 504,
+    "theme_id": 505,
     "num_parts": 7,
     "img_url": "https://cdn.rebrickable.com/media/sets/30686-1.jpg",
-    "theme": "Duplo",
-    "parent_theme": ""
+    "theme": "Basic Set",
+    "parent_theme": "Duplo"
   },
   {
     "set_num": "30687-1",
@@ -233113,11 +233113,11 @@
     "set_num": "10463-1",
     "name": "Dinosaur Spidey-Rex vs. Green Goblin",
     "year": 2026,
-    "theme_id": 504,
+    "theme_id": 630,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/10463-1.jpg",
-    "theme": "Duplo",
-    "parent_theme": ""
+    "theme": "Marvel",
+    "parent_theme": "Duplo"
   },
   {
     "set_num": "10465-1",
@@ -233133,71 +233133,71 @@
     "set_num": "10470-1",
     "name": "3 in 1 Modern Family House with Figures",
     "year": 2026,
-    "theme_id": 504,
+    "theme_id": 632,
     "num_parts": 166,
     "img_url": "https://cdn.rebrickable.com/media/sets/10470-1.jpg",
-    "theme": "Duplo",
-    "parent_theme": ""
+    "theme": "Town",
+    "parent_theme": "Duplo"
   },
   {
     "set_num": "10471-1",
     "name": "Blue Police Motorcycle",
     "year": 2026,
-    "theme_id": 504,
+    "theme_id": 632,
     "num_parts": 11,
     "img_url": "https://cdn.rebrickable.com/media/sets/10471-1.jpg",
-    "theme": "Duplo",
-    "parent_theme": ""
+    "theme": "Town",
+    "parent_theme": "Duplo"
   },
   {
     "set_num": "10473-1",
     "name": "Fire Truck with Hose and Firefighter",
     "year": 2026,
-    "theme_id": 504,
+    "theme_id": 632,
     "num_parts": 28,
     "img_url": "https://cdn.rebrickable.com/media/sets/10473-1.jpg",
-    "theme": "Duplo",
-    "parent_theme": ""
+    "theme": "Town",
+    "parent_theme": "Duplo"
   },
   {
     "set_num": "10474-1",
     "name": "Creative Vehicles",
     "year": 2026,
-    "theme_id": 504,
+    "theme_id": 505,
     "num_parts": 42,
     "img_url": "https://cdn.rebrickable.com/media/sets/10474-1.jpg",
-    "theme": "Duplo",
-    "parent_theme": ""
+    "theme": "Basic Set",
+    "parent_theme": "Duplo"
   },
   {
     "set_num": "10475-1",
     "name": "3 in 1 Construction Vehicles",
     "year": 2026,
-    "theme_id": 504,
+    "theme_id": 632,
     "num_parts": 22,
     "img_url": "https://cdn.rebrickable.com/media/sets/10475-1.jpg",
-    "theme": "Duplo",
-    "parent_theme": ""
+    "theme": "Town",
+    "parent_theme": "Duplo"
   },
   {
     "set_num": "10476-1",
     "name": "3 in 1 Construction Site and Vehicles",
     "year": 2026,
-    "theme_id": 504,
+    "theme_id": 632,
     "num_parts": 84,
     "img_url": "https://cdn.rebrickable.com/media/sets/10476-1.jpg",
-    "theme": "Duplo",
-    "parent_theme": ""
+    "theme": "Town",
+    "parent_theme": "Duplo"
   },
   {
     "set_num": "10477-1",
     "name": "3 in 1 Creative Cute Pets",
     "year": 2026,
-    "theme_id": 504,
+    "theme_id": 505,
     "num_parts": 24,
     "img_url": "https://cdn.rebrickable.com/media/sets/10477-1.jpg",
-    "theme": "Duplo",
-    "parent_theme": ""
+    "theme": "Basic Set",
+    "parent_theme": "Duplo"
   },
   {
     "set_num": "11206-1",
@@ -233413,11 +233413,11 @@
     "set_num": "30712-1",
     "name": "Celebration Cake",
     "year": 2026,
-    "theme_id": 504,
+    "theme_id": 505,
     "num_parts": 9,
     "img_url": "https://cdn.rebrickable.com/media/sets/30712-1.jpg",
-    "theme": "Duplo",
-    "parent_theme": ""
+    "theme": "Basic Set",
+    "parent_theme": "Duplo"
   },
   {
     "set_num": "30714-1",
