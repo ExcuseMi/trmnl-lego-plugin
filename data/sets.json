@@ -22624,7 +22624,7 @@
     "name": "SP-Striker",
     "year": 1989,
     "theme_id": 139,
-    "num_parts": 231,
+    "num_parts": 230,
     "img_url": "https://cdn.rebrickable.com/media/sets/6781-1.jpg",
     "theme": "Space Police I",
     "parent_theme": "Space"
@@ -63820,16 +63820,6 @@
     "parent_theme": "4 Juniors"
   },
   {
-    "set_num": "65716-1",
-    "name": "Limited Edition Collector Pack",
-    "year": 2004,
-    "theme_id": 324,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/65716-1.jpg",
-    "theme": "Bionicle",
-    "parent_theme": ""
-  },
-  {
     "set_num": "66173-1",
     "name": "Building Bonanza Value Pack",
     "year": 2004,
@@ -67217,6 +67207,16 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/65573-1.jpg",
     "theme": "Racers",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "65716-1",
+    "name": "Limited Edition Collector Pack",
+    "year": 2005,
+    "theme_id": 324,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/65716-1.jpg",
+    "theme": "Bionicle",
     "parent_theme": ""
   },
   {
@@ -98081,7 +98081,7 @@
   },
   {
     "set_num": "9468-1",
-    "name": "The Vampyre Castle",
+    "name": "Vampyre Castle",
     "year": 2012,
     "theme_id": 558,
     "num_parts": 949,
@@ -233954,7 +233954,7 @@
     "name": "Animal Vet Clinic",
     "year": 2026,
     "theme_id": 494,
-    "num_parts": 240,
+    "num_parts": 150,
     "img_url": "https://cdn.rebrickable.com/media/sets/42696-1.jpg",
     "theme": "Friends",
     "parent_theme": ""
@@ -235086,6 +235086,56 @@
     "theme_id": 719,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/910058-1.jpg",
+    "theme": "BrickLink Designer Program",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "910059-1",
+    "name": "Privateer Frigate Fortuna",
+    "year": 2026,
+    "theme_id": 719,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/910059-1.jpg",
+    "theme": "BrickLink Designer Program",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "910060-1",
+    "name": "Sushi Restaurant",
+    "year": 2026,
+    "theme_id": 719,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/910060-1.jpg",
+    "theme": "BrickLink Designer Program",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "910061-1",
+    "name": "Antique Collection",
+    "year": 2026,
+    "theme_id": 719,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/910061-1.jpg",
+    "theme": "BrickLink Designer Program",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "910062-1",
+    "name": "Alchemist's Shop",
+    "year": 2026,
+    "theme_id": 719,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/910062-1.jpg",
+    "theme": "BrickLink Designer Program",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "910063-1",
+    "name": "W.A.L.T.",
+    "year": 2026,
+    "theme_id": 719,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/910063-1.jpg",
     "theme": "BrickLink Designer Program",
     "parent_theme": ""
   },
@@ -349825,7 +349875,7 @@
   },
   {
     "fig_num": "fig-017175",
-    "name": "Chuck",
+    "name": "Chuck the Carpenter",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-017175.jpg",
     "theme": "",
