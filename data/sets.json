@@ -233440,6 +233440,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "30716-1",
+    "name": "Cute Easter Bunny",
+    "year": 2026,
+    "theme_id": 229,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/30716-1.jpg",
+    "theme": "Easter",
+    "parent_theme": "Seasonal"
+  },
+  {
     "set_num": "30719-1",
     "name": "Go-Kart Racer",
     "year": 2026,
@@ -233490,6 +233500,36 @@
     "parent_theme": ""
   },
   {
+    "set_num": "30724-1",
+    "name": "Dumbledore's Office with Harry Potter",
+    "year": 2026,
+    "theme_id": 246,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/30724-1.jpg",
+    "theme": "Harry Potter",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "30725-1",
+    "name": "Spider-Man vs. Anti-Venom Heist",
+    "year": 2026,
+    "theme_id": 706,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/30725-1.jpg",
+    "theme": "Spider-Man",
+    "parent_theme": "Super Heroes Marvel"
+  },
+  {
+    "set_num": "30726-1",
+    "name": "Batman: Bruce Wayne and the Batsuit",
+    "year": 2026,
+    "theme_id": 697,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/30726-1.jpg",
+    "theme": "Batman",
+    "parent_theme": "Super Heroes DC"
+  },
+  {
     "set_num": "30727-1",
     "name": "TIE Advanced Mini-Build",
     "year": 2026,
@@ -233497,6 +233537,26 @@
     "num_parts": 68,
     "img_url": "https://cdn.rebrickable.com/media/sets/30727-1.jpg",
     "theme": "Star Wars",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "30732-1",
+    "name": "Alex's Campfire Conflict",
+    "year": 2026,
+    "theme_id": 577,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/30732-1.jpg",
+    "theme": "Minecraft",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "30733-1",
+    "name": "Badnik: Skorp",
+    "year": 2026,
+    "theme_id": 747,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/30733-1.jpg",
+    "theme": "Sonic The Hedgehog",
     "parent_theme": ""
   },
   {
@@ -234630,6 +234690,36 @@
     "parent_theme": ""
   },
   {
+    "set_num": "75421-1",
+    "name": "SMART Play: Darth Vader’s TIE Fighter",
+    "year": 2026,
+    "theme_id": 158,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/75421-1.jpg",
+    "theme": "Star Wars",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "75423-1",
+    "name": "SMART Play: Luke's Red Five X-wing",
+    "year": 2026,
+    "theme_id": 158,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/75423-1.jpg",
+    "theme": "Star Wars",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "75427-1",
+    "name": "SMART Play: Throne Room Duel & A-Wing",
+    "year": 2026,
+    "theme_id": 158,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/75427-1.jpg",
+    "theme": "Star Wars",
+    "parent_theme": ""
+  },
+  {
     "set_num": "75436-1",
     "name": "The Mandalorian & Grogu's Speeder Bike",
     "year": 2026,
@@ -235148,6 +235238,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/951309-1.jpg",
     "theme": "Construction",
     "parent_theme": "City"
+  },
+  {
+    "set_num": "951315-1",
+    "name": "Jungle Ranger and Stray",
+    "year": 2026,
+    "theme_id": 577,
+    "num_parts": 19,
+    "img_url": "https://cdn.rebrickable.com/media/sets/951315-1.jpg",
+    "theme": "Minecraft",
+    "parent_theme": ""
   },
   {
     "set_num": "5009866-1",
@@ -347443,7 +347543,7 @@
   },
   {
     "fig_num": "fig-016455",
-    "name": "Stray Spider Jockey",
+    "name": "Stray Spider Jockey, Dark Azure Armor",
     "num_parts": 7,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-016455.jpg",
     "theme": "",
