@@ -221404,7 +221404,7 @@
     "name": "Temple Quest",
     "year": 2024,
     "theme_id": 761,
-    "num_parts": 0,
+    "num_parts": 90,
     "img_url": "https://cdn.rebrickable.com/media/sets/9781837250158-1.jpg",
     "theme": "Activity Books with LEGO Parts",
     "parent_theme": "Books"
@@ -234691,7 +234691,7 @@
   },
   {
     "set_num": "75421-1",
-    "name": "SMART Play: Darth Vader’s TIE Fighter",
+    "name": "Darth Vader’s TIE Fighter",
     "year": 2026,
     "theme_id": 158,
     "num_parts": 0,
@@ -234701,7 +234701,7 @@
   },
   {
     "set_num": "75423-1",
-    "name": "SMART Play: Luke's Red Five X-wing",
+    "name": "Luke's Red Five X-wing",
     "year": 2026,
     "theme_id": 158,
     "num_parts": 0,
@@ -234711,7 +234711,7 @@
   },
   {
     "set_num": "75427-1",
-    "name": "SMART Play: Throne Room Duel & A-Wing",
+    "name": "Throne Room Duel & A-Wing",
     "year": 2026,
     "theme_id": 158,
     "num_parts": 0,
@@ -235288,6 +235288,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/6581056-1.jpg",
     "theme": "Series 28 Minifigures",
     "parent_theme": "Collectible Minifigures"
+  },
+  {
+    "set_num": "6614213-1",
+    "name": "Bike Burger Cart",
+    "year": 2026,
+    "theme_id": 52,
+    "num_parts": 41,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6614213-1.jpg",
+    "theme": "City",
+    "parent_theme": ""
   },
   {
     "set_num": "9780241785829-1",
