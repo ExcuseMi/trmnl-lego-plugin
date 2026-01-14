@@ -48,7 +48,7 @@
   optional: true
 - keyname: themes_rebrickable
   field_type: select
-  name: Filter by Themes – Rebrickable (410)
+  name: Filter by Themes – Rebrickable (411)
   description: Select one or more themes to display. Only applicable when using Rebrickable as your data source.
   multiple: true
   options:
@@ -164,7 +164,7 @@
   - Early Creator (35): early-creator|1|35
   - Easter (55): easter|1|55
   - Editions (1): editions|1|1
-  - Educational and Dacta (108): educational-and-dacta|1|108
+  - Educational and Dacta (114): educational-and-dacta|1|114
   - eLAB (5): elab|1|5
   - Elves (42): elves|1|42
   - EV3 (12): ev3|1|12
@@ -308,6 +308,7 @@
   - Playhouse (58): playhouse|1|58
   - Playsets (11): playsets|1|11
   - Plush Toys (116): plush-toys|1|116
+  - Pokémon (5): pokémon|1|5
   - Police (203): police|1|203
   - Posters and Art Prints (90): posters-and-art-prints|1|90
   - Power Functions (18): power-functions|1|18
@@ -374,7 +375,7 @@
   - Space Police I (6): space-police-i|1|6
   - Space Police II (8): space-police-ii|1|8
   - Space Police III (16): space-police-iii|1|16
-  - Space Port (20): space-port|1|20
+  - Space Port (21): space-port|1|21
   - Speed Champions (98): speed-champions|1|98
   - Speed Racer (4): speed-racer|1|4
   - Speed Slammers (5): speed-slammers|1|5

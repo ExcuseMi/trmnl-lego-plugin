@@ -41580,6 +41580,16 @@
     "parent_theme": "Town"
   },
   {
+    "set_num": "6460-1",
+    "name": "Space Port",
+    "year": 1999,
+    "theme_id": 93,
+    "num_parts": 15,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6460-1.jpg",
+    "theme": "Space Port",
+    "parent_theme": "Town"
+  },
+  {
     "set_num": "6461-1",
     "name": "Surveillance Chopper",
     "year": 1999,
@@ -215504,7 +215514,7 @@
     "name": "Minions and Gru's Family Mansion",
     "year": 2024,
     "theme_id": 763,
-    "num_parts": 870,
+    "num_parts": 868,
     "img_url": "https://cdn.rebrickable.com/media/sets/75583-1.jpg",
     "theme": "Despicable Me 4",
     "parent_theme": ""
@@ -233710,6 +233720,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "40892-1",
+    "name": "Kanto Region Badge Collection",
+    "year": 2026,
+    "theme_id": 776,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40892-1.jpg",
+    "theme": "Pokémon",
+    "parent_theme": ""
+  },
+  {
     "set_num": "40905-1",
     "name": "Birthday Cupcake",
     "year": 2026,
@@ -233717,6 +233737,16 @@
     "num_parts": 174,
     "img_url": "https://cdn.rebrickable.com/media/sets/40905-1.jpg",
     "theme": "Seasonal",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "40911-1",
+    "name": "Mini Pokémon Center",
+    "year": 2026,
+    "theme_id": 776,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40911-1.jpg",
+    "theme": "Pokémon",
     "parent_theme": ""
   },
   {
@@ -233964,7 +233994,7 @@
     "name": "Horse Stable and Riding Academy",
     "year": 2026,
     "theme_id": 494,
-    "num_parts": 990,
+    "num_parts": 750,
     "img_url": "https://cdn.rebrickable.com/media/sets/42688-1.jpg",
     "theme": "Friends",
     "parent_theme": ""
@@ -234128,6 +234158,36 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/43303-1.jpg",
     "theme": "Disney Princess",
     "parent_theme": "Disney"
+  },
+  {
+    "set_num": "45520-1",
+    "name": "Computer Science & AI Kit K–2",
+    "year": 2026,
+    "theme_id": 507,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/45520-1.jpg",
+    "theme": "Educational and Dacta",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "45521-1",
+    "name": "Computer Science & AI Kit 3–5",
+    "year": 2026,
+    "theme_id": 507,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/45521-1.jpg",
+    "theme": "Educational and Dacta",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "45522-1",
+    "name": "Computer Science & AI Kit 6–8",
+    "year": 2026,
+    "theme_id": 507,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/45522-1.jpg",
+    "theme": "Educational and Dacta",
+    "parent_theme": ""
   },
   {
     "set_num": "60478-1",
@@ -234687,6 +234747,36 @@
     "num_parts": 448,
     "img_url": "https://cdn.rebrickable.com/media/sets/71866-1.jpg",
     "theme": "Ninjago",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "72151-1",
+    "name": "Eevee",
+    "year": 2026,
+    "theme_id": 776,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/72151-1.jpg",
+    "theme": "Pokémon",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "72152-1",
+    "name": "Pikachu and Poké Ball",
+    "year": 2026,
+    "theme_id": 776,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/72152-1.jpg",
+    "theme": "Pokémon",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "72153-1",
+    "name": "Venusaur, Charizard and Blastoise",
+    "year": 2026,
+    "theme_id": 776,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/72153-1.jpg",
+    "theme": "Pokémon",
     "parent_theme": ""
   },
   {
@@ -235258,6 +235348,36 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/5009866-1.jpg",
     "theme": "Houseware",
     "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010027-1",
+    "name": "Computer Science & AI Classroom Bundle K-2",
+    "year": 2026,
+    "theme_id": 507,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010027-1.jpg",
+    "theme": "Educational and Dacta",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "5010028-1",
+    "name": "Computer Science & AI Classroom Bundle 3-5",
+    "year": 2026,
+    "theme_id": 507,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010028-1.jpg",
+    "theme": "Educational and Dacta",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "5010029-1",
+    "name": "Computer Science & AI Classroom Bundle 6-8",
+    "year": 2026,
+    "theme_id": 507,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010029-1.jpg",
+    "theme": "Educational and Dacta",
+    "parent_theme": ""
   },
   {
     "set_num": "5010097-1",
