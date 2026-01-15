@@ -225110,16 +225110,6 @@
     "parent_theme": "Gear"
   },
   {
-    "set_num": "53699-1",
-    "name": "Locking Notebook with Gel Pen 2 x 3 (All Colors)",
-    "year": 2025,
-    "theme_id": 739,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/53699-1.jpg",
-    "theme": "Stationery and Office Supplies",
-    "parent_theme": "Gear"
-  },
-  {
     "set_num": "53701-1",
     "name": "Pen Pal Gel Pen with Botanicals Mini-Build (Lavendar)",
     "year": 2025,
@@ -230460,6 +230450,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "5009561-1",
+    "name": "Locking Notebook with Gel Pen 2 x 3 (All Colors)",
+    "year": 2025,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5009561-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "5009575-1",
     "name": "Gabby’s Dollhouse: Official Character Guide with Poster",
     "year": 2025,
@@ -230547,6 +230547,16 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/5009631-1.jpg",
     "theme": "Key Chain",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5009637-1",
+    "name": "Stationery Creativity Set Project Bloom",
+    "year": 2025,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5009637-1.jpg",
+    "theme": "Stationery and Office Supplies",
     "parent_theme": "Gear"
   },
   {
@@ -230978,16 +230988,6 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/5009962-1.jpg",
     "theme": "Gear",
     "parent_theme": ""
-  },
-  {
-    "set_num": "5009964-1",
-    "name": "Stationery Creativity Set Project Bloom",
-    "year": 2025,
-    "theme_id": 739,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/5009964-1.jpg",
-    "theme": "Stationery and Office Supplies",
-    "parent_theme": "Gear"
   },
   {
     "set_num": "5009966-1",
@@ -235377,6 +235377,16 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/5010029-1.jpg",
     "theme": "Educational and Dacta",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "5010051-1",
+    "name": "Nike Dunk Low x LEGO Collection – Big Kids Shoes",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010051-1.jpg",
+    "theme": "Gear",
     "parent_theme": ""
   },
   {
@@ -298929,7 +298939,7 @@
   },
   {
     "fig_num": "fig-008522",
-    "name": "Scientist - White Torso, Labcoat, Light Bluish grey Legs, Red dish Brown Hair",
+    "name": "Scientist - White Torso, Lab Coat, Light Bluish Grey Legs, Reddish Brown Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-008522.jpg",
     "theme": "",
