@@ -233760,6 +233760,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "40915-1",
+    "name": "Lion Dance",
+    "year": 2026,
+    "theme_id": 779,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40915-1.jpg",
+    "theme": "Chinese (Lunar) New Year",
+    "parent_theme": "Seasonal"
+  },
+  {
     "set_num": "40920-1",
     "name": "Bugs Bunny",
     "year": 2026,
@@ -235350,6 +235360,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "5009934-1",
+    "name": "Dragonfly Garden",
+    "year": 2026,
+    "theme_id": 598,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5009934-1.jpg",
+    "theme": "Promotional",
+    "parent_theme": ""
+  },
+  {
     "set_num": "5010027-1",
     "name": "Computer Science & AI Classroom Bundle K-2",
     "year": 2026,
@@ -235526,6 +235546,26 @@
     "theme_id": 761,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/9781837251773-1.jpg",
+    "theme": "Activity Books with LEGO Parts",
+    "parent_theme": "Books"
+  },
+  {
+    "set_num": "9788325348168-1",
+    "name": "Minecraft: Przygoda w Kresie",
+    "year": 2026,
+    "theme_id": 761,
+    "num_parts": 7,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9788325348168-1.jpg",
+    "theme": "Activity Books with LEGO Parts",
+    "parent_theme": "Books"
+  },
+  {
+    "set_num": "9788325348175-1",
+    "name": "Harry Potter: Eliksiry Draco",
+    "year": 2026,
+    "theme_id": 761,
+    "num_parts": 20,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9788325348175-1.jpg",
     "theme": "Activity Books with LEGO Parts",
     "parent_theme": "Books"
   },

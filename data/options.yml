@@ -58,7 +58,7 @@
   - 9V (67): 9v|1|67
   - Action Wheelers (9): action-wheelers|1|9
   - Activity Books (230): activity-books|1|230
-  - Activity Books with LEGO Parts (399): activity-books-with-lego-parts|1|399
+  - Activity Books with LEGO Parts (401): activity-books-with-lego-parts|1|401
   - Advent (5): advent|1|5
   - Agents (13): agents|1|13
   - Airlines (16): airlines|1|16
@@ -109,7 +109,7 @@
   - Cargo (8): cargo|1|8
   - Cars (57): cars|1|57
   - Castle (29): castle|1|29
-  - Chinese (Lunar) New Year (22): chinese-lunar-new-year|1|22
+  - Chinese (Lunar) New Year (23): chinese-lunar-new-year|1|23
   - Chinese Traditional Festivals (32): chinese-traditional-festivals|1|32
   - Christmas (171): christmas|1|171
   - Cities of Wonders (10): cities-of-wonders|1|10
@@ -317,7 +317,7 @@
   - Primo (114): primo|1|114
   - Prince of Persia (6): prince-of-persia|1|6
   - Princess Castle (6): princess-castle|1|6
-  - Promotional (177): promotional|1|177
+  - Promotional (178): promotional|1|178
   - Protectors (6): protectors|1|6
   - Quatro (9): quatro|1|9
   - Race (16): race|1|16
@@ -467,7 +467,7 @@
   optional: true
 - keyname: themes_brickset
   field_type: select
-  name: Filter by Themes – Brickset (172)
+  name: Filter by Themes – Brickset (171)
   description: <strong>Required:</strong> Select at least one theme, OR set a min/max year below. Only applicable when using Brickset as your data source.
   multiple: true
   options:
@@ -642,7 +642,6 @@
   - Xtra: Xtra
   - Znap: Znap
   - tbd: tbd
-  - '{Undefined}': '{Undefined}'
   help_text: Use <kbd>⌘</kbd>+<kbd>click</kbd> or <kbd>Ctrl</kbd>+<kbd>click</kbd> to select multiple themes.<br /><strong>You must select at least one theme OR specify a year range.</strong>
   optional: true
 - keyname: brickset_order_by
