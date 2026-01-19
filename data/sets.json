@@ -58364,7 +58364,7 @@
     "name": "Pneumatic Crane Truck",
     "year": 2003,
     "theme_id": 1,
-    "num_parts": 846,
+    "num_parts": 847,
     "img_url": "https://cdn.rebrickable.com/media/sets/8438-1.jpg",
     "theme": "Technic",
     "parent_theme": ""
@@ -220170,6 +220170,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "978059395893-1",
+    "name": "Harry Potter: Read. Build. Create.",
+    "year": 2024,
+    "theme_id": 759,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/978059395893-1.jpg",
+    "theme": "Story Books",
+    "parent_theme": "Books"
+  },
+  {
     "set_num": "5060373574510-1",
     "name": "Super Mario Magnets",
     "year": 2024,
@@ -240173,7 +240183,7 @@
   },
   {
     "fig_num": "fig-000611",
-    "name": "Stephanie - White Top, Magneta Skirt",
+    "name": "Stephanie - White Top, Magenta Skirt",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000611.jpg",
     "theme": "",
