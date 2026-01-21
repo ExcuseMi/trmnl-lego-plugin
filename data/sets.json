@@ -53684,7 +53684,7 @@
     "name": "ROBOLAB Team Challenge Set Version 2.5 [Serial Transmitter]",
     "year": 2002,
     "theme_id": 520,
-    "num_parts": 834,
+    "num_parts": 835,
     "img_url": "https://cdn.rebrickable.com/media/sets/9793-1.jpg",
     "theme": "RCX",
     "parent_theme": "Mindstorms"
@@ -55304,7 +55304,7 @@
     "name": "Team Challenge Upgrade Kit",
     "year": 2002,
     "theme_id": 524,
-    "num_parts": 95,
+    "num_parts": 96,
     "img_url": "https://cdn.rebrickable.com/media/sets/970687-1.jpg",
     "theme": "Service Packs",
     "parent_theme": "Educational and Dacta"
@@ -58994,7 +58994,7 @@
     "name": "Robo Technology Set (Serial Cable)",
     "year": 2003,
     "theme_id": 520,
-    "num_parts": 220,
+    "num_parts": 221,
     "img_url": "https://cdn.rebrickable.com/media/sets/9785-1.jpg",
     "theme": "RCX",
     "parent_theme": "Mindstorms"
@@ -59004,7 +59004,7 @@
     "name": "Robo Technology Set [USB Cable]",
     "year": 2003,
     "theme_id": 520,
-    "num_parts": 221,
+    "num_parts": 222,
     "img_url": "https://cdn.rebrickable.com/media/sets/9786-1.jpg",
     "theme": "RCX",
     "parent_theme": "Mindstorms"
@@ -59024,7 +59024,7 @@
     "name": "ROBOLAB Team Challenge Set Version 2.5 [USB]",
     "year": 2003,
     "theme_id": 520,
-    "num_parts": 832,
+    "num_parts": 833,
     "img_url": "https://cdn.rebrickable.com/media/sets/9794-1.jpg",
     "theme": "RCX",
     "parent_theme": "Mindstorms"
@@ -175400,6 +175400,26 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "5006583-1",
+    "name": "Darth Vader Holiday Key Light",
+    "year": 2020,
+    "theme_id": 503,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5006583-1.jpg",
+    "theme": "Key Chain",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5006585-1",
+    "name": "Stormtrooper Holiday Key Light",
+    "year": 2020,
+    "theme_id": 503,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5006585-1.jpg",
+    "theme": "Key Chain",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "5006590-1",
     "name": "Storage Head S (Pumpkin)",
     "year": 2020,
@@ -233290,6 +233310,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "11384-1",
+    "name": "Golden Retriever Puppy",
+    "year": 2026,
+    "theme_id": 721,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/11384-1.jpg",
+    "theme": "Icons",
+    "parent_theme": ""
+  },
+  {
     "set_num": "11501-1",
     "name": "Tulip Bouquet",
     "year": 2026,
@@ -233774,7 +233804,7 @@
     "name": "Lion Dance",
     "year": 2026,
     "theme_id": 779,
-    "num_parts": 0,
+    "num_parts": 480,
     "img_url": "https://cdn.rebrickable.com/media/sets/40915-1.jpg",
     "theme": "Chinese (Lunar) New Year",
     "parent_theme": "Seasonal"
@@ -234178,6 +234208,46 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/43303-1.jpg",
     "theme": "Disney Princess",
     "parent_theme": "Disney"
+  },
+  {
+    "set_num": "45200-1",
+    "name": "Moon Mission Science Kit",
+    "year": 2026,
+    "theme_id": 791,
+    "num_parts": 519,
+    "img_url": "https://cdn.rebrickable.com/media/sets/45200-1.jpg",
+    "theme": "Learning at Home",
+    "parent_theme": "Educational and Dacta"
+  },
+  {
+    "set_num": "45201-1",
+    "name": "Antarctic Animals Science Kit",
+    "year": 2026,
+    "theme_id": 791,
+    "num_parts": 461,
+    "img_url": "https://cdn.rebrickable.com/media/sets/45201-1.jpg",
+    "theme": "Learning at Home",
+    "parent_theme": "Educational and Dacta"
+  },
+  {
+    "set_num": "45202-1",
+    "name": "Mars Mission Science Kit",
+    "year": 2026,
+    "theme_id": 791,
+    "num_parts": 933,
+    "img_url": "https://cdn.rebrickable.com/media/sets/45202-1.jpg",
+    "theme": "Learning at Home",
+    "parent_theme": "Educational and Dacta"
+  },
+  {
+    "set_num": "45203-1",
+    "name": "Arctic Animals Science Kit",
+    "year": 2026,
+    "theme_id": 791,
+    "num_parts": 1134,
+    "img_url": "https://cdn.rebrickable.com/media/sets/45203-1.jpg",
+    "theme": "Learning at Home",
+    "parent_theme": "Educational and Dacta"
   },
   {
     "set_num": "45520-1",
