@@ -59513,10 +59513,10 @@
     "set_num": "65424-1",
     "name": "Inventor Set I",
     "year": 2003,
-    "theme_id": 204,
+    "theme_id": 406,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/65424-1.jpg",
-    "theme": "Designer Sets",
+    "theme": "Inventor",
     "parent_theme": "Creator"
   },
   {
@@ -215554,7 +215554,7 @@
     "name": "Glinda, Elphaba & Nessarose at Shiz Uni",
     "year": 2024,
     "theme_id": 765,
-    "num_parts": 304,
+    "num_parts": 305,
     "img_url": "https://cdn.rebrickable.com/media/sets/75681-1.jpg",
     "theme": "Wicked",
     "parent_theme": ""
@@ -220193,10 +220193,10 @@
     "set_num": "978059395893-1",
     "name": "Harry Potter: Read. Build. Create.",
     "year": 2024,
-    "theme_id": 759,
+    "theme_id": 758,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/978059395893-1.jpg",
-    "theme": "Story Books",
+    "theme": "Non-fiction Books",
     "parent_theme": "Books"
   },
   {
@@ -221284,7 +221284,7 @@
     "name": "City: Time to play!",
     "year": 2024,
     "theme_id": 761,
-    "num_parts": 13,
+    "num_parts": 17,
     "img_url": "https://cdn.rebrickable.com/media/sets/9781780558646-1.jpg",
     "theme": "Activity Books with LEGO Parts",
     "parent_theme": "Books"
@@ -222754,7 +222754,7 @@
     "name": "The Goonies",
     "year": 2025,
     "theme_id": 576,
-    "num_parts": 2915,
+    "num_parts": 2914,
     "img_url": "https://cdn.rebrickable.com/media/sets/21363-1.jpg",
     "theme": "LEGO Ideas and CUUSOO",
     "parent_theme": ""
@@ -226444,7 +226444,7 @@
     "name": "Lloyd’s Jet Mech",
     "year": 2025,
     "theme_id": 435,
-    "num_parts": 1112,
+    "num_parts": 1117,
     "img_url": "https://cdn.rebrickable.com/media/sets/71845-1.jpg",
     "theme": "Ninjago",
     "parent_theme": ""
@@ -233294,7 +233294,7 @@
     "name": "Shopping Street",
     "year": 2026,
     "theme_id": 155,
-    "num_parts": 3457,
+    "num_parts": 3458,
     "img_url": "https://cdn.rebrickable.com/media/sets/11371-1.jpg",
     "theme": "Modular Buildings",
     "parent_theme": ""
@@ -235290,6 +235290,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "77259-1",
+    "name": "Audi Revolut F1 Team R26 Race Car",
+    "year": 2026,
+    "theme_id": 601,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/77259-1.jpg",
+    "theme": "Speed Champions",
+    "parent_theme": ""
+  },
+  {
     "set_num": "854327-1",
     "name": "Simba Key Chain",
     "year": 2026,
@@ -235440,6 +235450,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "951440-1",
+    "name": "Police Buggy",
+    "year": 2026,
+    "theme_id": 61,
+    "num_parts": 37,
+    "img_url": "https://cdn.rebrickable.com/media/sets/951440-1.jpg",
+    "theme": "Police",
+    "parent_theme": "City"
+  },
+  {
     "set_num": "5009866-1",
     "name": "Hydration Bottle - Floral",
     "year": 2026,
@@ -235537,6 +235557,16 @@
     "num_parts": 41,
     "img_url": "https://cdn.rebrickable.com/media/sets/6614213-1.jpg",
     "theme": "City",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6614229-1",
+    "name": "Kai",
+    "year": 2026,
+    "theme_id": 435,
+    "num_parts": 39,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6614229-1.jpg",
+    "theme": "Ninjago",
     "parent_theme": ""
   },
   {
@@ -350442,6 +350472,54 @@
     "name": "Mandalorian, Light Nougat Head",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-017326.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017380",
+    "name": "Astronaut, Dark Turquoise Jumpsuit, Black Hair",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017380.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017381",
+    "name": "Astronaut, White Torso, Dark Blue Legs, Medium Nougat Hair",
+    "num_parts": 5,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017381.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017382",
+    "name": "Astronaut, White/Dark Turquoise Spacesuit, Dark Brown Hair",
+    "num_parts": 5,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017382.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017383",
+    "name": "Astronaut, White/Coral Suit, Dark Turquoise Legs, Helmet, Dark Blue Harnass",
+    "num_parts": 6,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017383.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017384",
+    "name": "Arctic Explorer, Coral Torso, Dark Turquoise Legs, Dark Blue Beanie, Life Vest",
+    "num_parts": 5,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017384.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017385",
+    "name": "Arctic Explorer, Dark Blue Wetsuit, Helmet, Dark Turquoise Airtanks",
+    "num_parts": 6,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017385.jpg",
     "theme": "",
     "parent_theme": ""
   }
