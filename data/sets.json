@@ -78824,7 +78824,7 @@
     "name": "John Hancock Center",
     "year": 2008,
     "theme_id": 252,
-    "num_parts": 69,
+    "num_parts": 72,
     "img_url": "https://cdn.rebrickable.com/media/sets/21001-1.jpg",
     "theme": "Architecture",
     "parent_theme": ""
@@ -226444,7 +226444,7 @@
     "name": "Lloyd’s Jet Mech",
     "year": 2025,
     "theme_id": 435,
-    "num_parts": 1117,
+    "num_parts": 1112,
     "img_url": "https://cdn.rebrickable.com/media/sets/71845-1.jpg",
     "theme": "Ninjago",
     "parent_theme": ""
@@ -233330,6 +233330,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "11503-1",
+    "name": "Flower Wall",
+    "year": 2026,
+    "theme_id": 769,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/11503-1.jpg",
+    "theme": "Botanicals",
+    "parent_theme": ""
+  },
+  {
     "set_num": "11504-1",
     "name": "Peace Lily",
     "year": 2026,
@@ -235458,6 +235468,56 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/951440-1.jpg",
     "theme": "Police",
     "parent_theme": "City"
+  },
+  {
+    "set_num": "951441-1",
+    "name": "Construction Worker with Wheel Loader",
+    "year": 2026,
+    "theme_id": 56,
+    "num_parts": 39,
+    "img_url": "https://cdn.rebrickable.com/media/sets/951441-1.jpg",
+    "theme": "Construction",
+    "parent_theme": "City"
+  },
+  {
+    "set_num": "951445-1",
+    "name": "Horse",
+    "year": 2026,
+    "theme_id": 494,
+    "num_parts": 38,
+    "img_url": "https://cdn.rebrickable.com/media/sets/951445-1.jpg",
+    "theme": "Friends",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "951446-1",
+    "name": "Valeria with Puppy",
+    "year": 2026,
+    "theme_id": 494,
+    "num_parts": 20,
+    "img_url": "https://cdn.rebrickable.com/media/sets/951446-1.jpg",
+    "theme": "Friends",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "951466-1",
+    "name": "Kai with Motorcycle",
+    "year": 2026,
+    "theme_id": 435,
+    "num_parts": 35,
+    "img_url": "https://cdn.rebrickable.com/media/sets/951466-1.jpg",
+    "theme": "Ninjago",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "951467-1",
+    "name": "Lloyd with Mech",
+    "year": 2026,
+    "theme_id": 435,
+    "num_parts": 45,
+    "img_url": "https://cdn.rebrickable.com/media/sets/951467-1.jpg",
+    "theme": "Ninjago",
+    "parent_theme": ""
   },
   {
     "set_num": "5009866-1",
