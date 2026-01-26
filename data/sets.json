@@ -37824,7 +37824,7 @@
     "name": "Hydro Crystallization Station",
     "year": 1998,
     "theme_id": 312,
-    "num_parts": 483,
+    "num_parts": 485,
     "img_url": "https://cdn.rebrickable.com/media/sets/6199-1.jpg",
     "theme": "Hydronauts",
     "parent_theme": "Aquazone"
@@ -52620,6 +52620,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "6101-1",
+    "name": "Boy with Green Shirt Desk Pal",
+    "year": 2002,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6101-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "6636-1",
     "name": "Police Headquarters",
     "year": 2002,
@@ -55498,6 +55508,36 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/1441-1.jpg",
     "theme": "Bionicle",
     "parent_theme": ""
+  },
+  {
+    "set_num": "1721-2",
+    "name": "Bionicle Gali Nuva Pen",
+    "year": 2003,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/1721-2.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "1722-2",
+    "name": "Bionicle Kopaka Nuva Pen",
+    "year": 2003,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/1722-2.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "1724-2",
+    "name": "Bionicle Onua Nuva Pen",
+    "year": 2003,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/1724-2.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
   },
   {
     "set_num": "1729-2",
@@ -60214,7 +60254,7 @@
     "name": "NHL Street Hockey",
     "year": 2004,
     "theme_id": 461,
-    "num_parts": 120,
+    "num_parts": 116,
     "img_url": "https://cdn.rebrickable.com/media/sets/3579-1.jpg",
     "theme": "Hockey",
     "parent_theme": "Sports"
@@ -60664,7 +60704,7 @@
     "name": "Rebel Snowspeeder [Redesign], Original Trilogy Edition box",
     "year": 2004,
     "theme_id": 158,
-    "num_parts": 211,
+    "num_parts": 216,
     "img_url": "https://cdn.rebrickable.com/media/sets/4500-2.jpg",
     "theme": "Star Wars",
     "parent_theme": ""
@@ -61564,7 +61604,7 @@
     "name": "Pop Studio",
     "year": 2004,
     "theme_id": 318,
-    "num_parts": 105,
+    "num_parts": 104,
     "img_url": "https://cdn.rebrickable.com/media/sets/5942-1.jpg",
     "theme": "Belville",
     "parent_theme": ""
@@ -61674,7 +61714,7 @@
     "name": "Fire Command Craft",
     "year": 2004,
     "theme_id": 105,
-    "num_parts": 272,
+    "num_parts": 271,
     "img_url": "https://cdn.rebrickable.com/media/sets/7046-1.jpg",
     "theme": "World City",
     "parent_theme": "Town"
@@ -62904,7 +62944,7 @@
     "name": "The Grand Tournament",
     "year": 2004,
     "theme_id": 198,
-    "num_parts": 324,
+    "num_parts": 318,
     "img_url": "https://cdn.rebrickable.com/media/sets/8779-1.jpg",
     "theme": "Knights Kingdom II",
     "parent_theme": "Castle"
@@ -64238,6 +64278,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/llca12-1.jpg",
     "theme": "Halloween",
     "parent_theme": "Seasonal"
+  },
+  {
+    "set_num": "1110-2",
+    "name": "Clikits Merchandiser",
+    "year": 2005,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/1110-2.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
   },
   {
     "set_num": "1270-2",
@@ -69324,7 +69374,7 @@
     "name": "The Batman Dragster: Catwoman Pursuit",
     "year": 2006,
     "theme_id": 697,
-    "num_parts": 93,
+    "num_parts": 92,
     "img_url": "https://cdn.rebrickable.com/media/sets/7779-1.jpg",
     "theme": "Batman",
     "parent_theme": "Super Heroes DC"
@@ -233374,7 +233424,7 @@
     "name": "Paris - City of Love",
     "year": 2026,
     "theme_id": 252,
-    "num_parts": 965,
+    "num_parts": 958,
     "img_url": "https://cdn.rebrickable.com/media/sets/21064-1.jpg",
     "theme": "Architecture",
     "parent_theme": ""
@@ -233760,6 +233810,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "40886-1",
+    "name": "Penguins in Love",
+    "year": 2026,
+    "theme_id": 232,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40886-1.jpg",
+    "theme": "Valentine",
+    "parent_theme": "Seasonal"
+  },
+  {
     "set_num": "40891-1",
     "name": "Stranger Things: WSQK Radio Station",
     "year": 2026,
@@ -233848,6 +233908,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/40957-1.jpg",
     "theme": "Easter",
     "parent_theme": "Seasonal"
+  },
+  {
+    "set_num": "40972-1",
+    "name": "Crocs",
+    "year": 2026,
+    "theme_id": 598,
+    "num_parts": 7,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40972-1.jpg",
+    "theme": "Promotional",
+    "parent_theme": ""
   },
   {
     "set_num": "42218-1",
@@ -234483,21 +234553,21 @@
     "set_num": "60503-1",
     "name": "Coast Guard Helicopter",
     "year": 2026,
-    "theme_id": 52,
+    "theme_id": 55,
     "num_parts": 551,
     "img_url": "https://cdn.rebrickable.com/media/sets/60503-1.jpg",
-    "theme": "City",
-    "parent_theme": ""
+    "theme": "Coast Guard",
+    "parent_theme": "City"
   },
   {
     "set_num": "60504-1",
     "name": "Coast Guard Rescue Boat & Helicopter",
     "year": 2026,
-    "theme_id": 52,
+    "theme_id": 55,
     "num_parts": 743,
     "img_url": "https://cdn.rebrickable.com/media/sets/60504-1.jpg",
-    "theme": "City",
-    "parent_theme": ""
+    "theme": "Coast Guard",
+    "parent_theme": "City"
   },
   {
     "set_num": "60505-1",
@@ -235480,6 +235550,26 @@
     "parent_theme": "City"
   },
   {
+    "set_num": "951442-1",
+    "name": "Cockatoo",
+    "year": 2026,
+    "theme_id": 672,
+    "num_parts": 69,
+    "img_url": "https://cdn.rebrickable.com/media/sets/951442-1.jpg",
+    "theme": "Creator 3-in-1",
+    "parent_theme": "Creator"
+  },
+  {
+    "set_num": "951443-1",
+    "name": "Car",
+    "year": 2026,
+    "theme_id": 672,
+    "num_parts": 76,
+    "img_url": "https://cdn.rebrickable.com/media/sets/951443-1.jpg",
+    "theme": "Creator 3-in-1",
+    "parent_theme": "Creator"
+  },
+  {
     "set_num": "951445-1",
     "name": "Horse",
     "year": 2026,
@@ -235598,6 +235688,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/5010098-1.jpg",
     "theme": "Houseware",
     "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010203-1",
+    "name": "Brick Clog",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 19,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010203-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
   },
   {
     "set_num": "6581056-1",
