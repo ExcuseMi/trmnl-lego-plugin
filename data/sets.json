@@ -20074,7 +20074,7 @@
     "name": "TECHNIC Beams and Plates [Blue]",
     "year": 1987,
     "theme_id": 453,
-    "num_parts": 18,
+    "num_parts": 20,
     "img_url": "https://cdn.rebrickable.com/media/sets/5232-1.jpg",
     "theme": "Technic",
     "parent_theme": "Service Packs"
@@ -233916,6 +233916,16 @@
     "theme_id": 598,
     "num_parts": 7,
     "img_url": "https://cdn.rebrickable.com/media/sets/40972-1.jpg",
+    "theme": "Promotional",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "40973-1",
+    "name": "Crocs",
+    "year": 2026,
+    "theme_id": 598,
+    "num_parts": 16,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40973-1.jpg",
     "theme": "Promotional",
     "parent_theme": ""
   },
