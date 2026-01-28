@@ -15290,6 +15290,16 @@
     "parent_theme": "Town"
   },
   {
+    "set_num": "17-1",
+    "name": "Hinges",
+    "year": 1985,
+    "theme_id": 443,
+    "num_parts": 3,
+    "img_url": "https://cdn.rebrickable.com/media/sets/17-1.jpg",
+    "theme": "Service Packs",
+    "parent_theme": ""
+  },
+  {
     "set_num": "18-1",
     "name": "Tree and Signs",
     "year": 1985,
@@ -44684,7 +44694,7 @@
     "name": "Dreamstar Watch",
     "year": 2000,
     "theme_id": 732,
-    "num_parts": 64,
+    "num_parts": 65,
     "img_url": "https://cdn.rebrickable.com/media/sets/4373-1.jpg",
     "theme": "Clocks and Watches",
     "parent_theme": "Gear"
@@ -52974,7 +52984,7 @@
     "name": "Life On Mars Watch",
     "year": 2002,
     "theme_id": 732,
-    "num_parts": 0,
+    "num_parts": 40,
     "img_url": "https://cdn.rebrickable.com/media/sets/7386-1.jpg",
     "theme": "Clocks and Watches",
     "parent_theme": "Gear"
@@ -69744,7 +69754,7 @@
     "name": "Tow Truck",
     "year": 2006,
     "theme_id": 1,
-    "num_parts": 1879,
+    "num_parts": 1878,
     "img_url": "https://cdn.rebrickable.com/media/sets/8285-1.jpg",
     "theme": "Technic",
     "parent_theme": ""
@@ -91864,7 +91874,7 @@
     "name": "Big Bentley Bust Out",
     "year": 2011,
     "theme_id": 269,
-    "num_parts": 745,
+    "num_parts": 744,
     "img_url": "https://cdn.rebrickable.com/media/sets/8639-1.jpg",
     "theme": "Cars",
     "parent_theme": ""
@@ -233360,6 +233370,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "11373-1",
+    "name": "The Lord of the Rings: Sauron's Helmet",
+    "year": 2026,
+    "theme_id": 721,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/11373-1.jpg",
+    "theme": "Icons",
+    "parent_theme": ""
+  },
+  {
     "set_num": "11384-1",
     "name": "Golden Retriever Puppy",
     "year": 2026,
@@ -233921,7 +233941,7 @@
   },
   {
     "set_num": "40973-1",
-    "name": "Crocs",
+    "name": "Crocs Multi",
     "year": 2026,
     "theme_id": 598,
     "num_parts": 16,
@@ -234197,6 +234217,16 @@
     "num_parts": 400,
     "img_url": "https://cdn.rebrickable.com/media/sets/42699-1.jpg",
     "theme": "Friends",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "43019-1",
+    "name": "Soccer Ball",
+    "year": 2026,
+    "theme_id": 787,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/43019-1.jpg",
+    "theme": "Editions",
     "parent_theme": ""
   },
   {
