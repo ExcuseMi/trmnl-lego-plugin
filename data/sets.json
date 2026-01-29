@@ -69754,7 +69754,7 @@
     "name": "Tow Truck",
     "year": 2006,
     "theme_id": 1,
-    "num_parts": 1878,
+    "num_parts": 1879,
     "img_url": "https://cdn.rebrickable.com/media/sets/8285-1.jpg",
     "theme": "Technic",
     "parent_theme": ""
@@ -197514,7 +197514,7 @@
     "name": "LEGO Store 30th Anniversary Exclusive Set, Mall of America, Bloomington, MN",
     "year": 2022,
     "theme_id": 598,
-    "num_parts": 7,
+    "num_parts": 8,
     "img_url": "https://cdn.rebrickable.com/media/sets/6435672-1.jpg",
     "theme": "Promotional",
     "parent_theme": ""
@@ -234990,6 +234990,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "75420-1",
+    "name": "SMART Play: Luke's Landspeeder",
+    "year": 2026,
+    "theme_id": 158,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/75420-1.jpg",
+    "theme": "Star Wars",
+    "parent_theme": ""
+  },
+  {
     "set_num": "75421-1",
     "name": "Darth Vader’s TIE Fighter",
     "year": 2026,
@@ -235000,12 +235010,52 @@
     "parent_theme": ""
   },
   {
+    "set_num": "75422-1",
+    "name": "SMART Play: Yoda's Hut and Jedi Training",
+    "year": 2026,
+    "theme_id": 158,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/75422-1.jpg",
+    "theme": "Star Wars",
+    "parent_theme": ""
+  },
+  {
     "set_num": "75423-1",
     "name": "Luke's Red Five X-wing",
     "year": 2026,
     "theme_id": 158,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/75423-1.jpg",
+    "theme": "Star Wars",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "75424-1",
+    "name": "SMART Play: AT-ST Attack on Endor",
+    "year": 2026,
+    "theme_id": 158,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/75424-1.jpg",
+    "theme": "Star Wars",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "75425-1",
+    "name": "SMART Play: Mos Eisley Cantina",
+    "year": 2026,
+    "theme_id": 158,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/75425-1.jpg",
+    "theme": "Star Wars",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "75426-1",
+    "name": "SMART Play: Millennium Falcon",
+    "year": 2026,
+    "theme_id": 158,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/75426-1.jpg",
     "theme": "Star Wars",
     "parent_theme": ""
   },
