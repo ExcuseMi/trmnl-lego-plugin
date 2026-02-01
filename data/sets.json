@@ -233230,6 +233230,36 @@
     "parent_theme": "Disney"
   },
   {
+    "set_num": "10466-1",
+    "name": "Train Ride with Grandpa Pig",
+    "year": 2026,
+    "theme_id": 789,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/10466-1.jpg",
+    "theme": "Peppa Pig",
+    "parent_theme": "Duplo"
+  },
+  {
+    "set_num": "10467-1",
+    "name": "Family House",
+    "year": 2026,
+    "theme_id": 789,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/10467-1.jpg",
+    "theme": "Peppa Pig",
+    "parent_theme": "Duplo"
+  },
+  {
+    "set_num": "10468-1",
+    "name": "Tractor and Market",
+    "year": 2026,
+    "theme_id": 789,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/10468-1.jpg",
+    "theme": "Peppa Pig",
+    "parent_theme": "Duplo"
+  },
+  {
     "set_num": "10470-1",
     "name": "3 in 1 Modern Family House with Figures",
     "year": 2026,
@@ -233380,6 +233410,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "11375-1",
+    "name": "Ferrari F2004 & Michael Schumacher",
+    "year": 2026,
+    "theme_id": 721,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/11375-1.jpg",
+    "theme": "Icons",
+    "parent_theme": ""
+  },
+  {
     "set_num": "11384-1",
     "name": "Golden Retriever Puppy",
     "year": 2026,
@@ -233396,6 +233436,16 @@
     "theme_id": 769,
     "num_parts": 576,
     "img_url": "https://cdn.rebrickable.com/media/sets/11501-1.jpg",
+    "theme": "Botanicals",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "11502-1",
+    "name": "Sunflower Bouquet",
+    "year": 2026,
+    "theme_id": 769,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/11502-1.jpg",
     "theme": "Botanicals",
     "parent_theme": ""
   },
@@ -233436,6 +233486,16 @@
     "theme_id": 769,
     "num_parts": 482,
     "img_url": "https://cdn.rebrickable.com/media/sets/11509-1.jpg",
+    "theme": "Botanicals",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "11510-1",
+    "name": "Magnolia Branches",
+    "year": 2026,
+    "theme_id": 769,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/11510-1.jpg",
     "theme": "Botanicals",
     "parent_theme": ""
   },
@@ -233690,12 +233750,32 @@
     "parent_theme": ""
   },
   {
+    "set_num": "30734-1",
+    "name": "Mini F1 ACADEMY Car",
+    "year": 2026,
+    "theme_id": 601,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/30734-1.jpg",
+    "theme": "Speed Champions",
+    "parent_theme": ""
+  },
+  {
     "set_num": "30735-1",
     "name": "Hot Rod Car",
     "year": 2026,
     "theme_id": 1,
     "num_parts": 83,
     "img_url": "https://cdn.rebrickable.com/media/sets/30735-1.jpg",
+    "theme": "Technic",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "30736-1",
+    "name": "White Seaplane",
+    "year": 2026,
+    "theme_id": 1,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/30736-1.jpg",
     "theme": "Technic",
     "parent_theme": ""
   },
@@ -233800,6 +233880,16 @@
     "parent_theme": "Creator"
   },
   {
+    "set_num": "40861-1",
+    "name": "Sulley, Mike and Boo Figures",
+    "year": 2026,
+    "theme_id": 610,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40861-1.jpg",
+    "theme": "Brickheadz",
+    "parent_theme": ""
+  },
+  {
     "set_num": "40863-1",
     "name": "Easter Egg Basket",
     "year": 2026,
@@ -233830,11 +233920,21 @@
     "parent_theme": ""
   },
   {
+    "set_num": "40881-1",
+    "name": "Supply Llama & Fishstick Figures",
+    "year": 2026,
+    "theme_id": 610,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40881-1.jpg",
+    "theme": "Brickheadz",
+    "parent_theme": ""
+  },
+  {
     "set_num": "40886-1",
     "name": "Penguins in Love",
     "year": 2026,
     "theme_id": 232,
-    "num_parts": 0,
+    "num_parts": 278,
     "img_url": "https://cdn.rebrickable.com/media/sets/40886-1.jpg",
     "theme": "Valentine",
     "parent_theme": "Seasonal"
@@ -233867,6 +233967,16 @@
     "num_parts": 174,
     "img_url": "https://cdn.rebrickable.com/media/sets/40905-1.jpg",
     "theme": "Seasonal",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "40906-1",
+    "name": "Restaurants of the World: Japan",
+    "year": 2026,
+    "theme_id": 721,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40906-1.jpg",
+    "theme": "Icons",
     "parent_theme": ""
   },
   {
@@ -233910,6 +234020,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "40921-1",
+    "name": "Up-Scaled Blue Astronaut Minifigure",
+    "year": 2026,
+    "theme_id": 301,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40921-1.jpg",
+    "theme": "Other",
+    "parent_theme": ""
+  },
+  {
     "set_num": "40922-1",
     "name": "Lilo & Stitch: Angel",
     "year": 2026,
@@ -233917,6 +234037,16 @@
     "num_parts": 133,
     "img_url": "https://cdn.rebrickable.com/media/sets/40922-1.jpg",
     "theme": "Brickheadz",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "40953-1",
+    "name": "London Bus",
+    "year": 2026,
+    "theme_id": 22,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40953-1.jpg",
+    "theme": "Creator",
     "parent_theme": ""
   },
   {
@@ -234320,6 +234450,16 @@
     "parent_theme": "Disney"
   },
   {
+    "set_num": "43300-1",
+    "name": "Winnie the Pooh",
+    "year": 2026,
+    "theme_id": 608,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/43300-1.jpg",
+    "theme": "Disney",
+    "parent_theme": ""
+  },
+  {
     "set_num": "43303-1",
     "name": "Mini Jasmine & Rapunzel",
     "year": 2026,
@@ -234328,6 +234468,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/43303-1.jpg",
     "theme": "Disney Princess",
     "parent_theme": "Disney"
+  },
+  {
+    "set_num": "43305-1",
+    "name": "Piglet's Birthday Fun",
+    "year": 2026,
+    "theme_id": 608,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/43305-1.jpg",
+    "theme": "Disney",
+    "parent_theme": ""
   },
   {
     "set_num": "45200-1",
@@ -234638,6 +234788,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/66813-1.jpg",
     "theme": "Series 28 Minifigures",
     "parent_theme": "Collectible Minifigures"
+  },
+  {
+    "set_num": "66817-1",
+    "name": "Hearts & Flowers Gift Set",
+    "year": 2026,
+    "theme_id": 301,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/66817-1.jpg",
+    "theme": "Other",
+    "parent_theme": ""
   },
   {
     "set_num": "71051-0",
