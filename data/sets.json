@@ -69414,7 +69414,7 @@
     "name": "The Batwing: The Joker's Aerial Assault",
     "year": 2006,
     "theme_id": 697,
-    "num_parts": 530,
+    "num_parts": 517,
     "img_url": "https://cdn.rebrickable.com/media/sets/7782-1.jpg",
     "theme": "Batman",
     "parent_theme": "Super Heroes DC"
@@ -231950,6 +231950,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "6592304-1",
+    "name": "Gaming stickers",
+    "year": 2025,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6592304-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
     "set_num": "6593417-1",
     "name": "Mosaic",
     "year": 2025,
@@ -233424,7 +233434,7 @@
     "name": "Golden Retriever Puppy",
     "year": 2026,
     "theme_id": 721,
-    "num_parts": 0,
+    "num_parts": 2102,
     "img_url": "https://cdn.rebrickable.com/media/sets/11384-1.jpg",
     "theme": "Icons",
     "parent_theme": ""
@@ -233454,7 +233464,7 @@
     "name": "Flower Wall",
     "year": 2026,
     "theme_id": 769,
-    "num_parts": 0,
+    "num_parts": 879,
     "img_url": "https://cdn.rebrickable.com/media/sets/11503-1.jpg",
     "theme": "Botanicals",
     "parent_theme": ""
@@ -234054,7 +234064,7 @@
     "name": "Spring Wreath",
     "year": 2026,
     "theme_id": 229,
-    "num_parts": 0,
+    "num_parts": 747,
     "img_url": "https://cdn.rebrickable.com/media/sets/40957-1.jpg",
     "theme": "Easter",
     "parent_theme": "Seasonal"
@@ -235948,6 +235958,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/5010203-1.jpg",
     "theme": "Gear",
     "parent_theme": ""
+  },
+  {
+    "set_num": "5010210-1",
+    "name": "Insiders Botanicals Greeting Card",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010210-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
   },
   {
     "set_num": "6581056-1",
