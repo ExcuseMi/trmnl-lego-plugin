@@ -183984,7 +183984,7 @@
     "name": "Cat Grooming Salon",
     "year": 2021,
     "theme_id": 494,
-    "num_parts": 25,
+    "num_parts": 24,
     "img_url": "https://cdn.rebrickable.com/media/sets/562103-1.jpg",
     "theme": "Friends",
     "parent_theme": ""
@@ -233918,6 +233918,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/40867-1.jpg",
     "theme": "Valentine",
     "parent_theme": "Seasonal"
+  },
+  {
+    "set_num": "40878-1",
+    "name": "Teenage Mutant Ninja Turtles Figures",
+    "year": 2026,
+    "theme_id": 610,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40878-1.jpg",
+    "theme": "Brickheadz",
+    "parent_theme": ""
   },
   {
     "set_num": "40879-1",
