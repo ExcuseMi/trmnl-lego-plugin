@@ -11733,11 +11733,11 @@
     "set_num": "7820-1",
     "name": "Mail Van",
     "year": 1980,
-    "theme_id": 233,
+    "theme_id": 235,
     "num_parts": 212,
     "img_url": "https://cdn.rebrickable.com/media/sets/7820-1.jpg",
-    "theme": "Train",
-    "parent_theme": ""
+    "theme": "4.5V",
+    "parent_theme": "Train"
   },
   {
     "set_num": "7822-1",
@@ -233530,6 +233530,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "21376-1",
+    "name": "Orange Cat",
+    "year": 2026,
+    "theme_id": 576,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/21376-1.jpg",
+    "theme": "LEGO Ideas and CUUSOO",
+    "parent_theme": ""
+  },
+  {
     "set_num": "21583-1",
     "name": "Steve's Taiga Adventure",
     "year": 2026,
@@ -233704,7 +233714,7 @@
     "name": "Dumbledore's Office with Harry Potter",
     "year": 2026,
     "theme_id": 246,
-    "num_parts": 0,
+    "num_parts": 42,
     "img_url": "https://cdn.rebrickable.com/media/sets/30724-1.jpg",
     "theme": "Harry Potter",
     "parent_theme": ""
@@ -233714,7 +233724,7 @@
     "name": "Spider-Man vs. Anti-Venom Heist",
     "year": 2026,
     "theme_id": 706,
-    "num_parts": 0,
+    "num_parts": 31,
     "img_url": "https://cdn.rebrickable.com/media/sets/30725-1.jpg",
     "theme": "Spider-Man",
     "parent_theme": "Super Heroes Marvel"
@@ -233724,7 +233734,7 @@
     "name": "Batman: Bruce Wayne and the Batsuit",
     "year": 2026,
     "theme_id": 697,
-    "num_parts": 0,
+    "num_parts": 35,
     "img_url": "https://cdn.rebrickable.com/media/sets/30726-1.jpg",
     "theme": "Batman",
     "parent_theme": "Super Heroes DC"
@@ -233744,7 +233754,7 @@
     "name": "Alex's Campfire Conflict",
     "year": 2026,
     "theme_id": 577,
-    "num_parts": 0,
+    "num_parts": 31,
     "img_url": "https://cdn.rebrickable.com/media/sets/30732-1.jpg",
     "theme": "Minecraft",
     "parent_theme": ""
