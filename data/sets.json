@@ -186854,7 +186854,7 @@
     "name": "Build Valentine's Day Fun",
     "year": 2021,
     "theme_id": 761,
-    "num_parts": 51,
+    "num_parts": 52,
     "img_url": "https://cdn.rebrickable.com/media/sets/5009388-1.jpg",
     "theme": "Activity Books with LEGO Parts",
     "parent_theme": "Books"
@@ -233664,7 +233664,7 @@
     "name": "Cute Easter Bunny",
     "year": 2026,
     "theme_id": 229,
-    "num_parts": 0,
+    "num_parts": 66,
     "img_url": "https://cdn.rebrickable.com/media/sets/30716-1.jpg",
     "theme": "Easter",
     "parent_theme": "Seasonal"
@@ -233774,7 +233774,7 @@
     "name": "Badnik: Skorp",
     "year": 2026,
     "theme_id": 747,
-    "num_parts": 0,
+    "num_parts": 80,
     "img_url": "https://cdn.rebrickable.com/media/sets/30733-1.jpg",
     "theme": "Sonic The Hedgehog",
     "parent_theme": ""
@@ -236017,6 +236017,16 @@
     "num_parts": 41,
     "img_url": "https://cdn.rebrickable.com/media/sets/6614213-1.jpg",
     "theme": "City",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6614223-1",
+    "name": "Little HeiHei",
+    "year": 2026,
+    "theme_id": 608,
+    "num_parts": 32,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6614223-1.jpg",
+    "theme": "Disney",
     "parent_theme": ""
   },
   {
