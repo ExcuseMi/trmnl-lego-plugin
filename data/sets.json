@@ -135514,7 +135514,7 @@
     "name": "Classic Knights Minifigure",
     "year": 2016,
     "theme_id": 199,
-    "num_parts": 45,
+    "num_parts": 41,
     "img_url": "https://cdn.rebrickable.com/media/sets/5004419-1.jpg",
     "theme": "Lion Knights",
     "parent_theme": "Castle"
@@ -235144,7 +235144,7 @@
     "name": "The Old Town 15th Anniversary",
     "year": 2026,
     "theme_id": 435,
-    "num_parts": 4856,
+    "num_parts": 4852,
     "img_url": "https://cdn.rebrickable.com/media/sets/71861-1.jpg",
     "theme": "Ninjago",
     "parent_theme": ""
@@ -236020,6 +236020,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "6614222-1",
+    "name": "Unicorn",
+    "year": 2026,
+    "theme_id": 598,
+    "num_parts": 38,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6614222-1.jpg",
+    "theme": "Promotional",
+    "parent_theme": ""
+  },
+  {
     "set_num": "6614223-1",
     "name": "Little HeiHei",
     "year": 2026,
@@ -236037,6 +236047,16 @@
     "num_parts": 39,
     "img_url": "https://cdn.rebrickable.com/media/sets/6614229-1.jpg",
     "theme": "Ninjago",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6631373-1",
+    "name": "Baby Puppy",
+    "year": 2026,
+    "theme_id": 598,
+    "num_parts": 40,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6631373-1.jpg",
+    "theme": "Promotional",
     "parent_theme": ""
   },
   {
@@ -258307,7 +258327,7 @@
   },
   {
     "fig_num": "fig-002928",
-    "name": "Time Twin, Old (Acronix / Krux)",
+    "name": "Time Twin, Old (Krux)",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002928.jpg",
     "theme": "",
@@ -274603,7 +274623,7 @@
   },
   {
     "fig_num": "fig-005161",
-    "name": "Pirate - Anchor Tattoo, Blue Legs, Red Bandana",
+    "name": "Pirate - Dark Purple Vest, Anchor Tattoo, Blue Legs, Red Bandana",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005161.jpg",
     "theme": "",
