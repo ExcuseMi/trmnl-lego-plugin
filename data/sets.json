@@ -224901,7 +224901,7 @@
   },
   {
     "set_num": "45656-1",
-    "name": "LE Coral Adapter",
+    "name": "AC Cable",
     "year": 2025,
     "theme_id": 507,
     "num_parts": 1,
@@ -232900,6 +232900,26 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "5907762001342-1",
+    "name": "Ninjago: Dragons Rising: Discover Ninja Adventures",
+    "year": 2025,
+    "theme_id": 761,
+    "num_parts": 5,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5907762001342-1.jpg",
+    "theme": "Activity Books with LEGO Parts",
+    "parent_theme": "Books"
+  },
+  {
+    "set_num": "5907762001359-1",
+    "name": "Star Wars: Sekrety ciemnej strony Mocy",
+    "year": 2025,
+    "theme_id": 761,
+    "num_parts": 5,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5907762001359-1.jpg",
+    "theme": "Activity Books with LEGO Parts",
+    "parent_theme": "Books"
+  },
+  {
     "set_num": "8714304962552-1",
     "name": "Hallmark Keepsake Christmas Tree Ornament - Kai",
     "year": 2025,
@@ -233430,6 +233450,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "11376-1",
+    "name": "Ford Model T",
+    "year": 2026,
+    "theme_id": 721,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/11376-1.jpg",
+    "theme": "Icons",
+    "parent_theme": ""
+  },
+  {
     "set_num": "11384-1",
     "name": "Golden Retriever Puppy",
     "year": 2026,
@@ -233536,6 +233566,16 @@
     "theme_id": 576,
     "num_parts": 750,
     "img_url": "https://cdn.rebrickable.com/media/sets/21365-1.jpg",
+    "theme": "LEGO Ideas and CUUSOO",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "21366-1",
+    "name": "Floating Sea Otters",
+    "year": 2026,
+    "theme_id": 576,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/21366-1.jpg",
     "theme": "LEGO Ideas and CUUSOO",
     "parent_theme": ""
   },
@@ -233816,6 +233856,16 @@
     "theme_id": 709,
     "num_parts": 1892,
     "img_url": "https://cdn.rebrickable.com/media/sets/31218-1.jpg",
+    "theme": "LEGO Art",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "31220-1",
+    "name": "Claude Monet – Bridge over a Pond of Water Lilies",
+    "year": 2026,
+    "theme_id": 709,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/31220-1.jpg",
     "theme": "LEGO Art",
     "parent_theme": ""
   },
@@ -234561,7 +234611,7 @@
   },
   {
     "set_num": "45520-1",
-    "name": "Computer Science & AI Kit K–2",
+    "name": "Computer Science & AI Kit K-2",
     "year": 2026,
     "theme_id": 507,
     "num_parts": 0,
@@ -234571,7 +234621,7 @@
   },
   {
     "set_num": "45521-1",
-    "name": "Computer Science & AI Kit 3–5",
+    "name": "Computer Science & AI Kit 3-5",
     "year": 2026,
     "theme_id": 507,
     "num_parts": 0,
@@ -234581,7 +234631,7 @@
   },
   {
     "set_num": "45522-1",
-    "name": "Computer Science & AI Kit 6–8",
+    "name": "Computer Science & AI Kit 6-8",
     "year": 2026,
     "theme_id": 507,
     "num_parts": 0,
