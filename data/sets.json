@@ -190601,7 +190601,7 @@
   },
   {
     "set_num": "40557-1",
-    "name": "Defence of Hoth",
+    "name": "Defense of Hoth",
     "year": 2022,
     "theme_id": 158,
     "num_parts": 64,
@@ -219300,6 +219300,36 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "5010355-1",
+    "name": "ReBuild Activity Cards: Space",
+    "year": 2024,
+    "theme_id": 741,
+    "num_parts": 25,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010355-1.jpg",
+    "theme": "Tabletop Games and Puzzles",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010356-1",
+    "name": "ReBuild Activity Cards: Animals",
+    "year": 2024,
+    "theme_id": 741,
+    "num_parts": 25,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010356-1.jpg",
+    "theme": "Tabletop Games and Puzzles",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010357-1",
+    "name": "ReBuild Activity Cards: Magic",
+    "year": 2024,
+    "theme_id": 741,
+    "num_parts": 25,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010357-1.jpg",
+    "theme": "Tabletop Games and Puzzles",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "6476261-1",
     "name": "5th Anniversary Cake",
     "year": 2024,
@@ -221606,36 +221636,6 @@
     "theme_id": 741,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/9781837250615-1.jpg",
-    "theme": "Tabletop Games and Puzzles",
-    "parent_theme": "Gear"
-  },
-  {
-    "set_num": "9781837250622-1",
-    "name": "ReBuild Activity Cards: Animals",
-    "year": 2024,
-    "theme_id": 741,
-    "num_parts": 25,
-    "img_url": "https://cdn.rebrickable.com/media/sets/9781837250622-1.jpg",
-    "theme": "Tabletop Games and Puzzles",
-    "parent_theme": "Gear"
-  },
-  {
-    "set_num": "9781837250639-1",
-    "name": "ReBuild Activity Cards: Magic",
-    "year": 2024,
-    "theme_id": 741,
-    "num_parts": 25,
-    "img_url": "https://cdn.rebrickable.com/media/sets/9781837250639-1.jpg",
-    "theme": "Tabletop Games and Puzzles",
-    "parent_theme": "Gear"
-  },
-  {
-    "set_num": "9781837250646-1",
-    "name": "ReBuild Activity Cards: Space",
-    "year": 2024,
-    "theme_id": 741,
-    "num_parts": 25,
-    "img_url": "https://cdn.rebrickable.com/media/sets/9781837250646-1.jpg",
     "theme": "Tabletop Games and Puzzles",
     "parent_theme": "Gear"
   },
@@ -231370,6 +231370,46 @@
     "parent_theme": ""
   },
   {
+    "set_num": "5010358-1",
+    "name": "ReCreate Activity Cards: Castle",
+    "year": 2025,
+    "theme_id": 741,
+    "num_parts": 26,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010358-1.jpg",
+    "theme": "Tabletop Games and Puzzles",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010359-1",
+    "name": "ReCreate Activity Cards: Tech",
+    "year": 2025,
+    "theme_id": 741,
+    "num_parts": 25,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010359-1.jpg",
+    "theme": "Tabletop Games and Puzzles",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010360-1",
+    "name": "ReCreate Activity Cards: Pets",
+    "year": 2025,
+    "theme_id": 741,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010360-1.jpg",
+    "theme": "Tabletop Games and Puzzles",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010361-1",
+    "name": "Ninjago: Dragons Rising: ReCreate Activity Cards: Ninja Adventures",
+    "year": 2025,
+    "theme_id": 741,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010361-1.jpg",
+    "theme": "Tabletop Games and Puzzles",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "6458401-1",
     "name": "Party Glasses",
     "year": 2025,
@@ -233150,16 +233190,6 @@
     "parent_theme": "Books"
   },
   {
-    "set_num": "9783960809319-1",
-    "name": "ReCreate Activity Cards: Dog, Cat & Co.",
-    "year": 2025,
-    "theme_id": 741,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/9783960809319-1.jpg",
-    "theme": "Tabletop Games and Puzzles",
-    "parent_theme": "Gear"
-  },
-  {
     "set_num": "9788325346386-1",
     "name": "Jurassic World: Jurajska Przygoda Bena",
     "year": 2025,
@@ -234017,6 +234047,16 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/40881-1.jpg",
     "theme": "Brickheadz",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "40885-1",
+    "name": "Duck Family",
+    "year": 2026,
+    "theme_id": 22,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40885-1.jpg",
+    "theme": "Creator",
     "parent_theme": ""
   },
   {
@@ -235720,6 +235760,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "112508-1",
+    "name": "Lloyd vs. Dragonian Warrior",
+    "year": 2026,
+    "theme_id": 435,
+    "num_parts": 14,
+    "img_url": "https://cdn.rebrickable.com/media/sets/112508-1.jpg",
+    "theme": "Ninjago",
+    "parent_theme": ""
+  },
+  {
     "set_num": "854327-1",
     "name": "Simba Key Chain",
     "year": 2026,
@@ -236050,6 +236100,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "5010327-1",
+    "name": "DK Super Readers Level 1: Ninjago: Dragons Rising: Meet the Ninja",
+    "year": 2026,
+    "theme_id": 759,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010327-1.jpg",
+    "theme": "Story Books",
+    "parent_theme": "Books"
+  },
+  {
     "set_num": "6581056-1",
     "name": "Series 28 - Sealed Box",
     "year": 2026,
@@ -236118,16 +236178,6 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/5060093915167-1.jpg",
     "theme": "Gear",
     "parent_theme": ""
-  },
-  {
-    "set_num": "9780241785829-1",
-    "name": "DK Super Readers Level 1: Ninjago: Dragons Rising: Meet the Ninja",
-    "year": 2026,
-    "theme_id": 759,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/9780241785829-1.jpg",
-    "theme": "Story Books",
-    "parent_theme": "Books"
   },
   {
     "set_num": "9780241785836-1",
