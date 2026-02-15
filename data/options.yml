@@ -58,7 +58,7 @@
   - 9V (69): 9v|1|69
   - Action Wheelers (9): action-wheelers|1|9
   - Activity Books (230): activity-books|1|230
-  - Activity Books with LEGO Parts (403): activity-books-with-lego-parts|1|403
+  - Activity Books with LEGO Parts (404): activity-books-with-lego-parts|1|404
   - Advent (5): advent|1|5
   - Agents (13): agents|1|13
   - Airlines (16): airlines|1|16
@@ -98,7 +98,7 @@
   - Books (1): books|1|1
   - Botanicals (38): botanicals|1|38
   - Brick Sketches (8): brick-sketches|1|8
-  - Brickheadz (188): brickheadz|1|188
+  - Brickheadz (189): brickheadz|1|189
   - BrickLink Designer Program (63): bricklink-designer-program|1|63
   - Bricks & More (67): bricks-more|1|67
   - Bricktober (43): bricktober|1|43
@@ -246,7 +246,7 @@
   - LEGO Art (25): lego-art|1|25
   - LEGO Brand Store (111): lego-brand-store|1|111
   - LEGO Exclusive (68): lego-exclusive|1|68
-  - LEGO Ideas and CUUSOO (89): lego-ideas-and-cuusoo|1|89
+  - LEGO Ideas and CUUSOO (90): lego-ideas-and-cuusoo|1|90
   - LEGO Originals (19): lego-originals|1|19
   - Legoland Parks (34): legoland-parks|1|34
   - Legoville (76): legoville|1|76
@@ -287,13 +287,13 @@
   - Nexo Knights (104): nexo-knights|1|104
   - Nike (3): nike|1|3
   - Ninja (31): ninja|1|31
-  - Ninjago (607): ninjago|1|607
+  - Ninjago (608): ninjago|1|608
   - Non-fiction Books (173): non-fiction-books|1|173
   - NXT (30): nxt|1|30
   - Off-Road (12): off-road|1|12
   - One Piece (6): one-piece|1|6
   - Orient Expedition (22): orient-expedition|1|22
-  - Other (97): other|1|97
+  - Other (98): other|1|98
   - Outback (5): outback|1|5
   - Overwatch (9): overwatch|1|9
   - Paradisa (18): paradisa|1|18
@@ -318,7 +318,7 @@
   - Primo (114): primo|1|114
   - Prince of Persia (6): prince-of-persia|1|6
   - Princess Castle (6): princess-castle|1|6
-  - Promotional (182): promotional|1|182
+  - Promotional (183): promotional|1|183
   - Protectors (6): protectors|1|6
   - Quatro (9): quatro|1|9
   - Race (16): race|1|16
@@ -389,7 +389,7 @@
   - Sports (4): sports|1|4
   - Spybotics (4): spybotics|1|4
   - Spyrius (9): spyrius|1|9
-  - Star Wars (968): star-wars|1|968
+  - Star Wars (973): star-wars|1|973
   - Stationery and Office Supplies (590): stationery-and-office-supplies|1|590
   - Stingrays (5): stingrays|1|5
   - Storage (165): storage|1|165
@@ -403,7 +403,7 @@
   - Superman (9): superman|1|9
   - Supplemental (335): supplemental|1|335
   - System (49): system|1|49
-  - Tabletop Games and Puzzles (61): tabletop-games-and-puzzles|1|61
+  - Tabletop Games and Puzzles (63): tabletop-games-and-puzzles|1|63
   - Team GB (12): team-gb|1|12
   - Technic (769): technic|1|769
   - Teenage Mutant Ninja Turtles (20): teenage-mutant-ninja-turtles|1|20
@@ -468,7 +468,7 @@
   optional: true
 - keyname: themes_brickset
   field_type: select
-  name: Filter by Themes – Brickset (173)
+  name: Filter by Themes – Brickset (172)
   description: <strong>Required:</strong> Select at least one theme, OR set a min/max year below. Only applicable when using Brickset as your data source.
   multiple: true
   options:
@@ -644,7 +644,6 @@
   - Xtra: Xtra
   - Znap: Znap
   - tbd: tbd
-  - '{Undefined}': '{Undefined}'
   help_text: Use <kbd>⌘</kbd>+<kbd>click</kbd> or <kbd>Ctrl</kbd>+<kbd>click</kbd> to select multiple themes.<br /><strong>You must select at least one theme OR specify a year range.</strong>
   optional: true
 - keyname: brickset_order_by

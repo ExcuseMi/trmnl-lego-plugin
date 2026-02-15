@@ -46100,6 +46100,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "00747-1",
+    "name": "BIONICLE Quest for Makuta: Adventure Game",
+    "year": 2001,
+    "theme_id": 741,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/00747-1.jpg",
+    "theme": "Tabletop Games and Puzzles",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "1100-1",
     "name": "Sky Pirates",
     "year": 2001,
@@ -172914,7 +172924,7 @@
     "name": "Avengers Tower Battle",
     "year": 2020,
     "theme_id": 702,
-    "num_parts": 718,
+    "num_parts": 717,
     "img_url": "https://cdn.rebrickable.com/media/sets/76166-1.jpg",
     "theme": "Avengers",
     "parent_theme": "Super Heroes Marvel"
@@ -205374,7 +205384,7 @@
     "name": "Endgame Final Battle",
     "year": 2023,
     "theme_id": 781,
-    "num_parts": 794,
+    "num_parts": 795,
     "img_url": "https://cdn.rebrickable.com/media/sets/76266-1.jpg",
     "theme": "The Infinity Saga",
     "parent_theme": "Super Heroes Marvel"
@@ -222784,7 +222794,7 @@
     "name": "Willy Wonka & the Chocolate Factory",
     "year": 2025,
     "theme_id": 576,
-    "num_parts": 2026,
+    "num_parts": 2025,
     "img_url": "https://cdn.rebrickable.com/media/sets/21360-1.jpg",
     "theme": "LEGO Ideas and CUUSOO",
     "parent_theme": ""
@@ -230064,7 +230074,7 @@
     "name": "LEGO Arcade Race",
     "year": 2025,
     "theme_id": 598,
-    "num_parts": 115,
+    "num_parts": 119,
     "img_url": "https://cdn.rebrickable.com/media/sets/5009378-1.jpg",
     "theme": "Promotional",
     "parent_theme": ""
@@ -233044,7 +233054,7 @@
     "name": "Dreamzzz: Build and Stick: Z-Blob",
     "year": 2025,
     "theme_id": 757,
-    "num_parts": 0,
+    "num_parts": 44,
     "img_url": "https://cdn.rebrickable.com/media/sets/9781464235344-1.jpg",
     "theme": "Ideas Books",
     "parent_theme": "Books"
@@ -233134,7 +233144,7 @@
     "name": "Classic: 5-Minute Builds",
     "year": 2025,
     "theme_id": 757,
-    "num_parts": 0,
+    "num_parts": 46,
     "img_url": "https://cdn.rebrickable.com/media/sets/9781837250851-1.jpg",
     "theme": "Ideas Books",
     "parent_theme": "Books"
@@ -233610,6 +233620,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "21368-1",
+    "name": "Peanuts: Snoopy's Doghouse",
+    "year": 2026,
+    "theme_id": 576,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/21368-1.jpg",
+    "theme": "LEGO Ideas and CUUSOO",
+    "parent_theme": ""
+  },
+  {
     "set_num": "21376-1",
     "name": "Orange Cat",
     "year": 2026,
@@ -233990,6 +234010,16 @@
     "parent_theme": "Creator"
   },
   {
+    "set_num": "40856-1",
+    "name": "The Mandalorian and Grogu: Allies & Villains",
+    "year": 2026,
+    "theme_id": 610,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40856-1.jpg",
+    "theme": "Brickheadz",
+    "parent_theme": ""
+  },
+  {
     "set_num": "40861-1",
     "name": "Sulley, Mike and Boo Figures",
     "year": 2026,
@@ -234177,6 +234207,16 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/40953-1.jpg",
     "theme": "Creator",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "40955-1",
+    "name": "Maersk Dual-Fuel Container Vessel",
+    "year": 2026,
+    "theme_id": 301,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40955-1.jpg",
+    "theme": "Other",
     "parent_theme": ""
   },
   {
@@ -235250,6 +235290,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "71867-1",
+    "name": "X-1 Ninja Charger 15th Anniversary",
+    "year": 2026,
+    "theme_id": 435,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/71867-1.jpg",
+    "theme": "Ninjago",
+    "parent_theme": ""
+  },
+  {
     "set_num": "72151-1",
     "name": "Eevee",
     "year": 2026,
@@ -235410,6 +235460,46 @@
     "parent_theme": ""
   },
   {
+    "set_num": "75444-1",
+    "name": "AT-RT Attack",
+    "year": 2026,
+    "theme_id": 158,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/75444-1.jpg",
+    "theme": "Star Wars",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "75445-1",
+    "name": "Anzellan Starship",
+    "year": 2026,
+    "theme_id": 158,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/75445-1.jpg",
+    "theme": "Star Wars",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "75446-1",
+    "name": "Grogu (Mandalorian Apprentice)",
+    "year": 2026,
+    "theme_id": 158,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/75446-1.jpg",
+    "theme": "Star Wars",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "75447-1",
+    "name": "The Razor Crest",
+    "year": 2026,
+    "theme_id": 158,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/75447-1.jpg",
+    "theme": "Star Wars",
+    "parent_theme": ""
+  },
+  {
     "set_num": "75448-1",
     "name": "Clone Shock Trooper Mech",
     "year": 2026,
@@ -235436,6 +235526,16 @@
     "theme_id": 158,
     "num_parts": 569,
     "img_url": "https://cdn.rebrickable.com/media/sets/75452-1.jpg",
+    "theme": "Star Wars",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "75460-1",
+    "name": "New Republic X-Wing Starfighter",
+    "year": 2026,
+    "theme_id": 158,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/75460-1.jpg",
     "theme": "Star Wars",
     "parent_theme": ""
   },
@@ -235760,12 +235860,12 @@
     "parent_theme": ""
   },
   {
-    "set_num": "112508-1",
+    "set_num": "112601-1",
     "name": "Lloyd vs. Dragonian Warrior",
     "year": 2026,
     "theme_id": 435,
     "num_parts": 14,
-    "img_url": "https://cdn.rebrickable.com/media/sets/112508-1.jpg",
+    "img_url": "https://cdn.rebrickable.com/media/sets/112601-1.jpg",
     "theme": "Ninjago",
     "parent_theme": ""
   },
@@ -236020,6 +236120,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "5009997-1",
+    "name": "Mystery Minifigure Mini Puzzle (Springtime Edition)",
+    "year": 2026,
+    "theme_id": 741,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5009997-1.jpg",
+    "theme": "Tabletop Games and Puzzles",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "5010027-1",
     "name": "Computer Science & AI Classroom Bundle K-2",
     "year": 2026,
@@ -236127,6 +236237,16 @@
     "num_parts": 41,
     "img_url": "https://cdn.rebrickable.com/media/sets/6614213-1.jpg",
     "theme": "City",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6614219-1",
+    "name": "Blooming Heart",
+    "year": 2026,
+    "theme_id": 598,
+    "num_parts": 47,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6614219-1.jpg",
+    "theme": "Promotional",
     "parent_theme": ""
   },
   {
@@ -236286,6 +236406,16 @@
     "theme_id": 761,
     "num_parts": 20,
     "img_url": "https://cdn.rebrickable.com/media/sets/9788325348175-1.jpg",
+    "theme": "Activity Books with LEGO Parts",
+    "parent_theme": "Books"
+  },
+  {
+    "set_num": "9788325348182-1",
+    "name": "Ninjago: Smocze Moce",
+    "year": 2026,
+    "theme_id": 761,
+    "num_parts": 11,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9788325348182-1.jpg",
     "theme": "Activity Books with LEGO Parts",
     "parent_theme": "Books"
   },
