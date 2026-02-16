@@ -233400,6 +233400,16 @@
     "parent_theme": "Duplo"
   },
   {
+    "set_num": "10478-1",
+    "name": "3 in 1 Creative Ramps with Vehicles",
+    "year": 2026,
+    "theme_id": 504,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/10478-1.jpg",
+    "theme": "Duplo",
+    "parent_theme": ""
+  },
+  {
     "set_num": "11206-1",
     "name": "Spidey on his Motorcycle vs. Rhino",
     "year": 2026,
@@ -346053,7 +346063,7 @@
   },
   {
     "fig_num": "fig-015953",
-    "name": "Police Officer - Black Torso, Dark Blue Legs, Reddish Brown Hair",
+    "name": "Police Officer Lucy Lawson - Black Torso, Dark Blue Legs, Reddish Brown Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-015953.jpg",
     "theme": "",
