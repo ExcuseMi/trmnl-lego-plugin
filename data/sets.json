@@ -60464,7 +60464,7 @@
     "name": "Auto Pod",
     "year": 2004,
     "theme_id": 478,
-    "num_parts": 40,
+    "num_parts": 39,
     "img_url": "https://cdn.rebrickable.com/media/sets/4347-1.jpg",
     "theme": "X-Pod",
     "parent_theme": "Creator"
@@ -60474,7 +60474,7 @@
     "name": "Auto Pod (Polybag)",
     "year": 2004,
     "theme_id": 478,
-    "num_parts": 37,
+    "num_parts": 36,
     "img_url": "https://cdn.rebrickable.com/media/sets/4347-2.jpg",
     "theme": "X-Pod",
     "parent_theme": "Creator"
@@ -60484,7 +60484,7 @@
     "name": "Auto Pod (Toy Fair Nuernberg Promotion)",
     "year": 2004,
     "theme_id": 478,
-    "num_parts": 40,
+    "num_parts": 39,
     "img_url": "https://cdn.rebrickable.com/media/sets/4347-3.jpg",
     "theme": "X-Pod",
     "parent_theme": "Creator"
@@ -232140,6 +232140,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "6602968-1",
+    "name": "Turkey Time Build",
+    "year": 2025,
+    "theme_id": 598,
+    "num_parts": 41,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6602968-1.jpg",
+    "theme": "Promotional",
+    "parent_theme": ""
+  },
+  {
     "set_num": "6603212-1",
     "name": "German Castle",
     "year": 2025,
@@ -234094,7 +234104,7 @@
     "name": "Duck Family",
     "year": 2026,
     "theme_id": 22,
-    "num_parts": 0,
+    "num_parts": 262,
     "img_url": "https://cdn.rebrickable.com/media/sets/40885-1.jpg",
     "theme": "Creator",
     "parent_theme": ""
@@ -250743,7 +250753,7 @@
   },
   {
     "fig_num": "fig-001869",
-    "name": "Policeman, Bright Light Blue Shirt with Radio and Badge, Dark Blue Legs, Police Hat with Badge, Beard",
+    "name": "Policeman Captain Ember, Bright Light Blue Shirt with Radio and Badge, Dark Blue Legs, Police Hat with Badge, Beard",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-001869.jpg",
     "theme": "",
@@ -286527,7 +286537,7 @@
   },
   {
     "fig_num": "fig-006718",
-    "name": "Criminal, Red Overalls over Prison Shirt, Black Hat",
+    "name": "Criminal Joe Frankfurter, Red Overalls over Prison Shirt, Black Hat",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-006718.jpg",
     "theme": "",
@@ -294567,7 +294577,7 @@
   },
   {
     "fig_num": "fig-007829",
-    "name": "Criminal, Open Prison Shirt #18675 over Orange Top, Dark Bluish Gray Hat, Stubble",
+    "name": "Criminal Gary Goldrush, Open Prison Shirt #18675 over Orange Top, Dark Bluish Gray Hat, Stubble",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-007829.jpg",
     "theme": "",
@@ -294975,7 +294985,7 @@
   },
   {
     "fig_num": "fig-007881",
-    "name": "Criminal, Orange Vest with #92116 and Waist Tied Prison Shirt, Black Hat, Moustache",
+    "name": "Criminal Simon Sin, Orange Vest with #92116 and Waist Tied Prison Shirt, Black Hat, Moustache",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-007881.jpg",
     "theme": "",
@@ -295119,7 +295129,7 @@
   },
   {
     "fig_num": "fig-007899",
-    "name": "Criminal, Prison Shirt with Suspenders and Belt, Black Hat",
+    "name": "Criminal Barry Barrel, Prison Shirt with Suspenders and Belt, Black Hat",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-007899.jpg",
     "theme": "",
@@ -295135,7 +295145,7 @@
   },
   {
     "fig_num": "fig-007901",
-    "name": "Criminal, Open Prison Shirt #86737 over Orange Top, Black Hair",
+    "name": "Criminal Carl Cold, Open Prison Shirt #86737 over Orange Top, Black Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-007901.jpg",
     "theme": "",
@@ -295167,7 +295177,7 @@
   },
   {
     "fig_num": "fig-007905",
-    "name": "Criminal, Woman, Open Black Jacket over Prison Shirt, Dark Brown Hair",
+    "name": "Criminal Monica Million, Woman, Open Black Jacket over Prison Shirt, Dark Brown Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-007905.jpg",
     "theme": "",
@@ -297959,7 +297969,7 @@
   },
   {
     "fig_num": "fig-008271",
-    "name": "Construction Worker, Orange Safety Vest with Zipper over Reddish Brown Shirt, Dark Tan Legs, Red Hard Hat with Ear Defenders, Orange Safety Glasses",
+    "name": "Construction Worker Rob, Orange Safety Vest with Zipper over Reddish Brown Shirt, Dark Tan Legs, Red Hard Hat with Ear Defenders, Orange Safety Glasses",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-008271.jpg",
     "theme": "",
