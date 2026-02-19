@@ -3,7 +3,7 @@
 <!-- PLUGIN_STATS_START -->
 ## 🚀 TRMNL Plugin(s)
 
-*Last updated: 2026-02-18 06:52:04 UTC*
+*Last updated: 2026-02-19 06:49:58 UTC*
 
 
 ## <img src="assets/plugin-images/184371_icon.png" alt="Lego Sets icon" width="32"/> [Lego Sets](https://usetrmnl.com/recipes/184371)
@@ -18,7 +18,7 @@ Display LEGO® sets on your TRMNL device with powerful filtering options using c
 | Metric | Value |
 |--------|-------|
 | Installs | 1 |
-| Forks | 28 |
+| Forks | 29 |
 
 ---
 
