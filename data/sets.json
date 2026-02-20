@@ -18394,7 +18394,7 @@
     "name": "Town Environment",
     "year": 1986,
     "theme_id": 533,
-    "num_parts": 641,
+    "num_parts": 642,
     "img_url": "https://cdn.rebrickable.com/media/sets/9356-1.jpg",
     "theme": "Town",
     "parent_theme": "Educational and Dacta"
@@ -225160,6 +225160,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "53667-1",
+    "name": "Stationery Creativity Set Project Bloom",
+    "year": 2025,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53667-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "53668-1",
     "name": "Pen Pal Gel Pen with Botanicals Mini-Build (Bright Purple)",
     "year": 2025,
@@ -230650,16 +230660,6 @@
     "parent_theme": "Gear"
   },
   {
-    "set_num": "5009637-1",
-    "name": "Stationery Creativity Set Project Bloom",
-    "year": 2025,
-    "theme_id": 739,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/5009637-1.jpg",
-    "theme": "Stationery and Office Supplies",
-    "parent_theme": "Gear"
-  },
-  {
     "set_num": "5009806-1",
     "name": "Retro Space Explorer",
     "year": 2025,
@@ -234370,6 +234370,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "42228-1",
+    "name": "McLaren MCL39 F1 Car",
+    "year": 2026,
+    "theme_id": 1,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/42228-1.jpg",
+    "theme": "Technic",
+    "parent_theme": ""
+  },
+  {
     "set_num": "42675-1",
     "name": "Unicorn Cake Delivery Car",
     "year": 2026,
@@ -235924,7 +235934,7 @@
     "name": "The Art Factory",
     "year": 2026,
     "theme_id": 719,
-    "num_parts": 2569,
+    "num_parts": 2570,
     "img_url": "https://cdn.rebrickable.com/media/sets/910054-1.jpg",
     "theme": "BrickLink Designer Program",
     "parent_theme": ""
@@ -236134,7 +236144,7 @@
     "name": "Dragonfly Garden",
     "year": 2026,
     "theme_id": 598,
-    "num_parts": 0,
+    "num_parts": 149,
     "img_url": "https://cdn.rebrickable.com/media/sets/5009934-1.jpg",
     "theme": "Promotional",
     "parent_theme": ""
@@ -236260,6 +236270,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "6614217-1",
+    "name": "Micro Peace Lily",
+    "year": 2026,
+    "theme_id": 598,
+    "num_parts": 46,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6614217-1.jpg",
+    "theme": "Promotional",
+    "parent_theme": ""
+  },
+  {
     "set_num": "6614219-1",
     "name": "Blooming Heart",
     "year": 2026,
@@ -236360,6 +236380,16 @@
     "parent_theme": "Books"
   },
   {
+    "set_num": "9780241789940-1",
+    "name": "Ninjago: Dragons Rising: Visual Dictionary",
+    "year": 2026,
+    "theme_id": 758,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9780241789940-1.jpg",
+    "theme": "Non-fiction Books",
+    "parent_theme": "Books"
+  },
+  {
     "set_num": "9781534333352-1",
     "name": "Ninjago: Strike of the Serpentine",
     "year": 2026,
@@ -236381,7 +236411,7 @@
   },
   {
     "set_num": "9781837251742-1",
-    "name": "Ninjago: Dragons Rising: Search and Find Sticker Activity",
+    "name": "Ninjago: Dragons Rising: Greatest Battles: Search and Find Sticker Activity",
     "year": 2026,
     "theme_id": 761,
     "num_parts": 8,
@@ -236396,6 +236426,16 @@
     "theme_id": 761,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/9781837251759-1.jpg",
+    "theme": "Activity Books with LEGO Parts",
+    "parent_theme": "Books"
+  },
+  {
+    "set_num": "9781837251766-1",
+    "name": "Ninjago: Dragons Rising: Dragon Powers",
+    "year": 2026,
+    "theme_id": 761,
+    "num_parts": 11,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9781837251766-1.jpg",
     "theme": "Activity Books with LEGO Parts",
     "parent_theme": "Books"
   },
@@ -236426,16 +236466,6 @@
     "theme_id": 761,
     "num_parts": 20,
     "img_url": "https://cdn.rebrickable.com/media/sets/9788325348175-1.jpg",
-    "theme": "Activity Books with LEGO Parts",
-    "parent_theme": "Books"
-  },
-  {
-    "set_num": "9788325348182-1",
-    "name": "Ninjago: Smocze Moce",
-    "year": 2026,
-    "theme_id": 761,
-    "num_parts": 11,
-    "img_url": "https://cdn.rebrickable.com/media/sets/9788325348182-1.jpg",
     "theme": "Activity Books with LEGO Parts",
     "parent_theme": "Books"
   },
