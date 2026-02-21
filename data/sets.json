@@ -82834,7 +82834,7 @@
     "name": "Emerald Night",
     "year": 2009,
     "theme_id": 673,
-    "num_parts": 1089,
+    "num_parts": 1091,
     "img_url": "https://cdn.rebrickable.com/media/sets/10194-1.jpg",
     "theme": "Creator Expert",
     "parent_theme": "Creator"
@@ -234028,6 +234028,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/31385-1.jpg",
     "theme": "Creator 3-in-1",
     "parent_theme": "Creator"
+  },
+  {
+    "set_num": "40507-1",
+    "name": "I ❤️ Billund",
+    "year": 2026,
+    "theme_id": 599,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40507-1.jpg",
+    "theme": "LEGO Exclusive",
+    "parent_theme": ""
   },
   {
     "set_num": "40856-1",
