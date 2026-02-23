@@ -183271,7 +183271,7 @@
   },
   {
     "set_num": "76903-1",
-    "name": "Chevrolet Corvette C8.R Race Car and 1968 Chevrolet Corvette",
+    "name": "Chevrolet Corvette C8.R Race Car and 1969 Chevrolet Corvette",
     "year": 2021,
     "theme_id": 601,
     "num_parts": 515,
@@ -195164,7 +195164,7 @@
     "name": "Retro Bowling Alley",
     "year": 2022,
     "theme_id": 719,
-    "num_parts": 2795,
+    "num_parts": 2793,
     "img_url": "https://cdn.rebrickable.com/media/sets/910013-1.jpg",
     "theme": "BrickLink Designer Program",
     "parent_theme": ""
@@ -206460,6 +206460,26 @@
     "parent_theme": ""
   },
   {
+    "set_num": "702212-1",
+    "name": "Harry Potter: Starter Pack (German Version)",
+    "year": 2023,
+    "theme_id": 501,
+    "num_parts": 2,
+    "img_url": "https://cdn.rebrickable.com/media/sets/702212-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "702213-1",
+    "name": "Harry Potter Stickers and Cards - Multi-Pack (German Version)",
+    "year": 2023,
+    "theme_id": 501,
+    "num_parts": 1,
+    "img_url": "https://cdn.rebrickable.com/media/sets/702213-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
     "set_num": "702214-1",
     "name": "Harry Potter Stickers and Cards - Blister Pack Series 1",
     "year": 2023,
@@ -217450,6 +217470,56 @@
     "parent_theme": "Super Heroes Marvel"
   },
   {
+    "set_num": "702244-1",
+    "name": "Minecraft Trading Cards Series 1 - Tin",
+    "year": 2024,
+    "theme_id": 501,
+    "num_parts": 2,
+    "img_url": "https://cdn.rebrickable.com/media/sets/702244-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "702350-1",
+    "name": "Minecraft Trading Cards Series 1 - Starterpack",
+    "year": 2024,
+    "theme_id": 501,
+    "num_parts": 2,
+    "img_url": "https://cdn.rebrickable.com/media/sets/702350-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "702351-1",
+    "name": "Minecraft Trading Cards Series 1 - Booster Pack",
+    "year": 2024,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/702351-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "702351-2",
+    "name": "Minecraft Trading Cards Series 1 - Sealed Box (50 Packs)",
+    "year": 2024,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/702351-2.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "702353-1",
+    "name": "Minecraft Trading Cards Series 1 - Eco-Blister",
+    "year": 2024,
+    "theme_id": 501,
+    "num_parts": 1,
+    "img_url": "https://cdn.rebrickable.com/media/sets/702353-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
     "set_num": "702414-1",
     "name": "Star Wars Trading Card Collection; Jubiläums-Edition - Random Pack",
     "year": 2024,
@@ -217466,6 +217536,36 @@
     "theme_id": 501,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/702450-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "702451-1",
+    "name": "Harry Potter: Starter Pack Series 2 (German Version)",
+    "year": 2024,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/702451-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "702452-1",
+    "name": "Harry Potter Stickers and Cards Series 2 - Multi-Pack (German Version)",
+    "year": 2024,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/702452-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "702453-1",
+    "name": "Harry Potter Stickers and Cards - Blister Pack Series 2",
+    "year": 2024,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/702453-1.jpg",
     "theme": "Gear",
     "parent_theme": ""
   },
@@ -220208,6 +220308,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/207440392-1.jpg",
     "theme": "Video Games and Accessories",
     "parent_theme": "Gear"
+  },
+  {
+    "set_num": "1458815808-1",
+    "name": "Minecraft Trading Cards Series 1 - Sealed Box (25 Packs)",
+    "year": 2024,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/1458815808-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
   },
   {
     "set_num": "11964520626-1",
@@ -228750,6 +228860,56 @@
     "parent_theme": "Super Heroes Marvel"
   },
   {
+    "set_num": "702502-1",
+    "name": "Minecraft Trading Cards Series 2: Boom-Bastic - Booster Pack",
+    "year": 2025,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/702502-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "702502-2",
+    "name": "Minecraft Trading Cards Series 2: Boom-Bastic - Sealed Box (50 Packs)",
+    "year": 2025,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/702502-2.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "702502-3",
+    "name": "Minecraft Trading Cards Series 2: Boom-Bastic - Sealed Box (25 Packs)",
+    "year": 2025,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/702502-3.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "702506-1",
+    "name": "Minecraft Sticker Collection: Adventure Mode - Booster Pack",
+    "year": 2025,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/702506-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "702507-1",
+    "name": "Minecraft Adventure Mode Sticker Series - Sticker Album",
+    "year": 2025,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/702507-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
     "set_num": "854302-1",
     "name": "Shadow the Hedgehog Key Chain",
     "year": 2025,
@@ -232250,6 +232410,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "73360964-1",
+    "name": "Minecraft Sticker Collection: Adventure Mode - Eco-Blister (7 Packs)",
+    "year": 2025,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/73360964-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
     "set_num": "100302501-1",
     "name": "Ninjago Elemental Master Of Energy Junior Backpack",
     "year": 2025,
@@ -233288,6 +233458,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/9789002284854-1.jpg",
     "theme": "Tabletop Games and Puzzles",
     "parent_theme": "Gear"
+  },
+  {
+    "set_num": "977303527791450001-1",
+    "name": "Minecraft Sticker Collection: Adventure Mode - Sealed Box (36 Packs)",
+    "year": 2025,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/977303527791450001-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
   },
   {
     "set_num": "10463-1",
@@ -235910,6 +236090,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "122509-1",
+    "name": "Guard with Incubator",
+    "year": 2026,
+    "theme_id": 602,
+    "num_parts": 28,
+    "img_url": "https://cdn.rebrickable.com/media/sets/122509-1.jpg",
+    "theme": "Jurassic World",
+    "parent_theme": ""
+  },
+  {
     "set_num": "854327-1",
     "name": "Simba Key Chain",
     "year": 2026,
@@ -236057,6 +236247,16 @@
     "num_parts": 19,
     "img_url": "https://cdn.rebrickable.com/media/sets/951315-1.jpg",
     "theme": "Minecraft",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "951380-1",
+    "name": "Kur",
+    "year": 2026,
+    "theme_id": 435,
+    "num_parts": 10,
+    "img_url": "https://cdn.rebrickable.com/media/sets/951380-1.jpg",
+    "theme": "Ninjago",
     "parent_theme": ""
   },
   {
@@ -236234,7 +236434,7 @@
     "name": "Brick Clog",
     "year": 2026,
     "theme_id": 501,
-    "num_parts": 19,
+    "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/5010203-1.jpg",
     "theme": "Gear",
     "parent_theme": ""
@@ -236327,6 +236527,16 @@
     "num_parts": 32,
     "img_url": "https://cdn.rebrickable.com/media/sets/6614223-1.jpg",
     "theme": "Disney",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6614225-1",
+    "name": "Baby Seahorse",
+    "year": 2026,
+    "theme_id": 22,
+    "num_parts": 36,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6614225-1.jpg",
+    "theme": "Creator",
     "parent_theme": ""
   },
   {
