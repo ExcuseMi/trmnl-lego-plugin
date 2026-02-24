@@ -1,325 +1,121 @@
-{% liquid
-assign min_year = trmnl.plugin_settings.custom_fields_values.min_year | plus: 0
-assign max_year = trmnl.plugin_settings.custom_fields_values.max_year | plus: 0
-assign min_parts = trmnl.plugin_settings.custom_fields_values.min_parts | plus: 0
-assign max_parts = trmnl.plugin_settings.custom_fields_values.max_parts | plus: 0
-assign show_qr_code = trmnl.plugin_settings.custom_fields_values.show_qr_code | default: "hide"
-assign brickset_pricing = trmnl.plugin_settings.custom_fields_values.brickset_pricing | default: ""
-assign brickset_show_minifigs_included = trmnl.plugin_settings.custom_fields_values.brickset_show_minifigs_included | default: "no"
-assign vendor = trmnl.plugin_settings.custom_fields_values.vendor | default: "rebrickable"
-assign show_brick_count = trmnl.plugin_settings.custom_fields_values.show_brick_count | default: "yes"
-assign brickset_show_owned_wanted_indicators = trmnl.plugin_settings.custom_fields_values.brickset_show_owned_wanted_indicators | default: "yes"
+<style>
+  .grayscale { 
+    filter: grayscale(100%); 
+    -webkit-filter: grayscale(100%); 
+  }
 
-# -----------------------------
-# Correct brickset_mode logic
-# -----------------------------
-if vendor == "brickset"
-assign brickset_mode = true
-else
-assign brickset_mode = false
-endif
+  .lego-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
 
-# -----------------------------
-# Load and normalize data
-# -----------------------------
-if brickset_mode
-assign themes = trmnl.plugin_settings.custom_fields_values.themes_brickset
-assign normalized_sets = ""
-assign raw_sets = "" | split: "" 
+  .main-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+    display: block;
+  }
+  
+  .infopanel {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    z-index: 100;
+  }
+  
+  .qr-code {
+    position: absolute;
+    top: 8px;
+    z-index: 100;
+    background-color: white;
+    padding: 5px;
+    border: solid 1px black;
+    box-sizing: content-box;
+    border-radius: 8px;
+    {% if show_infopanel %}left: 8px;{% else %}right: 8px;{% endif %}
+  }
+</style>
 
-if IDX_1.sets
-  assign raw_sets = raw_sets | concat: IDX_1.sets
-endif
+{% if error %}
+<div class="layout layout--stretch layout--center">
+  <div class="title">{{ error }}</div>
+  {% if min_year or max_year or min_parts or max_parts %}
+  <div class="description">
+    No LEGO sets found with your current settings.<br/><br/>
+    Active filters:<br/>
+    {% if min_year %}Min year: {{ min_year }}<br/>{% endif %}
+    {% if max_year %}Max year: {{ max_year }}<br/>{% endif %}
+    {% if min_parts %}Min parts: {{ min_parts }}<br/>{% endif %}
+    {% if max_parts %}Max parts: {{ max_parts }}<br/>{% endif %}
+    <br/>
+    Adjust your filters to see more sets.
+  </div>
+  {% endif %}
+</div>
 
-if IDX_2.sets
-  assign raw_sets = raw_sets | concat: IDX_2.sets
-endif
-for s in raw_sets
-assign bs_set_num = s.number | default: ""
-assign bs_name = s.name | default: ""
-assign bs_year = s.year | plus: 0
-assign bs_num_parts = s.pieces | plus: 0
-assign bs_theme = s.theme | default: ""
-assign bs_subtheme = s.subtheme | default: ""
-assign bs_image = s.image.imageURL | default: ""
-
-# Fallback image if empty
-if bs_image == ""
-assign bs_image = "https://via.placeholder.com/300x300?text=No+Image"
-endif
-
-assign bs_owned = s.collection.owned | default: false
-assign bs_wanted = s.collection.wanted | default: false
-assign minifigs = s.minifigs | plus: 0
-
-# Price normalization
-assign formatted_price = ""
-assign currency = ""
-
-unless brickset_pricing == ""
-if s.LEGOCom and s.LEGOCom[brickset_pricing] and s.LEGOCom[brickset_pricing].retailPrice
-assign price_value = s.LEGOCom[brickset_pricing].retailPrice | round: 2
-
-if brickset_pricing == "US" or brickset_pricing == "CA"
-assign currency = "$"
-elsif brickset_pricing == "UK"
-assign currency = "£"
-elsif brickset_pricing == "DE"
-assign currency = "€"
-endif
-
-assign formatted_price = currency | append: ' ' | append: price_value
-endif
-endunless
-
-# Normalize data string
-assign normalized = ""
-assign normalized = normalized | append: bs_set_num | append: "|||"
-assign normalized = normalized | append: bs_name | append: "|||"
-assign normalized = normalized | append: bs_year | append: "|||"
-assign normalized = normalized | append: bs_num_parts | append: "|||"
-assign normalized = normalized | append: bs_theme | append: "|||"
-assign normalized = normalized | append: bs_subtheme | append: "|||"
-assign normalized = normalized | append: bs_image | append: "|||"
-assign normalized = normalized | append: minifigs | append: "|||"
-
-if bs_owned
-assign normalized = normalized | append: '1' | append: "|||"
-else
-assign normalized = normalized | append: '0' | append: "|||"
-endif
-
-if bs_wanted
-assign normalized = normalized | append: '1' | append: "|||"
-else
-assign normalized = normalized | append: '0' | append: "|||"
-endif
-
-assign normalized = normalized | append: formatted_price | append: "|||"
-
-if normalized_sets == ""
-assign normalized_sets = normalized
-else
-assign normalized_sets = normalized_sets | append: "~~~~" | append: normalized
-endif
-endfor
-
-assign sets = normalized_sets | split: "~~~~"
-
-else
-assign themes = trmnl.plugin_settings.custom_fields_values.themes_rebrickable
-assign raw = IDX_1.data | parse_json
-assign fields = raw[0]
-assign sets = raw | slice: 1, raw.size
-assign raw_size = raw.size
-assign sets_size = sets.size
-endif
-
-# -----------------------------
-# Filter sets
-# -----------------------------
-assign filtered_indices = ""
-
-for s in sets
-if brickset_mode
-assign parts = s | split: "|||"
-assign num_parts = parts[3] | plus: 0
-else
-assign year = s[2] | plus: 0
-assign theme = s[4] | default: ""
-assign parent_theme = s[5] | default: ""
-assign num_parts = s[3] | plus: 0
-endif
-
-assign include = true
-
-if brickset_mode
-if min_parts > 0 and num_parts < min_parts
-                                 assign include = false
-                                 endif
-                                 if max_parts > 0 and num_parts > max_parts
-  assign include = false
-  endif
-  else
-  if min_year > 0 and year < min_year
-                             assign include = false
-                             endif
-                             if max_year > 0 and year > max_year
-    assign include = false
-    endif
-    if min_parts > 0 and num_parts < min_parts
-                                     assign include = false
-                                     endif
-                                     if max_parts > 0 and num_parts > max_parts
-      assign include = false
-      endif
-      endif
-
-      if include
-      if filtered_indices == ""
-      assign filtered_indices = forloop.index0 | append: ""
-      else
-      assign filtered_indices = filtered_indices | append: "," | append: forloop.index0
-      endif
-      endif
-      endfor
-
-      assign filtered_array = filtered_indices | split: ","
-      assign sets_count = filtered_array.size
-
-      # -----------------------------
-      # Select random display item
-      # -----------------------------
-      if sets_count > 0
-      assign now_raw = 'now' | date: '%s'
-      assign now_number = now_raw | plus: 0
-      assign selected_position = now_number | modulo: sets_count
-      assign actual_index = filtered_array[selected_position] | plus: 0
-      assign item = sets | slice: actual_index, 1 | first
-
-      if brickset_mode
-      assign parts = item | split: "|||"
-      assign set_num = parts[0]
-      assign name = parts[1]
-      assign year = parts[2] | plus: 0
-      if show_brick_count == "yes"
-      assign num_parts = parts[3] | plus: 0
-      else
-      assign num_parts = 0
-      endif
-      assign theme = parts[4]
-      assign parent_theme = parts[5]
-      assign image = parts[6]
-      assign minifigs = parts[7] | plus: 0
-      assign owned = parts[8]
-      assign wanted = parts[9]
-      assign price = parts[10]
-      else
-      assign set_num = item[0] | default: ""
-      assign name = item[1] | default: ""
-      assign year = item[2] | plus: 0
-      if show_brick_count == "yes"
-      assign num_parts = parts[3] | plus: 0
-      else
-      assign num_parts = 0
-      endif
-      assign theme = item[4] | default: ""
-      assign parent_theme = item[5] | default: ""
-      assign image = "https://cdn.rebrickable.com/media/sets/" | append: set_num | append: ".jpg"
-      endif
-
-      assign rebrickable_url = "https://rebrickable.com/sets/" | append: set_num
-      assign brickset_url = "https://brickset.com/sets/" | append: set_num
-      endif
-      %}
-        {% assign show_infopanel = false %}
-        {% if num_parts > 0 %}{% assign show_infopanel = true %}{% endif %}
-        {% if brickset_show_minifigs_included == "yes" and minifigs > 0 %}{% assign show_infopanel = true %}{% endif %}
-        {% if brickset_show_owned_wanted_indicators == "yes" and owned == "1" %}{% assign show_infopanel = true %}{% endif %}
-        {% if brickset_show_owned_wanted_indicators == "yes" and wanted == "1" %}{% assign show_infopanel = true %}{% endif %}
-        {% if price != "" and price != blank and price != nil %}{% assign show_infopanel = true %}{% endif %}
-        
-      <style>
-        .grayscale { filter: grayscale(100%); -webkit-filter: grayscale(100%); }
-
-        .main-image {
-          width: 100%;
-          height: 100%;
-          object-fit: contain;
-          object-position: center;
-          display: block;
-          filter: grayscale(100%);
-        }
-        .infopanel {
-          position: absolute; 
-          top: 4px; 
-          right: 4px; 
-          z-index: 100
-        }
-        .qr-code {
-          position: absolute; 
-          top: 1px; 
-          z-index: 100;
-          background-color: white;
-          padding: 5px;
-          border: solid 1px black;
-          box-sizing: content-box;
-          border-radius: 8px;
-          {% if show_infopanel %}left{% else %}right{% endif %}: 1px; 
-        }
-      </style>
-
-      {% if brickset_mode == false and raw.size == 0 %}
-      <div class="layout layout--stretch layout--center">
-        <div class="title">No Data Available</div>
-        <div class="description">No LEGO sets data found.</div>
-      </div>
-
-      {% elsif sets_count == 0 %}
-      <div class="layout layout--stretch layout--center">
-        <div class="title">No Sets Match Your Filters</div>
-        <div class="description">
-          No LEGO sets found with your current settings.<br/><br/>
-          Active filters:<br/>
-          {% if min_year > 0 %}Min year: {{ min_year }}<br/>{% endif %}
-          {% if max_year > 0 %}Max year: {{ max_year }}<br/>{% endif %}
-          {% if min_parts > 0 %}Min parts: {{ min_parts }}<br/>{% endif %}
-          {% if max_parts > 0 %}Max parts: {{ max_parts }}<br/>{% endif %}
-          <br/>
-          Adjust your filters to see more sets.
-        </div>
-      </div>
-
-      {% else %}
-      <div class="layout layout--stretch grayscale">
-        <img src="{{image}}" class="image image-dither image-contain main-image" />
-        {% if show_infopanel %}
-        <div class="infopanel">
-          <div class="rounded bg--gray-75 p--1"> 
-            <div class="flex flex--column gap--xs"> 
-              {% if num_parts > 0 %} 
-              <div class="flex flex--row flex--align-center gap--xs">
-                <img class="image w--6 image-dither" src="https://raw.githubusercontent.com/ExcuseMi/trmnl-lego-plugin/refs/heads/main/images/brick.png" /> 
-                <div class="label label--small">{{num_parts}}</div>
-              </div>
-              {% endif %} 
-              {% if brickset_show_minifigs_included == "yes" and minifigs > 0 %} 
-              <div class="flex flex--row flex--align-center gap--xs">
-                <img class="image w--6 image-dither" src="https://raw.githubusercontent.com/ExcuseMi/trmnl-lego-plugin/refs/heads/main/images/minifig.png" /> 
-                <div class="label label--small">{{minifigs}}</div> 
-              </div>
-              {% endif %} 
-              {% if owned == "1" %} 
-              <div class="flex flex--row flex--align-center gap--xs">
-                <img class="image w--6 image-dither" src="https://raw.githubusercontent.com/ExcuseMi/trmnl-lego-plugin/refs/heads/main/images/own.png" /> 
-              </div>
-              {% elsif wanted == "1" %} 
-              <div class="flex flex--row flex--align-center gap--xs">
-                <img class="image w--6 image-dither" src="https://raw.githubusercontent.com/ExcuseMi/trmnl-lego-plugin/refs/heads/main/images/want.png" /> 
-              </div>
-              {% endif %}
-              {% if price != "" and price != blank and price != nil %} 
-              <div class="flex flex--row flex--align-center gap--xs">
-                <img class="image w--6 image-dither" src="https://raw.githubusercontent.com/ExcuseMi/trmnl-lego-plugin/refs/heads/main/images/price.png" /> 
-                <div class="label label--small">{{price}}</div>
-              </div>
-              {% endif %} 
-            </div>
+{% else %}
+<div class="layout layout--stretch">
+  <div class="lego-container grayscale">
+    <img src="{{image}}" class="image image-dither main-image" />
+    
+    {% if show_infopanel %}
+    <div class="infopanel">
+      <div class="rounded bg--gray-75 p--1"> 
+        <div class="flex flex--column gap--xs"> 
+          {% if num_parts > 0 %} 
+          <div class="flex flex--row flex--align-center gap--xs">
+            <img class="image w--6 lg:w--10 image-dither image--stroke" src="https://raw.githubusercontent.com/ExcuseMi/trmnl-lego-plugin/refs/heads/main/images/brick.png" /> 
+            <div class="label sm:label--small md:sm:label--small lg:label--large text--stroke">{{num_parts}}</div>
           </div>
+          {% endif %} 
+          
+          {% if brickset_show_minifigs_included == "yes" and minifigs > 0 %} 
+          <div class="flex flex--row flex--align-center gap--xs">
+            <img class="image w--6 lg:w--10 image-dither image--stroke" src="https://raw.githubusercontent.com/ExcuseMi/trmnl-lego-plugin/refs/heads/main/images/minifig.png" /> 
+            <div class="label sm:label--small md:sm:label--small lg:label--large text--stroke">{{minifigs}}</div> 
+          </div>
+          {% endif %} 
+          
+          {% if brickset_show_owned_wanted_indicators == "yes" %}
+            {% if owned == "1" %} 
+            <div class="flex flex--row flex--align-center gap--xs">
+              <img class="image w--6 lg:w--10 image-dither image--stroke" src="https://raw.githubusercontent.com/ExcuseMi/trmnl-lego-plugin/refs/heads/main/images/own.png" /> 
+            </div>
+            {% elsif wanted == "1" %} 
+            <div class="flex flex--row flex--align-center gap--xs">
+              <img class="image w--6 lg:w--10 image-dither image--stroke" src="https://raw.githubusercontent.com/ExcuseMi/trmnl-lego-plugin/refs/heads/main/images/want.png" /> 
+            </div>
+            {% endif %}
+          {% endif %}
+          
+          {% if price != "" and price != blank and price != nil %} 
+          <div class="flex flex--row flex--align-center gap--xs">
+            <img class="image w--6 lg:w--10 image-dither image--stroke" src="https://raw.githubusercontent.com/ExcuseMi/trmnl-lego-plugin/refs/heads/main/images/price.png" /> 
+            <div class="label sm:label--small md:sm:label--small  lg:label--large text--stroke">{{price}}</div>
+          </div>
+          {% endif %} 
         </div>
-        {% endif %}
-        {% if show_qr_code and show_qr_code != "hide" %}
-        {% if vendor == "rebrickable" %}
-        {{ rebrickable_url | qr_code: 3, 'm' }}
-        {% elsif vendor == "brickset" %}
-        {{ brickset_url | qr_code: 3, 'm' }}
-        {% endif %}
-        {% endif %}
       </div>
-
-      <div class="title_bar">
-        {% if set_num != ""%}<span class="label label--inverted">{{set_num}}</span>{% endif %}
-        <span class="title">{{name}}{% if year and year > 0 %} ({{year}}){% endif %}</span>
-        <span class="instance" data-content-limiter="true">{{theme}}</span>
-      </div>
+    </div>
+    {% endif %}
+    
+    {% if show_qr_code and show_qr_code != "hide" %}
+    <div class="qr-code">
+      {% if vendor == "rebrickable" %}
+      {{ rebrickable_url | qr_code: 3, 'm' }}
+      {% elsif vendor == "brickset" %}
+      {{ brickset_url | qr_code: 3, 'm' }}
       {% endif %}
+    </div>
+    {% endif %}
+  </div>
+</div>
+
+<div class="title_bar">
+  {% if set_num != ""%}<span class="label label--inverted">{{set_num}}</span>{% endif %}
+  <span class="title text--stroke">{{name}}{% if year and year > 0 %} ({{year}}){% endif %}</span>
+  <span class="instance text--stroke" data-content-limiter="true">{{theme}}</span>
+</div>
+{% endif %}
