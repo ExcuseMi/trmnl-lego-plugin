@@ -217510,8 +217510,18 @@
     "parent_theme": ""
   },
   {
+    "set_num": "702352-1",
+    "name": "Minecraft Trading Cards Series 1 - Eco-Multipack",
+    "year": 2024,
+    "theme_id": 501,
+    "num_parts": 1,
+    "img_url": "https://cdn.rebrickable.com/media/sets/702352-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
     "set_num": "702353-1",
-    "name": "Minecraft Trading Cards Series 1 - Eco-Blister",
+    "name": "Minecraft Trading Cards Series 1 - Eco-Blister (German Version)",
     "year": 2024,
     "theme_id": 501,
     "num_parts": 1,
@@ -217544,7 +217554,7 @@
     "name": "Harry Potter: Starter Pack Series 2 (German Version)",
     "year": 2024,
     "theme_id": 501,
-    "num_parts": 0,
+    "num_parts": 1,
     "img_url": "https://cdn.rebrickable.com/media/sets/702451-1.jpg",
     "theme": "Gear",
     "parent_theme": ""
@@ -217554,7 +217564,7 @@
     "name": "Harry Potter Stickers and Cards Series 2 - Multi-Pack (German Version)",
     "year": 2024,
     "theme_id": 501,
-    "num_parts": 0,
+    "num_parts": 1,
     "img_url": "https://cdn.rebrickable.com/media/sets/702452-1.jpg",
     "theme": "Gear",
     "parent_theme": ""
@@ -228890,6 +228900,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "702504-1",
+    "name": "Minecraft Trading Cards Series 2: Boom-Bastic - Eco-Blister",
+    "year": 2025,
+    "theme_id": 501,
+    "num_parts": 1,
+    "img_url": "https://cdn.rebrickable.com/media/sets/702504-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
     "set_num": "702506-1",
     "name": "Minecraft Sticker Collection: Adventure Mode - Booster Pack",
     "year": 2025,
@@ -235954,7 +235974,7 @@
     "name": "Luna Lovegood's House",
     "year": 2026,
     "theme_id": 246,
-    "num_parts": 789,
+    "num_parts": 764,
     "img_url": "https://cdn.rebrickable.com/media/sets/76467-1.jpg",
     "theme": "Harry Potter",
     "parent_theme": ""
@@ -236174,7 +236194,7 @@
     "name": "Sequoia Tree Trail",
     "year": 2026,
     "theme_id": 719,
-    "num_parts": 3191,
+    "num_parts": 3186,
     "img_url": "https://cdn.rebrickable.com/media/sets/910058-1.jpg",
     "theme": "BrickLink Designer Program",
     "parent_theme": ""

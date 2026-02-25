@@ -195,7 +195,7 @@
   - Galidor (20): galidor|1|20
   - Games (46): games|1|46
   - Gas Station (6): gas-station|1|6
-  - Gear (485): gear|1|485
+  - Gear (487): gear|1|487
   - Gears (9): gears|1|9
   - Ghostbusters (2): ghostbusters|1|2
   - Gravity Games (10): gravity-games|1|10
@@ -467,7 +467,7 @@
   optional: true
 - keyname: themes_brickset
   field_type: select
-  name: Filter by Themes – Brickset (172)
+  name: Filter by Themes – Brickset (173)
   description: <strong>Required:</strong> Select at least one theme, OR set a min/max year below. Only applicable when using Brickset as your data source.
   multiple: true
   options:
@@ -643,6 +643,7 @@
   - Xtra: Xtra
   - Znap: Znap
   - tbd: tbd
+  - '{Undefined}': '{Undefined}'
   help_text: Use <kbd>⌘</kbd>+<kbd>click</kbd> or <kbd>Ctrl</kbd>+<kbd>click</kbd> to select multiple themes.<br /><strong>You must select at least one theme OR specify a year range.</strong>
   optional: true
 - keyname: brickset_order_by
