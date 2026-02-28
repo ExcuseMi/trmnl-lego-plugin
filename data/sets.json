@@ -229824,7 +229824,7 @@
     "name": "Elephant Pencil Holder",
     "year": 2025,
     "theme_id": 598,
-    "num_parts": 0,
+    "num_parts": 143,
     "img_url": "https://cdn.rebrickable.com/media/sets/5009206-1.jpg",
     "theme": "Promotional",
     "parent_theme": ""
@@ -231560,6 +231560,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "5010321-1",
+    "name": "Minecraft: Visual Dictionary",
+    "year": 2025,
+    "theme_id": 758,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010321-1.jpg",
+    "theme": "Non-fiction Books",
+    "parent_theme": "Books"
+  },
+  {
     "set_num": "5010358-1",
     "name": "ReCreate Activity Cards: Castle",
     "year": 2025,
@@ -231786,6 +231796,16 @@
     "theme_id": 52,
     "num_parts": 29,
     "img_url": "https://cdn.rebrickable.com/media/sets/6557640-11.jpg",
+    "theme": "City",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6557640-12",
+    "name": "Race Car - Complete - All Sets",
+    "year": 2025,
+    "theme_id": 52,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6557640-12.jpg",
     "theme": "City",
     "parent_theme": ""
   },
@@ -233200,16 +233220,6 @@
     "parent_theme": "Books"
   },
   {
-    "set_num": "9780241719459-1",
-    "name": "Minecraft: Visual Dictionary",
-    "year": 2025,
-    "theme_id": 758,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/9780241719459-1.jpg",
-    "theme": "Non-fiction Books",
-    "parent_theme": "Books"
-  },
-  {
     "set_num": "9780241727416-1",
     "name": "LEGO Ideas Activity Book: Animals",
     "year": 2025,
@@ -234344,7 +234354,7 @@
     "name": "Kanto Region Badge Collection",
     "year": 2026,
     "theme_id": 776,
-    "num_parts": 0,
+    "num_parts": 312,
     "img_url": "https://cdn.rebrickable.com/media/sets/40892-1.jpg",
     "theme": "Pokémon",
     "parent_theme": ""
@@ -234364,9 +234374,19 @@
     "name": "Restaurants of the World: Japan",
     "year": 2026,
     "theme_id": 721,
-    "num_parts": 0,
+    "num_parts": 289,
     "img_url": "https://cdn.rebrickable.com/media/sets/40906-1.jpg",
     "theme": "Icons",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "40910-1",
+    "name": "Beef Boss & Skye Figures",
+    "year": 2026,
+    "theme_id": 610,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40910-1.jpg",
+    "theme": "Brickheadz",
     "parent_theme": ""
   },
   {
@@ -234374,7 +234394,7 @@
     "name": "Mini Pokémon Center",
     "year": 2026,
     "theme_id": 776,
-    "num_parts": 0,
+    "num_parts": 233,
     "img_url": "https://cdn.rebrickable.com/media/sets/40911-1.jpg",
     "theme": "Pokémon",
     "parent_theme": ""
@@ -235544,7 +235564,7 @@
     "name": "Eevee",
     "year": 2026,
     "theme_id": 776,
-    "num_parts": 0,
+    "num_parts": 587,
     "img_url": "https://cdn.rebrickable.com/media/sets/72151-1.jpg",
     "theme": "Pokémon",
     "parent_theme": ""
@@ -235554,7 +235574,7 @@
     "name": "Pikachu and Poké Ball",
     "year": 2026,
     "theme_id": 776,
-    "num_parts": 0,
+    "num_parts": 2050,
     "img_url": "https://cdn.rebrickable.com/media/sets/72152-1.jpg",
     "theme": "Pokémon",
     "parent_theme": ""
@@ -235564,7 +235584,7 @@
     "name": "Venusaur, Charizard and Blastoise",
     "year": 2026,
     "theme_id": 776,
-    "num_parts": 0,
+    "num_parts": 6838,
     "img_url": "https://cdn.rebrickable.com/media/sets/72153-1.jpg",
     "theme": "Pokémon",
     "parent_theme": ""
@@ -236117,6 +236137,16 @@
     "num_parts": 28,
     "img_url": "https://cdn.rebrickable.com/media/sets/122509-1.jpg",
     "theme": "Jurassic World",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "562601-1",
+    "name": "Baking Set and Bunny",
+    "year": 2026,
+    "theme_id": 494,
+    "num_parts": 26,
+    "img_url": "https://cdn.rebrickable.com/media/sets/562601-1.jpg",
+    "theme": "Friends",
     "parent_theme": ""
   },
   {
@@ -252753,7 +252783,7 @@
   },
   {
     "fig_num": "fig-002100",
-    "name": "Policewoman, Bright Light Blue Shirt with Radio and Badge, Dark Blue Legs, Dark Blue Cap with Hair, Sunglasses",
+    "name": "Policewoman Sam Solo, Bright Light Blue Shirt with Radio and Badge, Dark Blue Legs, Dark Blue Cap with Hair, Sunglasses",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002100.jpg",
     "theme": "",
@@ -290889,7 +290919,7 @@
   },
   {
     "fig_num": "fig-007282",
-    "name": "Man, Black and Lime Wetsuit, Tan Hair",
+    "name": "Tom, Black and Lime Wetsuit, Tan Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-007282.jpg",
     "theme": "",
@@ -295385,7 +295415,7 @@
   },
   {
     "fig_num": "fig-007896",
-    "name": "Criminal, Red Overalls over Prison Shirt, Black Hat, Dark Tan Backpack",
+    "name": "Criminal Joe Frankfurter, Red Overalls over Prison Shirt, Black Hat, Dark Tan Backpack",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-007896.jpg",
     "theme": "",
@@ -337057,7 +337087,7 @@
   },
   {
     "fig_num": "fig-014304",
-    "name": "Madame Rosmerta",
+    "name": "Madam Rosmerta",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-014304.jpg",
     "theme": "",
