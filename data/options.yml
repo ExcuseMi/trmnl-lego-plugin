@@ -1,6 +1,7 @@
 - keyname: about
   name: About This Plugin
   field_type: author_bio
+  help_text: TRMNL X Ready
   description: 'Display LEGO® sets on your TRMNL device with powerful filtering options using community APIs.<br /><br /><strong>Data Sources:</strong><br />● <strong>Rebrickable Mode (Default):</strong> Uses curated dataset from <a href=''https://rebrickable.com/''>Rebrickable.com</a> with theme and part count filters<br />● <strong>BrickSet Mode:</strong> Uses live API from <a href=''https://brickset.com/''>BrickSet.com</a> with personal collection features (owned/wanted), minifigure counts, and regional pricing<br /><br /><strong>BrickSet Setup (Optional):</strong><br />1. Create a free account at <a href=''https://brickset.com/signup''>brickset.com/signup</a><br />2. Request your API key at <a href=''https://brickset.com/tools/webservices/requestkey''>brickset.com/tools/webservices/requestkey</a><br />3. Enter your API key in the field below to enable BrickSet mode<br />4. (Optional) For owned/wanted filtering: obtain your userHash via the <a href=''https://brickset.com/article/52664/api-version-3-documentation''>BrickSet
     login API</a><br /><br /><strong>Important Notes:</strong><br />● When using BrickSet mode, you must select at least one theme OR set a min/max year filter OR owned/wanted filter<br />● Filter options automatically adjust based on your selected data source'
   github_url: https://github.com/ExcuseMi/trmnl-lego-plugin
@@ -127,7 +128,7 @@
   - Constraction (16): constraction|1|16
   - Construction (123): construction|1|123
   - Control Lab (7): control-lab|1|7
-  - Creator (222): creator|1|222
+  - Creator (223): creator|1|223
   - Creator 3-in-1 (263): creator-3-in-1|1|263
   - Creator Expert (46): creator-expert|1|46
   - Dark Forest (3): dark-forest|1|3
@@ -292,7 +293,7 @@
   - Off-Road (12): off-road|1|12
   - One Piece (6): one-piece|1|6
   - Orient Expedition (22): orient-expedition|1|22
-  - Other (97): other|1|97
+  - Other (98): other|1|98
   - Outback (5): outback|1|5
   - Overwatch (9): overwatch|1|9
   - Paradisa (18): paradisa|1|18
@@ -389,7 +390,7 @@
   - Spybotics (4): spybotics|1|4
   - Spyrius (9): spyrius|1|9
   - Star Wars (975): star-wars|1|975
-  - Stationery and Office Supplies (590): stationery-and-office-supplies|1|590
+  - Stationery and Office Supplies (591): stationery-and-office-supplies|1|591
   - Stingrays (5): stingrays|1|5
   - Storage (165): storage|1|165
   - Story Books (353): story-books|1|353
@@ -467,7 +468,7 @@
   optional: true
 - keyname: themes_brickset
   field_type: select
-  name: Filter by Themes – Brickset (173)
+  name: Filter by Themes – Brickset (172)
   description: <strong>Required:</strong> Select at least one theme, OR set a min/max year below. Only applicable when using Brickset as your data source.
   multiple: true
   options:
@@ -643,7 +644,6 @@
   - Xtra: Xtra
   - Znap: Znap
   - tbd: tbd
-  - '{Undefined}': '{Undefined}'
   help_text: Use <kbd>⌘</kbd>+<kbd>click</kbd> or <kbd>Ctrl</kbd>+<kbd>click</kbd> to select multiple themes.<br /><strong>You must select at least one theme OR specify a year range.</strong>
   optional: true
 - keyname: brickset_order_by

@@ -403,6 +403,7 @@ async def create_options_yml(theme_info):
         'keyname': 'about',
         'name': 'About This Plugin',
         'field_type': 'author_bio',
+        'help_text': 'TRMNL X Ready',
         'description':
             f"Display LEGO® sets on your TRMNL device with powerful filtering options using community APIs.<br /><br />"
             f"<strong>Data Sources:</strong><br />"

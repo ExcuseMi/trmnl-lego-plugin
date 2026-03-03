@@ -217471,7 +217471,7 @@
   },
   {
     "set_num": "702244-1",
-    "name": "Minecraft Trading Cards Series 1 - Tin",
+    "name": "Minecraft Trading Cards Series 1 - Tin (German Version)",
     "year": 2024,
     "theme_id": 501,
     "num_parts": 2,
@@ -217481,7 +217481,7 @@
   },
   {
     "set_num": "702350-1",
-    "name": "Minecraft Trading Cards Series 1 - Starterpack",
+    "name": "Minecraft Trading Cards Series 1 - Starterpack (German Version)",
     "year": 2024,
     "theme_id": 501,
     "num_parts": 2,
@@ -217511,7 +217511,7 @@
   },
   {
     "set_num": "702352-1",
-    "name": "Minecraft Trading Cards Series 1 - Eco-Multipack",
+    "name": "Minecraft Trading Cards Series 1 - Eco-Multipack (German Version)",
     "year": 2024,
     "theme_id": 501,
     "num_parts": 1,
@@ -234104,7 +234104,7 @@
     "name": "Mini F1 ACADEMY Car",
     "year": 2026,
     "theme_id": 601,
-    "num_parts": 0,
+    "num_parts": 58,
     "img_url": "https://cdn.rebrickable.com/media/sets/30734-1.jpg",
     "theme": "Speed Champions",
     "parent_theme": ""
@@ -234290,6 +234290,16 @@
     "parent_theme": "Seasonal"
   },
   {
+    "set_num": "40871-1",
+    "name": "Gift Box Celebration",
+    "year": 2026,
+    "theme_id": 301,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40871-1.jpg",
+    "theme": "Other",
+    "parent_theme": ""
+  },
+  {
     "set_num": "40878-1",
     "name": "Teenage Mutant Ninja Turtles Figures",
     "year": 2026,
@@ -234466,6 +234476,16 @@
     "theme_id": 22,
     "num_parts": 245,
     "img_url": "https://cdn.rebrickable.com/media/sets/40953-1.jpg",
+    "theme": "Creator",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "40954-1",
+    "name": "Germany Postcard",
+    "year": 2026,
+    "theme_id": 22,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40954-1.jpg",
     "theme": "Creator",
     "parent_theme": ""
   },
@@ -236497,6 +236517,16 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/5010098-1.jpg",
     "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010100-1",
+    "name": "Buildable Ruler with Construction Worker Minifigure",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 28,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010100-1.jpg",
+    "theme": "Stationery and Office Supplies",
     "parent_theme": "Gear"
   },
   {
