@@ -64384,7 +64384,7 @@
     "name": "Muck's Recycling Set",
     "year": 2005,
     "theme_id": 626,
-    "num_parts": 33,
+    "num_parts": 34,
     "img_url": "https://cdn.rebrickable.com/media/sets/3294-1.jpg",
     "theme": "Bob the Builder",
     "parent_theme": "Duplo"
@@ -219580,6 +219580,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "6508944-1",
+    "name": "Egalt",
+    "year": 2024,
+    "theme_id": 598,
+    "num_parts": 61,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6508944-1.jpg",
+    "theme": "Promotional",
+    "parent_theme": ""
+  },
+  {
     "set_num": "6509887-1",
     "name": "LEGO House 6 Bricks",
     "year": 2024,
@@ -225397,6 +225407,36 @@
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/53707-1.jpg",
     "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "53745-1",
+    "name": "Ahsoka Tano Bag Tag",
+    "year": 2025,
+    "theme_id": 731,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53745-1.jpg",
+    "theme": "Bag and Luggage Tags",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "53775-1",
+    "name": "Stormtrooper Vacation Bag Tag",
+    "year": 2025,
+    "theme_id": 731,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53775-1.jpg",
+    "theme": "Bag and Luggage Tags",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "53776-1",
+    "name": "Darth Vader Vacation Bag Tag",
+    "year": 2025,
+    "theme_id": 731,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53776-1.jpg",
+    "theme": "Bag and Luggage Tags",
     "parent_theme": "Gear"
   },
   {
@@ -231510,6 +231550,16 @@
     "parent_theme": "Books"
   },
   {
+    "set_num": "5010069-1",
+    "name": "LEGO Minifigure: A Visual History: Updated and Expanded",
+    "year": 2025,
+    "theme_id": 758,
+    "num_parts": 5,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010069-1.jpg",
+    "theme": "Non-fiction Books",
+    "parent_theme": "Books"
+  },
+  {
     "set_num": "5010070-1",
     "name": "Minecraft: Alex vs. Creeper",
     "year": 2025,
@@ -232460,6 +232510,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "74502301-1",
+    "name": "Minecraft Trading Cards Series 2: Boom-Bastic - Eco-Blister (Polish Version)",
+    "year": 2025,
+    "theme_id": 501,
+    "num_parts": 1,
+    "img_url": "https://cdn.rebrickable.com/media/sets/74502301-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
     "set_num": "100302501-1",
     "name": "Ninjago Elemental Master Of Energy Junior Backpack",
     "year": 2025,
@@ -233207,16 +233267,6 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/9780241706008-1.jpg",
     "theme": "Ideas Books",
-    "parent_theme": "Books"
-  },
-  {
-    "set_num": "9780241716410-1",
-    "name": "LEGO Minifigure: A Visual History: Updated and Expanded",
-    "year": 2025,
-    "theme_id": 758,
-    "num_parts": 5,
-    "img_url": "https://cdn.rebrickable.com/media/sets/9780241716410-1.jpg",
-    "theme": "Non-fiction Books",
     "parent_theme": "Books"
   },
   {
@@ -234394,7 +234444,7 @@
     "name": "Beef Boss & Skye Figures",
     "year": 2026,
     "theme_id": 610,
-    "num_parts": 0,
+    "num_parts": 288,
     "img_url": "https://cdn.rebrickable.com/media/sets/40910-1.jpg",
     "theme": "Brickheadz",
     "parent_theme": ""
@@ -235008,6 +235058,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/45522-1.jpg",
     "theme": "Educational and Dacta",
     "parent_theme": ""
+  },
+  {
+    "set_num": "53717-1",
+    "name": "Star Wars Ahsoka Tano Notebook and Pen",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53717-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
   },
   {
     "set_num": "60478-1",
@@ -236560,6 +236620,16 @@
     "parent_theme": "Books"
   },
   {
+    "set_num": "6518176-1",
+    "name": "St. Patrick's Day Hat",
+    "year": 2026,
+    "theme_id": 408,
+    "num_parts": 23,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6518176-1.jpg",
+    "theme": "LEGO Brand Store",
+    "parent_theme": ""
+  },
+  {
     "set_num": "6581056-1",
     "name": "Series 28 - Sealed Box",
     "year": 2026,
@@ -236568,6 +236638,26 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/6581056-1.jpg",
     "theme": "Series 28 Minifigures",
     "parent_theme": "Collectible Minifigures"
+  },
+  {
+    "set_num": "6611591-1",
+    "name": "Crescent Moon",
+    "year": 2026,
+    "theme_id": 408,
+    "num_parts": 37,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6611591-1.jpg",
+    "theme": "LEGO Brand Store",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6611596-1",
+    "name": "Father's Day Coffee Cup",
+    "year": 2026,
+    "theme_id": 408,
+    "num_parts": 135,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6611596-1.jpg",
+    "theme": "LEGO Brand Store",
+    "parent_theme": ""
   },
   {
     "set_num": "6614213-1",
@@ -236610,6 +236700,16 @@
     "parent_theme": "Seasonal"
   },
   {
+    "set_num": "6614220-1",
+    "name": "Micro Pink Rose",
+    "year": 2026,
+    "theme_id": 408,
+    "num_parts": 25,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6614220-1.jpg",
+    "theme": "LEGO Brand Store",
+    "parent_theme": ""
+  },
+  {
     "set_num": "6614222-1",
     "name": "Unicorn",
     "year": 2026,
@@ -236647,6 +236747,16 @@
     "num_parts": 39,
     "img_url": "https://cdn.rebrickable.com/media/sets/6614229-1.jpg",
     "theme": "Ninjago",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6626053-1",
+    "name": "Lightsaber",
+    "year": 2026,
+    "theme_id": 158,
+    "num_parts": 43,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6626053-1.jpg",
+    "theme": "Star Wars",
     "parent_theme": ""
   },
   {
