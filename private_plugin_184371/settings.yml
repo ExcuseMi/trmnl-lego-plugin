@@ -4,7 +4,7 @@ no_screen_padding: 'no'
 dark_mode: 'no'
 static_data: ''
 polling_verb: get
-polling_url: "{% if vendor ==  \"rebrickable\" %}\r\n{%- assign cleaned = themes_rebrickable \r\n  | replace: '[', ''\r\n  | replace: ']', ''\r\n  | replace: '\"', ''\r\n  | replace: ' ', '' -%}\r\n\r\n{%- assign themes_rebrickable_list = cleaned | split: \",\" -%}\r\n{%- comment -%} Count total weight first {%- endcomment -%}\r\n{%- assign total_weight = 0 -%}\r\n{%- for theme_data in themes_rebrickable_list -%}\r\n  {%- if theme_data != \"\" -%}\r\n    {%- assign parts = theme_data | split: \"|\" -%}\r\n    {%- if parts.size >= 3 -%}\r\n      {%- assign file_count = parts[1] | plus: 0 -%}  {%- comment -%} Second value is file_count {%- endcomment -%}\r\n      {%- assign total_weight = total_weight | plus: file_count -%}\r\n    {%- endif -%}\r\n  {%- endif -%}\r\n{%- endfor -%}\r\n\r\n{%- comment -%} Use cumulative weight approach {%- endcomment -%}\r\n{%- assign random_value = \"now\" | date: \"%s\" | modulo: total_weight -%}\r\n{%- assign cumulative_weight = 0 -%}\r\n{%- assign selected_theme = \"\" -%}\r\n\r\n{%- for theme_data in themes_rebrickable_list -%}\r\n  {%- if selected_theme == \"\" and theme_data != \"\" -%}\r\n    {%- assign parts = theme_data | split: \"|\" -%}\r\n    {%- if parts.size >= 3 -%}\r\n      {%- assign file_count = parts[1] | plus: 0 -%}  {%- comment -%} Second value is file_count {%- endcomment -%}\r\n      {%- assign cumulative_weight = cumulative_weight | plus: file_count -%}\r\n      {%- if random_value < cumulative_weight -%}\r\n        {%- assign selected_theme = theme_data -%}\r\n      {%- endif -%}\r\n    {%- endif -%}\r\n  {%- endif -%}\r\n{%- endfor -%}\r\n\r\n  {%- assign parts = selected_theme | split: \"|\" -%}\r\n  {%- assign theme = parts[0] -%}\r\n  {%- assign file_count = parts[1] | plus: 0 -%}  {%- comment -%} Second value is file_count {%- endcomment -%}\r\n  \r\n  {%- comment -%} Select random file from 0 to (file_count - 1) {%- endcomment -%}\r\n  {%- assign random_file_index = \"now\" | date: \"%N\" | plus: 0 | modulo: file_count -%}\r\n  \r\n  https://raw.githubusercontent.com/ExcuseMi/trmnl-lego-plugin/refs/heads/main/data/themes/{{theme}}/{{random_file_index}}.json\r\n\r\n{% else %}\r\n{% comment %}\r\nBrickset API URL Builder - Production Ready\r\nGenerates 1 or 2 URLs depending on owned/wanted selection.\r\nRandomly picks 1–3 themes. Skips owned/wanted param if blank.\r\n{% endcomment %}\r\n\r\n{%- comment -%} 1️⃣ Build Year Parameter {%- endcomment -%}\r\n{% assign year_param = \"\" %}\r\n{% if min_year != blank or max_year != blank %}\r\n  {% assign start_year = min_year | default: 1949 %}\r\n  {% assign end_year = max_year | default: \"now\" | date: \"%Y\" %}\r\n\r\n  {% assign year_list = \"\" %}\r\n  {% for year in (start_year..end_year) %}\r\n    {% if forloop.first %}\r\n      {% assign year_list = year | append: \"\" %}\r\n    {% else %}\r\n      {% assign year_list = year_list | append: \",\" | append: year %}\r\n    {% endif %}\r\n  {% endfor %}\r\n\r\n  {% assign year_param = \"%27year%27:%27\" | append: year_list | append: \"%27,\" %}\r\n{% endif %}\r\n{%- comment -%} 2️⃣ Build Theme Parameter for Brickset API {% endcomment -%}\r\n{% assign theme_param = \"\" %}\r\n\r\n{%- comment -%} Build Theme Parameter for Brickset API {% endcomment -%}\r\n{% assign theme_param = \"\" %}\r\n\r\n{% if themes_brickset.size > 0 %}\r\n  {% if brickset_order_by == \"Random\" %}\r\n    {% assign pick_count = themes_brickset.size | min: 3 %}\r\n    {% assign selected_themes = themes_brickset | sample: pick_count %}\r\n  {% else %}\r\n    {% assign selected_themes = themes_brickset %}\r\n  {% endif %}\r\n\r\n  {% comment %} Join array into comma-separated string first {% endcomment %}\r\n  {% assign theme_string = selected_themes | join: \",\" %}\r\n\r\n  {% comment %} Then append to API param {% endcomment %}\r\n  {% assign theme_param = \"%27theme%27:%27\" | append: theme_string | append: \"%27,\" %}\r\n{% endif %}\r\n\r\n{%- comment -%} 3️⃣ Build OrderBy Parameter {%- endcomment -%}\r\n{% assign order_param = \"\" %}\r\n{% if brickset_order_by != blank %}\r\n  {% assign order_param = \"%27orderBy%27:%27\" | append: brickset_order_by | append: \"%27,\" %}\r\n{% endif %}\r\n\r\n{%- comment -%} 4️⃣ Build Owned/Wanted URLs as a concatenated string using a safe delimiter {%- endcomment -%}\r\n{% assign urls_string = \"\" %}\r\n\r\n{% if brickset_owned_wanted == \"ownedwanted\" %}\r\n  {% assign owned_param = \"%27owned%27:1,\" %}\r\n  {% assign wanted_param = \"%27wanted%27:1,\" %}\r\n\r\n  {% assign owned_url = \"https://brickset.com/api/v3.asmx/getSets?apikey=\" | append: brickset_api_key | append: \"&userhash=\" | append: brickset_user_hash | append: \"&params=%7B\" | append: theme_param | append: year_param | append: owned_param | append: order_param | append: \"%27pageSize%27:25%7D\" %}\r\n  \r\n  {% assign wanted_url = \"https://brickset.com/api/v3.asmx/getSets?apikey=\" | append: brickset_api_key | append: \"&userhash=\" | append: brickset_user_hash | append: \"&params=%7B\" | append: theme_param | append: year_param | append: wanted_param | append: order_param | append: \"%27pageSize%27:25%7D\" %}\r\n\r\n  {% assign urls_string = owned_url | append: \"||\" | append: wanted_url %}\r\n\r\n{% elsif brickset_owned_wanted != blank %}\r\n  {% assign param = \"%27\" | append: brickset_owned_wanted | append: \"%27:1,\" %}\r\n  {% assign url = \"https://brickset.com/api/v3.asmx/getSets?apikey=\" | append: brickset_api_key | append: \"&userhash=\" | append: brickset_user_hash | append: \"&params=%7B\" | append: theme_param | append: year_param | append: param | append: order_param | append: \"%27pageSize%27:25%7D\" %}\r\n  \r\n  {% assign urls_string = url %}\r\n{% else %}\r\n  {% comment %}No owned/wanted param, just themes, year, order, pageSize{% endcomment %}\r\n  {% assign url = \"https://brickset.com/api/v3.asmx/getSets?apikey=\" | append: brickset_api_key | append: \"&userhash=\" | append: brickset_user_hash | append: \"&params=%7B\" | append: theme_param | append: year_param | append: order_param | append: \"%27pageSize%27:25%7D\" %}\r\n  \r\n  {% assign urls_string = url %}\r\n{% endif %}\r\n\r\n{%- comment -%} 5️⃣ Split URLs string into array using || and output individually {%- endcomment -%}\r\n{% assign urls_array = urls_string | split: \"||\" %}\r\n\r\n{% for url in urls_array %}\r\n  {{ url }}\r\n{% endfor %}\r\n\r\n{% endif %}"
+polling_url: "\r\n  {% if vendor ==  \"rebrickable\" %}                                                                                                                                                \r\n  {%- assign cleaned = themes_rebrickable\r\n    | replace: '[', ''                                                                                                                                                             \r\n    | replace: ']', ''                                                                                                                                                           \r\n    | replace: '\"', ''\r\n    | replace: ' ', '' -%}\r\n\r\n  {%- assign themes_rebrickable_list = cleaned | split: \",\" -%}\r\n  {%- comment -%} Count total weight first {%- endcomment -%}\r\n  {%- assign total_weight = 0 -%}\r\n  {%- for theme_data in themes_rebrickable_list -%}\r\n    {%- if theme_data != \"\" -%}\r\n      {%- assign parts = theme_data | split: \"|\" -%}\r\n      {%- if parts.size >= 3 -%}\r\n        {%- assign file_count = parts[1] | plus: 0 -%}\r\n        {%- assign total_weight = total_weight | plus: file_count -%}\r\n      {%- endif -%}\r\n    {%- endif -%}\r\n  {%- endfor -%}\r\n\r\n  {%- assign random_value = \"now\" | date: \"%s\" | modulo: total_weight -%}\r\n  {%- assign cumulative_weight = 0 -%}\r\n  {%- assign selected_theme = \"\" -%}\r\n\r\n  {%- for theme_data in themes_rebrickable_list -%}\r\n    {%- if selected_theme == \"\" and theme_data != \"\" -%}\r\n      {%- assign parts = theme_data | split: \"|\" -%}\r\n      {%- if parts.size >= 3 -%}\r\n        {%- assign file_count = parts[1] | plus: 0 -%}\r\n        {%- assign cumulative_weight = cumulative_weight | plus: file_count -%}\r\n        {%- if random_value < cumulative_weight -%}\r\n          {%- assign selected_theme = theme_data -%}\r\n        {%- endif -%}\r\n      {%- endif -%}\r\n    {%- endif -%}\r\n  {%- endfor -%}\r\n\r\n    {%- assign parts = selected_theme | split: \"|\" -%}\r\n    {%- assign theme = parts[0] -%}\r\n    {%- assign file_count = parts[1] | plus: 0 -%}\r\n    {%- assign random_file_index = \"now\" | date: \"%N\" | plus: 0 | modulo: file_count -%}\r\n\r\n    https://raw.githubusercontent.com/ExcuseMi/trmnl-lego-plugin/refs/heads/main/data/themes/{{theme}}/{{random_file_index}}.json\r\n\r\n  {% else %}\r\n\r\n  {%- comment -%} 1️⃣Build Year Parameter {%- endcomment -%}\r\n  {% assign year_param = \"\" %}\r\n  {% if min_year != blank or max_year != blank %}\r\n    {% assign start_year = min_year | default: 1949 %}\r\n    {% assign end_year = max_year | default: \"now\" | date: \"%Y\" %}\r\n\r\n    {% assign year_list = \"\" %}\r\n    {% for year in (start_year..end_year) %}\r\n      {% if forloop.first %}\r\n        {% assign year_list = year | append: \"\" %}\r\n      {% else %}\r\n        {% assign year_list = year_list | append: \",\" | append: year %}\r\n      {% endif %}\r\n    {% endfor %}\r\n\r\n    {% assign year_param = \"%27year%27:%27\" | append: year_list | append: \"%27,\" %}\r\n  {% endif %}\r\n\r\n  {% assign theme_param = \"\" %}\r\n\r\n  {% if themes_brickset.size > 0 %}\r\n    {% if brickset_order_by == \"Random\" %}\r\n      {% assign pick_count = themes_brickset.size | min: 3 %}\r\n      {% assign selected_themes = themes_brickset | sample: pick_count %}\r\n    {% else %}\r\n      {% assign selected_themes = themes_brickset %}\r\n    {% endif %}\r\n\r\n    {% assign theme_string = selected_themes | join: \",\" %}\r\n    {% assign theme_param = \"%27theme%27:%27\" | append: theme_string | append: \"%27,\" %}\r\n  {% endif %}\r\n\r\n  {%- comment -%} 3️⃣Build OrderBy Parameter {%- endcomment -%}\r\n  {% assign order_param = \"\" %}\r\n  {% if brickset_order_by != blank %}\r\n    {% assign order_param = \"%27orderBy%27:%27\" | append: brickset_order_by | append: \"%27,\" %}\r\n  {% endif %}\r\n\r\n  {% assign urls_string = \"\" %}\r\n\r\n  {% if brickset_owned_wanted == \"ownedwanted\" %}\r\n    {% assign owned_param = \"%27owned%27:1,\" %}\r\n    {% assign wanted_param = \"%27wanted%27:1,\" %}\r\n\r\n    {% assign owned_url = \"https://brickset.com/api/v3.asmx/getSets?apikey=\" | append: brickset_api_key | append: \"&userhash=\" | append: brickset_user_hash | append: \"&params=%7B\"\r\n   | append: theme_param | append: year_param | append: owned_param | append: order_param | append: \"%27pageSize%27:25%7D\" %}\r\n    {% assign wanted_url = \"https://brickset.com/api/v3.asmx/getSets?apikey=\" | append: brickset_api_key | append: \"&userhash=\" | append: brickset_user_hash | append:\r\n  \"&params=%7B\" | append: theme_param | append: year_param | append: wanted_param | append: order_param | append: \"%27pageSize%27:25%7D\" %}\r\n\r\n    {% assign urls_string = owned_url | append: \"||\" | append: wanted_url %}\r\n\r\n  {% elsif brickset_owned_wanted != blank %}\r\n    {% assign param = \"%27\" | append: brickset_owned_wanted | append: \"%27:1,\" %}\r\n    {% assign url = \"https://brickset.com/api/v3.asmx/getSets?apikey=\" | append: brickset_api_key | append: \"&userhash=\" | append: brickset_user_hash | append: \"&params=%7B\" |\r\n  append: theme_param | append: year_param | append: param | append: order_param | append: \"%27pageSize%27:25%7D\" %}\r\n    {% assign urls_string = url %}\r\n  {% else %}\r\n    {% assign url = \"https://brickset.com/api/v3.asmx/getSets?apikey=\" | append: brickset_api_key | append: \"&userhash=\" | append: brickset_user_hash | append: \"&params=%7B\" |\r\n  append: theme_param | append: year_param | append: order_param | append: \"%27pageSize%27:25%7D\" %}\r\n    {% assign urls_string = url %}\r\n  {% endif %}\r\n\r\n  {% assign urls_array = urls_string | split: \"||\" %}\r\n\r\n  {% for url in urls_array %}\r\n    {{ url }}\r\n  {% endfor %}\r\n\r\n  {% endif %}\r\n\r\n"
 polling_headers: ''
 polling_body: ''
 id: 184371
@@ -59,21 +59,21 @@ custom_fields:
   optional: true
 - keyname: themes_rebrickable
   field_type: select
-  name: Filter by Themes – Rebrickable (407)
+  name: Filter by Themes – Rebrickable (411)
   description: Select one or more themes to display. Only applicable when using Rebrickable as your data source.
   multiple: true
   options:
-  - 12V (52): 12v|1|52
+  - 12V (53): 12v|1|53
   - 4 Juniors (23): 4-juniors|1|23
-  - 4.5V (85): 45v|1|85
-  - 9V (67): 9v|1|67
+  - 4.5V (87): 45v|1|87
+  - 9V (69): 9v|1|69
   - Action Wheelers (9): action-wheelers|1|9
   - Activity Books (230): activity-books|1|230
-  - Activity Books with LEGO Parts (399): activity-books-with-lego-parts|1|399
+  - Activity Books with LEGO Parts (403): activity-books-with-lego-parts|1|403
   - Advent (5): advent|1|5
   - Agents (13): agents|1|13
   - Airlines (16): airlines|1|16
-  - Airport (56): airport|1|56
+  - Airport (57): airport|1|57
   - Alien Conquest (10): alien-conquest|1|10
   - Alpha Team (7): alpha-team|1|7
   - Angry Birds (6): angry-birds|1|6
@@ -84,18 +84,18 @@ custom_fields:
   - Aquasharks (4): aquasharks|1|4
   - Aquazone (1): aquazone|1|1
   - Architecture (50): architecture|1|50
-  - Arctic (39): arctic|1|39
+  - Arctic (40): arctic|1|40
   - Atlantis (24): atlantis|1|24
   - Audio and Visual Media (71): audio-and-visual-media|1|71
   - Avatar (9): avatar|1|9
   - 'Avatar: The Last Airbender (2)': avatar-the-last-airbender|1|2
-  - Avengers (93): avengers|1|93
+  - Avengers (94): avengers|1|94
   - Bag and Luggage Tags (121): bag-and-luggage-tags|1|121
-  - Bags, Totes, & Luggage (715): bags-totes-luggage|1|715
+  - Bags, Totes, & Luggage (721): bags-totes-luggage|1|721
   - Basic (197): basic|1|197
-  - Basic Set (325): basic-set|1|325
+  - Basic Set (351): basic-set|1|351
   - Basketball (33): basketball|1|33
-  - Batman (131): batman|1|131
+  - Batman (133): batman|1|133
   - Belville (84): belville|1|84
   - Ben 10 (6): ben-10|1|6
   - Bionicle (402): bionicle|1|402
@@ -103,14 +103,13 @@ custom_fields:
   - Black Knights (14): black-knights|1|14
   - Blacktron I (7): blacktron-i|1|7
   - Blacktron II (14): blacktron-ii|1|14
-  - Bluey (4): bluey|1|4
+  - Bluey (7): bluey|1|7
   - Boat (21): boat|1|21
   - Bob the Builder (31): bob-the-builder|1|31
-  - Books (1): books|1|1
-  - Botanicals (32): botanicals|1|32
+  - Botanicals (43): botanicals|1|43
   - Brick Sketches (8): brick-sketches|1|8
-  - Brickheadz (183): brickheadz|1|183
-  - BrickLink Designer Program (58): bricklink-designer-program|1|58
+  - Brickheadz (190): brickheadz|1|190
+  - BrickLink Designer Program (63): bricklink-designer-program|1|63
   - Bricks & More (67): bricks-more|1|67
   - Bricktober (43): bricktober|1|43
   - Building (17): building|1|17
@@ -120,11 +119,11 @@ custom_fields:
   - Cargo (8): cargo|1|8
   - Cars (57): cars|1|57
   - Castle (29): castle|1|29
-  - Chinese (Lunar) New Year (21): chinese-lunar-new-year|1|21
+  - Chinese (Lunar) New Year (23): chinese-lunar-new-year|1|23
   - Chinese Traditional Festivals (32): chinese-traditional-festivals|1|32
-  - Christmas (168): christmas|1|168
+  - Christmas (179): christmas|1|179
   - Cities of Wonders (10): cities-of-wonders|1|10
-  - City (264): city|1|264
+  - City (268): city|1|268
   - City Center (21): city-center|1|21
   - Classic (78): classic|1|78
   - Classic Basic (52): classic-basic|1|52
@@ -132,15 +131,15 @@ custom_fields:
   - Classic Space (89): classic-space|1|89
   - Classic Town (410): classic-town|1|410
   - Clikits (80): clikits|1|80
-  - Clocks and Watches (213): clocks-and-watches|1|213
-  - Coast Guard (28): coast-guard|1|28
+  - Clocks and Watches (214): clocks-and-watches|1|214
+  - Coast Guard (30): coast-guard|1|30
   - Collectible Minifigures (36): collectible-minifigures|1|36
   - Competition (17): competition|1|17
   - Constraction (16): constraction|1|16
-  - Construction (120): construction|1|120
+  - Construction (123): construction|1|123
   - Control Lab (7): control-lab|1|7
-  - Creator (219): creator|1|219
-  - Creator 3-in-1 (251): creator-3-in-1|1|251
+  - Creator (223): creator|1|223
+  - Creator 3-in-1 (263): creator-3-in-1|1|263
   - Creator Expert (46): creator-expert|1|46
   - Dark Forest (3): dark-forest|1|3
   - DC Comics (8): dc-comics|1|8
@@ -148,7 +147,7 @@ custom_fields:
   - DC Super Hero Girls (11): dc-super-hero-girls|1|11
   - DC Super Heroes (19): dc-super-heroes|1|19
   - Desert (26): desert|1|26
-  - Designer Sets (50): designer-sets|1|50
+  - Designer Sets (49): designer-sets|1|49
   - Despicable Me 4 (5): despicable-me-4|1|5
   - DFB Minifigures (19): dfb-minifigures|1|19
   - Dimensions (68): dimensions|1|68
@@ -157,9 +156,9 @@ custom_fields:
   - Dino Island (17): dino-island|1|17
   - Dinosaurs (16): dinosaurs|1|16
   - Discovery (6): discovery|1|6
-  - Disney (62): disney|1|62
+  - Disney (68): disney|1|68
   - Disney 100 (22): disney-100|1|22
-  - Disney Princess (127): disney-princess|1|127
+  - Disney Princess (131): disney-princess|1|131
   - Disney Series 1 (21): disney-series-1|1|21
   - Disney Series 2 (21): disney-series-2|1|21
   - Divers (12): divers|1|12
@@ -168,13 +167,14 @@ custom_fields:
   - Dora the Explorer (5): dora-the-explorer|1|5
   - DOTS (93): dots|1|93
   - Dragon Knights (13): dragon-knights|1|13
-  - Dreamzzz (60): dreamzzz|1|60
+  - Dreamzzz (65): dreamzzz|1|65
   - Dungeons & Dragons (16): dungeons-dragons|1|16
-  - Duplo (144): duplo|1|144
+  - Duplo (105): duplo|1|105
   - Duplo and Explore (189): duplo-and-explore|1|189
   - Early Creator (35): early-creator|1|35
-  - Easter (52): easter|1|52
-  - Educational and Dacta (108): educational-and-dacta|1|108
+  - Easter (57): easter|1|57
+  - Editions (2): editions|1|2
+  - Educational and Dacta (114): educational-and-dacta|1|114
   - eLAB (5): elab|1|5
   - Elves (42): elves|1|42
   - EV3 (12): ev3|1|12
@@ -196,24 +196,24 @@ custom_fields:
   - Formula 1 (17): formula-1|1|17
   - Fortnite (9): fortnite|1|9
   - Freestyle (64): freestyle|1|64
-  - Friends (653): friends|1|653
+  - Friends (677): friends|1|677
   - Fright Knights (16): fright-knights|1|16
-  - Frozen (33): frozen|1|33
+  - Frozen (36): frozen|1|36
   - Fusion (4): fusion|1|4
   - Futuron (19): futuron|1|19
-  - Gabby's Dollhouse (9): gabbys-dollhouse|1|9
+  - Gabby's Dollhouse (10): gabbys-dollhouse|1|10
   - Galaxy Squad (12): galaxy-squad|1|12
   - Galidor (20): galidor|1|20
   - Games (46): games|1|46
   - Gas Station (6): gas-station|1|6
-  - Gear (461): gear|1|461
+  - Gear (487): gear|1|487
   - Gears (9): gears|1|9
   - Ghostbusters (2): ghostbusters|1|2
   - Gravity Games (10): gravity-games|1|10
   - Guardians of the Galaxy (14): guardians-of-the-galaxy|1|14
-  - Halloween (31): halloween|1|31
+  - Halloween (32): halloween|1|32
   - Harbor (25): harbor|1|25
-  - Harry Potter (178): harry-potter|1|178
+  - Harry Potter (187): harry-potter|1|187
   - Harry Potter and Fantastic Beasts Series 1 (25): harry-potter-and-fantastic-beasts-series-1|1|25
   - Harry Potter and Fantastic Beasts Series 2 (19): harry-potter-and-fantastic-beasts-series-2|1|19
   - Hero Factory (34): hero-factory|1|34
@@ -225,15 +225,15 @@ custom_fields:
   - Homemaker (32): homemaker|1|32
   - Horizon Adventures (1): horizon-adventures|1|1
   - Hospital (31): hospital|1|31
-  - Houseware (382): houseware|1|382
+  - Houseware (395): houseware|1|395
   - Hydronauts (7): hydronauts|1|7
   - Ice Planet 2002 (10): ice-planet-2002|1|10
-  - Icons (69): icons|1|69
+  - Icons (77): icons|1|77
   - Ideas Books (117): ideas-books|1|117
   - Incredibles 2 (3): incredibles-2|1|3
   - Indiana Jones (20): indiana-jones|1|20
   - Insectoids (18): insectoids|1|18
-  - Inventor (5): inventor|1|5
+  - Inventor (6): inventor|1|6
   - Iron Man (5): iron-man|1|5
   - Island Xtreme Stunts (13): island-xtreme-stunts|1|13
   - Jack Stone (25): jack-stone|1|25
@@ -242,22 +242,23 @@ custom_fields:
   - Jungle (27): jungle|1|27
   - Juniors (29): juniors|1|29
   - Jurassic Park III (2): jurassic-park-iii|1|2
-  - Jurassic World (117): jurassic-world|1|117
+  - Jurassic World (118): jurassic-world|1|118
   - 'Jurassic World: Fallen Kingdom (3)': jurassic-world-fallen-kingdom|1|3
   - Justice League (16): justice-league|1|16
-  - Key Chain (692): key-chain|1|692
+  - Key Chain (699): key-chain|1|699
   - Kingdoms (17): kingdoms|1|17
   - Knights Kingdom I (20): knights-kingdom-i|1|20
   - Knights Kingdom II (71): knights-kingdom-ii|1|71
   - Launch Command (5): launch-command|1|5
   - Learning (5): learning|1|5
+  - Learning at Home (4): learning-at-home|1|4
   - Legends of Chima (96): legends-of-chima|1|96
-  - LEGO Art (24): lego-art|1|24
-  - LEGO Brand Store (107): lego-brand-store|1|107
-  - LEGO Exclusive (67): lego-exclusive|1|67
-  - LEGO Ideas and CUUSOO (86): lego-ideas-and-cuusoo|1|86
+  - LEGO Art (25): lego-art|1|25
+  - LEGO Brand Store (109): lego-brand-store|1|109
+  - LEGO Exclusive (69): lego-exclusive|1|69
+  - LEGO Ideas and CUUSOO (89): lego-ideas-and-cuusoo|1|89
   - LEGO Originals (19): lego-originals|1|19
-  - Legoland Parks (34): legoland-parks|1|34
+  - Legoland Parks (35): legoland-parks|1|35
   - Legoville (76): legoville|1|76
   - Life On Mars (25): life-on-mars|1|25
   - Lion Knights (26): lion-knights|1|26
@@ -269,17 +270,17 @@ custom_fields:
   - Make & Create (49): make-create|1|49
   - Mars Exploration (12): mars-exploration|1|12
   - Mars Mission (19): mars-mission|1|19
-  - Marvel (13): marvel|1|13
+  - Marvel (14): marvel|1|14
   - Marvel Series 1 (16): marvel-series-1|1|16
   - Marvel Series 2 (16): marvel-series-2|1|16
   - Marvel Super Heroes (4): marvel-super-heroes|1|4
   - Master Builder Academy (17): master-builder-academy|1|17
   - McDonalds (19): mcdonalds|1|19
-  - Mickey & Friends (18): mickey-friends|1|18
+  - Mickey & Friends (19): mickey-friends|1|19
   - Mickey Mouse (14): mickey-mouse|1|14
   - Miles From Tomorrowland (3): miles-from-tomorrowland|1|3
   - Mindstorms (24): mindstorms|1|24
-  - Minecraft (188): minecraft|1|188
+  - Minecraft (191): minecraft|1|191
   - Mini (1): mini|1|1
   - Minions (9): minions|1|9
   - Minitalia (19): minitalia|1|19
@@ -287,45 +288,47 @@ custom_fields:
   - Mission Deep Sea (17): mission-deep-sea|1|17
   - Mixels (123): mixels|1|123
   - Model Team (16): model-team|1|16
-  - Modular Buildings (20): modular-buildings|1|20
+  - Modular Buildings (21): modular-buildings|1|21
   - Monkie Kid (58): monkie-kid|1|58
   - Monster Fighters (14): monster-fighters|1|14
   - Monthly Mini Model Build (109): monthly-mini-model-build|1|109
   - Mosaic (6): mosaic|1|6
   - My Town (11): my-town|1|11
   - Nexo Knights (104): nexo-knights|1|104
-  - Nike (3): nike|1|3
+  - Nike (4): nike|1|4
   - Ninja (31): ninja|1|31
-  - Ninjago (587): ninjago|1|587
-  - Non-fiction Books (172): non-fiction-books|1|172
+  - Ninjago (609): ninjago|1|609
+  - Non-fiction Books (175): non-fiction-books|1|175
   - NXT (30): nxt|1|30
   - Off-Road (12): off-road|1|12
   - One Piece (6): one-piece|1|6
   - Orient Expedition (22): orient-expedition|1|22
-  - Other (96): other|1|96
+  - Other (98): other|1|98
   - Outback (5): outback|1|5
   - Overwatch (9): overwatch|1|9
   - Paradisa (18): paradisa|1|18
+  - Peppa Pig (11): peppa-pig|1|11
   - Pharaoh's Quest (9): pharaohs-quest|1|9
   - Pick A Model (24): pick-a-model|1|24
   - Pirates (5): pirates|1|5
   - Pirates I (66): pirates-i|1|66
   - Pirates II (14): pirates-ii|1|14
   - Pirates III (9): pirates-iii|1|9
-  - Pirates of the Caribbean (17): pirates-of-the-caribbean|1|17
+  - Pirates of the Caribbean (18): pirates-of-the-caribbean|1|18
   - Planes (4): planes|1|4
   - Playhouse (58): playhouse|1|58
   - Playsets (11): playsets|1|11
-  - Plush Toys (101): plush-toys|1|101
-  - Police (203): police|1|203
-  - Posters and Art Prints (89): posters-and-art-prints|1|89
+  - Plush Toys (116): plush-toys|1|116
+  - Pokémon (5): pokémon|1|5
+  - Police (206): police|1|206
+  - Posters and Art Prints (90): posters-and-art-prints|1|90
   - Power Functions (18): power-functions|1|18
   - Power Miners (19): power-miners|1|19
   - Powered Up (15): powered-up|1|15
   - Primo (114): primo|1|114
   - Prince of Persia (6): prince-of-persia|1|6
   - Princess Castle (6): princess-castle|1|6
-  - Promotional (173): promotional|1|173
+  - Promotional (163): promotional|1|163
   - Protectors (6): protectors|1|6
   - Quatro (9): quatro|1|9
   - Race (16): race|1|16
@@ -343,7 +346,7 @@ custom_fields:
   - Scala (72): scala|1|72
   - Scooby-Doo (7): scooby-doo|1|7
   - Sculptures (3): sculptures|1|3
-  - Seasonal (65): seasonal|1|65
+  - Seasonal (73): seasonal|1|73
   - Series 1 Minifigures (19): series-1-minifigures|1|19
   - Series 10 Minifigures (20): series-10-minifigures|1|20
   - Series 11 Minifigures (19): series-11-minifigures|1|19
@@ -364,6 +367,7 @@ custom_fields:
   - Series 25 Minifigures (16): series-25-minifigures|1|16
   - Series 26 Minifigures (16): series-26-minifigures|1|16
   - Series 27 Minifigures (16): series-27-minifigures|1|16
+  - Series 28 Minifigures (16): series-28-minifigures|1|16
   - Series 3 Minifigures (19): series-3-minifigures|1|19
   - Series 4 Minifigures (19): series-4-minifigures|1|19
   - Series 5 Minifigures (19): series-5-minifigures|1|19
@@ -372,34 +376,34 @@ custom_fields:
   - Series 8 Minifigures (19): series-8-minifigures|1|19
   - Series 9 Minifigures (19): series-9-minifigures|1|19
   - Serious Play (13): serious-play|1|13
-  - Service Packs (328): service-packs|1|328
+  - Service Packs (329): service-packs|1|329
   - Skylines (14): skylines|1|14
   - Soccer (98): soccer|1|98
   - Sofia the First (3): sofia-the-first|1|3
   - Soft Bricks (6): soft-bricks|1|6
-  - Sonic The Hedgehog (20): sonic-the-hedgehog|1|20
-  - Space (8): space|1|8
+  - Sonic The Hedgehog (23): sonic-the-hedgehog|1|23
+  - Space (24): space|1|24
   - Space Police I (6): space-police-i|1|6
   - Space Police II (8): space-police-ii|1|8
   - Space Police III (16): space-police-iii|1|16
-  - Space Port (20): space-port|1|20
-  - Speed Champions (95): speed-champions|1|95
+  - Space Port (21): space-port|1|21
+  - Speed Champions (100): speed-champions|1|100
   - Speed Racer (4): speed-racer|1|4
   - Speed Slammers (5): speed-slammers|1|5
   - Speedorz (30): speedorz|1|30
-  - Spider-Man (113): spider-man|1|113
+  - Spider-Man (117): spider-man|1|117
   - Spider-Man - Across the Spider-Verse (17): spider-man-across-the-spider-verse|1|17
-  - Spidey and His Amazing Friends (9): spidey-and-his-amazing-friends|1|9
+  - Spidey and His Amazing Friends (12): spidey-and-his-amazing-friends|1|12
   - SPIKE (31): spike|1|31
   - SpongeBob SquarePants (14): spongebob-squarepants|1|14
   - Sports (4): sports|1|4
   - Spybotics (4): spybotics|1|4
   - Spyrius (9): spyrius|1|9
-  - Star Wars (949): star-wars|1|949
-  - Stationery and Office Supplies (579): stationery-and-office-supplies|1|579
+  - Star Wars (975): star-wars|1|975
+  - Stationery and Office Supplies (591): stationery-and-office-supplies|1|591
   - Stingrays (5): stingrays|1|5
   - Storage (165): storage|1|165
-  - Story Books (350): story-books|1|350
+  - Story Books (353): story-books|1|353
   - Stranger Things (1): stranger-things|1|1
   - Studios (50): studios|1|50
   - Stuntz (27): stuntz|1|27
@@ -408,15 +412,15 @@ custom_fields:
   - Super Mario (178): super-mario|1|178
   - Superman (9): superman|1|9
   - Supplemental (335): supplemental|1|335
-  - System (48): system|1|48
-  - Tabletop Games and Puzzles (59): tabletop-games-and-puzzles|1|59
+  - System (49): system|1|49
+  - Tabletop Games and Puzzles (63): tabletop-games-and-puzzles|1|63
   - Team GB (12): team-gb|1|12
-  - Technic (757): technic|1|757
+  - Technic (770): technic|1|770
   - Teenage Mutant Ninja Turtles (20): teenage-mutant-ninja-turtles|1|20
-  - Thanksgiving (9): thanksgiving|1|9
+  - Thanksgiving (10): thanksgiving|1|10
   - The Hobbit (20): the-hobbit|1|20
-  - The Infinity Saga (56): the-infinity-saga|1|56
-  - The Legend of Zelda (1): the-legend-of-zelda|1|1
+  - The Infinity Saga (57): the-infinity-saga|1|57
+  - The Legend of Zelda (2): the-legend-of-zelda|1|2
   - The LEGO Batman Movie (42): the-lego-batman-movie|1|42
   - The LEGO Batman Movie Series 1 (23): the-lego-batman-movie-series-1|1|23
   - The LEGO Batman Movie Series 2 (23): the-lego-batman-movie-series-2|1|23
@@ -433,12 +437,12 @@ custom_fields:
   - Throwbot Slizer (14): throwbot-slizer|1|14
   - Time Cruisers (9): time-cruisers|1|9
   - Toolo (13): toolo|1|13
-  - Town (407): town|1|407
+  - Town (415): town|1|415
   - Town Jr. (39): town-jr|1|39
   - Town Plan (32): town-plan|1|32
   - Toy Story (27): toy-story|1|27
   - Traffic (61): traffic|1|61
-  - Train (68): train|1|68
+  - Train (63): train|1|63
   - Trains (101): trains|1|101
   - 'Trolls: World Tour (9)': trolls-world-tour|1|9
   - UCS (6): ucs|1|6
@@ -449,7 +453,7 @@ custom_fields:
   - Unitron (4): unitron|1|4
   - Universal Building Set (102): universal-building-set|1|102
   - Universe (2): universe|1|2
-  - Valentine (21): valentine|1|21
+  - Valentine (26): valentine|1|26
   - Value Packs (35): value-packs|1|35
   - Vehicle (31): vehicle|1|31
   - Video Games and Accessories (257): video-games-and-accessories|1|257
@@ -474,7 +478,7 @@ custom_fields:
   optional: true
 - keyname: themes_brickset
   field_type: select
-  name: Filter by Themes – Brickset (170)
+  name: Filter by Themes – Brickset (172)
   description: "<strong>Required:</strong> Select at least one theme, OR set a min/max year below. Only applicable when using Brickset as your data source."
   multiple: true
   options:
@@ -532,6 +536,7 @@ custom_fields:
   - Dots: Dots
   - Dreamzzz: Dreamzzz
   - Duplo: Duplo
+  - Editions: Editions
   - Education: Education
   - Elves: Elves
   - Exo-Force: Exo-Force
@@ -561,6 +566,7 @@ custom_fields:
   - Jack Stone: Jack Stone
   - Juniors: Juniors
   - Jurassic World: Jurassic World
+  - KPop Demon Hunters: KPop Demon Hunters
   - LEGO Games: LEGO Games
   - LEGO Universe: LEGO Universe
   - LEGOLAND: LEGOLAND
@@ -753,7 +759,7 @@ custom_fields:
   description: Show only sets released in or before this year. <strong>For Brickset mode:</strong> at least one theme OR a year range (min/max) is required.
   min: 1900
   optional: true
-  placeholder: '2025'
+  placeholder: '2026'
 - keyname: min_parts
   field_type: number
   name: Minimum Number of Parts
