@@ -228600,16 +228600,6 @@
     "parent_theme": ""
   },
   {
-    "set_num": "412601-1",
-    "name": "Submarine",
-    "year": 2025,
-    "theme_id": 1,
-    "num_parts": 70,
-    "img_url": "https://cdn.rebrickable.com/media/sets/412601-1.jpg",
-    "theme": "Technic",
-    "parent_theme": ""
-  },
-  {
     "set_num": "472506-1",
     "name": "Hero with Crafting table, Furnace and Anvil",
     "year": 2025,
@@ -234480,6 +234470,16 @@
     "parent_theme": "Seasonal"
   },
   {
+    "set_num": "40916-1",
+    "name": "Floral Picture Frame",
+    "year": 2026,
+    "theme_id": 769,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40916-1.jpg",
+    "theme": "Botanicals",
+    "parent_theme": ""
+  },
+  {
     "set_num": "40920-1",
     "name": "Bugs Bunny",
     "year": 2026,
@@ -234860,6 +234860,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "43014-1",
+    "name": "Scuderia Ferrari HP Charles Leclerc Helmet",
+    "year": 2026,
+    "theme_id": 787,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/43014-1.jpg",
+    "theme": "Editions",
+    "parent_theme": ""
+  },
+  {
     "set_num": "43019-1",
     "name": "Soccer Ball",
     "year": 2026,
@@ -234876,6 +234886,16 @@
     "theme_id": 787,
     "num_parts": 2842,
     "img_url": "https://cdn.rebrickable.com/media/sets/43020-1.jpg",
+    "theme": "Editions",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "43022-1",
+    "name": "Scuderia Ferrari HP Lewis Hamilton Helmet",
+    "year": 2026,
+    "theme_id": 787,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/43022-1.jpg",
     "theme": "Editions",
     "parent_theme": ""
   },
@@ -236397,16 +236417,6 @@
     "num_parts": 19,
     "img_url": "https://cdn.rebrickable.com/media/sets/951315-1.jpg",
     "theme": "Minecraft",
-    "parent_theme": ""
-  },
-  {
-    "set_num": "951380-1",
-    "name": "Kur",
-    "year": 2026,
-    "theme_id": 435,
-    "num_parts": 10,
-    "img_url": "https://cdn.rebrickable.com/media/sets/951380-1.jpg",
-    "theme": "Ninjago",
     "parent_theme": ""
   },
   {
