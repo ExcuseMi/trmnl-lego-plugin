@@ -91451,7 +91451,7 @@
   },
   {
     "set_num": "7930-1",
-    "name": "Bounty Hunter Gunship",
+    "name": "Bounty Hunter Assault Gunship",
     "year": 2011,
     "theme_id": 158,
     "num_parts": 390,
@@ -221890,16 +221890,6 @@
     "parent_theme": "Books"
   },
   {
-    "set_num": "9788325344467-1",
-    "name": "Star Wars: Mandaloriańscy Wojownicy",
-    "year": 2024,
-    "theme_id": 761,
-    "num_parts": 7,
-    "img_url": "https://cdn.rebrickable.com/media/sets/9788325344467-1.jpg",
-    "theme": "Activity Books with LEGO Parts",
-    "parent_theme": "Books"
-  },
-  {
     "set_num": "9788325344481-1",
     "name": "Star Wars: Connect the Dots",
     "year": 2024,
@@ -228931,7 +228921,7 @@
   },
   {
     "set_num": "702504-1",
-    "name": "Minecraft Trading Cards Series 2: Boom-Bastic - Eco-Blister",
+    "name": "Minecraft Trading Cards Series 2: Boom-Bastic - Eco-Blister (German Version)",
     "year": 2025,
     "theme_id": 501,
     "num_parts": 1,
@@ -229516,16 +229506,6 @@
     "theme_id": 158,
     "num_parts": 38,
     "img_url": "https://cdn.rebrickable.com/media/sets/912513-1.jpg",
-    "theme": "Star Wars",
-    "parent_theme": ""
-  },
-  {
-    "set_num": "912514-1",
-    "name": "Phase 1 Clone Pilot",
-    "year": 2025,
-    "theme_id": 158,
-    "num_parts": 5,
-    "img_url": "https://cdn.rebrickable.com/media/sets/912514-1.jpg",
     "theme": "Star Wars",
     "parent_theme": ""
   },
@@ -236900,12 +236880,102 @@
     "parent_theme": "Books"
   },
   {
-    "set_num": "9788325348168-1",
-    "name": "Minecraft: Przygoda w Kresie",
+    "set_num": "9781837251957-1",
+    "name": "Tiny Pets: Corgi",
     "year": 2026,
     "theme_id": 761,
-    "num_parts": 7,
-    "img_url": "https://cdn.rebrickable.com/media/sets/9788325348168-1.jpg",
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9781837251957-1.jpg",
+    "theme": "Activity Books with LEGO Parts",
+    "parent_theme": "Books"
+  },
+  {
+    "set_num": "9781837251964-1",
+    "name": "Tiny Pets: Pig",
+    "year": 2026,
+    "theme_id": 761,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9781837251964-1.jpg",
+    "theme": "Activity Books with LEGO Parts",
+    "parent_theme": "Books"
+  },
+  {
+    "set_num": "9781837251995-1",
+    "name": "Ninjago: The Epic History Activity Box",
+    "year": 2026,
+    "theme_id": 761,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9781837251995-1.jpg",
+    "theme": "Activity Books with LEGO Parts",
+    "parent_theme": "Books"
+  },
+  {
+    "set_num": "9781837252008-1",
+    "name": "Minecraft: Craft Your Quest: A Choose Your Path Experience",
+    "year": 2026,
+    "theme_id": 761,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9781837252008-1.jpg",
+    "theme": "Activity Books with LEGO Parts",
+    "parent_theme": "Books"
+  },
+  {
+    "set_num": "9781837252121-1",
+    "name": "Tiny Pets: Koala",
+    "year": 2026,
+    "theme_id": 761,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9781837252121-1.jpg",
+    "theme": "Activity Books with LEGO Parts",
+    "parent_theme": "Books"
+  },
+  {
+    "set_num": "9781837252138-1",
+    "name": "Tiny Pets: Panda",
+    "year": 2026,
+    "theme_id": 761,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9781837252138-1.jpg",
+    "theme": "Activity Books with LEGO Parts",
+    "parent_theme": "Books"
+  },
+  {
+    "set_num": "9781837252145-1",
+    "name": "Minecraft: Rare Mob Expedition: Search & Find Sticker Activity",
+    "year": 2026,
+    "theme_id": 761,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9781837252145-1.jpg",
+    "theme": "Activity Books with LEGO Parts",
+    "parent_theme": "Books"
+  },
+  {
+    "set_num": "9781837252152-1",
+    "name": "Ninjago: Dragons Rising: Cole's Mech Mission",
+    "year": 2026,
+    "theme_id": 761,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9781837252152-1.jpg",
+    "theme": "Activity Books with LEGO Parts",
+    "parent_theme": "Books"
+  },
+  {
+    "set_num": "9781837252169-1",
+    "name": "Star Wars: The Dark Lord",
+    "year": 2026,
+    "theme_id": 761,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9781837252169-1.jpg",
+    "theme": "Activity Books with LEGO Parts",
+    "parent_theme": "Books"
+  },
+  {
+    "set_num": "9781837252176-1",
+    "name": "Harry Potter: Magical Powers",
+    "year": 2026,
+    "theme_id": 761,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9781837252176-1.jpg",
     "theme": "Activity Books with LEGO Parts",
     "parent_theme": "Books"
   },
