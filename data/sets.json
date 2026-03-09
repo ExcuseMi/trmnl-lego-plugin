@@ -233491,7 +233491,7 @@
   },
   {
     "set_num": "9788325347215-1",
-    "name": "Ninjago: Ogień i Żar",
+    "name": "Ninjago: Dragons Rising: The Heat is On",
     "year": 2025,
     "theme_id": 761,
     "num_parts": 10,
@@ -234524,7 +234524,7 @@
     "name": "Maersk Dual-Fuel Container Vessel",
     "year": 2026,
     "theme_id": 301,
-    "num_parts": 1515,
+    "num_parts": 1516,
     "img_url": "https://cdn.rebrickable.com/media/sets/40955-1.jpg",
     "theme": "Other",
     "parent_theme": ""
@@ -236800,6 +236800,26 @@
     "parent_theme": "Books"
   },
   {
+    "set_num": "9780241785980-1",
+    "name": "Duplo: Bluey: Flat Pack",
+    "year": 2026,
+    "theme_id": 759,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9780241785980-1.jpg",
+    "theme": "Story Books",
+    "parent_theme": "Books"
+  },
+  {
+    "set_num": "9780241788059-1",
+    "name": "Marvel Super Heroes: Secrets of the Avengers",
+    "year": 2026,
+    "theme_id": 758,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9780241788059-1.jpg",
+    "theme": "Non-fiction Books",
+    "parent_theme": "Books"
+  },
+  {
     "set_num": "9780241788080-1",
     "name": "DC Comics Batman: Adventures in Gotham City",
     "year": 2026,
@@ -236807,6 +236827,26 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/9780241788080-1.jpg",
     "theme": "Activity Books with LEGO Parts",
+    "parent_theme": "Books"
+  },
+  {
+    "set_num": "9780241788097-1",
+    "name": "DK Super Readers Level 2: Ninjago: Dragons Rising: Battle Ready",
+    "year": 2026,
+    "theme_id": 759,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9780241788097-1.jpg",
+    "theme": "Story Books",
+    "parent_theme": "Books"
+  },
+  {
+    "set_num": "9780241789926-1",
+    "name": "Disney: Character Guide",
+    "year": 2026,
+    "theme_id": 758,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9780241789926-1.jpg",
+    "theme": "Non-fiction Books",
     "parent_theme": "Books"
   },
   {
@@ -236820,12 +236860,32 @@
     "parent_theme": "Books"
   },
   {
+    "set_num": "9780241816516-1",
+    "name": "Star Wars: Luke Skywalker's Galactic Adventures",
+    "year": 2026,
+    "theme_id": 759,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9780241816516-1.jpg",
+    "theme": "Story Books",
+    "parent_theme": "Books"
+  },
+  {
     "set_num": "9781534333352-1",
     "name": "Ninjago: Strike of the Serpentine",
     "year": 2026,
     "theme_id": 759,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/9781534333352-1.jpg",
+    "theme": "Story Books",
+    "parent_theme": "Books"
+  },
+  {
+    "set_num": "9781534334267-1",
+    "name": "Ninjago: Dark Island Trilogy",
+    "year": 2026,
+    "theme_id": 759,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9781534334267-1.jpg",
     "theme": "Story Books",
     "parent_theme": "Books"
   },
