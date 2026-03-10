@@ -217530,6 +217530,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "702353-2",
+    "name": "Minecraft Trading Cards Series 1 - Eco-Blister (Polish Version)",
+    "year": 2024,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/702353-2.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
     "set_num": "702414-1",
     "name": "Star Wars Trading Card Collection; Jubiläums-Edition - Random Pack",
     "year": 2024,
@@ -220428,6 +220438,26 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/978059395893-1.jpg",
     "theme": "Non-fiction Books",
     "parent_theme": "Books"
+  },
+  {
+    "set_num": "4143643905991-1",
+    "name": "Minecraft Trading Cards Series 1 - Eco-Multipack (Polish Version)",
+    "year": 2024,
+    "theme_id": 501,
+    "num_parts": 1,
+    "img_url": "https://cdn.rebrickable.com/media/sets/4143643905991-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "4143644509990-1",
+    "name": "Minecraft Trading Cards Series 1 - Starterpack (Polish Version)",
+    "year": 2024,
+    "theme_id": 501,
+    "num_parts": 3,
+    "img_url": "https://cdn.rebrickable.com/media/sets/4143644509990-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
   },
   {
     "set_num": "5060373574510-1",
@@ -233300,6 +233330,16 @@
     "parent_theme": "Books"
   },
   {
+    "set_num": "9781797233086-1",
+    "name": "Mystery Minifigure Mini Puzzle (Christmas Edition) - 12 Pack",
+    "year": 2025,
+    "theme_id": 741,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9781797233086-1.jpg",
+    "theme": "Tabletop Games and Puzzles",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "9781797235219-1",
     "name": "Brick Erasers (Multicolor)",
     "year": 2025,
@@ -234454,7 +234494,7 @@
     "name": "Floral Picture Frame",
     "year": 2026,
     "theme_id": 769,
-    "num_parts": 0,
+    "num_parts": 310,
     "img_url": "https://cdn.rebrickable.com/media/sets/40916-1.jpg",
     "theme": "Botanicals",
     "parent_theme": ""
@@ -236760,6 +236800,86 @@
     "parent_theme": ""
   },
   {
+    "set_num": "40350800-1",
+    "name": "Brick Art Line Vase",
+    "year": 2026,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40350800-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "40350801-1",
+    "name": "Wild Flower Vase",
+    "year": 2026,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40350801-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "40380800-1",
+    "name": "Storage Head L Felt (Boy)",
+    "year": 2026,
+    "theme_id": 740,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40380800-1.jpg",
+    "theme": "Storage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "40390800-1",
+    "name": "Storage Brick 2 x 2 Felt (All Colors)",
+    "year": 2026,
+    "theme_id": 740,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40390800-1.jpg",
+    "theme": "Storage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "40450806-1",
+    "name": "Brick Art Line Mug",
+    "year": 2026,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40450806-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "40450807-1",
+    "name": "Spring Flower Mug",
+    "year": 2026,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40450807-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "40480804-1",
+    "name": "Brick Art Line Thermo Bottle",
+    "year": 2026,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40480804-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "40480805-1",
+    "name": "Spring Flowers Thermo Bottle",
+    "year": 2026,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40480805-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "5060093915167-1",
     "name": "Ninjago 15 Coin",
     "year": 2026,
@@ -236810,6 +236930,16 @@
     "parent_theme": "Books"
   },
   {
+    "set_num": "9780241786161-1",
+    "name": "Ninjago: Quill of Destiny: Attack of the Scroll Guardian",
+    "year": 2026,
+    "theme_id": 759,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9780241786161-1.jpg",
+    "theme": "Story Books",
+    "parent_theme": "Books"
+  },
+  {
     "set_num": "9780241788059-1",
     "name": "Marvel Super Heroes: Secrets of the Avengers",
     "year": 2026,
@@ -236840,6 +236970,16 @@
     "parent_theme": "Books"
   },
   {
+    "set_num": "9780241788653-1",
+    "name": "Minecraft: How to Build Houses",
+    "year": 2026,
+    "theme_id": 758,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9780241788653-1.jpg",
+    "theme": "Non-fiction Books",
+    "parent_theme": "Books"
+  },
+  {
     "set_num": "9780241789926-1",
     "name": "Disney: Character Guide",
     "year": 2026,
@@ -236857,6 +236997,56 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/9780241789940-1.jpg",
     "theme": "Non-fiction Books",
+    "parent_theme": "Books"
+  },
+  {
+    "set_num": "9780241799673-1",
+    "name": "Friends: Pet Rescuers: Bunny Breakout",
+    "year": 2026,
+    "theme_id": 759,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9780241799673-1.jpg",
+    "theme": "Story Books",
+    "parent_theme": "Books"
+  },
+  {
+    "set_num": "9780241810309-1",
+    "name": "Ninjago: Dragons Rising: Riyu the Dragon",
+    "year": 2026,
+    "theme_id": 759,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9780241810309-1.jpg",
+    "theme": "Story Books",
+    "parent_theme": "Books"
+  },
+  {
+    "set_num": "9780241810880-1",
+    "name": "City: Game On: Donut Dash",
+    "year": 2026,
+    "theme_id": 759,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9780241810880-1.jpg",
+    "theme": "Story Books",
+    "parent_theme": "Books"
+  },
+  {
+    "set_num": "9780241810897-1",
+    "name": "Ninjago: Dragons Rising: Riyu the Dragon: Ninja in Training",
+    "year": 2026,
+    "theme_id": 759,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9780241810897-1.jpg",
+    "theme": "Story Books",
+    "parent_theme": "Books"
+  },
+  {
+    "set_num": "9780241810910-1",
+    "name": "City: Game On: Duck Race",
+    "year": 2026,
+    "theme_id": 759,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9780241810910-1.jpg",
+    "theme": "Story Books",
     "parent_theme": "Books"
   },
   {
@@ -236888,6 +237078,76 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/9781534334267-1.jpg",
     "theme": "Story Books",
     "parent_theme": "Books"
+  },
+  {
+    "set_num": "9781797233413-1",
+    "name": "Ninjago Puzzle",
+    "year": 2026,
+    "theme_id": 741,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9781797233413-1.jpg",
+    "theme": "Tabletop Games and Puzzles",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "9781797240282-1",
+    "name": "2027 Wall Calendar",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9781797240282-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "9781797240299-1",
+    "name": "Easter Egg Hunt Puzzle",
+    "year": 2026,
+    "theme_id": 741,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9781797240299-1.jpg",
+    "theme": "Tabletop Games and Puzzles",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "9781797240329-1",
+    "name": "2027 Minifigure a Day Calendar",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9781797240329-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "9781797240336-1",
+    "name": "Animal Field Guide",
+    "year": 2026,
+    "theme_id": 758,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9781797240336-1.jpg",
+    "theme": "Non-fiction Books",
+    "parent_theme": "Books"
+  },
+  {
+    "set_num": "9781797240466-1",
+    "name": "Minifigures: 100 Collectible Postcards",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9781797240466-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "9781797245560-1",
+    "name": "Giant Floor Puzzle: Vehicles",
+    "year": 2026,
+    "theme_id": 741,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9781797245560-1.jpg",
+    "theme": "Tabletop Games and Puzzles",
+    "parent_theme": "Gear"
   },
   {
     "set_num": "9781837251735-1",

@@ -196,7 +196,7 @@
   - Galidor (20): galidor|1|20
   - Games (46): games|1|46
   - Gas Station (6): gas-station|1|6
-  - Gear (488): gear|1|488
+  - Gear (491): gear|1|491
   - Gears (9): gears|1|9
   - Ghostbusters (2): ghostbusters|1|2
   - Gravity Games (10): gravity-games|1|10
@@ -215,7 +215,7 @@
   - Homemaker (32): homemaker|1|32
   - Horizon Adventures (1): horizon-adventures|1|1
   - Hospital (31): hospital|1|31
-  - Houseware (395): houseware|1|395
+  - Houseware (401): houseware|1|401
   - Hydronauts (7): hydronauts|1|7
   - Ice Planet 2002 (10): ice-planet-2002|1|10
   - Icons (77): icons|1|77
@@ -288,7 +288,7 @@
   - Nike (4): nike|1|4
   - Ninja (31): ninja|1|31
   - Ninjago (608): ninjago|1|608
-  - Non-fiction Books (177): non-fiction-books|1|177
+  - Non-fiction Books (179): non-fiction-books|1|179
   - NXT (30): nxt|1|30
   - Off-Road (12): off-road|1|12
   - One Piece (6): one-piece|1|6
@@ -390,10 +390,10 @@
   - Spybotics (4): spybotics|1|4
   - Spyrius (9): spyrius|1|9
   - Star Wars (975): star-wars|1|975
-  - Stationery and Office Supplies (592): stationery-and-office-supplies|1|592
+  - Stationery and Office Supplies (595): stationery-and-office-supplies|1|595
   - Stingrays (5): stingrays|1|5
-  - Storage (165): storage|1|165
-  - Story Books (357): story-books|1|357
+  - Storage (167): storage|1|167
+  - Story Books (363): story-books|1|363
   - Stranger Things (1): stranger-things|1|1
   - Studios (50): studios|1|50
   - Stuntz (27): stuntz|1|27
@@ -403,7 +403,7 @@
   - Superman (9): superman|1|9
   - Supplemental (335): supplemental|1|335
   - System (49): system|1|49
-  - Tabletop Games and Puzzles (63): tabletop-games-and-puzzles|1|63
+  - Tabletop Games and Puzzles (67): tabletop-games-and-puzzles|1|67
   - Team GB (12): team-gb|1|12
   - Technic (769): technic|1|769
   - Teenage Mutant Ninja Turtles (20): teenage-mutant-ninja-turtles|1|20
@@ -468,7 +468,7 @@
   optional: true
 - keyname: themes_brickset
   field_type: select
-  name: Filter by Themes – Brickset (172)
+  name: Filter by Themes – Brickset (173)
   description: <strong>Required:</strong> Select at least one theme, OR set a min/max year below. Only applicable when using Brickset as your data source.
   multiple: true
   options:
@@ -644,6 +644,7 @@
   - Xtra: Xtra
   - Znap: Znap
   - tbd: tbd
+  - '{Undefined}': '{Undefined}'
   help_text: Use <kbd>⌘</kbd>+<kbd>click</kbd> or <kbd>Ctrl</kbd>+<kbd>click</kbd> to select multiple themes.<br /><strong>You must select at least one theme OR specify a year range.</strong>
   optional: true
 - keyname: brickset_order_by
