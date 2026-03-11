@@ -118060,6 +118060,26 @@
     "parent_theme": "Books"
   },
   {
+    "set_num": "9780545794107-1",
+    "name": "Friends: Jungle Adventure",
+    "year": 2014,
+    "theme_id": 759,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9780545794107-1.jpg",
+    "theme": "Story Books",
+    "parent_theme": "Books"
+  },
+  {
+    "set_num": "9780606363655-1",
+    "name": "The Lego Movie: Unikitty: A Cuckoo Adventure",
+    "year": 2014,
+    "theme_id": 759,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9780606363655-1.jpg",
+    "theme": "Story Books",
+    "parent_theme": "Books"
+  },
+  {
     "set_num": "9780723291077-1",
     "name": "City: Sneaky Sharks",
     "year": 2014,
@@ -225380,36 +225400,6 @@
     "parent_theme": "Gear"
   },
   {
-    "set_num": "53702-1",
-    "name": "Pen Pal Gel Pen with Minifigure (Blue)",
-    "year": 2025,
-    "theme_id": 739,
-    "num_parts": 5,
-    "img_url": "https://cdn.rebrickable.com/media/sets/53702-1.jpg",
-    "theme": "Stationery and Office Supplies",
-    "parent_theme": "Gear"
-  },
-  {
-    "set_num": "53703-1",
-    "name": "Pen Pal Gel Pen with Construction Worker Minifigure (Black)",
-    "year": 2025,
-    "theme_id": 739,
-    "num_parts": 4,
-    "img_url": "https://cdn.rebrickable.com/media/sets/53703-1.jpg",
-    "theme": "Stationery and Office Supplies",
-    "parent_theme": "Gear"
-  },
-  {
-    "set_num": "53704-1",
-    "name": "Pen Pal Gel Pen with Minifigure (Red)",
-    "year": 2025,
-    "theme_id": 739,
-    "num_parts": 3,
-    "img_url": "https://cdn.rebrickable.com/media/sets/53704-1.jpg",
-    "theme": "Stationery and Office Supplies",
-    "parent_theme": "Gear"
-  },
-  {
     "set_num": "53705-1",
     "name": "Pen Pal Mechanical Pencil with Construction Worker Minifigure",
     "year": 2025,
@@ -231600,6 +231590,36 @@
     "parent_theme": "Books"
   },
   {
+    "set_num": "5010102-1",
+    "name": "Pen Pal Gel Pen with Minifigure (Blue)",
+    "year": 2025,
+    "theme_id": 739,
+    "num_parts": 5,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010102-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010103-1",
+    "name": "Pen Pal Gel Pen with Construction Worker Minifigure (Black)",
+    "year": 2025,
+    "theme_id": 739,
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010103-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010104-1",
+    "name": "Pen Pal Gel Pen with Minifigure (Red)",
+    "year": 2025,
+    "theme_id": 739,
+    "num_parts": 3,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010104-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "5010106-1",
     "name": "Shelf (All Colors)",
     "year": 2025,
@@ -236324,7 +236344,7 @@
     "name": "Gold Mine Expedition",
     "year": 2026,
     "theme_id": 719,
-    "num_parts": 3386,
+    "num_parts": 3387,
     "img_url": "https://cdn.rebrickable.com/media/sets/910055-1.jpg",
     "theme": "BrickLink Designer Program",
     "parent_theme": ""
@@ -236344,7 +236364,7 @@
     "name": "Outlaw Forest Den",
     "year": 2026,
     "theme_id": 719,
-    "num_parts": 2622,
+    "num_parts": 2623,
     "img_url": "https://cdn.rebrickable.com/media/sets/910057-1.jpg",
     "theme": "BrickLink Designer Program",
     "parent_theme": ""
@@ -236620,6 +236640,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "5010109-1",
+    "name": "Bunny Ear Bag",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010109-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "5010203-1",
     "name": "Brick Clog",
     "year": 2026,
@@ -236800,6 +236830,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "6641299-1",
+    "name": "LEGO Store Grand Opening Thessaloniki",
+    "year": 2026,
+    "theme_id": 408,
+    "num_parts": 157,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6641299-1.jpg",
+    "theme": "LEGO Brand Store",
+    "parent_theme": ""
+  },
+  {
     "set_num": "40350800-1",
     "name": "Brick Art Line Vase",
     "year": 2026,
@@ -236973,10 +237013,10 @@
     "set_num": "9780241788653-1",
     "name": "Minecraft: How to Build Houses",
     "year": 2026,
-    "theme_id": 758,
+    "theme_id": 757,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/9780241788653-1.jpg",
-    "theme": "Non-fiction Books",
+    "theme": "Ideas Books",
     "parent_theme": "Books"
   },
   {
