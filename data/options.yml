@@ -121,7 +121,7 @@
   - Classic Space (89): classic-space|1|89
   - Classic Town (410): classic-town|1|410
   - Clikits (80): clikits|1|80
-  - Clocks and Watches (214): clocks-and-watches|1|214
+  - Clocks and Watches (215): clocks-and-watches|1|215
   - Coast Guard (30): coast-guard|1|30
   - Collectible Minifigures (36): collectible-minifigures|1|36
   - Competition (17): competition|1|17
@@ -291,7 +291,7 @@
   - Non-fiction Books (178): non-fiction-books|1|178
   - NXT (30): nxt|1|30
   - Off-Road (12): off-road|1|12
-  - One Piece (6): one-piece|1|6
+  - One Piece (7): one-piece|1|7
   - Orient Expedition (22): orient-expedition|1|22
   - Other (98): other|1|98
   - Outback (5): outback|1|5
@@ -399,7 +399,7 @@
   - Stuntz (27): stuntz|1|27
   - Super Heroes DC (21): super-heroes-dc|1|21
   - Super Heroes Marvel (51): super-heroes-marvel|1|51
-  - Super Mario (178): super-mario|1|178
+  - Super Mario (179): super-mario|1|179
   - Superman (9): superman|1|9
   - Supplemental (335): supplemental|1|335
   - System (49): system|1|49
@@ -468,7 +468,7 @@
   optional: true
 - keyname: themes_brickset
   field_type: select
-  name: Filter by Themes – Brickset (173)
+  name: Filter by Themes – Brickset (172)
   description: <strong>Required:</strong> Select at least one theme, OR set a min/max year below. Only applicable when using Brickset as your data source.
   multiple: true
   options:
@@ -644,7 +644,6 @@
   - Xtra: Xtra
   - Znap: Znap
   - tbd: tbd
-  - '{Undefined}': '{Undefined}'
   help_text: Use <kbd>⌘</kbd>+<kbd>click</kbd> or <kbd>Ctrl</kbd>+<kbd>click</kbd> to select multiple themes.<br /><strong>You must select at least one theme OR specify a year range.</strong>
   optional: true
 - keyname: brickset_order_by

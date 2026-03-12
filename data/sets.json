@@ -7914,7 +7914,7 @@
     "name": "Thatcher Perkins Locomotive",
     "year": 1976,
     "theme_id": 404,
-    "num_parts": 434,
+    "num_parts": 433,
     "img_url": "https://cdn.rebrickable.com/media/sets/396-1.jpg",
     "theme": "Hobby Sets",
     "parent_theme": ""
@@ -235710,6 +235710,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "72050-1",
+    "name": "Mario Kart – Luigi & Mach 8",
+    "year": 2026,
+    "theme_id": 690,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/72050-1.jpg",
+    "theme": "Super Mario",
+    "parent_theme": ""
+  },
+  {
     "set_num": "72151-1",
     "name": "Eevee",
     "year": 2026,
@@ -235947,6 +235957,16 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/75460-1.jpg",
     "theme": "Star Wars",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "75647-1",
+    "name": "Gum-Gum Fruit",
+    "year": 2026,
+    "theme_id": 775,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/75647-1.jpg",
+    "theme": "One Piece",
     "parent_theme": ""
   },
   {
@@ -236670,6 +236690,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "5010226-1",
+    "name": "Wall Clock MOC (My Own Creation) - White",
+    "year": 2026,
+    "theme_id": 732,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010226-1.jpg",
+    "theme": "Clocks and Watches",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "5010327-1",
     "name": "DK Super Readers Level 1: Ninjago: Dragons Rising: Meet the Ninja",
     "year": 2026,
@@ -236678,6 +236708,26 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/5010327-1.jpg",
     "theme": "Story Books",
     "parent_theme": "Books"
+  },
+  {
+    "set_num": "5010342-1",
+    "name": "Minifigures: 100 Collectible Postcards",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010342-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010343-1",
+    "name": "Ninjago Puzzle",
+    "year": 2026,
+    "theme_id": 741,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010343-1.jpg",
+    "theme": "Tabletop Games and Puzzles",
+    "parent_theme": "Gear"
   },
   {
     "set_num": "6518176-1",
@@ -237120,16 +237170,6 @@
     "parent_theme": "Books"
   },
   {
-    "set_num": "9781797233413-1",
-    "name": "Ninjago Puzzle",
-    "year": 2026,
-    "theme_id": 741,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/9781797233413-1.jpg",
-    "theme": "Tabletop Games and Puzzles",
-    "parent_theme": "Gear"
-  },
-  {
     "set_num": "9781797240282-1",
     "name": "2027 Wall Calendar",
     "year": 2026,
@@ -237168,16 +237208,6 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/9781797240336-1.jpg",
     "theme": "Non-fiction Books",
     "parent_theme": "Books"
-  },
-  {
-    "set_num": "9781797240466-1",
-    "name": "Minifigures: 100 Collectible Postcards",
-    "year": 2026,
-    "theme_id": 739,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/9781797240466-1.jpg",
-    "theme": "Stationery and Office Supplies",
-    "parent_theme": "Gear"
   },
   {
     "set_num": "9781797245560-1",
