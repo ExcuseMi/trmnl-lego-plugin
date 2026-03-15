@@ -184494,7 +184494,7 @@
     "name": "Castle in the Forest",
     "year": 2021,
     "theme_id": 719,
-    "num_parts": 1953,
+    "num_parts": 1954,
     "img_url": "https://cdn.rebrickable.com/media/sets/910001-1.jpg",
     "theme": "BrickLink Designer Program",
     "parent_theme": ""
@@ -214094,7 +214094,7 @@
     "name": "Robot World Roller-Coaster Park",
     "year": 2024,
     "theme_id": 52,
-    "num_parts": 992,
+    "num_parts": 986,
     "img_url": "https://cdn.rebrickable.com/media/sets/60421-1.jpg",
     "theme": "City",
     "parent_theme": ""
@@ -233930,6 +233930,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "21367-1",
+    "name": "Tintin Moon Rocket",
+    "year": 2026,
+    "theme_id": 576,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/21367-1.jpg",
+    "theme": "LEGO Ideas and CUUSOO",
+    "parent_theme": ""
+  },
+  {
     "set_num": "21368-1",
     "name": "Peanuts: Snoopy's Doghouse",
     "year": 2026,
@@ -234427,6 +234437,16 @@
     "num_parts": 278,
     "img_url": "https://cdn.rebrickable.com/media/sets/40886-1.jpg",
     "theme": "Valentine",
+    "parent_theme": "Seasonal"
+  },
+  {
+    "set_num": "40890-1",
+    "name": "Easter Decorations",
+    "year": 2026,
+    "theme_id": 229,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40890-1.jpg",
+    "theme": "Easter",
     "parent_theme": "Seasonal"
   },
   {
@@ -236880,6 +236900,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "6626065-1",
+    "name": "F1 ACADEMY LEGO Race Car",
+    "year": 2026,
+    "theme_id": 598,
+    "num_parts": 36,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6626065-1.jpg",
+    "theme": "Promotional",
+    "parent_theme": ""
+  },
+  {
     "set_num": "6631373-1",
     "name": "Baby Puppy",
     "year": 2026,
@@ -236897,6 +236927,16 @@
     "num_parts": 157,
     "img_url": "https://cdn.rebrickable.com/media/sets/6641299-1.jpg",
     "theme": "LEGO Brand Store",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6641463-1",
+    "name": "Happy Hummingbird",
+    "year": 2026,
+    "theme_id": 206,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6641463-1.jpg",
+    "theme": "Seasonal",
     "parent_theme": ""
   },
   {
@@ -237274,7 +237314,7 @@
     "name": "Star Wars: Grogu's Adventures",
     "year": 2026,
     "theme_id": 761,
-    "num_parts": 0,
+    "num_parts": 11,
     "img_url": "https://cdn.rebrickable.com/media/sets/9781837251773-1.jpg",
     "theme": "Activity Books with LEGO Parts",
     "parent_theme": "Books"
