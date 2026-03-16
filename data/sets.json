@@ -43424,7 +43424,7 @@
     "name": "Play House",
     "year": 2000,
     "theme_id": 652,
-    "num_parts": 80,
+    "num_parts": 84,
     "img_url": "https://cdn.rebrickable.com/media/sets/2942-1.jpg",
     "theme": "Playhouse",
     "parent_theme": "Duplo"
@@ -236594,7 +236594,7 @@
     "name": "Dragonfly Garden",
     "year": 2026,
     "theme_id": 769,
-    "num_parts": 149,
+    "num_parts": 154,
     "img_url": "https://cdn.rebrickable.com/media/sets/5009934-1.jpg",
     "theme": "Botanicals",
     "parent_theme": ""
@@ -236637,6 +236637,16 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/5010029-1.jpg",
     "theme": "Educational and Dacta",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "5010050-1",
+    "name": "Nike Dunk Low x LEGO Collection – Little Kids Shoes",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010050-1.jpg",
+    "theme": "Gear",
     "parent_theme": ""
   },
   {
@@ -236720,6 +236730,46 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "5010310-1",
+    "name": "Creativity Clog - Black",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010310-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "5010311-1",
+    "name": "Creativity Clog - White",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010311-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "5010312-1",
+    "name": "Midnight Garden Creativity Clog",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010312-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "5010313-1",
+    "name": "Masterbrand Creativity Clog",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010313-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
     "set_num": "5010327-1",
     "name": "DK Super Readers Level 1: Ninjago: Dragons Rising: Meet the Ninja",
     "year": 2026,
@@ -236748,6 +236798,96 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/5010343-1.jpg",
     "theme": "Tabletop Games and Puzzles",
     "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010344-1",
+    "name": "Kids’ Creativity Clogs - Black",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010344-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "5010345-1",
+    "name": "Kids’ Creativity Clogs - White",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010345-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "5010346-1",
+    "name": "Kids’ Creativity Clogs - Pink",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010346-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "5010347-1",
+    "name": "Sunshine Garden 10 Pack",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010347-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "5010348-1",
+    "name": "Gaming 10 Pack",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010348-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "5010349-1",
+    "name": "Masterbrand 10 Pack",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010349-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "5010350-1",
+    "name": "Sunshine Garden 5 Pack",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010350-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "5010351-1",
+    "name": "Gaming 5 Pack",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010351-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "5010352-1",
+    "name": "LEGO Masterbrand 5 Pack",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010352-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
   },
   {
     "set_num": "6518176-1",
@@ -236937,6 +237077,16 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/6641463-1.jpg",
     "theme": "Seasonal",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6650001-1",
+    "name": "Smart Brick Star Wars Sticker",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6650001-1.jpg",
+    "theme": "Gear",
     "parent_theme": ""
   },
   {
