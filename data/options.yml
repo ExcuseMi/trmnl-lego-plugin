@@ -196,7 +196,7 @@
   - Galidor (20): galidor|1|20
   - Games (46): games|1|46
   - Gas Station (6): gas-station|1|6
-  - Gear (506): gear|1|506
+  - Gear (507): gear|1|507
   - Gears (9): gears|1|9
   - Ghostbusters (2): ghostbusters|1|2
   - Gravity Games (10): gravity-games|1|10
@@ -215,7 +215,7 @@
   - Homemaker (32): homemaker|1|32
   - Horizon Adventures (1): horizon-adventures|1|1
   - Hospital (31): hospital|1|31
-  - Houseware (401): houseware|1|401
+  - Houseware (403): houseware|1|403
   - Hydronauts (7): hydronauts|1|7
   - Ice Planet 2002 (10): ice-planet-2002|1|10
   - Icons (77): icons|1|77
@@ -318,7 +318,7 @@
   - Primo (114): primo|1|114
   - Prince of Persia (6): prince-of-persia|1|6
   - Princess Castle (6): princess-castle|1|6
-  - Promotional (166): promotional|1|166
+  - Promotional (167): promotional|1|167
   - Protectors (6): protectors|1|6
   - Quatro (9): quatro|1|9
   - Race (16): race|1|16
@@ -468,7 +468,7 @@
   optional: true
 - keyname: themes_brickset
   field_type: select
-  name: Filter by Themes – Brickset (173)
+  name: Filter by Themes – Brickset (172)
   description: <strong>Required:</strong> Select at least one theme, OR set a min/max year below. Only applicable when using Brickset as your data source.
   multiple: true
   options:
@@ -644,7 +644,6 @@
   - Xtra: Xtra
   - Znap: Znap
   - tbd: tbd
-  - '{Undefined}': '{Undefined}'
   help_text: Use <kbd>⌘</kbd>+<kbd>click</kbd> or <kbd>Ctrl</kbd>+<kbd>click</kbd> to select multiple themes.<br /><strong>You must select at least one theme OR specify a year range.</strong>
   optional: true
 - keyname: brickset_order_by

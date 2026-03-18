@@ -31611,7 +31611,7 @@
   },
   {
     "set_num": "4147-1",
-    "name": "Freestyle Elefant Villa",
+    "name": "Freestyle Elephant Villa",
     "year": 1996,
     "theme_id": 399,
     "num_parts": 191,
@@ -102128,6 +102128,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/9006791-1.jpg",
     "theme": "Clocks and Watches",
     "parent_theme": "Gear"
+  },
+  {
+    "set_num": "12080446-1",
+    "name": "Kids' Crocs Crocband Clog - Blue and Red",
+    "year": 2012,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/12080446-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
   },
   {
     "set_num": "14122020-1",
@@ -217284,7 +217294,7 @@
     "name": "Apiary",
     "year": 2024,
     "theme_id": 494,
-    "num_parts": 26,
+    "num_parts": 27,
     "img_url": "https://cdn.rebrickable.com/media/sets/562412-1.jpg",
     "theme": "Friends",
     "parent_theme": ""
@@ -234454,7 +234464,7 @@
     "name": "Easter Decorations",
     "year": 2026,
     "theme_id": 229,
-    "num_parts": 0,
+    "num_parts": 312,
     "img_url": "https://cdn.rebrickable.com/media/sets/40890-1.jpg",
     "theme": "Easter",
     "parent_theme": "Seasonal"
@@ -236701,7 +236711,7 @@
   },
   {
     "set_num": "5010203-1",
-    "name": "Brick Clog",
+    "name": "Brick Clog (All Colors)",
     "year": 2026,
     "theme_id": 501,
     "num_parts": 3,
@@ -237020,6 +237030,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "6626045-1",
+    "name": "Style Your Egg",
+    "year": 2026,
+    "theme_id": 598,
+    "num_parts": 41,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6626045-1.jpg",
+    "theme": "Promotional",
+    "parent_theme": ""
+  },
+  {
     "set_num": "6626053-1",
     "name": "Lightsaber",
     "year": 2026,
@@ -237170,6 +237190,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "41480800-1",
+    "name": "Steel Bottle (All Colors)",
+    "year": 2026,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/41480800-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "5060093915167-1",
     "name": "Ninjago 15 Coin",
     "year": 2026,
@@ -237178,6 +237208,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/5060093915167-1.jpg",
     "theme": "Gear",
     "parent_theme": ""
+  },
+  {
+    "set_num": "5711938035617-1",
+    "name": "Wildflowers Steel Bottle",
+    "year": 2026,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5711938035617-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
   },
   {
     "set_num": "9780241785836-1",
@@ -268083,7 +268123,7 @@
   },
   {
     "fig_num": "fig-004060",
-    "name": "Snowtrooper, White Hips, Kama",
+    "name": "Snowtrooper Commander, White Hips, Kama",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004060.jpg",
     "theme": "",
