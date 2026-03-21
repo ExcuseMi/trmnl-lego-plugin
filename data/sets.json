@@ -234990,6 +234990,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "43025-1",
+    "name": "Nike Air Max 95 x LEGO Set",
+    "year": 2026,
+    "theme_id": 785,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/43025-1.jpg",
+    "theme": "Nike",
+    "parent_theme": ""
+  },
+  {
     "set_num": "43281-1",
     "name": "Elsa's Ice Castle & Snow Ride Adventure",
     "year": 2026,
@@ -250347,7 +250357,7 @@
   },
   {
     "fig_num": "fig-001664",
-    "name": "Construction Worker, Orange Safety Vest with Zipper over Reddish Brown Shirt, Dark Tan Legs, Red Hard Hat with Ear Defenders, Stubble",
+    "name": "Construction Worker, Orange Safety Vest with Zipper over Reddish Brown Shirt, Blue Legs, Red Hard Hat with Ear Defenders, Stubble",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-001664.jpg",
     "theme": "",
@@ -300395,7 +300405,7 @@
   },
   {
     "fig_num": "fig-008429",
-    "name": "Tan Torso, Dark Brown Legs, Medium Nougat Legs",
+    "name": "Tan Torso, Dark Brown Legs, Medium Nougat Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-008429.jpg",
     "theme": "",
