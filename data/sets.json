@@ -32520,16 +32520,6 @@
     "parent_theme": ""
   },
   {
-    "set_num": "9192-1",
-    "name": "Zoo Babies (Zoo Animals)",
-    "year": 1996,
-    "theme_id": 516,
-    "num_parts": 16,
-    "img_url": "https://cdn.rebrickable.com/media/sets/9192-1.jpg",
-    "theme": "Duplo and Explore",
-    "parent_theme": "Educational and Dacta"
-  },
-  {
     "set_num": "9287-1",
     "name": "Bonus Lego Basic Town",
     "year": 1996,
@@ -38556,6 +38546,16 @@
     "theme_id": 516,
     "num_parts": 90,
     "img_url": "https://cdn.rebrickable.com/media/sets/9148-1.jpg",
+    "theme": "Duplo and Explore",
+    "parent_theme": "Educational and Dacta"
+  },
+  {
+    "set_num": "9192-1",
+    "name": "Zoo Babies (Zoo Animals)",
+    "year": 1998,
+    "theme_id": 516,
+    "num_parts": 16,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9192-1.jpg",
     "theme": "Duplo and Explore",
     "parent_theme": "Educational and Dacta"
   },
@@ -346581,7 +346581,7 @@
   },
   {
     "fig_num": "fig-015832",
-    "name": "Dragonian Warrior, Short Horns",
+    "name": "Dragonian Warrior, Short Horns, 28621pr9762 Head",
     "num_parts": 7,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-015832.jpg",
     "theme": "",
