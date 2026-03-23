@@ -234961,7 +234961,7 @@
   },
   {
     "set_num": "43019-1",
-    "name": "Soccer Ball",
+    "name": "Football",
     "year": 2026,
     "theme_id": 787,
     "num_parts": 1498,
@@ -236454,7 +236454,7 @@
     "name": "Sequoia Tree Trail",
     "year": 2026,
     "theme_id": 719,
-    "num_parts": 3186,
+    "num_parts": 3187,
     "img_url": "https://cdn.rebrickable.com/media/sets/910058-1.jpg",
     "theme": "BrickLink Designer Program",
     "parent_theme": ""
