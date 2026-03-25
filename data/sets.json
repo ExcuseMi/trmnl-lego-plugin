@@ -1104,7 +1104,7 @@
     "name": "Fire Station",
     "year": 1958,
     "theme_id": 372,
-    "num_parts": 111,
+    "num_parts": 110,
     "img_url": "https://cdn.rebrickable.com/media/sets/308-3.jpg",
     "theme": "Town Plan",
     "parent_theme": "System"
@@ -4214,7 +4214,7 @@
     "name": "Loco and Tender",
     "year": 1969,
     "theme_id": 235,
-    "num_parts": 96,
+    "num_parts": 100,
     "img_url": "https://cdn.rebrickable.com/media/sets/122-1.jpg",
     "theme": "4.5V",
     "parent_theme": "Train"
@@ -35113,11 +35113,11 @@
     "set_num": "9848-1",
     "name": "Lamps and Fittings",
     "year": 1997,
-    "theme_id": 507,
+    "theme_id": 524,
     "num_parts": 9,
     "img_url": "https://cdn.rebrickable.com/media/sets/9848-1.jpg",
-    "theme": "Educational and Dacta",
-    "parent_theme": ""
+    "theme": "Service Packs",
+    "parent_theme": "Educational and Dacta"
   },
   {
     "set_num": "9949-1",
@@ -234200,6 +234200,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "30728-1",
+    "name": "The Razor Crest Mini-Build",
+    "year": 2026,
+    "theme_id": 158,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/30728-1.jpg",
+    "theme": "Star Wars",
+    "parent_theme": ""
+  },
+  {
     "set_num": "30732-1",
     "name": "Alex's Campfire Conflict",
     "year": 2026,
@@ -235910,6 +235920,26 @@
     "parent_theme": ""
   },
   {
+    "set_num": "75438-1",
+    "name": "Yoda Bust",
+    "year": 2026,
+    "theme_id": 158,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/75438-1.jpg",
+    "theme": "Star Wars",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "75439-1",
+    "name": "Darth Vader Bust",
+    "year": 2026,
+    "theme_id": 158,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/75439-1.jpg",
+    "theme": "Star Wars",
+    "parent_theme": ""
+  },
+  {
     "set_num": "75440-1",
     "name": "AT-AT",
     "year": 2026,
@@ -236690,6 +236720,26 @@
     "parent_theme": ""
   },
   {
+    "set_num": "5010063-1",
+    "name": "Nike Air Max 95 x LEGO Little Kids' Shoes",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010063-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "5010064-1",
+    "name": "Nike Air Max 95 x LEGO Big Kids' Shoes",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010064-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
     "set_num": "5010097-1",
     "name": "Thermo Bottle (All Colors)",
     "year": 2026,
@@ -236924,7 +236974,7 @@
     "name": "St. Patrick's Day Hat",
     "year": 2026,
     "theme_id": 408,
-    "num_parts": 23,
+    "num_parts": 21,
     "img_url": "https://cdn.rebrickable.com/media/sets/6518176-1.jpg",
     "theme": "LEGO Brand Store",
     "parent_theme": ""
@@ -237057,6 +237107,16 @@
     "num_parts": 43,
     "img_url": "https://cdn.rebrickable.com/media/sets/6626053-1.jpg",
     "theme": "Star Wars",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6626057-1",
+    "name": "Bush Plane",
+    "year": 2026,
+    "theme_id": 52,
+    "num_parts": 43,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6626057-1.jpg",
+    "theme": "City",
     "parent_theme": ""
   },
   {
@@ -237226,6 +237286,16 @@
     "theme_id": 733,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/5711938035617-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5711938036287-1",
+    "name": "Brick Art Line Lunch Box",
+    "year": 2026,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5711938036287-1.jpg",
     "theme": "Houseware",
     "parent_theme": "Gear"
   },
