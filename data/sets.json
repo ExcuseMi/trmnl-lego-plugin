@@ -62891,7 +62891,7 @@
   },
   {
     "set_num": "8770-1",
-    "name": "Danju",
+    "name": "Danju (European version without Cards)",
     "year": 2004,
     "theme_id": 198,
     "num_parts": 42,
@@ -62991,7 +62991,7 @@
   },
   {
     "set_num": "8782-1",
-    "name": "Danju",
+    "name": "Danju (USA version with 3 Cards)",
     "year": 2004,
     "theme_id": 198,
     "num_parts": 45,
@@ -63001,7 +63001,7 @@
   },
   {
     "set_num": "8782-2",
-    "name": "Danju [Target Exclusive]",
+    "name": "Danju (USA version with 6 Cards, Target Promo)",
     "year": 2004,
     "theme_id": 198,
     "num_parts": 48,
@@ -236186,6 +236186,16 @@
     "theme_id": 781,
     "num_parts": 1297,
     "img_url": "https://cdn.rebrickable.com/media/sets/76344-1.jpg",
+    "theme": "The Infinity Saga",
+    "parent_theme": "Super Heroes Marvel"
+  },
+  {
+    "set_num": "76354-1",
+    "name": "S.H.I.E.L.D. Helicarrier",
+    "year": 2026,
+    "theme_id": 781,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/76354-1.jpg",
     "theme": "The Infinity Saga",
     "parent_theme": "Super Heroes Marvel"
   },

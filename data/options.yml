@@ -409,7 +409,7 @@
   - Teenage Mutant Ninja Turtles (20): teenage-mutant-ninja-turtles|1|20
   - Thanksgiving (10): thanksgiving|1|10
   - The Hobbit (20): the-hobbit|1|20
-  - The Infinity Saga (57): the-infinity-saga|1|57
+  - The Infinity Saga (58): the-infinity-saga|1|58
   - The Legend of Zelda (2): the-legend-of-zelda|1|2
   - The LEGO Batman Movie (42): the-lego-batman-movie|1|42
   - The LEGO Batman Movie Series 1 (23): the-lego-batman-movie-series-1|1|23
@@ -468,7 +468,7 @@
   optional: true
 - keyname: themes_brickset
   field_type: select
-  name: Filter by Themes – Brickset (171)
+  name: Filter by Themes – Brickset (172)
   description: <strong>Required:</strong> Select at least one theme, OR set a min/max year below. Only applicable when using Brickset as your data source.
   multiple: true
   options:
@@ -599,6 +599,7 @@
   - Seasonal: Seasonal
   - Serious Play: Serious Play
   - Service Packs: Service Packs
+  - Sonic: Sonic
   - Sonic the Hedgehog: Sonic the Hedgehog
   - Space: Space
   - Speed Champions: Speed Champions
