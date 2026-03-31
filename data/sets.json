@@ -109680,6 +109680,16 @@
     "parent_theme": "Books"
   },
   {
+    "set_num": "9780545599436-1",
+    "name": "Friends: Meet the Friends",
+    "year": 2013,
+    "theme_id": 758,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9780545599436-1.jpg",
+    "theme": "Non-fiction Books",
+    "parent_theme": "Books"
+  },
+  {
     "set_num": "9780545608008-1",
     "name": "Ninjago: Pirates vs. Ninja",
     "year": 2013,
@@ -193943,31 +193953,31 @@
     "set_num": "76830-1",
     "name": "Zyclops Chase",
     "year": 2022,
-    "theme_id": 608,
+    "theme_id": 794,
     "num_parts": 87,
     "img_url": "https://cdn.rebrickable.com/media/sets/76830-1.jpg",
-    "theme": "Disney",
-    "parent_theme": ""
+    "theme": "Lightyear",
+    "parent_theme": "Disney"
   },
   {
     "set_num": "76831-1",
     "name": "Zurg Battle",
     "year": 2022,
-    "theme_id": 608,
+    "theme_id": 794,
     "num_parts": 261,
     "img_url": "https://cdn.rebrickable.com/media/sets/76831-1.jpg",
-    "theme": "Disney",
-    "parent_theme": ""
+    "theme": "Lightyear",
+    "parent_theme": "Disney"
   },
   {
     "set_num": "76832-1",
     "name": "XL-15 Spaceship",
     "year": 2022,
-    "theme_id": 608,
+    "theme_id": 794,
     "num_parts": 497,
     "img_url": "https://cdn.rebrickable.com/media/sets/76832-1.jpg",
-    "theme": "Disney",
-    "parent_theme": ""
+    "theme": "Lightyear",
+    "parent_theme": "Disney"
   },
   {
     "set_num": "76906-1",
@@ -224843,10 +224853,10 @@
     "set_num": "43264-1",
     "name": "Toy Story Celebration Train & RC Car",
     "year": 2025,
-    "theme_id": 608,
+    "theme_id": 275,
     "num_parts": 206,
     "img_url": "https://cdn.rebrickable.com/media/sets/43264-1.jpg",
-    "theme": "Disney",
+    "theme": "Toy Story",
     "parent_theme": ""
   },
   {
@@ -237210,6 +237220,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "6643521-1",
+    "name": "Easter Stickers",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6643521-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
     "set_num": "6650001-1",
     "name": "Smart Brick Star Wars Sticker",
     "year": 2026,
@@ -237517,6 +237537,66 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/9780241816516-1.jpg",
     "theme": "Story Books",
+    "parent_theme": "Books"
+  },
+  {
+    "set_num": "9780794454395-1",
+    "name": "Space Build and Play",
+    "year": 2026,
+    "theme_id": 761,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9780794454395-1.jpg",
+    "theme": "Activity Books with LEGO Parts",
+    "parent_theme": "Books"
+  },
+  {
+    "set_num": "9780794454418-1",
+    "name": "Shark & Friends Build and Play",
+    "year": 2026,
+    "theme_id": 761,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9780794454418-1.jpg",
+    "theme": "Activity Books with LEGO Parts",
+    "parent_theme": "Books"
+  },
+  {
+    "set_num": "9780794454425-1",
+    "name": "School Day Build and Play",
+    "year": 2026,
+    "theme_id": 761,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9780794454425-1.jpg",
+    "theme": "Activity Books with LEGO Parts",
+    "parent_theme": "Books"
+  },
+  {
+    "set_num": "9780794454449-1",
+    "name": "Harry Potter: Build and Play Magic of Hogwarts",
+    "year": 2026,
+    "theme_id": 761,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9780794454449-1.jpg",
+    "theme": "Activity Books with LEGO Parts",
+    "parent_theme": "Books"
+  },
+  {
+    "set_num": "9780794454463-1",
+    "name": "Marvel Super Heroes: Spider-Man in Action",
+    "year": 2026,
+    "theme_id": 761,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9780794454463-1.jpg",
+    "theme": "Activity Books with LEGO Parts",
+    "parent_theme": "Books"
+  },
+  {
+    "set_num": "9780794454654-1",
+    "name": "Halloween Build and Play",
+    "year": 2026,
+    "theme_id": 761,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9780794454654-1.jpg",
+    "theme": "Activity Books with LEGO Parts",
     "parent_theme": "Books"
   },
   {
