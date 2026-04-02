@@ -23420,6 +23420,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "5008-2",
+    "name": "Brick Separator",
+    "year": 1990,
+    "theme_id": 443,
+    "num_parts": 1,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5008-2.jpg",
+    "theme": "Service Packs",
+    "parent_theme": ""
+  },
+  {
     "set_num": "5009-1",
     "name": "Building Plate 16 x 32, Yellow",
     "year": 1990,
@@ -206541,7 +206551,7 @@
   },
   {
     "set_num": "854234-1",
-    "name": "Chilli Girl Key Chain",
+    "name": "Chili Girl Key Chain",
     "year": 2023,
     "theme_id": 503,
     "num_parts": 0,
@@ -233864,7 +233874,7 @@
     "name": "Douglas DC-3 PAN AM Airliner",
     "year": 2026,
     "theme_id": 721,
-    "num_parts": 0,
+    "num_parts": 1903,
     "img_url": "https://cdn.rebrickable.com/media/sets/11378-1.jpg",
     "theme": "Icons",
     "parent_theme": ""
@@ -233994,7 +234004,7 @@
     "name": "Tintin Moon Rocket",
     "year": 2026,
     "theme_id": 576,
-    "num_parts": 0,
+    "num_parts": 1283,
     "img_url": "https://cdn.rebrickable.com/media/sets/21367-1.jpg",
     "theme": "LEGO Ideas and CUUSOO",
     "parent_theme": ""
@@ -234454,7 +234464,7 @@
     "name": "Gift Box Celebration",
     "year": 2026,
     "theme_id": 301,
-    "num_parts": 0,
+    "num_parts": 224,
     "img_url": "https://cdn.rebrickable.com/media/sets/40871-1.jpg",
     "theme": "Other",
     "parent_theme": ""
@@ -234464,7 +234474,7 @@
     "name": "Teenage Mutant Ninja Turtles Figures",
     "year": 2026,
     "theme_id": 610,
-    "num_parts": 0,
+    "num_parts": 567,
     "img_url": "https://cdn.rebrickable.com/media/sets/40878-1.jpg",
     "theme": "Brickheadz",
     "parent_theme": ""
@@ -234664,7 +234674,7 @@
     "name": "Germany Postcard",
     "year": 2026,
     "theme_id": 22,
-    "num_parts": 0,
+    "num_parts": 240,
     "img_url": "https://cdn.rebrickable.com/media/sets/40954-1.jpg",
     "theme": "Creator",
     "parent_theme": ""
@@ -235034,7 +235044,7 @@
     "name": "Nike Air Max 95 x LEGO Set",
     "year": 2026,
     "theme_id": 785,
-    "num_parts": 0,
+    "num_parts": 1215,
     "img_url": "https://cdn.rebrickable.com/media/sets/43025-1.jpg",
     "theme": "Nike",
     "parent_theme": ""
@@ -235204,7 +235214,7 @@
     "name": "Computer Science & AI Kit 3-5",
     "year": 2026,
     "theme_id": 507,
-    "num_parts": 0,
+    "num_parts": 320,
     "img_url": "https://cdn.rebrickable.com/media/sets/45521-1.jpg",
     "theme": "Educational and Dacta",
     "parent_theme": ""
@@ -235214,7 +235224,7 @@
     "name": "Computer Science & AI Kit 6-8",
     "year": 2026,
     "theme_id": 507,
-    "num_parts": 0,
+    "num_parts": 374,
     "img_url": "https://cdn.rebrickable.com/media/sets/45522-1.jpg",
     "theme": "Educational and Dacta",
     "parent_theme": ""
@@ -235271,7 +235281,7 @@
   },
   {
     "set_num": "53820-1",
-    "name": "Valentine Chilli Stickers",
+    "name": "Valentine Chili Stickers",
     "year": 2026,
     "theme_id": 739,
     "num_parts": 0,
@@ -235950,6 +235960,26 @@
     "parent_theme": "Collectible Minifigures"
   },
   {
+    "set_num": "71052-0",
+    "name": "Series 29 - Random Box",
+    "year": 2026,
+    "theme_id": 795,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/71052-0.jpg",
+    "theme": "Series 29 Minifigures",
+    "parent_theme": "Collectible Minifigures"
+  },
+  {
+    "set_num": "71052-14",
+    "name": "Series 29 - Sealed Box",
+    "year": 2026,
+    "theme_id": 795,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/71052-14.jpg",
+    "theme": "Series 29 Minifigures",
+    "parent_theme": "Collectible Minifigures"
+  },
+  {
     "set_num": "71508-1",
     "name": "Fox Guardian Mech",
     "year": 2026,
@@ -236144,7 +236174,7 @@
     "name": "Mario Kart – Luigi & Mach 8",
     "year": 2026,
     "theme_id": 690,
-    "num_parts": 0,
+    "num_parts": 2234,
     "img_url": "https://cdn.rebrickable.com/media/sets/72050-1.jpg",
     "theme": "Super Mario",
     "parent_theme": ""
@@ -236404,7 +236434,7 @@
     "name": "New Republic X-Wing Starfighter",
     "year": 2026,
     "theme_id": 158,
-    "num_parts": 0,
+    "num_parts": 558,
     "img_url": "https://cdn.rebrickable.com/media/sets/75460-1.jpg",
     "theme": "Star Wars",
     "parent_theme": ""
@@ -236786,6 +236816,16 @@
     "theme_id": 503,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/713588-1.jpg",
+    "theme": "Key Chain",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "854326-1",
+    "name": "The Mandalorian Key Chain",
+    "year": 2026,
+    "theme_id": 503,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/854326-1.jpg",
     "theme": "Key Chain",
     "parent_theme": "Gear"
   },
@@ -237238,6 +237278,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/5010313-1.jpg",
     "theme": "Gear",
     "parent_theme": ""
+  },
+  {
+    "set_num": "5010326-1",
+    "name": "Insiders Botanicals Enamel Mug",
+    "year": 2026,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010326-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
   },
   {
     "set_num": "5010327-1",
@@ -352994,6 +353044,14 @@
     "name": "Arctic Explorer, Dark Blue Wetsuit, Helmet, Dark Turquoise Airtanks",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-017385.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017528",
+    "name": "Black/White Nike Outfit, Hood with Cap",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017528.jpg",
     "theme": "",
     "parent_theme": ""
   }
