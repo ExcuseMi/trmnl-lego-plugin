@@ -233940,6 +233940,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "11506-1",
+    "name": "Rocking Plants",
+    "year": 2026,
+    "theme_id": 769,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/11506-1.jpg",
+    "theme": "Botanicals",
+    "parent_theme": ""
+  },
+  {
     "set_num": "11508-1",
     "name": "Daisies",
     "year": 2026,
@@ -235000,12 +235010,72 @@
     "parent_theme": ""
   },
   {
+    "set_num": "43011-1",
+    "name": "Lionel Messi – Soccer Highlights",
+    "year": 2026,
+    "theme_id": 787,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/43011-1.jpg",
+    "theme": "Editions",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "43012-1",
+    "name": "Cristiano Ronaldo – Soccer Highlights",
+    "year": 2026,
+    "theme_id": 787,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/43012-1.jpg",
+    "theme": "Editions",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "43013-1",
+    "name": "Kylian Mbappé – Soccer Highlights",
+    "year": 2026,
+    "theme_id": 787,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/43013-1.jpg",
+    "theme": "Editions",
+    "parent_theme": ""
+  },
+  {
     "set_num": "43014-1",
     "name": "Scuderia Ferrari HP Charles Leclerc Helmet",
     "year": 2026,
     "theme_id": 787,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/43014-1.jpg",
+    "theme": "Editions",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "43015-1",
+    "name": "Lionel Messi – Soccer Legend",
+    "year": 2026,
+    "theme_id": 787,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/43015-1.jpg",
+    "theme": "Editions",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "43016-1",
+    "name": "Cristiano Ronaldo – Soccer Legend",
+    "year": 2026,
+    "theme_id": 787,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/43016-1.jpg",
+    "theme": "Editions",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "43018-1",
+    "name": "Lionel Messi – Celebration",
+    "year": 2026,
+    "theme_id": 787,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/43018-1.jpg",
     "theme": "Editions",
     "parent_theme": ""
   },
@@ -235047,6 +235117,36 @@
     "num_parts": 1215,
     "img_url": "https://cdn.rebrickable.com/media/sets/43025-1.jpg",
     "theme": "Nike",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "43027-1",
+    "name": "Vini Jr. – Soccer Highlights",
+    "year": 2026,
+    "theme_id": 787,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/43027-1.jpg",
+    "theme": "Editions",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "43032-1",
+    "name": "FIFA World Cup 2026 Official Emblem",
+    "year": 2026,
+    "theme_id": 787,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/43032-1.jpg",
+    "theme": "Editions",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "43033-1",
+    "name": "2026 U.S. Soccer National Team Jersey",
+    "year": 2026,
+    "theme_id": 787,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/43033-1.jpg",
+    "theme": "Editions",
     "parent_theme": ""
   },
   {
@@ -235140,6 +235240,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "43301-1",
+    "name": "Toy Story Slinky Dog Bookends",
+    "year": 2026,
+    "theme_id": 608,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/43301-1.jpg",
+    "theme": "Disney",
+    "parent_theme": ""
+  },
+  {
     "set_num": "43303-1",
     "name": "Mini Jasmine & Rapunzel",
     "year": 2026,
@@ -235156,6 +235266,26 @@
     "theme_id": 608,
     "num_parts": 544,
     "img_url": "https://cdn.rebrickable.com/media/sets/43305-1.jpg",
+    "theme": "Disney",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "43306-1",
+    "name": "Lotso",
+    "year": 2026,
+    "theme_id": 608,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/43306-1.jpg",
+    "theme": "Disney",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "43307-1",
+    "name": "Alien with Pizza Planet Rocket Ride",
+    "year": 2026,
+    "theme_id": 608,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/43307-1.jpg",
     "theme": "Disney",
     "parent_theme": ""
   },
@@ -235214,7 +235344,7 @@
     "name": "Computer Science & AI Kit 3-5",
     "year": 2026,
     "theme_id": 507,
-    "num_parts": 320,
+    "num_parts": 321,
     "img_url": "https://cdn.rebrickable.com/media/sets/45521-1.jpg",
     "theme": "Educational and Dacta",
     "parent_theme": ""
@@ -235224,7 +235354,7 @@
     "name": "Computer Science & AI Kit 6-8",
     "year": 2026,
     "theme_id": 507,
-    "num_parts": 374,
+    "num_parts": 379,
     "img_url": "https://cdn.rebrickable.com/media/sets/45522-1.jpg",
     "theme": "Educational and Dacta",
     "parent_theme": ""
@@ -235810,6 +235940,16 @@
     "parent_theme": "Collectible Minifigures"
   },
   {
+    "set_num": "66814-1",
+    "name": "Series 29 - 6 Pack",
+    "year": 2026,
+    "theme_id": 795,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/66814-1.jpg",
+    "theme": "Series 29 Minifigures",
+    "parent_theme": "Collectible Minifigures"
+  },
+  {
     "set_num": "66817-1",
     "name": "Hearts & Flowers Gift Set",
     "year": 2026,
@@ -235966,6 +236106,136 @@
     "theme_id": 795,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/71052-0.jpg",
+    "theme": "Series 29 Minifigures",
+    "parent_theme": "Collectible Minifigures"
+  },
+  {
+    "set_num": "71052-1",
+    "name": "Robot T. rex",
+    "year": 2026,
+    "theme_id": 795,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/71052-1.jpg",
+    "theme": "Series 29 Minifigures",
+    "parent_theme": "Collectible Minifigures"
+  },
+  {
+    "set_num": "71052-2",
+    "name": "Marine Biologist",
+    "year": 2026,
+    "theme_id": 795,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/71052-2.jpg",
+    "theme": "Series 29 Minifigures",
+    "parent_theme": "Collectible Minifigures"
+  },
+  {
+    "set_num": "71052-3",
+    "name": "BIONICLE Cosplayer",
+    "year": 2026,
+    "theme_id": 795,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/71052-3.jpg",
+    "theme": "Series 29 Minifigures",
+    "parent_theme": "Collectible Minifigures"
+  },
+  {
+    "set_num": "71052-4",
+    "name": "Monster Hunter",
+    "year": 2026,
+    "theme_id": 795,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/71052-4.jpg",
+    "theme": "Series 29 Minifigures",
+    "parent_theme": "Collectible Minifigures"
+  },
+  {
+    "set_num": "71052-5",
+    "name": "Boba Cup Fan",
+    "year": 2026,
+    "theme_id": 795,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/71052-5.jpg",
+    "theme": "Series 29 Minifigures",
+    "parent_theme": "Collectible Minifigures"
+  },
+  {
+    "set_num": "71052-6",
+    "name": "Trash Monster",
+    "year": 2026,
+    "theme_id": 795,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/71052-6.jpg",
+    "theme": "Series 29 Minifigures",
+    "parent_theme": "Collectible Minifigures"
+  },
+  {
+    "set_num": "71052-7",
+    "name": "Chocolatier",
+    "year": 2026,
+    "theme_id": 795,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/71052-7.jpg",
+    "theme": "Series 29 Minifigures",
+    "parent_theme": "Collectible Minifigures"
+  },
+  {
+    "set_num": "71052-8",
+    "name": "Tuba Player",
+    "year": 2026,
+    "theme_id": 795,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/71052-8.jpg",
+    "theme": "Series 29 Minifigures",
+    "parent_theme": "Collectible Minifigures"
+  },
+  {
+    "set_num": "71052-9",
+    "name": "Football Goalkeeper",
+    "year": 2026,
+    "theme_id": 795,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/71052-9.jpg",
+    "theme": "Series 29 Minifigures",
+    "parent_theme": "Collectible Minifigures"
+  },
+  {
+    "set_num": "71052-10",
+    "name": "Cute Witch",
+    "year": 2026,
+    "theme_id": 795,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/71052-10.jpg",
+    "theme": "Series 29 Minifigures",
+    "parent_theme": "Collectible Minifigures"
+  },
+  {
+    "set_num": "71052-11",
+    "name": "Mysterious Ronin",
+    "year": 2026,
+    "theme_id": 795,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/71052-11.jpg",
+    "theme": "Series 29 Minifigures",
+    "parent_theme": "Collectible Minifigures"
+  },
+  {
+    "set_num": "71052-12",
+    "name": "Unicorn Elf",
+    "year": 2026,
+    "theme_id": 795,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/71052-12.jpg",
+    "theme": "Series 29 Minifigures",
+    "parent_theme": "Collectible Minifigures"
+  },
+  {
+    "set_num": "71052-13",
+    "name": "Series 29 - Complete - All Sets",
+    "year": 2026,
+    "theme_id": 795,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/71052-13.jpg",
     "theme": "Series 29 Minifigures",
     "parent_theme": "Collectible Minifigures"
   },

@@ -96,7 +96,7 @@
   - Bluey (7): bluey|1|7
   - Boat (21): boat|1|21
   - Bob the Builder (31): bob-the-builder|1|31
-  - Botanicals (44): botanicals|1|44
+  - Botanicals (45): botanicals|1|45
   - Brick Sketches (8): brick-sketches|1|8
   - Brickheadz (190): brickheadz|1|190
   - BrickLink Designer Program (63): bricklink-designer-program|1|63
@@ -146,7 +146,7 @@
   - Dino Island (17): dino-island|1|17
   - Dinosaurs (16): dinosaurs|1|16
   - Discovery (6): discovery|1|6
-  - Disney (64): disney|1|64
+  - Disney (67): disney|1|67
   - Disney 100 (22): disney-100|1|22
   - Disney Princess (131): disney-princess|1|131
   - Disney Series 1 (21): disney-series-1|1|21
@@ -163,7 +163,7 @@
   - Duplo and Explore (189): duplo-and-explore|1|189
   - Early Creator (35): early-creator|1|35
   - Easter (58): easter|1|58
-  - Editions (4): editions|1|4
+  - Editions (13): editions|1|13
   - Educational and Dacta (113): educational-and-dacta|1|113
   - eLAB (5): elab|1|5
   - Elves (42): elves|1|42
@@ -359,7 +359,7 @@
   - Series 26 Minifigures (16): series-26-minifigures|1|16
   - Series 27 Minifigures (16): series-27-minifigures|1|16
   - Series 28 Minifigures (16): series-28-minifigures|1|16
-  - Series 29 Minifigures (2): series-29-minifigures|1|2
+  - Series 29 Minifigures (16): series-29-minifigures|1|16
   - Series 3 Minifigures (19): series-3-minifigures|1|19
   - Series 4 Minifigures (19): series-4-minifigures|1|19
   - Series 5 Minifigures (19): series-5-minifigures|1|19
@@ -470,7 +470,7 @@
   optional: true
 - keyname: themes_brickset
   field_type: select
-  name: Filter by Themes – Brickset (173)
+  name: Filter by Themes – Brickset (171)
   description: <strong>Required:</strong> Select at least one theme, OR set a min/max year below. Only applicable when using Brickset as your data source.
   multiple: true
   options:
@@ -601,7 +601,6 @@
   - Seasonal: Seasonal
   - Serious Play: Serious Play
   - Service Packs: Service Packs
-  - Sonic: Sonic
   - Sonic the Hedgehog: Sonic the Hedgehog
   - Space: Space
   - Speed Champions: Speed Champions
@@ -646,7 +645,6 @@
   - Xtra: Xtra
   - Znap: Znap
   - tbd: tbd
-  - '{Undefined}': '{Undefined}'
   help_text: Use <kbd>⌘</kbd>+<kbd>click</kbd> or <kbd>Ctrl</kbd>+<kbd>click</kbd> to select multiple themes.<br /><strong>You must select at least one theme OR specify a year range.</strong>
   optional: true
 - keyname: brickset_order_by
