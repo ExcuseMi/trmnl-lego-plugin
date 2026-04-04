@@ -1864,7 +1864,7 @@
     "name": "1:87 Mercedes Truck",
     "year": 1964,
     "theme_id": 368,
-    "num_parts": 1,
+    "num_parts": 2,
     "img_url": "https://cdn.rebrickable.com/media/sets/651-2.jpg",
     "theme": "HO 1:87 Vehicles",
     "parent_theme": "System"
@@ -1874,7 +1874,7 @@
     "name": "1:87 Mercedes Truck/Trailer",
     "year": 1964,
     "theme_id": 368,
-    "num_parts": 2,
+    "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/652-1.jpg",
     "theme": "HO 1:87 Vehicles",
     "parent_theme": "System"
