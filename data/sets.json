@@ -200220,16 +200220,6 @@
     "parent_theme": "Books"
   },
   {
-    "set_num": "9789030508854-1",
-    "name": "Ninjago: Kleuren als een Ninja",
-    "year": 2022,
-    "theme_id": 760,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/9789030508854-1.jpg",
-    "theme": "Activity Books",
-    "parent_theme": "Books"
-  },
-  {
     "set_num": "10312-1",
     "name": "Jazz Club",
     "year": 2023,
@@ -224834,7 +224824,7 @@
     "name": "Maleficent's and Cruella de Vil's Dresses",
     "year": 2025,
     "theme_id": 608,
-    "num_parts": 521,
+    "num_parts": 524,
     "img_url": "https://cdn.rebrickable.com/media/sets/43262-1.jpg",
     "theme": "Disney",
     "parent_theme": ""
@@ -233530,6 +233520,16 @@
     "parent_theme": "Books"
   },
   {
+    "set_num": "9783960808930-1",
+    "name": "Ninjago: Dragons Rising: Das Erwachen der Ninja",
+    "year": 2025,
+    "theme_id": 761,
+    "num_parts": 13,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9783960808930-1.jpg",
+    "theme": "Activity Books with LEGO Parts",
+    "parent_theme": "Books"
+  },
+  {
     "set_num": "9788325346386-1",
     "name": "Jurassic World: Jurajska Przygoda Bena",
     "year": 2025,
@@ -235011,7 +235011,7 @@
   },
   {
     "set_num": "43011-1",
-    "name": "Lionel Messi – Soccer Highlights",
+    "name": "Lionel Messi – Football Highlights",
     "year": 2026,
     "theme_id": 787,
     "num_parts": 0,
@@ -235021,7 +235021,7 @@
   },
   {
     "set_num": "43012-1",
-    "name": "Cristiano Ronaldo – Soccer Highlights",
+    "name": "Cristiano Ronaldo – Football Highlights",
     "year": 2026,
     "theme_id": 787,
     "num_parts": 0,
@@ -235031,7 +235031,7 @@
   },
   {
     "set_num": "43013-1",
-    "name": "Kylian Mbappé – Soccer Highlights",
+    "name": "Kylian Mbappé – Football Highlights",
     "year": 2026,
     "theme_id": 787,
     "num_parts": 0,
@@ -235051,7 +235051,7 @@
   },
   {
     "set_num": "43015-1",
-    "name": "Lionel Messi – Soccer Legend",
+    "name": "Lionel Messi – Football Legend",
     "year": 2026,
     "theme_id": 787,
     "num_parts": 0,
@@ -235061,7 +235061,7 @@
   },
   {
     "set_num": "43016-1",
-    "name": "Cristiano Ronaldo – Soccer Legend",
+    "name": "Cristiano Ronaldo – Football Legend",
     "year": 2026,
     "theme_id": 787,
     "num_parts": 0,
@@ -237050,6 +237050,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "77262-1",
+    "name": "Ken Block's '65 Ford Mustang Hoonicorn V1",
+    "year": 2026,
+    "theme_id": 601,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/77262-1.jpg",
+    "theme": "Speed Champions",
+    "parent_theme": ""
+  },
+  {
     "set_num": "112601-1",
     "name": "Lloyd vs. Dragonian Warrior",
     "year": 2026,
@@ -237817,6 +237827,16 @@
     "num_parts": 39,
     "img_url": "https://cdn.rebrickable.com/media/sets/6614229-1.jpg",
     "theme": "Ninjago",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6626042-1",
+    "name": "Egg-spress Yourself",
+    "year": 2026,
+    "theme_id": 598,
+    "num_parts": 21,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6626042-1.jpg",
+    "theme": "Promotional",
     "parent_theme": ""
   },
   {
