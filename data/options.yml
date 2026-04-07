@@ -59,7 +59,7 @@
   - 9V (69): 9v|1|69
   - Action Wheelers (9): action-wheelers|1|9
   - Activity Books (229): activity-books|1|229
-  - Activity Books with LEGO Parts (418): activity-books-with-lego-parts|1|418
+  - Activity Books with LEGO Parts (419): activity-books-with-lego-parts|1|419
   - Advent (5): advent|1|5
   - Agents (13): agents|1|13
   - Airlines (16): airlines|1|16
@@ -271,7 +271,7 @@
   - Mickey Mouse (14): mickey-mouse|1|14
   - Miles From Tomorrowland (3): miles-from-tomorrowland|1|3
   - Mindstorms (24): mindstorms|1|24
-  - Minecraft (191): minecraft|1|191
+  - Minecraft (190): minecraft|1|190
   - Mini (1): mini|1|1
   - Minions (9): minions|1|9
   - Minitalia (19): minitalia|1|19
@@ -470,7 +470,7 @@
   optional: true
 - keyname: themes_brickset
   field_type: select
-  name: Filter by Themes – Brickset (171)
+  name: Filter by Themes – Brickset (172)
   description: <strong>Required:</strong> Select at least one theme, OR set a min/max year below. Only applicable when using Brickset as your data source.
   multiple: true
   options:
@@ -645,6 +645,7 @@
   - Xtra: Xtra
   - Znap: Znap
   - tbd: tbd
+  - '{Undefined}': '{Undefined}'
   help_text: Use <kbd>⌘</kbd>+<kbd>click</kbd> or <kbd>Ctrl</kbd>+<kbd>click</kbd> to select multiple themes.<br /><strong>You must select at least one theme OR specify a year range.</strong>
   optional: true
 - keyname: brickset_order_by

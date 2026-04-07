@@ -237260,16 +237260,6 @@
     "parent_theme": "City"
   },
   {
-    "set_num": "951315-1",
-    "name": "Jungle Ranger and Stray",
-    "year": 2026,
-    "theme_id": 577,
-    "num_parts": 19,
-    "img_url": "https://cdn.rebrickable.com/media/sets/951315-1.jpg",
-    "theme": "Minecraft",
-    "parent_theme": ""
-  },
-  {
     "set_num": "951440-1",
     "name": "Police Buggy",
     "year": 2026,
@@ -238374,7 +238364,7 @@
     "name": "City: Let's Fly",
     "year": 2026,
     "theme_id": 761,
-    "num_parts": 0,
+    "num_parts": 28,
     "img_url": "https://cdn.rebrickable.com/media/sets/9781837251759-1.jpg",
     "theme": "Activity Books with LEGO Parts",
     "parent_theme": "Books"
@@ -238496,6 +238486,16 @@
     "theme_id": 761,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/9781837252176-1.jpg",
+    "theme": "Activity Books with LEGO Parts",
+    "parent_theme": "Books"
+  },
+  {
+    "set_num": "9783960809074-1",
+    "name": "Ninjago: Shatterspin (German Edition)",
+    "year": 2026,
+    "theme_id": 761,
+    "num_parts": 7,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9783960809074-1.jpg",
     "theme": "Activity Books with LEGO Parts",
     "parent_theme": "Books"
   },
@@ -252643,7 +252643,7 @@
   },
   {
     "fig_num": "fig-001845",
-    "name": "Lloyd (The Final Battle)",
+    "name": "Lloyd (The Final Battle), Katana Holder",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-001845.jpg",
     "theme": "",
