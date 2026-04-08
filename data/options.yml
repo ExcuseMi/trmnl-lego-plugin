@@ -59,7 +59,7 @@
   - 9V (69): 9v|1|69
   - Action Wheelers (9): action-wheelers|1|9
   - Activity Books (229): activity-books|1|229
-  - Activity Books with LEGO Parts (419): activity-books-with-lego-parts|1|419
+  - Activity Books with LEGO Parts (418): activity-books-with-lego-parts|1|418
   - Advent (5): advent|1|5
   - Agents (13): agents|1|13
   - Airlines (16): airlines|1|16
@@ -395,7 +395,7 @@
   - Stationery and Office Supplies (627): stationery-and-office-supplies|1|627
   - Stingrays (5): stingrays|1|5
   - Storage (168): storage|1|168
-  - Story Books (365): story-books|1|365
+  - Story Books (366): story-books|1|366
   - Stranger Things (1): stranger-things|1|1
   - Studios (50): studios|1|50
   - Stuntz (27): stuntz|1|27
@@ -470,7 +470,7 @@
   optional: true
 - keyname: themes_brickset
   field_type: select
-  name: Filter by Themes – Brickset (172)
+  name: Filter by Themes – Brickset (171)
   description: <strong>Required:</strong> Select at least one theme, OR set a min/max year below. Only applicable when using Brickset as your data source.
   multiple: true
   options:
@@ -645,7 +645,6 @@
   - Xtra: Xtra
   - Znap: Znap
   - tbd: tbd
-  - '{Undefined}': '{Undefined}'
   help_text: Use <kbd>⌘</kbd>+<kbd>click</kbd> or <kbd>Ctrl</kbd>+<kbd>click</kbd> to select multiple themes.<br /><strong>You must select at least one theme OR specify a year range.</strong>
   optional: true
 - keyname: brickset_order_by

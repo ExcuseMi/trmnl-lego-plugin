@@ -233530,6 +233530,16 @@
     "parent_theme": "Books"
   },
   {
+    "set_num": "9783960809074-1",
+    "name": "Ninjago: Shatterspin (German Edition)",
+    "year": 2025,
+    "theme_id": 759,
+    "num_parts": 7,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9783960809074-1.jpg",
+    "theme": "Story Books",
+    "parent_theme": "Books"
+  },
+  {
     "set_num": "9788325346386-1",
     "name": "Jurassic World: Jurajska Przygoda Bena",
     "year": 2025,
@@ -235114,7 +235124,7 @@
     "name": "Nike Air Max 95 x LEGO Set",
     "year": 2026,
     "theme_id": 785,
-    "num_parts": 1215,
+    "num_parts": 1213,
     "img_url": "https://cdn.rebrickable.com/media/sets/43025-1.jpg",
     "theme": "Nike",
     "parent_theme": ""
@@ -238486,16 +238496,6 @@
     "theme_id": 761,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/9781837252176-1.jpg",
-    "theme": "Activity Books with LEGO Parts",
-    "parent_theme": "Books"
-  },
-  {
-    "set_num": "9783960809074-1",
-    "name": "Ninjago: Shatterspin (German Edition)",
-    "year": 2026,
-    "theme_id": 761,
-    "num_parts": 7,
-    "img_url": "https://cdn.rebrickable.com/media/sets/9783960809074-1.jpg",
     "theme": "Activity Books with LEGO Parts",
     "parent_theme": "Books"
   },
