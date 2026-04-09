@@ -237690,6 +237690,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "5010447-1",
+    "name": "Batman: Legacy of the Dark Knight (All Formats)",
+    "year": 2026,
+    "theme_id": 742,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010447-1.jpg",
+    "theme": "Video Games and Accessories",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "6518176-1",
     "name": "St. Patrick's Day Hat",
     "year": 2026,
@@ -238130,6 +238140,16 @@
     "parent_theme": "Books"
   },
   {
+    "set_num": "9780241788127-1",
+    "name": "DK Super Readers Level 2: Star Wars: Meet Grogu",
+    "year": 2026,
+    "theme_id": 759,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9780241788127-1.jpg",
+    "theme": "Story Books",
+    "parent_theme": "Books"
+  },
+  {
     "set_num": "9780241788653-1",
     "name": "Minecraft: How to Build Houses",
     "year": 2026,
@@ -238528,6 +238548,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/9788325348311-1.jpg",
     "theme": "Tabletop Games and Puzzles",
     "parent_theme": "Gear"
+  },
+  {
+    "set_num": "9798225060862-1",
+    "name": "Mini Golf",
+    "year": 2026,
+    "theme_id": 761,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9798225060862-1.jpg",
+    "theme": "Activity Books with LEGO Parts",
+    "parent_theme": "Books"
   },
   {
     "fig_num": "fig-000001",
