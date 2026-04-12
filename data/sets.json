@@ -205923,11 +205923,11 @@
     "set_num": "88019-3",
     "name": "USB Power Adapter Type A (With Holes)",
     "year": 2023,
-    "theme_id": 655,
+    "theme_id": 529,
     "num_parts": 1,
     "img_url": "https://cdn.rebrickable.com/media/sets/88019-3.jpg",
-    "theme": "Powered Up",
-    "parent_theme": "Power Functions"
+    "theme": "Technic",
+    "parent_theme": "Educational and Dacta"
   },
   {
     "set_num": "88019-4",
