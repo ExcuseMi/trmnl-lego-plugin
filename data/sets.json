@@ -13654,7 +13654,7 @@
     "name": "Universal Building Set",
     "year": 1983,
     "theme_id": 465,
-    "num_parts": 376,
+    "num_parts": 384,
     "img_url": "https://cdn.rebrickable.com/media/sets/710-3.jpg",
     "theme": "Universal Building Set",
     "parent_theme": ""
@@ -17807,36 +17807,6 @@
     "num_parts": 31,
     "img_url": "https://cdn.rebrickable.com/media/sets/3796-1.jpg",
     "theme": "Fabuland",
-    "parent_theme": ""
-  },
-  {
-    "set_num": "5510-1",
-    "name": "Off-Road 4x4",
-    "year": 1986,
-    "theme_id": 278,
-    "num_parts": 285,
-    "img_url": "https://cdn.rebrickable.com/media/sets/5510-1.jpg",
-    "theme": "Model Team",
-    "parent_theme": ""
-  },
-  {
-    "set_num": "5540-1",
-    "name": "Formula 1 Racer",
-    "year": 1986,
-    "theme_id": 278,
-    "num_parts": 447,
-    "img_url": "https://cdn.rebrickable.com/media/sets/5540-1.jpg",
-    "theme": "Model Team",
-    "parent_theme": ""
-  },
-  {
-    "set_num": "5580-1",
-    "name": "Highway Rig",
-    "year": 1986,
-    "theme_id": 278,
-    "num_parts": 668,
-    "img_url": "https://cdn.rebrickable.com/media/sets/5580-1.jpg",
-    "theme": "Model Team",
     "parent_theme": ""
   },
   {
@@ -22348,6 +22318,36 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/5266-1.jpg",
     "theme": "Technic",
     "parent_theme": "Service Packs"
+  },
+  {
+    "set_num": "5510-1",
+    "name": "Off-Road 4x4",
+    "year": 1989,
+    "theme_id": 278,
+    "num_parts": 285,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5510-1.jpg",
+    "theme": "Model Team",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "5540-1",
+    "name": "Formula 1 Racer",
+    "year": 1989,
+    "theme_id": 278,
+    "num_parts": 447,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5540-1.jpg",
+    "theme": "Model Team",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "5580-1",
+    "name": "Highway Rig",
+    "year": 1989,
+    "theme_id": 278,
+    "num_parts": 668,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5580-1.jpg",
+    "theme": "Model Team",
+    "parent_theme": ""
   },
   {
     "set_num": "6060-1",
@@ -231664,7 +231664,7 @@
     "name": "Minecraft: Visual Dictionary",
     "year": 2025,
     "theme_id": 758,
-    "num_parts": 0,
+    "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/5010321-1.jpg",
     "theme": "Non-fiction Books",
     "parent_theme": "Books"
@@ -237198,6 +237198,56 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/77985-1.jpg",
     "theme": "Jurassic World",
     "parent_theme": ""
+  },
+  {
+    "set_num": "88020-1",
+    "name": "USB Power Adapter Type I (Black)",
+    "year": 2026,
+    "theme_id": 655,
+    "num_parts": 1,
+    "img_url": "https://cdn.rebrickable.com/media/sets/88020-1.jpg",
+    "theme": "Powered Up",
+    "parent_theme": "Power Functions"
+  },
+  {
+    "set_num": "88020-2",
+    "name": "USB Power Adapter Type A (No Holes in Pins) (Black)",
+    "year": 2026,
+    "theme_id": 655,
+    "num_parts": 1,
+    "img_url": "https://cdn.rebrickable.com/media/sets/88020-2.jpg",
+    "theme": "Powered Up",
+    "parent_theme": "Power Functions"
+  },
+  {
+    "set_num": "88020-3",
+    "name": "USB Power Adapter Type A (With Holes) (Black)",
+    "year": 2026,
+    "theme_id": 655,
+    "num_parts": 1,
+    "img_url": "https://cdn.rebrickable.com/media/sets/88020-3.jpg",
+    "theme": "Powered Up",
+    "parent_theme": "Power Functions"
+  },
+  {
+    "set_num": "88020-4",
+    "name": "USB Power Adapter Type C (Black)",
+    "year": 2026,
+    "theme_id": 655,
+    "num_parts": 1,
+    "img_url": "https://cdn.rebrickable.com/media/sets/88020-4.jpg",
+    "theme": "Powered Up",
+    "parent_theme": "Power Functions"
+  },
+  {
+    "set_num": "88020-5",
+    "name": "USB Power Adapter Type G (Black)",
+    "year": 2026,
+    "theme_id": 655,
+    "num_parts": 1,
+    "img_url": "https://cdn.rebrickable.com/media/sets/88020-5.jpg",
+    "theme": "Powered Up",
+    "parent_theme": "Power Functions"
   },
   {
     "set_num": "112601-1",
