@@ -17810,6 +17810,36 @@
     "parent_theme": ""
   },
   {
+    "set_num": "5510-1",
+    "name": "Off-Road 4x4",
+    "year": 1986,
+    "theme_id": 278,
+    "num_parts": 285,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5510-1.jpg",
+    "theme": "Model Team",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "5540-1",
+    "name": "Formula 1 Racer",
+    "year": 1986,
+    "theme_id": 278,
+    "num_parts": 447,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5540-1.jpg",
+    "theme": "Model Team",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "5580-1",
+    "name": "Highway Rig",
+    "year": 1986,
+    "theme_id": 278,
+    "num_parts": 668,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5580-1.jpg",
+    "theme": "Model Team",
+    "parent_theme": ""
+  },
+  {
     "set_num": "5907-1",
     "name": "Build 'n Play 1: Let's Build and Play",
     "year": 1986,
@@ -22318,36 +22348,6 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/5266-1.jpg",
     "theme": "Technic",
     "parent_theme": "Service Packs"
-  },
-  {
-    "set_num": "5510-1",
-    "name": "Off-Road 4x4",
-    "year": 1989,
-    "theme_id": 278,
-    "num_parts": 285,
-    "img_url": "https://cdn.rebrickable.com/media/sets/5510-1.jpg",
-    "theme": "Model Team",
-    "parent_theme": ""
-  },
-  {
-    "set_num": "5540-1",
-    "name": "Formula 1 Racer",
-    "year": 1989,
-    "theme_id": 278,
-    "num_parts": 447,
-    "img_url": "https://cdn.rebrickable.com/media/sets/5540-1.jpg",
-    "theme": "Model Team",
-    "parent_theme": ""
-  },
-  {
-    "set_num": "5580-1",
-    "name": "Highway Rig",
-    "year": 1989,
-    "theme_id": 278,
-    "num_parts": 668,
-    "img_url": "https://cdn.rebrickable.com/media/sets/5580-1.jpg",
-    "theme": "Model Team",
-    "parent_theme": ""
   },
   {
     "set_num": "6060-1",
@@ -36064,7 +36064,7 @@
     "name": "Big Bat",
     "year": 1998,
     "theme_id": 434,
-    "num_parts": 23,
+    "num_parts": 19,
     "img_url": "https://cdn.rebrickable.com/media/sets/3019-1.jpg",
     "theme": "Ninja",
     "parent_theme": ""
@@ -36074,7 +36074,7 @@
     "name": "Big Bat",
     "year": 1998,
     "theme_id": 434,
-    "num_parts": 19,
+    "num_parts": 23,
     "img_url": "https://cdn.rebrickable.com/media/sets/3019-2.jpg",
     "theme": "Ninja",
     "parent_theme": ""
@@ -237617,6 +237617,16 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/5010064-1.jpg",
     "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "5010075-1",
+    "name": "Dolphin",
+    "year": 2026,
+    "theme_id": 598,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010075-1.jpg",
+    "theme": "Promotional",
     "parent_theme": ""
   },
   {
