@@ -205903,51 +205903,51 @@
     "set_num": "88019-1",
     "name": "USB Power Adapter Type I",
     "year": 2023,
-    "theme_id": 529,
+    "theme_id": 655,
     "num_parts": 1,
     "img_url": "https://cdn.rebrickable.com/media/sets/88019-1.jpg",
-    "theme": "Technic",
-    "parent_theme": "Educational and Dacta"
+    "theme": "Powered Up",
+    "parent_theme": "Power Functions"
   },
   {
     "set_num": "88019-2",
     "name": "USB Power Adapter Type A (No Holes in Pins)",
     "year": 2023,
-    "theme_id": 529,
+    "theme_id": 655,
     "num_parts": 1,
     "img_url": "https://cdn.rebrickable.com/media/sets/88019-2.jpg",
-    "theme": "Technic",
-    "parent_theme": "Educational and Dacta"
+    "theme": "Powered Up",
+    "parent_theme": "Power Functions"
   },
   {
     "set_num": "88019-3",
     "name": "USB Power Adapter Type A (With Holes)",
     "year": 2023,
-    "theme_id": 529,
+    "theme_id": 655,
     "num_parts": 1,
     "img_url": "https://cdn.rebrickable.com/media/sets/88019-3.jpg",
-    "theme": "Technic",
-    "parent_theme": "Educational and Dacta"
+    "theme": "Powered Up",
+    "parent_theme": "Power Functions"
   },
   {
     "set_num": "88019-4",
     "name": "USB Power Adapter Type C",
     "year": 2023,
-    "theme_id": 529,
+    "theme_id": 655,
     "num_parts": 1,
     "img_url": "https://cdn.rebrickable.com/media/sets/88019-4.jpg",
-    "theme": "Technic",
-    "parent_theme": "Educational and Dacta"
+    "theme": "Powered Up",
+    "parent_theme": "Power Functions"
   },
   {
     "set_num": "88019-5",
     "name": "USB Power Adapter Type G",
     "year": 2023,
-    "theme_id": 529,
+    "theme_id": 655,
     "num_parts": 1,
     "img_url": "https://cdn.rebrickable.com/media/sets/88019-5.jpg",
-    "theme": "Technic",
-    "parent_theme": "Educational and Dacta"
+    "theme": "Powered Up",
+    "parent_theme": "Power Functions"
   },
   {
     "set_num": "93020-1",
@@ -210104,7 +210104,7 @@
     "name": "Star Wars: Scouting Time",
     "year": 2023,
     "theme_id": 761,
-    "num_parts": 12,
+    "num_parts": 17,
     "img_url": "https://cdn.rebrickable.com/media/sets/9781780559469-1.jpg",
     "theme": "Activity Books with LEGO Parts",
     "parent_theme": "Books"
@@ -234640,6 +234640,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "40917-1",
+    "name": "The Darksaber",
+    "year": 2026,
+    "theme_id": 158,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40917-1.jpg",
+    "theme": "Star Wars",
+    "parent_theme": ""
+  },
+  {
     "set_num": "40920-1",
     "name": "Bugs Bunny",
     "year": 2026,
@@ -236630,6 +236640,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "75442-1",
+    "name": "The Mandalorian's N-1 Starfighter",
+    "year": 2026,
+    "theme_id": 171,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/75442-1.jpg",
+    "theme": "Ultimate Collector Series",
+    "parent_theme": "Star Wars"
+  },
+  {
     "set_num": "75443-1",
     "name": "Grogu's Homestead",
     "year": 2026,
@@ -236917,6 +236937,36 @@
     "num_parts": 1297,
     "img_url": "https://cdn.rebrickable.com/media/sets/76344-1.jpg",
     "theme": "The Infinity Saga",
+    "parent_theme": "Super Heroes Marvel"
+  },
+  {
+    "set_num": "76346-1",
+    "name": "Spider-Man Hero Figure",
+    "year": 2026,
+    "theme_id": 706,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/76346-1.jpg",
+    "theme": "Spider-Man",
+    "parent_theme": "Super Heroes Marvel"
+  },
+  {
+    "set_num": "76349-1",
+    "name": "Spider-Man Prison Transport Chase",
+    "year": 2026,
+    "theme_id": 706,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/76349-1.jpg",
+    "theme": "Spider-Man",
+    "parent_theme": "Super Heroes Marvel"
+  },
+  {
+    "set_num": "76350-1",
+    "name": "Spider-Man vs. Hulk Epic Clash",
+    "year": 2026,
+    "theme_id": 706,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/76350-1.jpg",
+    "theme": "Spider-Man",
     "parent_theme": "Super Heroes Marvel"
   },
   {
@@ -237746,6 +237796,16 @@
     "theme_id": 501,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/5010313-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "5010325-1",
+    "name": "The Mandalorian and Grogu Metal Card",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010325-1.jpg",
     "theme": "Gear",
     "parent_theme": ""
   },

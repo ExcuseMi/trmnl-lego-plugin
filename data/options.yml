@@ -196,7 +196,7 @@
   - Galidor (20): galidor|1|20
   - Games (46): games|1|46
   - Gas Station (6): gas-station|1|6
-  - Gear (510): gear|1|510
+  - Gear (511): gear|1|511
   - Gears (9): gears|1|9
   - Ghostbusters (2): ghostbusters|1|2
   - Gravity Games (10): gravity-games|1|10
@@ -315,7 +315,7 @@
   - Posters and Art Prints (90): posters-and-art-prints|1|90
   - Power Functions (18): power-functions|1|18
   - Power Miners (19): power-miners|1|19
-  - Powered Up (19): powered-up|1|19
+  - Powered Up (24): powered-up|1|24
   - Primo (114): primo|1|114
   - Prince of Persia (6): prince-of-persia|1|6
   - Princess Castle (6): princess-castle|1|6
@@ -383,7 +383,7 @@
   - Speed Racer (4): speed-racer|1|4
   - Speed Slammers (5): speed-slammers|1|5
   - Speedorz (30): speedorz|1|30
-  - Spider-Man (117): spider-man|1|117
+  - Spider-Man (120): spider-man|1|120
   - Spider-Man - Across the Spider-Verse (17): spider-man-across-the-spider-verse|1|17
   - Spidey and His Amazing Friends (12): spidey-and-his-amazing-friends|1|12
   - SPIKE (31): spike|1|31
@@ -391,7 +391,7 @@
   - Sports (4): sports|1|4
   - Spybotics (4): spybotics|1|4
   - Spyrius (9): spyrius|1|9
-  - Star Wars (978): star-wars|1|978
+  - Star Wars (979): star-wars|1|979
   - Stationery and Office Supplies (627): stationery-and-office-supplies|1|627
   - Stingrays (5): stingrays|1|5
   - Storage (168): storage|1|168
@@ -407,7 +407,7 @@
   - System (49): system|1|49
   - Tabletop Games and Puzzles (72): tabletop-games-and-puzzles|1|72
   - Team GB (12): team-gb|1|12
-  - Technic (770): technic|1|770
+  - Technic (765): technic|1|765
   - Teenage Mutant Ninja Turtles (20): teenage-mutant-ninja-turtles|1|20
   - Thanksgiving (10): thanksgiving|1|10
   - The Hobbit (20): the-hobbit|1|20
@@ -439,7 +439,7 @@
   - 'Trolls: World Tour (9)': trolls-world-tour|1|9
   - UCS (6): ucs|1|6
   - UFO (18): ufo|1|18
-  - Ultimate Collector Series (49): ultimate-collector-series|1|49
+  - Ultimate Collector Series (50): ultimate-collector-series|1|50
   - Ultra Agents (15): ultra-agents|1|15
   - Unikitty! (26): unikitty|1|26
   - Unitron (4): unitron|1|4
@@ -470,7 +470,7 @@
   optional: true
 - keyname: themes_brickset
   field_type: select
-  name: Filter by Themes – Brickset (171)
+  name: Filter by Themes – Brickset (172)
   description: <strong>Required:</strong> Select at least one theme, OR set a min/max year below. Only applicable when using Brickset as your data source.
   multiple: true
   options:
@@ -601,6 +601,7 @@
   - Seasonal: Seasonal
   - Serious Play: Serious Play
   - Service Packs: Service Packs
+  - Shrek: Shrek
   - Sonic the Hedgehog: Sonic the Hedgehog
   - Space: Space
   - Speed Champions: Speed Champions
