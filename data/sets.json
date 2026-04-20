@@ -223234,7 +223234,7 @@
     "name": "Venom's Museum Robbery",
     "year": 2025,
     "theme_id": 706,
-    "num_parts": 36,
+    "num_parts": 35,
     "img_url": "https://cdn.rebrickable.com/media/sets/30707-1.jpg",
     "theme": "Spider-Man",
     "parent_theme": "Super Heroes Marvel"
@@ -238256,6 +238256,16 @@
     "theme_id": 733,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/41480800-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5060093913507-1",
+    "name": "Egg Cup and Salt Shaker",
+    "year": 2026,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5060093913507-1.jpg",
     "theme": "Houseware",
     "parent_theme": "Gear"
   },
