@@ -1854,7 +1854,7 @@
     "name": "1:87 Mercedes Esso Tanker",
     "year": 1964,
     "theme_id": 368,
-    "num_parts": 1,
+    "num_parts": 2,
     "img_url": "https://cdn.rebrickable.com/media/sets/650-2.jpg",
     "theme": "HO 1:87 Vehicles",
     "parent_theme": "System"
@@ -2244,7 +2244,7 @@
     "name": "1:87 8 Trucks",
     "year": 1965,
     "theme_id": 368,
-    "num_parts": 14,
+    "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/699-2.jpg",
     "theme": "HO 1:87 Vehicles",
     "parent_theme": "System"
@@ -2594,7 +2594,7 @@
     "name": "Shell Service Station",
     "year": 1966,
     "theme_id": 365,
-    "num_parts": 101,
+    "num_parts": 102,
     "img_url": "https://cdn.rebrickable.com/media/sets/325-3.jpg",
     "theme": "System",
     "parent_theme": ""
@@ -3304,7 +3304,7 @@
     "name": "1:87 Mercedes Shell Tanker",
     "year": 1966,
     "theme_id": 368,
-    "num_parts": 1,
+    "num_parts": 2,
     "img_url": "https://cdn.rebrickable.com/media/sets/649-2.jpg",
     "theme": "HO 1:87 Vehicles",
     "parent_theme": "System"
