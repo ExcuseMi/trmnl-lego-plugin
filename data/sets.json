@@ -237930,6 +237930,26 @@
     "parent_theme": ""
   },
   {
+    "set_num": "5010353-1",
+    "name": "Tiny Pets: Corgi",
+    "year": 2026,
+    "theme_id": 761,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010353-1.jpg",
+    "theme": "Activity Books with LEGO Parts",
+    "parent_theme": "Books"
+  },
+  {
+    "set_num": "5010354-1",
+    "name": "Tiny Pets: Pig",
+    "year": 2026,
+    "theme_id": 761,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010354-1.jpg",
+    "theme": "Activity Books with LEGO Parts",
+    "parent_theme": "Books"
+  },
+  {
     "set_num": "5010447-1",
     "name": "Batman: Legacy of the Dark Knight (All Formats)",
     "year": 2026,
@@ -238141,7 +238161,7 @@
   },
   {
     "set_num": "6641299-1",
-    "name": "LEGO Store Grand Opening Thessaloniki",
+    "name": "LEGO Store Grand Opening",
     "year": 2026,
     "theme_id": 408,
     "num_parts": 157,
@@ -238666,26 +238686,6 @@
     "theme_id": 761,
     "num_parts": 11,
     "img_url": "https://cdn.rebrickable.com/media/sets/9781837251773-1.jpg",
-    "theme": "Activity Books with LEGO Parts",
-    "parent_theme": "Books"
-  },
-  {
-    "set_num": "9781837251957-1",
-    "name": "Tiny Pets: Corgi",
-    "year": 2026,
-    "theme_id": 761,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/9781837251957-1.jpg",
-    "theme": "Activity Books with LEGO Parts",
-    "parent_theme": "Books"
-  },
-  {
-    "set_num": "9781837251964-1",
-    "name": "Tiny Pets: Pig",
-    "year": 2026,
-    "theme_id": 761,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/9781837251964-1.jpg",
     "theme": "Activity Books with LEGO Parts",
     "parent_theme": "Books"
   },
