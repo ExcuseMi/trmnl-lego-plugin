@@ -49,7 +49,7 @@
   optional: true
 - keyname: themes_rebrickable
   field_type: select
-  name: Filter by Themes – Rebrickable (413)
+  name: Filter by Themes – Rebrickable (414)
   description: Select one or more themes to display. Only applicable when using Rebrickable as your data source.
   multiple: true
   options:
@@ -73,14 +73,14 @@
   - Aquaraiders II (7): aquaraiders-ii|1|7
   - Aquasharks (4): aquasharks|1|4
   - Aquazone (1): aquazone|1|1
-  - Architecture (50): architecture|1|50
+  - Architecture (49): architecture|1|49
   - Arctic (40): arctic|1|40
   - Atlantis (24): atlantis|1|24
   - Audio and Visual Media (71): audio-and-visual-media|1|71
   - Avatar (9): avatar|1|9
   - 'Avatar: The Last Airbender (2)': avatar-the-last-airbender|1|2
   - Avengers (94): avengers|1|94
-  - Bag and Luggage Tags (124): bag-and-luggage-tags|1|124
+  - Bag and Luggage Tags (126): bag-and-luggage-tags|1|126
   - Bags, Totes, & Luggage (722): bags-totes-luggage|1|722
   - Basic (197): basic|1|197
   - Basic Set (351): basic-set|1|351
@@ -98,7 +98,7 @@
   - Bob the Builder (31): bob-the-builder|1|31
   - Botanicals (45): botanicals|1|45
   - Brick Sketches (8): brick-sketches|1|8
-  - Brickheadz (190): brickheadz|1|190
+  - Brickheadz (191): brickheadz|1|191
   - BrickLink Designer Program (63): bricklink-designer-program|1|63
   - Bricks & More (67): bricks-more|1|67
   - Bricktober (43): bricktober|1|43
@@ -319,7 +319,7 @@
   - Primo (114): primo|1|114
   - Prince of Persia (6): prince-of-persia|1|6
   - Princess Castle (6): princess-castle|1|6
-  - Promotional (168): promotional|1|168
+  - Promotional (169): promotional|1|169
   - Protectors (6): protectors|1|6
   - Quatro (9): quatro|1|9
   - Race (16): race|1|16
@@ -369,6 +369,7 @@
   - Series 9 Minifigures (19): series-9-minifigures|1|19
   - Serious Play (13): serious-play|1|13
   - Service Packs (331): service-packs|1|331
+  - Shrek (1): shrek|1|1
   - Skylines (14): skylines|1|14
   - Soccer (98): soccer|1|98
   - Sofia the First (3): sofia-the-first|1|3
@@ -392,10 +393,10 @@
   - Spybotics (4): spybotics|1|4
   - Spyrius (9): spyrius|1|9
   - Star Wars (978): star-wars|1|978
-  - Stationery and Office Supplies (627): stationery-and-office-supplies|1|627
+  - Stationery and Office Supplies (628): stationery-and-office-supplies|1|628
   - Stingrays (5): stingrays|1|5
   - Storage (168): storage|1|168
-  - Story Books (367): story-books|1|367
+  - Story Books (369): story-books|1|369
   - Stranger Things (1): stranger-things|1|1
   - Studios (50): studios|1|50
   - Stuntz (27): stuntz|1|27

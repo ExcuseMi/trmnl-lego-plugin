@@ -46021,7 +46021,7 @@
   },
   {
     "set_num": "9782-1",
-    "name": "Volcanic Panic Challenge Kit",
+    "name": "VOLCANIC PANIC Challenge Kit",
     "year": 2000,
     "theme_id": 398,
     "num_parts": 177,
@@ -49651,7 +49651,7 @@
   },
   {
     "set_num": "9784-1",
-    "name": "Arctic Impact Challenge Kit",
+    "name": "ARCTIC IMPACT Challenge Kit",
     "year": 2001,
     "theme_id": 398,
     "num_parts": 1368,
@@ -59081,7 +59081,7 @@
   },
   {
     "set_num": "9788-1",
-    "name": "Mission Mars Challenge Kit",
+    "name": "MISSION MARS Challenge Kit",
     "year": 2003,
     "theme_id": 398,
     "num_parts": 1209,
@@ -67161,7 +67161,7 @@
   },
   {
     "set_num": "9762-1",
-    "name": "Ocean Odyssey Challenge Kit",
+    "name": "OCEAN ODYSSEY Challenge Kit",
     "year": 2005,
     "theme_id": 398,
     "num_parts": 1471,
@@ -70491,7 +70491,7 @@
   },
   {
     "set_num": "9763-1",
-    "name": "Nano Quest Challenge Kit",
+    "name": "NANO QUEST Challenge Kit",
     "year": 2006,
     "theme_id": 398,
     "num_parts": 1505,
@@ -82811,7 +82811,7 @@
   },
   {
     "set_num": "9698-1",
-    "name": "Smart Move Challenge Kit",
+    "name": "SMART MOVE Challenge Kit",
     "year": 2009,
     "theme_id": 398,
     "num_parts": 1310,
@@ -87501,7 +87501,7 @@
   },
   {
     "set_num": "9696-1",
-    "name": "Body Forward Challenge Kit",
+    "name": "BODY FORWARD Challenge Kit",
     "year": 2010,
     "theme_id": 398,
     "num_parts": 1515,
@@ -92551,7 +92551,7 @@
   },
   {
     "set_num": "9697-1",
-    "name": "Food Factor Challenge Kit",
+    "name": "Food FACTOR Challenge Kit",
     "year": 2011,
     "theme_id": 398,
     "num_parts": 2115,
@@ -102811,7 +102811,7 @@
   },
   {
     "set_num": "9664-1",
-    "name": "Nature's Fury Challenge Kit",
+    "name": "NATURE'S FURY Challenge Kit",
     "year": 2013,
     "theme_id": 398,
     "num_parts": 1995,
@@ -112761,7 +112761,7 @@
   },
   {
     "set_num": "45800-1",
-    "name": "FLL World Class: Learning Unleashed Challenge Kit",
+    "name": "FLL WORLD Class: Learning Unleashed Challenge Kit",
     "year": 2014,
     "theme_id": 398,
     "num_parts": 2098,
@@ -121571,7 +121571,7 @@
   },
   {
     "set_num": "45801-1",
-    "name": "Trash Trek Challenge Kit",
+    "name": "TRASH TREK Challenge Kit",
     "year": 2015,
     "theme_id": 398,
     "num_parts": 1990,
@@ -125621,7 +125621,7 @@
   },
   {
     "set_num": "2000714-1",
-    "name": "Trash Trek Replacement Pack",
+    "name": "TRASH TREK Replacement Pack",
     "year": 2015,
     "theme_id": 398,
     "num_parts": 104,
@@ -130911,7 +130911,7 @@
   },
   {
     "set_num": "45802-1",
-    "name": "Animal Allies Challenge Kit",
+    "name": "ANIMAL ALLIES Challenge Kit",
     "year": 2016,
     "theme_id": 398,
     "num_parts": 2167,
@@ -135231,7 +135231,7 @@
   },
   {
     "set_num": "2000716-1",
-    "name": "Animal Allies Replacement Pack",
+    "name": "ANIMAL ALLIES Replacement Pack",
     "year": 2016,
     "theme_id": 398,
     "num_parts": 87,
@@ -160111,7 +160111,7 @@
   },
   {
     "set_num": "45809-1",
-    "name": "City Shaper Challenge Kit",
+    "name": "CITY SHAPER Challenge Kit",
     "year": 2019,
     "theme_id": 398,
     "num_parts": 2158,
@@ -175953,10 +175953,10 @@
     "set_num": "6291437-1",
     "name": "Sakura Tree",
     "year": 2020,
-    "theme_id": 252,
+    "theme_id": 598,
     "num_parts": 147,
     "img_url": "https://cdn.rebrickable.com/media/sets/6291437-1.jpg",
-    "theme": "Architecture",
+    "theme": "Promotional",
     "parent_theme": ""
   },
   {
@@ -227724,7 +227724,7 @@
     "name": "Hogsmeade Village – Collectors' Edition",
     "year": 2025,
     "theme_id": 246,
-    "num_parts": 3237,
+    "num_parts": 3228,
     "img_url": "https://cdn.rebrickable.com/media/sets/76457-1.jpg",
     "theme": "Harry Potter",
     "parent_theme": ""
@@ -230444,7 +230444,7 @@
     "name": "Gravity Drop",
     "year": 2025,
     "theme_id": 757,
-    "num_parts": 0,
+    "num_parts": 168,
     "img_url": "https://cdn.rebrickable.com/media/sets/5009467-1.jpg",
     "theme": "Ideas Books",
     "parent_theme": "Books"
@@ -234680,6 +234680,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "40923-1",
+    "name": "Shrek, Donkey & Gingy Figures",
+    "year": 2026,
+    "theme_id": 610,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40923-1.jpg",
+    "theme": "Brickheadz",
+    "parent_theme": ""
+  },
+  {
     "set_num": "40952-1",
     "name": "LEGOLAND Castle",
     "year": 2026,
@@ -235387,6 +235397,36 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/53717-1.jpg",
     "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "53721-1",
+    "name": "Fortnite Tab Notebook",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53721-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "53722-1",
+    "name": "Peely Bag Tag",
+    "year": 2026,
+    "theme_id": 731,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53722-1.jpg",
+    "theme": "Bag and Luggage Tags",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "53724-1",
+    "name": "Cuddle Team Leader Bag Tag",
+    "year": 2026,
+    "theme_id": 731,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53724-1.jpg",
+    "theme": "Bag and Luggage Tags",
     "parent_theme": "Gear"
   },
   {
@@ -236497,6 +236537,16 @@
     "num_parts": 6838,
     "img_url": "https://cdn.rebrickable.com/media/sets/72153-1.jpg",
     "theme": "Pokémon",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "72423-1",
+    "name": "Shrek, Donkey & Puss in Boots",
+    "year": 2026,
+    "theme_id": 796,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/72423-1.jpg",
+    "theme": "Shrek",
     "parent_theme": ""
   },
   {
@@ -238807,6 +238857,26 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/9798225060862-1.jpg",
     "theme": "Activity Books with LEGO Parts",
+    "parent_theme": "Books"
+  },
+  {
+    "set_num": "9780241836712-1",
+    "name": "DK Super Readers Level 2: Marvel Super Heroes: Spider-Man Web Rescue",
+    "year": 2027,
+    "theme_id": 759,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9780241836712-1.jpg",
+    "theme": "Story Books",
+    "parent_theme": "Books"
+  },
+  {
+    "set_num": "9780241838389-1",
+    "name": "DK Super Readers Level 1: Ninjago: Go Team Ninja",
+    "year": 2027,
+    "theme_id": 759,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9780241838389-1.jpg",
+    "theme": "Story Books",
     "parent_theme": "Books"
   },
   {
@@ -269099,7 +269169,7 @@
   },
   {
     "fig_num": "fig-004030",
-    "name": "Imperial Pilot V-wing with White Printed Head",
+    "name": "Clone Pilot V-wing with White Printed Head",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004030.jpg",
     "theme": "",
