@@ -234870,6 +234870,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "42236-1",
+    "name": "Custom Garage Ford Mustang GT Car",
+    "year": 2026,
+    "theme_id": 1,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/42236-1.jpg",
+    "theme": "Technic",
+    "parent_theme": ""
+  },
+  {
     "set_num": "42675-1",
     "name": "Unicorn Cake Delivery Car",
     "year": 2026,
