@@ -234264,7 +234264,7 @@
     "name": "The Razor Crest Mini-Build",
     "year": 2026,
     "theme_id": 158,
-    "num_parts": 0,
+    "num_parts": 74,
     "img_url": "https://cdn.rebrickable.com/media/sets/30728-1.jpg",
     "theme": "Star Wars",
     "parent_theme": ""
@@ -234444,7 +234444,7 @@
     "name": "The Mandalorian and Grogu: Allies & Villains",
     "year": 2026,
     "theme_id": 610,
-    "num_parts": 0,
+    "num_parts": 661,
     "img_url": "https://cdn.rebrickable.com/media/sets/40856-1.jpg",
     "theme": "Brickheadz",
     "parent_theme": ""
@@ -235300,6 +235300,16 @@
     "parent_theme": "Disney"
   },
   {
+    "set_num": "43304-1",
+    "name": "Blaze's Horse Ranch",
+    "year": 2026,
+    "theme_id": 608,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/43304-1.jpg",
+    "theme": "Disney",
+    "parent_theme": ""
+  },
+  {
     "set_num": "43305-1",
     "name": "Piglet's Birthday Fun",
     "year": 2026,
@@ -235440,12 +235450,132 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "53726-1",
+    "name": "Fortnite Llama Stickers",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53726-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "53746-1",
     "name": "Ahsoka Tano Combination Lock Diary Set",
     "year": 2026,
     "theme_id": 739,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/53746-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "53758-1",
+    "name": "Star Wars Yoda Stickers",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53758-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "53760-1",
+    "name": "Star Wars Darth Vader Vacation Stickers",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53760-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "53761-1",
+    "name": "Star Wars Stormtrooper Stickers",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53761-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "53762-1",
+    "name": "Star Wars R2-D2 Stickers",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53762-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "53763-1",
+    "name": "Star Wars Darth Vader Stickers",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53763-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "53765-1",
+    "name": "Star Wars The Mandalorian The Mandalorian Stickers",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53765-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "53766-1",
+    "name": "Star Wars The Mandalorian Grogu Stickers",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53766-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "53767-1",
+    "name": "Star Wars The Mandalorian Ahsoka Tano Stickers",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53767-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "53773-1",
+    "name": "Star Wars Vacation Tab Dotted Notebook",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53773-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "53778-1",
+    "name": "Star Wars The Mandalorian Boba Fett Stickers",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53778-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "53790-1",
+    "name": "Fortnite Klombo Stickers",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53790-1.jpg",
     "theme": "Stationery and Office Supplies",
     "parent_theme": "Gear"
   },
@@ -235490,6 +235620,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "53821-1",
+    "name": "Fortnite Hit the Bricks Stickers",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53821-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "53822-1",
     "name": "Triceratops Costume Fan Stickers",
     "year": 2026,
@@ -235526,6 +235666,16 @@
     "theme_id": 739,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/53825-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "53826-1",
+    "name": "Fortnite Badges Stickers",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53826-1.jpg",
     "theme": "Stationery and Office Supplies",
     "parent_theme": "Gear"
   },
@@ -235766,6 +235916,36 @@
     "theme_id": 739,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/53864-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "53865-1",
+    "name": "Star Wars R2-D2 Vacation Stickers",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53865-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "53866-1",
+    "name": "Star Wars Beach Party Stickers",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53866-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "53867-1",
+    "name": "Star Wars Stormtrooper Vacation Stickers",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53867-1.jpg",
     "theme": "Stationery and Office Supplies",
     "parent_theme": "Gear"
   },
@@ -236184,7 +236364,7 @@
     "name": "Robot T. rex",
     "year": 2026,
     "theme_id": 795,
-    "num_parts": 0,
+    "num_parts": 8,
     "img_url": "https://cdn.rebrickable.com/media/sets/71052-1.jpg",
     "theme": "Series 29 Minifigures",
     "parent_theme": "Collectible Minifigures"
@@ -236194,7 +236374,7 @@
     "name": "Marine Biologist",
     "year": 2026,
     "theme_id": 795,
-    "num_parts": 0,
+    "num_parts": 12,
     "img_url": "https://cdn.rebrickable.com/media/sets/71052-2.jpg",
     "theme": "Series 29 Minifigures",
     "parent_theme": "Collectible Minifigures"
@@ -236204,7 +236384,7 @@
     "name": "BIONICLE Cosplayer",
     "year": 2026,
     "theme_id": 795,
-    "num_parts": 0,
+    "num_parts": 10,
     "img_url": "https://cdn.rebrickable.com/media/sets/71052-3.jpg",
     "theme": "Series 29 Minifigures",
     "parent_theme": "Collectible Minifigures"
@@ -236214,7 +236394,7 @@
     "name": "Monster Hunter",
     "year": 2026,
     "theme_id": 795,
-    "num_parts": 0,
+    "num_parts": 9,
     "img_url": "https://cdn.rebrickable.com/media/sets/71052-4.jpg",
     "theme": "Series 29 Minifigures",
     "parent_theme": "Collectible Minifigures"
@@ -236224,7 +236404,7 @@
     "name": "Boba Cup Fan",
     "year": 2026,
     "theme_id": 795,
-    "num_parts": 0,
+    "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/71052-5.jpg",
     "theme": "Series 29 Minifigures",
     "parent_theme": "Collectible Minifigures"
@@ -236234,7 +236414,7 @@
     "name": "Trash Monster",
     "year": 2026,
     "theme_id": 795,
-    "num_parts": 0,
+    "num_parts": 8,
     "img_url": "https://cdn.rebrickable.com/media/sets/71052-6.jpg",
     "theme": "Series 29 Minifigures",
     "parent_theme": "Collectible Minifigures"
@@ -236244,7 +236424,7 @@
     "name": "Chocolatier",
     "year": 2026,
     "theme_id": 795,
-    "num_parts": 0,
+    "num_parts": 11,
     "img_url": "https://cdn.rebrickable.com/media/sets/71052-7.jpg",
     "theme": "Series 29 Minifigures",
     "parent_theme": "Collectible Minifigures"
@@ -236254,7 +236434,7 @@
     "name": "Tuba Player",
     "year": 2026,
     "theme_id": 795,
-    "num_parts": 0,
+    "num_parts": 7,
     "img_url": "https://cdn.rebrickable.com/media/sets/71052-8.jpg",
     "theme": "Series 29 Minifigures",
     "parent_theme": "Collectible Minifigures"
@@ -236264,7 +236444,7 @@
     "name": "Football Goalkeeper",
     "year": 2026,
     "theme_id": 795,
-    "num_parts": 0,
+    "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/71052-9.jpg",
     "theme": "Series 29 Minifigures",
     "parent_theme": "Collectible Minifigures"
@@ -236274,7 +236454,7 @@
     "name": "Cute Witch",
     "year": 2026,
     "theme_id": 795,
-    "num_parts": 0,
+    "num_parts": 8,
     "img_url": "https://cdn.rebrickable.com/media/sets/71052-10.jpg",
     "theme": "Series 29 Minifigures",
     "parent_theme": "Collectible Minifigures"
@@ -236284,7 +236464,7 @@
     "name": "Mysterious Ronin",
     "year": 2026,
     "theme_id": 795,
-    "num_parts": 0,
+    "num_parts": 8,
     "img_url": "https://cdn.rebrickable.com/media/sets/71052-11.jpg",
     "theme": "Series 29 Minifigures",
     "parent_theme": "Collectible Minifigures"
@@ -236294,7 +236474,7 @@
     "name": "Unicorn Elf",
     "year": 2026,
     "theme_id": 795,
-    "num_parts": 0,
+    "num_parts": 8,
     "img_url": "https://cdn.rebrickable.com/media/sets/71052-12.jpg",
     "theme": "Series 29 Minifigures",
     "parent_theme": "Collectible Minifigures"
@@ -236664,7 +236844,7 @@
     "name": "Yoda Bust",
     "year": 2026,
     "theme_id": 158,
-    "num_parts": 0,
+    "num_parts": 399,
     "img_url": "https://cdn.rebrickable.com/media/sets/75438-1.jpg",
     "theme": "Star Wars",
     "parent_theme": ""
@@ -236674,7 +236854,7 @@
     "name": "Darth Vader Bust",
     "year": 2026,
     "theme_id": 158,
-    "num_parts": 0,
+    "num_parts": 349,
     "img_url": "https://cdn.rebrickable.com/media/sets/75439-1.jpg",
     "theme": "Star Wars",
     "parent_theme": ""
@@ -236724,7 +236904,7 @@
     "name": "AT-RT Attack",
     "year": 2026,
     "theme_id": 158,
-    "num_parts": 0,
+    "num_parts": 296,
     "img_url": "https://cdn.rebrickable.com/media/sets/75444-1.jpg",
     "theme": "Star Wars",
     "parent_theme": ""
@@ -236734,7 +236914,7 @@
     "name": "Anzellan Starship",
     "year": 2026,
     "theme_id": 158,
-    "num_parts": 0,
+    "num_parts": 702,
     "img_url": "https://cdn.rebrickable.com/media/sets/75445-1.jpg",
     "theme": "Star Wars",
     "parent_theme": ""
@@ -236744,7 +236924,7 @@
     "name": "Grogu (Mandalorian Apprentice)",
     "year": 2026,
     "theme_id": 158,
-    "num_parts": 0,
+    "num_parts": 1200,
     "img_url": "https://cdn.rebrickable.com/media/sets/75446-1.jpg",
     "theme": "Star Wars",
     "parent_theme": ""
@@ -236754,7 +236934,7 @@
     "name": "The Razor Crest",
     "year": 2026,
     "theme_id": 158,
-    "num_parts": 0,
+    "num_parts": 930,
     "img_url": "https://cdn.rebrickable.com/media/sets/75447-1.jpg",
     "theme": "Star Wars",
     "parent_theme": ""
@@ -269244,7 +269424,7 @@
   {
     "fig_num": "fig-004039",
     "name": "Droideka / Destroyer Droid, Reddish Brown Shell, Flat Silver Legs",
-    "num_parts": 27,
+    "num_parts": 28,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004039.jpg",
     "theme": "",
     "parent_theme": ""
@@ -316019,7 +316199,7 @@
   },
   {
     "fig_num": "fig-010525",
-    "name": "Grogu / The Child (Baby Yoda)",
+    "name": "Grogu / The Child (Baby Yoda), 25128 Body",
     "num_parts": 2,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010525.jpg",
     "theme": "",
@@ -353702,6 +353882,102 @@
     "name": "Black/White Nike Outfit, Hood with Cap",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-017528.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017555",
+    "name": "Robot T. rex",
+    "num_parts": 5,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017555.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017556",
+    "name": "Marine Biologist",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017556.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017557",
+    "name": "BIONICLE Cosplayer",
+    "num_parts": 5,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017557.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017558",
+    "name": "Unicorn Elf",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017558.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017559",
+    "name": "Mysterious Ronin",
+    "num_parts": 5,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017559.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017560",
+    "name": "Cute Witch",
+    "num_parts": 5,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017560.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017561",
+    "name": "Football Goalkeeper",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017561.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017562",
+    "name": "Tuba Player",
+    "num_parts": 5,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017562.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017563",
+    "name": "Chocolatier",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017563.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017564",
+    "name": "Trash Monster",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017564.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017565",
+    "name": "Boba Cup Fan",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017565.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017566",
+    "name": "Monster Hunter",
+    "num_parts": 5,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017566.jpg",
     "theme": "",
     "parent_theme": ""
   }
