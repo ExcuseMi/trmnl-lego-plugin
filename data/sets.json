@@ -219470,6 +219470,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "5010231-1",
+    "name": "Ahsoka Tano Key Light",
+    "year": 2024,
+    "theme_id": 503,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010231-1.jpg",
+    "theme": "Key Chain",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "5010355-1",
     "name": "ReBuild Activity Cards: Space",
     "year": 2024,
@@ -225437,36 +225447,6 @@
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/53707-1.jpg",
     "theme": "Stationery and Office Supplies",
-    "parent_theme": "Gear"
-  },
-  {
-    "set_num": "53745-1",
-    "name": "Ahsoka Tano Bag Tag",
-    "year": 2025,
-    "theme_id": 731,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/53745-1.jpg",
-    "theme": "Bag and Luggage Tags",
-    "parent_theme": "Gear"
-  },
-  {
-    "set_num": "53775-1",
-    "name": "Stormtrooper Vacation Bag Tag",
-    "year": 2025,
-    "theme_id": 731,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/53775-1.jpg",
-    "theme": "Bag and Luggage Tags",
-    "parent_theme": "Gear"
-  },
-  {
-    "set_num": "53776-1",
-    "name": "Darth Vader Vacation Bag Tag",
-    "year": 2025,
-    "theme_id": 731,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/53776-1.jpg",
-    "theme": "Bag and Luggage Tags",
     "parent_theme": "Gear"
   },
   {
@@ -235303,10 +235283,10 @@
     "set_num": "43304-1",
     "name": "Blaze's Horse Ranch",
     "year": 2026,
-    "theme_id": 608,
+    "theme_id": 275,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/43304-1.jpg",
-    "theme": "Disney",
+    "theme": "Toy Story",
     "parent_theme": ""
   },
   {
@@ -236904,7 +236884,7 @@
     "name": "AT-RT Attack",
     "year": 2026,
     "theme_id": 158,
-    "num_parts": 296,
+    "num_parts": 297,
     "img_url": "https://cdn.rebrickable.com/media/sets/75444-1.jpg",
     "theme": "Star Wars",
     "parent_theme": ""
@@ -237987,6 +237967,26 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/5010226-1.jpg",
     "theme": "Clocks and Watches",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010230-1",
+    "name": "Jedi Vader Key Light",
+    "year": 2026,
+    "theme_id": 503,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010230-1.jpg",
+    "theme": "Key Chain",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010232-1",
+    "name": "Darth Vader Vacation Key Light",
+    "year": 2026,
+    "theme_id": 503,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010232-1.jpg",
+    "theme": "Key Chain",
     "parent_theme": "Gear"
   },
   {
