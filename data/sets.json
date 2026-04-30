@@ -107064,7 +107064,7 @@
     "name": "Pirate Ship Ambush",
     "year": 2013,
     "theme_id": 566,
-    "num_parts": 756,
+    "num_parts": 757,
     "img_url": "https://cdn.rebrickable.com/media/sets/79008-1.jpg",
     "theme": "The Lord of the Rings",
     "parent_theme": "The Hobbit and Lord of the Rings"
@@ -208471,7 +208471,7 @@
   },
   {
     "set_num": "5008127-1",
-    "name": "Mystery Minifigure Mini Puzzle (Green Edition)",
+    "name": "Mystery Minifigure Mini Puzzle (Animal Edition)",
     "year": 2023,
     "theme_id": 741,
     "num_parts": 0,
@@ -210301,7 +210301,7 @@
   },
   {
     "set_num": "9781797225760-1",
-    "name": "Mystery Minifigure Mini Puzzle (Green Edition) - 12 Pack",
+    "name": "Mystery Minifigure Mini Puzzle (Animal Edition) - 12 Pack",
     "year": 2023,
     "theme_id": 741,
     "num_parts": 0,
@@ -229870,6 +229870,16 @@
     "parent_theme": "Seasonal"
   },
   {
+    "set_num": "5009235-1",
+    "name": "Pickle Dog Plush",
+    "year": 2025,
+    "theme_id": 735,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5009235-1.jpg",
+    "theme": "Plush Toys",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "5009236-1",
     "name": "Churro Plush",
     "year": 2025,
@@ -235450,6 +235460,76 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "53750-1",
+    "name": "Star Wars Darth Vader Black and White Stickers",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53750-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "53751-1",
+    "name": "Star Wars Stormtrooper Black and White Stickers",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53751-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "53752-1",
+    "name": "Star Wars R2-D2 Black and White Stickers",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53752-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "53753-1",
+    "name": "Star Wars Yoda Black and White Stickers",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53753-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "53755-1",
+    "name": "Star Wars The Mandalorian The Mandalorian Black and White Stickers",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53755-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "53756-1",
+    "name": "Star Wars The Mandalorian Grogu Black and White Stickers",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53756-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "53757-1",
+    "name": "Star Wars The Mandalorian Ahsoka Tano Black and White Stickers",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53757-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "53758-1",
     "name": "Star Wars Yoda Stickers",
     "year": 2026,
@@ -235530,6 +235610,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "53772-1",
+    "name": "Star Wars The Mandalorian and Grogu Tab Notebook",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53772-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "53773-1",
     "name": "Star Wars Vacation Tab Dotted Notebook",
     "year": 2026,
@@ -235556,6 +235646,16 @@
     "theme_id": 739,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/53790-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "53802-1",
+    "name": "Star Wars The Mandalorian Boba Fett Black and White Stickers",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53802-1.jpg",
     "theme": "Stationery and Office Supplies",
     "parent_theme": "Gear"
   },
@@ -238750,6 +238850,16 @@
     "parent_theme": "Books"
   },
   {
+    "set_num": "9780241825785-1",
+    "name": "Would You Rather? Easter",
+    "year": 2026,
+    "theme_id": 757,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9780241825785-1.jpg",
+    "theme": "Ideas Books",
+    "parent_theme": "Books"
+  },
+  {
     "set_num": "9780794454395-1",
     "name": "Space Build and Play",
     "year": 2026,
@@ -239048,6 +239158,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/9798225060862-1.jpg",
     "theme": "Activity Books with LEGO Parts",
     "parent_theme": "Books"
+  },
+  {
+    "set_num": "76339-1",
+    "name": "The Fantastic Four H.E.R.B.I.E.",
+    "year": 2027,
+    "theme_id": 696,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/76339-1.jpg",
+    "theme": "Super Heroes Marvel",
+    "parent_theme": ""
   },
   {
     "set_num": "9780241836712-1",
