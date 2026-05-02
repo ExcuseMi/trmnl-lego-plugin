@@ -471,7 +471,7 @@
   optional: true
 - keyname: themes_brickset
   field_type: select
-  name: Filter by Themes – Brickset (172)
+  name: Filter by Themes – Brickset (173)
   description: <strong>Required:</strong> Select at least one theme, OR set a min/max year below. Only applicable when using Brickset as your data source.
   multiple: true
   options:
@@ -592,6 +592,7 @@
   - PreSchool: PreSchool
   - Primo: Primo
   - Prince of Persia: Prince of Persia
+  - Product Collection: Product Collection
   - Promotional: Promotional
   - Quatro: Quatro
   - Racers: Racers
