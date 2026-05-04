@@ -15673,11 +15673,11 @@
     "set_num": "1030-1",
     "name": "TECHNIC I: Simple Machines Set",
     "year": 1985,
-    "theme_id": 1,
+    "theme_id": 529,
     "num_parts": 210,
     "img_url": "https://cdn.rebrickable.com/media/sets/1030-1.jpg",
     "theme": "Technic",
-    "parent_theme": ""
+    "parent_theme": "Educational and Dacta"
   },
   {
     "set_num": "1032-1",
@@ -234400,6 +234400,26 @@
     "parent_theme": "Seasonal"
   },
   {
+    "set_num": "30717-1",
+    "name": "Fun Halloween Skeleton",
+    "year": 2026,
+    "theme_id": 22,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/30717-1.jpg",
+    "theme": "Creator",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "30718-1",
+    "name": "Cataclaws Snow Adventure",
+    "year": 2026,
+    "theme_id": 22,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/30718-1.jpg",
+    "theme": "Creator",
+    "parent_theme": ""
+  },
+  {
     "set_num": "30719-1",
     "name": "Go-Kart Racer",
     "year": 2026,
@@ -237950,12 +237970,32 @@
     "parent_theme": "Advent"
   },
   {
+    "set_num": "75458-1",
+    "name": "Imperial Remnant AT-RT Driver Helmet",
+    "year": 2026,
+    "theme_id": 158,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/75458-1.jpg",
+    "theme": "Star Wars",
+    "parent_theme": ""
+  },
+  {
     "set_num": "75460-1",
     "name": "New Republic X-Wing Starfighter",
     "year": 2026,
     "theme_id": 158,
     "num_parts": 558,
     "img_url": "https://cdn.rebrickable.com/media/sets/75460-1.jpg",
+    "theme": "Star Wars",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "75461-1",
+    "name": "Up-Scaled Darth Vader Minifigure",
+    "year": 2026,
+    "theme_id": 158,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/75461-1.jpg",
     "theme": "Star Wars",
     "parent_theme": ""
   },
@@ -238118,6 +238158,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/76338-1.jpg",
     "theme": "Spider-Man",
     "parent_theme": "Super Heroes Marvel"
+  },
+  {
+    "set_num": "76339-1",
+    "name": "The Fantastic Four H.E.R.B.I.E.",
+    "year": 2026,
+    "theme_id": 696,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/76339-1.jpg",
+    "theme": "Super Heroes Marvel",
+    "parent_theme": ""
   },
   {
     "set_num": "76340-1",
@@ -238786,6 +238836,26 @@
     "theme_id": 503,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/854328-1.jpg",
+    "theme": "Key Chain",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "854329-1",
+    "name": "Dug the Dog Key Chain",
+    "year": 2026,
+    "theme_id": 503,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/854329-1.jpg",
+    "theme": "Key Chain",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "854330-1",
+    "name": "Sunflower Lanyard Girl Key Chain",
+    "year": 2026,
+    "theme_id": 503,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/854330-1.jpg",
     "theme": "Key Chain",
     "parent_theme": "Gear"
   },
@@ -239580,6 +239650,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "6626047-1",
+    "name": "Landspeeder",
+    "year": 2026,
+    "theme_id": 158,
+    "num_parts": 55,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6626047-1.jpg",
+    "theme": "Star Wars",
+    "parent_theme": ""
+  },
+  {
     "set_num": "6626049-1",
     "name": "N-1 Starfighter",
     "year": 2026,
@@ -240298,16 +240378,6 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/9798225060862-1.jpg",
     "theme": "Activity Books with LEGO Parts",
     "parent_theme": "Books"
-  },
-  {
-    "set_num": "76339-1",
-    "name": "The Fantastic Four H.E.R.B.I.E.",
-    "year": 2027,
-    "theme_id": 696,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/76339-1.jpg",
-    "theme": "Super Heroes Marvel",
-    "parent_theme": ""
   },
   {
     "set_num": "9780241836712-1",
@@ -242667,7 +242737,7 @@
   },
   {
     "fig_num": "fig-000305",
-    "name": "Imperial Shadow ARF Trooper",
+    "name": "Shadow ARF Trooper",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000305.jpg",
     "theme": "",
