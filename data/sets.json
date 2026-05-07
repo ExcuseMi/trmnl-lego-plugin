@@ -112993,11 +112993,11 @@
     "set_num": "60057-1",
     "name": "Camper Van",
     "year": 2014,
-    "theme_id": 52,
+    "theme_id": 63,
     "num_parts": 195,
     "img_url": "https://cdn.rebrickable.com/media/sets/60057-1.jpg",
-    "theme": "City",
-    "parent_theme": ""
+    "theme": "Traffic",
+    "parent_theme": "City"
   },
   {
     "set_num": "60058-1",
@@ -151233,11 +151233,11 @@
     "set_num": "60182-1",
     "name": "Pickup & Caravan",
     "year": 2018,
-    "theme_id": 52,
+    "theme_id": 63,
     "num_parts": 344,
     "img_url": "https://cdn.rebrickable.com/media/sets/60182-1.jpg",
-    "theme": "City",
-    "parent_theme": ""
+    "theme": "Traffic",
+    "parent_theme": "City"
   },
   {
     "set_num": "60183-1",
@@ -181003,11 +181003,11 @@
     "set_num": "60283-1",
     "name": "Holiday Camper Van",
     "year": 2021,
-    "theme_id": 52,
+    "theme_id": 63,
     "num_parts": 190,
     "img_url": "https://cdn.rebrickable.com/media/sets/60283-1.jpg",
-    "theme": "City",
-    "parent_theme": ""
+    "theme": "Traffic",
+    "parent_theme": "City"
   },
   {
     "set_num": "60284-1",
@@ -191843,11 +191843,11 @@
     "set_num": "60323-1",
     "name": "Stunt Plane",
     "year": 2022,
-    "theme_id": 52,
+    "theme_id": 53,
     "num_parts": 59,
     "img_url": "https://cdn.rebrickable.com/media/sets/60323-1.jpg",
-    "theme": "City",
-    "parent_theme": ""
+    "theme": "Airport",
+    "parent_theme": "City"
   },
   {
     "set_num": "60324-1",
@@ -195393,11 +195393,11 @@
     "set_num": "952203-1",
     "name": "Sam Speedster's Motorcycle",
     "year": 2022,
-    "theme_id": 52,
+    "theme_id": 63,
     "num_parts": 12,
     "img_url": "https://cdn.rebrickable.com/media/sets/952203-1.jpg",
-    "theme": "City",
-    "parent_theme": ""
+    "theme": "Traffic",
+    "parent_theme": "City"
   },
   {
     "set_num": "952204-1",
@@ -203483,11 +203483,11 @@
     "set_num": "60386-1",
     "name": "Recycling Truck",
     "year": 2023,
-    "theme_id": 52,
+    "theme_id": 63,
     "num_parts": 261,
     "img_url": "https://cdn.rebrickable.com/media/sets/60386-1.jpg",
-    "theme": "City",
-    "parent_theme": ""
+    "theme": "Traffic",
+    "parent_theme": "City"
   },
   {
     "set_num": "60387-1",
@@ -207123,11 +207123,11 @@
     "set_num": "952308-1",
     "name": "Stunt-Quad",
     "year": 2023,
-    "theme_id": 744,
+    "theme_id": 52,
     "num_parts": 27,
     "img_url": "https://cdn.rebrickable.com/media/sets/952308-1.jpg",
-    "theme": "Stuntz",
-    "parent_theme": "City"
+    "theme": "City",
+    "parent_theme": ""
   },
   {
     "set_num": "952309-1",
@@ -213973,11 +213973,11 @@
     "set_num": "60406-1",
     "name": "Race Car and Car Carrier Truck",
     "year": 2024,
-    "theme_id": 52,
+    "theme_id": 63,
     "num_parts": 328,
     "img_url": "https://cdn.rebrickable.com/media/sets/60406-1.jpg",
-    "theme": "City",
-    "parent_theme": ""
+    "theme": "Traffic",
+    "parent_theme": "City"
   },
   {
     "set_num": "60407-1",
@@ -218143,11 +218143,11 @@
     "set_num": "952405-1",
     "name": "Astronaut & Robot",
     "year": 2024,
-    "theme_id": 52,
+    "theme_id": 793,
     "num_parts": 25,
     "img_url": "https://cdn.rebrickable.com/media/sets/952405-1.jpg",
-    "theme": "City",
-    "parent_theme": ""
+    "theme": "Space",
+    "parent_theme": "City"
   },
   {
     "set_num": "952406-1",
@@ -218203,11 +218203,11 @@
     "set_num": "952411-1",
     "name": "Astronaut and Radio Station",
     "year": 2024,
-    "theme_id": 52,
+    "theme_id": 793,
     "num_parts": 23,
     "img_url": "https://cdn.rebrickable.com/media/sets/952411-1.jpg",
-    "theme": "City",
-    "parent_theme": ""
+    "theme": "Space",
+    "parent_theme": "City"
   },
   {
     "set_num": "952412-1",
@@ -225573,11 +225573,11 @@
     "set_num": "60454-1",
     "name": "Holiday Adventure Camper Van",
     "year": 2025,
-    "theme_id": 52,
+    "theme_id": 63,
     "num_parts": 385,
     "img_url": "https://cdn.rebrickable.com/media/sets/60454-1.jpg",
-    "theme": "City",
-    "parent_theme": ""
+    "theme": "Traffic",
+    "parent_theme": "City"
   },
   {
     "set_num": "60455-1",
@@ -233643,11 +233643,11 @@
     "set_num": "10462-1",
     "name": "Frozen Creative Box with Elsa and Olaf",
     "year": 2026,
-    "theme_id": 754,
+    "theme_id": 640,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/10462-1.jpg",
-    "theme": "Disney",
-    "parent_theme": "Duplo"
+    "theme": "Disney Princess",
+    "parent_theme": "Disney"
   },
   {
     "set_num": "10463-1",
@@ -234020,6 +234020,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "11380-1",
+    "name": "Road Bike",
+    "year": 2026,
+    "theme_id": 721,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/11380-1.jpg",
+    "theme": "Icons",
+    "parent_theme": ""
+  },
+  {
     "set_num": "11384-1",
     "name": "Golden Retriever Puppy",
     "year": 2026,
@@ -234160,6 +234170,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "21066-1",
+    "name": "New York City – The Big Apple",
+    "year": 2026,
+    "theme_id": 252,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/21066-1.jpg",
+    "theme": "Architecture",
+    "parent_theme": ""
+  },
+  {
     "set_num": "21365-1",
     "name": "Love Birds",
     "year": 2026,
@@ -234207,6 +234227,16 @@
     "num_parts": 1755,
     "img_url": "https://cdn.rebrickable.com/media/sets/21376-1.jpg",
     "theme": "LEGO Ideas and CUUSOO",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "21582-1",
+    "name": "Chicken Jockey",
+    "year": 2026,
+    "theme_id": 577,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/21582-1.jpg",
+    "theme": "Minecraft",
     "parent_theme": ""
   },
   {
@@ -235063,10 +235093,10 @@
     "set_num": "40926-1",
     "name": "SEGA Genesis Console",
     "year": 2026,
-    "theme_id": 721,
+    "theme_id": 301,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/40926-1.jpg",
-    "theme": "Icons",
+    "theme": "Other",
     "parent_theme": ""
   },
   {
@@ -235280,12 +235310,52 @@
     "parent_theme": ""
   },
   {
-    "set_num": "42233-a",
+    "set_num": "42233-1",
     "name": "Road Roller",
     "year": 2026,
     "theme_id": 1,
     "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/42233-a.jpg",
+    "img_url": "https://cdn.rebrickable.com/media/sets/42233-1.jpg",
+    "theme": "Technic",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "42233-2",
+    "name": "Wheel Loader",
+    "year": 2026,
+    "theme_id": 1,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/42233-2.jpg",
+    "theme": "Technic",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "42233-6",
+    "name": "Excavator",
+    "year": 2026,
+    "theme_id": 1,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/42233-6.jpg",
+    "theme": "Technic",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "42233-7",
+    "name": "Mobile Crane",
+    "year": 2026,
+    "theme_id": 1,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/42233-7.jpg",
+    "theme": "Technic",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "42233-8",
+    "name": "Bulldozer",
+    "year": 2026,
+    "theme_id": 1,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/42233-8.jpg",
     "theme": "Technic",
     "parent_theme": ""
   },
@@ -235300,22 +235370,12 @@
     "parent_theme": ""
   },
   {
-    "set_num": "42233-c",
-    "name": "Bulldozer",
+    "set_num": "42233-e",
+    "name": "Wrecking Ball Crane",
     "year": 2026,
     "theme_id": 1,
     "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/42233-c.jpg",
-    "theme": "Technic",
-    "parent_theme": ""
-  },
-  {
-    "set_num": "42233-d",
-    "name": "Excavator",
-    "year": 2026,
-    "theme_id": 1,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/42233-d.jpg",
+    "img_url": "https://cdn.rebrickable.com/media/sets/42233-e.jpg",
     "theme": "Technic",
     "parent_theme": ""
   },
@@ -235326,26 +235386,6 @@
     "theme_id": 1,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/42233-f.jpg",
-    "theme": "Technic",
-    "parent_theme": ""
-  },
-  {
-    "set_num": "42233-g",
-    "name": "Mobile Crane",
-    "year": 2026,
-    "theme_id": 1,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/42233-g.jpg",
-    "theme": "Technic",
-    "parent_theme": ""
-  },
-  {
-    "set_num": "42233-h",
-    "name": "Wheel Loader",
-    "year": 2026,
-    "theme_id": 1,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/42233-h.jpg",
     "theme": "Technic",
     "parent_theme": ""
   },
@@ -235628,6 +235668,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/42697-1.jpg",
     "theme": "Friends",
     "parent_theme": ""
+  },
+  {
+    "set_num": "42698-1",
+    "name": "Friends Advent Calendar 2026",
+    "year": 2026,
+    "theme_id": 216,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/42698-1.jpg",
+    "theme": "Friends",
+    "parent_theme": "Advent"
   },
   {
     "set_num": "42699-1",
@@ -236053,11 +236103,11 @@
     "set_num": "43301-1",
     "name": "Toy Story Slinky Dog Bookends",
     "year": 2026,
-    "theme_id": 608,
+    "theme_id": 275,
     "num_parts": 1311,
     "img_url": "https://cdn.rebrickable.com/media/sets/43301-1.jpg",
-    "theme": "Disney",
-    "parent_theme": ""
+    "theme": "Toy Story",
+    "parent_theme": "Disney"
   },
   {
     "set_num": "43303-1",
@@ -236093,21 +236143,21 @@
     "set_num": "43306-1",
     "name": "Lotso",
     "year": 2026,
-    "theme_id": 608,
+    "theme_id": 275,
     "num_parts": 570,
     "img_url": "https://cdn.rebrickable.com/media/sets/43306-1.jpg",
-    "theme": "Disney",
-    "parent_theme": ""
+    "theme": "Toy Story",
+    "parent_theme": "Disney"
   },
   {
     "set_num": "43307-1",
     "name": "Alien with Pizza Planet Rocket Ride",
     "year": 2026,
-    "theme_id": 608,
+    "theme_id": 275,
     "num_parts": 714,
     "img_url": "https://cdn.rebrickable.com/media/sets/43307-1.jpg",
-    "theme": "Disney",
-    "parent_theme": ""
+    "theme": "Toy Story",
+    "parent_theme": "Disney"
   },
   {
     "set_num": "45200-1",
@@ -236833,41 +236883,41 @@
     "set_num": "60480-1",
     "name": "Yellow Backhoe Loader",
     "year": 2026,
-    "theme_id": 52,
+    "theme_id": 56,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/60480-1.jpg",
-    "theme": "City",
-    "parent_theme": ""
+    "theme": "Construction",
+    "parent_theme": "City"
   },
   {
     "set_num": "60481-1",
     "name": "Rides – Police Truck",
     "year": 2026,
-    "theme_id": 52,
+    "theme_id": 61,
     "num_parts": 78,
     "img_url": "https://cdn.rebrickable.com/media/sets/60481-1.jpg",
-    "theme": "City",
-    "parent_theme": ""
+    "theme": "Police",
+    "parent_theme": "City"
   },
   {
     "set_num": "60482-1",
     "name": "Rides – Fire Truck",
     "year": 2026,
-    "theme_id": 52,
+    "theme_id": 58,
     "num_parts": 67,
     "img_url": "https://cdn.rebrickable.com/media/sets/60482-1.jpg",
-    "theme": "City",
-    "parent_theme": ""
+    "theme": "Fire",
+    "parent_theme": "City"
   },
   {
     "set_num": "60483-1",
     "name": "Rides – Construction Loader",
     "year": 2026,
-    "theme_id": 52,
+    "theme_id": 56,
     "num_parts": 61,
     "img_url": "https://cdn.rebrickable.com/media/sets/60483-1.jpg",
-    "theme": "City",
-    "parent_theme": ""
+    "theme": "Construction",
+    "parent_theme": "City"
   },
   {
     "set_num": "60484-1",
@@ -236883,41 +236933,41 @@
     "set_num": "60485-1",
     "name": "Hot Rod",
     "year": 2026,
-    "theme_id": 52,
+    "theme_id": 63,
     "num_parts": 81,
     "img_url": "https://cdn.rebrickable.com/media/sets/60485-1.jpg",
-    "theme": "City",
-    "parent_theme": ""
+    "theme": "Traffic",
+    "parent_theme": "City"
   },
   {
     "set_num": "60486-1",
     "name": "EV Supercar",
     "year": 2026,
-    "theme_id": 52,
+    "theme_id": 63,
     "num_parts": 109,
     "img_url": "https://cdn.rebrickable.com/media/sets/60486-1.jpg",
-    "theme": "City",
-    "parent_theme": ""
+    "theme": "Traffic",
+    "parent_theme": "City"
   },
   {
     "set_num": "60487-1",
     "name": "Yellow Taxi",
     "year": 2026,
-    "theme_id": 52,
+    "theme_id": 63,
     "num_parts": 122,
     "img_url": "https://cdn.rebrickable.com/media/sets/60487-1.jpg",
-    "theme": "City",
-    "parent_theme": ""
+    "theme": "Traffic",
+    "parent_theme": "City"
   },
   {
     "set_num": "60488-1",
     "name": "Fries Food Truck",
     "year": 2026,
-    "theme_id": 52,
+    "theme_id": 63,
     "num_parts": 216,
     "img_url": "https://cdn.rebrickable.com/media/sets/60488-1.jpg",
-    "theme": "City",
-    "parent_theme": ""
+    "theme": "Traffic",
+    "parent_theme": "City"
   },
   {
     "set_num": "60489-1",
@@ -236933,31 +236983,31 @@
     "set_num": "60490-1",
     "name": "Snowplow",
     "year": 2026,
-    "theme_id": 52,
+    "theme_id": 63,
     "num_parts": 263,
     "img_url": "https://cdn.rebrickable.com/media/sets/60490-1.jpg",
-    "theme": "City",
-    "parent_theme": ""
+    "theme": "Traffic",
+    "parent_theme": "City"
   },
   {
     "set_num": "60491-1",
     "name": "Motorcycle Transporter",
     "year": 2026,
-    "theme_id": 52,
+    "theme_id": 63,
     "num_parts": 88,
     "img_url": "https://cdn.rebrickable.com/media/sets/60491-1.jpg",
-    "theme": "City",
-    "parent_theme": ""
+    "theme": "Traffic",
+    "parent_theme": "City"
   },
   {
     "set_num": "60492-1",
     "name": "Passenger Jet",
     "year": 2026,
-    "theme_id": 52,
+    "theme_id": 53,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/60492-1.jpg",
-    "theme": "City",
-    "parent_theme": ""
+    "theme": "Airport",
+    "parent_theme": "City"
   },
   {
     "set_num": "60493-1",
@@ -236973,21 +237023,21 @@
     "set_num": "60494-1",
     "name": "Dump Truck & Front End Loader",
     "year": 2026,
-    "theme_id": 52,
+    "theme_id": 56,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/60494-1.jpg",
-    "theme": "City",
-    "parent_theme": ""
+    "theme": "Construction",
+    "parent_theme": "City"
   },
   {
     "set_num": "60495-1",
     "name": "Recycling Truck",
     "year": 2026,
-    "theme_id": 52,
+    "theme_id": 63,
     "num_parts": 434,
     "img_url": "https://cdn.rebrickable.com/media/sets/60495-1.jpg",
-    "theme": "City",
-    "parent_theme": ""
+    "theme": "Traffic",
+    "parent_theme": "City"
   },
   {
     "set_num": "60496-1",
@@ -237013,31 +237063,31 @@
     "set_num": "60498-1",
     "name": "Tractor",
     "year": 2026,
-    "theme_id": 52,
+    "theme_id": 57,
     "num_parts": 204,
     "img_url": "https://cdn.rebrickable.com/media/sets/60498-1.jpg",
-    "theme": "City",
-    "parent_theme": ""
+    "theme": "Farm",
+    "parent_theme": "City"
   },
   {
     "set_num": "60499-1",
     "name": "Airport Fire Truck",
     "year": 2026,
-    "theme_id": 52,
+    "theme_id": 53,
     "num_parts": 691,
     "img_url": "https://cdn.rebrickable.com/media/sets/60499-1.jpg",
-    "theme": "City",
-    "parent_theme": ""
+    "theme": "Airport",
+    "parent_theme": "City"
   },
   {
     "set_num": "60500-1",
     "name": "The LEGO Van",
     "year": 2026,
-    "theme_id": 52,
+    "theme_id": 63,
     "num_parts": 276,
     "img_url": "https://cdn.rebrickable.com/media/sets/60500-1.jpg",
-    "theme": "City",
-    "parent_theme": ""
+    "theme": "Traffic",
+    "parent_theme": "City"
   },
   {
     "set_num": "60501-1",
@@ -237113,11 +237163,11 @@
     "set_num": "60509-1",
     "name": "Harbor Freight Train with Crane & Truck",
     "year": 2026,
-    "theme_id": 52,
+    "theme_id": 66,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/60509-1.jpg",
-    "theme": "City",
-    "parent_theme": ""
+    "theme": "Trains",
+    "parent_theme": "City"
   },
   {
     "set_num": "60510-1",
@@ -237133,21 +237183,21 @@
     "set_num": "60511-1",
     "name": "Vintage Steam Train",
     "year": 2026,
-    "theme_id": 52,
+    "theme_id": 66,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/60511-1.jpg",
-    "theme": "City",
-    "parent_theme": ""
+    "theme": "Trains",
+    "parent_theme": "City"
   },
   {
     "set_num": "60512-1",
     "name": "Mountain Bike Adventure Van",
     "year": 2026,
-    "theme_id": 52,
+    "theme_id": 64,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/60512-1.jpg",
-    "theme": "City",
-    "parent_theme": ""
+    "theme": "Off-Road",
+    "parent_theme": "City"
   },
   {
     "set_num": "66813-1",
@@ -239234,7 +239284,7 @@
     "name": "Dolphin",
     "year": 2026,
     "theme_id": 598,
-    "num_parts": 0,
+    "num_parts": 153,
     "img_url": "https://cdn.rebrickable.com/media/sets/5010075-1.jpg",
     "theme": "Promotional",
     "parent_theme": ""
@@ -239338,6 +239388,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/5010232-1.jpg",
     "theme": "Key Chain",
     "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010305-1",
+    "name": "The Mandalorian and Grogu",
+    "year": 2026,
+    "theme_id": 158,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010305-1.jpg",
+    "theme": "Star Wars",
+    "parent_theme": ""
   },
   {
     "set_num": "5010310-1",
@@ -239760,6 +239820,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "6626055-1",
+    "name": "Monster Truck",
+    "year": 2026,
+    "theme_id": 34,
+    "num_parts": 49,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6626055-1.jpg",
+    "theme": "Make & Create",
+    "parent_theme": ""
+  },
+  {
     "set_num": "6626057-1",
     "name": "Bush Plane",
     "year": 2026,
@@ -239800,6 +239870,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "6638187-1",
+    "name": "Trophy",
+    "year": 2026,
+    "theme_id": 408,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6638187-1.jpg",
+    "theme": "LEGO Brand Store",
+    "parent_theme": ""
+  },
+  {
     "set_num": "6641299-1",
     "name": "LEGO Store Grand Opening",
     "year": 2026,
@@ -239820,6 +239900,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "6643541-1",
+    "name": "Grogu in Pram",
+    "year": 2026,
+    "theme_id": 158,
+    "num_parts": 85,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6643541-1.jpg",
+    "theme": "Star Wars",
+    "parent_theme": ""
+  },
+  {
     "set_num": "6650001-1",
     "name": "Smart Brick Star Wars Sticker",
     "year": 2026,
@@ -239827,6 +239917,16 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/6650001-1.jpg",
     "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6663742-1",
+    "name": "Fire Truck",
+    "year": 2026,
+    "theme_id": 52,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6663742-1.jpg",
+    "theme": "City",
     "parent_theme": ""
   },
   {
@@ -240458,16 +240558,6 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/9798225060862-1.jpg",
     "theme": "Activity Books with LEGO Parts",
     "parent_theme": "Books"
-  },
-  {
-    "set_num": "6643541-1",
-    "name": "Grogu in Pram",
-    "year": 2027,
-    "theme_id": 158,
-    "num_parts": 85,
-    "img_url": "https://cdn.rebrickable.com/media/sets/6643541-1.jpg",
-    "theme": "Star Wars",
-    "parent_theme": ""
   },
   {
     "set_num": "9780241836712-1",
