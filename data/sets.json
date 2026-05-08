@@ -22914,7 +22914,7 @@
     "name": "Build-N-Store Chest",
     "year": 1990,
     "theme_id": 467,
-    "num_parts": 695,
+    "num_parts": 699,
     "img_url": "https://cdn.rebrickable.com/media/sets/565-2.jpg",
     "theme": "Basic",
     "parent_theme": "Universal Building Set"
@@ -229404,7 +229404,7 @@
     "name": "The Thieves of Tortuga",
     "year": 2025,
     "theme_id": 719,
-    "num_parts": 4005,
+    "num_parts": 4002,
     "img_url": "https://cdn.rebrickable.com/media/sets/910053-1.jpg",
     "theme": "BrickLink Designer Program",
     "parent_theme": ""
@@ -230894,7 +230894,7 @@
     "name": "Star Wars: Character Encyclopedia: Updated Edition",
     "year": 2025,
     "theme_id": 758,
-    "num_parts": 4,
+    "num_parts": 8,
     "img_url": "https://cdn.rebrickable.com/media/sets/5009818-1.jpg",
     "theme": "Non-fiction Books",
     "parent_theme": "Books"
@@ -237141,7 +237141,7 @@
   },
   {
     "set_num": "60506-1",
-    "name": "Classic Beach Streetcar",
+    "name": "Classic Beach Tram",
     "year": 2026,
     "theme_id": 52,
     "num_parts": 0,
@@ -239823,10 +239823,10 @@
     "set_num": "6626055-1",
     "name": "Monster Truck",
     "year": 2026,
-    "theme_id": 34,
+    "theme_id": 408,
     "num_parts": 49,
     "img_url": "https://cdn.rebrickable.com/media/sets/6626055-1.jpg",
-    "theme": "Make & Create",
+    "theme": "LEGO Brand Store",
     "parent_theme": ""
   },
   {
@@ -239923,11 +239923,11 @@
     "set_num": "6663742-1",
     "name": "Fire Truck",
     "year": 2026,
-    "theme_id": 52,
+    "theme_id": 58,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/6663742-1.jpg",
-    "theme": "City",
-    "parent_theme": ""
+    "theme": "Fire",
+    "parent_theme": "City"
   },
   {
     "set_num": "40350800-1",
