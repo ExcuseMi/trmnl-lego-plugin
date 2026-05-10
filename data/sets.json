@@ -40624,7 +40624,7 @@
     "name": "Aeroplane",
     "year": 1999,
     "theme_id": 480,
-    "num_parts": 23,
+    "num_parts": 24,
     "img_url": "https://cdn.rebrickable.com/media/sets/3505-1.jpg",
     "theme": "Znap",
     "parent_theme": ""
@@ -235360,6 +235360,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "42233-10",
+    "name": "Mighty Machines Series 1 - Sealed Box",
+    "year": 2026,
+    "theme_id": 1,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/42233-10.jpg",
+    "theme": "Technic",
+    "parent_theme": ""
+  },
+  {
     "set_num": "42233-b",
     "name": "Dump Truck",
     "year": 2026,
@@ -238814,7 +238824,7 @@
     "name": "Jurassic Park Jeep Wrangler",
     "year": 2026,
     "theme_id": 602,
-    "num_parts": 0,
+    "num_parts": 1925,
     "img_url": "https://cdn.rebrickable.com/media/sets/77984-1.jpg",
     "theme": "Jurassic World",
     "parent_theme": ""
@@ -238928,6 +238938,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/562601-1.jpg",
     "theme": "Friends",
     "parent_theme": ""
+  },
+  {
+    "set_num": "577337-1",
+    "name": "Hopsy Plush",
+    "year": 2026,
+    "theme_id": 735,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/577337-1.jpg",
+    "theme": "Plush Toys",
+    "parent_theme": "Gear"
   },
   {
     "set_num": "713588-1",
@@ -351309,7 +351329,7 @@
   },
   {
     "fig_num": "fig-016173",
-    "name": "Blue Torso, White Torso, Red Speech Bubble",
+    "name": "Blue Torso, White Legs, Red Speech Bubble",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-016173.jpg",
     "theme": "",
