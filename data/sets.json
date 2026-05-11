@@ -176600,6 +176600,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "5060976588907-1",
+    "name": "Limited Edition LEGO Hong Kong 2020 Coin",
+    "year": 2020,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5060976588907-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
     "set_num": "5700067848908-1",
     "name": "Friends Socks",
     "year": 2020,
@@ -183658,6 +183668,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/97249-1.jpg",
     "theme": "Bags, Totes, & Luggage",
     "parent_theme": "Gear"
+  },
+  {
+    "set_num": "97751-1",
+    "name": "Ninjago 10 Coin",
+    "year": 2021,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/97751-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
   },
   {
     "set_num": "97933-1",
@@ -234963,10 +234983,10 @@
     "set_num": "40906-1",
     "name": "Restaurants of the World: Japan",
     "year": 2026,
-    "theme_id": 721,
+    "theme_id": 301,
     "num_parts": 289,
     "img_url": "https://cdn.rebrickable.com/media/sets/40906-1.jpg",
-    "theme": "Icons",
+    "theme": "Other",
     "parent_theme": ""
   },
   {
@@ -238920,6 +238940,26 @@
     "parent_theme": ""
   },
   {
+    "set_num": "113555-1",
+    "name": "Botanicals Shopper Tote Bag",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/113555-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "113557-1",
+    "name": "Grogu Collectible Coin",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/113557-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
     "set_num": "122509-1",
     "name": "Guard with Incubator",
     "year": 2026,
@@ -239690,6 +239730,26 @@
     "parent_theme": ""
   },
   {
+    "set_num": "6614187-1",
+    "name": "Fries Stand",
+    "year": 2026,
+    "theme_id": 408,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6614187-1.jpg",
+    "theme": "LEGO Brand Store",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6614204-1",
+    "name": "Dragon of Life",
+    "year": 2026,
+    "theme_id": 435,
+    "num_parts": 40,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6614204-1.jpg",
+    "theme": "Ninjago",
+    "parent_theme": ""
+  },
+  {
     "set_num": "6614211-1",
     "name": "Treat Stand",
     "year": 2026,
@@ -239927,6 +239987,36 @@
     "num_parts": 85,
     "img_url": "https://cdn.rebrickable.com/media/sets/6643541-1.jpg",
     "theme": "Star Wars",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6646264-1",
+    "name": "I [Heart] LEGO Store Leeds Tile",
+    "year": 2026,
+    "theme_id": 408,
+    "num_parts": 1,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6646264-1.jpg",
+    "theme": "LEGO Brand Store",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6646265-1",
+    "name": "I [Heart] LEGO Store Oxford Tile",
+    "year": 2026,
+    "theme_id": 408,
+    "num_parts": 1,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6646265-1.jpg",
+    "theme": "LEGO Brand Store",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6648385-1",
+    "name": "I [Heart] LEGO Store Frankfurt Main-Taunus-Zentrum Tile",
+    "year": 2026,
+    "theme_id": 408,
+    "num_parts": 1,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6648385-1.jpg",
+    "theme": "LEGO Brand Store",
     "parent_theme": ""
   },
   {
