@@ -197650,6 +197650,16 @@
     "parent_theme": "Seasonal"
   },
   {
+    "set_num": "6446842-1",
+    "name": "I [Heart] LEGO Store Prague Tile",
+    "year": 2022,
+    "theme_id": 408,
+    "num_parts": 1,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6446842-1.jpg",
+    "theme": "LEGO Brand Store",
+    "parent_theme": ""
+  },
+  {
     "set_num": "6451545-1",
     "name": "Sewing Machine",
     "year": 2022,
@@ -209180,6 +209190,16 @@
     "parent_theme": "Seasonal"
   },
   {
+    "set_num": "6501119-1",
+    "name": "I [Heart] LEGO Store Manchester Tile",
+    "year": 2023,
+    "theme_id": 408,
+    "num_parts": 1,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6501119-1.jpg",
+    "theme": "LEGO Brand Store",
+    "parent_theme": ""
+  },
+  {
     "set_num": "34607701-1",
     "name": "Ninjago: Time to Play! Master Wu",
     "year": 2023,
@@ -219667,6 +219687,16 @@
     "num_parts": 61,
     "img_url": "https://cdn.rebrickable.com/media/sets/6508944-1.jpg",
     "theme": "Promotional",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6509416-1",
+    "name": "LEGO Delivery Truck",
+    "year": 2024,
+    "theme_id": 408,
+    "num_parts": 100,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6509416-1.jpg",
+    "theme": "LEGO Brand Store",
     "parent_theme": ""
   },
   {
@@ -232120,6 +232150,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "6571742-1",
+    "name": "I [Heart] LEGO Store Flatiron Crossing, CO Tile",
+    "year": 2025,
+    "theme_id": 408,
+    "num_parts": 1,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6571742-1.jpg",
+    "theme": "LEGO Brand Store",
+    "parent_theme": ""
+  },
+  {
     "set_num": "6572607-1",
     "name": "Easter Stickers",
     "year": 2025,
@@ -232180,6 +232220,16 @@
     "parent_theme": "Seasonal"
   },
   {
+    "set_num": "6576785-1",
+    "name": "Merci! [Heart] LEGO STORE Tile",
+    "year": 2025,
+    "theme_id": 408,
+    "num_parts": 1,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6576785-1.jpg",
+    "theme": "LEGO Brand Store",
+    "parent_theme": ""
+  },
+  {
     "set_num": "6577643-1",
     "name": "New Store Grand Opening",
     "year": 2025,
@@ -232187,6 +232237,36 @@
     "num_parts": 158,
     "img_url": "https://cdn.rebrickable.com/media/sets/6577643-1.jpg",
     "theme": "LEGO Brand Store",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6577679-1",
+    "name": "2025 Formula 1 British Grand Prix Tile",
+    "year": 2025,
+    "theme_id": 598,
+    "num_parts": 1,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6577679-1.jpg",
+    "theme": "Promotional",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6577685-1",
+    "name": "2025 Formula 1 Dutch Grand Prix Tile",
+    "year": 2025,
+    "theme_id": 598,
+    "num_parts": 1,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6577685-1.jpg",
+    "theme": "Promotional",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6577690-1",
+    "name": "2025 Formula 1 Spanish Grand Prix Tile",
+    "year": 2025,
+    "theme_id": 598,
+    "num_parts": 1,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6577690-1.jpg",
+    "theme": "Promotional",
     "parent_theme": ""
   },
   {
@@ -232280,6 +232360,16 @@
     "parent_theme": "Seasonal"
   },
   {
+    "set_num": "6586973-1",
+    "name": "I [Heart] LEGO Store Kraków Tile",
+    "year": 2025,
+    "theme_id": 408,
+    "num_parts": 1,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6586973-1.jpg",
+    "theme": "LEGO Brand Store",
+    "parent_theme": ""
+  },
+  {
     "set_num": "6586987-1",
     "name": "Kraków Grand Opening",
     "year": 2025,
@@ -232360,6 +232450,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "6594978-1",
+    "name": "I [Heart] LEGO Store Berlin Tile",
+    "year": 2025,
+    "theme_id": 408,
+    "num_parts": 1,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6594978-1.jpg",
+    "theme": "LEGO Brand Store",
+    "parent_theme": ""
+  },
+  {
     "set_num": "6595892-1",
     "name": "Creative Wildlife Dog and Cat",
     "year": 2025,
@@ -232387,6 +232487,36 @@
     "num_parts": 1,
     "img_url": "https://cdn.rebrickable.com/media/sets/6596089-1.jpg",
     "theme": "LEGO Brand Store",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6597569-1",
+    "name": "The Inside Tour Brick",
+    "year": 2025,
+    "theme_id": 599,
+    "num_parts": 1,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6597569-1.jpg",
+    "theme": "LEGO Exclusive",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6597570-1",
+    "name": "2025 Formula 1 Austrian Grand Prix Tile",
+    "year": 2025,
+    "theme_id": 598,
+    "num_parts": 1,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6597570-1.jpg",
+    "theme": "Promotional",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6597571-1",
+    "name": "2025 Formula 1 Belgian Grand Prix Tile",
+    "year": 2025,
+    "theme_id": 598,
+    "num_parts": 1,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6597571-1.jpg",
+    "theme": "Promotional",
     "parent_theme": ""
   },
   {
@@ -232480,6 +232610,16 @@
     "parent_theme": "Seasonal"
   },
   {
+    "set_num": "6615072-1",
+    "name": "I [Heart] LEGO Store Paris La Défense Tile",
+    "year": 2025,
+    "theme_id": 408,
+    "num_parts": 1,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6615072-1.jpg",
+    "theme": "LEGO Brand Store",
+    "parent_theme": ""
+  },
+  {
     "set_num": "6615760-1",
     "name": "Trench Run",
     "year": 2025,
@@ -232487,6 +232627,16 @@
     "num_parts": 139,
     "img_url": "https://cdn.rebrickable.com/media/sets/6615760-1.jpg",
     "theme": "Promotional",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6616754-1",
+    "name": "I [Heart] LEGO Store Craiova Tile",
+    "year": 2025,
+    "theme_id": 408,
+    "num_parts": 1,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6616754-1.jpg",
+    "theme": "LEGO Brand Store",
     "parent_theme": ""
   },
   {
@@ -238844,7 +238994,7 @@
     "name": "Jurassic Park Jeep Wrangler",
     "year": 2026,
     "theme_id": 602,
-    "num_parts": 1925,
+    "num_parts": 1926,
     "img_url": "https://cdn.rebrickable.com/media/sets/77984-1.jpg",
     "theme": "Jurassic World",
     "parent_theme": ""
@@ -239850,6 +240000,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "6620379-1",
+    "name": "Red Panda",
+    "year": 2026,
+    "theme_id": 749,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6620379-1.jpg",
+    "theme": "Dreamzzz",
+    "parent_theme": ""
+  },
+  {
     "set_num": "6623266-1",
     "name": "Series 29 - Sealed Box",
     "year": 2026,
@@ -239964,7 +240124,7 @@
     "name": "LEGO Store Grand Opening",
     "year": 2026,
     "theme_id": 408,
-    "num_parts": 157,
+    "num_parts": 158,
     "img_url": "https://cdn.rebrickable.com/media/sets/6641299-1.jpg",
     "theme": "LEGO Brand Store",
     "parent_theme": ""
@@ -240006,6 +240166,26 @@
     "theme_id": 408,
     "num_parts": 1,
     "img_url": "https://cdn.rebrickable.com/media/sets/6646265-1.jpg",
+    "theme": "LEGO Brand Store",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6646266-1",
+    "name": "I [Heart] LEGO Store Rotterdam Tile",
+    "year": 2026,
+    "theme_id": 408,
+    "num_parts": 1,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6646266-1.jpg",
+    "theme": "LEGO Brand Store",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6646267-1",
+    "name": "I [Heart] LEGO Store Sheffield Tile",
+    "year": 2026,
+    "theme_id": 408,
+    "num_parts": 1,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6646267-1.jpg",
     "theme": "LEGO Brand Store",
     "parent_theme": ""
   },
