@@ -102810,6 +102810,16 @@
     "parent_theme": "Books"
   },
   {
+    "set_num": "9783845100692-1",
+    "name": "City: Einsatz bei der Polizei",
+    "year": 2012,
+    "theme_id": 759,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9783845100692-1.jpg",
+    "theme": "Story Books",
+    "parent_theme": "Books"
+  },
+  {
     "set_num": "9664-1",
     "name": "NATURE'S FURY Challenge Kit",
     "year": 2013,
@@ -232490,6 +232500,26 @@
     "parent_theme": ""
   },
   {
+    "set_num": "6597567-1",
+    "name": "I [Heart] LEGO Store Alabang Town Center Tile",
+    "year": 2025,
+    "theme_id": 408,
+    "num_parts": 1,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6597567-1.jpg",
+    "theme": "LEGO Brand Store",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6597568-1",
+    "name": "The Inside Tour Torso",
+    "year": 2025,
+    "theme_id": 599,
+    "num_parts": 1,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6597568-1.jpg",
+    "theme": "LEGO Exclusive",
+    "parent_theme": ""
+  },
+  {
     "set_num": "6597569-1",
     "name": "The Inside Tour Brick",
     "year": 2025,
@@ -234176,6 +234206,16 @@
     "theme_id": 721,
     "num_parts": 1060,
     "img_url": "https://cdn.rebrickable.com/media/sets/11376-1.jpg",
+    "theme": "Icons",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "11377-1",
+    "name": "The Lord of the Rings: Minas Tirith",
+    "year": 2026,
+    "theme_id": 721,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/11377-1.jpg",
     "theme": "Icons",
     "parent_theme": ""
   },
@@ -239106,6 +239146,36 @@
     "theme_id": 501,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/113557-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "115512-1",
+    "name": "Chewbacca Collectable Coin",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/115512-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "115513-1",
+    "name": "Darth Vader Collectable Coin",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/115513-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "115514-1",
+    "name": "Luke Skywalker Collectable Coin",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/115514-1.jpg",
     "theme": "Gear",
     "parent_theme": ""
   },
