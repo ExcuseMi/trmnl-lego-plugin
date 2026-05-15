@@ -25390,6 +25390,16 @@
     "parent_theme": "Universal Building Set"
   },
   {
+    "set_num": "1671-1",
+    "name": "System Basic Trail Box",
+    "year": 1992,
+    "theme_id": 467,
+    "num_parts": 31,
+    "img_url": "https://cdn.rebrickable.com/media/sets/1671-1.jpg",
+    "theme": "Basic",
+    "parent_theme": "Universal Building Set"
+  },
+  {
     "set_num": "1693-1",
     "name": "Turbo Force",
     "year": 1992,
@@ -220140,6 +220150,16 @@
     "parent_theme": "Seasonal"
   },
   {
+    "set_num": "6565008-1",
+    "name": "Sydney Anniversary Minifigures",
+    "year": 2024,
+    "theme_id": 408,
+    "num_parts": 8,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6565008-1.jpg",
+    "theme": "LEGO Brand Store",
+    "parent_theme": ""
+  },
+  {
     "set_num": "6566834-1",
     "name": "Gondola",
     "year": 2024,
@@ -234424,7 +234444,7 @@
     "name": "Peanuts: Snoopy's Doghouse",
     "year": 2026,
     "theme_id": 576,
-    "num_parts": 0,
+    "num_parts": 964,
     "img_url": "https://cdn.rebrickable.com/media/sets/21368-1.jpg",
     "theme": "LEGO Ideas and CUUSOO",
     "parent_theme": ""
@@ -235157,6 +235177,16 @@
     "num_parts": 312,
     "img_url": "https://cdn.rebrickable.com/media/sets/40892-1.jpg",
     "theme": "Pokémon",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "40893-1",
+    "name": "Grond",
+    "year": 2026,
+    "theme_id": 721,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40893-1.jpg",
+    "theme": "Icons",
     "parent_theme": ""
   },
   {
@@ -239380,6 +239410,56 @@
     "parent_theme": ""
   },
   {
+    "set_num": "910064-1",
+    "name": "Dustmark Keep",
+    "year": 2026,
+    "theme_id": 719,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/910064-1.jpg",
+    "theme": "BrickLink Designer Program",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "910065-1",
+    "name": "Coconut Cape",
+    "year": 2026,
+    "theme_id": 719,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/910065-1.jpg",
+    "theme": "BrickLink Designer Program",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "910066-1",
+    "name": "Brick Railroad Locomotive",
+    "year": 2026,
+    "theme_id": 719,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/910066-1.jpg",
+    "theme": "BrickLink Designer Program",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "910067-1",
+    "name": "Hot Air Balloon",
+    "year": 2026,
+    "theme_id": 719,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/910067-1.jpg",
+    "theme": "BrickLink Designer Program",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "910068-1",
+    "name": "University of Science",
+    "year": 2026,
+    "theme_id": 719,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/910068-1.jpg",
+    "theme": "BrickLink Designer Program",
+    "parent_theme": ""
+  },
+  {
     "set_num": "951309-1",
     "name": "Construction Worker",
     "year": 2026,
@@ -239944,18 +240024,8 @@
     "name": "Father's Day Coffee Cup",
     "year": 2026,
     "theme_id": 408,
-    "num_parts": 135,
+    "num_parts": 159,
     "img_url": "https://cdn.rebrickable.com/media/sets/6611596-1.jpg",
-    "theme": "LEGO Brand Store",
-    "parent_theme": ""
-  },
-  {
-    "set_num": "6614187-1",
-    "name": "Fries Stand",
-    "year": 2026,
-    "theme_id": 408,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/6614187-1.jpg",
     "theme": "LEGO Brand Store",
     "parent_theme": ""
   },
@@ -239967,6 +240037,16 @@
     "num_parts": 40,
     "img_url": "https://cdn.rebrickable.com/media/sets/6614204-1.jpg",
     "theme": "Ninjago",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6614210-1",
+    "name": "Fries Stand",
+    "year": 2026,
+    "theme_id": 408,
+    "num_parts": 38,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6614210-1.jpg",
+    "theme": "LEGO Brand Store",
     "parent_theme": ""
   },
   {
@@ -240220,6 +240300,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "6644859-1",
+    "name": "Reindeer",
+    "year": 2026,
+    "theme_id": 227,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6644859-1.jpg",
+    "theme": "Christmas",
+    "parent_theme": "Seasonal"
+  },
+  {
     "set_num": "6646264-1",
     "name": "I [Heart] LEGO Store Leeds Tile",
     "year": 2026,
@@ -240257,6 +240347,16 @@
     "num_parts": 1,
     "img_url": "https://cdn.rebrickable.com/media/sets/6646267-1.jpg",
     "theme": "LEGO Brand Store",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6646282-1",
+    "name": "Insiders Sports Stadium",
+    "year": 2026,
+    "theme_id": 598,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6646282-1.jpg",
+    "theme": "Promotional",
     "parent_theme": ""
   },
   {
