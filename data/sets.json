@@ -117780,6 +117780,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "802215201513-1",
+    "name": "The LEGO Movie (Original Motion Picture Soundtrack) (All Formats)",
+    "year": 2014,
+    "theme_id": 730,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/802215201513-1.jpg",
+    "theme": "Audio and Visual Media",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "883929399031-1",
     "name": "Ninjago and Hero Factory Collection (DVD)",
     "year": 2014,
@@ -166330,6 +166340,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "6294512-1",
+    "name": "Shanghai Castle",
+    "year": 2019,
+    "theme_id": 408,
+    "num_parts": 144,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6294512-1.jpg",
+    "theme": "LEGO Brand Store",
+    "parent_theme": ""
+  },
+  {
     "set_num": "6302766-1",
     "name": "Cologne Brickheadz",
     "year": 2019,
@@ -166797,6 +166817,16 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/1000739976-1.jpg",
     "theme": "Video Games and Accessories",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "794043199738-1",
+    "name": "The LEGO Movie 2: The Second Part (Original Motion Picture Soundtrack) (All Formats)",
+    "year": 2019,
+    "theme_id": 730,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/794043199738-1.jpg",
+    "theme": "Audio and Visual Media",
     "parent_theme": "Gear"
   },
   {
@@ -228300,6 +228330,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "111638-1",
+    "name": "LEGO Certified Store (Singapore) SG60 Coin",
+    "year": 2025,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/111638-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
     "set_num": "112501-1",
     "name": "Zane vs Temple Guard",
     "year": 2025,
@@ -232154,7 +232194,7 @@
     "name": "People's Square Grand Opening",
     "year": 2025,
     "theme_id": 408,
-    "num_parts": 0,
+    "num_parts": 1,
     "img_url": "https://cdn.rebrickable.com/media/sets/6569140-1.jpg",
     "theme": "LEGO Brand Store",
     "parent_theme": ""
@@ -232174,7 +232214,7 @@
     "name": "AFI Cotroceni Grand Opening",
     "year": 2025,
     "theme_id": 408,
-    "num_parts": 0,
+    "num_parts": 1,
     "img_url": "https://cdn.rebrickable.com/media/sets/6570382-1.jpg",
     "theme": "LEGO Brand Store",
     "parent_theme": ""
@@ -232207,6 +232247,16 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/6572607-1.jpg",
     "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6572737-1",
+    "name": "LEGO Masters Academy Grand Opening Exclusive",
+    "year": 2025,
+    "theme_id": 598,
+    "num_parts": 3,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6572737-1.jpg",
+    "theme": "Promotional",
     "parent_theme": ""
   },
   {
@@ -232658,6 +232708,26 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/6603212-1.jpg",
     "theme": "Promotional",
     "parent_theme": ""
+  },
+  {
+    "set_num": "6606280-1",
+    "name": "Building our Singapore Together",
+    "year": 2025,
+    "theme_id": 598,
+    "num_parts": 3,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6606280-1.jpg",
+    "theme": "Promotional",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6606295-1",
+    "name": "Holiday Train",
+    "year": 2025,
+    "theme_id": 227,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6606295-1.jpg",
+    "theme": "Christmas",
+    "parent_theme": "Seasonal"
   },
   {
     "set_num": "6614230-1",
