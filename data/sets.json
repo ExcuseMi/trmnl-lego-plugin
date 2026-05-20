@@ -76250,16 +76250,6 @@
     "parent_theme": "Books"
   },
   {
-    "set_num": "fruit8-1",
-    "name": "Tree - Hong Kong Lego Show Promotional",
-    "year": 2007,
-    "theme_id": 22,
-    "num_parts": 1,
-    "img_url": "https://cdn.rebrickable.com/media/sets/fruit8-1.jpg",
-    "theme": "Creator",
-    "parent_theme": ""
-  },
-  {
     "set_num": "2008-1",
     "name": "Heart 2008",
     "year": 2008,
@@ -241096,16 +241086,6 @@
     "theme_id": 761,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/9788325349042-1.jpg",
-    "theme": "Activity Books with LEGO Parts",
-    "parent_theme": "Books"
-  },
-  {
-    "set_num": "9788325349547-1",
-    "name": "Marvel: Spider-Man w akcji!",
-    "year": 2026,
-    "theme_id": 761,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/9788325349547-1.jpg",
     "theme": "Activity Books with LEGO Parts",
     "parent_theme": "Books"
   },
