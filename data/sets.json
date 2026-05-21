@@ -236430,6 +236430,16 @@
     "parent_theme": "Disney"
   },
   {
+    "set_num": "43302-1",
+    "name": "Main Street, U.S.A.",
+    "year": 2026,
+    "theme_id": 608,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/43302-1.jpg",
+    "theme": "Disney",
+    "parent_theme": ""
+  },
+  {
     "set_num": "43303-1",
     "name": "Mini Jasmine & Rapunzel",
     "year": 2026,
@@ -239154,7 +239164,7 @@
     "name": "Prosperity Carp Leaping",
     "year": 2026,
     "theme_id": 686,
-    "num_parts": 0,
+    "num_parts": 736,
     "img_url": "https://cdn.rebrickable.com/media/sets/80120-1.jpg",
     "theme": "Chinese Traditional Festivals",
     "parent_theme": ""
@@ -239164,7 +239174,7 @@
     "name": "Ancient Moon-Gazing Inn",
     "year": 2026,
     "theme_id": 686,
-    "num_parts": 0,
+    "num_parts": 1530,
     "img_url": "https://cdn.rebrickable.com/media/sets/80121-1.jpg",
     "theme": "Chinese Traditional Festivals",
     "parent_theme": ""
