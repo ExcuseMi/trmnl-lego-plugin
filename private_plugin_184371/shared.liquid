@@ -1,8 +1,4 @@
 <style>
-  .grayscale { 
-    filter: grayscale(100%); 
-    -webkit-filter: grayscale(100%); 
-  }
 
   .lego-container {
     position: relative;
@@ -37,7 +33,7 @@
     {% if show_infopanel %}left: 8px;{% else %}right: 8px;{% endif %}
   }
 </style>
-
+{% assign info_value_cls = "label sm:label--small md:sm:label--small lg:label--large  bg--white rounded m--1 pl--1 pr--1" %}
 {% if error %}
 <div class="layout layout--stretch layout--center">
   <div class="title">{{ error }}</div>
@@ -57,30 +53,30 @@
 
 {% else %}
 <div class="layout layout--stretch">
-  <div class="lego-container grayscale">
+  <div class="lego-container">
     <img src="{{image}}" class="image image-dither main-image" />
     
     {% if show_infopanel %}
     <div class="infopanel">
-      <div class="rounded bg--gray-75 p--1"> 
-        <div class="flex flex--column gap--xs"> 
+      <div class="rounded bg--gray-75 gap--none"> 
+        <div class="flex flex--column gap--none"> 
           {% if num_parts > 0 %} 
-          <div class="flex flex--row flex--align-center gap--xs">
+          <div class="flex flex--row flex--align-center gap--none">
             <img class="image w--6 lg:w--10 image-dither image--stroke" src="https://raw.githubusercontent.com/ExcuseMi/trmnl-lego-plugin/refs/heads/main/images/brick.png" /> 
-            <div class="label sm:label--small md:sm:label--small lg:label--large text--stroke">{{num_parts}}</div>
+            <div class="{{ info_value_cls }}">{{num_parts}}</div>
           </div>
           {% endif %} 
           
           {% if brickset_show_minifigs_included == "yes" and minifigs > 0 %} 
-          <div class="flex flex--row flex--align-center gap--xs">
+          <div class="flex flex--row flex--align-center gap--none">
             <img class="image w--6 lg:w--10 image-dither image--stroke" src="https://raw.githubusercontent.com/ExcuseMi/trmnl-lego-plugin/refs/heads/main/images/minifig.png" /> 
-            <div class="label sm:label--small md:sm:label--small lg:label--large text--stroke">{{minifigs}}</div> 
+            <div class="{{info_value_cls}}">{{minifigs}}</div> 
           </div>
           {% endif %} 
           
           {% if brickset_show_owned_wanted_indicators == "yes" %}
             {% if owned == "1" %} 
-            <div class="flex flex--row flex--align-center gap--xs">
+            <div class="flex flex--row flex--align-center gap--none">
               <img class="image w--6 lg:w--10 image-dither image--stroke" src="https://raw.githubusercontent.com/ExcuseMi/trmnl-lego-plugin/refs/heads/main/images/own.png" /> 
             </div>
             {% elsif wanted == "1" %} 
@@ -91,9 +87,9 @@
           {% endif %}
           
           {% if price != "" and price != blank and price != nil %} 
-          <div class="flex flex--row flex--align-center gap--xs">
+          <div class="flex flex--row flex--align-center gap--none ">
             <img class="image w--6 lg:w--10 image-dither image--stroke" src="https://raw.githubusercontent.com/ExcuseMi/trmnl-lego-plugin/refs/heads/main/images/price.png" /> 
-            <div class="label sm:label--small md:sm:label--small  lg:label--large text--stroke">{{price}}</div>
+            <div class="{{ info_value_cls }}">{{price}}</div>
           </div>
           {% endif %} 
         </div>
