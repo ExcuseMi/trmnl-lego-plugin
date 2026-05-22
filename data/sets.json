@@ -239540,14 +239540,54 @@
     "parent_theme": ""
   },
   {
-    "set_num": "951309-1",
-    "name": "Construction Worker",
+    "set_num": "951311-1",
+    "name": "Street sweeper",
     "year": 2026,
-    "theme_id": 56,
-    "num_parts": 25,
-    "img_url": "https://cdn.rebrickable.com/media/sets/951309-1.jpg",
-    "theme": "Construction",
-    "parent_theme": "City"
+    "theme_id": 52,
+    "num_parts": 29,
+    "img_url": "https://cdn.rebrickable.com/media/sets/951311-1.jpg",
+    "theme": "City",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "951319-1",
+    "name": "Smith with Smithing Table, Netherite Armor and Armor Stand",
+    "year": 2026,
+    "theme_id": 577,
+    "num_parts": 19,
+    "img_url": "https://cdn.rebrickable.com/media/sets/951319-1.jpg",
+    "theme": "Minecraft",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "951345-1",
+    "name": "Kitten and Vet's Office",
+    "year": 2026,
+    "theme_id": 494,
+    "num_parts": 24,
+    "img_url": "https://cdn.rebrickable.com/media/sets/951345-1.jpg",
+    "theme": "Friends",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "951351-1",
+    "name": "Guard and Raptor",
+    "year": 2026,
+    "theme_id": 602,
+    "num_parts": 21,
+    "img_url": "https://cdn.rebrickable.com/media/sets/951351-1.jpg",
+    "theme": "Jurassic World",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "951414-1",
+    "name": "Jango Fett",
+    "year": 2026,
+    "theme_id": 158,
+    "num_parts": 8,
+    "img_url": "https://cdn.rebrickable.com/media/sets/951414-1.jpg",
+    "theme": "Star Wars",
+    "parent_theme": ""
   },
   {
     "set_num": "951440-1",
