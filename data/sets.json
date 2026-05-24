@@ -145730,6 +145730,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "5007787-1",
+    "name": "Drinking Bottle (Sand Green)",
+    "year": 2017,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5007787-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "6168272-1",
     "name": "LEGO House Fan Pre-Opening",
     "year": 2017,
@@ -145958,16 +145968,6 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/12201420-1.jpg",
     "theme": "Activity Books with LEGO Parts",
     "parent_theme": "Books"
-  },
-  {
-    "set_num": "40420005-1",
-    "name": "Drinking Bottle (Sand Green)",
-    "year": 2017,
-    "theme_id": 733,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/40420005-1.jpg",
-    "theme": "Houseware",
-    "parent_theme": "Gear"
   },
   {
     "set_num": "40501735-1",
@@ -229661,7 +229661,7 @@
   },
   {
     "set_num": "912511-1",
-    "name": "Coruscant Guard",
+    "name": "Clone Shock Trooper",
     "year": 2025,
     "theme_id": 158,
     "num_parts": 6,
@@ -238764,7 +238764,7 @@
     "name": "Hagrid & Harry's Privet Drive Escape",
     "year": 2026,
     "theme_id": 246,
-    "num_parts": 127,
+    "num_parts": 124,
     "img_url": "https://cdn.rebrickable.com/media/sets/76459-1.jpg",
     "theme": "Harry Potter",
     "parent_theme": ""
@@ -239116,6 +239116,16 @@
     "theme_id": 601,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/77262-1.jpg",
+    "theme": "Speed Champions",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "77263-1",
+    "name": "BMW M3 (E30)",
+    "year": 2026,
+    "theme_id": 601,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/77263-1.jpg",
     "theme": "Speed Champions",
     "parent_theme": ""
   },
@@ -239617,6 +239627,16 @@
     "num_parts": 21,
     "img_url": "https://cdn.rebrickable.com/media/sets/951351-1.jpg",
     "theme": "Jurassic World",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "951384-1",
+    "name": "Nya",
+    "year": 2026,
+    "theme_id": 435,
+    "num_parts": 1,
+    "img_url": "https://cdn.rebrickable.com/media/sets/951384-1.jpg",
+    "theme": "Ninjago",
     "parent_theme": ""
   },
   {
