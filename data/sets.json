@@ -177624,7 +177624,7 @@
     "name": "City: Moon Landing",
     "year": 2020,
     "theme_id": 761,
-    "num_parts": 14,
+    "num_parts": 15,
     "img_url": "https://cdn.rebrickable.com/media/sets/9781913399627-1.jpg",
     "theme": "Activity Books with LEGO Parts",
     "parent_theme": "Books"
@@ -234738,6 +234738,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/30712-1.jpg",
     "theme": "Basic Set",
     "parent_theme": "Duplo"
+  },
+  {
+    "set_num": "30713-1",
+    "name": "Fancy Restaurant with Bingo",
+    "year": 2026,
+    "theme_id": 772,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/30713-1.jpg",
+    "theme": "Bluey",
+    "parent_theme": ""
   },
   {
     "set_num": "30714-1",
