@@ -77374,7 +77374,7 @@
     "name": "Anakin's Jedi Starfighter Clone Wars White Box",
     "year": 2008,
     "theme_id": 158,
-    "num_parts": 152,
+    "num_parts": 153,
     "img_url": "https://cdn.rebrickable.com/media/sets/7669-2.jpg",
     "theme": "Star Wars",
     "parent_theme": ""
@@ -227814,7 +227814,7 @@
     "name": "Quality Quidditch Supplies & Ice Cream Parlour",
     "year": 2025,
     "theme_id": 246,
-    "num_parts": 801,
+    "num_parts": 795,
     "img_url": "https://cdn.rebrickable.com/media/sets/76452-1.jpg",
     "theme": "Harry Potter",
     "parent_theme": ""
@@ -240578,6 +240578,26 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/6650001-1.jpg",
     "theme": "Gear",
     "parent_theme": ""
+  },
+  {
+    "set_num": "6663675-1",
+    "name": "Cristiano Ronaldo Poster",
+    "year": 2026,
+    "theme_id": 736,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6663675-1.jpg",
+    "theme": "Posters and Art Prints",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "6663676-1",
+    "name": "Vinicius Junior Poster",
+    "year": 2026,
+    "theme_id": 736,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6663676-1.jpg",
+    "theme": "Posters and Art Prints",
+    "parent_theme": "Gear"
   },
   {
     "set_num": "6663742-1",
