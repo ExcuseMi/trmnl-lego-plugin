@@ -96944,7 +96944,7 @@
     "name": "The Batcave",
     "year": 2012,
     "theme_id": 697,
-    "num_parts": 691,
+    "num_parts": 670,
     "img_url": "https://cdn.rebrickable.com/media/sets/6860-1.jpg",
     "theme": "Batman",
     "parent_theme": "Super Heroes DC"
@@ -197680,16 +197680,6 @@
     "parent_theme": ""
   },
   {
-    "set_num": "6435672-1",
-    "name": "LEGO Store 30th Anniversary Exclusive Set, Mall of America, Bloomington, MN",
-    "year": 2022,
-    "theme_id": 598,
-    "num_parts": 8,
-    "img_url": "https://cdn.rebrickable.com/media/sets/6435672-1.jpg",
-    "theme": "Promotional",
-    "parent_theme": ""
-  },
-  {
     "set_num": "6436693-1",
     "name": "Buildable 2 x 2 Red Brick",
     "year": 2022,
@@ -229444,7 +229434,7 @@
     "name": "Camping Adventure",
     "year": 2025,
     "theme_id": 719,
-    "num_parts": 667,
+    "num_parts": 669,
     "img_url": "https://cdn.rebrickable.com/media/sets/910041-1.jpg",
     "theme": "BrickLink Designer Program",
     "parent_theme": ""
@@ -231480,6 +231470,16 @@
     "parent_theme": "Books"
   },
   {
+    "set_num": "5010009-1",
+    "name": "Building F",
+    "year": 2025,
+    "theme_id": 301,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010009-1.jpg",
+    "theme": "Other",
+    "parent_theme": ""
+  },
+  {
     "set_num": "5010010-1",
     "name": "LEGO Batman Rogues Gallery Posters",
     "year": 2025,
@@ -232224,7 +232224,7 @@
     "name": "People's Square Grand Opening",
     "year": 2025,
     "theme_id": 408,
-    "num_parts": 1,
+    "num_parts": 146,
     "img_url": "https://cdn.rebrickable.com/media/sets/6569140-1.jpg",
     "theme": "LEGO Brand Store",
     "parent_theme": ""
@@ -232244,7 +232244,7 @@
     "name": "AFI Cotroceni Grand Opening",
     "year": 2025,
     "theme_id": 408,
-    "num_parts": 1,
+    "num_parts": 146,
     "img_url": "https://cdn.rebrickable.com/media/sets/6570382-1.jpg",
     "theme": "LEGO Brand Store",
     "parent_theme": ""
@@ -232740,6 +232740,26 @@
     "parent_theme": ""
   },
   {
+    "set_num": "6605170-1",
+    "name": "Jurong Point 10th Anniversary",
+    "year": 2025,
+    "theme_id": 408,
+    "num_parts": 8,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6605170-1.jpg",
+    "theme": "LEGO Brand Store",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6605172-1",
+    "name": "Jurong Point Grand Opening",
+    "year": 2025,
+    "theme_id": 408,
+    "num_parts": 146,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6605172-1.jpg",
+    "theme": "LEGO Brand Store",
+    "parent_theme": ""
+  },
+  {
     "set_num": "6606280-1",
     "name": "Building our Singapore Together",
     "year": 2025,
@@ -232796,6 +232816,26 @@
     "theme_id": 408,
     "num_parts": 1,
     "img_url": "https://cdn.rebrickable.com/media/sets/6616754-1.jpg",
+    "theme": "LEGO Brand Store",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6621904-1",
+    "name": "Red Car",
+    "year": 2025,
+    "theme_id": 598,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6621904-1.jpg",
+    "theme": "Promotional",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6629994-1",
+    "name": "Airplane - Special Edition",
+    "year": 2025,
+    "theme_id": 408,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6629994-1.jpg",
     "theme": "LEGO Brand Store",
     "parent_theme": ""
   },
@@ -239770,6 +239810,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "5010005-1",
+    "name": "Lucky Money Bag",
+    "year": 2026,
+    "theme_id": 408,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010005-1.jpg",
+    "theme": "LEGO Brand Store",
+    "parent_theme": ""
+  },
+  {
     "set_num": "5010027-1",
     "name": "Computer Science & AI Classroom Bundle K-2",
     "year": 2026,
@@ -239866,6 +239916,16 @@
     "theme_id": 739,
     "num_parts": 28,
     "img_url": "https://cdn.rebrickable.com/media/sets/5010100-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010101-1",
+    "name": "Coloured Pencils with Topper",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010101-1.jpg",
     "theme": "Stationery and Office Supplies",
     "parent_theme": "Gear"
   },
@@ -240460,6 +240520,26 @@
     "parent_theme": ""
   },
   {
+    "set_num": "6634756-1",
+    "name": "TV Remote",
+    "year": 2026,
+    "theme_id": 408,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6634756-1.jpg",
+    "theme": "LEGO Brand Store",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6634757-1",
+    "name": "Lounge Chair",
+    "year": 2026,
+    "theme_id": 408,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6634757-1.jpg",
+    "theme": "LEGO Brand Store",
+    "parent_theme": ""
+  },
+  {
     "set_num": "6638187-1",
     "name": "Trophy",
     "year": 2026,
@@ -240476,6 +240556,16 @@
     "theme_id": 408,
     "num_parts": 158,
     "img_url": "https://cdn.rebrickable.com/media/sets/6641299-1.jpg",
+    "theme": "LEGO Brand Store",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6643389-1",
+    "name": "Ljubljana 10 Years Anniversary Minifigures",
+    "year": 2026,
+    "theme_id": 408,
+    "num_parts": 8,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6643389-1.jpg",
     "theme": "LEGO Brand Store",
     "parent_theme": ""
   },
@@ -240570,6 +240660,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "6649684-1",
+    "name": "I Love Malaysia Minifigures",
+    "year": 2026,
+    "theme_id": 408,
+    "num_parts": 8,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6649684-1.jpg",
+    "theme": "LEGO Brand Store",
+    "parent_theme": ""
+  },
+  {
     "set_num": "6650001-1",
     "name": "Smart Brick Star Wars Sticker",
     "year": 2026,
@@ -240578,6 +240678,36 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/6650001-1.jpg",
     "theme": "Gear",
     "parent_theme": ""
+  },
+  {
+    "set_num": "6650266-1",
+    "name": "R2-D2 Level Up Workshop",
+    "year": 2026,
+    "theme_id": 158,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6650266-1.jpg",
+    "theme": "Star Wars",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6663669-1",
+    "name": "Kylian Mbappé Poster",
+    "year": 2026,
+    "theme_id": 736,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6663669-1.jpg",
+    "theme": "Posters and Art Prints",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "6663670-1",
+    "name": "Lionel Messi Poster",
+    "year": 2026,
+    "theme_id": 736,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6663670-1.jpg",
+    "theme": "Posters and Art Prints",
+    "parent_theme": "Gear"
   },
   {
     "set_num": "6663675-1",
@@ -240608,6 +240738,26 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/6663742-1.jpg",
     "theme": "Fire",
     "parent_theme": "City"
+  },
+  {
+    "set_num": "6665196-1",
+    "name": "Panda Zoo",
+    "year": 2026,
+    "theme_id": 408,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6665196-1.jpg",
+    "theme": "LEGO Brand Store",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6671868-1",
+    "name": "Yellow Pencil",
+    "year": 2026,
+    "theme_id": 408,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6671868-1.jpg",
+    "theme": "LEGO Brand Store",
+    "parent_theme": ""
   },
   {
     "set_num": "40350800-1",
@@ -258109,7 +258259,7 @@
   },
   {
     "fig_num": "fig-002214",
-    "name": "Batman, Light Bluish Gray Suit, Dark Blue Cape and Cowl",
+    "name": "Batman, Light Bluish Gray Suit, Dark Blue Cape and 55704 Cowl",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002214.jpg",
     "theme": "",
