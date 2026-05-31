@@ -121604,7 +121604,7 @@
     "name": "Round Eraser Set (Lime and Red)",
     "year": 2015,
     "theme_id": 739,
-    "num_parts": 0,
+    "num_parts": 2,
     "img_url": "https://cdn.rebrickable.com/media/sets/51519-1.jpg",
     "theme": "Stationery and Office Supplies",
     "parent_theme": "Gear"
@@ -125676,6 +125676,16 @@
     "theme_id": 507,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/2045103-1.jpg",
+    "theme": "Educational and Dacta",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "2045111-1",
+    "name": "BuildToExpress Guide And Activity Pack",
+    "year": 2015,
+    "theme_id": 507,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/2045111-1.jpg",
     "theme": "Educational and Dacta",
     "parent_theme": ""
   },
@@ -130964,7 +130974,7 @@
     "name": "Stationery Starter Set",
     "year": 2016,
     "theme_id": 739,
-    "num_parts": 0,
+    "num_parts": 9,
     "img_url": "https://cdn.rebrickable.com/media/sets/52053-1.jpg",
     "theme": "Stationery and Office Supplies",
     "parent_theme": "Gear"
@@ -135820,6 +135830,46 @@
     "parent_theme": ""
   },
   {
+    "set_num": "5004966-1",
+    "name": "EV3 Package - 2 Students",
+    "year": 2016,
+    "theme_id": 518,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5004966-1.jpg",
+    "theme": "Mindstorms",
+    "parent_theme": "Educational and Dacta"
+  },
+  {
+    "set_num": "5004967-1",
+    "name": "EV3 Package - 8 Students",
+    "year": 2016,
+    "theme_id": 518,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5004967-1.jpg",
+    "theme": "Mindstorms",
+    "parent_theme": "Educational and Dacta"
+  },
+  {
+    "set_num": "5004968-1",
+    "name": "EV3 Package - 16 Students",
+    "year": 2016,
+    "theme_id": 518,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5004968-1.jpg",
+    "theme": "Mindstorms",
+    "parent_theme": "Educational and Dacta"
+  },
+  {
+    "set_num": "5004969-1",
+    "name": "EV3 Package - 30 Students",
+    "year": 2016,
+    "theme_id": 518,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5004969-1.jpg",
+    "theme": "Mindstorms",
+    "parent_theme": "Educational and Dacta"
+  },
+  {
     "set_num": "5005011-1",
     "name": "Anakin Skywalker Buildable Watch with Toy",
     "year": 2016,
@@ -135954,7 +136004,7 @@
     "name": "Round Eraser Set (Blue and Yellow)",
     "year": 2016,
     "theme_id": 739,
-    "num_parts": 0,
+    "num_parts": 2,
     "img_url": "https://cdn.rebrickable.com/media/sets/5005108-1.jpg",
     "theme": "Stationery and Office Supplies",
     "parent_theme": "Gear"
@@ -135984,7 +136034,7 @@
     "name": "9 Pencils",
     "year": 2016,
     "theme_id": 739,
-    "num_parts": 2,
+    "num_parts": 11,
     "img_url": "https://cdn.rebrickable.com/media/sets/5005111-1.jpg",
     "theme": "Stationery and Office Supplies",
     "parent_theme": "Gear"
@@ -135994,7 +136044,7 @@
     "name": "Pencil Sharpeners",
     "year": 2016,
     "theme_id": 739,
-    "num_parts": 0,
+    "num_parts": 2,
     "img_url": "https://cdn.rebrickable.com/media/sets/5005112-1.jpg",
     "theme": "Stationery and Office Supplies",
     "parent_theme": "Gear"
@@ -145730,16 +145780,6 @@
     "parent_theme": "Gear"
   },
   {
-    "set_num": "5007787-1",
-    "name": "Drinking Bottle (Sand Green)",
-    "year": 2017,
-    "theme_id": 733,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/5007787-1.jpg",
-    "theme": "Houseware",
-    "parent_theme": "Gear"
-  },
-  {
     "set_num": "6168272-1",
     "name": "LEGO House Fan Pre-Opening",
     "year": 2017,
@@ -145968,6 +146008,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/12201420-1.jpg",
     "theme": "Activity Books with LEGO Parts",
     "parent_theme": "Books"
+  },
+  {
+    "set_num": "40420005-1",
+    "name": "Drinking Bottle (Sand Green)",
+    "year": 2017,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40420005-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
   },
   {
     "set_num": "40501735-1",
@@ -160316,6 +160366,16 @@
     "theme_id": 739,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/52340-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "52343-1",
+    "name": "The Lego Movie 2 Stationery Set - Unikitty",
+    "year": 2019,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/52343-1.jpg",
     "theme": "Stationery and Office Supplies",
     "parent_theme": "Gear"
   },
@@ -196054,7 +196114,7 @@
     "name": "2.0 12-Pack Colored Pencils With Topper",
     "year": 2022,
     "theme_id": 739,
-    "num_parts": 0,
+    "num_parts": 1,
     "img_url": "https://cdn.rebrickable.com/media/sets/5007197-1.jpg",
     "theme": "Stationery and Office Supplies",
     "parent_theme": "Gear"
@@ -229434,7 +229494,7 @@
     "name": "Camping Adventure",
     "year": 2025,
     "theme_id": 719,
-    "num_parts": 669,
+    "num_parts": 667,
     "img_url": "https://cdn.rebrickable.com/media/sets/910041-1.jpg",
     "theme": "BrickLink Designer Program",
     "parent_theme": ""
@@ -234700,6 +234760,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "21591-1",
+    "name": "The Twisted Warden Battle",
+    "year": 2026,
+    "theme_id": 577,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/21591-1.jpg",
+    "theme": "Minecraft",
+    "parent_theme": ""
+  },
+  {
     "set_num": "21592-1",
     "name": "Chicken Jockey Desert Attack",
     "year": 2026,
@@ -236650,6 +236720,36 @@
     "parent_theme": ""
   },
   {
+    "set_num": "52053-2",
+    "name": "Stationery Set with Minifigure",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 8,
+    "img_url": "https://cdn.rebrickable.com/media/sets/52053-2.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "53672-1",
+    "name": "Sticky Notes and Gel Pen Set Farmers Market",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53672-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "53708-1",
+    "name": "Stationery Set with Minifigure",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 9,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53708-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "53717-1",
     "name": "Star Wars Ahsoka Tano Notebook and Pen",
     "year": 2026,
@@ -238500,6 +238600,26 @@
     "parent_theme": ""
   },
   {
+    "set_num": "75453-1",
+    "name": "Offworld Sandcrawler and Mudhorn",
+    "year": 2026,
+    "theme_id": 158,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/75453-1.jpg",
+    "theme": "Star Wars",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "75454-1",
+    "name": "Imperial Remnant AT-AT with INT-4",
+    "year": 2026,
+    "theme_id": 158,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/75454-1.jpg",
+    "theme": "Star Wars",
+    "parent_theme": ""
+  },
+  {
     "set_num": "75456-1",
     "name": "Star Wars Advent Calendar 2026",
     "year": 2026,
@@ -239780,6 +239900,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "5007787-1",
+    "name": "Hydration Bottle 0.5 L – New York",
+    "year": 2026,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5007787-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "5009866-1",
     "name": "Hydration Bottle - Floral",
     "year": 2026,
@@ -239924,7 +240054,7 @@
     "name": "Coloured Pencils with Topper",
     "year": 2026,
     "theme_id": 739,
-    "num_parts": 0,
+    "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/5010101-1.jpg",
     "theme": "Stationery and Office Supplies",
     "parent_theme": "Gear"
