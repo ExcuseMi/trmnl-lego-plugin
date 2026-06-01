@@ -126600,6 +126600,36 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "5004643-1",
+    "name": "BuildToExpress Package - 8 Students",
+    "year": 2015,
+    "theme_id": 507,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5004643-1.jpg",
+    "theme": "Educational and Dacta",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "5004718-1",
+    "name": "BuildToExpress Package - 24 Students",
+    "year": 2015,
+    "theme_id": 507,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5004718-1.jpg",
+    "theme": "Educational and Dacta",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "5004719-1",
+    "name": "BuildToExpress Package - 30 Students",
+    "year": 2015,
+    "theme_id": 507,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5004719-1.jpg",
+    "theme": "Educational and Dacta",
+    "parent_theme": ""
+  },
+  {
     "set_num": "5004735-1",
     "name": "Space Port Collection",
     "year": 2015,
@@ -127068,6 +127098,26 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/5004942-1.jpg",
     "theme": "Audio and Visual Media",
     "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5004952-1",
+    "name": "BuiltToExpress Package - 1 Student",
+    "year": 2015,
+    "theme_id": 507,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5004952-1.jpg",
+    "theme": "Educational and Dacta",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "5004953-1",
+    "name": "BuidToExpress Package - 15 Students",
+    "year": 2015,
+    "theme_id": 507,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5004953-1.jpg",
+    "theme": "Educational and Dacta",
+    "parent_theme": ""
   },
   {
     "set_num": "5005008-1",
@@ -238204,7 +238254,7 @@
     "name": "Lloyd's Dragon Mech Battle Pack",
     "year": 2026,
     "theme_id": 435,
-    "num_parts": 0,
+    "num_parts": 81,
     "img_url": "https://cdn.rebrickable.com/media/sets/71862-1.jpg",
     "theme": "Ninjago",
     "parent_theme": ""
@@ -238214,7 +238264,7 @@
     "name": "Zilvar and Grimtak the Dragon Beast",
     "year": 2026,
     "theme_id": 435,
-    "num_parts": 0,
+    "num_parts": 233,
     "img_url": "https://cdn.rebrickable.com/media/sets/71863-1.jpg",
     "theme": "Ninjago",
     "parent_theme": ""
@@ -238224,7 +238274,7 @@
     "name": "Kai and Cole's Combiner Vehicles",
     "year": 2026,
     "theme_id": 435,
-    "num_parts": 0,
+    "num_parts": 394,
     "img_url": "https://cdn.rebrickable.com/media/sets/71864-1.jpg",
     "theme": "Ninjago",
     "parent_theme": ""
@@ -238234,7 +238284,7 @@
     "name": "Zane's Ice Dragon Battle",
     "year": 2026,
     "theme_id": 435,
-    "num_parts": 0,
+    "num_parts": 141,
     "img_url": "https://cdn.rebrickable.com/media/sets/71865-1.jpg",
     "theme": "Ninjago",
     "parent_theme": ""
@@ -238274,7 +238324,7 @@
     "name": "Land Bounty",
     "year": 2026,
     "theme_id": 435,
-    "num_parts": 0,
+    "num_parts": 1215,
     "img_url": "https://cdn.rebrickable.com/media/sets/71869-1.jpg",
     "theme": "Ninjago",
     "parent_theme": ""
@@ -238294,7 +238344,7 @@
     "name": "Battle at the Dragon's Blade",
     "year": 2026,
     "theme_id": 435,
-    "num_parts": 0,
+    "num_parts": 1016,
     "img_url": "https://cdn.rebrickable.com/media/sets/71871-1.jpg",
     "theme": "Ninjago",
     "parent_theme": ""
@@ -239460,6 +239510,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "112698-1",
+    "name": "Minifigure Travel Mug",
+    "year": 2026,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/112698-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "113555-1",
     "name": "Botanicals Shopper Tote Bag",
     "year": 2026,
@@ -240416,6 +240476,16 @@
     "theme_id": 408,
     "num_parts": 159,
     "img_url": "https://cdn.rebrickable.com/media/sets/6611596-1.jpg",
+    "theme": "LEGO Brand Store",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6611603-1",
+    "name": "Carousel",
+    "year": 2026,
+    "theme_id": 408,
+    "num_parts": 40,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6611603-1.jpg",
     "theme": "LEGO Brand Store",
     "parent_theme": ""
   },
@@ -356448,6 +356518,118 @@
     "name": "Monster Hunter",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-017566.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017633",
+    "name": "Myra",
+    "num_parts": 5,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017633.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017634",
+    "name": "Oni Warrior",
+    "num_parts": 5,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017634.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017635",
+    "name": "Jin",
+    "num_parts": 6,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017635.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017636",
+    "name": "Master Ivo",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017636.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017638",
+    "name": "Nya (Draconus Robes), Katana Holder",
+    "num_parts": 6,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017638.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017640",
+    "name": "Zane (Draconus Robes)",
+    "num_parts": 5,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017640.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017641",
+    "name": "Fire Monster",
+    "num_parts": 3,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017641.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017642",
+    "name": "Acid Monster, Legs",
+    "num_parts": 3,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017642.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017644",
+    "name": "Zane, Wrap (Draconus Robes)",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017644.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017645",
+    "name": "Sora (Draconus Robes)",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017645.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017646",
+    "name": "Ice Monster",
+    "num_parts": 3,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017646.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017647",
+    "name": "Zilvar",
+    "num_parts": 5,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017647.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017649",
+    "name": "Jay, Shoulder Armor (Draconus Robes)",
+    "num_parts": 6,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017649.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017650",
+    "name": "Lloyd (Draconus Robes)",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017650.jpg",
     "theme": "",
     "parent_theme": ""
   }
