@@ -53690,16 +53690,6 @@
     "parent_theme": "Educational and Dacta"
   },
   {
-    "set_num": "9243-1",
-    "name": "Doors Windows and Roof Tiles",
-    "year": 2002,
-    "theme_id": 528,
-    "num_parts": 270,
-    "img_url": "https://cdn.rebrickable.com/media/sets/9243-1.jpg",
-    "theme": "Supplemental",
-    "parent_theme": "Educational and Dacta"
-  },
-  {
     "set_num": "9650-1",
     "name": "Scenery Resource Set",
     "year": 2002,
@@ -67137,6 +67127,16 @@
     "num_parts": 44,
     "img_url": "https://cdn.rebrickable.com/media/sets/9239-1.jpg",
     "theme": "Duplo and Explore",
+    "parent_theme": "Educational and Dacta"
+  },
+  {
+    "set_num": "9243-1",
+    "name": "Doors Windows and Roof Tiles",
+    "year": 2005,
+    "theme_id": 528,
+    "num_parts": 270,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9243-1.jpg",
+    "theme": "Supplemental",
     "parent_theme": "Educational and Dacta"
   },
   {
@@ -135324,7 +135324,7 @@
     "name": "Mindstorms EV3 Design Engineering Projects",
     "year": 2016,
     "theme_id": 518,
-    "num_parts": 0,
+    "num_parts": 1,
     "img_url": "https://cdn.rebrickable.com/media/sets/2005544-1.jpg",
     "theme": "Mindstorms",
     "parent_theme": "Educational and Dacta"
@@ -187340,6 +187340,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "6382234-1",
+    "name": "The LEGO Store (Hangzhou) - 1st Anniversary",
+    "year": 2021,
+    "theme_id": 408,
+    "num_parts": 8,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6382234-1.jpg",
+    "theme": "LEGO Brand Store",
+    "parent_theme": ""
+  },
+  {
     "set_num": "6382975-1",
     "name": "Tantive IV",
     "year": 2021,
@@ -187498,6 +187508,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/6392262-1.jpg",
     "theme": "Christmas",
     "parent_theme": "Seasonal"
+  },
+  {
+    "set_num": "6395519-1",
+    "name": "Land Duck",
+    "year": 2021,
+    "theme_id": 504,
+    "num_parts": 6,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6395519-1.jpg",
+    "theme": "Duplo",
+    "parent_theme": ""
   },
   {
     "set_num": "6399469-1",
@@ -234144,7 +234164,7 @@
     "name": "Team Spidey Webquarters",
     "year": 2026,
     "theme_id": 630,
-    "num_parts": 0,
+    "num_parts": 65,
     "img_url": "https://cdn.rebrickable.com/media/sets/10464-1.jpg",
     "theme": "Marvel",
     "parent_theme": "Duplo"
@@ -234194,7 +234214,7 @@
     "name": "Pizza Girls with Muffin and Bluey",
     "year": 2026,
     "theme_id": 788,
-    "num_parts": 0,
+    "num_parts": 44,
     "img_url": "https://cdn.rebrickable.com/media/sets/10469-1.jpg",
     "theme": "Bluey",
     "parent_theme": "Duplo"
@@ -234224,7 +234244,7 @@
     "name": "Animal Building Game",
     "year": 2026,
     "theme_id": 504,
-    "num_parts": 0,
+    "num_parts": 94,
     "img_url": "https://cdn.rebrickable.com/media/sets/10472-1.jpg",
     "theme": "Duplo",
     "parent_theme": ""
@@ -234284,7 +234304,7 @@
     "name": "3 in 1 Creative Ramps with Vehicles",
     "year": 2026,
     "theme_id": 504,
-    "num_parts": 0,
+    "num_parts": 111,
     "img_url": "https://cdn.rebrickable.com/media/sets/10478-1.jpg",
     "theme": "Duplo",
     "parent_theme": ""
@@ -234294,7 +234314,7 @@
     "name": "Colorful Creative Box",
     "year": 2026,
     "theme_id": 504,
-    "num_parts": 0,
+    "num_parts": 80,
     "img_url": "https://cdn.rebrickable.com/media/sets/10479-1.jpg",
     "theme": "Duplo",
     "parent_theme": ""
@@ -234304,7 +234324,7 @@
     "name": "Discovery Forest with Wild Animals",
     "year": 2026,
     "theme_id": 504,
-    "num_parts": 0,
+    "num_parts": 131,
     "img_url": "https://cdn.rebrickable.com/media/sets/10480-1.jpg",
     "theme": "Duplo",
     "parent_theme": ""
@@ -234314,7 +234334,7 @@
     "name": "Creative Colorful Bricks",
     "year": 2026,
     "theme_id": 621,
-    "num_parts": 0,
+    "num_parts": 820,
     "img_url": "https://cdn.rebrickable.com/media/sets/11045-1.jpg",
     "theme": "Classic",
     "parent_theme": ""
@@ -234354,7 +234374,7 @@
     "name": "Ultron vs. Iron Man",
     "year": 2026,
     "theme_id": 797,
-    "num_parts": 0,
+    "num_parts": 96,
     "img_url": "https://cdn.rebrickable.com/media/sets/11209-1.jpg",
     "theme": "Iron Man and His Awesome Friends",
     "parent_theme": "Iron Man"
@@ -234364,7 +234384,7 @@
     "name": "Loki vs. Team Iron Man",
     "year": 2026,
     "theme_id": 797,
-    "num_parts": 0,
+    "num_parts": 204,
     "img_url": "https://cdn.rebrickable.com/media/sets/11211-1.jpg",
     "theme": "Iron Man and His Awesome Friends",
     "parent_theme": "Iron Man"
@@ -234404,7 +234424,7 @@
     "name": "Grannies with Bingo and Bluey",
     "year": 2026,
     "theme_id": 772,
-    "num_parts": 0,
+    "num_parts": 80,
     "img_url": "https://cdn.rebrickable.com/media/sets/11216-1.jpg",
     "theme": "Bluey",
     "parent_theme": ""
@@ -234414,7 +234434,7 @@
     "name": "Brick-Built Bluey Family",
     "year": 2026,
     "theme_id": 772,
-    "num_parts": 0,
+    "num_parts": 466,
     "img_url": "https://cdn.rebrickable.com/media/sets/11217-1.jpg",
     "theme": "Bluey",
     "parent_theme": ""
@@ -234424,7 +234444,7 @@
     "name": "School with Rusty and Bluey",
     "year": 2026,
     "theme_id": 772,
-    "num_parts": 0,
+    "num_parts": 106,
     "img_url": "https://cdn.rebrickable.com/media/sets/11221-1.jpg",
     "theme": "Bluey",
     "parent_theme": ""
@@ -234494,7 +234514,7 @@
     "name": "The Lord of the Rings: Minas Tirith",
     "year": 2026,
     "theme_id": 721,
-    "num_parts": 0,
+    "num_parts": 8278,
     "img_url": "https://cdn.rebrickable.com/media/sets/11377-1.jpg",
     "theme": "Icons",
     "parent_theme": ""
@@ -234514,7 +234534,7 @@
     "name": "Road Bike",
     "year": 2026,
     "theme_id": 721,
-    "num_parts": 0,
+    "num_parts": 1015,
     "img_url": "https://cdn.rebrickable.com/media/sets/11380-1.jpg",
     "theme": "Icons",
     "parent_theme": ""
@@ -234584,7 +234604,7 @@
     "name": "Woodland Mushrooms",
     "year": 2026,
     "theme_id": 769,
-    "num_parts": 0,
+    "num_parts": 806,
     "img_url": "https://cdn.rebrickable.com/media/sets/11505-1.jpg",
     "theme": "Botanicals",
     "parent_theme": ""
@@ -234634,7 +234654,7 @@
     "name": "Water Lilies",
     "year": 2026,
     "theme_id": 769,
-    "num_parts": 0,
+    "num_parts": 259,
     "img_url": "https://cdn.rebrickable.com/media/sets/11511-1.jpg",
     "theme": "Botanicals",
     "parent_theme": ""
@@ -234644,7 +234664,7 @@
     "name": "Cosmos Flowers",
     "year": 2026,
     "theme_id": 769,
-    "num_parts": 0,
+    "num_parts": 171,
     "img_url": "https://cdn.rebrickable.com/media/sets/11514-1.jpg",
     "theme": "Botanicals",
     "parent_theme": ""
@@ -234664,7 +234684,7 @@
     "name": "New York City – The Big Apple",
     "year": 2026,
     "theme_id": 252,
-    "num_parts": 0,
+    "num_parts": 1465,
     "img_url": "https://cdn.rebrickable.com/media/sets/21066-1.jpg",
     "theme": "Architecture",
     "parent_theme": ""
@@ -234824,7 +234844,7 @@
     "name": "Chicken Jockey Desert Attack",
     "year": 2026,
     "theme_id": 577,
-    "num_parts": 0,
+    "num_parts": 428,
     "img_url": "https://cdn.rebrickable.com/media/sets/21592-1.jpg",
     "theme": "Minecraft",
     "parent_theme": ""
@@ -234834,7 +234854,7 @@
     "name": "First Night Adventure",
     "year": 2026,
     "theme_id": 577,
-    "num_parts": 0,
+    "num_parts": 301,
     "img_url": "https://cdn.rebrickable.com/media/sets/21593-1.jpg",
     "theme": "Minecraft",
     "parent_theme": ""
@@ -234844,7 +234864,7 @@
     "name": "The Skeleton",
     "year": 2026,
     "theme_id": 577,
-    "num_parts": 0,
+    "num_parts": 502,
     "img_url": "https://cdn.rebrickable.com/media/sets/21594-1.jpg",
     "theme": "Minecraft",
     "parent_theme": ""
@@ -234854,7 +234874,7 @@
     "name": "The Ender Dragon",
     "year": 2026,
     "theme_id": 577,
-    "num_parts": 0,
+    "num_parts": 710,
     "img_url": "https://cdn.rebrickable.com/media/sets/21595-1.jpg",
     "theme": "Minecraft",
     "parent_theme": ""
@@ -234864,7 +234884,7 @@
     "name": "Evoker Village Attack",
     "year": 2026,
     "theme_id": 577,
-    "num_parts": 0,
+    "num_parts": 607,
     "img_url": "https://cdn.rebrickable.com/media/sets/21596-1.jpg",
     "theme": "Minecraft",
     "parent_theme": ""
@@ -234874,7 +234894,7 @@
     "name": "Ghast Station",
     "year": 2026,
     "theme_id": 577,
-    "num_parts": 0,
+    "num_parts": 754,
     "img_url": "https://cdn.rebrickable.com/media/sets/21597-1.jpg",
     "theme": "Minecraft",
     "parent_theme": ""
@@ -234884,7 +234904,7 @@
     "name": "Underwater Adventure",
     "year": 2026,
     "theme_id": 577,
-    "num_parts": 0,
+    "num_parts": 310,
     "img_url": "https://cdn.rebrickable.com/media/sets/21598-1.jpg",
     "theme": "Minecraft",
     "parent_theme": ""
@@ -234904,7 +234924,7 @@
     "name": "Fancy Restaurant with Bingo",
     "year": 2026,
     "theme_id": 772,
-    "num_parts": 0,
+    "num_parts": 23,
     "img_url": "https://cdn.rebrickable.com/media/sets/30713-1.jpg",
     "theme": "Bluey",
     "parent_theme": ""
@@ -234944,7 +234964,7 @@
     "name": "Fun Halloween Skeleton",
     "year": 2026,
     "theme_id": 230,
-    "num_parts": 0,
+    "num_parts": 71,
     "img_url": "https://cdn.rebrickable.com/media/sets/30717-1.jpg",
     "theme": "Halloween",
     "parent_theme": "Seasonal"
@@ -234954,7 +234974,7 @@
     "name": "Cataclaws Snow Adventure",
     "year": 2026,
     "theme_id": 228,
-    "num_parts": 0,
+    "num_parts": 70,
     "img_url": "https://cdn.rebrickable.com/media/sets/30718-1.jpg",
     "theme": "Creator",
     "parent_theme": "Christmas"
@@ -235204,7 +235224,7 @@
     "name": "Floral Decor Perfume Bottle",
     "year": 2026,
     "theme_id": 672,
-    "num_parts": 0,
+    "num_parts": 286,
     "img_url": "https://cdn.rebrickable.com/media/sets/31383-1.jpg",
     "theme": "Creator 3-in-1",
     "parent_theme": "Creator"
@@ -235234,7 +235254,7 @@
     "name": "Wild Animals: Majestic Lion",
     "year": 2026,
     "theme_id": 672,
-    "num_parts": 0,
+    "num_parts": 839,
     "img_url": "https://cdn.rebrickable.com/media/sets/31386-1.jpg",
     "theme": "Creator 3-in-1",
     "parent_theme": "Creator"
@@ -235244,7 +235264,7 @@
     "name": "Iconic Pirate Ship",
     "year": 2026,
     "theme_id": 672,
-    "num_parts": 0,
+    "num_parts": 1074,
     "img_url": "https://cdn.rebrickable.com/media/sets/31387-1.jpg",
     "theme": "Creator 3-in-1",
     "parent_theme": "Creator"
@@ -235254,7 +235274,7 @@
     "name": "Wild Animals: Family of Koalas",
     "year": 2026,
     "theme_id": 672,
-    "num_parts": 0,
+    "num_parts": 1536,
     "img_url": "https://cdn.rebrickable.com/media/sets/31388-1.jpg",
     "theme": "Creator 3-in-1",
     "parent_theme": "Creator"
@@ -235264,7 +235284,7 @@
     "name": "Iconic Ferris Wheel",
     "year": 2026,
     "theme_id": 672,
-    "num_parts": 0,
+    "num_parts": 916,
     "img_url": "https://cdn.rebrickable.com/media/sets/31389-1.jpg",
     "theme": "Creator 3-in-1",
     "parent_theme": "Creator"
@@ -235274,7 +235294,7 @@
     "name": "Floral Art Decor Painting",
     "year": 2026,
     "theme_id": 672,
-    "num_parts": 0,
+    "num_parts": 348,
     "img_url": "https://cdn.rebrickable.com/media/sets/31390-1.jpg",
     "theme": "Creator 3-in-1",
     "parent_theme": "Creator"
@@ -235284,7 +235304,7 @@
     "name": "Art Fashion Bag with Storage",
     "year": 2026,
     "theme_id": 672,
-    "num_parts": 0,
+    "num_parts": 272,
     "img_url": "https://cdn.rebrickable.com/media/sets/31391-1.jpg",
     "theme": "Creator 3-in-1",
     "parent_theme": "Creator"
@@ -235294,7 +235314,7 @@
     "name": "Music Decor Piano with Cat",
     "year": 2026,
     "theme_id": 672,
-    "num_parts": 0,
+    "num_parts": 485,
     "img_url": "https://cdn.rebrickable.com/media/sets/31392-1.jpg",
     "theme": "Creator 3-in-1",
     "parent_theme": "Creator"
@@ -235304,7 +235324,7 @@
     "name": "Forest Animals: Gray Wolf",
     "year": 2026,
     "theme_id": 672,
-    "num_parts": 0,
+    "num_parts": 657,
     "img_url": "https://cdn.rebrickable.com/media/sets/31393-1.jpg",
     "theme": "Creator 3-in-1",
     "parent_theme": "Creator"
@@ -235334,7 +235354,7 @@
     "name": "Toy Story",
     "year": 2026,
     "theme_id": 610,
-    "num_parts": 0,
+    "num_parts": 528,
     "img_url": "https://cdn.rebrickable.com/media/sets/40860-1.jpg",
     "theme": "Brickheadz",
     "parent_theme": ""
@@ -235464,7 +235484,7 @@
     "name": "Grond",
     "year": 2026,
     "theme_id": 721,
-    "num_parts": 0,
+    "num_parts": 307,
     "img_url": "https://cdn.rebrickable.com/media/sets/40893-1.jpg",
     "theme": "Icons",
     "parent_theme": ""
@@ -235584,7 +235604,7 @@
     "name": "Shrek, Donkey & Gingy Figures",
     "year": 2026,
     "theme_id": 610,
-    "num_parts": 0,
+    "num_parts": 259,
     "img_url": "https://cdn.rebrickable.com/media/sets/40923-1.jpg",
     "theme": "Brickheadz",
     "parent_theme": ""
@@ -235594,7 +235614,7 @@
     "name": "Megatron Robot & Vehicle",
     "year": 2026,
     "theme_id": 610,
-    "num_parts": 0,
+    "num_parts": 224,
     "img_url": "https://cdn.rebrickable.com/media/sets/40924-1.jpg",
     "theme": "Brickheadz",
     "parent_theme": ""
@@ -235604,7 +235624,7 @@
     "name": "Alice in Wonderland",
     "year": 2026,
     "theme_id": 610,
-    "num_parts": 0,
+    "num_parts": 601,
     "img_url": "https://cdn.rebrickable.com/media/sets/40925-1.jpg",
     "theme": "Brickheadz",
     "parent_theme": ""
@@ -235614,7 +235634,7 @@
     "name": "SEGA Genesis Console",
     "year": 2026,
     "theme_id": 301,
-    "num_parts": 0,
+    "num_parts": 478,
     "img_url": "https://cdn.rebrickable.com/media/sets/40926-1.jpg",
     "theme": "Other",
     "parent_theme": ""
@@ -235804,7 +235824,7 @@
     "name": "Fast and Furious Mitsubishi Eclipse Car",
     "year": 2026,
     "theme_id": 1,
-    "num_parts": 0,
+    "num_parts": 826,
     "img_url": "https://cdn.rebrickable.com/media/sets/42229-1.jpg",
     "theme": "Technic",
     "parent_theme": ""
@@ -235814,7 +235834,7 @@
     "name": "Fast and Furious Dodge Charger R/T Car",
     "year": 2026,
     "theme_id": 1,
-    "num_parts": 0,
+    "num_parts": 1515,
     "img_url": "https://cdn.rebrickable.com/media/sets/42231-1.jpg",
     "theme": "Technic",
     "parent_theme": ""
@@ -235960,11 +235980,21 @@
     "parent_theme": ""
   },
   {
+    "set_num": "42240-1",
+    "name": "Aston Martin Aramco AMR25 F1 Car",
+    "year": 2026,
+    "theme_id": 1,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/42240-1.jpg",
+    "theme": "Technic",
+    "parent_theme": ""
+  },
+  {
     "set_num": "42241-1",
     "name": "Green Bugatti Chiron Pur Sport Hypercar",
     "year": 2026,
     "theme_id": 1,
-    "num_parts": 0,
+    "num_parts": 772,
     "img_url": "https://cdn.rebrickable.com/media/sets/42241-1.jpg",
     "theme": "Technic",
     "parent_theme": ""
@@ -235974,7 +236004,7 @@
     "name": "Mercedes-Benz Unimog U 5023 with Crane",
     "year": 2026,
     "theme_id": 1,
-    "num_parts": 0,
+    "num_parts": 1188,
     "img_url": "https://cdn.rebrickable.com/media/sets/42242-1.jpg",
     "theme": "Technic",
     "parent_theme": ""
@@ -235994,7 +236024,7 @@
     "name": "Fun Water Park Day",
     "year": 2026,
     "theme_id": 494,
-    "num_parts": 0,
+    "num_parts": 277,
     "img_url": "https://cdn.rebrickable.com/media/sets/42676-1.jpg",
     "theme": "Friends",
     "parent_theme": ""
@@ -236054,7 +236084,7 @@
     "name": "Nature Glamping Cabin",
     "year": 2026,
     "theme_id": 494,
-    "num_parts": 0,
+    "num_parts": 294,
     "img_url": "https://cdn.rebrickable.com/media/sets/42682-1.jpg",
     "theme": "Friends",
     "parent_theme": ""
@@ -236124,7 +236154,7 @@
     "name": "Forest Tea Party",
     "year": 2026,
     "theme_id": 494,
-    "num_parts": 0,
+    "num_parts": 115,
     "img_url": "https://cdn.rebrickable.com/media/sets/42690-1.jpg",
     "theme": "Friends",
     "parent_theme": ""
@@ -236154,7 +236184,7 @@
     "name": "Creative Flower Shop",
     "year": 2026,
     "theme_id": 494,
-    "num_parts": 0,
+    "num_parts": 376,
     "img_url": "https://cdn.rebrickable.com/media/sets/42693-1.jpg",
     "theme": "Friends",
     "parent_theme": ""
@@ -236164,7 +236194,7 @@
     "name": "Pizza Truck",
     "year": 2026,
     "theme_id": 494,
-    "num_parts": 0,
+    "num_parts": 189,
     "img_url": "https://cdn.rebrickable.com/media/sets/42694-1.jpg",
     "theme": "Friends",
     "parent_theme": ""
@@ -236194,7 +236224,7 @@
     "name": "Creative Dollhouse Suitcase",
     "year": 2026,
     "theme_id": 494,
-    "num_parts": 0,
+    "num_parts": 355,
     "img_url": "https://cdn.rebrickable.com/media/sets/42697-1.jpg",
     "theme": "Friends",
     "parent_theme": ""
@@ -236224,7 +236254,7 @@
     "name": "Candy & Cupcake Ferris Wheel",
     "year": 2026,
     "theme_id": 494,
-    "num_parts": 0,
+    "num_parts": 601,
     "img_url": "https://cdn.rebrickable.com/media/sets/42700-1.jpg",
     "theme": "Friends",
     "parent_theme": ""
@@ -236234,7 +236264,7 @@
     "name": "Koala Habitat & Care Center",
     "year": 2026,
     "theme_id": 494,
-    "num_parts": 0,
+    "num_parts": 346,
     "img_url": "https://cdn.rebrickable.com/media/sets/42701-1.jpg",
     "theme": "Friends",
     "parent_theme": ""
@@ -236244,7 +236274,7 @@
     "name": "Spinning Flower & Fairy Teacup Ride",
     "year": 2026,
     "theme_id": 494,
-    "num_parts": 0,
+    "num_parts": 320,
     "img_url": "https://cdn.rebrickable.com/media/sets/42702-1.jpg",
     "theme": "Friends",
     "parent_theme": ""
@@ -236254,7 +236284,7 @@
     "name": "Mermaid Roller Coaster Ride",
     "year": 2026,
     "theme_id": 494,
-    "num_parts": 0,
+    "num_parts": 1006,
     "img_url": "https://cdn.rebrickable.com/media/sets/42703-1.jpg",
     "theme": "Friends",
     "parent_theme": ""
@@ -236264,7 +236294,7 @@
     "name": "Heartlake City Grand Hotel",
     "year": 2026,
     "theme_id": 494,
-    "num_parts": 0,
+    "num_parts": 1410,
     "img_url": "https://cdn.rebrickable.com/media/sets/42704-1.jpg",
     "theme": "Friends",
     "parent_theme": ""
@@ -236274,7 +236304,7 @@
     "name": "Cozy Fall Forest Cabin",
     "year": 2026,
     "theme_id": 494,
-    "num_parts": 0,
+    "num_parts": 1228,
     "img_url": "https://cdn.rebrickable.com/media/sets/42705-1.jpg",
     "theme": "Friends",
     "parent_theme": ""
@@ -236344,7 +236374,7 @@
     "name": "Lionel Messi – Celebration",
     "year": 2026,
     "theme_id": 787,
-    "num_parts": 0,
+    "num_parts": 1428,
     "img_url": "https://cdn.rebrickable.com/media/sets/43018-1.jpg",
     "theme": "Editions",
     "parent_theme": ""
@@ -236424,7 +236454,7 @@
     "name": "Beach Fun with Lilo & Stitch",
     "year": 2026,
     "theme_id": 608,
-    "num_parts": 0,
+    "num_parts": 113,
     "img_url": "https://cdn.rebrickable.com/media/sets/43280-1.jpg",
     "theme": "Disney",
     "parent_theme": ""
@@ -236444,7 +236474,7 @@
     "name": "Village House & Boat",
     "year": 2026,
     "theme_id": 608,
-    "num_parts": 0,
+    "num_parts": 85,
     "img_url": "https://cdn.rebrickable.com/media/sets/43282-1.jpg",
     "theme": "Disney",
     "parent_theme": ""
@@ -236454,7 +236484,7 @@
     "name": "Cinderella Animal Friends Castle",
     "year": 2026,
     "theme_id": 579,
-    "num_parts": 0,
+    "num_parts": 149,
     "img_url": "https://cdn.rebrickable.com/media/sets/43283-1.jpg",
     "theme": "Disney Princess",
     "parent_theme": "Disney"
@@ -236514,7 +236544,7 @@
     "name": "Belle & the Beast's Enchanted Castle",
     "year": 2026,
     "theme_id": 579,
-    "num_parts": 0,
+    "num_parts": 254,
     "img_url": "https://cdn.rebrickable.com/media/sets/43289-1.jpg",
     "theme": "Disney Princess",
     "parent_theme": "Disney"
@@ -236544,7 +236574,7 @@
     "name": "Pua",
     "year": 2026,
     "theme_id": 608,
-    "num_parts": 0,
+    "num_parts": 885,
     "img_url": "https://cdn.rebrickable.com/media/sets/43292-1.jpg",
     "theme": "Disney",
     "parent_theme": ""
@@ -236554,7 +236584,7 @@
     "name": "Kakamora",
     "year": 2026,
     "theme_id": 608,
-    "num_parts": 0,
+    "num_parts": 407,
     "img_url": "https://cdn.rebrickable.com/media/sets/43293-1.jpg",
     "theme": "Disney",
     "parent_theme": ""
@@ -236564,7 +236594,7 @@
     "name": "Rapunzel's Mini Tower",
     "year": 2026,
     "theme_id": 579,
-    "num_parts": 0,
+    "num_parts": 171,
     "img_url": "https://cdn.rebrickable.com/media/sets/43294-1.jpg",
     "theme": "Disney Princess",
     "parent_theme": "Disney"
@@ -236574,7 +236604,7 @@
     "name": "Jasmine's Jewelry Box",
     "year": 2026,
     "theme_id": 579,
-    "num_parts": 0,
+    "num_parts": 460,
     "img_url": "https://cdn.rebrickable.com/media/sets/43295-1.jpg",
     "theme": "Disney Princess",
     "parent_theme": "Disney"
@@ -236584,7 +236614,7 @@
     "name": "Stitch & Scrump",
     "year": 2026,
     "theme_id": 608,
-    "num_parts": 0,
+    "num_parts": 713,
     "img_url": "https://cdn.rebrickable.com/media/sets/43296-1.jpg",
     "theme": "Disney",
     "parent_theme": ""
@@ -236594,7 +236624,7 @@
     "name": "Rapunzel's Castle",
     "year": 2026,
     "theme_id": 579,
-    "num_parts": 0,
+    "num_parts": 675,
     "img_url": "https://cdn.rebrickable.com/media/sets/43297-1.jpg",
     "theme": "Disney Princess",
     "parent_theme": "Disney"
@@ -236614,7 +236644,7 @@
     "name": "Ariel's Royal Wedding Boat",
     "year": 2026,
     "theme_id": 579,
-    "num_parts": 0,
+    "num_parts": 518,
     "img_url": "https://cdn.rebrickable.com/media/sets/43299-1.jpg",
     "theme": "Disney Princess",
     "parent_theme": "Disney"
@@ -236644,7 +236674,7 @@
     "name": "Main Street, U.S.A.",
     "year": 2026,
     "theme_id": 608,
-    "num_parts": 0,
+    "num_parts": 3896,
     "img_url": "https://cdn.rebrickable.com/media/sets/43302-1.jpg",
     "theme": "Disney",
     "parent_theme": ""
@@ -236796,6 +236826,16 @@
     "theme_id": 739,
     "num_parts": 9,
     "img_url": "https://cdn.rebrickable.com/media/sets/53708-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "53715-1",
+    "name": "Pen Pal Gel Pen with Botanicals Mini-Build (Yellow)",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53715-1.jpg",
     "theme": "Stationery and Office Supplies",
     "parent_theme": "Gear"
   },
@@ -237454,7 +237494,7 @@
     "name": "Yellow Backhoe Loader",
     "year": 2026,
     "theme_id": 56,
-    "num_parts": 0,
+    "num_parts": 300,
     "img_url": "https://cdn.rebrickable.com/media/sets/60480-1.jpg",
     "theme": "Construction",
     "parent_theme": "City"
@@ -237574,7 +237614,7 @@
     "name": "Passenger Jet",
     "year": 2026,
     "theme_id": 53,
-    "num_parts": 0,
+    "num_parts": 118,
     "img_url": "https://cdn.rebrickable.com/media/sets/60492-1.jpg",
     "theme": "Airport",
     "parent_theme": "City"
@@ -237594,7 +237634,7 @@
     "name": "Dump Truck & Front End Loader",
     "year": 2026,
     "theme_id": 56,
-    "num_parts": 0,
+    "num_parts": 1131,
     "img_url": "https://cdn.rebrickable.com/media/sets/60494-1.jpg",
     "theme": "Construction",
     "parent_theme": "City"
@@ -237614,7 +237654,7 @@
     "name": "Pizza Delivery Experience with Vehicles",
     "year": 2026,
     "theme_id": 52,
-    "num_parts": 0,
+    "num_parts": 493,
     "img_url": "https://cdn.rebrickable.com/media/sets/60496-1.jpg",
     "theme": "City",
     "parent_theme": ""
@@ -237624,7 +237664,7 @@
     "name": "Drive-Through Car Wash",
     "year": 2026,
     "theme_id": 52,
-    "num_parts": 0,
+    "num_parts": 582,
     "img_url": "https://cdn.rebrickable.com/media/sets/60497-1.jpg",
     "theme": "City",
     "parent_theme": ""
@@ -237664,7 +237704,7 @@
     "name": "Lava Land Roller Coaster Park",
     "year": 2026,
     "theme_id": 52,
-    "num_parts": 0,
+    "num_parts": 1164,
     "img_url": "https://cdn.rebrickable.com/media/sets/60501-1.jpg",
     "theme": "City",
     "parent_theme": ""
@@ -237714,7 +237754,7 @@
     "name": "Classic Beach Tram",
     "year": 2026,
     "theme_id": 52,
-    "num_parts": 0,
+    "num_parts": 692,
     "img_url": "https://cdn.rebrickable.com/media/sets/60506-1.jpg",
     "theme": "City",
     "parent_theme": ""
@@ -237734,7 +237774,7 @@
     "name": "Harbor Freight Train with Crane & Truck",
     "year": 2026,
     "theme_id": 66,
-    "num_parts": 0,
+    "num_parts": 802,
     "img_url": "https://cdn.rebrickable.com/media/sets/60509-1.jpg",
     "theme": "Trains",
     "parent_theme": "City"
@@ -237754,7 +237794,7 @@
     "name": "Vintage Steam Train",
     "year": 2026,
     "theme_id": 66,
-    "num_parts": 0,
+    "num_parts": 579,
     "img_url": "https://cdn.rebrickable.com/media/sets/60511-1.jpg",
     "theme": "Trains",
     "parent_theme": "City"
@@ -237764,7 +237804,7 @@
     "name": "Mountain Bike Adventure Van",
     "year": 2026,
     "theme_id": 64,
-    "num_parts": 0,
+    "num_parts": 259,
     "img_url": "https://cdn.rebrickable.com/media/sets/60512-1.jpg",
     "theme": "Off-Road",
     "parent_theme": "City"
@@ -238264,7 +238304,7 @@
     "name": "Zilvar and Grimtak the Dragon Beast",
     "year": 2026,
     "theme_id": 435,
-    "num_parts": 233,
+    "num_parts": 232,
     "img_url": "https://cdn.rebrickable.com/media/sets/71863-1.jpg",
     "theme": "Ninjago",
     "parent_theme": ""
@@ -238304,7 +238344,7 @@
     "name": "X-1 Ninja Charger 15th Anniversary",
     "year": 2026,
     "theme_id": 435,
-    "num_parts": 0,
+    "num_parts": 690,
     "img_url": "https://cdn.rebrickable.com/media/sets/71867-1.jpg",
     "theme": "Ninjago",
     "parent_theme": ""
@@ -238314,7 +238354,7 @@
     "name": "Wyldfyre's Transforming Dragon Mech",
     "year": 2026,
     "theme_id": 435,
-    "num_parts": 0,
+    "num_parts": 821,
     "img_url": "https://cdn.rebrickable.com/media/sets/71868-1.jpg",
     "theme": "Ninjago",
     "parent_theme": ""
@@ -238334,7 +238374,7 @@
     "name": "The Twin Titan Mechs",
     "year": 2026,
     "theme_id": 435,
-    "num_parts": 0,
+    "num_parts": 1706,
     "img_url": "https://cdn.rebrickable.com/media/sets/71870-1.jpg",
     "theme": "Ninjago",
     "parent_theme": ""
@@ -238344,7 +238384,7 @@
     "name": "Battle at the Dragon's Blade",
     "year": 2026,
     "theme_id": 435,
-    "num_parts": 1016,
+    "num_parts": 1017,
     "img_url": "https://cdn.rebrickable.com/media/sets/71871-1.jpg",
     "theme": "Ninjago",
     "parent_theme": ""
@@ -238354,7 +238394,7 @@
     "name": "Ultra Dragon Battle",
     "year": 2026,
     "theme_id": 435,
-    "num_parts": 0,
+    "num_parts": 2177,
     "img_url": "https://cdn.rebrickable.com/media/sets/71872-1.jpg",
     "theme": "Ninjago",
     "parent_theme": ""
@@ -238404,7 +238444,7 @@
     "name": "Shrek, Donkey & Puss in Boots",
     "year": 2026,
     "theme_id": 796,
-    "num_parts": 0,
+    "num_parts": 1403,
     "img_url": "https://cdn.rebrickable.com/media/sets/72423-1.jpg",
     "theme": "Shrek",
     "parent_theme": ""
@@ -238684,7 +238724,7 @@
     "name": "Imperial Remnant AT-RT Driver Helmet",
     "year": 2026,
     "theme_id": 158,
-    "num_parts": 0,
+    "num_parts": 774,
     "img_url": "https://cdn.rebrickable.com/media/sets/75458-1.jpg",
     "theme": "Star Wars",
     "parent_theme": ""
@@ -238714,7 +238754,7 @@
     "name": "Up-Scaled Darth Vader Minifigure",
     "year": 2026,
     "theme_id": 158,
-    "num_parts": 0,
+    "num_parts": 1027,
     "img_url": "https://cdn.rebrickable.com/media/sets/75461-1.jpg",
     "theme": "Star Wars",
     "parent_theme": ""
@@ -238944,7 +238984,7 @@
     "name": "Spider-Man Hero Figure",
     "year": 2026,
     "theme_id": 706,
-    "num_parts": 0,
+    "num_parts": 893,
     "img_url": "https://cdn.rebrickable.com/media/sets/76346-1.jpg",
     "theme": "Spider-Man",
     "parent_theme": "Super Heroes Marvel"
@@ -238954,7 +238994,7 @@
     "name": "Spider-Man Prison Transport Chase",
     "year": 2026,
     "theme_id": 706,
-    "num_parts": 0,
+    "num_parts": 447,
     "img_url": "https://cdn.rebrickable.com/media/sets/76349-1.jpg",
     "theme": "Spider-Man",
     "parent_theme": "Super Heroes Marvel"
@@ -238964,7 +239004,7 @@
     "name": "Spider-Man vs. Hulk Epic Clash",
     "year": 2026,
     "theme_id": 706,
-    "num_parts": 0,
+    "num_parts": 534,
     "img_url": "https://cdn.rebrickable.com/media/sets/76350-1.jpg",
     "theme": "Spider-Man",
     "parent_theme": "Super Heroes Marvel"
@@ -238974,10 +239014,20 @@
     "name": "S.H.I.E.L.D. Helicarrier",
     "year": 2026,
     "theme_id": 781,
-    "num_parts": 0,
+    "num_parts": 3056,
     "img_url": "https://cdn.rebrickable.com/media/sets/76354-1.jpg",
     "theme": "The Infinity Saga",
     "parent_theme": "Super Heroes Marvel"
+  },
+  {
+    "set_num": "76356-1",
+    "name": "Venom Bust",
+    "year": 2026,
+    "theme_id": 696,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/76356-1.jpg",
+    "theme": "Super Heroes Marvel",
+    "parent_theme": ""
   },
   {
     "set_num": "76459-1",
@@ -239014,7 +239064,7 @@
     "name": "Hogwarts House Crest",
     "year": 2026,
     "theme_id": 246,
-    "num_parts": 0,
+    "num_parts": 544,
     "img_url": "https://cdn.rebrickable.com/media/sets/76462-1.jpg",
     "theme": "Harry Potter",
     "parent_theme": ""
@@ -239074,7 +239124,7 @@
     "name": "Knockturn Alley Wizarding Shops",
     "year": 2026,
     "theme_id": 246,
-    "num_parts": 0,
+    "num_parts": 794,
     "img_url": "https://cdn.rebrickable.com/media/sets/76471-1.jpg",
     "theme": "Harry Potter",
     "parent_theme": ""
@@ -239084,7 +239134,7 @@
     "name": "Hogwarts Castle: East Wing",
     "year": 2026,
     "theme_id": 246,
-    "num_parts": 0,
+    "num_parts": 2172,
     "img_url": "https://cdn.rebrickable.com/media/sets/76473-1.jpg",
     "theme": "Harry Potter",
     "parent_theme": ""
@@ -239094,7 +239144,7 @@
     "name": "Hogwarts Herbology Plants",
     "year": 2026,
     "theme_id": 246,
-    "num_parts": 0,
+    "num_parts": 816,
     "img_url": "https://cdn.rebrickable.com/media/sets/76474-1.jpg",
     "theme": "Harry Potter",
     "parent_theme": ""
@@ -239104,7 +239154,7 @@
     "name": "Forbidden Forest: Expecto Patronum",
     "year": 2026,
     "theme_id": 246,
-    "num_parts": 0,
+    "num_parts": 245,
     "img_url": "https://cdn.rebrickable.com/media/sets/76475-1.jpg",
     "theme": "Harry Potter",
     "parent_theme": ""
@@ -239114,7 +239164,7 @@
     "name": "Norbert: Hagrid's Baby Dragon",
     "year": 2026,
     "theme_id": 246,
-    "num_parts": 0,
+    "num_parts": 482,
     "img_url": "https://cdn.rebrickable.com/media/sets/76477-1.jpg",
     "theme": "Harry Potter",
     "parent_theme": ""
@@ -239124,7 +239174,7 @@
     "name": "Book Nook: Dumbledore's Office",
     "year": 2026,
     "theme_id": 246,
-    "num_parts": 0,
+    "num_parts": 1182,
     "img_url": "https://cdn.rebrickable.com/media/sets/76478-1.jpg",
     "theme": "Harry Potter",
     "parent_theme": ""
@@ -239144,7 +239194,7 @@
     "name": "Tomatohead",
     "year": 2026,
     "theme_id": 766,
-    "num_parts": 0,
+    "num_parts": 209,
     "img_url": "https://cdn.rebrickable.com/media/sets/77079-1.jpg",
     "theme": "Fortnite",
     "parent_theme": ""
@@ -239154,7 +239204,7 @@
     "name": "Supply Drop",
     "year": 2026,
     "theme_id": 766,
-    "num_parts": 0,
+    "num_parts": 314,
     "img_url": "https://cdn.rebrickable.com/media/sets/77080-1.jpg",
     "theme": "Fortnite",
     "parent_theme": ""
@@ -239164,7 +239214,7 @@
     "name": "KIT",
     "year": 2026,
     "theme_id": 766,
-    "num_parts": 0,
+    "num_parts": 1229,
     "img_url": "https://cdn.rebrickable.com/media/sets/77081-1.jpg",
     "theme": "Fortnite",
     "parent_theme": ""
@@ -239174,7 +239224,7 @@
     "name": "Rave Cave",
     "year": 2026,
     "theme_id": 766,
-    "num_parts": 0,
+    "num_parts": 1962,
     "img_url": "https://cdn.rebrickable.com/media/sets/77082-1.jpg",
     "theme": "Fortnite",
     "parent_theme": ""
@@ -239314,7 +239364,7 @@
     "name": "The Fast and The Furious Toyota Supra MK4",
     "year": 2026,
     "theme_id": 601,
-    "num_parts": 0,
+    "num_parts": 291,
     "img_url": "https://cdn.rebrickable.com/media/sets/77260-1.jpg",
     "theme": "Speed Champions",
     "parent_theme": ""
@@ -239324,7 +239374,7 @@
     "name": "Ferrari 499P",
     "year": 2026,
     "theme_id": 601,
-    "num_parts": 0,
+    "num_parts": 328,
     "img_url": "https://cdn.rebrickable.com/media/sets/77261-1.jpg",
     "theme": "Speed Champions",
     "parent_theme": ""
@@ -239334,7 +239384,7 @@
     "name": "Ken Block's '65 Ford Mustang Hoonicorn V1",
     "year": 2026,
     "theme_id": 601,
-    "num_parts": 0,
+    "num_parts": 344,
     "img_url": "https://cdn.rebrickable.com/media/sets/77262-1.jpg",
     "theme": "Speed Champions",
     "parent_theme": ""
@@ -239424,7 +239474,7 @@
     "name": "Dinosaur Fossils: Triceratops",
     "year": 2026,
     "theme_id": 602,
-    "num_parts": 0,
+    "num_parts": 1154,
     "img_url": "https://cdn.rebrickable.com/media/sets/77985-1.jpg",
     "theme": "Jurassic World",
     "parent_theme": ""
@@ -240630,6 +240680,16 @@
     "parent_theme": "Collectible Minifigures"
   },
   {
+    "set_num": "6626040-1",
+    "name": "Mix-it-up Jersey",
+    "year": 2026,
+    "theme_id": 598,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6626040-1.jpg",
+    "theme": "Promotional",
+    "parent_theme": ""
+  },
+  {
     "set_num": "6626042-1",
     "name": "Egg-spress Yourself",
     "year": 2026,
@@ -240847,6 +240907,36 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/6646282-1.jpg",
     "theme": "Promotional",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6646739-1",
+    "name": "Dark and Bloomy",
+    "year": 2026,
+    "theme_id": 769,
+    "num_parts": 56,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6646739-1.jpg",
+    "theme": "Botanicals",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6646740-1",
+    "name": "Scarlet Passion",
+    "year": 2026,
+    "theme_id": 769,
+    "num_parts": 64,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6646740-1.jpg",
+    "theme": "Botanicals",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6646741-1",
+    "name": "The Rosy Crush",
+    "year": 2026,
+    "theme_id": 769,
+    "num_parts": 56,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6646741-1.jpg",
+    "theme": "Botanicals",
     "parent_theme": ""
   },
   {
@@ -346275,7 +346365,7 @@
   },
   {
     "fig_num": "fig-015052",
-    "name": "Moana (Sienna Brown)",
+    "name": "Moana, Sienna Brown, Tan Skirt (28705 Hair)",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-015052.jpg",
     "theme": "",
@@ -349043,7 +349133,7 @@
   },
   {
     "fig_num": "fig-015549",
-    "name": "Lilo",
+    "name": "Lilo, Bright Pink Flower, Brick Skirt",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-015549.jpg",
     "theme": "",
