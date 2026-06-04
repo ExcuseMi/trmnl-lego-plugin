@@ -49,7 +49,7 @@
   optional: true
 - keyname: themes_rebrickable
   field_type: select
-  name: Filter by Themes – Rebrickable (415)
+  name: Filter by Themes – Rebrickable (416)
   description: Select one or more themes to display. Only applicable when using Rebrickable as your data source.
   multiple: true
   options:
@@ -163,8 +163,8 @@
   - Duplo and Explore (189): duplo-and-explore|1|189
   - Early Creator (35): early-creator|1|35
   - Easter (58): easter|1|58
-  - Editions (13): editions|1|13
-  - Educational and Dacta (119): educational-and-dacta|1|119
+  - Editions (15): editions|1|15
+  - Educational and Dacta (123): educational-and-dacta|1|123
   - eLAB (5): elab|1|5
   - Elves (42): elves|1|42
   - EV3 (12): ev3|1|12
@@ -272,7 +272,7 @@
   - Mickey Mouse (14): mickey-mouse|1|14
   - Miles From Tomorrowland (3): miles-from-tomorrowland|1|3
   - Mindstorms (28): mindstorms|1|28
-  - Minecraft (200): minecraft|1|200
+  - Minecraft (201): minecraft|1|201
   - Mini (1): mini|1|1
   - Minions (9): minions|1|9
   - Minitalia (19): minitalia|1|19
@@ -311,7 +311,7 @@
   - Playhouse (58): playhouse|1|58
   - Playsets (11): playsets|1|11
   - Plush Toys (118): plush-toys|1|118
-  - Pokémon (5): pokémon|1|5
+  - Pokémon (20): pokémon|1|20
   - Police (207): police|1|207
   - Posters and Art Prints (95): posters-and-art-prints|1|95
   - Power Functions (18): power-functions|1|18
@@ -320,7 +320,7 @@
   - Primo (114): primo|1|114
   - Prince of Persia (6): prince-of-persia|1|6
   - Princess Castle (6): princess-castle|1|6
-  - Promotional (178): promotional|1|178
+  - Promotional (179): promotional|1|179
   - Protectors (6): protectors|1|6
   - Quatro (9): quatro|1|9
   - Race (16): race|1|16
@@ -413,6 +413,7 @@
   - Teenage Mutant Ninja Turtles (20): teenage-mutant-ninja-turtles|1|20
   - Thanksgiving (10): thanksgiving|1|10
   - The Hobbit (20): the-hobbit|1|20
+  - The Hobbit and Lord of the Rings (1): the-hobbit-and-lord-of-the-rings|1|1
   - The Infinity Saga (58): the-infinity-saga|1|58
   - The Legend of Zelda (2): the-legend-of-zelda|1|2
   - The LEGO Batman Movie (42): the-lego-batman-movie|1|42

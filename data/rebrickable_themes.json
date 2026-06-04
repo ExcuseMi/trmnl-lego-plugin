@@ -333,10 +333,10 @@
     "Easter : 58": "easter|1|58"
   },
   {
-    "Editions : 13": "editions|1|13"
+    "Editions : 15": "editions|1|15"
   },
   {
-    "Educational and Dacta : 119": "educational-and-dacta|1|119"
+    "Educational and Dacta : 123": "educational-and-dacta|1|123"
   },
   {
     "Elves : 42": "elves|1|42"
@@ -654,7 +654,7 @@
     "Mindstorms : 28": "mindstorms|1|28"
   },
   {
-    "Minecraft : 200": "minecraft|1|200"
+    "Minecraft : 201": "minecraft|1|201"
   },
   {
     "Mini : 1": "mini|1|1"
@@ -771,7 +771,7 @@
     "Plush Toys : 118": "plush-toys|1|118"
   },
   {
-    "Pokémon : 5": "pokémon|1|5"
+    "Pokémon : 20": "pokémon|1|20"
   },
   {
     "Police : 207": "police|1|207"
@@ -798,7 +798,7 @@
     "Princess Castle : 6": "princess-castle|1|6"
   },
   {
-    "Promotional : 178": "promotional|1|178"
+    "Promotional : 179": "promotional|1|179"
   },
   {
     "Protectors : 6": "protectors|1|6"
@@ -1075,6 +1075,9 @@
   },
   {
     "The Hobbit : 20": "the-hobbit|1|20"
+  },
+  {
+    "The Hobbit and Lord of the Rings : 1": "the-hobbit-and-lord-of-the-rings|1|1"
   },
   {
     "The Infinity Saga : 58": "the-infinity-saga|1|58"
