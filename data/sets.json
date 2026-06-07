@@ -159834,7 +159834,7 @@
     "name": "Heartlake City Supermarket",
     "year": 2019,
     "theme_id": 494,
-    "num_parts": 139,
+    "num_parts": 140,
     "img_url": "https://cdn.rebrickable.com/media/sets/41362-1.jpg",
     "theme": "Friends",
     "parent_theme": ""
@@ -209450,6 +209450,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "6651880-1",
+    "name": "Arcade driving game",
+    "year": 2023,
+    "theme_id": 408,
+    "num_parts": 32,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6651880-1.jpg",
+    "theme": "LEGO Brand Store",
+    "parent_theme": ""
+  },
+  {
     "set_num": "34607701-1",
     "name": "Ninjago: Time to Play! Master Wu",
     "year": 2023,
@@ -232990,6 +233000,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "6616757-1",
+    "name": "ONE Bangkok Grand Opening",
+    "year": 2025,
+    "theme_id": 408,
+    "num_parts": 146,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6616757-1.jpg",
+    "theme": "LEGO Brand Store",
+    "parent_theme": ""
+  },
+  {
     "set_num": "6621904-1",
     "name": "Red Car",
     "year": 2025,
@@ -234720,6 +234740,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "21065-1",
+    "name": "Sagrada Família",
+    "year": 2026,
+    "theme_id": 252,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/21065-1.jpg",
+    "theme": "Architecture",
+    "parent_theme": ""
+  },
+  {
     "set_num": "21066-1",
     "name": "New York City – The Big Apple",
     "year": 2026,
@@ -235704,7 +235734,7 @@
     "name": "SEGA Genesis Console",
     "year": 2026,
     "theme_id": 301,
-    "num_parts": 478,
+    "num_parts": 479,
     "img_url": "https://cdn.rebrickable.com/media/sets/40926-1.jpg",
     "theme": "Other",
     "parent_theme": ""
@@ -240130,6 +240160,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "951374-1",
+    "name": "Jay and Mutation Monster",
+    "year": 2026,
+    "theme_id": 435,
+    "num_parts": 24,
+    "img_url": "https://cdn.rebrickable.com/media/sets/951374-1.jpg",
+    "theme": "Ninjago",
+    "parent_theme": ""
+  },
+  {
     "set_num": "951384-1",
     "name": "Nya",
     "year": 2026,
@@ -240137,6 +240177,16 @@
     "num_parts": 1,
     "img_url": "https://cdn.rebrickable.com/media/sets/951384-1.jpg",
     "theme": "Ninjago",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "951405-1",
+    "name": "Republic Gunship",
+    "year": 2026,
+    "theme_id": 158,
+    "num_parts": 59,
+    "img_url": "https://cdn.rebrickable.com/media/sets/951405-1.jpg",
+    "theme": "Star Wars",
     "parent_theme": ""
   },
   {
@@ -240990,6 +241040,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "6626067-1",
+    "name": "Cleat",
+    "year": 2026,
+    "theme_id": 301,
+    "num_parts": 87,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6626067-1.jpg",
+    "theme": "Other",
+    "parent_theme": ""
+  },
+  {
     "set_num": "6631373-1",
     "name": "Baby Puppy",
     "year": 2026,
@@ -241157,6 +241217,16 @@
     "num_parts": 56,
     "img_url": "https://cdn.rebrickable.com/media/sets/6646741-1.jpg",
     "theme": "Botanicals",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6647171-1",
+    "name": "Stadium Prepack",
+    "year": 2026,
+    "theme_id": 408,
+    "num_parts": 17,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6647171-1.jpg",
+    "theme": "LEGO Brand Store",
     "parent_theme": ""
   },
   {
@@ -351261,7 +351331,7 @@
   },
   {
     "fig_num": "fig-015905",
-    "name": "Cactus Knight",
+    "name": "Cactus Knight, Dark Azure Armor",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-015905.jpg",
     "theme": "",
