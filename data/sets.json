@@ -80390,6 +80390,16 @@
     "parent_theme": "Books"
   },
   {
+    "set_num": "9783935976534-1",
+    "name": "Premium Collector",
+    "year": 2008,
+    "theme_id": 758,
+    "num_parts": 6,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9783935976534-1.jpg",
+    "theme": "Non-fiction Books",
+    "parent_theme": "Books"
+  },
+  {
     "set_num": "llca34-1",
     "name": "Sarcophagus (LLCA Ambassador Pass Exclusive)",
     "year": 2008,
@@ -187550,16 +187560,6 @@
     "parent_theme": "Seasonal"
   },
   {
-    "set_num": "6395519-1",
-    "name": "Land Duck",
-    "year": 2021,
-    "theme_id": 504,
-    "num_parts": 6,
-    "img_url": "https://cdn.rebrickable.com/media/sets/6395519-1.jpg",
-    "theme": "Duplo",
-    "parent_theme": ""
-  },
-  {
     "set_num": "6399469-1",
     "name": "Bonn Brand Store Opening Associate Figure",
     "year": 2021,
@@ -195858,6 +195858,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/4002022-1.jpg",
     "theme": "Friends",
     "parent_theme": ""
+  },
+  {
+    "set_num": "4002503-1",
+    "name": "P4P Toolkit",
+    "year": 2022,
+    "theme_id": 516,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/4002503-1.jpg",
+    "theme": "Duplo and Explore",
+    "parent_theme": "Educational and Dacta"
   },
   {
     "set_num": "4040873-1",
@@ -209360,6 +209370,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "6486167-1",
+    "name": "Opera Singer 4 in 1",
+    "year": 2023,
+    "theme_id": 779,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6486167-1.jpg",
+    "theme": "Chinese (Lunar) New Year",
+    "parent_theme": "Seasonal"
+  },
+  {
     "set_num": "6490363-1",
     "name": "By The Fireplace",
     "year": 2023,
@@ -216960,6 +216980,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "110388-1",
+    "name": "Kunming Opening Commemorative Coin Set",
+    "year": 2024,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/110388-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
     "set_num": "112328-1",
     "name": "Pixal vs Viper Flyer",
     "year": 2024,
@@ -219878,6 +219908,26 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/6485233-1.jpg",
     "theme": "Christmas",
     "parent_theme": "Seasonal"
+  },
+  {
+    "set_num": "6485235-1",
+    "name": "Dragon",
+    "year": 2024,
+    "theme_id": 779,
+    "num_parts": 34,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6485235-1.jpg",
+    "theme": "Chinese (Lunar) New Year",
+    "parent_theme": "Seasonal"
+  },
+  {
+    "set_num": "6486168-1",
+    "name": "Red-Crowned Crane",
+    "year": 2024,
+    "theme_id": 408,
+    "num_parts": 135,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6486168-1.jpg",
+    "theme": "LEGO Brand Store",
+    "parent_theme": ""
   },
   {
     "set_num": "6500703-1",
@@ -232670,6 +232720,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "6586975-1",
+    "name": "Riyadh Grand Opening",
+    "year": 2025,
+    "theme_id": 408,
+    "num_parts": 158,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6586975-1.jpg",
+    "theme": "LEGO Brand Store",
+    "parent_theme": ""
+  },
+  {
     "set_num": "6586987-1",
     "name": "Kraków Grand Opening",
     "year": 2025,
@@ -234190,6 +234250,26 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "9789047885092-1",
+    "name": "Ninjago: Dragons Rising: Kleur de Wereld van Ninjago",
+    "year": 2025,
+    "theme_id": 760,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9789047885092-1.jpg",
+    "theme": "Activity Books",
+    "parent_theme": "Books"
+  },
+  {
+    "set_num": "9789047885108-1",
+    "name": "Star Wars: Kleur met Galactische Helden",
+    "year": 2025,
+    "theme_id": 760,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9789047885108-1.jpg",
+    "theme": "Activity Books",
+    "parent_theme": "Books"
+  },
+  {
     "set_num": "977303527791450001-1",
     "name": "Minecraft Sticker Collection: Adventure Mode - Sealed Box (36 Packs)",
     "year": 2025,
@@ -234204,7 +234284,7 @@
     "name": "Frozen Creative Box with Elsa and Olaf",
     "year": 2026,
     "theme_id": 640,
-    "num_parts": 0,
+    "num_parts": 37,
     "img_url": "https://cdn.rebrickable.com/media/sets/10462-1.jpg",
     "theme": "Disney Princess",
     "parent_theme": "Disney"
@@ -240760,6 +240840,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "6395519-1",
+    "name": "Land Duck",
+    "year": 2026,
+    "theme_id": 504,
+    "num_parts": 6,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6395519-1.jpg",
+    "theme": "Duplo",
+    "parent_theme": ""
+  },
+  {
     "set_num": "6518176-1",
     "name": "St. Patrick's Day Hat",
     "year": 2026,
@@ -240767,6 +240857,16 @@
     "num_parts": 21,
     "img_url": "https://cdn.rebrickable.com/media/sets/6518176-1.jpg",
     "theme": "LEGO Brand Store",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6572895-1",
+    "name": "Herschel Pencil",
+    "year": 2026,
+    "theme_id": 598,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6572895-1.jpg",
+    "theme": "Promotional",
     "parent_theme": ""
   },
   {
@@ -240954,7 +241054,7 @@
     "name": "Mix-it-up Jersey",
     "year": 2026,
     "theme_id": 598,
-    "num_parts": 0,
+    "num_parts": 141,
     "img_url": "https://cdn.rebrickable.com/media/sets/6626040-1.jpg",
     "theme": "Promotional",
     "parent_theme": ""
@@ -241050,6 +241150,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "6630782-1",
+    "name": "Emmy Award",
+    "year": 2026,
+    "theme_id": 598,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6630782-1.jpg",
+    "theme": "Promotional",
+    "parent_theme": ""
+  },
+  {
     "set_num": "6631373-1",
     "name": "Baby Puppy",
     "year": 2026,
@@ -241084,7 +241194,7 @@
     "name": "Trophy",
     "year": 2026,
     "theme_id": 408,
-    "num_parts": 0,
+    "num_parts": 57,
     "img_url": "https://cdn.rebrickable.com/media/sets/6638187-1.jpg",
     "theme": "LEGO Brand Store",
     "parent_theme": ""
