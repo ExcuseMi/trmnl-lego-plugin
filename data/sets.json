@@ -40474,7 +40474,7 @@
     "name": "The Race to Build It Board Game",
     "year": 1999,
     "theme_id": 674,
-    "num_parts": 77,
+    "num_parts": 79,
     "img_url": "https://cdn.rebrickable.com/media/sets/03093-1.jpg",
     "theme": "Early Creator",
     "parent_theme": "Creator"
@@ -240850,6 +240850,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "5010253-1",
+    "name": "Nike x LEGO Collection Big Kids' Hoodie - Black",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010253-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
     "set_num": "5010254-1",
     "name": "Nike x LEGO Collection Big Kids' Hoodie - White",
     "year": 2026,
@@ -240903,21 +240913,21 @@
     "set_num": "5010260-1",
     "name": "Nike x LEGO Collection Shoebox Bag",
     "year": 2026,
-    "theme_id": 501,
+    "theme_id": 777,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/5010260-1.jpg",
-    "theme": "Gear",
-    "parent_theme": ""
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
   },
   {
     "set_num": "5010261-1",
     "name": "Nike x LEGO Collection Waistpack",
     "year": 2026,
-    "theme_id": 501,
+    "theme_id": 777,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/5010261-1.jpg",
-    "theme": "Gear",
-    "parent_theme": ""
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
   },
   {
     "set_num": "5010262-1",
@@ -242488,16 +242498,6 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/9780241838389-1.jpg",
     "theme": "Story Books",
     "parent_theme": "Books"
-  },
-  {
-    "set_num": "5010253-1",
-    "name": "Nike x LEGO® Collection Big Kids' Hoodie - Black",
-    "year": 20276,
-    "theme_id": 501,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/5010253-1.jpg",
-    "theme": "Gear",
-    "parent_theme": ""
   },
   {
     "fig_num": "fig-000001",
