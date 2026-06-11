@@ -100,9 +100,9 @@
     {% if show_qr_code and show_qr_code != "hide" %}
     <div class="qr-code">
       {% if vendor == "rebrickable" %}
-      {{ rebrickable_url | qr_code: 3, 'm' }}
+      {{ rebrickable_url | qr_code: 3, 'm', 'fixed' }}
       {% elsif vendor == "brickset" %}
-      {{ brickset_url | qr_code: 3, 'm' }}
+      {{ brickset_url | qr_code: 3, 'm', 'fixed'  }}
       {% endif %}
     </div>
     {% endif %}
