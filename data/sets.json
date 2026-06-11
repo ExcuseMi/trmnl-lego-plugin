@@ -240310,6 +240310,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "951312-1",
+    "name": "Firefighter",
+    "year": 2026,
+    "theme_id": 58,
+    "num_parts": 33,
+    "img_url": "https://cdn.rebrickable.com/media/sets/951312-1.jpg",
+    "theme": "Fire",
+    "parent_theme": "City"
+  },
+  {
     "set_num": "951319-1",
     "name": "Smith with Smithing Table, Netherite Armor and Armor Stand",
     "year": 2026,
