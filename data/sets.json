@@ -46080,6 +46080,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "5031366050595-1",
+    "name": "Lego My World: First Steps",
+    "year": 2000,
+    "theme_id": 742,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5031366050595-1.jpg",
+    "theme": "Video Games and Accessories",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "9780751372649-1",
     "name": "DK Readers Level 4: Race for Survival",
     "year": 2000,
@@ -109450,6 +109460,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "9317731099908-1",
+    "name": "Legends of Chima: Volume 1",
+    "year": 2013,
+    "theme_id": 730,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9317731099908-1.jpg",
+    "theme": "Audio and Visual Media",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "9344914003209-1",
     "name": "Brick Pencil Case (All Colors)",
     "year": 2013,
@@ -110138,6 +110158,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/9781472604217-1.jpg",
     "theme": "Stationery and Office Supplies",
     "parent_theme": "Gear"
+  },
+  {
+    "set_num": "9781743620434-1",
+    "name": "Legends of Chima: Official Guide",
+    "year": 2013,
+    "theme_id": 758,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9781743620434-1.jpg",
+    "theme": "Non-fiction Books",
+    "parent_theme": "Books"
   },
   {
     "set_num": "9783845101354-1",
@@ -235410,6 +235440,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "30762-1",
+    "name": "Retro Video Game Batman",
+    "year": 2026,
+    "theme_id": 697,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/30762-1.jpg",
+    "theme": "Batman",
+    "parent_theme": "Super Heroes DC"
+  },
+  {
     "set_num": "31218-1",
     "name": "Japanese Cherry Blossom Landscape",
     "year": 2026,
@@ -235777,6 +235817,16 @@
     "num_parts": 307,
     "img_url": "https://cdn.rebrickable.com/media/sets/40893-1.jpg",
     "theme": "Icons",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "40902-1",
+    "name": "Tribute to Leonardo da Vinci",
+    "year": 2026,
+    "theme_id": 301,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40902-1.jpg",
+    "theme": "Other",
     "parent_theme": ""
   },
   {
@@ -241560,12 +241610,12 @@
     "parent_theme": ""
   },
   {
-    "set_num": "6638187-1",
+    "set_num": "6638188-1",
     "name": "Trophy",
     "year": 2026,
     "theme_id": 408,
     "num_parts": 57,
-    "img_url": "https://cdn.rebrickable.com/media/sets/6638187-1.jpg",
+    "img_url": "https://cdn.rebrickable.com/media/sets/6638188-1.jpg",
     "theme": "LEGO Brand Store",
     "parent_theme": ""
   },
