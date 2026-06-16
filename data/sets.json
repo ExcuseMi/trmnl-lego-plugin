@@ -15774,7 +15774,7 @@
     "name": "Community Vehicles",
     "year": 1985,
     "theme_id": 507,
-    "num_parts": 257,
+    "num_parts": 251,
     "img_url": "https://cdn.rebrickable.com/media/sets/1067-1.jpg",
     "theme": "Educational and Dacta",
     "parent_theme": ""
@@ -91384,7 +91384,7 @@
     "name": "City Advent Calendar 2011",
     "year": 2011,
     "theme_id": 208,
-    "num_parts": 231,
+    "num_parts": 232,
     "img_url": "https://cdn.rebrickable.com/media/sets/7553-1.jpg",
     "theme": "City",
     "parent_theme": "Advent"
@@ -200834,7 +200834,7 @@
     "name": "Water Park",
     "year": 2023,
     "theme_id": 504,
-    "num_parts": 19,
+    "num_parts": 20,
     "img_url": "https://cdn.rebrickable.com/media/sets/10989-1.jpg",
     "theme": "Duplo",
     "parent_theme": ""
@@ -238927,6 +238927,16 @@
     "num_parts": 1403,
     "img_url": "https://cdn.rebrickable.com/media/sets/72423-1.jpg",
     "theme": "Shrek",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "72537-1",
+    "name": "Derpy Tiger and Sussie Bird",
+    "year": 2026,
+    "theme_id": 792,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/72537-1.jpg",
+    "theme": "KPop Demon Hunters",
     "parent_theme": ""
   },
   {
@@ -312866,7 +312876,7 @@
   {
     "fig_num": "fig-009472",
     "name": "Woman, Red Torso, Red Legs,  Brown Hair (3626a Head)",
-    "num_parts": 10,
+    "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-009472.jpg",
     "theme": "",
     "parent_theme": ""

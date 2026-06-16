@@ -49,7 +49,7 @@
   optional: true
 - keyname: themes_rebrickable
   field_type: select
-  name: Filter by Themes – Rebrickable (416)
+  name: Filter by Themes – Rebrickable (417)
   description: Select one or more themes to display. Only applicable when using Rebrickable as your data source.
   multiple: true
   options:
@@ -240,6 +240,7 @@
   - Kingdoms (17): kingdoms|1|17
   - Knights Kingdom I (20): knights-kingdom-i|1|20
   - Knights Kingdom II (71): knights-kingdom-ii|1|71
+  - KPop Demon Hunters (1): kpop-demon-hunters|1|1
   - Launch Command (5): launch-command|1|5
   - Learning (5): learning|1|5
   - Learning at Home (4): learning-at-home|1|4
