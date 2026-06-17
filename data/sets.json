@@ -45234,7 +45234,7 @@
     "name": "Royal Joust",
     "year": 2000,
     "theme_id": 197,
-    "num_parts": 103,
+    "num_parts": 104,
     "img_url": "https://cdn.rebrickable.com/media/sets/6095-1.jpg",
     "theme": "Knights Kingdom I",
     "parent_theme": "Castle"
@@ -46081,7 +46081,7 @@
   },
   {
     "set_num": "5031366050595-1",
-    "name": "Lego My World: First Steps",
+    "name": "My World: First Steps",
     "year": 2000,
     "theme_id": 742,
     "num_parts": 0,
@@ -60048,6 +60048,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/5004061-1.jpg",
     "theme": "Gear",
     "parent_theme": ""
+  },
+  {
+    "set_num": "5031366112866-1",
+    "name": "My World: School Skills",
+    "year": 2003,
+    "theme_id": 742,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5031366112866-1.jpg",
+    "theme": "Video Games and Accessories",
+    "parent_theme": "Gear"
   },
   {
     "set_num": "9780141317359-1",
