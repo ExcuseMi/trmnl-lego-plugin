@@ -100904,7 +100904,7 @@
     "name": "Super Heroes Magnet Set",
     "year": 2012,
     "theme_id": 734,
-    "num_parts": 20,
+    "num_parts": 25,
     "img_url": "https://cdn.rebrickable.com/media/sets/853431-1.jpg",
     "theme": "Magnets",
     "parent_theme": "Gear"
@@ -127550,6 +127550,16 @@
     "parent_theme": "Books"
   },
   {
+    "set_num": "108012015-1",
+    "name": "Hero Factory 2 Preston Stormer C4 Briefcase",
+    "year": 2015,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/108012015-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "0241187567-1",
     "name": "Ninjago: Build Your Own Adventure",
     "year": 2015,
@@ -127558,6 +127568,26 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/0241187567-1.jpg",
     "theme": "Activity Books with LEGO Parts",
     "parent_theme": "Books"
+  },
+  {
+    "set_num": "502012026-1",
+    "name": "Hero Factory 2 William Furno Backpack",
+    "year": 2015,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/502012026-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "505012015-1",
+    "name": "Hero Factory 2 William Furno Pencil Case",
+    "year": 2015,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/505012015-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
   },
   {
     "set_num": "1000565140-1",
@@ -218410,6 +218440,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "912408-2",
+    "name": "Darth Vader [Helmet Tin]",
+    "year": 2024,
+    "theme_id": 158,
+    "num_parts": 2,
+    "img_url": "https://cdn.rebrickable.com/media/sets/912408-2.jpg",
+    "theme": "Star Wars",
+    "parent_theme": ""
+  },
+  {
     "set_num": "912409-1",
     "name": "Clone Trooper",
     "year": 2024,
@@ -228850,6 +228890,16 @@
     "parent_theme": "Super Heroes DC"
   },
   {
+    "set_num": "212504-2",
+    "name": "Superman [Superman Logo Tin]",
+    "year": 2025,
+    "theme_id": 701,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/212504-2.jpg",
+    "theme": "Superman",
+    "parent_theme": "Super Heroes DC"
+  },
+  {
     "set_num": "212505-1",
     "name": "The Joker and Robot",
     "year": 2025,
@@ -228868,6 +228918,26 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/212506-1.jpg",
     "theme": "Batman",
     "parent_theme": "Super Heroes DC"
+  },
+  {
+    "set_num": "232779-1",
+    "name": "Ninjago Be Ninja Duvet Set",
+    "year": 2025,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/232779-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "232793-1",
+    "name": "Ninjago Together We Rise Duvet Set",
+    "year": 2025,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/232793-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
   },
   {
     "set_num": "242501-1",
@@ -228926,6 +228996,16 @@
     "theme_id": 702,
     "num_parts": 18,
     "img_url": "https://cdn.rebrickable.com/media/sets/242506-1.jpg",
+    "theme": "Avengers",
+    "parent_theme": "Super Heroes Marvel"
+  },
+  {
+    "set_num": "242506-2",
+    "name": "Captain America [Captain America's Shield Tin]",
+    "year": 2025,
+    "theme_id": 702,
+    "num_parts": 18,
+    "img_url": "https://cdn.rebrickable.com/media/sets/242506-2.jpg",
     "theme": "Avengers",
     "parent_theme": "Super Heroes Marvel"
   },
@@ -233840,6 +233920,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "202812512-1",
+    "name": "Ninjago Jay Backpack",
+    "year": 2025,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/202812512-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "202842501-1",
     "name": "Ninjago Elemental Master Of Energy Lunch Bag",
     "year": 2025,
@@ -233878,6 +233968,26 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/202842506-1.jpg",
     "theme": "Houseware",
     "parent_theme": "Gear"
+  },
+  {
+    "set_num": "202882508-1",
+    "name": "Ninjago Lloyd Wallet",
+    "year": 2025,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/202882508-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "202882513-1",
+    "name": "Ninjago Cole Wallet",
+    "year": 2025,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/202882513-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
   },
   {
     "set_num": "202912501-1",
@@ -234780,6 +234890,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "11374-1",
+    "name": "Arcade Pinball Machine",
+    "year": 2026,
+    "theme_id": 721,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/11374-1.jpg",
+    "theme": "Icons",
+    "parent_theme": ""
+  },
+  {
     "set_num": "11375-1",
     "name": "Ferrari F2004 & Michael Schumacher",
     "year": 2026,
@@ -235458,6 +235578,56 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/30762-1.jpg",
     "theme": "Batman",
     "parent_theme": "Super Heroes DC"
+  },
+  {
+    "set_num": "30928-1",
+    "name": "Multicolour Stainless Steel Bottle (780ml)",
+    "year": 2026,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/30928-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "30943-1",
+    "name": "Multicolour XL Stainless Steel Tumbler",
+    "year": 2026,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/30943-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "30951-1",
+    "name": "Multicolour Bottle",
+    "year": 2026,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/30951-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "30977-1",
+    "name": "Multicolour Mug",
+    "year": 2026,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/30977-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "30989-1",
+    "name": "Multicolour Stainless Steel Bottle (515ml)",
+    "year": 2026,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/30989-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
   },
   {
     "set_num": "31218-1",
@@ -240000,6 +240170,56 @@
     "parent_theme": ""
   },
   {
+    "set_num": "81307-2",
+    "name": "Ninjago: Dragons Rising Cup",
+    "year": 2026,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/81307-2.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "81319-1",
+    "name": "Ninjago: Dragons Rising Placemat",
+    "year": 2026,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/81319-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "81353-1",
+    "name": "Ninjago: Dragons Rising Lunch Bag",
+    "year": 2026,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/81353-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "81358-1",
+    "name": "Ninjago: Dragons Rising Set of 3 Snack Boxes",
+    "year": 2026,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/81358-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "81379-1",
+    "name": "Ninjago: Dragons Rising Mug",
+    "year": 2026,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/81379-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "88020-1",
     "name": "USB Power Adapter Type I (Black)",
     "year": 2026,
@@ -240048,6 +240268,26 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/88020-5.jpg",
     "theme": "Powered Up",
     "parent_theme": "Power Functions"
+  },
+  {
+    "set_num": "94988-1",
+    "name": "Ninjago: Dragons Rising Mug",
+    "year": 2026,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/94988-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "94990-1",
+    "name": "Ninjago: Dragons Rising Lunch Box",
+    "year": 2026,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/94990-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
   },
   {
     "set_num": "112601-1",
@@ -241240,6 +241480,26 @@
     "parent_theme": "Books"
   },
   {
+    "set_num": "5010392-1",
+    "name": "Brick Art Line Vase",
+    "year": 2026,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010392-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010393-1",
+    "name": "Wild Flower Vase",
+    "year": 2026,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010393-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "5010447-1",
     "name": "Batman: Legacy of the Dark Knight (All Formats)",
     "year": 2026,
@@ -241811,7 +242071,7 @@
   },
   {
     "set_num": "6650001-1",
-    "name": "Smart Brick Star Wars Sticker",
+    "name": "Star Wars SMART Play Sticker Set",
     "year": 2026,
     "theme_id": 501,
     "num_parts": 0,
@@ -241918,26 +242178,6 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/6671868-1.jpg",
     "theme": "LEGO Brand Store",
     "parent_theme": ""
-  },
-  {
-    "set_num": "40350800-1",
-    "name": "Brick Art Line Vase",
-    "year": 2026,
-    "theme_id": 733,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/40350800-1.jpg",
-    "theme": "Houseware",
-    "parent_theme": "Gear"
-  },
-  {
-    "set_num": "40350801-1",
-    "name": "Wild Flower Vase",
-    "year": 2026,
-    "theme_id": 733,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/40350801-1.jpg",
-    "theme": "Houseware",
-    "parent_theme": "Gear"
   },
   {
     "set_num": "40380800-1",
