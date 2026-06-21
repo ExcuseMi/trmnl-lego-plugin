@@ -46040,6 +46040,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "18420-1",
+    "name": "My Style Kindergarten",
+    "year": 2000,
+    "theme_id": 742,
+    "num_parts": 1,
+    "img_url": "https://cdn.rebrickable.com/media/sets/18420-1.jpg",
+    "theme": "Video Games and Accessories",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "78675-1",
     "name": "Exclusive RoboRiders Six Set Limited Edition Value Pack",
     "year": 2000,
@@ -188241,7 +188251,7 @@
   },
   {
     "set_num": "5711013078676-1",
-    "name": "Ninjago Lloyd Suitcase Trolley",
+    "name": "Ninjago Lloyd Trolley Suitcase",
     "year": 2021,
     "theme_id": 777,
     "num_parts": 0,
@@ -236000,11 +236010,21 @@
     "parent_theme": ""
   },
   {
+    "set_num": "40894-1",
+    "name": "Koenigsegg Sadair's Spear Steering Wheel",
+    "year": 2026,
+    "theme_id": 1,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40894-1.jpg",
+    "theme": "Technic",
+    "parent_theme": ""
+  },
+  {
     "set_num": "40902-1",
     "name": "Tribute to Leonardo da Vinci",
     "year": 2026,
     "theme_id": 301,
-    "num_parts": 0,
+    "num_parts": 251,
     "img_url": "https://cdn.rebrickable.com/media/sets/40902-1.jpg",
     "theme": "Other",
     "parent_theme": ""
@@ -236356,6 +236376,16 @@
     "theme_id": 1,
     "num_parts": 1516,
     "img_url": "https://cdn.rebrickable.com/media/sets/42231-1.jpg",
+    "theme": "Technic",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "42232-1",
+    "name": "Koenigsegg Sadair's Spear Megacar",
+    "year": 2026,
+    "theme_id": 1,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/42232-1.jpg",
     "theme": "Technic",
     "parent_theme": ""
   },
@@ -240170,12 +240200,32 @@
     "parent_theme": ""
   },
   {
+    "set_num": "81301-1",
+    "name": "Ninjago: Dragons Rising Bottle (420ml)",
+    "year": 2026,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/81301-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "81307-2",
     "name": "Ninjago: Dragons Rising Cup",
     "year": 2026,
     "theme_id": 733,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/81307-2.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "81308-1",
+    "name": "Ninjago: Dragons Rising Cutlery Set",
+    "year": 2026,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/81308-1.jpg",
     "theme": "Houseware",
     "parent_theme": "Gear"
   },
@@ -240190,12 +240240,52 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "81320-1",
+    "name": "Ninjago: Dragons Rising Multicompartment Lunch Box",
+    "year": 2026,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/81320-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "81336-1",
+    "name": "Ninjago: Dragons Rising Bottle (430ml)",
+    "year": 2026,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/81336-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "81350-1",
+    "name": "Ninjago: Dragons Rising 3 Piece Microwave Safe Set",
+    "year": 2026,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/81350-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "81353-1",
     "name": "Ninjago: Dragons Rising Lunch Bag",
     "year": 2026,
     "theme_id": 733,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/81353-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "81356-1",
+    "name": "Ninjago: Dragons Rising Tumbler",
+    "year": 2026,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/81356-1.jpg",
     "theme": "Houseware",
     "parent_theme": "Gear"
   },
@@ -240216,6 +240306,26 @@
     "theme_id": 733,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/81379-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "81396-1",
+    "name": "Ninjago: Dragons Rising Bottle (480ml)",
+    "year": 2026,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/81396-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "81399-1",
+    "name": "Ninjago: Dragons Rising Multicompartment XL Lunch Box",
+    "year": 2026,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/81399-1.jpg",
     "theme": "Houseware",
     "parent_theme": "Gear"
   },
@@ -240801,7 +240911,7 @@
   },
   {
     "set_num": "5009866-1",
-    "name": "Hydration Bottle - Floral",
+    "name": "Hydration Bottle - Wildflowers",
     "year": 2026,
     "theme_id": 733,
     "num_parts": 0,
@@ -242247,6 +242357,16 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/41480800-1.jpg",
     "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "1178007027-1",
+    "name": "Herschel Heritage Kids Backpack - Falling Florals",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/1178007027-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
     "parent_theme": "Gear"
   },
   {
