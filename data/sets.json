@@ -41180,6 +41180,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "5704-1",
+    "name": "Racers - PC CD-ROM",
+    "year": 1999,
+    "theme_id": 742,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5704-1.jpg",
+    "theme": "Video Games and Accessories",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "5705-1",
     "name": "Racers - Playstation",
     "year": 1999,
@@ -234110,6 +234120,16 @@
     "parent_theme": "Collectible Minifigures"
   },
   {
+    "set_num": "1178007027-1",
+    "name": "Herschel Heritage Kids Backpack - Falling Florals",
+    "year": 2025,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/1178007027-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "5060373579980-1",
     "name": "Game Controller Key Chain",
     "year": 2025,
@@ -240800,6 +240820,36 @@
     "parent_theme": ""
   },
   {
+    "set_num": "951385-1",
+    "name": "Kai - Draconus Form",
+    "year": 2026,
+    "theme_id": 435,
+    "num_parts": 11,
+    "img_url": "https://cdn.rebrickable.com/media/sets/951385-1.jpg",
+    "theme": "Ninjago",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "951394-1",
+    "name": "Spider-Man with Web",
+    "year": 2026,
+    "theme_id": 706,
+    "num_parts": 7,
+    "img_url": "https://cdn.rebrickable.com/media/sets/951394-1.jpg",
+    "theme": "Spider-Man",
+    "parent_theme": "Super Heroes Marvel"
+  },
+  {
+    "set_num": "951399-1",
+    "name": "Anti-Venom",
+    "year": 2026,
+    "theme_id": 706,
+    "num_parts": 10,
+    "img_url": "https://cdn.rebrickable.com/media/sets/951399-1.jpg",
+    "theme": "Spider-Man",
+    "parent_theme": "Super Heroes Marvel"
+  },
+  {
     "set_num": "951405-1",
     "name": "Republic Gunship",
     "year": 2026,
@@ -240897,6 +240947,26 @@
     "num_parts": 45,
     "img_url": "https://cdn.rebrickable.com/media/sets/951467-1.jpg",
     "theme": "Ninjago",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "971337-1",
+    "name": "Bane in Prison",
+    "year": 2026,
+    "theme_id": 697,
+    "num_parts": 27,
+    "img_url": "https://cdn.rebrickable.com/media/sets/971337-1.jpg",
+    "theme": "Batman",
+    "parent_theme": "Super Heroes DC"
+  },
+  {
+    "set_num": "4000049-1",
+    "name": "Vintage LEGO Logo",
+    "year": 2026,
+    "theme_id": 599,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/4000049-1.jpg",
+    "theme": "LEGO Exclusive",
     "parent_theme": ""
   },
   {
@@ -242357,16 +242427,6 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/41480800-1.jpg",
     "theme": "Houseware",
-    "parent_theme": "Gear"
-  },
-  {
-    "set_num": "1178007027-1",
-    "name": "Herschel Heritage Kids Backpack - Falling Florals",
-    "year": 2026,
-    "theme_id": 777,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/1178007027-1.jpg",
-    "theme": "Bags, Totes, & Luggage",
     "parent_theme": "Gear"
   },
   {
@@ -356621,7 +356681,7 @@
   },
   {
     "fig_num": "fig-016829",
-    "name": "Bane, Prison Clothes",
+    "name": "Bane, Prison Clothes, Neck Bracket",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-016829.jpg",
     "theme": "",
