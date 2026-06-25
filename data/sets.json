@@ -242000,16 +242000,6 @@
     "parent_theme": "Gear"
   },
   {
-    "set_num": "6395519-1",
-    "name": "Land Duck",
-    "year": 2026,
-    "theme_id": 504,
-    "num_parts": 6,
-    "img_url": "https://cdn.rebrickable.com/media/sets/6395519-1.jpg",
-    "theme": "Duplo",
-    "parent_theme": ""
-  },
-  {
     "set_num": "6518176-1",
     "name": "St. Patrick's Day Hat",
     "year": 2026,
@@ -242077,6 +242067,16 @@
     "num_parts": 40,
     "img_url": "https://cdn.rebrickable.com/media/sets/6614204-1.jpg",
     "theme": "Ninjago",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6614208-1",
+    "name": "Duplo Land Duck",
+    "year": 2026,
+    "theme_id": 504,
+    "num_parts": 6,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6614208-1.jpg",
+    "theme": "Duplo",
     "parent_theme": ""
   },
   {
