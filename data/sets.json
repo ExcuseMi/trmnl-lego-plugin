@@ -9274,7 +9274,7 @@
     "name": "Hospital",
     "year": 1978,
     "theme_id": 405,
-    "num_parts": 402,
+    "num_parts": 401,
     "img_url": "https://cdn.rebrickable.com/media/sets/231-1.jpg",
     "theme": "Homemaker",
     "parent_theme": ""
@@ -31934,7 +31934,7 @@
     "name": "Dance Studio",
     "year": 1996,
     "theme_id": 318,
-    "num_parts": 45,
+    "num_parts": 48,
     "img_url": "https://cdn.rebrickable.com/media/sets/5835-1.jpg",
     "theme": "Belville",
     "parent_theme": ""
@@ -100924,7 +100924,7 @@
     "name": "Super Heroes Magnet Set",
     "year": 2012,
     "theme_id": 734,
-    "num_parts": 25,
+    "num_parts": 20,
     "img_url": "https://cdn.rebrickable.com/media/sets/853431-1.jpg",
     "theme": "Magnets",
     "parent_theme": "Gear"
@@ -220870,6 +220870,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "203022401-1",
+    "name": "Ninjago Dragon Power Easy Set",
+    "year": 2024,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/203022401-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "203160023-1",
     "name": "Carry-on & Backpack Luggage Set (All Colors)",
     "year": 2024,
@@ -233560,6 +233570,36 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "100502501-1",
+    "name": "Ninjago Elemental Master of Energy Pencil Case",
+    "year": 2025,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/100502501-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "100502502-1",
+    "name": "Ninjago Dragon Energy Pencil Case",
+    "year": 2025,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/100502502-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "100502505-1",
+    "name": "City Space Explorer Pencil Case",
+    "year": 2025,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/100502505-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "100502507-1",
     "name": "Ninjago Elemental Master Of Energy Pencil Case",
     "year": 2025,
@@ -233790,6 +233830,66 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "201922501-1",
+    "name": "Ninjago Elemental Master of Energy Backpack",
+    "year": 2025,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/201922501-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "201922511-1",
+    "name": "Bricks Backpack",
+    "year": 2025,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/201922511-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "201932511-1",
+    "name": "Bricks Backpack",
+    "year": 2025,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/201932511-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "202092501-1",
+    "name": "Ninjago Lloyd 2 x 2 Brick Backpack",
+    "year": 2025,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/202092501-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "202092505-1",
+    "name": "City Space Explorer 2 x 2 Brick Backpack",
+    "year": 2025,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/202092505-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "202092511-1",
+    "name": "Bricks 2 x 2 Brick Backpack",
+    "year": 2025,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/202092511-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "202202507-1",
     "name": "Ninjago Elemental Master Of Energy Backpack Trolley",
     "year": 2025,
@@ -233846,6 +233946,36 @@
     "theme_id": 777,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/202222511-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "202362501-1",
+    "name": "Ninjago Elemental Master of Energy Backpack",
+    "year": 2025,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/202362501-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "202362502-1",
+    "name": "Ninjago Dragon Energy Backpack",
+    "year": 2025,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/202362502-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "202362505-1",
+    "name": "City Space Explorer Backpack",
+    "year": 2025,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/202362505-1.jpg",
     "theme": "Bags, Totes, & Luggage",
     "parent_theme": "Gear"
   },
@@ -233910,6 +234040,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "202382505-1",
+    "name": "City Space Explorer Backpack with Gym Bag",
+    "year": 2025,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/202382505-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "202382506-1",
     "name": "Flowers Backpack with Gym Bag",
     "year": 2025,
@@ -233970,6 +234110,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "202542511-1",
+    "name": "City Space Explorer School Bag Set",
+    "year": 2025,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/202542511-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "202662501-1",
     "name": "Ninjago Elemental Master Of Energy Basic Backpack",
     "year": 2025,
@@ -233980,12 +234130,52 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "202662502-1",
+    "name": "Ninjago Dragon Energy Backpack",
+    "year": 2025,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/202662502-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "202662505-1",
+    "name": "City Space Explorer Backpack",
+    "year": 2025,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/202662505-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "202662603-1",
     "name": "Ninjago Ninja Skills Backpack",
     "year": 2025,
     "theme_id": 777,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/202662603-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "202682501-1",
+    "name": "Ninjago Elemental Master of Energy Backpack",
+    "year": 2025,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/202682501-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "202682502-1",
+    "name": "Ninjago Dragon Energy Backpack",
+    "year": 2025,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/202682502-1.jpg",
     "theme": "Bags, Totes, & Luggage",
     "parent_theme": "Gear"
   },
@@ -234167,6 +234357,46 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/202912603-1.jpg",
     "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "203012501-1",
+    "name": "Ninjago Elemental Master of Energy Easy Backpack",
+    "year": 2025,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/203012501-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "203012502-1",
+    "name": "Ninjago Dragon Energy Easy Backpack",
+    "year": 2025,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/203012502-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "203022501-1",
+    "name": "Ninjago Elemental Master of Energy Easy Set",
+    "year": 2025,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/203022501-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "203022502-1",
+    "name": "Ninjago Dragon Energy Easy Set",
+    "year": 2025,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/203022502-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
     "parent_theme": "Gear"
   },
   {
@@ -237154,7 +237384,7 @@
     "name": "Mermaid Roller Coaster Ride",
     "year": 2026,
     "theme_id": 494,
-    "num_parts": 1007,
+    "num_parts": 874,
     "img_url": "https://cdn.rebrickable.com/media/sets/42703-1.jpg",
     "theme": "Friends",
     "parent_theme": ""
@@ -240964,7 +241194,7 @@
     "name": "Antique Collection",
     "year": 2026,
     "theme_id": 719,
-    "num_parts": 0,
+    "num_parts": 1504,
     "img_url": "https://cdn.rebrickable.com/media/sets/910061-1.jpg",
     "theme": "BrickLink Designer Program",
     "parent_theme": ""
@@ -241067,6 +241297,16 @@
     "num_parts": 19,
     "img_url": "https://cdn.rebrickable.com/media/sets/951319-1.jpg",
     "theme": "Minecraft",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "951325-1",
+    "name": "Go-Cart",
+    "year": 2026,
+    "theme_id": 1,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/951325-1.jpg",
+    "theme": "Technic",
     "parent_theme": ""
   },
   {
@@ -242870,6 +243110,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "202792510-1",
+    "name": "Purple Cherry Blossom Backpack",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/202792510-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "202792512-1",
     "name": "Ninjago Jay Backpack",
     "year": 2026,
@@ -242950,6 +243200,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "202882510-1",
+    "name": "Purple Cherry Blossom Wallet",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/202882510-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
     "set_num": "202882512-1",
     "name": "Ninjago Jay Wallet",
     "year": 2026,
@@ -242976,6 +243236,16 @@
     "theme_id": 739,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/202912602-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "202952510-1",
+    "name": "Purple Cherry Blossom Pencil Case",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/202952510-1.jpg",
     "theme": "Stationery and Office Supplies",
     "parent_theme": "Gear"
   },
@@ -358650,6 +358920,46 @@
     "name": "Lloyd (Draconus Robes)",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-017650.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017893",
+    "name": "Monochrome, Dark Brown with Trans-Black Head",
+    "num_parts": 3,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017893.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017894",
+    "name": "Monochrome, Orange with Trans-Yellow Head",
+    "num_parts": 3,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017894.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017895",
+    "name": "Monochrome, Black with Trans-Black Head",
+    "num_parts": 3,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017895.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017896",
+    "name": "Monochrome, Bright Green with Trans-Bright Green Head",
+    "num_parts": 3,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017896.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017897",
+    "name": "Monochrome, White with Trans-Clear Head",
+    "num_parts": 3,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017897.jpg",
     "theme": "",
     "parent_theme": ""
   }
