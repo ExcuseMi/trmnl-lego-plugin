@@ -198050,6 +198050,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "100361862-1",
+    "name": "Star Wars Millennium Falcon Backpack",
+    "year": 2022,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/100361862-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "100502101-1",
     "name": "Ninjago Green Lloyd Pencil Case",
     "year": 2022,
@@ -242800,6 +242810,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "6657699-1",
+    "name": "Bo Katan",
+    "year": 2026,
+    "theme_id": 158,
+    "num_parts": 133,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6657699-1.jpg",
+    "theme": "Star Wars",
+    "parent_theme": ""
+  },
+  {
     "set_num": "6658602-1",
     "name": "Petronas Towers",
     "year": 2026,
@@ -243276,6 +243296,16 @@
     "theme_id": 777,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/203022601-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "203022602-1",
+    "name": "Ninjago Kai Easy Set",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/203022602-1.jpg",
     "theme": "Bags, Totes, & Luggage",
     "parent_theme": "Gear"
   },
