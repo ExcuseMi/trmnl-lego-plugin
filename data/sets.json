@@ -49654,7 +49654,7 @@
     "name": "Fun Park Set",
     "year": 2001,
     "theme_id": 507,
-    "num_parts": 598,
+    "num_parts": 620,
     "img_url": "https://cdn.rebrickable.com/media/sets/9304-1.jpg",
     "theme": "Educational and Dacta",
     "parent_theme": ""
@@ -176850,6 +176850,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "757894512507-1",
+    "name": "City Foiled Again Lunch Bag",
+    "year": 2020,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/757894512507-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "978079444520-1",
     "name": "City: Fun in LEGO City!",
     "year": 2020,
@@ -198471,7 +198481,7 @@
   },
   {
     "set_num": "202142201-1",
-    "name": "Ninjago Lloyd Backpack with Gym Bag",
+    "name": "Ninjago Lloyd Maxi Plus Backpack with Gym Bag",
     "year": 2022,
     "theme_id": 777,
     "num_parts": 0,
@@ -198481,7 +198491,7 @@
   },
   {
     "set_num": "202142202-1",
-    "name": "Ninjago Kai Backpack",
+    "name": "Ninjago Kai Maxi Plus Backpack with Gym Bag",
     "year": 2022,
     "theme_id": 777,
     "num_parts": 0,
@@ -198491,7 +198501,7 @@
   },
   {
     "set_num": "202142204-1",
-    "name": "Ninjago Golden Team Backpack",
+    "name": "Ninjago Golden Team Maxi Plus Backpack with Gym Bag",
     "year": 2022,
     "theme_id": 777,
     "num_parts": 0,
@@ -198501,7 +198511,7 @@
   },
   {
     "set_num": "202142206-1",
-    "name": "Parrot Backpack",
+    "name": "Parrot Maxi Plus Backpack with Gym Bag",
     "year": 2022,
     "theme_id": 777,
     "num_parts": 0,
@@ -198511,7 +198521,7 @@
   },
   {
     "set_num": "202142207-1",
-    "name": "Purple Backpack with Gym Bag",
+    "name": "Purple Maxi Plus Backpack with Gym Bag",
     "year": 2022,
     "theme_id": 777,
     "num_parts": 0,
@@ -198521,7 +198531,7 @@
   },
   {
     "set_num": "202142210-1",
-    "name": "Navy Backpack with Gym Bag",
+    "name": "Navy Maxi Plus Backpack with Gym Bag",
     "year": 2022,
     "theme_id": 777,
     "num_parts": 0,
@@ -199556,16 +199566,6 @@
     "theme_id": 777,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/5711013105242-1.jpg",
-    "theme": "Bags, Totes, & Luggage",
-    "parent_theme": "Gear"
-  },
-  {
-    "set_num": "5711013105303-1",
-    "name": "Ninjago Kai Backpack with Gym Bag and Pencil Case",
-    "year": 2022,
-    "theme_id": 777,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/5711013105303-1.jpg",
     "theme": "Bags, Totes, & Luggage",
     "parent_theme": "Gear"
   },
@@ -209671,7 +209671,7 @@
   },
   {
     "set_num": "202142304-1",
-    "name": "Mermaid Backpack with Gym Bag with Glitter",
+    "name": "Mermaid Maxi Plus Backpack with Gym Bag with Glitter",
     "year": 2023,
     "theme_id": 777,
     "num_parts": 0,
@@ -221301,7 +221301,7 @@
   },
   {
     "set_num": "5711013127114-1",
-    "name": "Ninjago Dragon Power Backpack with Gym Bag",
+    "name": "Ninjago Dragon Power Optimo Starter Backpack with Gym Bag",
     "year": 2024,
     "theme_id": 777,
     "num_parts": 0,
@@ -234031,7 +234031,7 @@
   },
   {
     "set_num": "202382501-1",
-    "name": "Ninjago Elemental Master Of Energy Backpack with Gym Bag",
+    "name": "Ninjago Elemental Master Of Energy Optimo Plus Backpack with Gym Bag",
     "year": 2025,
     "theme_id": 777,
     "num_parts": 0,
@@ -234041,7 +234041,7 @@
   },
   {
     "set_num": "202382502-1",
-    "name": "Ninjago Dragon Energy Backpack with Gym Bag",
+    "name": "Ninjago Dragon Energy Optimo Plus Backpack with Gym Bag",
     "year": 2025,
     "theme_id": 777,
     "num_parts": 0,
@@ -234061,7 +234061,7 @@
   },
   {
     "set_num": "202382506-1",
-    "name": "Flowers Backpack with Gym Bag",
+    "name": "Flowers Optimo Plus Backpack with Gym Bag",
     "year": 2025,
     "theme_id": 777,
     "num_parts": 0,
