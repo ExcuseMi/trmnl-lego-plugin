@@ -96,7 +96,7 @@
   - Bluey (12): bluey|1|12
   - Boat (21): boat|1|21
   - Bob the Builder (31): bob-the-builder|1|31
-  - Botanicals (51): botanicals|1|51
+  - Botanicals (52): botanicals|1|52
   - Brick Sketches (8): brick-sketches|1|8
   - Brickheadz (194): brickheadz|1|194
   - BrickLink Designer Program (68): bricklink-designer-program|1|68
@@ -163,7 +163,7 @@
   - Duplo and Explore (190): duplo-and-explore|1|190
   - Early Creator (35): early-creator|1|35
   - Easter (58): easter|1|58
-  - Editions (15): editions|1|15
+  - Editions (19): editions|1|19
   - Educational and Dacta (123): educational-and-dacta|1|123
   - eLAB (5): elab|1|5
   - Elves (42): elves|1|42
@@ -394,7 +394,7 @@
   - Sports (4): sports|1|4
   - Spybotics (4): spybotics|1|4
   - Spyrius (9): spyrius|1|9
-  - Star Wars (993): star-wars|1|993
+  - Star Wars (994): star-wars|1|994
   - Stationery and Office Supplies (680): stationery-and-office-supplies|1|680
   - Stingrays (5): stingrays|1|5
   - Storage (168): storage|1|168
@@ -474,7 +474,7 @@
   optional: true
 - keyname: themes_brickset
   field_type: select
-  name: Filter by Themes – Brickset (173)
+  name: Filter by Themes – Brickset (172)
   description: <strong>Required:</strong> Select at least one theme, OR set a min/max year below. Only applicable when using Brickset as your data source.
   multiple: true
   options:
@@ -650,7 +650,6 @@
   - Xtra: Xtra
   - Znap: Znap
   - tbd: tbd
-  - '{Undefined}': '{Undefined}'
   help_text: Use <kbd>⌘</kbd>+<kbd>click</kbd> or <kbd>Ctrl</kbd>+<kbd>click</kbd> to select multiple themes.<br /><strong>You must select at least one theme OR specify a year range.</strong>
   optional: true
 - keyname: brickset_order_by

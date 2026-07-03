@@ -184904,7 +184904,7 @@
     "name": "Mandalorian Warrior",
     "year": 2021,
     "theme_id": 158,
-    "num_parts": 10,
+    "num_parts": 7,
     "img_url": "https://cdn.rebrickable.com/media/sets/912168-1.jpg",
     "theme": "Star Wars",
     "parent_theme": ""
@@ -232290,6 +232290,56 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "5010423-1",
+    "name": "Herschel Classic XL Backpack - Falling Florals",
+    "year": 2025,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010423-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010424-1",
+    "name": "Herschel Classic XL Backpack - Abstract Bricks Black",
+    "year": 2025,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010424-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010425-1",
+    "name": "Herschel Retreat Tote - Falling Florals",
+    "year": 2025,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010425-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010428-1",
+    "name": "Herschel Heritage Kids Backpack - Falling Florals",
+    "year": 2025,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010428-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010429-1",
+    "name": "Herschel Heritage Kids Backpack - Abstract Bricks Blue",
+    "year": 2025,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010429-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "6458401-1",
     "name": "Party Glasses",
     "year": 2025,
@@ -234490,42 +234540,12 @@
     "parent_theme": "Gear"
   },
   {
-    "set_num": "1160407027-1",
-    "name": "Herschel Classic XL Backpack - Falling Florals",
-    "year": 2025,
-    "theme_id": 777,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/1160407027-1.jpg",
-    "theme": "Bags, Totes, & Luggage",
-    "parent_theme": "Gear"
-  },
-  {
-    "set_num": "1160407462-1",
-    "name": "Herschel Classic XL Backpack - Abstract Bricks Black",
-    "year": 2025,
-    "theme_id": 777,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/1160407462-1.jpg",
-    "theme": "Bags, Totes, & Luggage",
-    "parent_theme": "Gear"
-  },
-  {
     "set_num": "1160907029-1",
     "name": "Herschel Classic Crossbody - Garden Floral",
     "year": 2025,
     "theme_id": 777,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/1160907029-1.jpg",
-    "theme": "Bags, Totes, & Luggage",
-    "parent_theme": "Gear"
-  },
-  {
-    "set_num": "1161207027-1",
-    "name": "Herschel Retreat Tote - Falling Florals",
-    "year": 2025,
-    "theme_id": 777,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/1161207027-1.jpg",
     "theme": "Bags, Totes, & Luggage",
     "parent_theme": "Gear"
   },
@@ -234586,26 +234606,6 @@
     "theme_id": 777,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/1175207373-1.jpg",
-    "theme": "Bags, Totes, & Luggage",
-    "parent_theme": "Gear"
-  },
-  {
-    "set_num": "1178007027-1",
-    "name": "Herschel Heritage Kids Backpack - Falling Florals",
-    "year": 2025,
-    "theme_id": 777,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/1178007027-1.jpg",
-    "theme": "Bags, Totes, & Luggage",
-    "parent_theme": "Gear"
-  },
-  {
-    "set_num": "1178007463-1",
-    "name": "Herschel Heritage Kids Backpack - Abstract Bricks Blue",
-    "year": 2025,
-    "theme_id": 777,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/1178007463-1.jpg",
     "theme": "Bags, Totes, & Luggage",
     "parent_theme": "Gear"
   },
@@ -235464,7 +235464,7 @@
     "name": "Arcade Pinball Machine",
     "year": 2026,
     "theme_id": 721,
-    "num_parts": 0,
+    "num_parts": 2274,
     "img_url": "https://cdn.rebrickable.com/media/sets/11374-1.jpg",
     "theme": "Icons",
     "parent_theme": ""
@@ -235596,6 +235596,16 @@
     "theme_id": 769,
     "num_parts": 253,
     "img_url": "https://cdn.rebrickable.com/media/sets/11506-1.jpg",
+    "theme": "Botanicals",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "11507-1",
+    "name": "Olivia Rodrigo’s Flower Bouquet",
+    "year": 2026,
+    "theme_id": 769,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/11507-1.jpg",
     "theme": "Botanicals",
     "parent_theme": ""
   },
@@ -236574,7 +236584,7 @@
     "name": "Koenigsegg Sadair's Spear Steering Wheel",
     "year": 2026,
     "theme_id": 1,
-    "num_parts": 0,
+    "num_parts": 228,
     "img_url": "https://cdn.rebrickable.com/media/sets/40894-1.jpg",
     "theme": "Technic",
     "parent_theme": ""
@@ -236944,7 +236954,7 @@
     "name": "Koenigsegg Sadair's Spear Megacar",
     "year": 2026,
     "theme_id": 1,
-    "num_parts": 0,
+    "num_parts": 4104,
     "img_url": "https://cdn.rebrickable.com/media/sets/42232-1.jpg",
     "theme": "Technic",
     "parent_theme": ""
@@ -237094,7 +237104,7 @@
     "name": "Aston Martin Aramco AMR25 F1 Car",
     "year": 2026,
     "theme_id": 1,
-    "num_parts": 0,
+    "num_parts": 1547,
     "img_url": "https://cdn.rebrickable.com/media/sets/42240-1.jpg",
     "theme": "Technic",
     "parent_theme": ""
@@ -237556,6 +237566,46 @@
     "theme_id": 787,
     "num_parts": 510,
     "img_url": "https://cdn.rebrickable.com/media/sets/43027-1.jpg",
+    "theme": "Editions",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "43028-1",
+    "name": "Olivia Rodrigo’s Vinyl",
+    "year": 2026,
+    "theme_id": 787,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/43028-1.jpg",
+    "theme": "Editions",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "43029-1",
+    "name": "Olivia Rodrigo’s Concert Moon",
+    "year": 2026,
+    "theme_id": 787,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/43029-1.jpg",
+    "theme": "Editions",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "43030-1",
+    "name": "Olivia Rodrigo’s Secret Storage",
+    "year": 2026,
+    "theme_id": 787,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/43030-1.jpg",
+    "theme": "Editions",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "43031-1",
+    "name": "Olivia Rodrigo’s Dual Guitar",
+    "year": 2026,
+    "theme_id": 787,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/43031-1.jpg",
     "theme": "Editions",
     "parent_theme": ""
   },
@@ -239970,6 +240020,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "75455-1",
+    "name": "Boba Fett",
+    "year": 2026,
+    "theme_id": 158,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/75455-1.jpg",
+    "theme": "Star Wars",
+    "parent_theme": ""
+  },
+  {
     "set_num": "75456-1",
     "name": "Star Wars Advent Calendar 2026",
     "year": 2026,
@@ -239994,7 +240054,7 @@
     "name": "Imperial Lambda-Class Shuttle",
     "year": 2026,
     "theme_id": 158,
-    "num_parts": 0,
+    "num_parts": 961,
     "img_url": "https://cdn.rebrickable.com/media/sets/75459-1.jpg",
     "theme": "Star Wars",
     "parent_theme": ""
@@ -240284,7 +240344,7 @@
     "name": "Venom Bust",
     "year": 2026,
     "theme_id": 696,
-    "num_parts": 0,
+    "num_parts": 413,
     "img_url": "https://cdn.rebrickable.com/media/sets/76356-1.jpg",
     "theme": "Super Heroes Marvel",
     "parent_theme": ""
