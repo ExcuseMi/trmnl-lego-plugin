@@ -46054,7 +46054,7 @@
     "name": "My Style Kindergarten",
     "year": 2000,
     "theme_id": 742,
-    "num_parts": 1,
+    "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/18420-1.jpg",
     "theme": "Video Games and Accessories",
     "parent_theme": "Gear"
@@ -122684,7 +122684,7 @@
     "name": "Protector of Ice",
     "year": 2015,
     "theme_id": 360,
-    "num_parts": 68,
+    "num_parts": 62,
     "img_url": "https://cdn.rebrickable.com/media/sets/70782-1.jpg",
     "theme": "Protectors",
     "parent_theme": "Bionicle"
@@ -232320,6 +232320,26 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "5010426-1",
+    "name": "Herschel Heritage Youth Backpack - Falling Florals",
+    "year": 2025,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010426-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010427-1",
+    "name": "Herschel Heritage Youth Backpack - Abstract Bricks Blue",
+    "year": 2025,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010427-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "5010428-1",
     "name": "Herschel Heritage Kids Backpack - Falling Florals",
     "year": 2025,
@@ -232337,6 +232357,46 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/5010429-1.jpg",
     "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010430-1",
+    "name": "Pop Quiz Lunch Box Little Herschel - Falling Florals",
+    "year": 2025,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010430-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010431-1",
+    "name": "Pop Quiz Lunch Box Little Herschel - Abstract Bricks Blue",
+    "year": 2025,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010431-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010432-1",
+    "name": "Settlement Pencil Case Little Herschel - Falling Florals",
+    "year": 2025,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010432-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010433-1",
+    "name": "Settlement Pencil Case Little Herschel - Abstract Bricks Blue",
+    "year": 2025,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010433-1.jpg",
+    "theme": "Stationery and Office Supplies",
     "parent_theme": "Gear"
   },
   {
@@ -234580,26 +234640,6 @@
     "parent_theme": "Gear"
   },
   {
-    "set_num": "1161607027-1",
-    "name": "Herschel Heritage Youth Backpack - Falling Florals",
-    "year": 2025,
-    "theme_id": 777,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/1161607027-1.jpg",
-    "theme": "Bags, Totes, & Luggage",
-    "parent_theme": "Gear"
-  },
-  {
-    "set_num": "1161607463-1",
-    "name": "Herschel Heritage Youth Backpack - Abstract Bricks Blue",
-    "year": 2025,
-    "theme_id": 777,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/1161607463-1.jpg",
-    "theme": "Bags, Totes, & Luggage",
-    "parent_theme": "Gear"
-  },
-  {
     "set_num": "1175207373-1",
     "name": "Herschel Classic XL Backpack - Scavenger Hunt Meadow",
     "year": 2025,
@@ -234627,46 +234667,6 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/3013707462-1.jpg",
     "theme": "Houseware",
-    "parent_theme": "Gear"
-  },
-  {
-    "set_num": "3013907027-1",
-    "name": "Pop Quiz Lunch Box Little Herschel - Falling Florals",
-    "year": 2025,
-    "theme_id": 733,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/3013907027-1.jpg",
-    "theme": "Houseware",
-    "parent_theme": "Gear"
-  },
-  {
-    "set_num": "3013907463-1",
-    "name": "Pop Quiz Lunch Box Little Herschel - Abstract Bricks Blue",
-    "year": 2025,
-    "theme_id": 733,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/3013907463-1.jpg",
-    "theme": "Houseware",
-    "parent_theme": "Gear"
-  },
-  {
-    "set_num": "3014007027-1",
-    "name": "Settlement Pencil Case Little Herschel - Falling Florals",
-    "year": 2025,
-    "theme_id": 739,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/3014007027-1.jpg",
-    "theme": "Stationery and Office Supplies",
-    "parent_theme": "Gear"
-  },
-  {
-    "set_num": "3014007463-1",
-    "name": "Settlement Pencil Case Little Herschel - Abstract Bricks Blue",
-    "year": 2025,
-    "theme_id": 739,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/3014007463-1.jpg",
-    "theme": "Stationery and Office Supplies",
     "parent_theme": "Gear"
   },
   {
@@ -235650,6 +235650,26 @@
     "parent_theme": ""
   },
   {
+    "set_num": "11512-1",
+    "name": "Hanging Golden Pothos",
+    "year": 2026,
+    "theme_id": 769,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/11512-1.jpg",
+    "theme": "Botanicals",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "11513-1",
+    "name": "Dark Flower Arrangement",
+    "year": 2026,
+    "theme_id": 769,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/11513-1.jpg",
+    "theme": "Botanicals",
+    "parent_theme": ""
+  },
+  {
     "set_num": "11514-1",
     "name": "Cosmos Flowers",
     "year": 2026,
@@ -235726,6 +235746,16 @@
     "theme_id": 576,
     "num_parts": 964,
     "img_url": "https://cdn.rebrickable.com/media/sets/21368-1.jpg",
+    "theme": "LEGO Ideas and CUUSOO",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "21370-1",
+    "name": "E.T. the Extra-Terrestrial",
+    "year": 2026,
+    "theme_id": 576,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/21370-1.jpg",
     "theme": "LEGO Ideas and CUUSOO",
     "parent_theme": ""
   },
@@ -236410,6 +236440,16 @@
     "parent_theme": "Creator"
   },
   {
+    "set_num": "31394-1",
+    "name": "Cute Animals: Red Panda",
+    "year": 2026,
+    "theme_id": 672,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/31394-1.jpg",
+    "theme": "Creator 3-in-1",
+    "parent_theme": "Creator"
+  },
+  {
     "set_num": "40507-1",
     "name": "I ❤️ Billund",
     "year": 2026,
@@ -236480,6 +236520,26 @@
     "parent_theme": ""
   },
   {
+    "set_num": "40872-1",
+    "name": "Halloween Pumpkin Lantern",
+    "year": 2026,
+    "theme_id": 230,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40872-1.jpg",
+    "theme": "Halloween",
+    "parent_theme": "Seasonal"
+  },
+  {
+    "set_num": "40873-1",
+    "name": "Colorful Lantern",
+    "year": 2026,
+    "theme_id": 230,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40873-1.jpg",
+    "theme": "Halloween",
+    "parent_theme": "Seasonal"
+  },
+  {
     "set_num": "40878-1",
     "name": "Teenage Mutant Ninja Turtles Figures",
     "year": 2026,
@@ -236508,6 +236568,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/40881-1.jpg",
     "theme": "Brickheadz",
     "parent_theme": ""
+  },
+  {
+    "set_num": "40883-1",
+    "name": "Halloween Skull Candle",
+    "year": 2026,
+    "theme_id": 230,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40883-1.jpg",
+    "theme": "Halloween",
+    "parent_theme": "Seasonal"
   },
   {
     "set_num": "40885-1",
@@ -236637,6 +236707,16 @@
     "num_parts": 233,
     "img_url": "https://cdn.rebrickable.com/media/sets/40911-1.jpg",
     "theme": "Pokémon",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "40912-1",
+    "name": "Sea Serpent",
+    "year": 2026,
+    "theme_id": 576,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40912-1.jpg",
+    "theme": "LEGO Ideas and CUUSOO",
     "parent_theme": ""
   },
   {
@@ -237086,6 +237166,16 @@
     "theme_id": 1,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/42236-1.jpg",
+    "theme": "Technic",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "42238-1",
+    "name": "Ducati Desmo450 MX Factory Motorcycle",
+    "year": 2026,
+    "theme_id": 1,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/42238-1.jpg",
     "theme": "Technic",
     "parent_theme": ""
   },
@@ -239020,6 +239110,16 @@
     "parent_theme": "Seasonal"
   },
   {
+    "set_num": "66822-1",
+    "name": "Haunted Halloween Set",
+    "year": 2026,
+    "theme_id": 22,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/66822-1.jpg",
+    "theme": "Creator",
+    "parent_theme": ""
+  },
+  {
     "set_num": "71051-0",
     "name": "Series 28 - Random Box",
     "year": 2026,
@@ -239354,7 +239454,7 @@
     "name": "Nya vs. Mutation Monster Spinner",
     "year": 2026,
     "theme_id": 435,
-    "num_parts": 49,
+    "num_parts": 50,
     "img_url": "https://cdn.rebrickable.com/media/sets/71849-1.jpg",
     "theme": "Ninjago",
     "parent_theme": ""
@@ -242310,6 +242410,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "5011065-1",
+    "name": "Space Arcade Poster",
+    "year": 2026,
+    "theme_id": 736,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5011065-1.jpg",
+    "theme": "Posters and Art Prints",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "6518176-1",
     "name": "St. Patrick's Day Hat",
     "year": 2026,
@@ -242496,6 +242606,16 @@
     "theme_id": 435,
     "num_parts": 39,
     "img_url": "https://cdn.rebrickable.com/media/sets/6614229-1.jpg",
+    "theme": "Ninjago",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6614229-2",
+    "name": "Lloyd",
+    "year": 2026,
+    "theme_id": 435,
+    "num_parts": 39,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6614229-2.jpg",
     "theme": "Ninjago",
     "parent_theme": ""
   },
@@ -263831,7 +263951,7 @@
   },
   {
     "fig_num": "fig-002627",
-    "name": "Emma - Magenta Top, Light Aqua Apron",
+    "name": "Emma - Medium lavender Top, Light Aqua Apron",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002627.jpg",
     "theme": "",
@@ -297575,7 +297695,7 @@
   },
   {
     "fig_num": "fig-007207",
-    "name": "Michelle",
+    "name": "Michelle, Tan Skirt",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-007207.jpg",
     "theme": "",
@@ -356919,7 +357039,7 @@
   },
   {
     "fig_num": "fig-016673",
-    "name": "Werewolf, Torn Red Flannel Site, Sand Blue Legs",
+    "name": "Werewolf, Torn Red Flannel Shirt, Sand Blue Legs",
     "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-016673.jpg",
     "theme": "",
