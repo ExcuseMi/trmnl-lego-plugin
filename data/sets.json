@@ -196410,6 +196410,26 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "5007261-1",
+    "name": "Royal Guard Notebook",
+    "year": 2022,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5007261-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5007263-1",
+    "name": "Royal Guard Bag Tag",
+    "year": 2022,
+    "theme_id": 731,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5007263-1.jpg",
+    "theme": "Bag and Luggage Tags",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "5007270-1",
     "name": "Box with Handle (All Colors)",
     "year": 2022,
@@ -198196,6 +198216,16 @@
     "theme_id": 777,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/200152203-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "200152214-1",
+    "name": "Ninjago Gold/Blue Easy Set",
+    "year": 2022,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/200152214-1.jpg",
     "theme": "Bags, Totes, & Luggage",
     "parent_theme": "Gear"
   },
@@ -209670,6 +209700,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "202142303-1",
+    "name": "Ninjago Into The Unknown Maxi Plus Backpack with Gym Bag",
+    "year": 2023,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/202142303-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "202142304-1",
     "name": "Mermaid Maxi Plus Backpack with Gym Bag with Glitter",
     "year": 2023,
@@ -209686,6 +209726,16 @@
     "theme_id": 777,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/202222304-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "202382303-1",
+    "name": "Ninjago Into The Unknown Optimo Plus Backpack with Gym Bag",
+    "year": 2023,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/202382303-1.jpg",
     "theme": "Bags, Totes, & Luggage",
     "parent_theme": "Gear"
   },
@@ -209717,6 +209767,16 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/202402302-1.jpg",
     "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "202542303-1",
+    "name": "Ninjago Into The Unknown School Bag Set",
+    "year": 2023,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/202542303-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
     "parent_theme": "Gear"
   },
   {
@@ -221000,6 +221060,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "757894516345-1",
+    "name": "Football Lunch Bag",
+    "year": 2024,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/757894516345-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "757894516406-1",
     "name": "Space Explorers Wanted Backpack",
     "year": 2024,
@@ -221007,6 +221077,26 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/757894516406-1.jpg",
     "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "757894517502-1",
+    "name": "Space Explorers Wanted Lunch Bag",
+    "year": 2024,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/757894517502-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "757894517588-1",
+    "name": "Space Corp Lunch Bag",
+    "year": 2024,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/757894517588-1.jpg",
+    "theme": "Houseware",
     "parent_theme": "Gear"
   },
   {
@@ -234010,6 +234100,26 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "202142501-1",
+    "name": "Ninjago Elemental Master Of Energy Maxi Plus Backpack with Gym Bag",
+    "year": 2025,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/202142501-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "202142502-1",
+    "name": "Ninjago Dragon Energy Maxi Plus Backpack with Gym Bag",
+    "year": 2025,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/202142502-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "202202507-1",
     "name": "Ninjago Elemental Master Of Energy Backpack Trolley",
     "year": 2025,
@@ -238320,6 +238430,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "53770-1",
+    "name": "Minifigure Alarm Clock (All Colors)",
+    "year": 2026,
+    "theme_id": 732,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53770-1.jpg",
+    "theme": "Clocks and Watches",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "53772-1",
     "name": "Star Wars The Mandalorian and Grogu Tab Notebook",
     "year": 2026,
@@ -238737,6 +238857,26 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/53867-1.jpg",
     "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "53871-1",
+    "name": "Round 1 x 1 Wall Clock (All Colors)",
+    "year": 2026,
+    "theme_id": 732,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53871-1.jpg",
+    "theme": "Clocks and Watches",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "54005-1",
+    "name": "Brick 1 x 1 Alarm Clock (Red)",
+    "year": 2026,
+    "theme_id": 732,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/54005-1.jpg",
+    "theme": "Clocks and Watches",
     "parent_theme": "Gear"
   },
   {
@@ -241344,7 +241484,7 @@
     "name": "Privateer Frigate Fortuna",
     "year": 2026,
     "theme_id": 719,
-    "num_parts": 4090,
+    "num_parts": 4091,
     "img_url": "https://cdn.rebrickable.com/media/sets/910059-1.jpg",
     "theme": "BrickLink Designer Program",
     "parent_theme": ""
@@ -241354,7 +241494,7 @@
     "name": "Sushi Restaurant",
     "year": 2026,
     "theme_id": 719,
-    "num_parts": 3603,
+    "num_parts": 3604,
     "img_url": "https://cdn.rebrickable.com/media/sets/910060-1.jpg",
     "theme": "BrickLink Designer Program",
     "parent_theme": ""
@@ -241374,7 +241514,7 @@
     "name": "Alchemist's Shop",
     "year": 2026,
     "theme_id": 719,
-    "num_parts": 2318,
+    "num_parts": 2319,
     "img_url": "https://cdn.rebrickable.com/media/sets/910062-1.jpg",
     "theme": "BrickLink Designer Program",
     "parent_theme": ""
@@ -241677,6 +241817,16 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/5007787-1.jpg",
     "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5009458-1",
+    "name": "Viking Warrior Bag Tag",
+    "year": 2026,
+    "theme_id": 731,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5009458-1.jpg",
+    "theme": "Bag and Luggage Tags",
     "parent_theme": "Gear"
   },
   {
@@ -242380,6 +242530,66 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "5010434-1",
+    "name": "Herschel Heritage Backpack - Abstract Bricks Black",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010434-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010436-1",
+    "name": "Herschel Little America Backpack - Abstract Bricks Black",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010436-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010437-1",
+    "name": "Herschel Heritage Duffle - Abstract Bricks Black",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010437-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010438-1",
+    "name": "Herschel Heritage Duffle - Falling Florals",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010438-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010439-1",
+    "name": "Herschel Retreat Small Backpack - Falling Florals",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010439-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010440-1",
+    "name": "Herschel Classic Hip Pack - Falling Florals",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010440-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "5010447-1",
     "name": "Batman: Legacy of the Dark Knight (All Formats)",
     "year": 2026,
@@ -242398,6 +242608,126 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/5010449-1.jpg",
     "theme": "Supplemental",
     "parent_theme": "Educational and Dacta"
+  },
+  {
+    "set_num": "5010566-1",
+    "name": "Copenhagen Water Bottle - Bright Red",
+    "year": 2026,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010566-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010567-1",
+    "name": "Copenhagen Water Bottle - Yellow-Orange",
+    "year": 2026,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010567-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010694-1",
+    "name": "Copenhagen Magnet - Mermaid",
+    "year": 2026,
+    "theme_id": 734,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010694-1.jpg",
+    "theme": "Magnets",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010696-1",
+    "name": "Copenhagen Magnet - Retro-Logo",
+    "year": 2026,
+    "theme_id": 734,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010696-1.jpg",
+    "theme": "Magnets",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010697-1",
+    "name": "Copenhagen Magnet - Character",
+    "year": 2026,
+    "theme_id": 734,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010697-1.jpg",
+    "theme": "Magnets",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010698-1",
+    "name": "Copenhagen Magnet - Heart",
+    "year": 2026,
+    "theme_id": 734,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010698-1.jpg",
+    "theme": "Magnets",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010699-1",
+    "name": "Copenhagen Magnet - 3D-Graphics",
+    "year": 2026,
+    "theme_id": 734,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010699-1.jpg",
+    "theme": "Magnets",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010700-1",
+    "name": "Copenhagen Magnet - I Love",
+    "year": 2026,
+    "theme_id": 734,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010700-1.jpg",
+    "theme": "Magnets",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010701-1",
+    "name": "Copenhagen Passport Holder",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010701-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "5010704-1",
+    "name": "I [Heart] Copenhagen Shopping Bag",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010704-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010705-1",
+    "name": "Copenhagen Umbrella for Children",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010705-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "5010706-1",
+    "name": "Copenhagen Tote Bag",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010706-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
   },
   {
     "set_num": "5010827-1",
@@ -243200,6 +243530,26 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "100342601-1",
+    "name": "Ninjago Spinjitzu Master Gym Bag",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/100342601-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "100342602-1",
+    "name": "Ninjago Kai Gym Bag",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/100342602-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "100522601-1",
     "name": "Ninjago Spinjitzu Master Pencil Case",
     "year": 2026,
@@ -243218,6 +243568,26 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/100522602-1.jpg",
     "theme": "Stationery and Office Supplies",
     "parent_theme": "Gear"
+  },
+  {
+    "set_num": "101032601-1",
+    "name": "Ninjago Spinjitzu Master Wallet",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/101032601-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "101032602-1",
+    "name": "Ninjago Kai Wallet",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/101032602-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
   },
   {
     "set_num": "200632602-1",
@@ -243280,6 +243650,26 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "201922601-1",
+    "name": "Ninjago Spinjitzu Master Backpack",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/201922601-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "201922603-1",
+    "name": "Ninjago Ninja Skills Backpack",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/201922603-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "202222601-1",
     "name": "Ninjago Spinjitzu Master Backpack",
     "year": 2026,
@@ -243297,6 +243687,16 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/202222602-1.jpg",
     "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "202372601-1",
+    "name": "Ninjago Spinjitzu Master 3-Layered Pencil Case",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/202372601-1.jpg",
+    "theme": "Stationery and Office Supplies",
     "parent_theme": "Gear"
   },
   {
@@ -243537,6 +243937,156 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/203392602-1.jpg",
     "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "203421973-1",
+    "name": "Today I Feel Core Card Wallet (Blue)",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/203421973-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "203422621-1",
+    "name": "Ninjago 15th Anniversary Core Card Wallet",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/203422621-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "203422622-1",
+    "name": "Bouquet Core Card Wallet",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/203422622-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "203422623-1",
+    "name": "Today I Feel Core Card Wallet (Red)",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/203422623-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "203682607-1",
+    "name": "Colourful Bricks Packing Cubes",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/203682607-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "203682611-1",
+    "name": "Brick Dots Red Packing Cubes",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/203682611-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "203692607-1",
+    "name": "Coloiurful Bricks Round Crossbody Bag",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/203692607-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "203692611-1",
+    "name": "Brick Dots Red Round Crossbody Bag",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/203692611-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "203702607-1",
+    "name": "Colourful Bricks Toiletry Bag",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/203702607-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "203702611-1",
+    "name": "Brick Dots Red Toiletry Bag",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/203702611-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "203712607-1",
+    "name": "Colourful Bricks Toiletry Pouch",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/203712607-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "203712611-1",
+    "name": "Brick Dots Red Toiletry Pouch",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/203712611-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "203752611-1",
+    "name": "Brick Dots Red Colorblock Backpack",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/203752611-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "203762607-1",
+    "name": "Colourful Bricks Explorer Backpack",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/203762607-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "203762611-1",
+    "name": "Brick Dots Red Explorer Backpack",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/203762611-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
     "parent_theme": "Gear"
   },
   {
