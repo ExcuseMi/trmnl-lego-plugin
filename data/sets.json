@@ -241610,11 +241610,21 @@
     "parent_theme": ""
   },
   {
+    "set_num": "951321-1",
+    "name": "Space Sentinel, Enderman and Endermite",
+    "year": 2026,
+    "theme_id": 577,
+    "num_parts": 9,
+    "img_url": "https://cdn.rebrickable.com/media/sets/951321-1.jpg",
+    "theme": "Minecraft",
+    "parent_theme": ""
+  },
+  {
     "set_num": "951325-1",
     "name": "Go-Cart",
     "year": 2026,
     "theme_id": 1,
-    "num_parts": 0,
+    "num_parts": 67,
     "img_url": "https://cdn.rebrickable.com/media/sets/951325-1.jpg",
     "theme": "Technic",
     "parent_theme": ""
@@ -243114,7 +243124,7 @@
     "name": "First Friendship",
     "year": 2026,
     "theme_id": 494,
-    "num_parts": 0,
+    "num_parts": 30,
     "img_url": "https://cdn.rebrickable.com/media/sets/6636931-1.jpg",
     "theme": "Friends",
     "parent_theme": ""
@@ -319101,7 +319111,7 @@
   },
   {
     "fig_num": "fig-010063",
-    "name": "Dragon Knight, Red, Helmet, Beard",
+    "name": "Dragon Knight, Red, Helmet, Beard, Brown Belt",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010063.jpg",
     "theme": "",
