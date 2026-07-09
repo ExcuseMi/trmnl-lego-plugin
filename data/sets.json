@@ -236620,13 +236620,23 @@
     "parent_theme": "Seasonal"
   },
   {
+    "set_num": "40868-1",
+    "name": "Up-Scaled Red Minifigure",
+    "year": 2026,
+    "theme_id": 776,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40868-1.jpg",
+    "theme": "Pokémon",
+    "parent_theme": ""
+  },
+  {
     "set_num": "40871-1",
     "name": "Gift Box Celebration",
     "year": 2026,
-    "theme_id": 301,
+    "theme_id": 206,
     "num_parts": 224,
     "img_url": "https://cdn.rebrickable.com/media/sets/40871-1.jpg",
-    "theme": "Other",
+    "theme": "Seasonal",
     "parent_theme": ""
   },
   {
@@ -236824,7 +236834,7 @@
     "name": "Sea Serpent",
     "year": 2026,
     "theme_id": 576,
-    "num_parts": 0,
+    "num_parts": 241,
     "img_url": "https://cdn.rebrickable.com/media/sets/40912-1.jpg",
     "theme": "LEGO Ideas and CUUSOO",
     "parent_theme": ""
@@ -237180,6 +237190,36 @@
     "parent_theme": ""
   },
   {
+    "set_num": "42233-3",
+    "name": "Dump Truck",
+    "year": 2026,
+    "theme_id": 1,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/42233-3.jpg",
+    "theme": "Technic",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "42233-4",
+    "name": "Cement Truck",
+    "year": 2026,
+    "theme_id": 1,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/42233-4.jpg",
+    "theme": "Technic",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "42233-5",
+    "name": "Wrecking Ball Crane",
+    "year": 2026,
+    "theme_id": 1,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/42233-5.jpg",
+    "theme": "Technic",
+    "parent_theme": ""
+  },
+  {
     "set_num": "42233-6",
     "name": "Excavator",
     "year": 2026,
@@ -237210,42 +237250,22 @@
     "parent_theme": ""
   },
   {
+    "set_num": "42233-9",
+    "name": "Mighty Machines Series 1  - Complete - All Sets",
+    "year": 2026,
+    "theme_id": 1,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/42233-9.jpg",
+    "theme": "Technic",
+    "parent_theme": ""
+  },
+  {
     "set_num": "42233-10",
     "name": "Mighty Machines Series 1 - Sealed Box",
     "year": 2026,
     "theme_id": 1,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/42233-10.jpg",
-    "theme": "Technic",
-    "parent_theme": ""
-  },
-  {
-    "set_num": "42233-b",
-    "name": "Dump Truck",
-    "year": 2026,
-    "theme_id": 1,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/42233-b.jpg",
-    "theme": "Technic",
-    "parent_theme": ""
-  },
-  {
-    "set_num": "42233-e",
-    "name": "Wrecking Ball Crane",
-    "year": 2026,
-    "theme_id": 1,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/42233-e.jpg",
-    "theme": "Technic",
-    "parent_theme": ""
-  },
-  {
-    "set_num": "42233-f",
-    "name": "Cement Truck",
-    "year": 2026,
-    "theme_id": 1,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/42233-f.jpg",
     "theme": "Technic",
     "parent_theme": ""
   },
@@ -239594,7 +239614,7 @@
     "name": "Nya vs. Mutation Monster Spinner",
     "year": 2026,
     "theme_id": 435,
-    "num_parts": 50,
+    "num_parts": 49,
     "img_url": "https://cdn.rebrickable.com/media/sets/71849-1.jpg",
     "theme": "Ninjago",
     "parent_theme": ""
@@ -239830,6 +239850,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "72150-1",
+    "name": "Munchlax",
+    "year": 2026,
+    "theme_id": 776,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/72150-1.jpg",
+    "theme": "Pokémon",
+    "parent_theme": ""
+  },
+  {
     "set_num": "72151-1",
     "name": "Eevee",
     "year": 2026,
@@ -239856,6 +239886,16 @@
     "theme_id": 776,
     "num_parts": 6838,
     "img_url": "https://cdn.rebrickable.com/media/sets/72153-1.jpg",
+    "theme": "Pokémon",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "72154-1",
+    "name": "Iconic Trainer Moments Poké Ball",
+    "year": 2026,
+    "theme_id": 776,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/72154-1.jpg",
     "theme": "Pokémon",
     "parent_theme": ""
   },
@@ -239906,6 +239946,16 @@
     "theme_id": 776,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/72159-1.jpg",
+    "theme": "Pokémon",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "72160-1",
+    "name": "Arcanine",
+    "year": 2026,
+    "theme_id": 776,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/72160-1.jpg",
     "theme": "Pokémon",
     "parent_theme": ""
   },
@@ -239976,6 +240026,16 @@
     "theme_id": 776,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/72167-1.jpg",
+    "theme": "Pokémon",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "72168-1",
+    "name": "Rayquaza",
+    "year": 2026,
+    "theme_id": 776,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/72168-1.jpg",
     "theme": "Pokémon",
     "parent_theme": ""
   },
@@ -241426,6 +241486,16 @@
     "theme_id": 503,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/854331-1.jpg",
+    "theme": "Key Chain",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "854332-1",
+    "name": "Red Keyring",
+    "year": 2026,
+    "theme_id": 503,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/854332-1.jpg",
     "theme": "Key Chain",
     "parent_theme": "Gear"
   },
@@ -243077,6 +243147,16 @@
     "num_parts": 87,
     "img_url": "https://cdn.rebrickable.com/media/sets/6626067-1.jpg",
     "theme": "Other",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6629997-1",
+    "name": "Airplane",
+    "year": 2026,
+    "theme_id": 598,
+    "num_parts": 149,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6629997-1.jpg",
+    "theme": "Promotional",
     "parent_theme": ""
   },
   {
@@ -260151,7 +260231,7 @@
   },
   {
     "fig_num": "fig-002030",
-    "name": "Olivia - Magenta Top, Dark Pink Skirt",
+    "name": "Olivia - Dark Pink Top, Dark Pink Skirt",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002030.jpg",
     "theme": "",
@@ -339815,7 +339895,7 @@
   },
   {
     "fig_num": "fig-013450",
-    "name": "Classic Space Figure, Reddish Brown",
+    "name": "Classic Spaceman, Reddish Brown",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-013450.jpg",
     "theme": "",
@@ -345759,7 +345839,7 @@
   },
   {
     "fig_num": "fig-014413",
-    "name": "Classic Space, Dark Purple with Airtanks (The Dreamer)",
+    "name": "Classic Spaceman, Dark Purple with Airtanks (The Dreamer)",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-014413.jpg",
     "theme": "",
@@ -356367,7 +356447,7 @@
   },
   {
     "fig_num": "fig-016358",
-    "name": "Female Griffin Knight",
+    "name": "Griffin Knight, Female, Dark Red Arms",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-016358.jpg",
     "theme": "",
@@ -359730,6 +359810,30 @@
     "name": "Monochrome, White with Trans-Clear Head",
     "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-017897.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017958",
+    "name": "Griffin Knight, Female, Dark Blue Arms",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017958.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017959",
+    "name": "Griffin Knight, Male, Dark Blue Arms",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017959.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-017960",
+    "name": "Red Torso, Dark Blue Legs, Red Speech Bubble",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-017960.jpg",
     "theme": "",
     "parent_theme": ""
   }
