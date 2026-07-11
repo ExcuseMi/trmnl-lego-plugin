@@ -63593,11 +63593,11 @@
     "set_num": "10159-1",
     "name": "City Airport",
     "year": 2004,
-    "theme_id": 53,
+    "theme_id": 50,
     "num_parts": 914,
     "img_url": "https://cdn.rebrickable.com/media/sets/10159-1.jpg",
-    "theme": "Airport",
-    "parent_theme": "City"
+    "theme": "Town",
+    "parent_theme": ""
   },
   {
     "set_num": "10159-2",
@@ -82283,11 +82283,11 @@
     "set_num": "8867-1",
     "name": "Flexible Train Track",
     "year": 2009,
-    "theme_id": 241,
+    "theme_id": 66,
     "num_parts": 64,
     "img_url": "https://cdn.rebrickable.com/media/sets/8867-1.jpg",
-    "theme": "Supplemental",
-    "parent_theme": "Train"
+    "theme": "Trains",
+    "parent_theme": "City"
   },
   {
     "set_num": "8869-1",
@@ -233594,7 +233594,7 @@
     "name": "Airplane - Special Edition",
     "year": 2025,
     "theme_id": 408,
-    "num_parts": 0,
+    "num_parts": 149,
     "img_url": "https://cdn.rebrickable.com/media/sets/6629994-1.jpg",
     "theme": "LEGO Brand Store",
     "parent_theme": ""
@@ -235630,6 +235630,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "11382-1",
+    "name": "Hubble Space Telescope",
+    "year": 2026,
+    "theme_id": 721,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/11382-1.jpg",
+    "theme": "Icons",
+    "parent_theme": ""
+  },
+  {
     "set_num": "11384-1",
     "name": "Golden Retriever Puppy",
     "year": 2026,
@@ -236721,7 +236731,7 @@
   },
   {
     "set_num": "40887-1",
-    "name": "SMART Play: Ditto as Squirtle: Movie Night",
+    "name": "Ditto as Squirtle: Movie Night",
     "year": 2026,
     "theme_id": 776,
     "num_parts": 0,
@@ -239901,7 +239911,7 @@
   },
   {
     "set_num": "72155-1",
-    "name": "SMART Play: Berry Bash with Bulbasaur and Bidoof",
+    "name": "Berry Bash with Bulbasaur and Bidoof",
     "year": 2026,
     "theme_id": 776,
     "num_parts": 0,
@@ -239911,7 +239921,7 @@
   },
   {
     "set_num": "72156-1",
-    "name": "SMART Play: Trainer's Buggy Adventure with Squirtle",
+    "name": "Trainer's Buggy Adventure with Squirtle",
     "year": 2026,
     "theme_id": 776,
     "num_parts": 0,
@@ -239921,7 +239931,7 @@
   },
   {
     "set_num": "72157-1",
-    "name": "SMART Play: Charmander and Geodude's Cavern Clash",
+    "name": "Charmander and Geodude's Cavern Clash",
     "year": 2026,
     "theme_id": 776,
     "num_parts": 0,
@@ -239931,7 +239941,7 @@
   },
   {
     "set_num": "72158-1",
-    "name": "SMART Play: Sprigatito, Fuecoco and Quaxly Battle",
+    "name": "Sprigatito, Fuecoco and Quaxly Battle",
     "year": 2026,
     "theme_id": 776,
     "num_parts": 0,
@@ -239941,7 +239951,7 @@
   },
   {
     "set_num": "72159-1",
-    "name": "SMART Play: Jigglypuff Concert",
+    "name": "Jigglypuff Concert",
     "year": 2026,
     "theme_id": 776,
     "num_parts": 0,
@@ -239961,7 +239971,7 @@
   },
   {
     "set_num": "72161-1",
-    "name": "SMART Play: Drone Search for Mythical Mew",
+    "name": "Drone Search for Mythical Mew",
     "year": 2026,
     "theme_id": 776,
     "num_parts": 0,
@@ -239971,7 +239981,7 @@
   },
   {
     "set_num": "72162-1",
-    "name": "SMART Play: Eevee and Lapras's Treasure Hunt",
+    "name": "Eevee and Lapras's Treasure Hunt",
     "year": 2026,
     "theme_id": 776,
     "num_parts": 0,
@@ -239981,7 +239991,7 @@
   },
   {
     "set_num": "72163-1",
-    "name": "SMART Play: Mewtwo's Lab Break",
+    "name": "Mewtwo's Lab Break",
     "year": 2026,
     "theme_id": 776,
     "num_parts": 0,
@@ -239991,7 +240001,7 @@
   },
   {
     "set_num": "72164-1",
-    "name": "SMART Play: Training House with Pikachu",
+    "name": "Training House with Pikachu",
     "year": 2026,
     "theme_id": 776,
     "num_parts": 0,
@@ -240001,7 +240011,7 @@
   },
   {
     "set_num": "72165-1",
-    "name": "SMART Play: Umbreon vs. Garchomp Championship Battle",
+    "name": "Umbreon vs. Garchomp Championship Battle",
     "year": 2026,
     "theme_id": 776,
     "num_parts": 0,
@@ -240011,7 +240021,7 @@
   },
   {
     "set_num": "72166-1",
-    "name": "SMART Play: Cubone and Gengar's Spooky Showdown",
+    "name": "Cubone and Gengar's Spooky Showdown",
     "year": 2026,
     "theme_id": 776,
     "num_parts": 0,
@@ -240021,7 +240031,7 @@
   },
   {
     "set_num": "72167-1",
-    "name": "SMART Play: Charizard vs. Jolteon Ultimate Battle",
+    "name": "Charizard vs. Jolteon Ultimate Battle",
     "year": 2026,
     "theme_id": 776,
     "num_parts": 0,
@@ -243147,16 +243157,6 @@
     "num_parts": 87,
     "img_url": "https://cdn.rebrickable.com/media/sets/6626067-1.jpg",
     "theme": "Other",
-    "parent_theme": ""
-  },
-  {
-    "set_num": "6629997-1",
-    "name": "Airplane",
-    "year": 2026,
-    "theme_id": 598,
-    "num_parts": 149,
-    "img_url": "https://cdn.rebrickable.com/media/sets/6629997-1.jpg",
-    "theme": "Promotional",
     "parent_theme": ""
   },
   {
