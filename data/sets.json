@@ -18420,6 +18420,16 @@
     "parent_theme": "Educational and Dacta"
   },
   {
+    "set_num": "8787957019-1",
+    "name": "LEGOLAND Denmark Park Guide with Map",
+    "year": 1986,
+    "theme_id": 497,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/8787957019-1.jpg",
+    "theme": "Books",
+    "parent_theme": ""
+  },
+  {
     "set_num": "0011-3",
     "name": "Castle 2 for 1 Bonus Offer",
     "year": 1987,
@@ -241894,7 +241904,7 @@
     "name": "Vintage LEGO Logo",
     "year": 2026,
     "theme_id": 599,
-    "num_parts": 0,
+    "num_parts": 1615,
     "img_url": "https://cdn.rebrickable.com/media/sets/4000049-1.jpg",
     "theme": "LEGO Exclusive",
     "parent_theme": ""
