@@ -18423,11 +18423,11 @@
     "set_num": "8787957019-1",
     "name": "LEGOLAND Denmark Park Guide with Map",
     "year": 1986,
-    "theme_id": 497,
+    "theme_id": 758,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/8787957019-1.jpg",
-    "theme": "Books",
-    "parent_theme": ""
+    "theme": "Non-fiction Books",
+    "parent_theme": "Books"
   },
   {
     "set_num": "0011-3",
@@ -235640,12 +235640,32 @@
     "parent_theme": ""
   },
   {
+    "set_num": "11381-1",
+    "name": "Jaguar E-type",
+    "year": 2026,
+    "theme_id": 721,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/11381-1.jpg",
+    "theme": "Icons",
+    "parent_theme": ""
+  },
+  {
     "set_num": "11382-1",
     "name": "Hubble Space Telescope",
     "year": 2026,
     "theme_id": 721,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/11382-1.jpg",
+    "theme": "Icons",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "11383-1",
+    "name": "Mayor Manor",
+    "year": 2026,
+    "theme_id": 721,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/11383-1.jpg",
     "theme": "Icons",
     "parent_theme": ""
   },
@@ -241904,7 +241924,7 @@
     "name": "Vintage LEGO Logo",
     "year": 2026,
     "theme_id": 599,
-    "num_parts": 1615,
+    "num_parts": 1614,
     "img_url": "https://cdn.rebrickable.com/media/sets/4000049-1.jpg",
     "theme": "LEGO Exclusive",
     "parent_theme": ""

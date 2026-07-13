@@ -49,7 +49,7 @@
   optional: true
 - keyname: themes_rebrickable
   field_type: select
-  name: Filter by Themes – Rebrickable (418)
+  name: Filter by Themes – Rebrickable (417)
   description: Select one or more themes to display. Only applicable when using Rebrickable as your data source.
   multiple: true
   options:
@@ -96,7 +96,6 @@
   - Bluey (12): bluey|1|12
   - Boat (21): boat|1|21
   - Bob the Builder (31): bob-the-builder|1|31
-  - Books (1): books|1|1
   - Botanicals (54): botanicals|1|54
   - Brick Sketches (8): brick-sketches|1|8
   - Brickheadz (194): brickheadz|1|194
@@ -219,7 +218,7 @@
   - Houseware (445): houseware|1|445
   - Hydronauts (7): hydronauts|1|7
   - Ice Planet 2002 (10): ice-planet-2002|1|10
-  - Icons (82): icons|1|82
+  - Icons (84): icons|1|84
   - Ideas Books (119): ideas-books|1|119
   - Incredibles 2 (3): incredibles-2|1|3
   - Indiana Jones (20): indiana-jones|1|20
@@ -292,7 +291,7 @@
   - Nike (5): nike|1|5
   - Ninja (31): ninja|1|31
   - Ninjago (622): ninjago|1|622
-  - Non-fiction Books (181): non-fiction-books|1|181
+  - Non-fiction Books (182): non-fiction-books|1|182
   - NXT (30): nxt|1|30
   - Off-Road (13): off-road|1|13
   - One Piece (13): one-piece|1|13
