@@ -9214,7 +9214,7 @@
     "name": "Cargo Station",
     "year": 1978,
     "theme_id": 235,
-    "num_parts": 265,
+    "num_parts": 266,
     "img_url": "https://cdn.rebrickable.com/media/sets/165-1.jpg",
     "theme": "4.5V",
     "parent_theme": "Train"
@@ -235960,6 +235960,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "21372-1",
+    "name": "La Catrina",
+    "year": 2026,
+    "theme_id": 576,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/21372-1.jpg",
+    "theme": "LEGO Ideas and CUUSOO",
+    "parent_theme": ""
+  },
+  {
     "set_num": "21376-1",
     "name": "Orange Cat",
     "year": 2026,
@@ -241410,6 +241420,26 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "100491-1",
+    "name": "Blue Shopping Bag",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/100491-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "111154-1",
+    "name": "Star Wars Patch Cap",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/111154-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
     "set_num": "112601-1",
     "name": "Lloyd vs. Dragonian Warrior",
     "year": 2026,
@@ -244181,7 +244211,7 @@
   },
   {
     "set_num": "203692607-1",
-    "name": "Coloiurful Bricks Round Crossbody Bag",
+    "name": "Colourful Bricks Round Crossbody Bag",
     "year": 2026,
     "theme_id": 777,
     "num_parts": 0,
@@ -244236,6 +244266,26 @@
     "theme_id": 777,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/203712611-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "203732607-1",
+    "name": "Colourful Bricks Round Crossbody Bag Large",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/203732607-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "203732611-1",
+    "name": "Brick Dots Red Round Crossbody Bag Large",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/203732611-1.jpg",
     "theme": "Bags, Totes, & Luggage",
     "parent_theme": "Gear"
   },
