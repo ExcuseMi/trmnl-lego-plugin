@@ -162554,7 +162554,7 @@
     "name": "Tantive IV",
     "year": 2019,
     "theme_id": 158,
-    "num_parts": 1772,
+    "num_parts": 1768,
     "img_url": "https://cdn.rebrickable.com/media/sets/75244-1.jpg",
     "theme": "Star Wars",
     "parent_theme": ""
@@ -235730,6 +235730,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "11386-1",
+    "name": "SpongeBob SquarePants: Bikini Bottom",
+    "year": 2026,
+    "theme_id": 721,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/11386-1.jpg",
+    "theme": "Icons",
+    "parent_theme": ""
+  },
+  {
     "set_num": "11389-1",
     "name": "Project Hail Mary",
     "year": 2026,
@@ -236470,6 +236480,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "31221-1",
+    "name": "Gustav Klimt – The Kiss",
+    "year": 2026,
+    "theme_id": 709,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/31221-1.jpg",
+    "theme": "LEGO Art",
+    "parent_theme": ""
+  },
+  {
     "set_num": "31376-1",
     "name": "Cute Hamster with a Flower",
     "year": 2026,
@@ -236676,6 +236696,16 @@
     "theme_id": 610,
     "num_parts": 661,
     "img_url": "https://cdn.rebrickable.com/media/sets/40856-1.jpg",
+    "theme": "Brickheadz",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "40858-1",
+    "name": "SpongeBob SquarePants Figure",
+    "year": 2026,
+    "theme_id": 610,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40858-1.jpg",
     "theme": "Brickheadz",
     "parent_theme": ""
   },
@@ -241820,6 +241850,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "951340-1",
+    "name": "Construction Worker with Roller",
+    "year": 2026,
+    "theme_id": 56,
+    "num_parts": 34,
+    "img_url": "https://cdn.rebrickable.com/media/sets/951340-1.jpg",
+    "theme": "Construction",
+    "parent_theme": "City"
+  },
+  {
     "set_num": "951345-1",
     "name": "Kitten and Vet's Office",
     "year": 2026,
@@ -244784,7 +244824,7 @@
     "name": "Minecraft: Rare Mob Expedition: Search & Find Sticker Activity",
     "year": 2026,
     "theme_id": 761,
-    "num_parts": 0,
+    "num_parts": 10,
     "img_url": "https://cdn.rebrickable.com/media/sets/9781837252145-1.jpg",
     "theme": "Activity Books with LEGO Parts",
     "parent_theme": "Books"
@@ -244814,7 +244854,7 @@
     "name": "Harry Potter: Magical Powers",
     "year": 2026,
     "theme_id": 761,
-    "num_parts": 0,
+    "num_parts": 17,
     "img_url": "https://cdn.rebrickable.com/media/sets/9781837252176-1.jpg",
     "theme": "Activity Books with LEGO Parts",
     "parent_theme": "Books"
