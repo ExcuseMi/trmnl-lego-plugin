@@ -221174,7 +221174,7 @@
     "name": "Minecraft Trading Cards Series 1 - Eco-Multipack (Polish Version)",
     "year": 2024,
     "theme_id": 501,
-    "num_parts": 1,
+    "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/4143643905991-1.jpg",
     "theme": "Gear",
     "parent_theme": ""
@@ -221184,7 +221184,7 @@
     "name": "Minecraft Trading Cards Series 1 - Starterpack (Polish Version)",
     "year": 2024,
     "theme_id": 501,
-    "num_parts": 3,
+    "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/4143644509990-1.jpg",
     "theme": "Gear",
     "parent_theme": ""
@@ -232910,6 +232910,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "6568275-1",
+    "name": "2025 Store Manager's Summit: New Orleans Alligator Float",
+    "year": 2025,
+    "theme_id": 301,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6568275-1.jpg",
+    "theme": "Other",
+    "parent_theme": ""
+  },
+  {
     "set_num": "6568276-1",
     "name": "Spring in Bloom",
     "year": 2025,
@@ -242750,6 +242760,16 @@
     "parent_theme": "Books"
   },
   {
+    "set_num": "5010388-1",
+    "name": "Play Box",
+    "year": 2026,
+    "theme_id": 301,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010388-1.jpg",
+    "theme": "Other",
+    "parent_theme": ""
+  },
+  {
     "set_num": "5010392-1",
     "name": "Brick Art Line Vase",
     "year": 2026,
@@ -244851,7 +244871,7 @@
   },
   {
     "set_num": "9781837252176-1",
-    "name": "Harry Potter: Magical Powers",
+    "name": "Harry Potter: Magical Lessons",
     "year": 2026,
     "theme_id": 761,
     "num_parts": 17,
