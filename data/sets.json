@@ -42974,7 +42974,7 @@
     "name": "World Pen",
     "year": 2000,
     "theme_id": 739,
-    "num_parts": 0,
+    "num_parts": 14,
     "img_url": "https://cdn.rebrickable.com/media/sets/1525-2.jpg",
     "theme": "Stationery and Office Supplies",
     "parent_theme": "Gear"
@@ -221184,7 +221184,7 @@
     "name": "Minecraft Trading Cards Series 1 - Starterpack (Polish Version)",
     "year": 2024,
     "theme_id": 501,
-    "num_parts": 5,
+    "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/4143644509990-1.jpg",
     "theme": "Gear",
     "parent_theme": ""
@@ -232304,7 +232304,7 @@
     "name": "LEGO Minifigure: A Visual History: Updated and Expanded",
     "year": 2025,
     "theme_id": 758,
-    "num_parts": 5,
+    "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/5010069-1.jpg",
     "theme": "Non-fiction Books",
     "parent_theme": "Books"
@@ -241930,6 +241930,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "951386-1",
+    "name": "Zane",
+    "year": 2026,
+    "theme_id": 435,
+    "num_parts": 12,
+    "img_url": "https://cdn.rebrickable.com/media/sets/951386-1.jpg",
+    "theme": "Ninjago",
+    "parent_theme": ""
+  },
+  {
     "set_num": "951394-1",
     "name": "Spider-Man with Web",
     "year": 2026,
@@ -241956,6 +241966,16 @@
     "theme_id": 158,
     "num_parts": 59,
     "img_url": "https://cdn.rebrickable.com/media/sets/951405-1.jpg",
+    "theme": "Star Wars",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "951408-1",
+    "name": "Death Trooper",
+    "year": 2026,
+    "theme_id": 158,
+    "num_parts": 5,
+    "img_url": "https://cdn.rebrickable.com/media/sets/951408-1.jpg",
     "theme": "Star Wars",
     "parent_theme": ""
   },
