@@ -119370,6 +119370,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "15053-1",
+    "name": "Friends Best Friend Easy Set",
+    "year": 2015,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/15053-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "15074-1",
     "name": "Friends Horse Easy Set",
     "year": 2015,
@@ -119446,6 +119456,16 @@
     "theme_id": 777,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/15173-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "15225-1",
+    "name": "Jungle Friends Backpack with Gym Bag",
+    "year": 2015,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/15225-1.jpg",
     "theme": "Bags, Totes, & Luggage",
     "parent_theme": "Gear"
   },
@@ -119887,6 +119907,36 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/15446-1.jpg",
     "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "16093-1",
+    "name": "Friends Best Friend Easy Set",
+    "year": 2015,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/16093-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "16153-1",
+    "name": "Friends Best Friend Backpack with Gym Bag",
+    "year": 2015,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/16153-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "16154-1",
+    "name": "Friends Horse Backpack with Gym Bag",
+    "year": 2015,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/16154-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
     "parent_theme": "Gear"
   },
   {
@@ -138500,6 +138550,36 @@
     "parent_theme": "Disney"
   },
   {
+    "set_num": "16075-1",
+    "name": "Friends Popstar Easy Set",
+    "year": 2017,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/16075-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "16151-1",
+    "name": "City Fire Backpack with Gym Bag",
+    "year": 2017,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/16151-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "16155-1",
+    "name": "Friends Popstar Backpack with Gym Bag",
+    "year": 2017,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/16155-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "17101-1",
     "name": "Creative Toolbox",
     "year": 2017,
@@ -146591,11 +146671,31 @@
   },
   {
     "set_num": "200131705-1",
-    "name": "Friends Popstar Backpack",
+    "name": "Friends Popstar Backpack with Sports Bag",
     "year": 2017,
     "theme_id": 777,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/200131705-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "200141705-1",
+    "name": "Friends Popstar Backpack with Sports Bag",
+    "year": 2017,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/200141705-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "200181705-1",
+    "name": "Friends Popstar Backpack with Gym Bag",
+    "year": 2017,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/200181705-1.jpg",
     "theme": "Bags, Totes, & Luggage",
     "parent_theme": "Gear"
   },
@@ -146700,6 +146800,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "200481705-1",
+    "name": "Friends Popstar Backpack with Gym Bag and Pencil Case",
+    "year": 2017,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/200481705-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "200541714-1",
     "name": "Ninjago Cole Easy Backpack",
     "year": 2017,
@@ -146720,6 +146830,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "200611705-1",
+    "name": "Friends Popstar Backpack",
+    "year": 2017,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/200611705-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "200852005-1",
     "name": "Friends Hearts Pencil Case with Pencils",
     "year": 2017,
@@ -146727,6 +146847,16 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/200852005-1.jpg",
     "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "201782004-1",
+    "name": "Friends Pink Satchel Set",
+    "year": 2017,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/201782004-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
     "parent_theme": "Gear"
   },
   {
@@ -147261,7 +147391,7 @@
   },
   {
     "set_num": "5711013064600-1",
-    "name": "Friends Pink Junior Backpack",
+    "name": "Friends Good Vibes Junior Backpack",
     "year": 2017,
     "theme_id": 777,
     "num_parts": 0,
@@ -147271,7 +147401,7 @@
   },
   {
     "set_num": "5711013065140-1",
-    "name": "Friends Pink Backpack",
+    "name": "Friends Good Vibes Backpack",
     "year": 2017,
     "theme_id": 777,
     "num_parts": 0,
@@ -156510,12 +156640,32 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "200091712-1",
+    "name": "Elves Backpack with Sports Bag",
+    "year": 2018,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/200091712-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "200091806-1",
-    "name": "Ninjago Comic Backpack",
+    "name": "Ninjago Comic Backpack with Sports Bag",
     "year": 2018,
     "theme_id": 777,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/200091806-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "200091814-1",
+    "name": "Friends Confetti Backpack with Sports Bag",
+    "year": 2018,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/200091814-1.jpg",
     "theme": "Bags, Totes, & Luggage",
     "parent_theme": "Gear"
   },
@@ -156530,8 +156680,18 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "200131712-1",
+    "name": "Elves Backpack with Sports Bag",
+    "year": 2018,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/200131712-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "200131809-1",
-    "name": "Ninjago Team Ninja Backpack",
+    "name": "Ninjago Team Ninja Backpack with Sports Bag",
     "year": 2018,
     "theme_id": 777,
     "num_parts": 0,
@@ -156546,6 +156706,16 @@
     "theme_id": 777,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/200221814-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "200241712-1",
+    "name": "Elves Backpack",
+    "year": 2018,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/200241712-1.jpg",
     "theme": "Bags, Totes, & Luggage",
     "parent_theme": "Gear"
   },
@@ -156626,6 +156796,26 @@
     "theme_id": 777,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/200431829-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "200451712-1",
+    "name": "Elves Satchel Set",
+    "year": 2018,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/200451712-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "200561726-1",
+    "name": "Star Wars Darth Vader Backpack",
+    "year": 2018,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/200561726-1.jpg",
     "theme": "Bags, Totes, & Luggage",
     "parent_theme": "Gear"
   },
@@ -166780,6 +166970,26 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "100341915-1",
+    "name": "Friends Good Vibes Gym Bag",
+    "year": 2019,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/100341915-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "100361827-1",
+    "name": "Star Wars BB-8 Backpack",
+    "year": 2019,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/100361827-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "100451910-1",
     "name": "Ninjago Urban Backpack Trolley",
     "year": 2019,
@@ -166810,6 +167020,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "100521915-1",
+    "name": "Friends Good Vibes Pencil Case",
+    "year": 2019,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/100521915-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "200121814-1",
     "name": "Friends Confetti Pencil Case with Pencils",
     "year": 2019,
@@ -166817,6 +167037,36 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/200121814-1.jpg",
     "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "200131915-1",
+    "name": "Friends Good Vibes Backpack with Sports Bag",
+    "year": 2019,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/200131915-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "200141914-1",
+    "name": "Friends Girls Rock Backpack with Sports Bag",
+    "year": 2019,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/200141914-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "200141915-1",
+    "name": "Friends Good Vibes Backpack with Sports Bag",
+    "year": 2019,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/200141915-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
     "parent_theme": "Gear"
   },
   {
@@ -166910,12 +167160,42 @@
     "parent_theme": ""
   },
   {
+    "set_num": "200631915-1",
+    "name": "Friends Good Vibes Card Wallet",
+    "year": 2019,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/200631915-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "200641915-1",
+    "name": "Friends  Good Vibes Card Wallet",
+    "year": 2019,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/200641915-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
     "set_num": "200691814-1",
     "name": "Friends Confetti Backpack",
     "year": 2019,
     "theme_id": 777,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/200691814-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "200701915-1",
+    "name": "Friends Good Vibes Toiletry Bag",
+    "year": 2019,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/200701915-1.jpg",
     "theme": "Bags, Totes, & Luggage",
     "parent_theme": "Gear"
   },
@@ -166950,6 +167230,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "201061915-1",
+    "name": "Friends Good Vibes Backpack",
+    "year": 2019,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/201061915-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "201081908-1",
     "name": "Ninjago Lloyd Easy Backpack",
     "year": 2019,
@@ -166976,6 +167266,36 @@
     "theme_id": 777,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/201081915-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "201131914-1",
+    "name": "Friends Girls Rock Satchel Set",
+    "year": 2019,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/201131914-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "201131915-1",
+    "name": "Friends Good Vibes Satchel Set",
+    "year": 2019,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/201131915-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "201141908-1",
+    "name": "Ninjago Lloyd Energy School Bag Set of 4",
+    "year": 2019,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/201141908-1.jpg",
     "theme": "Bags, Totes, & Luggage",
     "parent_theme": "Gear"
   },
@@ -176610,6 +176930,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "100351705-1",
+    "name": "Friends Popstar Backpack Trolley",
+    "year": 2020,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/100351705-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "100452005-1",
     "name": "Friends Hearts Backpack Trolley",
     "year": 2020,
@@ -176786,6 +177116,26 @@
     "theme_id": 777,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/200931814-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "200951814-1",
+    "name": "Friends Confetti Deluxe Set",
+    "year": 2020,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/200951814-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "200961814-1",
+    "name": "Friends Confetti Backpack with Gym Bag",
+    "year": 2020,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/200961814-1.jpg",
     "theme": "Bags, Totes, & Luggage",
     "parent_theme": "Gear"
   },
@@ -187721,7 +188071,7 @@
   },
   {
     "set_num": "100301837-1",
-    "name": "Friends Backpack",
+    "name": "Friends Juice Bar Backpack",
     "year": 2021,
     "theme_id": 777,
     "num_parts": 0,
@@ -198660,6 +199010,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "202282214-1",
+    "name": "Ninjago Gold/Blue Backpack with Gym Bag and Pencil Case",
+    "year": 2022,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/202282214-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "202292201-1",
     "name": "Ninjago Lloyd Backpack with Gym Bag and Pencil Case",
     "year": 2022,
@@ -198726,6 +199086,16 @@
     "theme_id": 777,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/203042301-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "203042302-1",
+    "name": "Ninjago Kai School Bag Set of 6",
+    "year": 2022,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/203042302-1.jpg",
     "theme": "Bags, Totes, & Luggage",
     "parent_theme": "Gear"
   },
@@ -200076,16 +200446,6 @@
     "theme_id": 777,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/5711013122935-1.jpg",
-    "theme": "Bags, Totes, & Luggage",
-    "parent_theme": "Gear"
-  },
-  {
-    "set_num": "5711013141783-1",
-    "name": "Ninjago Kai School Bag Set of 6",
-    "year": 2022,
-    "theme_id": 777,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/5711013141783-1.jpg",
     "theme": "Bags, Totes, & Luggage",
     "parent_theme": "Gear"
   },
@@ -217187,6 +217547,16 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/105749-1.jpg",
     "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "106141-1",
+    "name": "Candy Cane Fleece Blanket",
+    "year": 2024,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/106141-1.jpg",
+    "theme": "Houseware",
     "parent_theme": "Gear"
   },
   {
@@ -234420,6 +234790,36 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "202642501-1",
+    "name": "Ninjago Elemental Master of Energy Backpack",
+    "year": 2025,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/202642501-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "202642502-1",
+    "name": "Ninjago Dragon Energy Backpack",
+    "year": 2025,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/202642502-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "202642505-1",
+    "name": "City Space Explorer Backpack",
+    "year": 2025,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/202642505-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "202662501-1",
     "name": "Ninjago Elemental Master Of Energy Basic Backpack",
     "year": 2025,
@@ -234680,6 +235080,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "203012505-1",
+    "name": "City Space Explorer Easy Backpack",
+    "year": 2025,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/203012505-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "203022501-1",
     "name": "Ninjago Elemental Master of Energy Easy Set",
     "year": 2025,
@@ -234847,6 +235257,16 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/3013707462-1.jpg",
     "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5056635618573-1",
+    "name": "LEGO Party (All Formats)",
+    "year": 2025,
+    "theme_id": 742,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5056635618573-1.jpg",
+    "theme": "Video Games and Accessories",
     "parent_theme": "Gear"
   },
   {
@@ -235900,6 +236320,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "12009-1",
+    "name": "Ninjago: Destiny's Bounty Adventures",
+    "year": 2026,
+    "theme_id": 741,
+    "num_parts": 125,
+    "img_url": "https://cdn.rebrickable.com/media/sets/12009-1.jpg",
+    "theme": "Tabletop Games and Puzzles",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "21064-1",
     "name": "Paris - City of Love",
     "year": 2026,
@@ -235926,6 +236356,16 @@
     "theme_id": 252,
     "num_parts": 1465,
     "img_url": "https://cdn.rebrickable.com/media/sets/21066-1.jpg",
+    "theme": "Architecture",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "21067-1",
+    "name": "Tower Bridge",
+    "year": 2026,
+    "theme_id": 252,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/21067-1.jpg",
     "theme": "Architecture",
     "parent_theme": ""
   },
@@ -242784,7 +243224,7 @@
     "name": "Play Box",
     "year": 2026,
     "theme_id": 301,
-    "num_parts": 0,
+    "num_parts": 121,
     "img_url": "https://cdn.rebrickable.com/media/sets/5010388-1.jpg",
     "theme": "Other",
     "parent_theme": ""
@@ -244160,6 +244600,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "203022402-1",
+    "name": "Ninjago Reach Beyond Easy Set",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/203022402-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "203022601-1",
     "name": "Ninjago Spinjitzu Master Easy Set",
     "year": 2026,
@@ -244176,6 +244626,46 @@
     "theme_id": 777,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/203022602-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "203032408-1",
+    "name": "Ninjago Green School Bag Set of 6",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/203032408-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "203032409-1",
+    "name": "Ninjago Red School Bag Set of 6",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/203032409-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "203062508-1",
+    "name": "Ninjago Lloyd Backpack with Gym Bag and Pencil Case",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/203062508-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "203062513-1",
+    "name": "Ninjago Cole Backpack with Gym Bag and Pencil Case",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/203062513-1.jpg",
     "theme": "Bags, Totes, & Luggage",
     "parent_theme": "Gear"
   },
@@ -244397,6 +244887,16 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/203762611-1.jpg",
     "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "757894517489-1",
+    "name": "Multicolour Brick Lunch Bag",
+    "year": 2026,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/757894517489-1.jpg",
+    "theme": "Houseware",
     "parent_theme": "Gear"
   },
   {
@@ -244948,6 +245448,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/9798225060862-1.jpg",
     "theme": "Activity Books with LEGO Parts",
     "parent_theme": "Books"
+  },
+  {
+    "set_num": "757894517472-1",
+    "name": "Chequered Brick Lunch Bag",
+    "year": 2027,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/757894517472-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
   },
   {
     "set_num": "9780241836712-1",
