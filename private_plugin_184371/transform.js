@@ -1,14 +1,14 @@
 function transform(input) {
-  const vendor = input.trmnl.plugin_settings.custom_fields_values.vendor || "rebrickable";
-  const minYear = parseInt(input.trmnl.plugin_settings.custom_fields_values.min_year) || 0;
-  const maxYear = parseInt(input.trmnl.plugin_settings.custom_fields_values.max_year) || 0;
-  const minParts = parseInt(input.trmnl.plugin_settings.custom_fields_values.min_parts) || 0;
-  const maxParts = parseInt(input.trmnl.plugin_settings.custom_fields_values.max_parts) || 0;
-  const showBrickCount = input.trmnl.plugin_settings.custom_fields_values.show_brick_count || "yes";
-  const showMinifigs = input.trmnl.plugin_settings.custom_fields_values.brickset_show_minifigs_included || "no";
-  const showOwnedWanted = input.trmnl.plugin_settings.custom_fields_values.brickset_show_owned_wanted_indicators || "yes";
-  const pricingRegion = input.trmnl.plugin_settings.custom_fields_values.brickset_pricing || "";
-  const showQrCode = input.trmnl.plugin_settings.custom_fields_values.show_qr_code || "hide";
+  const vendor = input.trmnl.plugin_settings?.custom_fields_values?.vendor || "rebrickable";
+  const minYear = parseInt(input.trmnl.plugin_settings?.custom_fields_values?.min_year) || 0;
+  const maxYear = parseInt(input.trmnl.plugin_settings?.custom_fields_values?.max_year) || 0;
+  const minParts = parseInt(input.trmnl.plugin_settings?.custom_fields_values?.min_parts) || 0;
+  const maxParts = parseInt(input.trmnl.plugin_settings?.custom_fields_values?.max_parts) || 0;
+  const showBrickCount = input.trmnl.plugin_settings?.custom_fields_values?.show_brick_count || "yes";
+  const showMinifigs = input.trmnl.plugin_settings?.custom_fields_values?.brickset_show_minifigs_included || "no";
+  const showOwnedWanted = input.trmnl.plugin_settings?.custom_fields_values?.brickset_show_owned_wanted_indicators || "yes";
+  const pricingRegion = input.trmnl.plugin_settings?.custom_fields_values?.brickset_pricing || "";
+  const showQrCode = input.trmnl.plugin_settings?.custom_fields_values?.show_qr_code || "hide";
   
   let allSets = [];
   const bricksetMode = vendor === "brickset";
