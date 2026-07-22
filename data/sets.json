@@ -188130,6 +188130,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "100722006-1",
+    "name": "Minifigure Backpack",
+    "year": 2021,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/100722006-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "100722101-1",
     "name": "Ninjago Green Lloyd Backpack",
     "year": 2021,
@@ -188386,6 +188396,36 @@
     "theme_id": 777,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/201932106-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "201952101-1",
+    "name": "Ninjago Green Lloyd Nielsen Set",
+    "year": 2021,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/201952101-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "201952102-1",
+    "name": "Ninjago Golden Lloyd Nielsen Set",
+    "year": 2021,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/201952102-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "201952103-1",
+    "name": "Ninjago Prime Empire Nielsen Set",
+    "year": 2021,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/201952103-1.jpg",
     "theme": "Bags, Totes, & Luggage",
     "parent_theme": "Gear"
   },
@@ -210190,6 +210230,36 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "757894514235-1",
+    "name": "Ninjago Future Lloyd Lunch Bag",
+    "year": 2023,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/757894514235-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "757894514242-1",
+    "name": "Ninjago Future Kai Lunch Bag",
+    "year": 2023,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/757894514242-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "757894514273-1",
+    "name": "Ninjago Level-Up Lunch Bag",
+    "year": 2023,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/757894514273-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "757894515522-1",
     "name": "Ninjago Level-Up Backpack",
     "year": 2023,
@@ -217528,6 +217598,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/80117-1.jpg",
     "theme": "Chinese Traditional Festivals",
     "parent_theme": ""
+  },
+  {
+    "set_num": "100698-1",
+    "name": "Minifigure Pencil Case",
+    "year": 2024,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/100698-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
   },
   {
     "set_num": "105334-1",
@@ -234480,6 +234560,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "201682505-1",
+    "name": "City Space Explorer Backpack",
+    "year": 2025,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/201682505-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "201922501-1",
     "name": "Ninjago Elemental Master of Energy Backpack",
     "year": 2025,
@@ -234930,6 +235020,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "202832403-1",
+    "name": "Ninjago Family Duffle",
+    "year": 2025,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/202832403-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "202842501-1",
     "name": "Ninjago Elemental Master Of Energy Lunch Bag",
     "year": 2025,
@@ -235140,6 +235240,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "203482524-1",
+    "name": "Ninjago Core Lloyd Duffle Bag",
+    "year": 2025,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/203482524-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "203522603-1",
     "name": "Ninjago Ninja Skills Pencil Case",
     "year": 2025,
@@ -235147,6 +235257,26 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/203522603-1.jpg",
     "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "203672523-1",
+    "name": "Ninjago Dragon Energy School Bag Set of 6",
+    "year": 2025,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/203672523-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "203672524-1",
+    "name": "Ninjago Core Lloyd School Bag Set of 6",
+    "year": 2025,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/203672524-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
     "parent_theme": "Gear"
   },
   {
@@ -235257,6 +235387,16 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/3013707462-1.jpg",
     "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "661127107159-1",
+    "name": "Lloyd Keepsake Ornament",
+    "year": 2025,
+    "theme_id": 738,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/661127107159-1.jpg",
+    "theme": "Seasonal",
     "parent_theme": "Gear"
   },
   {
@@ -241374,7 +241514,7 @@
     "name": "Book Nook: Dumbledore's Office",
     "year": 2026,
     "theme_id": 246,
-    "num_parts": 1184,
+    "num_parts": 1182,
     "img_url": "https://cdn.rebrickable.com/media/sets/76478-1.jpg",
     "theme": "Harry Potter",
     "parent_theme": ""
@@ -242517,6 +242657,16 @@
     "num_parts": 1614,
     "img_url": "https://cdn.rebrickable.com/media/sets/4000049-1.jpg",
     "theme": "LEGO Exclusive",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "4000351-1",
+    "name": "FIFA World Cup Official Trophy – Champions Edition",
+    "year": 2026,
+    "theme_id": 787,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/4000351-1.jpg",
+    "theme": "Editions",
     "parent_theme": ""
   },
   {
@@ -244130,6 +244280,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "6669168-1",
+    "name": "Sports Car",
+    "year": 2026,
+    "theme_id": 408,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6669168-1.jpg",
+    "theme": "LEGO Brand Store",
+    "parent_theme": ""
+  },
+  {
     "set_num": "6671868-1",
     "name": "Yellow Pencil",
     "year": 2026,
@@ -244137,6 +244297,196 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/6671868-1.jpg",
     "theme": "LEGO Brand Store",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "10018247-1",
+    "name": "Castle Jibbitz",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/10018247-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "10018248-1",
+    "name": "Red Tile 2x2 Jibbitz",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/10018248-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "10018249-1",
+    "name": "Spaceship Jibbitz",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/10018249-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "10018250-1",
+    "name": "Red Tile 1x1 Jibbitz",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/10018250-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "10018251-1",
+    "name": "Yellow Tile 1x2 Jibbitz",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/10018251-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "10018252-1",
+    "name": "Gaming Minifigure Jibbitz",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/10018252-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "10018253-1",
+    "name": "Headphones Jibbitz",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/10018253-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "10018255-1",
+    "name": "DJ Set Jibbitz",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/10018255-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "10018256-1",
+    "name": "Sailboat Jibbitz",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/10018256-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "10018257-1",
+    "name": "Sunflower Jibbitz",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/10018257-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "10018258-1",
+    "name": "Bumblebee Minifigure Jibbitz",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/10018258-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "10018259-1",
+    "name": "White Flower Jibbitz",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/10018259-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "10018260-1",
+    "name": "Yellow Flower Bud Jibbitz",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/10018260-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "10018261-1",
+    "name": "Blue Tile 1x1 Jibbitz",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/10018261-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "10019740-1",
+    "name": "Purple Flower Jibbitz",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/10019740-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "10019741-1",
+    "name": "Ladybug Jibbitz",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/10019741-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "10019742-1",
+    "name": "Purple Flower Bud Jibbitz",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/10019742-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "10019743-1",
+    "name": "Dark Green Leaf Jibbitz",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/10019743-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "10019744-1",
+    "name": "Blue Flower Jibbitz",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/10019744-1.jpg",
+    "theme": "Gear",
     "parent_theme": ""
   },
   {
@@ -244290,6 +244640,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "100722007-1",
+    "name": "Minifigure Backpack",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/100722007-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "101032601-1",
     "name": "Ninjago Spinjitzu Master Wallet",
     "year": 2026,
@@ -244416,6 +244776,26 @@
     "theme_id": 739,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/202372601-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "202372607-1",
+    "name": "Colourful Bricks 3-Layer Pencil Case",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/202372607-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "202372619-1",
+    "name": "Colourful Typography 3-Layer Pencil Case",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/202372619-1.jpg",
     "theme": "Stationery and Office Supplies",
     "parent_theme": "Gear"
   },
@@ -244888,6 +245268,26 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/203762611-1.jpg",
     "theme": "Bags, Totes, & Luggage",
     "parent_theme": "Gear"
+  },
+  {
+    "set_num": "211873001-1",
+    "name": "Adult's Create Clogs - Black",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/211873001-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "211873100-1",
+    "name": "Adult's Create Clogs - White",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/211873100-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
   },
   {
     "set_num": "757894517489-1",
