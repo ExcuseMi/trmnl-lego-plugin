@@ -186161,7 +186161,7 @@
   },
   {
     "set_num": "5006532-1",
-    "name": "adidas x LEGO Sport Kids Shoes",
+    "name": "adidas x LEGO Sport Kids' Shoes",
     "year": 2021,
     "theme_id": 501,
     "num_parts": 0,
@@ -186171,7 +186171,7 @@
   },
   {
     "set_num": "5006533-1",
-    "name": "adidas x LEGO Sport Kids Shoes",
+    "name": "adidas x LEGO Sport Kids' Shoes",
     "year": 2021,
     "theme_id": 501,
     "num_parts": 0,
@@ -186181,7 +186181,7 @@
   },
   {
     "set_num": "5006534-1",
-    "name": "adidas x LEGO Sport Kids Shoes",
+    "name": "adidas x LEGO Sport Kids' Shoes",
     "year": 2021,
     "theme_id": 501,
     "num_parts": 0,
@@ -229124,7 +229124,7 @@
     "name": "Mecha Team Leader",
     "year": 2025,
     "theme_id": 766,
-    "num_parts": 2546,
+    "num_parts": 2503,
     "img_url": "https://cdn.rebrickable.com/media/sets/77078-1.jpg",
     "theme": "Fortnite",
     "parent_theme": ""
@@ -230494,7 +230494,7 @@
     "name": "Wild West Train",
     "year": 2025,
     "theme_id": 719,
-    "num_parts": 3201,
+    "num_parts": 3197,
     "img_url": "https://cdn.rebrickable.com/media/sets/910044-1.jpg",
     "theme": "BrickLink Designer Program",
     "parent_theme": ""
@@ -232421,7 +232421,7 @@
   },
   {
     "set_num": "5009950-1",
-    "name": "Nike Dunk Low x LEGO Collection – Big Kids Shoes",
+    "name": "Nike Dunk Low x LEGO Collection – Big Kids' Shoes",
     "year": 2025,
     "theme_id": 501,
     "num_parts": 0,
@@ -232431,7 +232431,7 @@
   },
   {
     "set_num": "5009951-1",
-    "name": "Nike Dunk Low x LEGO Collection – Little Kids Shoes",
+    "name": "Nike Dunk Low x LEGO Collection – Little Kids' Shoes",
     "year": 2025,
     "theme_id": 501,
     "num_parts": 0,
@@ -232671,7 +232671,7 @@
   },
   {
     "set_num": "5010044-1",
-    "name": "Nike G T Cut 3 x LEGO Collection – Little Kids Shoes",
+    "name": "Nike G T Cut 3 x LEGO Collection – Little Kids' Shoes",
     "year": 2025,
     "theme_id": 501,
     "num_parts": 0,
@@ -232681,7 +232681,7 @@
   },
   {
     "set_num": "5010045-1",
-    "name": "Nike G T Cut 3 x LEGO Collection – Big Kids Shoes",
+    "name": "Nike G T Cut 3 x LEGO Collection – Big Kids' Shoes",
     "year": 2025,
     "theme_id": 501,
     "num_parts": 0,
@@ -232691,7 +232691,7 @@
   },
   {
     "set_num": "5010046-1",
-    "name": "Nike Dunk Low x LEGO Collection – Little Kids Shoes",
+    "name": "Nike Dunk Low x LEGO Collection – Little Kids' Shoes",
     "year": 2025,
     "theme_id": 501,
     "num_parts": 0,
@@ -232701,7 +232701,7 @@
   },
   {
     "set_num": "5010047-1",
-    "name": "Nike Dunk Low x LEGO Collection – Big Kids Shoes",
+    "name": "Nike Dunk Low x LEGO Collection – Big Kids' Shoes",
     "year": 2025,
     "theme_id": 501,
     "num_parts": 0,
@@ -232711,7 +232711,7 @@
   },
   {
     "set_num": "5010050-1",
-    "name": "Nike Dunk Low x LEGO Collection – Little Kids Shoes",
+    "name": "Nike Dunk Low x LEGO Collection – Little Kids' Shoes",
     "year": 2025,
     "theme_id": 501,
     "num_parts": 0,
@@ -236550,6 +236550,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "21369-1",
+    "name": "The X-Files",
+    "year": 2026,
+    "theme_id": 576,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/21369-1.jpg",
+    "theme": "LEGO Ideas and CUUSOO",
+    "parent_theme": ""
+  },
+  {
     "set_num": "21370-1",
     "name": "E.T. the Extra-Terrestrial",
     "year": 2026,
@@ -237497,6 +237507,16 @@
     "num_parts": 228,
     "img_url": "https://cdn.rebrickable.com/media/sets/40894-1.jpg",
     "theme": "Technic",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "40896-1",
+    "name": "The X-Files: Scully's Lab",
+    "year": 2026,
+    "theme_id": 576,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40896-1.jpg",
+    "theme": "LEGO Ideas and CUUSOO",
     "parent_theme": ""
   },
   {
@@ -239596,6 +239616,16 @@
     "theme_id": 739,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/53867-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "53868-1",
+    "name": "Classic LEGO Stickers",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53868-1.jpg",
     "theme": "Stationery and Office Supplies",
     "parent_theme": "Gear"
   },
@@ -242761,7 +242791,7 @@
   },
   {
     "set_num": "5010051-1",
-    "name": "Nike Dunk Low x LEGO Collection – Big Kids Shoes",
+    "name": "Nike Dunk Low x LEGO Collection – Big Kids' Shoes",
     "year": 2026,
     "theme_id": 501,
     "num_parts": 0,
