@@ -236300,6 +236300,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "11385-1",
+    "name": "Star Trek: U.S.S. Enterprise NCC-1701 Bridge",
+    "year": 2026,
+    "theme_id": 721,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/11385-1.jpg",
+    "theme": "Icons",
+    "parent_theme": ""
+  },
+  {
     "set_num": "11386-1",
     "name": "SpongeBob SquarePants: Bikini Bottom",
     "year": 2026,
@@ -240310,6 +240320,36 @@
     "parent_theme": "Collectible Minifigures"
   },
   {
+    "set_num": "71053-0",
+    "name": "Shrek Series - Random Box",
+    "year": 2026,
+    "theme_id": 798,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/71053-0.jpg",
+    "theme": "Shrek",
+    "parent_theme": "Collectible Minifigures"
+  },
+  {
+    "set_num": "71053-13",
+    "name": "Shrek Series - Complete - All Sets",
+    "year": 2026,
+    "theme_id": 798,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/71053-13.jpg",
+    "theme": "Shrek",
+    "parent_theme": "Collectible Minifigures"
+  },
+  {
+    "set_num": "71053-14",
+    "name": "Shrek Series - Sealed Box",
+    "year": 2026,
+    "theme_id": 798,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/71053-14.jpg",
+    "theme": "Shrek",
+    "parent_theme": "Collectible Minifigures"
+  },
+  {
     "set_num": "71508-1",
     "name": "Fox Guardian Mech",
     "year": 2026,
@@ -240596,6 +240636,16 @@
     "theme_id": 690,
     "num_parts": 2234,
     "img_url": "https://cdn.rebrickable.com/media/sets/72050-1.jpg",
+    "theme": "Super Mario",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "72051-1",
+    "name": "Donkey Kong Arcade",
+    "year": 2026,
+    "theme_id": 690,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/72051-1.jpg",
     "theme": "Super Mario",
     "parent_theme": ""
   },
@@ -242324,7 +242374,7 @@
     "name": "Privateer Frigate Fortuna",
     "year": 2026,
     "theme_id": 719,
-    "num_parts": 4091,
+    "num_parts": 4086,
     "img_url": "https://cdn.rebrickable.com/media/sets/910059-1.jpg",
     "theme": "BrickLink Designer Program",
     "parent_theme": ""
