@@ -27624,7 +27624,7 @@
     "name": "Gear Set",
     "year": 1993,
     "theme_id": 529,
-    "num_parts": 76,
+    "num_parts": 77,
     "img_url": "https://cdn.rebrickable.com/media/sets/9610-1.jpg",
     "theme": "Technic",
     "parent_theme": "Educational and Dacta"
@@ -233050,16 +233050,6 @@
     "parent_theme": "Super Heroes Marvel"
   },
   {
-    "set_num": "6550329-1",
-    "name": "Wednesday Sticker Sheet",
-    "year": 2025,
-    "theme_id": 501,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/6550329-1.jpg",
-    "theme": "Gear",
-    "parent_theme": ""
-  },
-  {
     "set_num": "6551694-1",
     "name": "LEGO Masters Torso - Black and White",
     "year": 2025,
@@ -237430,6 +237420,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "40880-1",
+    "name": "Avengers: Doomsday Heroes & Villain",
+    "year": 2026,
+    "theme_id": 610,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40880-1.jpg",
+    "theme": "Brickheadz",
+    "parent_theme": ""
+  },
+  {
     "set_num": "40881-1",
     "name": "Supply Llama & Fishstick Figures",
     "year": 2026,
@@ -241420,6 +241420,16 @@
     "parent_theme": "Super Heroes Marvel"
   },
   {
+    "set_num": "76345-1",
+    "name": "Doctor Doom Bust",
+    "year": 2026,
+    "theme_id": 702,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/76345-1.jpg",
+    "theme": "Avengers",
+    "parent_theme": "Super Heroes Marvel"
+  },
+  {
     "set_num": "76346-1",
     "name": "Spider-Man Hero Figure",
     "year": 2026,
@@ -241427,6 +241437,26 @@
     "num_parts": 821,
     "img_url": "https://cdn.rebrickable.com/media/sets/76346-1.jpg",
     "theme": "Spider-Man",
+    "parent_theme": "Super Heroes Marvel"
+  },
+  {
+    "set_num": "76347-1",
+    "name": "Avengers: Doomsday Quinjet",
+    "year": 2026,
+    "theme_id": 702,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/76347-1.jpg",
+    "theme": "Avengers",
+    "parent_theme": "Super Heroes Marvel"
+  },
+  {
+    "set_num": "76348-1",
+    "name": "Epic Battle: Avengers: Doomsday",
+    "year": 2026,
+    "theme_id": 702,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/76348-1.jpg",
+    "theme": "Avengers",
     "parent_theme": "Super Heroes Marvel"
   },
   {
@@ -241447,6 +241477,16 @@
     "num_parts": 534,
     "img_url": "https://cdn.rebrickable.com/media/sets/76350-1.jpg",
     "theme": "Spider-Man",
+    "parent_theme": "Super Heroes Marvel"
+  },
+  {
+    "set_num": "76352-1",
+    "name": "Avengers: Doomsday New Avengers Tower",
+    "year": 2026,
+    "theme_id": 702,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/76352-1.jpg",
+    "theme": "Avengers",
     "parent_theme": "Super Heroes Marvel"
   },
   {
@@ -244394,7 +244434,7 @@
     "name": "Sports Car",
     "year": 2026,
     "theme_id": 408,
-    "num_parts": 0,
+    "num_parts": 54,
     "img_url": "https://cdn.rebrickable.com/media/sets/6669168-1.jpg",
     "theme": "LEGO Brand Store",
     "parent_theme": ""
