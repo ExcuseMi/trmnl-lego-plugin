@@ -148950,6 +148950,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "14807-1",
+    "name": "Crocs Kids' Handle It Rain Boot",
+    "year": 2018,
+    "theme_id": 799,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/14807-1.jpg",
+    "theme": "Clothing & Footwear",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "21039-1",
     "name": "Shanghai",
     "year": 2018,
@@ -229350,6 +229360,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "111155-1",
+    "name": "Star Wars Gym Bag",
+    "year": 2025,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/111155-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "111638-1",
     "name": "LEGO Certified Store (Singapore) SG60 Coin",
     "year": 2025,
@@ -242230,6 +242250,26 @@
     "parent_theme": ""
   },
   {
+    "set_num": "113559-1",
+    "name": "Star Wars The Mandalorian Pop-Up Pencil Case",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/113559-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "113560-1",
+    "name": "Star Wars Grogu Cap",
+    "year": 2026,
+    "theme_id": 799,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/113560-1.jpg",
+    "theme": "Clothing & Footwear",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "115512-1",
     "name": "Chewbacca Collectable Coin",
     "year": 2026,
@@ -243760,6 +243800,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "5010927-1",
+    "name": "Straw Topper Set",
+    "year": 2026,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010927-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "5011065-1",
     "name": "Space Arcade Poster",
     "year": 2026,
@@ -244198,6 +244248,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/6644859-1.jpg",
     "theme": "Christmas",
     "parent_theme": "Seasonal"
+  },
+  {
+    "set_num": "6644882-1",
+    "name": "Human Human Fruit",
+    "year": 2026,
+    "theme_id": 775,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6644882-1.jpg",
+    "theme": "One Piece",
+    "parent_theme": ""
   },
   {
     "set_num": "6646264-1",
@@ -344481,7 +344541,7 @@
   },
   {
     "fig_num": "fig-013975",
-    "name": "Arctiv Explorer, Tina Tarantula, Orange Suit, Dark Blue Beanie with Hair",
+    "name": "Arctic Explorer, Tina Tarantula, Orange Suit, Dark Blue Beanie with Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-013975.jpg",
     "theme": "",
