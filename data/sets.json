@@ -42904,7 +42904,7 @@
     "name": "Classic Pen",
     "year": 2000,
     "theme_id": 739,
-    "num_parts": 39,
+    "num_parts": 40,
     "img_url": "https://cdn.rebrickable.com/media/sets/1515-2.jpg",
     "theme": "Stationery and Office Supplies",
     "parent_theme": "Gear"
@@ -42964,7 +42964,7 @@
     "name": "Dino Island Pen",
     "year": 2000,
     "theme_id": 739,
-    "num_parts": 14,
+    "num_parts": 15,
     "img_url": "https://cdn.rebrickable.com/media/sets/1524-2.jpg",
     "theme": "Stationery and Office Supplies",
     "parent_theme": "Gear"
@@ -237800,6 +237800,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "40975-1",
+    "name": "Mini Hogwarts Castle",
+    "year": 2026,
+    "theme_id": 246,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40975-1.jpg",
+    "theme": "Harry Potter",
+    "parent_theme": ""
+  },
+  {
     "set_num": "42218-1",
     "name": "John Deere 1470H Wheeled Harvester",
     "year": 2026,
@@ -244254,7 +244264,7 @@
     "name": "Human Human Fruit",
     "year": 2026,
     "theme_id": 775,
-    "num_parts": 0,
+    "num_parts": 26,
     "img_url": "https://cdn.rebrickable.com/media/sets/6644882-1.jpg",
     "theme": "One Piece",
     "parent_theme": ""
