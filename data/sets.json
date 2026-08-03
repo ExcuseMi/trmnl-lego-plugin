@@ -218071,7 +218071,7 @@
   },
   {
     "set_num": "353920-1",
-    "name": "Duplo Dolphin Plush",
+    "name": "Friends Dolphin Plush",
     "year": 2024,
     "theme_id": 735,
     "num_parts": 0,
@@ -236124,7 +236124,7 @@
     "name": "Kitty Fairy's Garden House",
     "year": 2026,
     "theme_id": 748,
-    "num_parts": 0,
+    "num_parts": 103,
     "img_url": "https://cdn.rebrickable.com/media/sets/11212-1.jpg",
     "theme": "Gabby's Dollhouse",
     "parent_theme": ""
@@ -236134,7 +236134,7 @@
     "name": "Fairy Roller Coaster and Tea Party",
     "year": 2026,
     "theme_id": 748,
-    "num_parts": 0,
+    "num_parts": 137,
     "img_url": "https://cdn.rebrickable.com/media/sets/11214-1.jpg",
     "theme": "Gabby's Dollhouse",
     "parent_theme": ""
@@ -236284,7 +236284,7 @@
     "name": "Jaguar E-type",
     "year": 2026,
     "theme_id": 721,
-    "num_parts": 0,
+    "num_parts": 1682,
     "img_url": "https://cdn.rebrickable.com/media/sets/11381-1.jpg",
     "theme": "Icons",
     "parent_theme": ""
@@ -236294,7 +236294,7 @@
     "name": "Hubble Space Telescope",
     "year": 2026,
     "theme_id": 721,
-    "num_parts": 0,
+    "num_parts": 1252,
     "img_url": "https://cdn.rebrickable.com/media/sets/11382-1.jpg",
     "theme": "Icons",
     "parent_theme": ""
@@ -236584,7 +236584,7 @@
     "name": "The X-Files",
     "year": 2026,
     "theme_id": 576,
-    "num_parts": 0,
+    "num_parts": 1478,
     "img_url": "https://cdn.rebrickable.com/media/sets/21369-1.jpg",
     "theme": "LEGO Ideas and CUUSOO",
     "parent_theme": ""
@@ -236594,7 +236594,7 @@
     "name": "E.T. the Extra-Terrestrial",
     "year": 2026,
     "theme_id": 576,
-    "num_parts": 0,
+    "num_parts": 1226,
     "img_url": "https://cdn.rebrickable.com/media/sets/21370-1.jpg",
     "theme": "LEGO Ideas and CUUSOO",
     "parent_theme": ""
@@ -236604,7 +236604,7 @@
     "name": "La Catrina",
     "year": 2026,
     "theme_id": 576,
-    "num_parts": 0,
+    "num_parts": 1212,
     "img_url": "https://cdn.rebrickable.com/media/sets/21372-1.jpg",
     "theme": "LEGO Ideas and CUUSOO",
     "parent_theme": ""
@@ -236624,7 +236624,7 @@
     "name": "Chicken Jockey",
     "year": 2026,
     "theme_id": 577,
-    "num_parts": 0,
+    "num_parts": 344,
     "img_url": "https://cdn.rebrickable.com/media/sets/21582-1.jpg",
     "theme": "Minecraft",
     "parent_theme": ""
@@ -236714,7 +236714,7 @@
     "name": "The Twisted Warden Battle",
     "year": 2026,
     "theme_id": 577,
-    "num_parts": 0,
+    "num_parts": 445,
     "img_url": "https://cdn.rebrickable.com/media/sets/21591-1.jpg",
     "theme": "Minecraft",
     "parent_theme": ""
@@ -236974,7 +236974,7 @@
     "name": "Trainer Supplies",
     "year": 2026,
     "theme_id": 776,
-    "num_parts": 0,
+    "num_parts": 56,
     "img_url": "https://cdn.rebrickable.com/media/sets/30730-1.jpg",
     "theme": "Pokémon",
     "parent_theme": ""
@@ -237114,7 +237114,7 @@
     "name": "Gustav Klimt – The Kiss",
     "year": 2026,
     "theme_id": 709,
-    "num_parts": 0,
+    "num_parts": 4000,
     "img_url": "https://cdn.rebrickable.com/media/sets/31221-1.jpg",
     "theme": "LEGO Art",
     "parent_theme": ""
@@ -237494,7 +237494,7 @@
     "name": "Ditto as Squirtle: Movie Night",
     "year": 2026,
     "theme_id": 776,
-    "num_parts": 0,
+    "num_parts": 185,
     "img_url": "https://cdn.rebrickable.com/media/sets/40887-1.jpg",
     "theme": "Pokémon",
     "parent_theme": ""
@@ -237554,7 +237554,7 @@
     "name": "The X-Files: Scully's Lab",
     "year": 2026,
     "theme_id": 576,
-    "num_parts": 0,
+    "num_parts": 221,
     "img_url": "https://cdn.rebrickable.com/media/sets/40896-1.jpg",
     "theme": "LEGO Ideas and CUUSOO",
     "parent_theme": ""
@@ -237777,6 +237777,16 @@
     "num_parts": 747,
     "img_url": "https://cdn.rebrickable.com/media/sets/40957-1.jpg",
     "theme": "Easter",
+    "parent_theme": "Seasonal"
+  },
+  {
+    "set_num": "40958-1",
+    "name": "Christmas Stocking",
+    "year": 2026,
+    "theme_id": 227,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40958-1.jpg",
+    "theme": "Christmas",
     "parent_theme": "Seasonal"
   },
   {
@@ -238014,7 +238024,7 @@
     "name": "Excavator",
     "year": 2026,
     "theme_id": 1,
-    "num_parts": 40,
+    "num_parts": 41,
     "img_url": "https://cdn.rebrickable.com/media/sets/42233-6.jpg",
     "theme": "Technic",
     "parent_theme": ""
@@ -238584,7 +238594,7 @@
     "name": "Olivia Rodrigo’s Vinyl",
     "year": 2026,
     "theme_id": 787,
-    "num_parts": 0,
+    "num_parts": 360,
     "img_url": "https://cdn.rebrickable.com/media/sets/43028-1.jpg",
     "theme": "Editions",
     "parent_theme": ""
@@ -238594,7 +238604,7 @@
     "name": "Olivia Rodrigo’s Concert Moon",
     "year": 2026,
     "theme_id": 787,
-    "num_parts": 0,
+    "num_parts": 670,
     "img_url": "https://cdn.rebrickable.com/media/sets/43029-1.jpg",
     "theme": "Editions",
     "parent_theme": ""
@@ -238604,7 +238614,7 @@
     "name": "Olivia Rodrigo’s Secret Storage",
     "year": 2026,
     "theme_id": 787,
-    "num_parts": 0,
+    "num_parts": 1085,
     "img_url": "https://cdn.rebrickable.com/media/sets/43030-1.jpg",
     "theme": "Editions",
     "parent_theme": ""
@@ -238614,7 +238624,7 @@
     "name": "Olivia Rodrigo’s Dual Guitar",
     "year": 2026,
     "theme_id": 787,
-    "num_parts": 0,
+    "num_parts": 1228,
     "img_url": "https://cdn.rebrickable.com/media/sets/43031-1.jpg",
     "theme": "Editions",
     "parent_theme": ""
@@ -240704,7 +240714,7 @@
     "name": "Munchlax",
     "year": 2026,
     "theme_id": 776,
-    "num_parts": 0,
+    "num_parts": 757,
     "img_url": "https://cdn.rebrickable.com/media/sets/72150-1.jpg",
     "theme": "Pokémon",
     "parent_theme": ""
@@ -240754,7 +240764,7 @@
     "name": "Berry Bash with Bulbasaur and Bidoof",
     "year": 2026,
     "theme_id": 776,
-    "num_parts": 0,
+    "num_parts": 240,
     "img_url": "https://cdn.rebrickable.com/media/sets/72155-1.jpg",
     "theme": "Pokémon",
     "parent_theme": ""
@@ -240764,7 +240774,7 @@
     "name": "Trainer's Buggy Adventure with Squirtle",
     "year": 2026,
     "theme_id": 776,
-    "num_parts": 0,
+    "num_parts": 320,
     "img_url": "https://cdn.rebrickable.com/media/sets/72156-1.jpg",
     "theme": "Pokémon",
     "parent_theme": ""
@@ -240774,7 +240784,7 @@
     "name": "Charmander and Geodude's Cavern Clash",
     "year": 2026,
     "theme_id": 776,
-    "num_parts": 0,
+    "num_parts": 198,
     "img_url": "https://cdn.rebrickable.com/media/sets/72157-1.jpg",
     "theme": "Pokémon",
     "parent_theme": ""
@@ -240784,7 +240794,7 @@
     "name": "Sprigatito, Fuecoco and Quaxly Battle",
     "year": 2026,
     "theme_id": 776,
-    "num_parts": 0,
+    "num_parts": 313,
     "img_url": "https://cdn.rebrickable.com/media/sets/72158-1.jpg",
     "theme": "Pokémon",
     "parent_theme": ""
@@ -240794,7 +240804,7 @@
     "name": "Jigglypuff Concert",
     "year": 2026,
     "theme_id": 776,
-    "num_parts": 0,
+    "num_parts": 88,
     "img_url": "https://cdn.rebrickable.com/media/sets/72159-1.jpg",
     "theme": "Pokémon",
     "parent_theme": ""
@@ -240804,7 +240814,7 @@
     "name": "Arcanine",
     "year": 2026,
     "theme_id": 776,
-    "num_parts": 0,
+    "num_parts": 1190,
     "img_url": "https://cdn.rebrickable.com/media/sets/72160-1.jpg",
     "theme": "Pokémon",
     "parent_theme": ""
@@ -240814,7 +240824,7 @@
     "name": "Drone Search for Mythical Mew",
     "year": 2026,
     "theme_id": 776,
-    "num_parts": 0,
+    "num_parts": 429,
     "img_url": "https://cdn.rebrickable.com/media/sets/72161-1.jpg",
     "theme": "Pokémon",
     "parent_theme": ""
@@ -240824,7 +240834,7 @@
     "name": "Eevee and Lapras's Treasure Hunt",
     "year": 2026,
     "theme_id": 776,
-    "num_parts": 0,
+    "num_parts": 623,
     "img_url": "https://cdn.rebrickable.com/media/sets/72162-1.jpg",
     "theme": "Pokémon",
     "parent_theme": ""
@@ -240834,7 +240844,7 @@
     "name": "Mewtwo's Lab Break",
     "year": 2026,
     "theme_id": 776,
-    "num_parts": 0,
+    "num_parts": 605,
     "img_url": "https://cdn.rebrickable.com/media/sets/72163-1.jpg",
     "theme": "Pokémon",
     "parent_theme": ""
@@ -240844,7 +240854,7 @@
     "name": "Training House with Pikachu",
     "year": 2026,
     "theme_id": 776,
-    "num_parts": 0,
+    "num_parts": 400,
     "img_url": "https://cdn.rebrickable.com/media/sets/72164-1.jpg",
     "theme": "Pokémon",
     "parent_theme": ""
@@ -240854,7 +240864,7 @@
     "name": "Umbreon vs. Garchomp Championship Battle",
     "year": 2026,
     "theme_id": 776,
-    "num_parts": 0,
+    "num_parts": 831,
     "img_url": "https://cdn.rebrickable.com/media/sets/72165-1.jpg",
     "theme": "Pokémon",
     "parent_theme": ""
@@ -240864,7 +240874,7 @@
     "name": "Cubone and Gengar's Spooky Showdown",
     "year": 2026,
     "theme_id": 776,
-    "num_parts": 0,
+    "num_parts": 782,
     "img_url": "https://cdn.rebrickable.com/media/sets/72166-1.jpg",
     "theme": "Pokémon",
     "parent_theme": ""
@@ -240874,7 +240884,7 @@
     "name": "Charizard vs. Jolteon Ultimate Battle",
     "year": 2026,
     "theme_id": 776,
-    "num_parts": 0,
+    "num_parts": 751,
     "img_url": "https://cdn.rebrickable.com/media/sets/72167-1.jpg",
     "theme": "Pokémon",
     "parent_theme": ""
@@ -240884,7 +240894,7 @@
     "name": "Rayquaza",
     "year": 2026,
     "theme_id": 776,
-    "num_parts": 0,
+    "num_parts": 1083,
     "img_url": "https://cdn.rebrickable.com/media/sets/72168-1.jpg",
     "theme": "Pokémon",
     "parent_theme": ""
@@ -240904,7 +240914,7 @@
     "name": "Derpy Tiger and Sussie Bird",
     "year": 2026,
     "theme_id": 792,
-    "num_parts": 0,
+    "num_parts": 825,
     "img_url": "https://cdn.rebrickable.com/media/sets/72537-1.jpg",
     "theme": "KPop Demon Hunters",
     "parent_theme": ""
@@ -241154,7 +241164,7 @@
     "name": "Offworld Sandcrawler and Mudhorn",
     "year": 2026,
     "theme_id": 158,
-    "num_parts": 1685,
+    "num_parts": 1684,
     "img_url": "https://cdn.rebrickable.com/media/sets/75453-1.jpg",
     "theme": "Star Wars",
     "parent_theme": ""
@@ -241234,7 +241244,7 @@
     "name": "Dr. Hiriluk's Hideout",
     "year": 2026,
     "theme_id": 775,
-    "num_parts": 0,
+    "num_parts": 270,
     "img_url": "https://cdn.rebrickable.com/media/sets/75641-1.jpg",
     "theme": "One Piece",
     "parent_theme": ""
@@ -241244,7 +241254,7 @@
     "name": "Showdown with Captain Smoker",
     "year": 2026,
     "theme_id": 775,
-    "num_parts": 0,
+    "num_parts": 545,
     "img_url": "https://cdn.rebrickable.com/media/sets/75642-1.jpg",
     "theme": "One Piece",
     "parent_theme": ""
@@ -241254,7 +241264,7 @@
     "name": "Tony Tony Chopper",
     "year": 2026,
     "theme_id": 775,
-    "num_parts": 0,
+    "num_parts": 577,
     "img_url": "https://cdn.rebrickable.com/media/sets/75643-1.jpg",
     "theme": "One Piece",
     "parent_theme": ""
@@ -241264,7 +241274,7 @@
     "name": "Dorry vs. Brogy – Giants of Little Garden",
     "year": 2026,
     "theme_id": 775,
-    "num_parts": 0,
+    "num_parts": 730,
     "img_url": "https://cdn.rebrickable.com/media/sets/75644-1.jpg",
     "theme": "One Piece",
     "parent_theme": ""
@@ -241274,7 +241284,7 @@
     "name": "Battle at Drum Castle",
     "year": 2026,
     "theme_id": 775,
-    "num_parts": 0,
+    "num_parts": 1034,
     "img_url": "https://cdn.rebrickable.com/media/sets/75645-1.jpg",
     "theme": "One Piece",
     "parent_theme": ""
@@ -241284,7 +241294,7 @@
     "name": "Garp's Marine Battleship",
     "year": 2026,
     "theme_id": 775,
-    "num_parts": 0,
+    "num_parts": 1698,
     "img_url": "https://cdn.rebrickable.com/media/sets/75646-1.jpg",
     "theme": "One Piece",
     "parent_theme": ""
@@ -241294,7 +241304,7 @@
     "name": "Gum-Gum Fruit",
     "year": 2026,
     "theme_id": 775,
-    "num_parts": 0,
+    "num_parts": 482,
     "img_url": "https://cdn.rebrickable.com/media/sets/75647-1.jpg",
     "theme": "One Piece",
     "parent_theme": ""
@@ -241690,6 +241700,26 @@
     "parent_theme": ""
   },
   {
+    "set_num": "76787-1",
+    "name": "Wednesday Backpack",
+    "year": 2026,
+    "theme_id": 768,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/76787-1.jpg",
+    "theme": "Wednesday",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "76788-1",
+    "name": "Nevermore Academy",
+    "year": 2026,
+    "theme_id": 768,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/76788-1.jpg",
+    "theme": "Wednesday",
+    "parent_theme": ""
+  },
+  {
     "set_num": "77059-1",
     "name": "Timmy & Tommy's Fun Day Out",
     "year": 2026,
@@ -241914,7 +241944,7 @@
     "name": "Jaguar Project 7 & Land Rover Defender",
     "year": 2026,
     "theme_id": 601,
-    "num_parts": 803,
+    "num_parts": 747,
     "img_url": "https://cdn.rebrickable.com/media/sets/77264-1.jpg",
     "theme": "Speed Champions",
     "parent_theme": ""
@@ -241924,7 +241954,7 @@
     "name": "Baby Dinosaur: Pteranodon",
     "year": 2026,
     "theme_id": 602,
-    "num_parts": 0,
+    "num_parts": 373,
     "img_url": "https://cdn.rebrickable.com/media/sets/77977-1.jpg",
     "theme": "Jurassic World",
     "parent_theme": ""
@@ -241934,7 +241964,7 @@
     "name": "Young T. rex Transport Truck",
     "year": 2026,
     "theme_id": 602,
-    "num_parts": 0,
+    "num_parts": 115,
     "img_url": "https://cdn.rebrickable.com/media/sets/77978-1.jpg",
     "theme": "Jurassic World",
     "parent_theme": ""
@@ -241944,7 +241974,7 @@
     "name": "Velociraptor, Stegosaurus & Pteranodon Rescue",
     "year": 2026,
     "theme_id": 602,
-    "num_parts": 0,
+    "num_parts": 171,
     "img_url": "https://cdn.rebrickable.com/media/sets/77981-1.jpg",
     "theme": "Jurassic World",
     "parent_theme": ""
@@ -241954,7 +241984,7 @@
     "name": "Spinosaurus Dinosaur Escape",
     "year": 2026,
     "theme_id": 602,
-    "num_parts": 0,
+    "num_parts": 822,
     "img_url": "https://cdn.rebrickable.com/media/sets/77982-1.jpg",
     "theme": "Jurassic World",
     "parent_theme": ""
@@ -241964,7 +241994,7 @@
     "name": "Mosasaurus Dinosaur Boat Attack",
     "year": 2026,
     "theme_id": 602,
-    "num_parts": 0,
+    "num_parts": 703,
     "img_url": "https://cdn.rebrickable.com/media/sets/77983-1.jpg",
     "theme": "Jurassic World",
     "parent_theme": ""
@@ -242874,7 +242904,7 @@
     "name": "SMART Sitrus Berry Tag",
     "year": 2026,
     "theme_id": 776,
-    "num_parts": 0,
+    "num_parts": 1,
     "img_url": "https://cdn.rebrickable.com/media/sets/4000703-1.jpg",
     "theme": "Pokémon",
     "parent_theme": ""
@@ -247321,7 +247351,7 @@
   },
   {
     "fig_num": "fig-000142",
-    "name": "AT-AT Driver, Sand Blue Uniform",
+    "name": "AT-AT Driver, Sand Blue Uniform, 3626cpr1149 Head",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000142.jpg",
     "theme": "",
@@ -274721,7 +274751,7 @@
   },
   {
     "fig_num": "fig-003788",
-    "name": "Embo",
+    "name": "Embo, Sand Green",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-003788.jpg",
     "theme": "",
@@ -322329,7 +322359,7 @@
   },
   {
     "fig_num": "fig-010387",
-    "name": "AT-AT Driver - Light Bluish Grey Helmet, Sand Blue Legs",
+    "name": "AT-AT Driver, Sand Blue Uniform, 3626cpr3168 Head",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010387.jpg",
     "theme": "",
@@ -322337,7 +322367,7 @@
   },
   {
     "fig_num": "fig-010388",
-    "name": "AT-AT Driver - Light Bluish Grey Helmet, Sand Blue Legs",
+    "name": "AT-AT Driver, Sand Blue Uniform, 3626cpr0937 Head",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010388.jpg",
     "theme": "",
@@ -332001,7 +332031,7 @@
   },
   {
     "fig_num": "fig-011942",
-    "name": "AT-AT Driver - Light Bluish Grey Helmet, Sand Blue Legs, Nougat Head, Female",
+    "name": "AT-AT Driver, Sand Blue Uniform, 3626cpr3531 Head",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-011942.jpg",
     "theme": "",
@@ -335169,7 +335199,7 @@
   },
   {
     "fig_num": "fig-012494",
-    "name": "Kayla Watts",
+    "name": "Kayla Watts, Medium Nougat Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-012494.jpg",
     "theme": "",
@@ -345737,7 +345767,7 @@
   },
   {
     "fig_num": "fig-014176",
-    "name": "Miles 'Tails' Prower",
+    "name": "Miles 'Tails' Prower, Open Mouth Smile",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-014176.jpg",
     "theme": "",
@@ -357977,7 +358007,7 @@
   },
   {
     "fig_num": "fig-016369",
-    "name": "Zora Bennett",
+    "name": "Zora Bennett, Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-016369.jpg",
     "theme": "",
@@ -358969,7 +358999,7 @@
   },
   {
     "fig_num": "fig-016643",
-    "name": " Monkey D. Luffy, Short Legs",
+    "name": "Monkey D. Luffy, Short Legs, Open Mouth Smile",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-016643.jpg",
     "theme": "",
@@ -359009,7 +359039,7 @@
   },
   {
     "fig_num": "fig-016651",
-    "name": "Roronoa Zoro, Hair",
+    "name": "Roronoa Zoro, Hair, Angry",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-016651.jpg",
     "theme": "",
