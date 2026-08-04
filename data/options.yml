@@ -59,7 +59,7 @@
   - 9V (69): 9v|1|69
   - Action Wheelers (9): action-wheelers|1|9
   - Activity Books (231): activity-books|1|231
-  - Activity Books with LEGO Parts (420): activity-books-with-lego-parts|1|420
+  - Activity Books with LEGO Parts (421): activity-books-with-lego-parts|1|421
   - Advent (5): advent|1|5
   - Agents (13): agents|1|13
   - Airlines (16): airlines|1|16
@@ -98,7 +98,7 @@
   - Bob the Builder (31): bob-the-builder|1|31
   - Botanicals (53): botanicals|1|53
   - Brick Sketches (8): brick-sketches|1|8
-  - Brickheadz (196): brickheadz|1|196
+  - Brickheadz (198): brickheadz|1|198
   - BrickLink Designer Program (68): bricklink-designer-program|1|68
   - Bricks & More (67): bricks-more|1|67
   - Bricktober (43): bricktober|1|43
@@ -247,7 +247,7 @@
   - Learning at Home (4): learning-at-home|1|4
   - Legends of Chima (96): legends-of-chima|1|96
   - LEGO Art (26): lego-art|1|26
-  - LEGO Brand Store (158): lego-brand-store|1|158
+  - LEGO Brand Store (159): lego-brand-store|1|159
   - LEGO Exclusive (72): lego-exclusive|1|72
   - LEGO Ideas and CUUSOO (95): lego-ideas-and-cuusoo|1|95
   - LEGO Originals (19): lego-originals|1|19
@@ -475,7 +475,7 @@
   optional: true
 - keyname: themes_brickset
   field_type: select
-  name: Filter by Themes – Brickset (173)
+  name: Filter by Themes – Brickset (172)
   description: <strong>Required:</strong> Select at least one theme, OR set a min/max year below. Only applicable when using Brickset as your data source.
   multiple: true
   options:
@@ -651,7 +651,6 @@
   - Xtra: Xtra
   - Znap: Znap
   - tbd: tbd
-  - '{Undefined}': '{Undefined}'
   help_text: Use <kbd>⌘</kbd>+<kbd>click</kbd> or <kbd>Ctrl</kbd>+<kbd>click</kbd> to select multiple themes.<br /><strong>You must select at least one theme OR specify a year range.</strong>
   optional: true
 - keyname: brickset_order_by

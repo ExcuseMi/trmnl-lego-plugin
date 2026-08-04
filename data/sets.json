@@ -39090,6 +39090,16 @@
     "parent_theme": "Promotional"
   },
   {
+    "set_num": "1061-1",
+    "name": "Single Disk Pack",
+    "year": 1999,
+    "theme_id": 20,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/1061-1.jpg",
+    "theme": "Throwbot Slizer",
+    "parent_theme": "Technic"
+  },
+  {
     "set_num": "1068-1",
     "name": "Air Patrol",
     "year": 1999,
@@ -42498,16 +42508,6 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/9781862087002-1.jpg",
     "theme": "Story Books",
     "parent_theme": "Books"
-  },
-  {
-    "set_num": "1061-1",
-    "name": "Single Disk Pack",
-    "year": 2000,
-    "theme_id": 20,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/1061-1.jpg",
-    "theme": "Throwbot Slizer",
-    "parent_theme": "Technic"
   },
   {
     "set_num": "1086-1",
@@ -237340,6 +237340,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "40859-1",
+    "name": "Golden Age Superman and Batman Figures",
+    "year": 2026,
+    "theme_id": 610,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40859-1.jpg",
+    "theme": "Brickheadz",
+    "parent_theme": ""
+  },
+  {
     "set_num": "40860-1",
     "name": "Toy Story",
     "year": 2026,
@@ -237657,6 +237667,16 @@
     "num_parts": 278,
     "img_url": "https://cdn.rebrickable.com/media/sets/40917-1.jpg",
     "theme": "Star Wars",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "40919-1",
+    "name": "Gremlins Gizmo and Stripe Figures",
+    "year": 2026,
+    "theme_id": 610,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40919-1.jpg",
+    "theme": "Brickheadz",
     "parent_theme": ""
   },
   {
@@ -244470,6 +244490,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "6662602-1",
+    "name": "Gnome",
+    "year": 2026,
+    "theme_id": 408,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6662602-1.jpg",
+    "theme": "LEGO Brand Store",
+    "parent_theme": ""
+  },
+  {
     "set_num": "6663053-1",
     "name": "Siege Tower",
     "year": 2026,
@@ -246186,6 +246216,16 @@
     "theme_id": 761,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/9788325349042-1.jpg",
+    "theme": "Activity Books with LEGO Parts",
+    "parent_theme": "Books"
+  },
+  {
+    "set_num": "9788325349318-1",
+    "name": "Harry Potter: Odkryj Hogwart",
+    "year": 2026,
+    "theme_id": 761,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9788325349318-1.jpg",
     "theme": "Activity Books with LEGO Parts",
     "parent_theme": "Books"
   },
