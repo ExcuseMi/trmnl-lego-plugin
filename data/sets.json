@@ -22754,7 +22754,7 @@
     "name": "Universal Building Set",
     "year": 1989,
     "theme_id": 21,
-    "num_parts": 196,
+    "num_parts": 197,
     "img_url": "https://cdn.rebrickable.com/media/sets/8054-1.jpg",
     "theme": "Universal Building Set",
     "parent_theme": "Technic"
@@ -93510,6 +93510,26 @@
     "parent_theme": ""
   },
   {
+    "set_num": "110528-1",
+    "name": "Kickers Kids LEGO Classic Boot - Garden",
+    "year": 2011,
+    "theme_id": 799,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/110528-1.jpg",
+    "theme": "Clothing & Footwear",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "111119-1",
+    "name": "Kickers Kids Strap LEGO Classic Boot - White",
+    "year": 2011,
+    "theme_id": 799,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/111119-1.jpg",
+    "theme": "Clothing & Footwear",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "258175-2",
     "name": "Play and Build Remote for Nintendo Wii - Pirates of the Caribbean",
     "year": 2011,
@@ -107338,6 +107358,26 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/88004-1.jpg",
     "theme": "Power Functions",
     "parent_theme": ""
+  },
+  {
+    "set_num": "110529-1",
+    "name": "Kickers Kids Kick Lo LEGO Classic Shoe - Black",
+    "year": 2013,
+    "theme_id": 799,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/110529-1.jpg",
+    "theme": "Clothing & Footwear",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "110537-1",
+    "name": "Kickers Kids Kick Lo LEGO Classic Shoe - Dark Grey",
+    "year": 2013,
+    "theme_id": 799,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/110537-1.jpg",
+    "theme": "Clothing & Footwear",
+    "parent_theme": "Gear"
   },
   {
     "set_num": "128282-1",
@@ -218100,6 +218140,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "354150-1",
+    "name": "Friends Hamlet Pig Plush",
+    "year": 2024,
+    "theme_id": 735,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/354150-1.jpg",
+    "theme": "Plush Toys",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "412401-1",
     "name": "Wrecking Ball Crane",
     "year": 2024,
@@ -242387,6 +242437,16 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/213553-1.jpg",
     "theme": "Clothing & Footwear",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "354160-1",
+    "name": "Friends Jones Space Cat Plush",
+    "year": 2026,
+    "theme_id": 735,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/354160-1.jpg",
+    "theme": "Plush Toys",
     "parent_theme": "Gear"
   },
   {

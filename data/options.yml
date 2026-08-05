@@ -122,7 +122,7 @@
   - Classic Town (410): classic-town|1|410
   - Clikits (80): clikits|1|80
   - Clocks and Watches (218): clocks-and-watches|1|218
-  - Clothing & Footwear (211): clothing-footwear|1|211
+  - Clothing & Footwear (215): clothing-footwear|1|215
   - Coast Guard (30): coast-guard|1|30
   - Collectible Minifigures (36): collectible-minifigures|1|36
   - Competition (17): competition|1|17
@@ -312,7 +312,7 @@
   - Planes (4): planes|1|4
   - Playhouse (58): playhouse|1|58
   - Playsets (11): playsets|1|11
-  - Plush Toys (118): plush-toys|1|118
+  - Plush Toys (120): plush-toys|1|120
   - Pokémon (26): pokémon|1|26
   - Police (207): police|1|207
   - Posters and Art Prints (96): posters-and-art-prints|1|96
@@ -475,7 +475,7 @@
   optional: true
 - keyname: themes_brickset
   field_type: select
-  name: Filter by Themes – Brickset (172)
+  name: Filter by Themes – Brickset (173)
   description: <strong>Required:</strong> Select at least one theme, OR set a min/max year below. Only applicable when using Brickset as your data source.
   multiple: true
   options:
@@ -651,6 +651,7 @@
   - Xtra: Xtra
   - Znap: Znap
   - tbd: tbd
+  - '{Undefined}': '{Undefined}'
   help_text: Use <kbd>⌘</kbd>+<kbd>click</kbd> or <kbd>Ctrl</kbd>+<kbd>click</kbd> to select multiple themes.<br /><strong>You must select at least one theme OR specify a year range.</strong>
   optional: true
 - keyname: brickset_order_by
