@@ -206930,36 +206930,6 @@
     "parent_theme": ""
   },
   {
-    "set_num": "112324-1",
-    "name": "Kai vs. Bone King",
-    "year": 2023,
-    "theme_id": 435,
-    "num_parts": 14,
-    "img_url": "https://cdn.rebrickable.com/media/sets/112324-1.jpg",
-    "theme": "Ninjago",
-    "parent_theme": ""
-  },
-  {
-    "set_num": "112325-1",
-    "name": "Lloyd vs. Bone Warrior",
-    "year": 2023,
-    "theme_id": 435,
-    "num_parts": 14,
-    "img_url": "https://cdn.rebrickable.com/media/sets/112325-1.jpg",
-    "theme": "Ninjago",
-    "parent_theme": ""
-  },
-  {
-    "set_num": "112326-1",
-    "name": "Cole vs. Bone Knight",
-    "year": 2023,
-    "theme_id": 435,
-    "num_parts": 15,
-    "img_url": "https://cdn.rebrickable.com/media/sets/112326-1.jpg",
-    "theme": "Ninjago",
-    "parent_theme": ""
-  },
-  {
     "set_num": "112327-1",
     "name": "Jay vs. Bone Warrior",
     "year": 2023,
@@ -217878,16 +217848,6 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/122409-1.jpg",
     "theme": "Jurassic World",
     "parent_theme": ""
-  },
-  {
-    "set_num": "212401-1",
-    "name": "Batman and Mega Mech",
-    "year": 2024,
-    "theme_id": 697,
-    "num_parts": 56,
-    "img_url": "https://cdn.rebrickable.com/media/sets/212401-1.jpg",
-    "theme": "Batman",
-    "parent_theme": "Super Heroes DC"
   },
   {
     "set_num": "212402-1",
@@ -230710,16 +230670,6 @@
     "parent_theme": ""
   },
   {
-    "set_num": "912506-1",
-    "name": "TIE Defender",
-    "year": 2025,
-    "theme_id": 158,
-    "num_parts": 44,
-    "img_url": "https://cdn.rebrickable.com/media/sets/912506-1.jpg",
-    "theme": "Star Wars",
-    "parent_theme": ""
-  },
-  {
     "set_num": "912507-1",
     "name": "Luke Skywalker",
     "year": 2025,
@@ -238044,7 +237994,7 @@
     "name": "Road Roller",
     "year": 2026,
     "theme_id": 1,
-    "num_parts": 42,
+    "num_parts": 39,
     "img_url": "https://cdn.rebrickable.com/media/sets/42233-1.jpg",
     "theme": "Technic",
     "parent_theme": ""
@@ -238054,7 +238004,7 @@
     "name": "Wheel Loader",
     "year": 2026,
     "theme_id": 1,
-    "num_parts": 46,
+    "num_parts": 45,
     "img_url": "https://cdn.rebrickable.com/media/sets/42233-2.jpg",
     "theme": "Technic",
     "parent_theme": ""
@@ -238064,7 +238014,7 @@
     "name": "Dump Truck",
     "year": 2026,
     "theme_id": 1,
-    "num_parts": 47,
+    "num_parts": 46,
     "img_url": "https://cdn.rebrickable.com/media/sets/42233-3.jpg",
     "theme": "Technic",
     "parent_theme": ""
@@ -238074,7 +238024,7 @@
     "name": "Cement Truck",
     "year": 2026,
     "theme_id": 1,
-    "num_parts": 41,
+    "num_parts": 38,
     "img_url": "https://cdn.rebrickable.com/media/sets/42233-4.jpg",
     "theme": "Technic",
     "parent_theme": ""
@@ -238084,7 +238034,7 @@
     "name": "Wrecking Ball Crane",
     "year": 2026,
     "theme_id": 1,
-    "num_parts": 45,
+    "num_parts": 41,
     "img_url": "https://cdn.rebrickable.com/media/sets/42233-5.jpg",
     "theme": "Technic",
     "parent_theme": ""
@@ -238114,7 +238064,7 @@
     "name": "Bulldozer",
     "year": 2026,
     "theme_id": 1,
-    "num_parts": 48,
+    "num_parts": 46,
     "img_url": "https://cdn.rebrickable.com/media/sets/42233-8.jpg",
     "theme": "Technic",
     "parent_theme": ""
@@ -241750,6 +241700,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "76476-1",
+    "name": "The Ministry of Magic – Collectors' Edition",
+    "year": 2026,
+    "theme_id": 246,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/76476-1.jpg",
+    "theme": "Harry Potter",
+    "parent_theme": ""
+  },
+  {
     "set_num": "76477-1",
     "name": "Norbert: Hagrid's Baby Dragon",
     "year": 2026,
@@ -242700,76 +242660,6 @@
     "parent_theme": ""
   },
   {
-    "set_num": "951311-1",
-    "name": "Street sweeper",
-    "year": 2026,
-    "theme_id": 52,
-    "num_parts": 29,
-    "img_url": "https://cdn.rebrickable.com/media/sets/951311-1.jpg",
-    "theme": "City",
-    "parent_theme": ""
-  },
-  {
-    "set_num": "951312-1",
-    "name": "Firefighter",
-    "year": 2026,
-    "theme_id": 58,
-    "num_parts": 33,
-    "img_url": "https://cdn.rebrickable.com/media/sets/951312-1.jpg",
-    "theme": "Fire",
-    "parent_theme": "City"
-  },
-  {
-    "set_num": "951319-1",
-    "name": "Smith with Smithing Table, Netherite Armor and Armor Stand",
-    "year": 2026,
-    "theme_id": 577,
-    "num_parts": 19,
-    "img_url": "https://cdn.rebrickable.com/media/sets/951319-1.jpg",
-    "theme": "Minecraft",
-    "parent_theme": ""
-  },
-  {
-    "set_num": "951321-1",
-    "name": "Space Sentinel, Enderman and Endermite",
-    "year": 2026,
-    "theme_id": 577,
-    "num_parts": 9,
-    "img_url": "https://cdn.rebrickable.com/media/sets/951321-1.jpg",
-    "theme": "Minecraft",
-    "parent_theme": ""
-  },
-  {
-    "set_num": "951325-1",
-    "name": "Go-Cart",
-    "year": 2026,
-    "theme_id": 1,
-    "num_parts": 67,
-    "img_url": "https://cdn.rebrickable.com/media/sets/951325-1.jpg",
-    "theme": "Technic",
-    "parent_theme": ""
-  },
-  {
-    "set_num": "951340-1",
-    "name": "Construction Worker with Roller",
-    "year": 2026,
-    "theme_id": 56,
-    "num_parts": 34,
-    "img_url": "https://cdn.rebrickable.com/media/sets/951340-1.jpg",
-    "theme": "Construction",
-    "parent_theme": "City"
-  },
-  {
-    "set_num": "951345-1",
-    "name": "Kitten and Vet's Office",
-    "year": 2026,
-    "theme_id": 494,
-    "num_parts": 24,
-    "img_url": "https://cdn.rebrickable.com/media/sets/951345-1.jpg",
-    "theme": "Friends",
-    "parent_theme": ""
-  },
-  {
     "set_num": "951351-1",
     "name": "Guard and Raptor",
     "year": 2026,
@@ -242777,96 +242667,6 @@
     "num_parts": 21,
     "img_url": "https://cdn.rebrickable.com/media/sets/951351-1.jpg",
     "theme": "Jurassic World",
-    "parent_theme": ""
-  },
-  {
-    "set_num": "951371-1",
-    "name": "Magma Cube",
-    "year": 2026,
-    "theme_id": 577,
-    "num_parts": 39,
-    "img_url": "https://cdn.rebrickable.com/media/sets/951371-1.jpg",
-    "theme": "Minecraft",
-    "parent_theme": ""
-  },
-  {
-    "set_num": "951374-1",
-    "name": "Jay and Mutation Monster",
-    "year": 2026,
-    "theme_id": 435,
-    "num_parts": 24,
-    "img_url": "https://cdn.rebrickable.com/media/sets/951374-1.jpg",
-    "theme": "Ninjago",
-    "parent_theme": ""
-  },
-  {
-    "set_num": "951375-1",
-    "name": "Nya and Grimfax",
-    "year": 2026,
-    "theme_id": 435,
-    "num_parts": 20,
-    "img_url": "https://cdn.rebrickable.com/media/sets/951375-1.jpg",
-    "theme": "Ninjago",
-    "parent_theme": ""
-  },
-  {
-    "set_num": "951384-1",
-    "name": "Nya",
-    "year": 2026,
-    "theme_id": 435,
-    "num_parts": 1,
-    "img_url": "https://cdn.rebrickable.com/media/sets/951384-1.jpg",
-    "theme": "Ninjago",
-    "parent_theme": ""
-  },
-  {
-    "set_num": "951385-1",
-    "name": "Kai - Draconus Form",
-    "year": 2026,
-    "theme_id": 435,
-    "num_parts": 11,
-    "img_url": "https://cdn.rebrickable.com/media/sets/951385-1.jpg",
-    "theme": "Ninjago",
-    "parent_theme": ""
-  },
-  {
-    "set_num": "951386-1",
-    "name": "Zane",
-    "year": 2026,
-    "theme_id": 435,
-    "num_parts": 12,
-    "img_url": "https://cdn.rebrickable.com/media/sets/951386-1.jpg",
-    "theme": "Ninjago",
-    "parent_theme": ""
-  },
-  {
-    "set_num": "951399-1",
-    "name": "Anti-Venom",
-    "year": 2026,
-    "theme_id": 706,
-    "num_parts": 10,
-    "img_url": "https://cdn.rebrickable.com/media/sets/951399-1.jpg",
-    "theme": "Spider-Man",
-    "parent_theme": "Super Heroes Marvel"
-  },
-  {
-    "set_num": "951405-1",
-    "name": "Republic Gunship",
-    "year": 2026,
-    "theme_id": 158,
-    "num_parts": 59,
-    "img_url": "https://cdn.rebrickable.com/media/sets/951405-1.jpg",
-    "theme": "Star Wars",
-    "parent_theme": ""
-  },
-  {
-    "set_num": "951408-1",
-    "name": "Death Trooper",
-    "year": 2026,
-    "theme_id": 158,
-    "num_parts": 5,
-    "img_url": "https://cdn.rebrickable.com/media/sets/951408-1.jpg",
-    "theme": "Star Wars",
     "parent_theme": ""
   },
   {
@@ -242948,16 +242748,6 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/951467-1.jpg",
     "theme": "Ninjago",
     "parent_theme": ""
-  },
-  {
-    "set_num": "971337-1",
-    "name": "Bane in Prison",
-    "year": 2026,
-    "theme_id": 697,
-    "num_parts": 27,
-    "img_url": "https://cdn.rebrickable.com/media/sets/971337-1.jpg",
-    "theme": "Batman",
-    "parent_theme": "Super Heroes DC"
   },
   {
     "set_num": "4000049-1",
