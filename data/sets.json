@@ -237600,6 +237600,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "40908-1",
+    "name": "Restaurants of the World: Greece",
+    "year": 2026,
+    "theme_id": 301,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40908-1.jpg",
+    "theme": "Other",
+    "parent_theme": ""
+  },
+  {
     "set_num": "40910-1",
     "name": "Beef Boss & Skye Figures",
     "year": 2026,
@@ -244168,6 +244178,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/6644859-1.jpg",
     "theme": "Christmas",
     "parent_theme": "Seasonal"
+  },
+  {
+    "set_num": "6644870-1",
+    "name": "Dragon on Skateboard",
+    "year": 2026,
+    "theme_id": 435,
+    "num_parts": 55,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6644870-1.jpg",
+    "theme": "Ninjago",
+    "parent_theme": ""
   },
   {
     "set_num": "6644882-1",

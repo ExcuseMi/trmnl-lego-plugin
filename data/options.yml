@@ -291,13 +291,13 @@
   - Nexo Knights (104): nexo-knights|1|104
   - Nike (5): nike|1|5
   - Ninja (31): ninja|1|31
-  - Ninjago (616): ninjago|1|616
+  - Ninjago (617): ninjago|1|617
   - Non-fiction Books (182): non-fiction-books|1|182
   - NXT (30): nxt|1|30
   - Off-Road (13): off-road|1|13
   - One Piece (14): one-piece|1|14
   - Orient Expedition (22): orient-expedition|1|22
-  - Other (104): other|1|104
+  - Other (105): other|1|105
   - Outback (5): outback|1|5
   - Overwatch (9): overwatch|1|9
   - Paradisa (18): paradisa|1|18
@@ -475,7 +475,7 @@
   optional: true
 - keyname: themes_brickset
   field_type: select
-  name: Filter by Themes – Brickset (172)
+  name: Filter by Themes – Brickset (173)
   description: <strong>Required:</strong> Select at least one theme, OR set a min/max year below. Only applicable when using Brickset as your data source.
   multiple: true
   options:
@@ -651,6 +651,7 @@
   - Xtra: Xtra
   - Znap: Znap
   - tbd: tbd
+  - '{Undefined}': '{Undefined}'
   help_text: Use <kbd>⌘</kbd>+<kbd>click</kbd> or <kbd>Ctrl</kbd>+<kbd>click</kbd> to select multiple themes.<br /><strong>You must select at least one theme OR specify a year range.</strong>
   optional: true
 - keyname: brickset_order_by
