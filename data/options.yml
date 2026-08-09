@@ -313,9 +313,9 @@
   - Playhouse (58): playhouse|1|58
   - Playsets (11): playsets|1|11
   - Plush Toys (120): plush-toys|1|120
-  - Pokémon (26): pokémon|1|26
+  - Pokémon (27): pokémon|1|27
   - Police (207): police|1|207
-  - Posters and Art Prints (96): posters-and-art-prints|1|96
+  - Posters and Art Prints (97): posters-and-art-prints|1|97
   - Power Functions (18): power-functions|1|18
   - Power Miners (19): power-miners|1|19
   - Powered Up (24): powered-up|1|24
@@ -336,7 +336,7 @@
   - Rock Raiders (15): rock-raiders|1|15
   - Role Play Toys and Costumes (229): role-play-toys-and-costumes|1|229
   - Royal Knights (9): royal-knights|1|9
-  - Samsonite (113): samsonite|1|113
+  - Samsonite (115): samsonite|1|115
   - Scala (72): scala|1|72
   - Scooby-Doo (7): scooby-doo|1|7
   - Sculptures (3): sculptures|1|3
@@ -475,7 +475,7 @@
   optional: true
 - keyname: themes_brickset
   field_type: select
-  name: Filter by Themes – Brickset (173)
+  name: Filter by Themes – Brickset (172)
   description: <strong>Required:</strong> Select at least one theme, OR set a min/max year below. Only applicable when using Brickset as your data source.
   multiple: true
   options:
@@ -651,7 +651,6 @@
   - Xtra: Xtra
   - Znap: Znap
   - tbd: tbd
-  - '{Undefined}': '{Undefined}'
   help_text: Use <kbd>⌘</kbd>+<kbd>click</kbd> or <kbd>Ctrl</kbd>+<kbd>click</kbd> to select multiple themes.<br /><strong>You must select at least one theme OR specify a year range.</strong>
   optional: true
 - keyname: brickset_order_by

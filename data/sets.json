@@ -3400,6 +3400,26 @@
     "parent_theme": "System"
   },
   {
+    "set_num": "2-1",
+    "name": "Velveeta Set No. 2",
+    "year": 1967,
+    "theme_id": 756,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/2-1.jpg",
+    "theme": "Samsonite",
+    "parent_theme": "System"
+  },
+  {
+    "set_num": "3-1",
+    "name": "Velveeta Set No. 3",
+    "year": 1967,
+    "theme_id": 756,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/3-1.jpg",
+    "theme": "Samsonite",
+    "parent_theme": "System"
+  },
+  {
     "set_num": "4-2",
     "name": "Velveeta Set No. 4 with Carrying Case",
     "year": 1967,
@@ -244180,6 +244200,16 @@
     "parent_theme": "Seasonal"
   },
   {
+    "set_num": "6644864 -1",
+    "name": "Training Tree",
+    "year": 2026,
+    "theme_id": 776,
+    "num_parts": 46,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6644864 -1.jpg",
+    "theme": "Pokémon",
+    "parent_theme": ""
+  },
+  {
     "set_num": "6644870-1",
     "name": "Dragon on Skateboard",
     "year": 2026,
@@ -244288,6 +244318,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/6647171-1.jpg",
     "theme": "LEGO Brand Store",
     "parent_theme": ""
+  },
+  {
+    "set_num": "6647922-1",
+    "name": "She Built That Stickers",
+    "year": 2026,
+    "theme_id": 736,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6647922-1.jpg",
+    "theme": "Posters and Art Prints",
+    "parent_theme": "Gear"
   },
   {
     "set_num": "6648385-1",
