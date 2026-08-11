@@ -35044,7 +35044,7 @@
     "name": "Castle Set",
     "year": 1997,
     "theme_id": 507,
-    "num_parts": 337,
+    "num_parts": 347,
     "img_url": "https://cdn.rebrickable.com/media/sets/9376-1.jpg",
     "theme": "Educational and Dacta",
     "parent_theme": ""
@@ -235600,6 +235600,16 @@
     "parent_theme": "Books"
   },
   {
+    "set_num": "9781645887980-1",
+    "name": "Ninjago: Dragons Rising: Training Time",
+    "year": 2025,
+    "theme_id": 435,
+    "num_parts": 5,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9781645887980-1.jpg",
+    "theme": "Ninjago",
+    "parent_theme": ""
+  },
+  {
     "set_num": "9781797233086-1",
     "name": "Mystery Minifigure Mini Puzzle (Christmas Edition) - 12 Pack",
     "year": 2025,
@@ -243650,6 +243660,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "5010695-1",
+    "name": "Copenhagen Magnet - Pattern",
+    "year": 2026,
+    "theme_id": 734,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010695-1.jpg",
+    "theme": "Magnets",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "5010696-1",
     "name": "Copenhagen Magnet - Retro-Logo",
     "year": 2026,
@@ -243737,6 +243757,16 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/5010706-1.jpg",
     "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010816-1",
+    "name": "Copenhagen Adults T-Shirt (All Sizes)",
+    "year": 2026,
+    "theme_id": 799,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010816-1.jpg",
+    "theme": "Clothing & Footwear",
     "parent_theme": "Gear"
   },
   {
@@ -244200,12 +244230,12 @@
     "parent_theme": "Seasonal"
   },
   {
-    "set_num": "6644864 -1",
+    "set_num": "6644864-1",
     "name": "Training Tree",
     "year": 2026,
     "theme_id": 776,
     "num_parts": 46,
-    "img_url": "https://cdn.rebrickable.com/media/sets/6644864 -1.jpg",
+    "img_url": "https://cdn.rebrickable.com/media/sets/6644864-1.jpg",
     "theme": "Pokémon",
     "parent_theme": ""
   },
@@ -244323,11 +244353,11 @@
     "set_num": "6647922-1",
     "name": "She Built That Stickers",
     "year": 2026,
-    "theme_id": 736,
+    "theme_id": 501,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/6647922-1.jpg",
-    "theme": "Posters and Art Prints",
-    "parent_theme": "Gear"
+    "theme": "Gear",
+    "parent_theme": ""
   },
   {
     "set_num": "6648385-1",
