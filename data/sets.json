@@ -174280,6 +174280,26 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "335560-1",
+    "name": "I [Heart] LEGOLAND Plush (Male)",
+    "year": 2020,
+    "theme_id": 735,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/335560-1.jpg",
+    "theme": "Plush Toys",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "335570-1",
+    "name": "I [Heart] LEGOLAND Plush (Female)",
+    "year": 2020,
+    "theme_id": 735,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/335570-1.jpg",
+    "theme": "Plush Toys",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "562001-1",
     "name": "Cake Decorating Set",
     "year": 2020,
@@ -218110,12 +218130,42 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "353950-1",
+    "name": "Iconic Brown Dog Plush",
+    "year": 2024,
+    "theme_id": 735,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/353950-1.jpg",
+    "theme": "Plush Toys",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "354030-1",
+    "name": "Friends Daisy Dog Plush",
+    "year": 2024,
+    "theme_id": 735,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/354030-1.jpg",
+    "theme": "Plush Toys",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "354050-1",
     "name": "Friends Dash Dog Plush",
     "year": 2024,
     "theme_id": 735,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/354050-1.jpg",
+    "theme": "Plush Toys",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "354060-1",
+    "name": "Friends Dango Dog Plush",
+    "year": 2024,
+    "theme_id": 735,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/354060-1.jpg",
     "theme": "Plush Toys",
     "parent_theme": "Gear"
   },
@@ -235603,11 +235653,11 @@
     "set_num": "9781645887980-1",
     "name": "Ninjago: Dragons Rising: Training Time",
     "year": 2025,
-    "theme_id": 435,
+    "theme_id": 761,
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/9781645887980-1.jpg",
-    "theme": "Ninjago",
-    "parent_theme": ""
+    "theme": "Activity Books with LEGO Parts",
+    "parent_theme": "Books"
   },
   {
     "set_num": "9781797233086-1",
@@ -237634,7 +237684,7 @@
     "name": "Restaurants of the World: Greece",
     "year": 2026,
     "theme_id": 301,
-    "num_parts": 0,
+    "num_parts": 254,
     "img_url": "https://cdn.rebrickable.com/media/sets/40908-1.jpg",
     "theme": "Other",
     "parent_theme": ""
@@ -242420,23 +242470,43 @@
     "parent_theme": ""
   },
   {
-    "set_num": "213552-1",
-    "name": "Kid's Ninjago Classic Clog",
+    "set_num": "169980-1",
+    "name": "Friends Racoon Plush",
     "year": 2026,
-    "theme_id": 799,
+    "theme_id": 735,
     "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/213552-1.jpg",
-    "theme": "Clothing & Footwear",
+    "img_url": "https://cdn.rebrickable.com/media/sets/169980-1.jpg",
+    "theme": "Plush Toys",
     "parent_theme": "Gear"
   },
   {
-    "set_num": "213553-1",
-    "name": "Ninjago Classic Clog",
+    "set_num": "170000-1",
+    "name": "Duplo Crocodile Plush",
     "year": 2026,
-    "theme_id": 799,
+    "theme_id": 735,
     "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/213553-1.jpg",
-    "theme": "Clothing & Footwear",
+    "img_url": "https://cdn.rebrickable.com/media/sets/170000-1.jpg",
+    "theme": "Plush Toys",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "170010-1",
+    "name": "Duplo Alpaca Plush",
+    "year": 2026,
+    "theme_id": 735,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/170010-1.jpg",
+    "theme": "Plush Toys",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "170030-1",
+    "name": "Duplo Honey Bee Plush",
+    "year": 2026,
+    "theme_id": 735,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/170030-1.jpg",
+    "theme": "Plush Toys",
     "parent_theme": "Gear"
   },
   {
@@ -243630,6 +243700,86 @@
     "parent_theme": "Educational and Dacta"
   },
   {
+    "set_num": "5010450-1",
+    "name": "Ninjago Classic Clog",
+    "year": 2026,
+    "theme_id": 799,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010450-1.jpg",
+    "theme": "Clothing & Footwear",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010451-1",
+    "name": "Kid's Ninjago Classic Clog",
+    "year": 2026,
+    "theme_id": 799,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010451-1.jpg",
+    "theme": "Clothing & Footwear",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010452-1",
+    "name": "Ninjago Kai 5 Pack",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010452-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "5010453-1",
+    "name": "Ninjago Lloyd 5 Pack",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010453-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "5010454-1",
+    "name": "Ninjago Zane 5 Pack",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010454-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "5010455-1",
+    "name": "Ninjago Nya 5 Pack",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010455-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "5010456-1",
+    "name": "Ninjago Jay 5 Pack",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010456-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "5010457-1",
+    "name": "Ninjago Cole 5 Pack",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010457-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
     "set_num": "5010566-1",
     "name": "Copenhagen Water Bottle - Bright Red",
     "year": 2026,
@@ -243828,6 +243978,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/6581056-1.jpg",
     "theme": "Series 28 Minifigures",
     "parent_theme": "Collectible Minifigures"
+  },
+  {
+    "set_num": "6591198-1",
+    "name": "Viking Woman Bag Tag",
+    "year": 2026,
+    "theme_id": 731,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6591198-1.jpg",
+    "theme": "Bag and Luggage Tags",
+    "parent_theme": "Gear"
   },
   {
     "set_num": "6611591-1",
@@ -244243,10 +244403,10 @@
     "set_num": "6644870-1",
     "name": "Dragon on Skateboard",
     "year": 2026,
-    "theme_id": 435,
+    "theme_id": 598,
     "num_parts": 55,
     "img_url": "https://cdn.rebrickable.com/media/sets/6644870-1.jpg",
-    "theme": "Ninjago",
+    "theme": "Promotional",
     "parent_theme": ""
   },
   {
@@ -244666,66 +244826,6 @@
     "theme_id": 501,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/10018261-1.jpg",
-    "theme": "Gear",
-    "parent_theme": ""
-  },
-  {
-    "set_num": "10019396-1",
-    "name": "Ninjago Kai 5 Pack",
-    "year": 2026,
-    "theme_id": 501,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/10019396-1.jpg",
-    "theme": "Gear",
-    "parent_theme": ""
-  },
-  {
-    "set_num": "10019397-1",
-    "name": "Ninjago Lloyd 5 Pack",
-    "year": 2026,
-    "theme_id": 501,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/10019397-1.jpg",
-    "theme": "Gear",
-    "parent_theme": ""
-  },
-  {
-    "set_num": "10019398-1",
-    "name": "Ninjago Zane 5 Pack",
-    "year": 2026,
-    "theme_id": 501,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/10019398-1.jpg",
-    "theme": "Gear",
-    "parent_theme": ""
-  },
-  {
-    "set_num": "10019399-1",
-    "name": "Ninjago Nya 5 Pack",
-    "year": 2026,
-    "theme_id": 501,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/10019399-1.jpg",
-    "theme": "Gear",
-    "parent_theme": ""
-  },
-  {
-    "set_num": "10019400-1",
-    "name": "Ninjago Jay 5 Pack",
-    "year": 2026,
-    "theme_id": 501,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/10019400-1.jpg",
-    "theme": "Gear",
-    "parent_theme": ""
-  },
-  {
-    "set_num": "10019401-1",
-    "name": "Ninjago Cole 5 Pack",
-    "year": 2026,
-    "theme_id": 501,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/10019401-1.jpg",
     "theme": "Gear",
     "parent_theme": ""
   },
@@ -358339,7 +358439,7 @@
   },
   {
     "fig_num": "fig-016454",
-    "name": "Space Sentinel",
+    "name": "Space Sentinel, Dark Bluish Grey Legs",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-016454.jpg",
     "theme": "",
@@ -361294,6 +361394,14 @@
     "name": "Red Torso, Dark Blue Legs, Red Speech Bubble",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-017960.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-018058",
+    "name": "Space Sentinel, Light Bluish Grey Legs",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-018058.jpg",
     "theme": "",
     "parent_theme": ""
   }
