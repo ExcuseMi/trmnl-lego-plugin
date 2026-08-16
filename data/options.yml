@@ -59,7 +59,7 @@
   - 9V (69): 9v|1|69
   - Action Wheelers (9): action-wheelers|1|9
   - Activity Books (231): activity-books|1|231
-  - Activity Books with LEGO Parts (422): activity-books-with-lego-parts|1|422
+  - Activity Books with LEGO Parts (424): activity-books-with-lego-parts|1|424
   - Advent (5): advent|1|5
   - Agents (13): agents|1|13
   - Airlines (16): airlines|1|16
@@ -81,7 +81,7 @@
   - 'Avatar: The Last Airbender (2)': avatar-the-last-airbender|1|2
   - Avengers (99): avengers|1|99
   - Bag and Luggage Tags (126): bag-and-luggage-tags|1|126
-  - Bags, Totes, & Luggage (881): bags-totes-luggage|1|881
+  - Bags, Totes, & Luggage (886): bags-totes-luggage|1|886
   - Basic (198): basic|1|198
   - Basic Set (351): basic-set|1|351
   - Basketball (33): basketball|1|33
@@ -122,7 +122,7 @@
   - Classic Town (410): classic-town|1|410
   - Clikits (80): clikits|1|80
   - Clocks and Watches (218): clocks-and-watches|1|218
-  - Clothing & Footwear (216): clothing-footwear|1|216
+  - Clothing & Footwear (234): clothing-footwear|1|234
   - Coast Guard (30): coast-guard|1|30
   - Collectible Minifigures (36): collectible-minifigures|1|36
   - Competition (17): competition|1|17
@@ -149,14 +149,14 @@
   - Discovery (6): discovery|1|6
   - Disney (71): disney|1|71
   - Disney 100 (22): disney-100|1|22
-  - Disney Princess (138): disney-princess|1|138
+  - Disney Princess (139): disney-princess|1|139
   - Disney Series 1 (21): disney-series-1|1|21
   - Disney Series 2 (21): disney-series-2|1|21
   - Divers (12): divers|1|12
   - Doc McStuffins (4): doc-mcstuffins|1|4
   - Dolls (6): dolls|1|6
   - Dora the Explorer (5): dora-the-explorer|1|5
-  - DOTS (93): dots|1|93
+  - DOTS (94): dots|1|94
   - Dragon Knights (13): dragon-knights|1|13
   - Dreamzzz (66): dreamzzz|1|66
   - Dungeons & Dragons (16): dungeons-dragons|1|16
@@ -164,7 +164,7 @@
   - Duplo and Explore (190): duplo-and-explore|1|190
   - Early Creator (35): early-creator|1|35
   - Easter (58): easter|1|58
-  - Editions (21): editions|1|21
+  - Editions (22): editions|1|22
   - Educational and Dacta (123): educational-and-dacta|1|123
   - eLAB (5): elab|1|5
   - Elves (42): elves|1|42
@@ -180,7 +180,7 @@
   - Farm (22): farm|1|22
   - Ferrari (30): ferrari|1|30
   - Ferries (17): ferries|1|17
-  - Fire (124): fire|1|124
+  - Fire (123): fire|1|123
   - FIRST LEGO League (57): first-lego-league|1|57
   - Forestmen (7): forestmen|1|7
   - Forma (4): forma|1|4
@@ -197,14 +197,14 @@
   - Galidor (20): galidor|1|20
   - Games (46): games|1|46
   - Gas Station (6): gas-station|1|6
-  - Gear (378): gear|1|378
+  - Gear (387): gear|1|387
   - Gears (9): gears|1|9
   - Ghostbusters (2): ghostbusters|1|2
   - Gravity Games (10): gravity-games|1|10
   - Guardians of the Galaxy (14): guardians-of-the-galaxy|1|14
   - Halloween (36): halloween|1|36
   - Harbor (25): harbor|1|25
-  - Harry Potter (196): harry-potter|1|196
+  - Harry Potter (197): harry-potter|1|197
   - Harry Potter and Fantastic Beasts Series 1 (25): harry-potter-and-fantastic-beasts-series-1|1|25
   - Harry Potter and Fantastic Beasts Series 2 (19): harry-potter-and-fantastic-beasts-series-2|1|19
   - Hero Factory (34): hero-factory|1|34
@@ -216,7 +216,7 @@
   - Homemaker (32): homemaker|1|32
   - Horizon Adventures (1): horizon-adventures|1|1
   - Hospital (31): hospital|1|31
-  - Houseware (452): houseware|1|452
+  - Houseware (453): houseware|1|453
   - Hydronauts (7): hydronauts|1|7
   - Ice Planet 2002 (10): ice-planet-2002|1|10
   - Icons (86): icons|1|86
@@ -237,7 +237,7 @@
   - Jurassic World (126): jurassic-world|1|126
   - 'Jurassic World: Fallen Kingdom (3)': jurassic-world-fallen-kingdom|1|3
   - Justice League (16): justice-league|1|16
-  - Key Chain (707): key-chain|1|707
+  - Key Chain (709): key-chain|1|709
   - Kingdoms (17): kingdoms|1|17
   - Knights Kingdom I (20): knights-kingdom-i|1|20
   - Knights Kingdom II (71): knights-kingdom-ii|1|71
@@ -247,7 +247,7 @@
   - Learning at Home (4): learning-at-home|1|4
   - Legends of Chima (96): legends-of-chima|1|96
   - LEGO Art (26): lego-art|1|26
-  - LEGO Brand Store (159): lego-brand-store|1|159
+  - LEGO Brand Store (160): lego-brand-store|1|160
   - LEGO Exclusive (72): lego-exclusive|1|72
   - LEGO Ideas and CUUSOO (95): lego-ideas-and-cuusoo|1|95
   - LEGO Originals (19): lego-originals|1|19
@@ -295,7 +295,7 @@
   - Non-fiction Books (182): non-fiction-books|1|182
   - NXT (30): nxt|1|30
   - Off-Road (13): off-road|1|13
-  - One Piece (14): one-piece|1|14
+  - One Piece (15): one-piece|1|15
   - Orient Expedition (22): orient-expedition|1|22
   - Other (105): other|1|105
   - Outback (5): outback|1|5
@@ -312,8 +312,8 @@
   - Planes (4): planes|1|4
   - Playhouse (58): playhouse|1|58
   - Playsets (11): playsets|1|11
-  - Plush Toys (129): plush-toys|1|129
-  - Pokémon (27): pokémon|1|27
+  - Plush Toys (142): plush-toys|1|142
+  - Pokémon (28): pokémon|1|28
   - Police (207): police|1|207
   - Posters and Art Prints (96): posters-and-art-prints|1|96
   - Power Functions (18): power-functions|1|18
@@ -322,7 +322,7 @@
   - Primo (114): primo|1|114
   - Prince of Persia (6): prince-of-persia|1|6
   - Princess Castle (6): princess-castle|1|6
-  - Promotional (185): promotional|1|185
+  - Promotional (191): promotional|1|191
   - Protectors (6): protectors|1|6
   - Quatro (9): quatro|1|9
   - Race (16): race|1|16
@@ -334,7 +334,7 @@
   - RoboForce (4): roboforce|1|4
   - RoboRiders (20): roboriders|1|20
   - Rock Raiders (15): rock-raiders|1|15
-  - Role Play Toys and Costumes (229): role-play-toys-and-costumes|1|229
+  - Role Play Toys and Costumes (231): role-play-toys-and-costumes|1|231
   - Royal Knights (9): royal-knights|1|9
   - Samsonite (115): samsonite|1|115
   - Scala (72): scala|1|72
@@ -390,16 +390,16 @@
   - Spider-Man (120): spider-man|1|120
   - Spider-Man - Across the Spider-Verse (17): spider-man-across-the-spider-verse|1|17
   - Spidey and His Amazing Friends (12): spidey-and-his-amazing-friends|1|12
-  - SPIKE (31): spike|1|31
+  - SPIKE (32): spike|1|32
   - SpongeBob SquarePants (14): spongebob-squarepants|1|14
   - Sports (4): sports|1|4
   - Spybotics (4): spybotics|1|4
   - Spyrius (9): spyrius|1|9
   - Star Wars (992): star-wars|1|992
-  - Stationery and Office Supplies (690): stationery-and-office-supplies|1|690
+  - Stationery and Office Supplies (692): stationery-and-office-supplies|1|692
   - Stingrays (5): stingrays|1|5
   - Storage (168): storage|1|168
-  - Story Books (370): story-books|1|370
+  - Story Books (371): story-books|1|371
   - Stranger Things (1): stranger-things|1|1
   - Studios (50): studios|1|50
   - Stuntz (26): stuntz|1|26

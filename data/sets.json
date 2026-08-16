@@ -23880,6 +23880,16 @@
     "parent_theme": "Educational and Dacta"
   },
   {
+    "set_num": "9780721413099-1",
+    "name": "Will and the Gold Chase",
+    "year": 1990,
+    "theme_id": 759,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9780721413099-1.jpg",
+    "theme": "Story Books",
+    "parent_theme": "Books"
+  },
+  {
     "set_num": "819-1",
     "name": "Blue Sea Plate",
     "year": 1991,
@@ -91824,7 +91834,7 @@
     "name": "Storming Enforcer",
     "year": 2011,
     "theme_id": 112,
-    "num_parts": 96,
+    "num_parts": 97,
     "img_url": "https://cdn.rebrickable.com/media/sets/8221-1.jpg",
     "theme": "Racers",
     "parent_theme": ""
@@ -185831,7 +185841,7 @@
   },
   {
     "set_num": "5006223-1",
-    "name": "HYPE X LEGO NINJAGO Squad Script T-Shirt",
+    "name": "HYPE X LEGO NINJAGO Squad Script T-Shirt (All Colors)",
     "year": 2021,
     "theme_id": 799,
     "num_parts": 0,
@@ -203490,6 +203500,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "41818-1",
+    "name": "Desk Organisers",
+    "year": 2023,
+    "theme_id": 688,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/41818-1.jpg",
+    "theme": "DOTS",
+    "parent_theme": ""
+  },
+  {
     "set_num": "42146-1",
     "name": "Liebherr Crawler Crane LR 13000",
     "year": 2023,
@@ -207610,6 +207630,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "854251-1",
+    "name": "Dragon Clan Sword",
+    "year": 2023,
+    "theme_id": 737,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/854251-1.jpg",
+    "theme": "Role Play Toys and Costumes",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "854252-1",
     "name": "Legoland Red Dragon Shield",
     "year": 2023,
@@ -207666,6 +207696,16 @@
     "theme_id": 737,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/854261-1.jpg",
+    "theme": "Role Play Toys and Costumes",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "854322-1",
+    "name": "Lion Clan Sword",
+    "year": 2023,
+    "theme_id": 737,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/854322-1.jpg",
     "theme": "Role Play Toys and Costumes",
     "parent_theme": "Gear"
   },
@@ -214350,6 +214390,16 @@
     "parent_theme": "Disney"
   },
   {
+    "set_num": "43236-1",
+    "name": "Snow White's Jewellery Box",
+    "year": 2024,
+    "theme_id": 579,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/43236-1.jpg",
+    "theme": "Disney Princess",
+    "parent_theme": "Disney"
+  },
+  {
     "set_num": "43237-1",
     "name": "Isabela's Flowerpot",
     "year": 2024,
@@ -218120,6 +218170,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "353930-1",
+    "name": "Iconic Roxie Racer Plush",
+    "year": 2024,
+    "theme_id": 735,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/353930-1.jpg",
+    "theme": "Plush Toys",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "353940-1",
     "name": "Friends French Bulldog Plush",
     "year": 2024,
@@ -219718,6 +219778,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/5008790-1.jpg",
     "theme": "Plush Toys",
     "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5008796-1",
+    "name": "Spike Prime - Combo Pack",
+    "year": 2024,
+    "theme_id": 509,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5008796-1.jpg",
+    "theme": "SPIKE",
+    "parent_theme": "Educational and Dacta"
   },
   {
     "set_num": "5008818-1",
@@ -237650,6 +237720,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "40901-1",
+    "name": "Ministry Munchies & The Daily Prophet Stands",
+    "year": 2026,
+    "theme_id": 246,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40901-1.jpg",
+    "theme": "Harry Potter",
+    "parent_theme": ""
+  },
+  {
     "set_num": "40902-1",
     "name": "Tribute to Leonardo da Vinci",
     "year": 2026,
@@ -238687,6 +238767,16 @@
     "num_parts": 1213,
     "img_url": "https://cdn.rebrickable.com/media/sets/43025-1.jpg",
     "theme": "Nike",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "43026-1",
+    "name": "Nike Air Force 1 x LEGO Set",
+    "year": 2026,
+    "theme_id": 787,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/43026-1.jpg",
+    "theme": "Editions",
     "parent_theme": ""
   },
   {
@@ -242470,6 +242560,26 @@
     "parent_theme": ""
   },
   {
+    "set_num": "169930-1",
+    "name": "Ninjago Zane Plush",
+    "year": 2026,
+    "theme_id": 735,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/169930-1.jpg",
+    "theme": "Plush Toys",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "169970-1",
+    "name": "Friends Bear Plush",
+    "year": 2026,
+    "theme_id": 735,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/169970-1.jpg",
+    "theme": "Plush Toys",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "169980-1",
     "name": "Friends Racoon Plush",
     "year": 2026,
@@ -242506,6 +242616,106 @@
     "theme_id": 735,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/170030-1.jpg",
+    "theme": "Plush Toys",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "170040-1",
+    "name": "Duplo Duck Plush",
+    "year": 2026,
+    "theme_id": 735,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/170040-1.jpg",
+    "theme": "Plush Toys",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "170050-1",
+    "name": "Duplo Giraffe Plush",
+    "year": 2026,
+    "theme_id": 735,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/170050-1.jpg",
+    "theme": "Plush Toys",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "170060-1",
+    "name": "Duplo Whale Plush",
+    "year": 2026,
+    "theme_id": 735,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/170060-1.jpg",
+    "theme": "Plush Toys",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "170070-1",
+    "name": "Duplo Fawn Plush",
+    "year": 2026,
+    "theme_id": 735,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/170070-1.jpg",
+    "theme": "Plush Toys",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "170110-1",
+    "name": "Iconic Flower Pot Girl Plush",
+    "year": 2026,
+    "theme_id": 735,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/170110-1.jpg",
+    "theme": "Plush Toys",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "170140-1",
+    "name": "Duplo Lemon Plush",
+    "year": 2026,
+    "theme_id": 735,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/170140-1.jpg",
+    "theme": "Plush Toys",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "170150-1",
+    "name": "Duplo Radish Plush",
+    "year": 2026,
+    "theme_id": 735,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/170150-1.jpg",
+    "theme": "Plush Toys",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "170160-1",
+    "name": "Duplo Strawberry Plush",
+    "year": 2026,
+    "theme_id": 735,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/170160-1.jpg",
+    "theme": "Plush Toys",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "170180-1",
+    "name": "Easter Bunny Plush",
+    "year": 2026,
+    "theme_id": 735,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/170180-1.jpg",
+    "theme": "Plush Toys",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "171310-1",
+    "name": "Birthday Cake Guy Plush",
+    "year": 2026,
+    "theme_id": 735,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/171310-1.jpg",
     "theme": "Plush Toys",
     "parent_theme": "Gear"
   },
@@ -243780,6 +243990,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "5010458-1",
+    "name": "Y2K 10 Pack",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010458-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
     "set_num": "5010566-1",
     "name": "Copenhagen Water Bottle - Bright Red",
     "year": 2026,
@@ -243797,6 +244017,26 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/5010567-1.jpg",
     "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010691-1",
+    "name": "Copenhagen Pen - Coral",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010691-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010692-1",
+    "name": "Copenhagen Pen - Yellow-Orange",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010692-1.jpg",
+    "theme": "Stationery and Office Supplies",
     "parent_theme": "Gear"
   },
   {
@@ -243880,6 +244120,26 @@
     "parent_theme": ""
   },
   {
+    "set_num": "5010702-1",
+    "name": "Copenhagen Child Cap",
+    "year": 2026,
+    "theme_id": 799,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010702-1.jpg",
+    "theme": "Clothing & Footwear",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010703-1",
+    "name": "Copenhagen Adult Cap",
+    "year": 2026,
+    "theme_id": 799,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010703-1.jpg",
+    "theme": "Clothing & Footwear",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "5010704-1",
     "name": "I [Heart] Copenhagen Shopping Bag",
     "year": 2026,
@@ -243910,6 +244170,36 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "5010707-1",
+    "name": "Copenhagen Retro Logo Umbrella",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010707-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "5010708-1",
+    "name": "Copenhagen Bag Charm - Viking Helmet",
+    "year": 2026,
+    "theme_id": 503,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010708-1.jpg",
+    "theme": "Key Chain",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010709-1",
+    "name": "Copenhagen Bag Charm - Heart",
+    "year": 2026,
+    "theme_id": 503,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010709-1.jpg",
+    "theme": "Key Chain",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "5010816-1",
     "name": "Copenhagen Adults T-Shirt (All Sizes)",
     "year": 2026,
@@ -243930,6 +244220,66 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "5010889-1",
+    "name": "Printed Rolltop Backpack - Sunflower",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010889-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010890-1",
+    "name": "Simple Canvas Tote - Flower Names",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010890-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010891-1",
+    "name": "Simple Canvas Tote - Farmers Market",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010891-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010895-1",
+    "name": "Ninjago 15th Anniversary Classic Backpack",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010895-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010896-1",
+    "name": "Ninjago 15th Anniversary Lunch Bag",
+    "year": 2026,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010896-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010897-1",
+    "name": "Ninjago 15th Anniversary Wallet",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010897-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
     "set_num": "5010927-1",
     "name": "Straw Topper Set",
     "year": 2026,
@@ -243937,6 +244287,16 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/5010927-1.jpg",
     "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010929-1",
+    "name": "Unicorn Girl Tote",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010929-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
     "parent_theme": "Gear"
   },
   {
@@ -243948,6 +244308,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/5011065-1.jpg",
     "theme": "Posters and Art Prints",
     "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5011072-1",
+    "name": "Ministry of Magic Phone Booth",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5011072-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
   },
   {
     "set_num": "6518176-1",
@@ -244380,6 +244750,26 @@
     "parent_theme": ""
   },
   {
+    "set_num": "6644842-1",
+    "name": "Poké Ball Smart Tag Case",
+    "year": 2026,
+    "theme_id": 776,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6644842-1.jpg",
+    "theme": "Pokémon",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6644846-1",
+    "name": "Turbo Shark Delivery",
+    "year": 2026,
+    "theme_id": 408,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6644846-1.jpg",
+    "theme": "LEGO Brand Store",
+    "parent_theme": ""
+  },
+  {
     "set_num": "6644859-1",
     "name": "Reindeer",
     "year": 2026,
@@ -244407,6 +244797,16 @@
     "num_parts": 55,
     "img_url": "https://cdn.rebrickable.com/media/sets/6644870-1.jpg",
     "theme": "Promotional",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6644880-1",
+    "name": "Chopper's Hat",
+    "year": 2026,
+    "theme_id": 775,
+    "num_parts": 30,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6644880-1.jpg",
+    "theme": "One Piece",
     "parent_theme": ""
   },
   {
@@ -244653,11 +245053,11 @@
     "set_num": "6663742-1",
     "name": "Fire Truck",
     "year": 2026,
-    "theme_id": 58,
+    "theme_id": 598,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/6663742-1.jpg",
-    "theme": "Fire",
-    "parent_theme": "City"
+    "theme": "Promotional",
+    "parent_theme": ""
   },
   {
     "set_num": "6665196-1",
@@ -244906,6 +245306,56 @@
     "theme_id": 501,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/10019744-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "10019847-1",
+    "name": "Bright Green Leaf Jibbitz",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/10019847-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "10020070-1",
+    "name": "Vehicles Minifigure Jibbitz",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/10020070-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "10020078-1",
+    "name": "Vice Minifigure Jibbitz",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/10020078-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "10020082-1",
+    "name": "Vice Green Skateboard Jibbitz",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/10020082-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "10020218-1",
+    "name": "Ninjago 15th Anniversary Jibbitz",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/10020218-1.jpg",
     "theme": "Gear",
     "parent_theme": ""
   },
@@ -245710,6 +246160,66 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "12011373349-1",
+    "name": "City Space Explorer T-Shirt",
+    "year": 2026,
+    "theme_id": 799,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/12011373349-1.jpg",
+    "theme": "Clothing & Footwear",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "12011426590-1",
+    "name": "Ninjago Reach Beyond T-Shirt - Dark Navy",
+    "year": 2026,
+    "theme_id": 799,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/12011426590-1.jpg",
+    "theme": "Clothing & Footwear",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "601101900138-1",
+    "name": "Sweatshirt - Pink and White",
+    "year": 2026,
+    "theme_id": 799,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/601101900138-1.jpg",
+    "theme": "Clothing & Footwear",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "601101948590-1",
+    "name": "Ninjago Long Sleeve T-Shirt - Dark Navy",
+    "year": 2026,
+    "theme_id": 799,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/601101948590-1.jpg",
+    "theme": "Clothing & Footwear",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "601101952590-1",
+    "name": "Ninjago Be Ninja Long Sleeve T-Shirt - Kai",
+    "year": 2026,
+    "theme_id": 799,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/601101952590-1.jpg",
+    "theme": "Clothing & Footwear",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "601101965590-1",
+    "name": "City Space Explorer T-Shirt",
+    "year": 2026,
+    "theme_id": 799,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/601101965590-1.jpg",
+    "theme": "Clothing & Footwear",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "757894517489-1",
     "name": "Multicolour Brick Lunch Bag",
     "year": 2026,
@@ -245777,6 +246287,126 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/5711938036300-1.jpg",
     "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5907762001434-1",
+    "name": "Batman: Epickie Pojedynki",
+    "year": 2026,
+    "theme_id": 761,
+    "num_parts": 11,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5907762001434-1.jpg",
+    "theme": "Activity Books with LEGO Parts",
+    "parent_theme": "Books"
+  },
+  {
+    "set_num": "5907762001465-1",
+    "name": "Marvel: Odkryj Spider-Moce",
+    "year": 2026,
+    "theme_id": 761,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5907762001465-1.jpg",
+    "theme": "Activity Books with LEGO Parts",
+    "parent_theme": "Books"
+  },
+  {
+    "set_num": "6011011010995-1",
+    "name": "Staying Alive T-Shirt",
+    "year": 2026,
+    "theme_id": 799,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6011011010995-1.jpg",
+    "theme": "Clothing & Footwear",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "6011011247349-1",
+    "name": "Ninjago Masters of Spinjitzu Long Sleeve T-Shirt - Red",
+    "year": 2026,
+    "theme_id": 799,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6011011247349-1.jpg",
+    "theme": "Clothing & Footwear",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "6011011247557-1",
+    "name": "Ninjago Masters of Spinjitzu Long Sleeve T-Shirt - Blue",
+    "year": 2026,
+    "theme_id": 799,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6011011247557-1.jpg",
+    "theme": "Clothing & Footwear",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "6011011247590-1",
+    "name": "Ninjago Masters of Spinjitzu Long Sleeve T-Shirt - Dark Navy",
+    "year": 2026,
+    "theme_id": 799,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6011011247590-1.jpg",
+    "theme": "Clothing & Footwear",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "6011011249867-1",
+    "name": "Ninjago T-Shirt - Green",
+    "year": 2026,
+    "theme_id": 799,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6011011249867-1.jpg",
+    "theme": "Clothing & Footwear",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "6011011314101-1",
+    "name": "Embossed T-Shirt - White",
+    "year": 2026,
+    "theme_id": 799,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6011011314101-1.jpg",
+    "theme": "Clothing & Footwear",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "6011011316349-1",
+    "name": "Ninjago T-Shirt - Red",
+    "year": 2026,
+    "theme_id": 799,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6011011316349-1.jpg",
+    "theme": "Clothing & Footwear",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "6011011371138-1",
+    "name": "Baby T-Shirt - Strawberry",
+    "year": 2026,
+    "theme_id": 799,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6011011371138-1.jpg",
+    "theme": "Clothing & Footwear",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "6011011378590-1",
+    "name": "Ninjago Team Ninja Polo Blouse",
+    "year": 2026,
+    "theme_id": 799,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6011011378590-1.jpg",
+    "theme": "Clothing & Footwear",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "6011019528026-1",
+    "name": "Ninjago Be Ninja Long Sleeve T-Shirt - Lloyd",
+    "year": 2026,
+    "theme_id": 799,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6011019528026-1.jpg",
+    "theme": "Clothing & Footwear",
     "parent_theme": "Gear"
   },
   {
@@ -246144,7 +246774,7 @@
     "name": "Ninjago: The Epic History Activity Box",
     "year": 2026,
     "theme_id": 761,
-    "num_parts": 0,
+    "num_parts": 18,
     "img_url": "https://cdn.rebrickable.com/media/sets/9781837251995-1.jpg",
     "theme": "Activity Books with LEGO Parts",
     "parent_theme": "Books"
@@ -246278,6 +246908,56 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/9798225060862-1.jpg",
     "theme": "Activity Books with LEGO Parts",
     "parent_theme": "Books"
+  },
+  {
+    "set_num": "6675226-1",
+    "name": "Father's Day Frame",
+    "year": 2027,
+    "theme_id": 598,
+    "num_parts": 27,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6675226-1.jpg",
+    "theme": "Promotional",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6675304-1",
+    "name": "Mini Lantern",
+    "year": 2027,
+    "theme_id": 598,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6675304-1.jpg",
+    "theme": "Promotional",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6675305-1",
+    "name": "Moon with Lantern",
+    "year": 2027,
+    "theme_id": 598,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6675305-1.jpg",
+    "theme": "Promotional",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6675310-1",
+    "name": "Taco Friend",
+    "year": 2027,
+    "theme_id": 598,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6675310-1.jpg",
+    "theme": "Promotional",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6676794-1",
+    "name": "Honeybee Bloom",
+    "year": 2027,
+    "theme_id": 598,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6676794-1.jpg",
+    "theme": "Promotional",
+    "parent_theme": ""
   },
   {
     "set_num": "757894517472-1",
