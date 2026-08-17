@@ -182544,7 +182544,7 @@
     "name": "Winter Soldier",
     "year": 2021,
     "theme_id": 715,
-    "num_parts": 10,
+    "num_parts": 9,
     "img_url": "https://cdn.rebrickable.com/media/sets/71031-4.jpg",
     "theme": "Marvel Series 1",
     "parent_theme": "Collectible Minifigures"
@@ -238760,6 +238760,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "43024-1",
+    "name": "Ayrton Senna Helmet",
+    "year": 2026,
+    "theme_id": 787,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/43024-1.jpg",
+    "theme": "Editions",
+    "parent_theme": ""
+  },
+  {
     "set_num": "43025-1",
     "name": "Nike Air Max 95 x LEGO Set",
     "year": 2026,
@@ -242834,7 +242844,7 @@
     "name": "The Art Factory",
     "year": 2026,
     "theme_id": 719,
-    "num_parts": 2570,
+    "num_parts": 2567,
     "img_url": "https://cdn.rebrickable.com/media/sets/910054-1.jpg",
     "theme": "BrickLink Designer Program",
     "parent_theme": ""
@@ -246291,7 +246301,7 @@
   },
   {
     "set_num": "5907762001434-1",
-    "name": "Batman: Epickie Pojedynki",
+    "name": "DC Comics Batman: Epickie Pojedynki",
     "year": 2026,
     "theme_id": 761,
     "num_parts": 11,
@@ -246970,6 +246980,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "9780241831953-1",
+    "name": "Minecraft: Would you Rather?",
+    "year": 2027,
+    "theme_id": 757,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9780241831953-1.jpg",
+    "theme": "Ideas Books",
+    "parent_theme": "Books"
+  },
+  {
     "set_num": "9780241836712-1",
     "name": "DK Super Readers Level 2: Marvel Super Heroes: Spider-Man Web Rescue",
     "year": 2027,
@@ -246986,6 +247006,26 @@
     "theme_id": 759,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/9780241838389-1.jpg",
+    "theme": "Story Books",
+    "parent_theme": "Books"
+  },
+  {
+    "set_num": "9780241838563-1",
+    "name": "Ninjago: Dragons Rising: Riyu the Dragon: Noodle Chaos",
+    "year": 2027,
+    "theme_id": 759,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9780241838563-1.jpg",
+    "theme": "Story Books",
+    "parent_theme": "Books"
+  },
+  {
+    "set_num": "9781534357921-1",
+    "name": "Ninjago: Masters of Spinjitzu",
+    "year": 2027,
+    "theme_id": 759,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9781534357921-1.jpg",
     "theme": "Story Books",
     "parent_theme": "Books"
   },
@@ -357975,7 +358015,7 @@
   },
   {
     "fig_num": "fig-016229",
-    "name": "Iron Patriot MK1",
+    "name": "Iron Patriot MK1, Grey Neckbracket",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-016229.jpg",
     "theme": "",
