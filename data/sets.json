@@ -242560,6 +242560,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "122507-1",
+    "name": "Raptor Feeding",
+    "year": 2026,
+    "theme_id": 602,
+    "num_parts": 21,
+    "img_url": "https://cdn.rebrickable.com/media/sets/122507-1.jpg",
+    "theme": "Jurassic World",
+    "parent_theme": ""
+  },
+  {
     "set_num": "122509-1",
     "name": "Guard with Incubator",
     "year": 2026,
@@ -244764,7 +244774,7 @@
     "name": "Poké Ball Smart Tag Case",
     "year": 2026,
     "theme_id": 776,
-    "num_parts": 0,
+    "num_parts": 31,
     "img_url": "https://cdn.rebrickable.com/media/sets/6644842-1.jpg",
     "theme": "Pokémon",
     "parent_theme": ""
