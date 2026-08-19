@@ -236924,7 +236924,7 @@
     "name": "Ghast Station",
     "year": 2026,
     "theme_id": 577,
-    "num_parts": 754,
+    "num_parts": 755,
     "img_url": "https://cdn.rebrickable.com/media/sets/21597-1.jpg",
     "theme": "Minecraft",
     "parent_theme": ""
@@ -241750,6 +241750,16 @@
     "parent_theme": "Super Heroes Marvel"
   },
   {
+    "set_num": "76355-1",
+    "name": "Batman Returns Batmobile",
+    "year": 2026,
+    "theme_id": 697,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/76355-1.jpg",
+    "theme": "Batman",
+    "parent_theme": "Super Heroes DC"
+  },
+  {
     "set_num": "76356-1",
     "name": "Venom Bust",
     "year": 2026,
@@ -244987,6 +244997,16 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/6650266-1.jpg",
     "theme": "Star Wars",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6652991-1",
+    "name": "Rock Guitar",
+    "year": 2026,
+    "theme_id": 598,
+    "num_parts": 52,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6652991-1.jpg",
+    "theme": "Promotional",
     "parent_theme": ""
   },
   {
