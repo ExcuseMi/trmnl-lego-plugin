@@ -38481,7 +38481,7 @@
   },
   {
     "set_num": "8428-1",
-    "name": "Turbo Command Featuring CD-ROM Experience Expander",
+    "name": "Red Hot Machine with CD-ROM",
     "year": 1998,
     "theme_id": 1,
     "num_parts": 472,
@@ -38491,7 +38491,7 @@
   },
   {
     "set_num": "8432-1",
-    "name": "Supersonic Car",
+    "name": "Red Hot Machine",
     "year": 1998,
     "theme_id": 1,
     "num_parts": 471,
@@ -109884,7 +109884,7 @@
     "name": "City: Meteor Shower - Activity Book",
     "year": 2013,
     "theme_id": 761,
-    "num_parts": 19,
+    "num_parts": 15,
     "img_url": "https://cdn.rebrickable.com/media/sets/9780723270522-1.jpg",
     "theme": "Activity Books with LEGO Parts",
     "parent_theme": "Books"
@@ -163224,7 +163224,7 @@
     "name": "Dorado Showdown",
     "year": 2019,
     "theme_id": 669,
-    "num_parts": 419,
+    "num_parts": 414,
     "img_url": "https://cdn.rebrickable.com/media/sets/75972-1.jpg",
     "theme": "Overwatch",
     "parent_theme": ""
@@ -170594,7 +170594,7 @@
     "name": "Party Boat",
     "year": 2020,
     "theme_id": 494,
-    "num_parts": 640,
+    "num_parts": 635,
     "img_url": "https://cdn.rebrickable.com/media/sets/41433-1.jpg",
     "theme": "Friends",
     "parent_theme": ""
@@ -216704,7 +216704,7 @@
     "name": "Jabba's Sail Barge",
     "year": 2024,
     "theme_id": 171,
-    "num_parts": 3946,
+    "num_parts": 3943,
     "img_url": "https://cdn.rebrickable.com/media/sets/75397-1.jpg",
     "theme": "Ultimate Collector Series",
     "parent_theme": "Star Wars"
@@ -296284,14 +296284,6 @@
     "parent_theme": ""
   },
   {
-    "fig_num": "fig-006606",
-    "name": "Reaper with Legs",
-    "num_parts": 5,
-    "img_url": "https://cdn.rebrickable.com/media/sets/fig-006606.jpg",
-    "theme": "",
-    "parent_theme": ""
-  },
-  {
     "fig_num": "fig-006607",
     "name": "Reinhardt",
     "num_parts": 4,
@@ -300656,14 +300648,6 @@
     "name": "Arctic Crew, Green, Cap",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-007208.jpg",
-    "theme": "",
-    "parent_theme": ""
-  },
-  {
-    "fig_num": "fig-007209",
-    "name": "Basketball Player, Red  Torso, Red Legs #2",
-    "num_parts": 3,
-    "img_url": "https://cdn.rebrickable.com/media/sets/fig-007209.jpg",
     "theme": "",
     "parent_theme": ""
   },
@@ -313736,14 +313720,6 @@
     "name": "Lavender Brown",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-008960.jpg",
-    "theme": "",
-    "parent_theme": ""
-  },
-  {
-    "fig_num": "fig-008961",
-    "name": "Andrea - Dark Turquoise Top, Magenta Skirt, Dark Brown Hair, Glasses",
-    "num_parts": 5,
-    "img_url": "https://cdn.rebrickable.com/media/sets/fig-008961.jpg",
     "theme": "",
     "parent_theme": ""
   },
@@ -354668,14 +354644,6 @@
     "parent_theme": ""
   },
   {
-    "fig_num": "fig-015578",
-    "name": "Gamorrean Guard, Printed Head, Dark Brown Hands",
-    "num_parts": 3,
-    "img_url": "https://cdn.rebrickable.com/media/sets/fig-015578.jpg",
-    "theme": "",
-    "parent_theme": ""
-  },
-  {
     "fig_num": "fig-015579",
     "name": "Princess Leia, Slave Outfit, Long Dark Brown Hair",
     "num_parts": 5,
@@ -356248,14 +356216,6 @@
     "name": "Super Shadow",
     "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-015872.jpg",
-    "theme": "",
-    "parent_theme": ""
-  },
-  {
-    "fig_num": "fig-015880",
-    "name": "The Mandalorian / Din Djarin, Dark Brown Outfit, 87610pr0012 Helmet",
-    "num_parts": 5,
-    "img_url": "https://cdn.rebrickable.com/media/sets/fig-015880.jpg",
     "theme": "",
     "parent_theme": ""
   },
