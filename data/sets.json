@@ -170604,7 +170604,7 @@
     "name": "Party Boat",
     "year": 2020,
     "theme_id": 494,
-    "num_parts": 635,
+    "num_parts": 640,
     "img_url": "https://cdn.rebrickable.com/media/sets/41433-1.jpg",
     "theme": "Friends",
     "parent_theme": ""
@@ -244370,6 +244370,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "6557640-13",
+    "name": "Race Car",
+    "year": 2026,
+    "theme_id": 52,
+    "num_parts": 29,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6557640-13.jpg",
+    "theme": "City",
+    "parent_theme": ""
+  },
+  {
     "set_num": "6572895-1",
     "name": "Herschel Pencil",
     "year": 2026,
@@ -244804,7 +244814,7 @@
     "name": "Turbo Shark Delivery",
     "year": 2026,
     "theme_id": 408,
-    "num_parts": 0,
+    "num_parts": 41,
     "img_url": "https://cdn.rebrickable.com/media/sets/6644846-1.jpg",
     "theme": "LEGO Brand Store",
     "parent_theme": ""
@@ -244858,6 +244868,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/6644882-1.jpg",
     "theme": "One Piece",
     "parent_theme": ""
+  },
+  {
+    "set_num": "6645355-1",
+    "name": "\"Bouw je voetbaldroom\" Envelope",
+    "year": 2026,
+    "theme_id": 736,
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6645355-1.jpg",
+    "theme": "Posters and Art Prints",
+    "parent_theme": "Gear"
   },
   {
     "set_num": "6646264-1",
