@@ -184014,7 +184014,7 @@
     "name": "Hogwarts Chamber Of Secrets",
     "year": 2021,
     "theme_id": 246,
-    "num_parts": 1172,
+    "num_parts": 1171,
     "img_url": "https://cdn.rebrickable.com/media/sets/76389-1.jpg",
     "theme": "Harry Potter",
     "parent_theme": ""
@@ -242580,16 +242580,6 @@
     "parent_theme": ""
   },
   {
-    "set_num": "122507-1",
-    "name": "Raptor Feeding",
-    "year": 2026,
-    "theme_id": 602,
-    "num_parts": 21,
-    "img_url": "https://cdn.rebrickable.com/media/sets/122507-1.jpg",
-    "theme": "Jurassic World",
-    "parent_theme": ""
-  },
-  {
     "set_num": "122509-1",
     "name": "Guard with Incubator",
     "year": 2026,
@@ -245123,11 +245113,11 @@
     "set_num": "6663742-1",
     "name": "Fire Truck",
     "year": 2026,
-    "theme_id": 598,
+    "theme_id": 58,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/6663742-1.jpg",
-    "theme": "Promotional",
-    "parent_theme": ""
+    "theme": "Fire",
+    "parent_theme": "City"
   },
   {
     "set_num": "6665196-1",
@@ -246957,6 +246947,76 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/9788325349042-1.jpg",
     "theme": "Activity Books with LEGO Parts",
+    "parent_theme": "Books"
+  },
+  {
+    "set_num": "9788325349080-1",
+    "name": "Brick Book: Color by Number",
+    "year": 2026,
+    "theme_id": 760,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9788325349080-1.jpg",
+    "theme": "Activity Books",
+    "parent_theme": "Books"
+  },
+  {
+    "set_num": "9788325349097-1",
+    "name": "Brick Book: Coloring",
+    "year": 2026,
+    "theme_id": 760,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9788325349097-1.jpg",
+    "theme": "Activity Books",
+    "parent_theme": "Books"
+  },
+  {
+    "set_num": "9788325349103-1",
+    "name": "Brick Book: Activity",
+    "year": 2026,
+    "theme_id": 760,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9788325349103-1.jpg",
+    "theme": "Activity Books",
+    "parent_theme": "Books"
+  },
+  {
+    "set_num": "9788325349110-1",
+    "name": "Brick Book: Activity",
+    "year": 2026,
+    "theme_id": 760,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9788325349110-1.jpg",
+    "theme": "Activity Books",
+    "parent_theme": "Books"
+  },
+  {
+    "set_num": "9788325349127-1",
+    "name": "Ninjago: Dragons Rising: 100 Mazes",
+    "year": 2026,
+    "theme_id": 760,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9788325349127-1.jpg",
+    "theme": "Activity Books",
+    "parent_theme": "Books"
+  },
+  {
+    "set_num": "9788325349141-1",
+    "name": "Doodle Time",
+    "year": 2026,
+    "theme_id": 760,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9788325349141-1.jpg",
+    "theme": "Activity Books",
+    "parent_theme": "Books"
+  },
+  {
+    "set_num": "9788325349158-1",
+    "name": "Color Me",
+    "year": 2026,
+    "theme_id": 760,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9788325349158-1.jpg",
+    "theme": "Activity Books",
     "parent_theme": "Books"
   },
   {
