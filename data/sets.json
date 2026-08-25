@@ -206464,7 +206464,7 @@
     "name": "Slytherin House Banner",
     "year": 2023,
     "theme_id": 246,
-    "num_parts": 352,
+    "num_parts": 349,
     "img_url": "https://cdn.rebrickable.com/media/sets/76410-1.jpg",
     "theme": "Harry Potter",
     "parent_theme": ""
@@ -240630,6 +240630,16 @@
     "parent_theme": "Collectible Minifigures"
   },
   {
+    "set_num": "71053-15",
+    "name": "Shrek Series - Tower Box",
+    "year": 2026,
+    "theme_id": 798,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/71053-15.jpg",
+    "theme": "Shrek",
+    "parent_theme": "Collectible Minifigures"
+  },
+  {
     "set_num": "71508-1",
     "name": "Fox Guardian Mech",
     "year": 2026,
@@ -243614,7 +243624,7 @@
     "name": "The Mandalorian and Grogu",
     "year": 2026,
     "theme_id": 158,
-    "num_parts": 0,
+    "num_parts": 140,
     "img_url": "https://cdn.rebrickable.com/media/sets/5010305-1.jpg",
     "theme": "Star Wars",
     "parent_theme": ""
@@ -244837,6 +244847,16 @@
     "num_parts": 55,
     "img_url": "https://cdn.rebrickable.com/media/sets/6644870-1.jpg",
     "theme": "Promotional",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6644876-1",
+    "name": "Micro Castle",
+    "year": 2026,
+    "theme_id": 246,
+    "num_parts": 43,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6644876-1.jpg",
+    "theme": "Harry Potter",
     "parent_theme": ""
   },
   {
@@ -320319,7 +320339,7 @@
   },
   {
     "fig_num": "fig-009864",
-    "name": "Woman, Red Jacket, Black Legs, Reddish Brown Hair",
+    "name": "Woman, Red Jacket, Black Legs, Reddish Brown Hair, Clear Badge",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-009864.jpg",
     "theme": "",
@@ -320367,7 +320387,7 @@
   },
   {
     "fig_num": "fig-009870",
-    "name": "Man, Light Bluish Gray Hoodie over Dark Red Shirt, Dark Bluish Gray Legs, Bright Light Yellow Hair, Silver Sunglasses",
+    "name": "Man, Light Bluish Gray Hoodie over Dark Red Shirt, Dark Bluish Gray Legs, Tan Hair, Silver Sunglasses",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-009870.jpg",
     "theme": "",
@@ -362210,6 +362230,110 @@
     "name": "Woman, Red Jacket, Black Legs, Reddish Brown Hair. Press Badge",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-018065.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-018066",
+    "name": "Thelonious",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-018066.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-018067",
+    "name": "Puss in Boots, Short Legs",
+    "num_parts": 5,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-018067.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-018068",
+    "name": "Gingy",
+    "num_parts": 3,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-018068.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-018069",
+    "name": "Shrek",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-018069.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-018070",
+    "name": "Dragon",
+    "num_parts": 5,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-018070.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-018071",
+    "name": "Fiona",
+    "num_parts": 3,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-018071.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-018072",
+    "name": "Donkey",
+    "num_parts": 2,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-018072.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-018073",
+    "name": "Merlin",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-018073.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-018074",
+    "name": "Pinocchio",
+    "num_parts": 3,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-018074.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-018075",
+    "name": "Big Bad Wolf",
+    "num_parts": 3,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-018075.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-018076",
+    "name": "Lord Farquaad",
+    "num_parts": 5,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-018076.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-018077",
+    "name": "Fairy Godmother",
+    "num_parts": 5,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-018077.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-018078",
+    "name": "Prince Charming",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-018078.jpg",
     "theme": "",
     "parent_theme": ""
   }
