@@ -192560,6 +192560,26 @@
     "parent_theme": ""
   },
   {
+    "set_num": "52520-1",
+    "name": "Silicone NiteLite Display",
+    "year": 2022,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/52520-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "52854-1",
+    "name": "DOTS Display",
+    "year": 2022,
+    "theme_id": 688,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/52854-1.jpg",
+    "theme": "DOTS",
+    "parent_theme": ""
+  },
+  {
     "set_num": "52935-1",
     "name": "Pizza Guy Bag Tag",
     "year": 2022,
@@ -203976,6 +203996,16 @@
     "theme_id": 739,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/51668-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "52624-1",
+    "name": "Locking Notebook with Gel Pen Display",
+    "year": 2023,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/52624-1.jpg",
     "theme": "Stationery and Office Supplies",
     "parent_theme": "Gear"
   },
@@ -226460,6 +226490,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "53289-1",
+    "name": "Lightsaber Gel Pen Display",
+    "year": 2025,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53289-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "53325-1",
     "name": "Ninjago Kai Molded Pencil Case",
     "year": 2025,
@@ -226697,6 +226737,16 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/53675-1.jpg",
     "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "53682-1",
+    "name": "Dinosaur Key Light Display",
+    "year": 2025,
+    "theme_id": 503,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53682-1.jpg",
+    "theme": "Key Chain",
     "parent_theme": "Gear"
   },
   {
@@ -229324,7 +229374,7 @@
     "name": "Porsche 911 GT3 RS Super Car",
     "year": 2025,
     "theme_id": 601,
-    "num_parts": 355,
+    "num_parts": 351,
     "img_url": "https://cdn.rebrickable.com/media/sets/77239-1.jpg",
     "theme": "Speed Champions",
     "parent_theme": ""
@@ -229334,7 +229384,7 @@
     "name": "Bugatti Centodieci Hyper Sports Car",
     "year": 2025,
     "theme_id": 601,
-    "num_parts": 298,
+    "num_parts": 294,
     "img_url": "https://cdn.rebrickable.com/media/sets/77240-1.jpg",
     "theme": "Speed Champions",
     "parent_theme": ""
@@ -235740,6 +235790,16 @@
     "parent_theme": "Books"
   },
   {
+    "set_num": "9781645888130-1",
+    "name": "Star Wars: Imperial Riddles!",
+    "year": 2025,
+    "theme_id": 761,
+    "num_parts": 5,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9781645888130-1.jpg",
+    "theme": "Activity Books with LEGO Parts",
+    "parent_theme": "Books"
+  },
+  {
     "set_num": "9781797233086-1",
     "name": "Mystery Minifigure Mini Puzzle (Christmas Edition) - 12 Pack",
     "year": 2025,
@@ -239230,6 +239290,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "53496-1",
+    "name": "Fortnite Stickers",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53496-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "53672-1",
     "name": "Sticky Notes and Gel Pen Set Farmers Market",
     "year": 2026,
@@ -239530,6 +239600,26 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "53803-1",
+    "name": "Star Wars Stickers",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53803-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "53806-1",
+    "name": "Star Wars Black and White Stickers",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53806-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "53817-1",
     "name": "Valentine Bee Stickers",
     "year": 2026,
@@ -239750,6 +239840,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "53841-1",
+    "name": "Halloween Key Light Display",
+    "year": 2026,
+    "theme_id": 503,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53841-1.jpg",
+    "theme": "Key Chain",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "53842-1",
     "name": "Botanicals Snail Bouquet Stickers",
     "year": 2026,
@@ -239860,6 +239960,26 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "53861-1",
+    "name": "Botanicals Sticker",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53861-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "53863-1",
+    "name": "City Stickers",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53863-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "53864-1",
     "name": "City Freya Stickers",
     "year": 2026,
@@ -239920,13 +240040,103 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "53879-1",
+    "name": "Birthday Coloring Creativity Set",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53879-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "53881-1",
+    "name": "Botanicals Wildflowers Coloring Creativity Set",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53881-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "53882-1",
+    "name": "Halloween Coloring Creativity Set",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53882-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "53883-1",
+    "name": "Holiday Coloring Creativity Set",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53883-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "53885-1",
+    "name": "Farmer's Market ColorMe Silicone Mat",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53885-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "53893-1",
+    "name": "Water Art Pad",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53893-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "53908-1",
+    "name": "Pirate ColorMe Silicone Mat",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53908-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "53909-1",
+    "name": "AirTag Holder 1 x 1 Round (All Colors)",
+    "year": 2026,
+    "theme_id": 731,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53909-1.jpg",
+    "theme": "Bag and Luggage Tags",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "54005-1",
-    "name": "Brick 1 x 1 Alarm Clock (Red)",
+    "name": "Brick 1 x 1 Alarm Clock (All Colors)",
     "year": 2026,
     "theme_id": 732,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/54005-1.jpg",
     "theme": "Clocks and Watches",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "54018-1",
+    "name": "Fortnite Key Light Display",
+    "year": 2026,
+    "theme_id": 503,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/54018-1.jpg",
+    "theme": "Key Chain",
     "parent_theme": "Gear"
   },
   {
@@ -242316,6 +242526,16 @@
     "theme_id": 733,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/81308-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "81313-1",
+    "name": "Ninjago: Dragons Rising Bottle (580ml)",
+    "year": 2026,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/81313-1.jpg",
     "theme": "Houseware",
     "parent_theme": "Gear"
   },
@@ -245510,6 +245730,26 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "41480804-1",
+    "name": "Brick Art Line Steel Bottle",
+    "year": 2026,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/41480804-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "41480805-1",
+    "name": "Spring Flowers Steel Bottle",
+    "year": 2026,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/41480805-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "100302601-1",
     "name": "Ninjago Spinjitzu Master Junior Backpack",
     "year": 2026,
@@ -245776,6 +246016,16 @@
     "theme_id": 777,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/202792512-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "202792621-1",
+    "name": "Ninjago 15th Anniversary Backpack",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/202792621-1.jpg",
     "theme": "Bags, Totes, & Luggage",
     "parent_theme": "Gear"
   },
@@ -246088,6 +246338,36 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/203422623-1.jpg",
     "theme": "Gear",
     "parent_theme": ""
+  },
+  {
+    "set_num": "203432621-1",
+    "name": "Ninjago 15th Anniversary Pencil Case",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/203432621-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "203522621-1",
+    "name": "Ninjago 15th Anniversary Pencil Case",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/203522621-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "203532621-1",
+    "name": "Ninjago 15th Anniversary Gym Bag",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/203532621-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
   },
   {
     "set_num": "203682607-1",
@@ -362292,7 +362572,7 @@
   {
     "fig_num": "fig-018073",
     "name": "Merlin",
-    "num_parts": 4,
+    "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-018073.jpg",
     "theme": "",
     "parent_theme": ""
