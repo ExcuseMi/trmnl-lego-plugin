@@ -49,7 +49,7 @@
   optional: true
 - keyname: themes_rebrickable
   field_type: select
-  name: Filter by Themes – Rebrickable (418)
+  name: Filter by Themes – Rebrickable (419)
   description: Select one or more themes to display. Only applicable when using Rebrickable as your data source.
   multiple: true
   options:
@@ -96,6 +96,7 @@
   - Bluey (12): bluey|1|12
   - Boat (21): boat|1|21
   - Bob the Builder (31): bob-the-builder|1|31
+  - Books (1): books|1|1
   - Botanicals (53): botanicals|1|53
   - Brick Sketches (8): brick-sketches|1|8
   - Brickheadz (198): brickheadz|1|198
@@ -156,7 +157,7 @@
   - Doc McStuffins (4): doc-mcstuffins|1|4
   - Dolls (6): dolls|1|6
   - Dora the Explorer (5): dora-the-explorer|1|5
-  - DOTS (95): dots|1|95
+  - DOTS (94): dots|1|94
   - Dragon Knights (13): dragon-knights|1|13
   - Dreamzzz (66): dreamzzz|1|66
   - Dungeons & Dragons (16): dungeons-dragons|1|16
@@ -197,7 +198,7 @@
   - Galidor (20): galidor|1|20
   - Games (46): games|1|46
   - Gas Station (6): gas-station|1|6
-  - Gear (387): gear|1|387
+  - Gear (389): gear|1|389
   - Gears (9): gears|1|9
   - Ghostbusters (2): ghostbusters|1|2
   - Gravity Games (10): gravity-games|1|10
@@ -216,7 +217,7 @@
   - Homemaker (32): homemaker|1|32
   - Horizon Adventures (1): horizon-adventures|1|1
   - Hospital (31): hospital|1|31
-  - Houseware (457): houseware|1|457
+  - Houseware (458): houseware|1|458
   - Hydronauts (7): hydronauts|1|7
   - Ice Planet 2002 (10): ice-planet-2002|1|10
   - Icons (86): icons|1|86
@@ -237,7 +238,7 @@
   - Jurassic World (126): jurassic-world|1|126
   - 'Jurassic World: Fallen Kingdom (3)': jurassic-world-fallen-kingdom|1|3
   - Justice League (16): justice-league|1|16
-  - Key Chain (712): key-chain|1|712
+  - Key Chain (709): key-chain|1|709
   - Kingdoms (17): kingdoms|1|17
   - Knights Kingdom I (20): knights-kingdom-i|1|20
   - Knights Kingdom II (71): knights-kingdom-ii|1|71
@@ -395,8 +396,8 @@
   - Sports (4): sports|1|4
   - Spybotics (4): spybotics|1|4
   - Spyrius (9): spyrius|1|9
-  - Star Wars (992): star-wars|1|992
-  - Stationery and Office Supplies (708): stationery-and-office-supplies|1|708
+  - Star Wars (994): star-wars|1|994
+  - Stationery and Office Supplies (712): stationery-and-office-supplies|1|712
   - Stingrays (5): stingrays|1|5
   - Storage (168): storage|1|168
   - Story Books (373): story-books|1|373
@@ -405,11 +406,11 @@
   - Stuntz (26): stuntz|1|26
   - Super Heroes DC (21): super-heroes-dc|1|21
   - Super Heroes Marvel (53): super-heroes-marvel|1|53
-  - Super Mario (180): super-mario|1|180
+  - Super Mario (187): super-mario|1|187
   - Superman (10): superman|1|10
   - Supplemental (335): supplemental|1|335
   - System (49): system|1|49
-  - Tabletop Games and Puzzles (73): tabletop-games-and-puzzles|1|73
+  - Tabletop Games and Puzzles (71): tabletop-games-and-puzzles|1|71
   - Team GB (12): team-gb|1|12
   - Technic (788): technic|1|788
   - Teenage Mutant Ninja Turtles (20): teenage-mutant-ninja-turtles|1|20

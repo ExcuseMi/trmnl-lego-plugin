@@ -10574,7 +10574,7 @@
     "name": "Police Headquarters",
     "year": 1979,
     "theme_id": 67,
-    "num_parts": 374,
+    "num_parts": 372,
     "img_url": "https://cdn.rebrickable.com/media/sets/588-1.jpg",
     "theme": "Classic Town",
     "parent_theme": "Town"
@@ -10624,7 +10624,7 @@
     "name": "Snack Bar",
     "year": 1979,
     "theme_id": 67,
-    "num_parts": 56,
+    "num_parts": 64,
     "img_url": "https://cdn.rebrickable.com/media/sets/675-1.jpg",
     "theme": "Classic Town",
     "parent_theme": "Town"
@@ -35904,7 +35904,7 @@
     "name": "Desert Expedition",
     "year": 1998,
     "theme_id": 297,
-    "num_parts": 195,
+    "num_parts": 196,
     "img_url": "https://cdn.rebrickable.com/media/sets/2879-1.jpg",
     "theme": "Desert",
     "parent_theme": "Adventurers"
@@ -37594,7 +37594,7 @@
     "name": "Treasure Raiders set with Mummy Storage Container",
     "year": 1998,
     "theme_id": 297,
-    "num_parts": 197,
+    "num_parts": 198,
     "img_url": "https://cdn.rebrickable.com/media/sets/5909-1.jpg",
     "theme": "Desert",
     "parent_theme": "Adventurers"
@@ -158070,6 +158070,16 @@
     "parent_theme": "Books"
   },
   {
+    "set_num": "9781789050431-1",
+    "name": "Star Wars: Galactic Sticker Book",
+    "year": 2018,
+    "theme_id": 497,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9781789050431-1.jpg",
+    "theme": "Books",
+    "parent_theme": ""
+  },
+  {
     "set_num": "9781789050448-1",
     "name": "Star Wars: Giant Galactic Activity Book",
     "year": 2018,
@@ -166658,6 +166668,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/5007456-1.jpg",
     "theme": "Plush Toys",
     "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5007538-1",
+    "name": "Pinball Machine",
+    "year": 2019,
+    "theme_id": 598,
+    "num_parts": 102,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5007538-1.jpg",
+    "theme": "Promotional",
+    "parent_theme": ""
   },
   {
     "set_num": "5007539-1",
@@ -176558,16 +176578,6 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/5007525-1.jpg",
     "theme": "Non-fiction Books",
     "parent_theme": "Books"
-  },
-  {
-    "set_num": "5007538-1",
-    "name": "Pinball Machine",
-    "year": 2020,
-    "theme_id": 598,
-    "num_parts": 102,
-    "img_url": "https://cdn.rebrickable.com/media/sets/5007538-1.jpg",
-    "theme": "Promotional",
-    "parent_theme": ""
   },
   {
     "set_num": "5007540-1",
@@ -192560,26 +192570,6 @@
     "parent_theme": ""
   },
   {
-    "set_num": "52520-1",
-    "name": "Silicone NiteLite Display",
-    "year": 2022,
-    "theme_id": 733,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/52520-1.jpg",
-    "theme": "Houseware",
-    "parent_theme": "Gear"
-  },
-  {
-    "set_num": "52854-1",
-    "name": "DOTS Display",
-    "year": 2022,
-    "theme_id": 688,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/52854-1.jpg",
-    "theme": "DOTS",
-    "parent_theme": ""
-  },
-  {
     "set_num": "52935-1",
     "name": "Pizza Guy Bag Tag",
     "year": 2022,
@@ -203996,16 +203986,6 @@
     "theme_id": 739,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/51668-1.jpg",
-    "theme": "Stationery and Office Supplies",
-    "parent_theme": "Gear"
-  },
-  {
-    "set_num": "52624-1",
-    "name": "Locking Notebook with Gel Pen Display",
-    "year": 2023,
-    "theme_id": 739,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/52624-1.jpg",
     "theme": "Stationery and Office Supplies",
     "parent_theme": "Gear"
   },
@@ -226490,16 +226470,6 @@
     "parent_theme": ""
   },
   {
-    "set_num": "53289-1",
-    "name": "Lightsaber Gel Pen Display",
-    "year": 2025,
-    "theme_id": 739,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/53289-1.jpg",
-    "theme": "Stationery and Office Supplies",
-    "parent_theme": "Gear"
-  },
-  {
     "set_num": "53325-1",
     "name": "Ninjago Kai Molded Pencil Case",
     "year": 2025,
@@ -226737,16 +226707,6 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/53675-1.jpg",
     "theme": "Houseware",
-    "parent_theme": "Gear"
-  },
-  {
-    "set_num": "53682-1",
-    "name": "Dinosaur Key Light Display",
-    "year": 2025,
-    "theme_id": 503,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/53682-1.jpg",
-    "theme": "Key Chain",
     "parent_theme": "Gear"
   },
   {
@@ -236030,32 +235990,12 @@
     "parent_theme": "Books"
   },
   {
-    "set_num": "9789002284755-1",
-    "name": "ReCreate Activity Cards Display",
-    "year": 2025,
-    "theme_id": 741,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/9789002284755-1.jpg",
-    "theme": "Tabletop Games and Puzzles",
-    "parent_theme": "Gear"
-  },
-  {
     "set_num": "9789002284854-1",
     "name": "ReCreate Activity Cards: Nature",
     "year": 2025,
     "theme_id": 741,
     "num_parts": 25,
     "img_url": "https://cdn.rebrickable.com/media/sets/9789002284854-1.jpg",
-    "theme": "Tabletop Games and Puzzles",
-    "parent_theme": "Gear"
-  },
-  {
-    "set_num": "9789002284861-1",
-    "name": "ReCreate Activity Cards Display",
-    "year": 2025,
-    "theme_id": 741,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/9789002284861-1.jpg",
     "theme": "Tabletop Games and Puzzles",
     "parent_theme": "Gear"
   },
@@ -237790,6 +237730,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "40897-1",
+    "name": "Darth Vader's LIGHTSABER",
+    "year": 2026,
+    "theme_id": 158,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40897-1.jpg",
+    "theme": "Star Wars",
+    "parent_theme": ""
+  },
+  {
     "set_num": "40901-1",
     "name": "Ministry Munchies & The Daily Prophet Stands",
     "year": 2026,
@@ -239390,6 +239340,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "53747-1",
+    "name": "Star Wars The Mandalorian Ahsoka Tano Sticky Notes with Lightsaber Gel Pen",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53747-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "53750-1",
     "name": "Star Wars Darth Vader Black and White Stickers",
     "year": 2026,
@@ -239606,6 +239566,26 @@
     "theme_id": 739,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/53803-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "53804-1",
+    "name": "Star Wars The Mandalorian Stickers",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53804-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "53805-1",
+    "name": "Star Wars Holiday Stickers",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53805-1.jpg",
     "theme": "Stationery and Office Supplies",
     "parent_theme": "Gear"
   },
@@ -239840,16 +239820,6 @@
     "parent_theme": "Gear"
   },
   {
-    "set_num": "53841-1",
-    "name": "Halloween Key Light Display",
-    "year": 2026,
-    "theme_id": 503,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/53841-1.jpg",
-    "theme": "Key Chain",
-    "parent_theme": "Gear"
-  },
-  {
     "set_num": "53842-1",
     "name": "Botanicals Snail Bouquet Stickers",
     "year": 2026,
@@ -239960,12 +239930,42 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "53857-1",
+    "name": "Minifigure Stickers",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53857-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "53859-1",
+    "name": "Halloween Stickers",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53859-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "53861-1",
     "name": "Botanicals Sticker",
     "year": 2026,
     "theme_id": 739,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/53861-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "53862-1",
+    "name": "Ninjago Stickers",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53862-1.jpg",
     "theme": "Stationery and Office Supplies",
     "parent_theme": "Gear"
   },
@@ -240127,16 +240127,6 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/54005-1.jpg",
     "theme": "Clocks and Watches",
-    "parent_theme": "Gear"
-  },
-  {
-    "set_num": "54018-1",
-    "name": "Fortnite Key Light Display",
-    "year": 2026,
-    "theme_id": 503,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/54018-1.jpg",
-    "theme": "Key Chain",
     "parent_theme": "Gear"
   },
   {
@@ -241640,6 +241630,16 @@
     "parent_theme": "Advent"
   },
   {
+    "set_num": "75457-1",
+    "name": "Executor Super Star Destroyer",
+    "year": 2026,
+    "theme_id": 158,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/75457-1.jpg",
+    "theme": "Star Wars",
+    "parent_theme": ""
+  },
+  {
     "set_num": "75458-1",
     "name": "Imperial Remnant AT-RT Driver Helmet",
     "year": 2026,
@@ -242566,6 +242566,26 @@
     "theme_id": 733,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/81336-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "81346-1",
+    "name": "Ninjago: Dragons Rising Bowl",
+    "year": 2026,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/81346-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "81347-1",
+    "name": "Ninjago: Dragons Rising Plate",
+    "year": 2026,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/81347-1.jpg",
     "theme": "Houseware",
     "parent_theme": "Gear"
   },
@@ -247338,6 +247358,96 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/9798225060862-1.jpg",
     "theme": "Activity Books with LEGO Parts",
     "parent_theme": "Books"
+  },
+  {
+    "set_num": "53894-1",
+    "name": "Watercolor Set",
+    "year": 2027,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53894-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "53895-1",
+    "name": "Duplo Water Art Play Mat",
+    "year": 2027,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53895-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "72052-1",
+    "name": "Mario's Pipe Jump",
+    "year": 2027,
+    "theme_id": 690,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/72052-1.jpg",
+    "theme": "Super Mario",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "72054-1",
+    "name": "Mario Kart – Racing with Mario",
+    "year": 2027,
+    "theme_id": 690,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/72054-1.jpg",
+    "theme": "Super Mario",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "72055-1",
+    "name": "Mario's Beach Adventures",
+    "year": 2027,
+    "theme_id": 690,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/72055-1.jpg",
+    "theme": "Super Mario",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "72056-1",
+    "name": "Mario Kart – Luigi & Bowser Jr.'s Race",
+    "year": 2027,
+    "theme_id": 690,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/72056-1.jpg",
+    "theme": "Super Mario",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "72057-1",
+    "name": "Yoshi at Mario's House",
+    "year": 2027,
+    "theme_id": 690,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/72057-1.jpg",
+    "theme": "Super Mario",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "72058-1",
+    "name": "Mario Kart – Bowser's Rumbling Race",
+    "year": 2027,
+    "theme_id": 690,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/72058-1.jpg",
+    "theme": "Super Mario",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "72060-1",
+    "name": "Fire Mario & Bowser's Castle",
+    "year": 2027,
+    "theme_id": 690,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/72060-1.jpg",
+    "theme": "Super Mario",
+    "parent_theme": ""
   },
   {
     "set_num": "6675226-1",
