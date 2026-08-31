@@ -96934,7 +96934,7 @@
     "name": "Stormer XL",
     "year": 2012,
     "theme_id": 401,
-    "num_parts": 90,
+    "num_parts": 89,
     "img_url": "https://cdn.rebrickable.com/media/sets/6230-1.jpg",
     "theme": "Heroes",
     "parent_theme": "Hero Factory"
@@ -192861,7 +192861,7 @@
   },
   {
     "set_num": "60337-1",
-    "name": "Passenger Express Train",
+    "name": "Express Passenger Train",
     "year": 2022,
     "theme_id": 66,
     "num_parts": 764,
@@ -227031,7 +227031,7 @@
   },
   {
     "set_num": "60470-1",
-    "name": "Explorers' Arctic Polar Express Train",
+    "name": "Explorer Train",
     "year": 2025,
     "theme_id": 65,
     "num_parts": 1525,
@@ -238024,7 +238024,7 @@
     "name": "Mini Hogwarts Castle",
     "year": 2026,
     "theme_id": 246,
-    "num_parts": 699,
+    "num_parts": 701,
     "img_url": "https://cdn.rebrickable.com/media/sets/40975-1.jpg",
     "theme": "Harry Potter",
     "parent_theme": ""
@@ -242144,7 +242144,7 @@
     "name": "The Ministry of Magic – Collectors' Edition",
     "year": 2026,
     "theme_id": 246,
-    "num_parts": 3483,
+    "num_parts": 3545,
     "img_url": "https://cdn.rebrickable.com/media/sets/76476-1.jpg",
     "theme": "Harry Potter",
     "parent_theme": ""
@@ -244610,6 +244610,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "5011093-1",
+    "name": "LEGO Harry Potter 25th Anniversary Holiday Baubles",
+    "year": 2026,
+    "theme_id": 738,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5011093-1.jpg",
+    "theme": "Seasonal",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "6518176-1",
     "name": "St. Patrick's Day Hat",
     "year": 2026,
@@ -245400,6 +245410,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "6668941-1",
+    "name": "Trophy",
+    "year": 2026,
+    "theme_id": 776,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6668941-1.jpg",
+    "theme": "Pokémon",
+    "parent_theme": ""
+  },
+  {
     "set_num": "6669168-1",
     "name": "Sports Car",
     "year": 2026,
@@ -245417,6 +245437,26 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/6671868-1.jpg",
     "theme": "LEGO Brand Store",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6680480-1",
+    "name": "Jolly Roger Mosaic",
+    "year": 2026,
+    "theme_id": 775,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6680480-1.jpg",
+    "theme": "One Piece",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6680481-1",
+    "name": "Baroque Works Mosaic",
+    "year": 2026,
+    "theme_id": 775,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6680481-1.jpg",
+    "theme": "One Piece",
     "parent_theme": ""
   },
   {
@@ -267787,7 +267827,7 @@
   },
   {
     "fig_num": "fig-002677",
-    "name": "Stephanie - Dark Purple Top, Medium Blue Trousers, Black Cap",
+    "name": "Stephanie - Magenta/Bright Pink Top, Medium Blue Trousers, Black Cap",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002677.jpg",
     "theme": "",
