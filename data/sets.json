@@ -137450,6 +137450,16 @@
     "parent_theme": "Books"
   },
   {
+    "set_num": "9780545925419-1",
+    "name": "Star Wars: Face Off",
+    "year": 2016,
+    "theme_id": 497,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9780545925419-1.jpg",
+    "theme": "Books",
+    "parent_theme": ""
+  },
+  {
     "set_num": "9780545925532-1",
     "name": "Ninjago: Return of the Djinn",
     "year": 2016,
@@ -245414,7 +245424,7 @@
     "name": "Trophy",
     "year": 2026,
     "theme_id": 776,
-    "num_parts": 0,
+    "num_parts": 41,
     "img_url": "https://cdn.rebrickable.com/media/sets/6668941-1.jpg",
     "theme": "Pokémon",
     "parent_theme": ""
@@ -246894,7 +246904,7 @@
     "name": "DC Comics Batman: Adventures in Gotham City",
     "year": 2026,
     "theme_id": 761,
-    "num_parts": 0,
+    "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/9780241788080-1.jpg",
     "theme": "Activity Books with LEGO Parts",
     "parent_theme": "Books"
