@@ -236474,7 +236474,7 @@
     "name": "Mayor Manor",
     "year": 2026,
     "theme_id": 721,
-    "num_parts": 0,
+    "num_parts": 1421,
     "img_url": "https://cdn.rebrickable.com/media/sets/11383-1.jpg",
     "theme": "Icons",
     "parent_theme": ""
@@ -236494,7 +236494,7 @@
     "name": "Star Trek: U.S.S. Enterprise NCC-1701 Bridge",
     "year": 2026,
     "theme_id": 721,
-    "num_parts": 0,
+    "num_parts": 1701,
     "img_url": "https://cdn.rebrickable.com/media/sets/11385-1.jpg",
     "theme": "Icons",
     "parent_theme": ""
@@ -236504,7 +236504,7 @@
     "name": "SpongeBob SquarePants: Bikini Bottom",
     "year": 2026,
     "theme_id": 721,
-    "num_parts": 0,
+    "num_parts": 1794,
     "img_url": "https://cdn.rebrickable.com/media/sets/11386-1.jpg",
     "theme": "Icons",
     "parent_theme": ""
@@ -236766,6 +236766,16 @@
     "theme_id": 576,
     "num_parts": 1226,
     "img_url": "https://cdn.rebrickable.com/media/sets/21370-1.jpg",
+    "theme": "LEGO Ideas and CUUSOO",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "21371-1",
+    "name": "Wallace & Gromit",
+    "year": 2026,
+    "theme_id": 576,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/21371-1.jpg",
     "theme": "LEGO Ideas and CUUSOO",
     "parent_theme": ""
   },
@@ -237504,7 +237514,7 @@
     "name": "SpongeBob SquarePants Figure",
     "year": 2026,
     "theme_id": 610,
-    "num_parts": 0,
+    "num_parts": 72,
     "img_url": "https://cdn.rebrickable.com/media/sets/40858-1.jpg",
     "theme": "Brickheadz",
     "parent_theme": ""
@@ -237514,7 +237524,7 @@
     "name": "Golden Age Superman and Batman Figures",
     "year": 2026,
     "theme_id": 610,
-    "num_parts": 0,
+    "num_parts": 218,
     "img_url": "https://cdn.rebrickable.com/media/sets/40859-1.jpg",
     "theme": "Brickheadz",
     "parent_theme": ""
@@ -237874,7 +237884,7 @@
     "name": "Gremlins Gizmo and Stripe Figures",
     "year": 2026,
     "theme_id": 610,
-    "num_parts": 0,
+    "num_parts": 230,
     "img_url": "https://cdn.rebrickable.com/media/sets/40919-1.jpg",
     "theme": "Brickheadz",
     "parent_theme": ""
@@ -238594,7 +238604,7 @@
     "name": "Friends Advent Calendar 2026",
     "year": 2026,
     "theme_id": 216,
-    "num_parts": 0,
+    "num_parts": 210,
     "img_url": "https://cdn.rebrickable.com/media/sets/42698-1.jpg",
     "theme": "Friends",
     "parent_theme": "Advent"
@@ -238794,7 +238804,7 @@
     "name": "Ayrton Senna Helmet",
     "year": 2026,
     "theme_id": 787,
-    "num_parts": 0,
+    "num_parts": 931,
     "img_url": "https://cdn.rebrickable.com/media/sets/43024-1.jpg",
     "theme": "Editions",
     "parent_theme": ""
@@ -238814,7 +238824,7 @@
     "name": "Nike Air Force 1 x LEGO Set",
     "year": 2026,
     "theme_id": 787,
-    "num_parts": 0,
+    "num_parts": 1092,
     "img_url": "https://cdn.rebrickable.com/media/sets/43026-1.jpg",
     "theme": "Editions",
     "parent_theme": ""
@@ -239074,7 +239084,7 @@
     "name": "Disney Princess Advent Calendar 2026",
     "year": 2026,
     "theme_id": 780,
-    "num_parts": 0,
+    "num_parts": 292,
     "img_url": "https://cdn.rebrickable.com/media/sets/43298-1.jpg",
     "theme": "Disney",
     "parent_theme": "Advent"
@@ -239214,7 +239224,7 @@
     "name": "Computer Science & AI Kit K-2",
     "year": 2026,
     "theme_id": 507,
-    "num_parts": 0,
+    "num_parts": 276,
     "img_url": "https://cdn.rebrickable.com/media/sets/45520-1.jpg",
     "theme": "Educational and Dacta",
     "parent_theme": ""
@@ -240464,7 +240474,7 @@
     "name": "City Advent Calendar 2026",
     "year": 2026,
     "theme_id": 208,
-    "num_parts": 0,
+    "num_parts": 262,
     "img_url": "https://cdn.rebrickable.com/media/sets/60510-1.jpg",
     "theme": "City",
     "parent_theme": "Advent"
@@ -241644,7 +241654,7 @@
     "name": "Star Wars Advent Calendar 2026",
     "year": 2026,
     "theme_id": 209,
-    "num_parts": 0,
+    "num_parts": 290,
     "img_url": "https://cdn.rebrickable.com/media/sets/75456-1.jpg",
     "theme": "Star Wars",
     "parent_theme": "Advent"
@@ -241874,7 +241884,7 @@
     "name": "Super Heroes Marvel Advent Calendar 2026",
     "year": 2026,
     "theme_id": 751,
-    "num_parts": 0,
+    "num_parts": 316,
     "img_url": "https://cdn.rebrickable.com/media/sets/76340-1.jpg",
     "theme": "Marvel",
     "parent_theme": "Advent"
@@ -241924,7 +241934,7 @@
     "name": "Doctor Doom Bust",
     "year": 2026,
     "theme_id": 702,
-    "num_parts": 0,
+    "num_parts": 380,
     "img_url": "https://cdn.rebrickable.com/media/sets/76345-1.jpg",
     "theme": "Avengers",
     "parent_theme": "Super Heroes Marvel"
@@ -242004,7 +242014,7 @@
     "name": "Batman Returns Batmobile",
     "year": 2026,
     "theme_id": 697,
-    "num_parts": 0,
+    "num_parts": 2271,
     "img_url": "https://cdn.rebrickable.com/media/sets/76355-1.jpg",
     "theme": "Batman",
     "parent_theme": "Super Heroes DC"
@@ -362784,6 +362794,182 @@
     "name": "Prince Charming",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-018078.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-018103",
+    "name": "Elf - Dark Red Torso, Red Legs",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-018103.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-018104",
+    "name": "Elf - Bright Green Torso, Dark Green Legs",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-018104.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-018105",
+    "name": "Elf - Bright Green Torso, Reddish Brown Legs",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-018105.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-018106",
+    "name": "Snowman, Dark Azure Sweater",
+    "num_parts": 7,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-018106.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-018107",
+    "name": "Santa Clause, Casual Clothes",
+    "num_parts": 5,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-018107.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-018108",
+    "name": "Nova, Winter Outfit",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-018108.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-018109",
+    "name": "Liann, Winter Outfit",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-018109.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-018110",
+    "name": "Aliya, Winter Outfit",
+    "num_parts": 5,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-018110.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-018111",
+    "name": "Dr. Doom, 8050 Hood",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-018111.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-018112",
+    "name": "Captain America, Hair",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-018112.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-018113",
+    "name": "Wolverine, Christmas Sweater",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-018113.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-018114",
+    "name": "Captain America Snowman",
+    "num_parts": 9,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-018114.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-018115",
+    "name": "Iron Man, Pearl Gold Arms, Round Arc Reactor, Helmet and Visor",
+    "num_parts": 5,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-018115.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-018116",
+    "name": "Mulan, Microdoll",
+    "num_parts": 3,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-018116.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-018120",
+    "name": "Ariel, Microdoll",
+    "num_parts": 3,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-018120.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-018122",
+    "name": "Moana, Microdoll",
+    "num_parts": 3,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-018122.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-018123",
+    "name": "Cinderella, Microdoll",
+    "num_parts": 3,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-018123.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-018124",
+    "name": "IG-11, Molded Head",
+    "num_parts": 7,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-018124.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-018125",
+    "name": "Grogu, 7789 Body, Christmas Sweater",
+    "num_parts": 2,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-018125.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-018126",
+    "name": "Festive Pit Droid",
+    "num_parts": 15,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-018126.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-018127",
+    "name": "Moff Gideon, Christmas Sweater",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-018127.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-018128",
+    "name": "Din Djarin, Christmas Sweater",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-018128.jpg",
     "theme": "",
     "parent_theme": ""
   }
