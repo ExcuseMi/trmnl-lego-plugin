@@ -5154,7 +5154,7 @@
     "name": "Gear Set",
     "year": 1970,
     "theme_id": 472,
-    "num_parts": 112,
+    "num_parts": 113,
     "img_url": "https://cdn.rebrickable.com/media/sets/801-1.jpg",
     "theme": "Gears",
     "parent_theme": "Universal Building Set"
@@ -11774,7 +11774,7 @@
     "name": "Level Crossing Manual",
     "year": 1980,
     "theme_id": 234,
-    "num_parts": 95,
+    "num_parts": 91,
     "img_url": "https://cdn.rebrickable.com/media/sets/7834-1.jpg",
     "theme": "12V",
     "parent_theme": "Train"
@@ -18304,7 +18304,7 @@
     "name": "Universal Building Set with Motor",
     "year": 1986,
     "theme_id": 21,
-    "num_parts": 188,
+    "num_parts": 189,
     "img_url": "https://cdn.rebrickable.com/media/sets/8055-1.jpg",
     "theme": "Universal Building Set",
     "parent_theme": "Technic"
@@ -235754,7 +235754,7 @@
     "name": "Ninjago: Dragons Rising: Training Time",
     "year": 2025,
     "theme_id": 761,
-    "num_parts": 5,
+    "num_parts": 10,
     "img_url": "https://cdn.rebrickable.com/media/sets/9781645887980-1.jpg",
     "theme": "Activity Books with LEGO Parts",
     "parent_theme": "Books"
@@ -237550,6 +237550,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "40862-1",
+    "name": "Holiday Ornament Selection 2",
+    "year": 2026,
+    "theme_id": 227,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40862-1.jpg",
+    "theme": "Christmas",
+    "parent_theme": "Seasonal"
+  },
+  {
     "set_num": "40863-1",
     "name": "Easter Egg Basket",
     "year": 2026,
@@ -237557,6 +237567,26 @@
     "num_parts": 216,
     "img_url": "https://cdn.rebrickable.com/media/sets/40863-1.jpg",
     "theme": "Easter",
+    "parent_theme": "Seasonal"
+  },
+  {
+    "set_num": "40865-1",
+    "name": "Buddy the Elf",
+    "year": 2026,
+    "theme_id": 227,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40865-1.jpg",
+    "theme": "Christmas",
+    "parent_theme": "Seasonal"
+  },
+  {
+    "set_num": "40866-1",
+    "name": "Santa's Holiday Sleigh Adventure",
+    "year": 2026,
+    "theme_id": 227,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40866-1.jpg",
+    "theme": "Christmas",
     "parent_theme": "Seasonal"
   },
   {
@@ -237607,6 +237637,26 @@
     "num_parts": 286,
     "img_url": "https://cdn.rebrickable.com/media/sets/40873-1.jpg",
     "theme": "Halloween",
+    "parent_theme": "Seasonal"
+  },
+  {
+    "set_num": "40874-1",
+    "name": "Santa's Holiday Countdown",
+    "year": 2026,
+    "theme_id": 227,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40874-1.jpg",
+    "theme": "Christmas",
+    "parent_theme": "Seasonal"
+  },
+  {
+    "set_num": "40875-1",
+    "name": "Up-Scaled Mrs. Claus Minifigure",
+    "year": 2026,
+    "theme_id": 227,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40875-1.jpg",
+    "theme": "Christmas",
     "parent_theme": "Seasonal"
   },
   {
@@ -238824,7 +238874,7 @@
     "name": "Nike Air Force 1 x LEGO Set",
     "year": 2026,
     "theme_id": 787,
-    "num_parts": 1092,
+    "num_parts": 1093,
     "img_url": "https://cdn.rebrickable.com/media/sets/43026-1.jpg",
     "theme": "Editions",
     "parent_theme": ""
