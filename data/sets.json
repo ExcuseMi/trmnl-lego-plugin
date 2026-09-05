@@ -120600,6 +120600,16 @@
     "parent_theme": "Creator"
   },
   {
+    "set_num": "31041-1",
+    "name": "Construction Vehicles",
+    "year": 2015,
+    "theme_id": 672,
+    "num_parts": 64,
+    "img_url": "https://cdn.rebrickable.com/media/sets/31041-1.jpg",
+    "theme": "Creator 3-in-1",
+    "parent_theme": "Creator"
+  },
+  {
     "set_num": "40120-1",
     "name": "Valentine's Day Dinner",
     "year": 2015,
@@ -129736,16 +129746,6 @@
     "theme_id": 672,
     "num_parts": 65,
     "img_url": "https://cdn.rebrickable.com/media/sets/31040-1.jpg",
-    "theme": "Creator 3-in-1",
-    "parent_theme": "Creator"
-  },
-  {
-    "set_num": "31041-1",
-    "name": "Construction Vehicles",
-    "year": 2016,
-    "theme_id": 672,
-    "num_parts": 64,
-    "img_url": "https://cdn.rebrickable.com/media/sets/31041-1.jpg",
     "theme": "Creator 3-in-1",
     "parent_theme": "Creator"
   },
@@ -241410,6 +241410,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "72306-1",
+    "name": "PlayStation",
+    "year": 2026,
+    "theme_id": 301,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/72306-1.jpg",
+    "theme": "Other",
+    "parent_theme": ""
+  },
+  {
     "set_num": "72423-1",
     "name": "Shrek, Donkey & Puss in Boots",
     "year": 2026,
@@ -242204,7 +242214,7 @@
     "name": "Forbidden Forest: Expecto Patronum",
     "year": 2026,
     "theme_id": 246,
-    "num_parts": 245,
+    "num_parts": 244,
     "img_url": "https://cdn.rebrickable.com/media/sets/76475-1.jpg",
     "theme": "Harry Potter",
     "parent_theme": ""
@@ -247384,7 +247394,7 @@
     "name": "Falcon: Droga do Kapitana Ameryki",
     "year": 2026,
     "theme_id": 761,
-    "num_parts": 0,
+    "num_parts": 32,
     "img_url": "https://cdn.rebrickable.com/media/sets/9788325349042-1.jpg",
     "theme": "Activity Books with LEGO Parts",
     "parent_theme": "Books"
@@ -348969,7 +348979,7 @@
   },
   {
     "fig_num": "fig-014447",
-    "name": "Falcon, Neck Bracket",
+    "name": "Falcon, Neck Bracket, Printed Legs",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-014447.jpg",
     "theme": "",
