@@ -137453,11 +137453,11 @@
     "set_num": "9780545925419-1",
     "name": "Star Wars: Face Off",
     "year": 2016,
-    "theme_id": 497,
+    "theme_id": 760,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/9780545925419-1.jpg",
-    "theme": "Books",
-    "parent_theme": ""
+    "theme": "Activity Books",
+    "parent_theme": "Books"
   },
   {
     "set_num": "9780545925532-1",
@@ -236660,16 +236660,6 @@
     "parent_theme": ""
   },
   {
-    "set_num": "12009-1",
-    "name": "Ninjago: Destiny's Bounty Adventures",
-    "year": 2026,
-    "theme_id": 741,
-    "num_parts": 125,
-    "img_url": "https://cdn.rebrickable.com/media/sets/12009-1.jpg",
-    "theme": "Tabletop Games and Puzzles",
-    "parent_theme": "Gear"
-  },
-  {
     "set_num": "21064-1",
     "name": "Paris - City of Love",
     "year": 2026,
@@ -240524,7 +240514,7 @@
     "name": "City Advent Calendar 2026",
     "year": 2026,
     "theme_id": 208,
-    "num_parts": 262,
+    "num_parts": 256,
     "img_url": "https://cdn.rebrickable.com/media/sets/60510-1.jpg",
     "theme": "City",
     "parent_theme": "Advent"
@@ -244667,6 +244657,16 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/5010929-1.jpg",
     "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5011029-1",
+    "name": "Ninjago: Destiny's Bounty Adventures",
+    "year": 2026,
+    "theme_id": 741,
+    "num_parts": 125,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5011029-1.jpg",
+    "theme": "Tabletop Games and Puzzles",
     "parent_theme": "Gear"
   },
   {
