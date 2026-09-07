@@ -49,7 +49,7 @@
   optional: true
 - keyname: themes_rebrickable
   field_type: select
-  name: Filter by Themes – Rebrickable (419)
+  name: Filter by Themes – Rebrickable (418)
   description: Select one or more themes to display. Only applicable when using Rebrickable as your data source.
   multiple: true
   options:
@@ -58,7 +58,7 @@
   - 4.5V (87): 45v|1|87
   - 9V (69): 9v|1|69
   - Action Wheelers (9): action-wheelers|1|9
-  - Activity Books (239): activity-books|1|239
+  - Activity Books (240): activity-books|1|240
   - Activity Books with LEGO Parts (425): activity-books-with-lego-parts|1|425
   - Advent (5): advent|1|5
   - Agents (13): agents|1|13
@@ -96,7 +96,6 @@
   - Bluey (12): bluey|1|12
   - Boat (21): boat|1|21
   - Bob the Builder (31): bob-the-builder|1|31
-  - Books (1): books|1|1
   - Botanicals (53): botanicals|1|53
   - Brick Sketches (8): brick-sketches|1|8
   - Brickheadz (198): brickheadz|1|198
@@ -162,11 +161,11 @@
   - Dreamzzz (66): dreamzzz|1|66
   - Dungeons & Dragons (16): dungeons-dragons|1|16
   - Duplo (109): duplo|1|109
-  - Duplo and Explore (190): duplo-and-explore|1|190
+  - Duplo and Explore (192): duplo-and-explore|1|192
   - Early Creator (35): early-creator|1|35
   - Easter (58): easter|1|58
   - Editions (23): editions|1|23
-  - Educational and Dacta (123): educational-and-dacta|1|123
+  - Educational and Dacta (126): educational-and-dacta|1|126
   - eLAB (5): elab|1|5
   - Elves (42): elves|1|42
   - EV3 (12): ev3|1|12
@@ -408,7 +407,7 @@
   - Super Heroes Marvel (53): super-heroes-marvel|1|53
   - Super Mario (187): super-mario|1|187
   - Superman (10): superman|1|10
-  - Supplemental (335): supplemental|1|335
+  - Supplemental (336): supplemental|1|336
   - System (49): system|1|49
   - Tabletop Games and Puzzles (71): tabletop-games-and-puzzles|1|71
   - Team GB (12): team-gb|1|12

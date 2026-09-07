@@ -590,6 +590,16 @@
     "parent_theme": "System"
   },
   {
+    "set_num": "1234-2",
+    "name": "1/8 Bricks with Letters",
+    "year": 1957,
+    "theme_id": 371,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/1234-2.jpg",
+    "theme": "Supplemental",
+    "parent_theme": "System"
+  },
+  {
     "set_num": "1245-2",
     "name": "Lighting Device Pack",
     "year": 1957,
@@ -5200,6 +5210,26 @@
     "parent_theme": "System"
   },
   {
+    "set_num": "4-1",
+    "name": "Therapy I Without Box",
+    "year": 1971,
+    "theme_id": 507,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/4-1.jpg",
+    "theme": "Educational and Dacta",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "5-1",
+    "name": "Therapy II Without Box",
+    "year": 1971,
+    "theme_id": 507,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5-1.jpg",
+    "theme": "Educational and Dacta",
+    "parent_theme": ""
+  },
+  {
     "set_num": "5-4",
     "name": "Large House Set",
     "year": 1971,
@@ -5207,6 +5237,16 @@
     "num_parts": 307,
     "img_url": "https://cdn.rebrickable.com/media/sets/5-4.jpg",
     "theme": "Minitalia",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6-2",
+    "name": "Therapy III Without Box",
+    "year": 1971,
+    "theme_id": 507,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6-2.jpg",
+    "theme": "Educational and Dacta",
     "parent_theme": ""
   },
   {
@@ -6508,6 +6548,26 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/460-1.jpg",
     "theme": "Hospital",
     "parent_theme": "Legoland"
+  },
+  {
+    "set_num": "507-2",
+    "name": "Kindergarten Set (Duplo)",
+    "year": 1973,
+    "theme_id": 516,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/507-2.jpg",
+    "theme": "Duplo and Explore",
+    "parent_theme": "Educational and Dacta"
+  },
+  {
+    "set_num": "508-2",
+    "name": "Kindergarten Assortment",
+    "year": 1973,
+    "theme_id": 516,
+    "num_parts": 1,
+    "img_url": "https://cdn.rebrickable.com/media/sets/508-2.jpg",
+    "theme": "Duplo and Explore",
+    "parent_theme": "Educational and Dacta"
   },
   {
     "set_num": "515-2",
@@ -158083,11 +158143,11 @@
     "set_num": "9781789050431-1",
     "name": "Star Wars: Galactic Sticker Book",
     "year": 2018,
-    "theme_id": 497,
+    "theme_id": 760,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/9781789050431-1.jpg",
-    "theme": "Books",
-    "parent_theme": ""
+    "theme": "Activity Books",
+    "parent_theme": "Books"
   },
   {
     "set_num": "9781789050448-1",
