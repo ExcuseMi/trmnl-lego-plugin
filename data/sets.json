@@ -370,6 +370,16 @@
     "parent_theme": "System"
   },
   {
+    "set_num": "1301-1",
+    "name": "LEGO Mosaic, Large",
+    "year": 1955,
+    "theme_id": 365,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/1301-1.jpg",
+    "theme": "System",
+    "parent_theme": ""
+  },
+  {
     "set_num": "b55dk-01",
     "name": "LEGO Mursten - System i Leg Byggebog",
     "year": 1955,
@@ -596,6 +606,16 @@
     "theme_id": 371,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/1234-2.jpg",
+    "theme": "Supplemental",
+    "parent_theme": "System"
+  },
+  {
+    "set_num": "1242-3",
+    "name": "Flags, assorted",
+    "year": 1957,
+    "theme_id": 371,
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/1242-3.jpg",
     "theme": "Supplemental",
     "parent_theme": "System"
   },
@@ -4870,6 +4890,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "8-4",
+    "name": "Storage Case",
+    "year": 1970,
+    "theme_id": 473,
+    "num_parts": 1,
+    "img_url": "https://cdn.rebrickable.com/media/sets/8-4.jpg",
+    "theme": "Supplemental",
+    "parent_theme": "Universal Building Set"
+  },
+  {
     "set_num": "078-1",
     "name": "Roadway Base Plate",
     "year": 1970,
@@ -5920,6 +5950,16 @@
     "parent_theme": "Legoland"
   },
   {
+    "set_num": "509-2",
+    "name": "Plastic Storage Bag with Duplo Bricks",
+    "year": 1972,
+    "theme_id": 516,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/509-2.jpg",
+    "theme": "Duplo and Explore",
+    "parent_theme": "Educational and Dacta"
+  },
+  {
     "set_num": "514-1",
     "name": "Pre-School Building Set",
     "year": 1972,
@@ -6024,10 +6064,20 @@
     "name": "12V Diesel Locomotive with Crane and Tipper Wagon",
     "year": 1972,
     "theme_id": 234,
-    "num_parts": 151,
+    "num_parts": 152,
     "img_url": "https://cdn.rebrickable.com/media/sets/724-1.jpg",
     "theme": "12V",
     "parent_theme": "Train"
+  },
+  {
+    "set_num": "785-1",
+    "name": "Red Box",
+    "year": 1972,
+    "theme_id": 473,
+    "num_parts": 1,
+    "img_url": "https://cdn.rebrickable.com/media/sets/785-1.jpg",
+    "theme": "Supplemental",
+    "parent_theme": "Universal Building Set"
   },
   {
     "set_num": "791-1",
@@ -6287,6 +6337,36 @@
     "num_parts": 57,
     "img_url": "https://cdn.rebrickable.com/media/sets/32-2.jpg",
     "theme": "Minitalia",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "94-1",
+    "name": "Therapy I Without Box",
+    "year": 1973,
+    "theme_id": 507,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/94-1.jpg",
+    "theme": "Educational and Dacta",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "95-1",
+    "name": "Therapy II Without Box",
+    "year": 1973,
+    "theme_id": 507,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/95-1.jpg",
+    "theme": "Educational and Dacta",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "96-1",
+    "name": "Therapy III Without Box",
+    "year": 1973,
+    "theme_id": 507,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/96-1.jpg",
+    "theme": "Educational and Dacta",
     "parent_theme": ""
   },
   {
@@ -6718,16 +6798,6 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/730-1.jpg",
     "theme": "Construction",
     "parent_theme": "Legoland"
-  },
-  {
-    "set_num": "785-1",
-    "name": "Red Box",
-    "year": 1973,
-    "theme_id": 473,
-    "num_parts": 1,
-    "img_url": "https://cdn.rebrickable.com/media/sets/785-1.jpg",
-    "theme": "Supplemental",
-    "parent_theme": "Universal Building Set"
   },
   {
     "set_num": "900-1",
@@ -7304,7 +7374,7 @@
     "name": "Train Set with Signal",
     "year": 1975,
     "theme_id": 235,
-    "num_parts": 373,
+    "num_parts": 370,
     "img_url": "https://cdn.rebrickable.com/media/sets/182-1.jpg",
     "theme": "4.5V",
     "parent_theme": "Train"
@@ -158140,6 +158210,16 @@
     "parent_theme": "Books"
   },
   {
+    "set_num": "9781789050127-1",
+    "name": "Star Wars: Galactic Activity Book",
+    "year": 2018,
+    "theme_id": 760,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9781789050127-1.jpg",
+    "theme": "Activity Books",
+    "parent_theme": "Books"
+  },
+  {
     "set_num": "9781789050431-1",
     "name": "Star Wars: Galactic Sticker Book",
     "year": 2018,
@@ -214760,6 +214840,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "53150-1",
+    "name": "LEGOLAND Enamel Button - Ollie",
+    "year": 2024,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/53150-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
     "set_num": "53151-1",
     "name": "Shark Suit Guy Snap Button",
     "year": 2024,
@@ -230970,6 +231060,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "951125-1",
+    "name": "Travel Stories",
+    "year": 2025,
+    "theme_id": 301,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/951125-1.jpg",
+    "theme": "Other",
+    "parent_theme": ""
+  },
+  {
     "set_num": "952501-1",
     "name": "Police Officer and Criminal",
     "year": 2025,
@@ -236500,6 +236600,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "11379-1",
+    "name": "Bookstore: Book Nook",
+    "year": 2026,
+    "theme_id": 721,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/11379-1.jpg",
+    "theme": "Icons",
+    "parent_theme": ""
+  },
+  {
     "set_num": "11380-1",
     "name": "Road Bike",
     "year": 2026,
@@ -237264,7 +237374,7 @@
     "name": "Retro Video Game Batman",
     "year": 2026,
     "theme_id": 697,
-    "num_parts": 0,
+    "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/30762-1.jpg",
     "theme": "Batman",
     "parent_theme": "Super Heroes DC"
@@ -243180,6 +243290,66 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "831521-1",
+    "name": "Commemorative Coin - Banana Guy",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/831521-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "831521-2",
+    "name": "Commemorative Coin - Popcorn Costume",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/831521-2.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "831521-3",
+    "name": "Commemorative Coin - LEGOLAND Minifigure",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/831521-3.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "831521-4",
+    "name": "Commemorative Coin - Monkie Kid",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/831521-4.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "831521-5",
+    "name": "Commemorative Coin - LLoyd",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/831521-5.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "831521-6",
+    "name": "Commemorative Coin - Butterfly Girl",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/831521-6.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
     "set_num": "854326-1",
     "name": "The Mandalorian Key Chain",
     "year": 2026,
@@ -245598,6 +245768,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/6680481-1.jpg",
     "theme": "One Piece",
     "parent_theme": ""
+  },
+  {
+    "set_num": "6686868-1",
+    "name": "Class Schedule",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6686868-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
   },
   {
     "set_num": "10018247-1",
