@@ -5164,7 +5164,7 @@
     "name": "Diesel Locomotive",
     "year": 1970,
     "theme_id": 234,
-    "num_parts": 96,
+    "num_parts": 97,
     "img_url": "https://cdn.rebrickable.com/media/sets/723-1.jpg",
     "theme": "12V",
     "parent_theme": "Train"
@@ -6644,7 +6644,7 @@
     "name": "Kindergarten Assortment",
     "year": 1973,
     "theme_id": 516,
-    "num_parts": 1,
+    "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/508-2.jpg",
     "theme": "Duplo and Explore",
     "parent_theme": "Educational and Dacta"
