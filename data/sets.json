@@ -370,16 +370,6 @@
     "parent_theme": "System"
   },
   {
-    "set_num": "1301-1",
-    "name": "LEGO Mosaic, Large",
-    "year": 1955,
-    "theme_id": 365,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/1301-1.jpg",
-    "theme": "System",
-    "parent_theme": ""
-  },
-  {
     "set_num": "b55dk-01",
     "name": "LEGO Mursten - System i Leg Byggebog",
     "year": 1955,
@@ -596,26 +586,6 @@
     "theme_id": 371,
     "num_parts": 20,
     "img_url": "https://cdn.rebrickable.com/media/sets/1223-3.jpg",
-    "theme": "Supplemental",
-    "parent_theme": "System"
-  },
-  {
-    "set_num": "1234-2",
-    "name": "1/8 Bricks with Letters",
-    "year": 1957,
-    "theme_id": 371,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/1234-2.jpg",
-    "theme": "Supplemental",
-    "parent_theme": "System"
-  },
-  {
-    "set_num": "1242-3",
-    "name": "Flags, assorted",
-    "year": 1957,
-    "theme_id": 371,
-    "num_parts": 4,
-    "img_url": "https://cdn.rebrickable.com/media/sets/1242-3.jpg",
     "theme": "Supplemental",
     "parent_theme": "System"
   },
@@ -34524,7 +34494,7 @@
     "name": "Sting Ray Explorer",
     "year": 1997,
     "theme_id": 86,
-    "num_parts": 151,
+    "num_parts": 152,
     "img_url": "https://cdn.rebrickable.com/media/sets/6442-1.jpg",
     "theme": "Divers",
     "parent_theme": "Town"
