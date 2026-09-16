@@ -206644,7 +206644,7 @@
     "name": "The Battle of Hogwarts",
     "year": 2023,
     "theme_id": 246,
-    "num_parts": 740,
+    "num_parts": 732,
     "img_url": "https://cdn.rebrickable.com/media/sets/76415-1.jpg",
     "theme": "Harry Potter",
     "parent_theme": ""
@@ -247624,7 +247624,7 @@
     "name": "Star Wars: The Dark Lord",
     "year": 2026,
     "theme_id": 761,
-    "num_parts": 0,
+    "num_parts": 7,
     "img_url": "https://cdn.rebrickable.com/media/sets/9781837252169-1.jpg",
     "theme": "Activity Books with LEGO Parts",
     "parent_theme": "Books"
@@ -247857,6 +247857,56 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/72060-1.jpg",
     "theme": "Super Mario",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "910069-1",
+    "name": "Fisherman's Village",
+    "year": 2027,
+    "theme_id": 719,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/910069-1.jpg",
+    "theme": "BrickLink Designer Program",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "910070-1",
+    "name": "Sleepy Dragon Inn",
+    "year": 2027,
+    "theme_id": 719,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/910070-1.jpg",
+    "theme": "BrickLink Designer Program",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "910071-1",
+    "name": "Wild West Blacksmith",
+    "year": 2027,
+    "theme_id": 719,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/910071-1.jpg",
+    "theme": "BrickLink Designer Program",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "910072-1",
+    "name": "Woodbrick Freight Depot",
+    "year": 2027,
+    "theme_id": 719,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/910072-1.jpg",
+    "theme": "BrickLink Designer Program",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "910073-1",
+    "name": "Pumpkin Patch",
+    "year": 2027,
+    "theme_id": 719,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/910073-1.jpg",
+    "theme": "BrickLink Designer Program",
     "parent_theme": ""
   },
   {
