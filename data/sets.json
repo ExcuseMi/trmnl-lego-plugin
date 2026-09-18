@@ -236634,7 +236634,7 @@
     "name": "Mayor Manor",
     "year": 2026,
     "theme_id": 721,
-    "num_parts": 1421,
+    "num_parts": 1420,
     "img_url": "https://cdn.rebrickable.com/media/sets/11383-1.jpg",
     "theme": "Icons",
     "parent_theme": ""
@@ -237978,6 +237978,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/40897-1.jpg",
     "theme": "Star Wars",
     "parent_theme": ""
+  },
+  {
+    "set_num": "40900-1",
+    "name": "Scary Haunted Tree",
+    "year": 2026,
+    "theme_id": 230,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40900-1.jpg",
+    "theme": "Halloween",
+    "parent_theme": "Seasonal"
   },
   {
     "set_num": "40901-1",
