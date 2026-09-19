@@ -65874,7 +65874,7 @@
     "name": "Viking Ship challenges the Midgard Serpent",
     "year": 2005,
     "theme_id": 474,
-    "num_parts": 580,
+    "num_parts": 582,
     "img_url": "https://cdn.rebrickable.com/media/sets/7018-1.jpg",
     "theme": "Vikings",
     "parent_theme": ""
@@ -244658,6 +244658,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/5010458-1.jpg",
     "theme": "Gear",
     "parent_theme": ""
+  },
+  {
+    "set_num": "5010478-1",
+    "name": "Sherpa-Backed Throw",
+    "year": 2026,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010478-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
   },
   {
     "set_num": "5010566-1",
