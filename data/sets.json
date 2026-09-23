@@ -72980,6 +72980,16 @@
     "parent_theme": "Castle"
   },
   {
+    "set_num": "7036-1",
+    "name": "Dwarves' Mine",
+    "year": 2007,
+    "theme_id": 193,
+    "num_parts": 574,
+    "img_url": "https://cdn.rebrickable.com/media/sets/7036-1.jpg",
+    "theme": "Fantasy Era",
+    "parent_theme": "Castle"
+  },
+  {
     "set_num": "7090-1",
     "name": "Crossbow Attack",
     "year": 2007,
@@ -77208,16 +77218,6 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/6187-1.jpg",
     "theme": "Bricks & More",
     "parent_theme": "Make & Create"
-  },
-  {
-    "set_num": "7036-1",
-    "name": "Dwarves' Mine",
-    "year": 2008,
-    "theme_id": 193,
-    "num_parts": 574,
-    "img_url": "https://cdn.rebrickable.com/media/sets/7036-1.jpg",
-    "theme": "Fantasy Era",
-    "parent_theme": "Castle"
   },
   {
     "set_num": "7037-1",
@@ -214584,7 +214584,7 @@
     "name": "Maleficent’s Dragon Form",
     "year": 2024,
     "theme_id": 579,
-    "num_parts": 584,
+    "num_parts": 583,
     "img_url": "https://cdn.rebrickable.com/media/sets/43240-1.jpg",
     "theme": "Disney Princess",
     "parent_theme": "Disney"
@@ -221294,7 +221294,7 @@
     "name": "McLaren F1",
     "year": 2024,
     "theme_id": 598,
-    "num_parts": 48,
+    "num_parts": 49,
     "img_url": "https://cdn.rebrickable.com/media/sets/6535388-1.jpg",
     "theme": "Promotional",
     "parent_theme": ""
@@ -221478,6 +221478,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/6566835-1.jpg",
     "theme": "Promotional",
     "parent_theme": ""
+  },
+  {
+    "set_num": "6599702-1",
+    "name": "Mickey and Minnie",
+    "year": 2024,
+    "theme_id": 388,
+    "num_parts": 77,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6599702-1.jpg",
+    "theme": "Mickey Mouse",
+    "parent_theme": "Disney"
   },
   {
     "set_num": "40441726-1",
@@ -223104,7 +223114,7 @@
     "name": "City: Splash into Summer",
     "year": 2024,
     "theme_id": 761,
-    "num_parts": 19,
+    "num_parts": 26,
     "img_url": "https://cdn.rebrickable.com/media/sets/9781837250059-1.jpg",
     "theme": "Activity Books with LEGO Parts",
     "parent_theme": "Books"
@@ -233343,11 +233353,11 @@
     "set_num": "6458401-1",
     "name": "Party Glasses",
     "year": 2025,
-    "theme_id": 408,
+    "theme_id": 737,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/6458401-1.jpg",
-    "theme": "LEGO Brand Store",
-    "parent_theme": ""
+    "theme": "Role Play Toys and Costumes",
+    "parent_theme": "Gear"
   },
   {
     "set_num": "6509762-1",
@@ -237984,7 +237994,7 @@
     "name": "Scary Haunted Tree",
     "year": 2026,
     "theme_id": 230,
-    "num_parts": 0,
+    "num_parts": 218,
     "img_url": "https://cdn.rebrickable.com/media/sets/40900-1.jpg",
     "theme": "Halloween",
     "parent_theme": "Seasonal"
@@ -332621,7 +332631,7 @@
   },
   {
     "fig_num": "fig-011761",
-    "name": "Hagrid, Gold",
+    "name": "Rubeus Hagrid, Gold",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-011761.jpg",
     "theme": "",
@@ -351373,7 +351383,7 @@
   },
   {
     "fig_num": "fig-014767",
-    "name": "Hagrid, Dark Red Arms",
+    "name": "Rubeus Hagrid, Dark Red Arms",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-014767.jpg",
     "theme": "",
