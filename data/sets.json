@@ -69080,6 +69080,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "6998-1",
+    "name": "Piraka ReidakTalisman Nestlé #7",
+    "year": 2006,
+    "theme_id": 598,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6998-1.jpg",
+    "theme": "Promotional",
+    "parent_theme": ""
+  },
+  {
     "set_num": "7020-1",
     "name": "Army of Vikings with Heavy Artillery Wagon",
     "year": 2006,
@@ -69097,6 +69107,36 @@
     "num_parts": 505,
     "img_url": "https://cdn.rebrickable.com/media/sets/7021-1.jpg",
     "theme": "Vikings",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "7068-1",
+    "name": "Piraka VezokTalisman Nestlé #9",
+    "year": 2006,
+    "theme_id": 598,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/7068-1.jpg",
+    "theme": "Promotional",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "7069-1",
+    "name": "Toa Inika Hewkii Talisman Nestlé #10",
+    "year": 2006,
+    "theme_id": 598,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/7069-1.jpg",
+    "theme": "Promotional",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "7077-1",
+    "name": "Piraka Hakann Talisman Nestlé #8",
+    "year": 2006,
+    "theme_id": 598,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/7077-1.jpg",
+    "theme": "Promotional",
     "parent_theme": ""
   },
   {
@@ -70938,6 +70978,26 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/54221-1.jpg",
     "theme": "Video Games and Accessories",
     "parent_theme": "Gear"
+  },
+  {
+    "set_num": "64314-1",
+    "name": "Toa Inika Kongu Talisman Nestlé #11",
+    "year": 2006,
+    "theme_id": 598,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/64314-1.jpg",
+    "theme": "Promotional",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "65312-1",
+    "name": "Toa Inika Matoro Talisman Nestlé #12",
+    "year": 2006,
+    "theme_id": 598,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/65312-1.jpg",
+    "theme": "Promotional",
+    "parent_theme": ""
   },
   {
     "set_num": "66073-1",
