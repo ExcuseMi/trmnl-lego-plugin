@@ -69081,7 +69081,7 @@
   },
   {
     "set_num": "6998-1",
-    "name": "Piraka ReidakTalisman Nestlé #7",
+    "name": "Piraka Reidak Talisman Nestlé #7",
     "year": 2006,
     "theme_id": 598,
     "num_parts": 0,
@@ -69111,7 +69111,7 @@
   },
   {
     "set_num": "7068-1",
-    "name": "Piraka VezokTalisman Nestlé #9",
+    "name": "Piraka Vezok Talisman Nestlé #9",
     "year": 2006,
     "theme_id": 598,
     "num_parts": 0,
@@ -156600,6 +156600,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "6277578-1",
+    "name": "Minicake Blue Candle",
+    "year": 2018,
+    "theme_id": 598,
+    "num_parts": 30,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6277578-1.jpg",
+    "theme": "Promotional",
+    "parent_theme": ""
+  },
+  {
     "set_num": "6299401-1",
     "name": "Welsh Corgi",
     "year": 2018,
@@ -221490,6 +221500,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "6557632-1",
+    "name": "Mash Up Vehicle",
+    "year": 2024,
+    "theme_id": 598,
+    "num_parts": 54,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6557632-1.jpg",
+    "theme": "Promotional",
+    "parent_theme": ""
+  },
+  {
     "set_num": "6559326-1",
     "name": "Giftbox",
     "year": 2024,
@@ -234394,7 +234414,7 @@
     "name": "Toy Soldier",
     "year": 2025,
     "theme_id": 227,
-    "num_parts": 0,
+    "num_parts": 22,
     "img_url": "https://cdn.rebrickable.com/media/sets/6610131-1.jpg",
     "theme": "Christmas",
     "parent_theme": "Seasonal"
@@ -245790,6 +245810,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "6659451-1",
+    "name": "Quack & Roll",
+    "year": 2026,
+    "theme_id": 435,
+    "num_parts": 55,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6659451-1.jpg",
+    "theme": "Ninjago",
+    "parent_theme": ""
+  },
+  {
     "set_num": "6662602-1",
     "name": "Gnome",
     "year": 2026,
@@ -245896,6 +245926,16 @@
     "theme_id": 408,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/6671868-1.jpg",
+    "theme": "LEGO Brand Store",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6674871-1",
+    "name": "Tall ship",
+    "year": 2026,
+    "theme_id": 408,
+    "num_parts": 45,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6674871-1.jpg",
     "theme": "LEGO Brand Store",
     "parent_theme": ""
   },
