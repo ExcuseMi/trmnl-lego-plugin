@@ -25490,12 +25490,32 @@
     "parent_theme": "Seasonal"
   },
   {
+    "set_num": "1583-1",
+    "name": "Circus Bucket",
+    "year": 1992,
+    "theme_id": 505,
+    "num_parts": 33,
+    "img_url": "https://cdn.rebrickable.com/media/sets/1583-1.jpg",
+    "theme": "Basic Set",
+    "parent_theme": "Duplo"
+  },
+  {
     "set_num": "1594-1",
     "name": "Rabbit and Bear Friend",
     "year": 1992,
     "theme_id": 505,
     "num_parts": 13,
     "img_url": "https://cdn.rebrickable.com/media/sets/1594-1.jpg",
+    "theme": "Basic Set",
+    "parent_theme": "Duplo"
+  },
+  {
+    "set_num": "1659-1",
+    "name": "DUPLO Tote Pack",
+    "year": 1992,
+    "theme_id": 505,
+    "num_parts": 30,
+    "img_url": "https://cdn.rebrickable.com/media/sets/1659-1.jpg",
     "theme": "Basic Set",
     "parent_theme": "Duplo"
   },
@@ -25720,6 +25740,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "1893-1",
+    "name": "Jungle Bucket",
+    "year": 1992,
+    "theme_id": 505,
+    "num_parts": 37,
+    "img_url": "https://cdn.rebrickable.com/media/sets/1893-1.jpg",
+    "theme": "Basic Set",
+    "parent_theme": "Duplo"
+  },
+  {
     "set_num": "1895-1",
     "name": "Sky Patrol",
     "year": 1992,
@@ -25766,6 +25796,36 @@
     "theme_id": 505,
     "num_parts": 1,
     "img_url": "https://cdn.rebrickable.com/media/sets/2304-1.jpg",
+    "theme": "Basic Set",
+    "parent_theme": "Duplo"
+  },
+  {
+    "set_num": "2373-1",
+    "name": "DUPLO Basic Bucket",
+    "year": 1992,
+    "theme_id": 505,
+    "num_parts": 47,
+    "img_url": "https://cdn.rebrickable.com/media/sets/2373-1.jpg",
+    "theme": "Basic Set",
+    "parent_theme": "Duplo"
+  },
+  {
+    "set_num": "2374-1",
+    "name": "Medium DUPLO Basic Bonus Bucket",
+    "year": 1992,
+    "theme_id": 505,
+    "num_parts": 59,
+    "img_url": "https://cdn.rebrickable.com/media/sets/2374-1.jpg",
+    "theme": "Basic Set",
+    "parent_theme": "Duplo"
+  },
+  {
+    "set_num": "2383-1",
+    "name": "Large DUPLO Basic Bonus Bucket",
+    "year": 1992,
+    "theme_id": 505,
+    "num_parts": 61,
+    "img_url": "https://cdn.rebrickable.com/media/sets/2383-1.jpg",
     "theme": "Basic Set",
     "parent_theme": "Duplo"
   },
@@ -26640,6 +26700,16 @@
     "parent_theme": "Universal Building Set"
   },
   {
+    "set_num": "1908-1",
+    "name": "DUPLO Bonus Bucket",
+    "year": 1993,
+    "theme_id": 505,
+    "num_parts": 39,
+    "img_url": "https://cdn.rebrickable.com/media/sets/1908-1.jpg",
+    "theme": "Basic Set",
+    "parent_theme": "Duplo"
+  },
+  {
     "set_num": "1916-1",
     "name": "Starion Patrol",
     "year": 1993,
@@ -26768,6 +26838,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/1993-1.jpg",
     "theme": "Classic Town",
     "parent_theme": "Town"
+  },
+  {
+    "set_num": "2369-1",
+    "name": "DUPLO Rally Race Bucket",
+    "year": 1993,
+    "theme_id": 505,
+    "num_parts": 38,
+    "img_url": "https://cdn.rebrickable.com/media/sets/2369-1.jpg",
+    "theme": "Basic Set",
+    "parent_theme": "Duplo"
   },
   {
     "set_num": "2372-1",
@@ -69084,7 +69164,7 @@
     "name": "Piraka Reidak Talisman Nestlé #7",
     "year": 2006,
     "theme_id": 598,
-    "num_parts": 0,
+    "num_parts": 1,
     "img_url": "https://cdn.rebrickable.com/media/sets/6998-1.jpg",
     "theme": "Promotional",
     "parent_theme": ""
@@ -69114,7 +69194,7 @@
     "name": "Piraka Vezok Talisman Nestlé #9",
     "year": 2006,
     "theme_id": 598,
-    "num_parts": 0,
+    "num_parts": 1,
     "img_url": "https://cdn.rebrickable.com/media/sets/7068-1.jpg",
     "theme": "Promotional",
     "parent_theme": ""
@@ -69124,7 +69204,7 @@
     "name": "Toa Inika Hewkii Talisman Nestlé #10",
     "year": 2006,
     "theme_id": 598,
-    "num_parts": 0,
+    "num_parts": 1,
     "img_url": "https://cdn.rebrickable.com/media/sets/7069-1.jpg",
     "theme": "Promotional",
     "parent_theme": ""
@@ -69134,7 +69214,7 @@
     "name": "Piraka Hakann Talisman Nestlé #8",
     "year": 2006,
     "theme_id": 598,
-    "num_parts": 0,
+    "num_parts": 1,
     "img_url": "https://cdn.rebrickable.com/media/sets/7077-1.jpg",
     "theme": "Promotional",
     "parent_theme": ""
@@ -70984,7 +71064,7 @@
     "name": "Toa Inika Kongu Talisman Nestlé #11",
     "year": 2006,
     "theme_id": 598,
-    "num_parts": 0,
+    "num_parts": 1,
     "img_url": "https://cdn.rebrickable.com/media/sets/64314-1.jpg",
     "theme": "Promotional",
     "parent_theme": ""
@@ -70994,7 +71074,7 @@
     "name": "Toa Inika Matoro Talisman Nestlé #12",
     "year": 2006,
     "theme_id": 598,
-    "num_parts": 0,
+    "num_parts": 1,
     "img_url": "https://cdn.rebrickable.com/media/sets/65312-1.jpg",
     "theme": "Promotional",
     "parent_theme": ""
@@ -238364,7 +238444,7 @@
     "name": "Mini Hogwarts Castle",
     "year": 2026,
     "theme_id": 246,
-    "num_parts": 701,
+    "num_parts": 700,
     "img_url": "https://cdn.rebrickable.com/media/sets/40975-1.jpg",
     "theme": "Harry Potter",
     "parent_theme": ""
@@ -245254,7 +245334,7 @@
     "name": "Blooming Heart",
     "year": 2026,
     "theme_id": 232,
-    "num_parts": 47,
+    "num_parts": 48,
     "img_url": "https://cdn.rebrickable.com/media/sets/6614219-1.jpg",
     "theme": "Valentine",
     "parent_theme": "Seasonal"
@@ -245807,16 +245887,6 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/6658602-1.jpg",
     "theme": "LEGO Brand Store",
-    "parent_theme": ""
-  },
-  {
-    "set_num": "6659451-1",
-    "name": "Quack & Roll",
-    "year": 2026,
-    "theme_id": 435,
-    "num_parts": 55,
-    "img_url": "https://cdn.rebrickable.com/media/sets/6659451-1.jpg",
-    "theme": "Ninjago",
     "parent_theme": ""
   },
   {
@@ -287675,7 +287745,7 @@
   },
   {
     "fig_num": "fig-005302",
-    "name": "War Machine with Red Eyes",
+    "name": "War Machine Mark 3, Red Eyes",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005302.jpg",
     "theme": "",
