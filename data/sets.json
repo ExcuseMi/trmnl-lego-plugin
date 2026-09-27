@@ -219374,7 +219374,7 @@
     "name": "Parisian Street",
     "year": 2024,
     "theme_id": 719,
-    "num_parts": 3533,
+    "num_parts": 3532,
     "img_url": "https://cdn.rebrickable.com/media/sets/910032-1.jpg",
     "theme": "BrickLink Designer Program",
     "parent_theme": ""
@@ -234080,6 +234080,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "6581678-1",
+    "name": "Flower Bouquet",
+    "year": 2025,
+    "theme_id": 408,
+    "num_parts": 30,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6581678-1.jpg",
+    "theme": "LEGO Brand Store",
+    "parent_theme": ""
+  },
+  {
     "set_num": "6581680-1",
     "name": "Mixer",
     "year": 2025,
@@ -238147,6 +238157,16 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/40897-1.jpg",
     "theme": "Star Wars",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "40899-1",
+    "name": "Astro Bot",
+    "year": 2026,
+    "theme_id": 301,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40899-1.jpg",
+    "theme": "Other",
     "parent_theme": ""
   },
   {
@@ -245894,7 +245914,7 @@
     "name": "Gnome",
     "year": 2026,
     "theme_id": 408,
-    "num_parts": 0,
+    "num_parts": 30,
     "img_url": "https://cdn.rebrickable.com/media/sets/6662602-1.jpg",
     "theme": "LEGO Brand Store",
     "parent_theme": ""
@@ -248238,6 +248258,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/9781534357921-1.jpg",
     "theme": "Story Books",
     "parent_theme": "Books"
+  },
+  {
+    "set_num": "9781797248035-1",
+    "name": "Botanicals Stationery Set",
+    "year": 2027,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9781797248035-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
   },
   {
     "fig_num": "fig-000001",
