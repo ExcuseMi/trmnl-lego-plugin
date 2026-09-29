@@ -210310,6 +210310,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "6472660-1",
+    "name": "Shamrock",
+    "year": 2023,
+    "theme_id": 408,
+    "num_parts": 69,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6472660-1.jpg",
+    "theme": "LEGO Brand Store",
+    "parent_theme": ""
+  },
+  {
     "set_num": "6474992-1",
     "name": "Car Stickers",
     "year": 2023,
@@ -234474,7 +234484,7 @@
     "name": "Gold Standard Holiday Train",
     "year": 2025,
     "theme_id": 408,
-    "num_parts": 0,
+    "num_parts": 43,
     "img_url": "https://cdn.rebrickable.com/media/sets/6605793-1.jpg",
     "theme": "LEGO Brand Store",
     "parent_theme": ""
