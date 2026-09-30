@@ -19310,6 +19310,16 @@
     "parent_theme": "Duplo"
   },
   {
+    "set_num": "2385-1",
+    "name": "Basic Building Set",
+    "year": 1987,
+    "theme_id": 505,
+    "num_parts": 80,
+    "img_url": "https://cdn.rebrickable.com/media/sets/2385-1.jpg",
+    "theme": "Basic Set",
+    "parent_theme": "Duplo"
+  },
+  {
     "set_num": "2388-1",
     "name": "Basic Set (Harbour)",
     "year": 1987,
@@ -20948,6 +20958,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/1544-1.jpg",
     "theme": "Basic Set",
     "parent_theme": "Duplo"
+  },
+  {
+    "set_num": "1571-1",
+    "name": "Basic Set",
+    "year": 1988,
+    "theme_id": 467,
+    "num_parts": 174,
+    "img_url": "https://cdn.rebrickable.com/media/sets/1571-1.jpg",
+    "theme": "Basic",
+    "parent_theme": "Universal Building Set"
   },
   {
     "set_num": "1577-1",
@@ -23000,6 +23020,16 @@
     "parent_theme": "Universal Building Set"
   },
   {
+    "set_num": "395-2",
+    "name": "Build-N-Store Chest",
+    "year": 1990,
+    "theme_id": 467,
+    "num_parts": 1,
+    "img_url": "https://cdn.rebrickable.com/media/sets/395-2.jpg",
+    "theme": "Basic",
+    "parent_theme": "Universal Building Set"
+  },
+  {
     "set_num": "515-1",
     "name": "Basic Building Set",
     "year": 1990,
@@ -23297,6 +23327,16 @@
     "num_parts": 18,
     "img_url": "https://cdn.rebrickable.com/media/sets/1672-1.jpg",
     "theme": "Town",
+    "parent_theme": "Duplo"
+  },
+  {
+    "set_num": "1674-1",
+    "name": "DUPLO Basic Bucket",
+    "year": 1990,
+    "theme_id": 505,
+    "num_parts": 100,
+    "img_url": "https://cdn.rebrickable.com/media/sets/1674-1.jpg",
+    "theme": "Basic Set",
     "parent_theme": "Duplo"
   },
   {
@@ -236890,6 +236930,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "11390-1",
+    "name": "Dragon Ball: Shenron & Goku",
+    "year": 2026,
+    "theme_id": 721,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/11390-1.jpg",
+    "theme": "Icons",
+    "parent_theme": ""
+  },
+  {
     "set_num": "11501-1",
     "name": "Tulip Bouquet",
     "year": 2026,
@@ -245220,6 +245270,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "5011169-1",
+    "name": "Halloween Window Stickers",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5011169-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
     "set_num": "6518176-1",
     "name": "St. Patrick's Day Hat",
     "year": 2026,
@@ -245366,6 +245426,16 @@
     "theme_id": 769,
     "num_parts": 46,
     "img_url": "https://cdn.rebrickable.com/media/sets/6614217-1.jpg",
+    "theme": "Botanicals",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6614218-1",
+    "name": "Tulips",
+    "year": 2026,
+    "theme_id": 769,
+    "num_parts": 17,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6614218-1.jpg",
     "theme": "Botanicals",
     "parent_theme": ""
   },
@@ -245737,6 +245807,16 @@
     "num_parts": 26,
     "img_url": "https://cdn.rebrickable.com/media/sets/6644882-1.jpg",
     "theme": "One Piece",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6644890-1",
+    "name": "The Holiday Duo",
+    "year": 2026,
+    "theme_id": 598,
+    "num_parts": 53,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6644890-1.jpg",
+    "theme": "Promotional",
     "parent_theme": ""
   },
   {
@@ -248280,12 +248360,52 @@
     "parent_theme": "Books"
   },
   {
+    "set_num": "9781797243153-1",
+    "name": "Mystery Minifigure Mini Puzzle (Springtime Edition) - 12 Pack",
+    "year": 2027,
+    "theme_id": 741,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9781797243153-1.jpg",
+    "theme": "Tabletop Games and Puzzles",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "9781797247311-1",
+    "name": "Botanicals Beautiful Blooms 1000-Piece Puzzle",
+    "year": 2027,
+    "theme_id": 741,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9781797247311-1.jpg",
+    "theme": "Tabletop Games and Puzzles",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "9781797247571-1",
+    "name": "48-Piece Giant Floor Puzzle: Dinosaurs",
+    "year": 2027,
+    "theme_id": 741,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9781797247571-1.jpg",
+    "theme": "Tabletop Games and Puzzles",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "9781797248035-1",
     "name": "Botanicals Stationery Set",
     "year": 2027,
     "theme_id": 739,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/9781797248035-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "9781797248042-1",
+    "name": "Botanicals: 30 Postcards",
+    "year": 2027,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9781797248042-1.jpg",
     "theme": "Stationery and Office Supplies",
     "parent_theme": "Gear"
   },
