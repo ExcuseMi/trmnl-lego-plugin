@@ -158,7 +158,7 @@
   - Dora the Explorer (5): dora-the-explorer|1|5
   - DOTS (94): dots|1|94
   - Dragon Knights (13): dragon-knights|1|13
-  - Dreamzzz (66): dreamzzz|1|66
+  - Dreamzzz (65): dreamzzz|1|65
   - Dungeons & Dragons (16): dungeons-dragons|1|16
   - Duplo (109): duplo|1|109
   - Duplo and Explore (193): duplo-and-explore|1|193
@@ -197,7 +197,7 @@
   - Galidor (20): galidor|1|20
   - Games (46): games|1|46
   - Gas Station (6): gas-station|1|6
-  - Gear (397): gear|1|397
+  - Gear (398): gear|1|398
   - Gears (9): gears|1|9
   - Ghostbusters (2): ghostbusters|1|2
   - Gravity Games (10): gravity-games|1|10
@@ -247,7 +247,7 @@
   - Learning at Home (4): learning-at-home|1|4
   - Legends of Chima (96): legends-of-chima|1|96
   - LEGO Art (26): lego-art|1|26
-  - LEGO Brand Store (163): lego-brand-store|1|163
+  - LEGO Brand Store (164): lego-brand-store|1|164
   - LEGO Exclusive (72): lego-exclusive|1|72
   - LEGO Ideas and CUUSOO (97): lego-ideas-and-cuusoo|1|97
   - LEGO Originals (19): lego-originals|1|19
@@ -411,7 +411,7 @@
   - System (49): system|1|49
   - Tabletop Games and Puzzles (74): tabletop-games-and-puzzles|1|74
   - Team GB (12): team-gb|1|12
-  - Technic (788): technic|1|788
+  - Technic (789): technic|1|789
   - Teenage Mutant Ninja Turtles (20): teenage-mutant-ninja-turtles|1|20
   - Thanksgiving (10): thanksgiving|1|10
   - The Hobbit (20): the-hobbit|1|20
@@ -475,7 +475,7 @@
   optional: true
 - keyname: themes_brickset
   field_type: select
-  name: Filter by Themes – Brickset (174)
+  name: Filter by Themes – Brickset (175)
   description: <strong>Required:</strong> Select at least one theme, OR set a min/max year below. Only applicable when using Brickset as your data source.
   multiple: true
   options:
@@ -653,6 +653,7 @@
   - Xtra: Xtra
   - Znap: Znap
   - tbd: tbd
+  - '{Undefined}': '{Undefined}'
   help_text: Use <kbd>⌘</kbd>+<kbd>click</kbd> or <kbd>Ctrl</kbd>+<kbd>click</kbd> to select multiple themes.<br /><strong>You must select at least one theme OR specify a year range.</strong>
   optional: true
 - keyname: brickset_order_by
