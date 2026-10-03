@@ -2130,6 +2130,16 @@
     "parent_theme": "System"
   },
   {
+    "set_num": "050-1",
+    "name": "Basic Building Set in Cardboard",
+    "year": 1965,
+    "theme_id": 365,
+    "num_parts": 290,
+    "img_url": "https://cdn.rebrickable.com/media/sets/050-1.jpg",
+    "theme": "System",
+    "parent_theme": ""
+  },
+  {
     "set_num": "319-1",
     "name": "Truck with Trailer",
     "year": 1965,
@@ -167180,6 +167190,26 @@
     "parent_theme": "The LEGO Movie"
   },
   {
+    "set_num": "6283497-1",
+    "name": "Mr Mystique",
+    "year": 2019,
+    "theme_id": 598,
+    "num_parts": 39,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6283497-1.jpg",
+    "theme": "Promotional",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6283498-1",
+    "name": "Kamille",
+    "year": 2019,
+    "theme_id": 598,
+    "num_parts": 41,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6283498-1.jpg",
+    "theme": "Promotional",
+    "parent_theme": ""
+  },
+  {
     "set_num": "6286884-1",
     "name": "Changi Airport Tower",
     "year": 2019,
@@ -167357,6 +167387,16 @@
     "num_parts": 110,
     "img_url": "https://cdn.rebrickable.com/media/sets/6315025-1.jpg",
     "theme": "Brickheadz",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6381647-1",
+    "name": "Billy Bilka",
+    "year": 2019,
+    "theme_id": 598,
+    "num_parts": 37,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6381647-1.jpg",
+    "theme": "Promotional",
     "parent_theme": ""
   },
   {
@@ -177117,6 +177157,26 @@
     "num_parts": 98,
     "img_url": "https://cdn.rebrickable.com/media/sets/6324146-1.jpg",
     "theme": "LEGO Brand Store",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6336733-1",
+    "name": "Will",
+    "year": 2020,
+    "theme_id": 598,
+    "num_parts": 36,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6336733-1.jpg",
+    "theme": "Promotional",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6336734-1",
+    "name": "Willer",
+    "year": 2020,
+    "theme_id": 598,
+    "num_parts": 36,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6336734-1.jpg",
+    "theme": "Promotional",
     "parent_theme": ""
   },
   {
@@ -228884,7 +228944,7 @@
     "name": "Buggy the Clown's Circus Tent",
     "year": 2025,
     "theme_id": 775,
-    "num_parts": 576,
+    "num_parts": 572,
     "img_url": "https://cdn.rebrickable.com/media/sets/75637-1.jpg",
     "theme": "One Piece",
     "parent_theme": ""
@@ -238241,7 +238301,7 @@
   },
   {
     "set_num": "40897-1",
-    "name": "Darth Vader's LIGHTSABER",
+    "name": "Darth Vader's Lightsaber",
     "year": 2026,
     "theme_id": 158,
     "num_parts": 174,
@@ -243770,6 +243830,46 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "854335-1",
+    "name": "Mateo's Z-Blob Sword",
+    "year": 2026,
+    "theme_id": 737,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/854335-1.jpg",
+    "theme": "Role Play Toys and Costumes",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "854336-1",
+    "name": "Izzie's Sword",
+    "year": 2026,
+    "theme_id": 737,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/854336-1.jpg",
+    "theme": "Role Play Toys and Costumes",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "854337-1",
+    "name": "Dragonian Warrior Axe",
+    "year": 2026,
+    "theme_id": 737,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/854337-1.jpg",
+    "theme": "Role Play Toys and Costumes",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "854338-1",
+    "name": "Lloyd's Sword with Sheath",
+    "year": 2026,
+    "theme_id": 737,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/854338-1.jpg",
+    "theme": "Role Play Toys and Costumes",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "910054-1",
     "name": "The Art Factory",
     "year": 2026,
@@ -244094,7 +244194,7 @@
     "name": "Lucky Money Bag",
     "year": 2026,
     "theme_id": 408,
-    "num_parts": 0,
+    "num_parts": 49,
     "img_url": "https://cdn.rebrickable.com/media/sets/5010005-1.jpg",
     "theme": "LEGO Brand Store",
     "parent_theme": ""
@@ -245334,7 +245434,7 @@
     "name": "Herschel Pencil",
     "year": 2026,
     "theme_id": 598,
-    "num_parts": 0,
+    "num_parts": 37,
     "img_url": "https://cdn.rebrickable.com/media/sets/6572895-1.jpg",
     "theme": "Promotional",
     "parent_theme": ""
@@ -246154,7 +246254,7 @@
     "name": "Jolly Roger Mosaic",
     "year": 2026,
     "theme_id": 775,
-    "num_parts": 0,
+    "num_parts": 52,
     "img_url": "https://cdn.rebrickable.com/media/sets/6680480-1.jpg",
     "theme": "One Piece",
     "parent_theme": ""
@@ -247036,6 +247136,46 @@
     "theme_id": 777,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/203062513-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "203180001-1",
+    "name": "2 x 2 Brick Backpack - Updated (All Colors)",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/203180001-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "203200001-1",
+    "name": "1 x 1 Brick Mini Crossbody Bag (All Colors)",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/203200001-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "203220001-1",
+    "name": "1 x 1 Brick Tote Bag (All Colors)",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/203220001-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "203230001-1",
+    "name": "1 x 1 Brick Crossbody Bag (All Colors)",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/203230001-1.jpg",
     "theme": "Bags, Totes, & Luggage",
     "parent_theme": "Gear"
   },

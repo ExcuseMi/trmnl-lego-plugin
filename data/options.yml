@@ -81,7 +81,7 @@
   - 'Avatar: The Last Airbender (2)': avatar-the-last-airbender|1|2
   - Avengers (99): avengers|1|99
   - Bag and Luggage Tags (130): bag-and-luggage-tags|1|130
-  - Bags, Totes, & Luggage (888): bags-totes-luggage|1|888
+  - Bags, Totes, & Luggage (892): bags-totes-luggage|1|892
   - Basic (200): basic|1|200
   - Basic Set (361): basic-set|1|361
   - Basketball (33): basketball|1|33
@@ -322,7 +322,7 @@
   - Primo (114): primo|1|114
   - Prince of Persia (6): prince-of-persia|1|6
   - Princess Castle (6): princess-castle|1|6
-  - Promotional (200): promotional|1|200
+  - Promotional (205): promotional|1|205
   - Protectors (6): protectors|1|6
   - Quatro (9): quatro|1|9
   - Race (16): race|1|16
@@ -334,7 +334,7 @@
   - RoboForce (4): roboforce|1|4
   - RoboRiders (20): roboriders|1|20
   - Rock Raiders (15): rock-raiders|1|15
-  - Role Play Toys and Costumes (232): role-play-toys-and-costumes|1|232
+  - Role Play Toys and Costumes (236): role-play-toys-and-costumes|1|236
   - Royal Knights (9): royal-knights|1|9
   - Samsonite (115): samsonite|1|115
   - Scala (72): scala|1|72
@@ -408,7 +408,7 @@
   - Super Mario (187): super-mario|1|187
   - Superman (10): superman|1|10
   - Supplemental (336): supplemental|1|336
-  - System (49): system|1|49
+  - System (50): system|1|50
   - Tabletop Games and Puzzles (74): tabletop-games-and-puzzles|1|74
   - Team GB (12): team-gb|1|12
   - Technic (789): technic|1|789
@@ -475,7 +475,7 @@
   optional: true
 - keyname: themes_brickset
   field_type: select
-  name: Filter by Themes – Brickset (175)
+  name: Filter by Themes – Brickset (174)
   description: <strong>Required:</strong> Select at least one theme, OR set a min/max year below. Only applicable when using Brickset as your data source.
   multiple: true
   options:
@@ -653,7 +653,6 @@
   - Xtra: Xtra
   - Znap: Znap
   - tbd: tbd
-  - '{Undefined}': '{Undefined}'
   help_text: Use <kbd>⌘</kbd>+<kbd>click</kbd> or <kbd>Ctrl</kbd>+<kbd>click</kbd> to select multiple themes.<br /><strong>You must select at least one theme OR specify a year range.</strong>
   optional: true
 - keyname: brickset_order_by
