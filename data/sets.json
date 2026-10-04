@@ -24,7 +24,7 @@
     "name": "Medium Gift Set (ABB)",
     "year": 1949,
     "theme_id": 365,
-    "num_parts": 126,
+    "num_parts": 127,
     "img_url": "https://cdn.rebrickable.com/media/sets/700.3-1.jpg",
     "theme": "System",
     "parent_theme": ""
@@ -75581,7 +75581,7 @@
   },
   {
     "set_num": "851903-1",
-    "name": "Brick Backpack",
+    "name": "2 x 3 Brick Backpack (All Colors)",
     "year": 2007,
     "theme_id": 777,
     "num_parts": 0,
@@ -248287,6 +248287,26 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/53895-1.jpg",
     "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "71873-1",
+    "name": "Cole vs. Evil Cole Spinner",
+    "year": 2027,
+    "theme_id": 435,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/71873-1.jpg",
+    "theme": "Ninjago",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "71875-1",
+    "name": "Lloyd vs. Ras Spinner Battle",
+    "year": 2027,
+    "theme_id": 435,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/71875-1.jpg",
+    "theme": "Ninjago",
     "parent_theme": ""
   },
   {
