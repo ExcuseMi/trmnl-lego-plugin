@@ -26420,6 +26420,36 @@
     "parent_theme": "Space"
   },
   {
+    "set_num": "8826-1",
+    "name": "ATX Sport Cycle",
+    "year": 1992,
+    "theme_id": 1,
+    "num_parts": 95,
+    "img_url": "https://cdn.rebrickable.com/media/sets/8826-1.jpg",
+    "theme": "Technic",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "8828-1",
+    "name": "Front End Loader",
+    "year": 1992,
+    "theme_id": 1,
+    "num_parts": 175,
+    "img_url": "https://cdn.rebrickable.com/media/sets/8828-1.jpg",
+    "theme": "Technic",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "8836-1",
+    "name": "Sky Ranger",
+    "year": 1992,
+    "theme_id": 1,
+    "num_parts": 273,
+    "img_url": "https://cdn.rebrickable.com/media/sets/8836-1.jpg",
+    "theme": "Technic",
+    "parent_theme": ""
+  },
+  {
     "set_num": "8837-1",
     "name": "Pneumatic Excavator",
     "year": 1992,
@@ -27820,32 +27850,12 @@
     "parent_theme": ""
   },
   {
-    "set_num": "8826-1",
-    "name": "ATX Sport Cycle",
+    "set_num": "8824-1",
+    "name": "Hovercraft",
     "year": 1993,
     "theme_id": 1,
-    "num_parts": 95,
-    "img_url": "https://cdn.rebrickable.com/media/sets/8826-1.jpg",
-    "theme": "Technic",
-    "parent_theme": ""
-  },
-  {
-    "set_num": "8828-1",
-    "name": "Front End Loader",
-    "year": 1993,
-    "theme_id": 1,
-    "num_parts": 175,
-    "img_url": "https://cdn.rebrickable.com/media/sets/8828-1.jpg",
-    "theme": "Technic",
-    "parent_theme": ""
-  },
-  {
-    "set_num": "8836-1",
-    "name": "Sky Ranger",
-    "year": 1993,
-    "theme_id": 1,
-    "num_parts": 273,
-    "img_url": "https://cdn.rebrickable.com/media/sets/8836-1.jpg",
+    "num_parts": 193,
+    "img_url": "https://cdn.rebrickable.com/media/sets/8824-1.jpg",
     "theme": "Technic",
     "parent_theme": ""
   },
@@ -29236,16 +29246,6 @@
     "theme_id": 1,
     "num_parts": 185,
     "img_url": "https://cdn.rebrickable.com/media/sets/8816-1.jpg",
-    "theme": "Technic",
-    "parent_theme": ""
-  },
-  {
-    "set_num": "8824-1",
-    "name": "Hovercraft",
-    "year": 1994,
-    "theme_id": 1,
-    "num_parts": 193,
-    "img_url": "https://cdn.rebrickable.com/media/sets/8824-1.jpg",
     "theme": "Technic",
     "parent_theme": ""
   },
@@ -102241,7 +102241,7 @@
   },
   {
     "set_num": "5001377-1",
-    "name": "Lunch Box",
+    "name": "Lunch Box (All Colors)",
     "year": 2012,
     "theme_id": 733,
     "num_parts": 0,
@@ -105974,7 +105974,7 @@
     "name": "Razcal's Glider",
     "year": 2013,
     "theme_id": 571,
-    "num_parts": 109,
+    "num_parts": 111,
     "img_url": "https://cdn.rebrickable.com/media/sets/70000-1.jpg",
     "theme": "Legends of Chima",
     "parent_theme": ""
@@ -108931,7 +108931,7 @@
   },
   {
     "set_num": "5002201-1",
-    "name": "Friends Brick Light",
+    "name": "Friends Brick Light (All Colors)",
     "year": 2013,
     "theme_id": 733,
     "num_parts": 0,
@@ -176111,7 +176111,7 @@
   },
   {
     "set_num": "5006057-1",
-    "name": "Locking Notebook with Gel Pen",
+    "name": "Locking Notebook with Gel Pen (All Colors)",
     "year": 2020,
     "theme_id": 739,
     "num_parts": 0,
@@ -238184,7 +238184,7 @@
     "name": "Avengers: Doomsday Heroes & Villain",
     "year": 2026,
     "theme_id": 610,
-    "num_parts": 0,
+    "num_parts": 467,
     "img_url": "https://cdn.rebrickable.com/media/sets/40880-1.jpg",
     "theme": "Brickheadz",
     "parent_theme": ""
@@ -242584,7 +242584,7 @@
     "name": "Avengers: Doomsday Quinjet",
     "year": 2026,
     "theme_id": 702,
-    "num_parts": 0,
+    "num_parts": 433,
     "img_url": "https://cdn.rebrickable.com/media/sets/76347-1.jpg",
     "theme": "Avengers",
     "parent_theme": "Super Heroes Marvel"
@@ -242594,7 +242594,7 @@
     "name": "Epic Battle: Avengers: Doomsday",
     "year": 2026,
     "theme_id": 702,
-    "num_parts": 0,
+    "num_parts": 846,
     "img_url": "https://cdn.rebrickable.com/media/sets/76348-1.jpg",
     "theme": "Avengers",
     "parent_theme": "Super Heroes Marvel"
@@ -242624,7 +242624,7 @@
     "name": "Avengers: Doomsday New Avengers Tower",
     "year": 2026,
     "theme_id": 702,
-    "num_parts": 0,
+    "num_parts": 954,
     "img_url": "https://cdn.rebrickable.com/media/sets/76352-1.jpg",
     "theme": "Avengers",
     "parent_theme": "Super Heroes Marvel"
@@ -246830,6 +246830,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "202092602-1",
+    "name": "Ninjago Kai 2 x 2 Brick Backpack",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/202092602-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "202222601-1",
     "name": "Ninjago Spinjitzu Master Backpack",
     "year": 2026,
@@ -247146,6 +247156,16 @@
     "theme_id": 777,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/203180001-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "203190001-1",
+    "name": "1 x 1 Brick Dual-Use Backpack (All Colors)",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/203190001-1.jpg",
     "theme": "Bags, Totes, & Luggage",
     "parent_theme": "Gear"
   },
