@@ -245754,7 +245754,7 @@
     "name": "Emmy Award",
     "year": 2026,
     "theme_id": 598,
-    "num_parts": 0,
+    "num_parts": 103,
     "img_url": "https://cdn.rebrickable.com/media/sets/6630782-1.jpg",
     "theme": "Promotional",
     "parent_theme": ""
@@ -246094,7 +246094,7 @@
     "name": "R2-D2 Level Up Workshop",
     "year": 2026,
     "theme_id": 158,
-    "num_parts": 0,
+    "num_parts": 93,
     "img_url": "https://cdn.rebrickable.com/media/sets/6650266-1.jpg",
     "theme": "Star Wars",
     "parent_theme": ""
@@ -247176,6 +247176,16 @@
     "theme_id": 777,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/203200001-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "203210001-1",
+    "name": "Brick Waist Bag (All Colors)",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/203210001-1.jpg",
     "theme": "Bags, Totes, & Luggage",
     "parent_theme": "Gear"
   },
@@ -248308,6 +248318,36 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/53895-1.jpg",
     "theme": "Gear",
     "parent_theme": ""
+  },
+  {
+    "set_num": "67008-1",
+    "name": "Batman Returns Batmobile & Duck",
+    "year": 2027,
+    "theme_id": 697,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/67008-1.jpg",
+    "theme": "Batman",
+    "parent_theme": "Super Heroes DC"
+  },
+  {
+    "set_num": "67009-1",
+    "name": "Arkham Batman Batmobile",
+    "year": 2027,
+    "theme_id": 697,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/67009-1.jpg",
+    "theme": "Batman",
+    "parent_theme": "Super Heroes DC"
+  },
+  {
+    "set_num": "67012-1",
+    "name": "The Joker Wall Art Comic Cover",
+    "year": 2027,
+    "theme_id": 697,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/67012-1.jpg",
+    "theme": "Batman",
+    "parent_theme": "Super Heroes DC"
   },
   {
     "set_num": "71873-1",
