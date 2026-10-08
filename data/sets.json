@@ -231710,6 +231710,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "5009238-1",
+    "name": "London Royal Guard Plush",
+    "year": 2025,
+    "theme_id": 735,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5009238-1.jpg",
+    "theme": "Plush Toys",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "5009239-1",
     "name": "Succulent Collection Bundle",
     "year": 2025,
@@ -245070,6 +245080,36 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "5010653-1",
+    "name": "London Pen - Red",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010653-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010654-1",
+    "name": "London Pen - Navy",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010654-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010670-1",
+    "name": "London Bag Charm - Heart",
+    "year": 2026,
+    "theme_id": 503,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010670-1.jpg",
+    "theme": "Key Chain",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "5010691-1",
     "name": "Copenhagen Pen - Coral",
     "year": 2026,
@@ -245448,6 +245488,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/6581056-1.jpg",
     "theme": "Series 28 Minifigures",
     "parent_theme": "Collectible Minifigures"
+  },
+  {
+    "set_num": "6591191-1",
+    "name": "London Magnet 3 Pack",
+    "year": 2026,
+    "theme_id": 734,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6591191-1.jpg",
+    "theme": "Magnets",
+    "parent_theme": "Gear"
   },
   {
     "set_num": "6591198-1",
@@ -245930,12 +245980,42 @@
     "parent_theme": ""
   },
   {
+    "set_num": "6644886-1",
+    "name": "Ghost Street",
+    "year": 2026,
+    "theme_id": 598,
+    "num_parts": 36,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6644886-1.jpg",
+    "theme": "Promotional",
+    "parent_theme": ""
+  },
+  {
     "set_num": "6644890-1",
     "name": "The Holiday Duo",
     "year": 2026,
     "theme_id": 598,
     "num_parts": 53,
     "img_url": "https://cdn.rebrickable.com/media/sets/6644890-1.jpg",
+    "theme": "Promotional",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6644894-1",
+    "name": "Reindeer",
+    "year": 2026,
+    "theme_id": 598,
+    "num_parts": 36,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6644894-1.jpg",
+    "theme": "Promotional",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6644896-1",
+    "name": "Magenta Flower Candle",
+    "year": 2026,
+    "theme_id": 598,
+    "num_parts": 21,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6644896-1.jpg",
     "theme": "Promotional",
     "parent_theme": ""
   },
@@ -246278,6 +246358,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/6686868-1.jpg",
     "theme": "Stationery and Office Supplies",
     "parent_theme": "Gear"
+  },
+  {
+    "set_num": "6695501-1",
+    "name": "Giftbox",
+    "year": 2026,
+    "theme_id": 598,
+    "num_parts": 46,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6695501-1.jpg",
+    "theme": "Promotional",
+    "parent_theme": ""
   },
   {
     "set_num": "10018247-1",
