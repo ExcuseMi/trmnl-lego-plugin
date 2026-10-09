@@ -246000,16 +246000,6 @@
     "parent_theme": ""
   },
   {
-    "set_num": "6644894-1",
-    "name": "Reindeer",
-    "year": 2026,
-    "theme_id": 598,
-    "num_parts": 36,
-    "img_url": "https://cdn.rebrickable.com/media/sets/6644894-1.jpg",
-    "theme": "Promotional",
-    "parent_theme": ""
-  },
-  {
     "set_num": "6644896-1",
     "name": "Magenta Flower Candle",
     "year": 2026,
@@ -364192,6 +364182,22 @@
     "name": "Beryl Patmore",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-018181.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-018220",
+    "name": "LEGO Store Hangzhou, Man",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-018220.jpg",
+    "theme": "",
+    "parent_theme": ""
+  },
+  {
+    "fig_num": "fig-018221",
+    "name": "LEGO Store Hangzhou, Woman",
+    "num_parts": 4,
+    "img_url": "https://cdn.rebrickable.com/media/sets/fig-018221.jpg",
     "theme": "",
     "parent_theme": ""
   }
