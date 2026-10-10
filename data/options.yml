@@ -297,7 +297,7 @@
   - Off-Road (13): off-road|1|13
   - One Piece (17): one-piece|1|17
   - Orient Expedition (22): orient-expedition|1|22
-  - Other (108): other|1|108
+  - Other (109): other|1|109
   - Outback (5): outback|1|5
   - Overwatch (9): overwatch|1|9
   - Paradisa (18): paradisa|1|18
@@ -322,7 +322,7 @@
   - Primo (114): primo|1|114
   - Prince of Persia (6): prince-of-persia|1|6
   - Princess Castle (6): princess-castle|1|6
-  - Promotional (208): promotional|1|208
+  - Promotional (209): promotional|1|209
   - Protectors (6): protectors|1|6
   - Quatro (9): quatro|1|9
   - Race (16): race|1|16
@@ -395,7 +395,7 @@
   - Sports (4): sports|1|4
   - Spybotics (4): spybotics|1|4
   - Spyrius (9): spyrius|1|9
-  - Star Wars (994): star-wars|1|994
+  - Star Wars (993): star-wars|1|993
   - Stationery and Office Supplies (720): stationery-and-office-supplies|1|720
   - Stingrays (5): stingrays|1|5
   - Storage (168): storage|1|168
@@ -404,7 +404,7 @@
   - Studios (50): studios|1|50
   - Stuntz (26): stuntz|1|26
   - Super Heroes DC (21): super-heroes-dc|1|21
-  - Super Heroes Marvel (53): super-heroes-marvel|1|53
+  - Super Heroes Marvel (54): super-heroes-marvel|1|54
   - Super Mario (187): super-mario|1|187
   - Superman (10): superman|1|10
   - Supplemental (336): supplemental|1|336
@@ -444,7 +444,7 @@
   - 'Trolls: World Tour (9)': trolls-world-tour|1|9
   - UCS (6): ucs|1|6
   - UFO (18): ufo|1|18
-  - Ultimate Collector Series (50): ultimate-collector-series|1|50
+  - Ultimate Collector Series (51): ultimate-collector-series|1|51
   - Ultra Agents (15): ultra-agents|1|15
   - Unikitty! (26): unikitty|1|26
   - Unitron (4): unitron|1|4
@@ -475,7 +475,7 @@
   optional: true
 - keyname: themes_brickset
   field_type: select
-  name: Filter by Themes – Brickset (175)
+  name: Filter by Themes – Brickset (174)
   description: <strong>Required:</strong> Select at least one theme, OR set a min/max year below. Only applicable when using Brickset as your data source.
   multiple: true
   options:
@@ -653,7 +653,6 @@
   - Xtra: Xtra
   - Znap: Znap
   - tbd: tbd
-  - '{Undefined}': '{Undefined}'
   help_text: Use <kbd>⌘</kbd>+<kbd>click</kbd> or <kbd>Ctrl</kbd>+<kbd>click</kbd> to select multiple themes.<br /><strong>You must select at least one theme OR specify a year range.</strong>
   optional: true
 - keyname: brickset_order_by
