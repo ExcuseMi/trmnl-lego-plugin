@@ -74104,7 +74104,7 @@
     "name": "Ferrari 248 F1 1:24 [Vodafone Version]",
     "year": 2007,
     "theme_id": 114,
-    "num_parts": 168,
+    "num_parts": 167,
     "img_url": "https://cdn.rebrickable.com/media/sets/8142-1.jpg",
     "theme": "Ferrari",
     "parent_theme": "Racers"
@@ -83243,11 +83243,11 @@
     "set_num": "10195-1",
     "name": "Republic Dropship with AT-OT",
     "year": 2009,
-    "theme_id": 171,
+    "theme_id": 158,
     "num_parts": 1758,
     "img_url": "https://cdn.rebrickable.com/media/sets/10195-1.jpg",
-    "theme": "Ultimate Collector Series",
-    "parent_theme": "Star Wars"
+    "theme": "Star Wars",
+    "parent_theme": ""
   },
   {
     "set_num": "10196-1",
@@ -234340,6 +234340,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "6591194-1",
+    "name": "Rugby Player Keychain Light",
+    "year": 2025,
+    "theme_id": 503,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6591194-1.jpg",
+    "theme": "Key Chain",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "6592304-1",
     "name": "Gaming stickers",
     "year": 2025,
@@ -246470,6 +246480,26 @@
     "parent_theme": ""
   },
   {
+    "set_num": "6675837-1",
+    "name": "Witch's Flight",
+    "year": 2026,
+    "theme_id": 598,
+    "num_parts": 153,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6675837-1.jpg",
+    "theme": "Promotional",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6679712-1",
+    "name": "Licencja Na Zabawę",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6679712-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
     "set_num": "6680480-1",
     "name": "Jolly Roger Mosaic",
     "year": 2026,
@@ -248728,6 +248758,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/910073-1.jpg",
     "theme": "BrickLink Designer Program",
     "parent_theme": ""
+  },
+  {
+    "set_num": "5011197-1",
+    "name": "Herschel Heritage XL Tote – Monogram Black",
+    "year": 2027,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5011197-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
   },
   {
     "set_num": "6675226-1",
