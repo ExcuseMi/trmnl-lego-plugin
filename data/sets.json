@@ -177184,7 +177184,7 @@
     "name": "Summer Arcade",
     "year": 2020,
     "theme_id": 598,
-    "num_parts": 93,
+    "num_parts": 94,
     "img_url": "https://cdn.rebrickable.com/media/sets/6336798-1.jpg",
     "theme": "Promotional",
     "parent_theme": ""
@@ -234341,7 +234341,7 @@
   },
   {
     "set_num": "6591194-1",
-    "name": "Rugby Player Keychain Light",
+    "name": "Rugby Player Key Light",
     "year": 2025,
     "theme_id": 503,
     "num_parts": 0,
@@ -246224,7 +246224,7 @@
     "name": "Insiders Sports Stadium",
     "year": 2026,
     "theme_id": 598,
-    "num_parts": 0,
+    "num_parts": 143,
     "img_url": "https://cdn.rebrickable.com/media/sets/6646282-1.jpg",
     "theme": "Promotional",
     "parent_theme": ""
@@ -248758,6 +248758,36 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/910073-1.jpg",
     "theme": "BrickLink Designer Program",
     "parent_theme": ""
+  },
+  {
+    "set_num": "5011185-1",
+    "name": "Herschel Heritage Tote - Monogram Black",
+    "year": 2027,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5011185-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5011188-1",
+    "name": "Herschel Retreat Tote - Botanical Floral Black",
+    "year": 2027,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5011188-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5011189-1",
+    "name": "Herschel Retreat Tote - Botanical Floral Lavender",
+    "year": 2027,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5011189-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
   },
   {
     "set_num": "5011197-1",
