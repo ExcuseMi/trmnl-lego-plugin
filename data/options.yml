@@ -519,6 +519,7 @@
   - Collectable Minifigures: Collectable Minifigures
   - Creator: Creator
   - Creator Expert: Creator Expert
+  - Cutelings: Cutelings
   - DC Comics Super Heroes: DC Comics Super Heroes
   - DC Super Hero Girls: DC Super Hero Girls
   - Dacta: Dacta
@@ -653,7 +654,6 @@
   - Xtra: Xtra
   - Znap: Znap
   - tbd: tbd
-  - '{Undefined}': '{Undefined}'
   help_text: Use <kbd>⌘</kbd>+<kbd>click</kbd> or <kbd>Ctrl</kbd>+<kbd>click</kbd> to select multiple themes.<br /><strong>You must select at least one theme OR specify a year range.</strong>
   optional: true
 - keyname: brickset_order_by
