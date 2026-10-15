@@ -68240,6 +68240,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "5011201-1",
+    "name": "Herschel Chapter Travel Kit - Botanical Floral Lavender",
+    "year": 2005,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5011201-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "1593270542-1",
     "name": "The Unofficial LEGO Builder's Guide",
     "year": 2005,
@@ -237180,6 +237190,26 @@
     "parent_theme": ""
   },
   {
+    "set_num": "18341-1",
+    "name": "Santa Small Plush Minifigure",
+    "year": 2026,
+    "theme_id": 735,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/18341-1.jpg",
+    "theme": "Plush Toys",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "18342-1",
+    "name": "Snowman Small Plush Minifigure",
+    "year": 2026,
+    "theme_id": 735,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/18342-1.jpg",
+    "theme": "Plush Toys",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "21064-1",
     "name": "Paris - City of Love",
     "year": 2026,
@@ -238404,7 +238434,7 @@
     "name": "Restaurants of the World: Italy",
     "year": 2026,
     "theme_id": 301,
-    "num_parts": 0,
+    "num_parts": 317,
     "img_url": "https://cdn.rebrickable.com/media/sets/40909-1.jpg",
     "theme": "Other",
     "parent_theme": ""
@@ -239850,12 +239880,132 @@
     "parent_theme": ""
   },
   {
+    "set_num": "51241-1",
+    "name": "Lloyd Small Plush Minifigure",
+    "year": 2026,
+    "theme_id": 735,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/51241-1.jpg",
+    "theme": "Plush Toys",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "51242-1",
+    "name": "Kai Small Plush Minifigure",
+    "year": 2026,
+    "theme_id": 735,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/51242-1.jpg",
+    "theme": "Plush Toys",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "51243-1",
+    "name": "Jay Small Plush Minifigure",
+    "year": 2026,
+    "theme_id": 735,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/51243-1.jpg",
+    "theme": "Plush Toys",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "51244-1",
+    "name": "Cole Small Plush Minifigure",
+    "year": 2026,
+    "theme_id": 735,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/51244-1.jpg",
+    "theme": "Plush Toys",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "51264-1",
     "name": "City No Limits Floor Puzzle",
     "year": 2026,
     "theme_id": 741,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/51264-1.jpg",
+    "theme": "Tabletop Games and Puzzles",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "51271-1",
+    "name": "Oversized Classic Puzzle",
+    "year": 2026,
+    "theme_id": 741,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/51271-1.jpg",
+    "theme": "Tabletop Games and Puzzles",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "51272-1",
+    "name": "Oversized Botanicals Puzzle",
+    "year": 2026,
+    "theme_id": 741,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/51272-1.jpg",
+    "theme": "Tabletop Games and Puzzles",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "51273-1",
+    "name": "Oversized City Puzzle",
+    "year": 2026,
+    "theme_id": 741,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/51273-1.jpg",
+    "theme": "Tabletop Games and Puzzles",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "51274-1",
+    "name": "Oversized Icons Kingfisher Puzzle",
+    "year": 2026,
+    "theme_id": 741,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/51274-1.jpg",
+    "theme": "Tabletop Games and Puzzles",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "51276-1",
+    "name": "Minifigures Puzzle",
+    "year": 2026,
+    "theme_id": 741,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/51276-1.jpg",
+    "theme": "Tabletop Games and Puzzles",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "51277-1",
+    "name": "Minifigures Puzzle",
+    "year": 2026,
+    "theme_id": 741,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/51277-1.jpg",
+    "theme": "Tabletop Games and Puzzles",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "51278-1",
+    "name": "Minifigures Shaped Collage 1 Puzzle",
+    "year": 2026,
+    "theme_id": 741,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/51278-1.jpg",
+    "theme": "Tabletop Games and Puzzles",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "51279-1",
+    "name": "Minifigures Shaped Collage 2 Puzzle",
+    "year": 2026,
+    "theme_id": 741,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/51279-1.jpg",
     "theme": "Tabletop Games and Puzzles",
     "parent_theme": "Gear"
   },
@@ -239977,6 +240127,116 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/51294-1.jpg",
     "theme": "Tabletop Games and Puzzles",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "51296-1",
+    "name": "Icons Holiday Express Train Puzzle",
+    "year": 2026,
+    "theme_id": 741,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/51296-1.jpg",
+    "theme": "Tabletop Games and Puzzles",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "51297-1",
+    "name": "Icons Family Christmas Tree Puzzle",
+    "year": 2026,
+    "theme_id": 741,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/51297-1.jpg",
+    "theme": "Tabletop Games and Puzzles",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "51298-1",
+    "name": "Icons Santa's Post Office Puzzle",
+    "year": 2026,
+    "theme_id": 741,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/51298-1.jpg",
+    "theme": "Tabletop Games and Puzzles",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "51305-1",
+    "name": "City Find the Figure Puzzle",
+    "year": 2026,
+    "theme_id": 741,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/51305-1.jpg",
+    "theme": "Tabletop Games and Puzzles",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "51337-1",
+    "name": "Doctor Small Plush Minifigure",
+    "year": 2026,
+    "theme_id": 735,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/51337-1.jpg",
+    "theme": "Plush Toys",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "51357-1",
+    "name": "Construction Worker Small Plush Minifigure",
+    "year": 2026,
+    "theme_id": 735,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/51357-1.jpg",
+    "theme": "Plush Toys",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "51358-1",
+    "name": "Race Car Driver Small Plush Minifigure",
+    "year": 2026,
+    "theme_id": 735,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/51358-1.jpg",
+    "theme": "Plush Toys",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "51359-1",
+    "name": "Astronaut Small Plush Minifigure - Blue",
+    "year": 2026,
+    "theme_id": 735,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/51359-1.jpg",
+    "theme": "Plush Toys",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "51409-1",
+    "name": "Oversized Creator Forest Animals: Red Fox Puzzle",
+    "year": 2026,
+    "theme_id": 741,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/51409-1.jpg",
+    "theme": "Tabletop Games and Puzzles",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "51432-1",
+    "name": "Frog Fan Suit Small Plush Minifigure",
+    "year": 2026,
+    "theme_id": 735,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/51432-1.jpg",
+    "theme": "Plush Toys",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "51433-1",
+    "name": "Raccoon Fan Suit Small Plush Minifigure",
+    "year": 2026,
+    "theme_id": 735,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/51433-1.jpg",
+    "theme": "Plush Toys",
     "parent_theme": "Gear"
   },
   {
@@ -245590,6 +245850,176 @@
     "parent_theme": ""
   },
   {
+    "set_num": "5011185-1",
+    "name": "Herschel Heritage Tote - Monogram Black",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5011185-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5011186-1",
+    "name": "Herschel Retreat Small Backpack - Botanical Floral Black",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5011186-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5011188-1",
+    "name": "Herschel Retreat Tote - Botanical Floral Black",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5011188-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5011189-1",
+    "name": "Herschel Retreat Tote - Botanical Floral Lavender",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5011189-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5011191-1",
+    "name": "Herschel Heritage Youth Backpack - Monogram Multicolor",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5011191-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5011192-1",
+    "name": "Herschel Heritage Youth Backpack - Color Block",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5011192-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5011193-1",
+    "name": "Herschel Heritage Backpack - Monogram Black",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5011193-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5011194-1",
+    "name": "Herschel Heritage Kids Backpack - Monogram Purple",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5011194-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5011195-1",
+    "name": "Herschel Heritage Kids Backpack - Monogram Multicolor",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5011195-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5011196-1",
+    "name": "Herschel Heritage Kids Backpack - Monogram Color Block",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5011196-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5011197-1",
+    "name": "Herschel Heritage XL Tote - Monogram Black",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5011197-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5011198-1",
+    "name": "Herschel Novel Duffle - Monogram Black",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5011198-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5011199-1",
+    "name": "Herschel Chapter Travel Kit - Monogram Black",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5011199-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5011200-1",
+    "name": "Herschel Chapter Travel Kit - Botanical Floral Black",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5011200-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5011203-1",
+    "name": "Pop Quiz Lunch Box Little Herschel - Monogram Purple",
+    "year": 2026,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5011203-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5011204-1",
+    "name": "Pop Quiz Lunch Box Little Herschel - Monogram Multicolor",
+    "year": 2026,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5011204-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5011205-1",
+    "name": "Pop Quiz Lunch Box Little Herschel - Monogram Color Block",
+    "year": 2026,
+    "theme_id": 733,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5011205-1.jpg",
+    "theme": "Houseware",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "5011215-1",
     "name": "City Activity Set",
     "year": 2026,
@@ -247740,6 +248170,56 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "1160408337-1",
+    "name": "Herschel Classic XL Backpack - Botanical Floral Black",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/1160408337-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "1160408338-1",
+    "name": "Herschel Classic XL Backpack - Botanical Floral Lavender",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/1160408338-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "1161108338-1",
+    "name": "Herschel Retreat Small Backpack - Botanical Floral Lavender",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/1161108338-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "1161607949-1",
+    "name": "Herschel Heritage Youth Backpack - Monogram Purple",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/1161607949-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "3018907252-1",
+    "name": "Herschel Anchor Sleeve - Monogram Black",
+    "year": 2026,
+    "theme_id": 777,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/3018907252-1.jpg",
+    "theme": "Bags, Totes, & Luggage",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "12011373349-1",
     "name": "City Space Explorer T-Shirt",
     "year": 2026,
@@ -248758,46 +249238,6 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/910073-1.jpg",
     "theme": "BrickLink Designer Program",
     "parent_theme": ""
-  },
-  {
-    "set_num": "5011185-1",
-    "name": "Herschel Heritage Tote - Monogram Black",
-    "year": 2027,
-    "theme_id": 777,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/5011185-1.jpg",
-    "theme": "Bags, Totes, & Luggage",
-    "parent_theme": "Gear"
-  },
-  {
-    "set_num": "5011188-1",
-    "name": "Herschel Retreat Tote - Botanical Floral Black",
-    "year": 2027,
-    "theme_id": 777,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/5011188-1.jpg",
-    "theme": "Bags, Totes, & Luggage",
-    "parent_theme": "Gear"
-  },
-  {
-    "set_num": "5011189-1",
-    "name": "Herschel Retreat Tote - Botanical Floral Lavender",
-    "year": 2027,
-    "theme_id": 777,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/5011189-1.jpg",
-    "theme": "Bags, Totes, & Luggage",
-    "parent_theme": "Gear"
-  },
-  {
-    "set_num": "5011197-1",
-    "name": "Herschel Heritage XL Tote – Monogram Black",
-    "year": 2027,
-    "theme_id": 777,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/5011197-1.jpg",
-    "theme": "Bags, Totes, & Luggage",
-    "parent_theme": "Gear"
   },
   {
     "set_num": "6675226-1",
