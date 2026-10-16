@@ -29380,6 +29380,16 @@
     "parent_theme": "Educational and Dacta"
   },
   {
+    "set_num": "22-2",
+    "name": "Italy Value-Pack",
+    "year": 1995,
+    "theme_id": 559,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/22-2.jpg",
+    "theme": "Value Packs",
+    "parent_theme": ""
+  },
+  {
     "set_num": "23-2",
     "name": "Value pack Italy",
     "year": 1995,
@@ -240210,6 +240220,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "51366-1",
+    "name": "Minifigures 100-Piece Blind Puzzle Set 6-Pack",
+    "year": 2026,
+    "theme_id": 741,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/51366-1.jpg",
+    "theme": "Tabletop Games and Puzzles",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "51409-1",
     "name": "Oversized Creator Forest Animals: Red Fox Puzzle",
     "year": 2026,
@@ -245838,6 +245858,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/5011093-1.jpg",
     "theme": "Seasonal",
     "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5011164-1",
+    "name": "Fig Beetle Garden",
+    "year": 2026,
+    "theme_id": 769,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5011164-1.jpg",
+    "theme": "Botanicals",
+    "parent_theme": ""
   },
   {
     "set_num": "5011169-1",
@@ -318313,7 +318343,7 @@
   },
   {
     "fig_num": "fig-009285",
-    "name": "Man, Blue Jacket with Orange Stripes, Dark Blue Legs, Red Cap, Sunglasses",
+    "name": "Man, Blue Jacket with Orange Stripes, Dark Blue Legs, Red Cap, Sunglasses - No Back Print",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-009285.jpg",
     "theme": "",
@@ -337217,7 +337247,7 @@
   },
   {
     "fig_num": "fig-012304",
-    "name": "Man, Blue Jacket with Orange Stripes, Dark Blue Legs, Red Cap, Sunglasses - No Backprint",
+    "name": "Man, Blue Jacket with Orange Stripes, Dark Blue Legs, Red Cap, Sunglasses",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-012304.jpg",
     "theme": "",
