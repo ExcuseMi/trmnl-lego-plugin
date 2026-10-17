@@ -237040,6 +237040,16 @@
     "parent_theme": "Seasonal"
   },
   {
+    "set_num": "11388-1",
+    "name": "Venetian Neighborhood",
+    "year": 2026,
+    "theme_id": 721,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/11388-1.jpg",
+    "theme": "Icons",
+    "parent_theme": ""
+  },
+  {
     "set_num": "11389-1",
     "name": "Project Hail Mary",
     "year": 2026,
@@ -238367,6 +238377,16 @@
     "num_parts": 174,
     "img_url": "https://cdn.rebrickable.com/media/sets/40897-1.jpg",
     "theme": "Star Wars",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "40898-1",
+    "name": "Venetian Water Taxi",
+    "year": 2026,
+    "theme_id": 721,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40898-1.jpg",
+    "theme": "Icons",
     "parent_theme": ""
   },
   {
@@ -363799,7 +363819,7 @@
   },
   {
     "fig_num": "fig-017074",
-    "name": "Logan, Trans-Light Blue Shoulder Armor. Tile",
+    "name": "Logan, Trans-Light Blue Shoulder Armor, Tile",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-017074.jpg",
     "theme": "",
