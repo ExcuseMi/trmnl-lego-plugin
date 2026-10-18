@@ -191544,7 +191544,7 @@
     "name": "Viking Ship and the Midgard Serpent",
     "year": 2022,
     "theme_id": 672,
-    "num_parts": 1192,
+    "num_parts": 1191,
     "img_url": "https://cdn.rebrickable.com/media/sets/31132-1.jpg",
     "theme": "Creator 3-in-1",
     "parent_theme": "Creator"
@@ -248236,36 +248236,6 @@
     "theme_id": 777,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/1160408338-1.jpg",
-    "theme": "Bags, Totes, & Luggage",
-    "parent_theme": "Gear"
-  },
-  {
-    "set_num": "1161108338-1",
-    "name": "Herschel Retreat Small Backpack - Botanical Floral Lavender",
-    "year": 2026,
-    "theme_id": 777,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/1161108338-1.jpg",
-    "theme": "Bags, Totes, & Luggage",
-    "parent_theme": "Gear"
-  },
-  {
-    "set_num": "1161607949-1",
-    "name": "Herschel Heritage Youth Backpack - Monogram Purple",
-    "year": 2026,
-    "theme_id": 777,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/1161607949-1.jpg",
-    "theme": "Bags, Totes, & Luggage",
-    "parent_theme": "Gear"
-  },
-  {
-    "set_num": "3018907252-1",
-    "name": "Herschel Anchor Sleeve - Monogram Black",
-    "year": 2026,
-    "theme_id": 777,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/3018907252-1.jpg",
     "theme": "Bags, Totes, & Luggage",
     "parent_theme": "Gear"
   },
