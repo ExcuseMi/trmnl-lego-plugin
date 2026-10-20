@@ -234670,6 +234670,16 @@
     "parent_theme": "Seasonal"
   },
   {
+    "set_num": "6608666-1",
+    "name": "Giraffe Playtime",
+    "year": 2025,
+    "theme_id": 157,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6608666-1.jpg",
+    "theme": "Bricktober",
+    "parent_theme": "Promotional"
+  },
+  {
     "set_num": "6610129-1",
     "name": "Penguin Holiday",
     "year": 2025,
@@ -246858,6 +246868,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/6669168-1.jpg",
     "theme": "LEGO Brand Store",
     "parent_theme": ""
+  },
+  {
+    "set_num": "6670124-1",
+    "name": "Giraffe Surprise",
+    "year": 2026,
+    "theme_id": 157,
+    "num_parts": 101,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6670124-1.jpg",
+    "theme": "Bricktober",
+    "parent_theme": "Promotional"
   },
   {
     "set_num": "6671868-1",
