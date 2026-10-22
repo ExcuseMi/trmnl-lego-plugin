@@ -711,7 +711,7 @@
   },
   {
     "set_num": "215-2",
-    "name": "2 x 8 Bricks  (EUR/UK/AUS)",
+    "name": "2 x 8 Bricks (EUR/UK/AUS)",
     "year": 1958,
     "theme_id": 371,
     "num_parts": 6,
@@ -1211,7 +1211,7 @@
   },
   {
     "set_num": "214.3-1",
-    "name": "1 x 6 x 2 Double-Pane Window in Frame w/Shutters",
+    "name": "1 x 6 x 2 Double-Pane Window in Frame with Shutters",
     "year": 1961,
     "theme_id": 371,
     "num_parts": 8,
@@ -13171,7 +13171,7 @@
   },
   {
     "set_num": "1221-1",
-    "name": "TECHNIC beams - yellow",
+    "name": "TECHNIC Beams - Yellow",
     "year": 1982,
     "theme_id": 453,
     "num_parts": 8,
@@ -13181,7 +13181,7 @@
   },
   {
     "set_num": "1222-1",
-    "name": "TECHNIC beams - blue",
+    "name": "TECHNIC Beams - Blue",
     "year": 1982,
     "theme_id": 453,
     "num_parts": 8,
@@ -13191,7 +13191,7 @@
   },
   {
     "set_num": "1223-1",
-    "name": "TECHNIC beams - black",
+    "name": "TECHNIC Beams - Black",
     "year": 1982,
     "theme_id": 453,
     "num_parts": 8,
@@ -14741,7 +14741,7 @@
   },
   {
     "set_num": "1236-1",
-    "name": "TECHNIC wheels with hubs",
+    "name": "TECHNIC Wheels with Hubs",
     "year": 1984,
     "theme_id": 453,
     "num_parts": 4,
@@ -15881,7 +15881,7 @@
   },
   {
     "set_num": "1056-1",
-    "name": "Basic School Pack - 773 elements with teacher's manual",
+    "name": "Basic School Pack - 773 Elements with Teacher's Manual",
     "year": 1985,
     "theme_id": 534,
     "num_parts": 785,
@@ -15901,7 +15901,7 @@
   },
   {
     "set_num": "1065-1",
-    "name": "House Accessories - 182 elements",
+    "name": "House Accessories - 182 Elements",
     "year": 1985,
     "theme_id": 534,
     "num_parts": 196,
@@ -16251,7 +16251,7 @@
   },
   {
     "set_num": "1960-2",
-    "name": "Special Value 96 pieces (Canadian Set)",
+    "name": "Special Value 96 Pieces (Canadian Set)",
     "year": 1985,
     "theme_id": 467,
     "num_parts": 104,
@@ -17041,7 +17041,7 @@
   },
   {
     "set_num": "198575-2",
-    "name": "Fabuland Figure Panda 2 - Orzoro Nestlé Promotional polybag",
+    "name": "Fabuland Figure Panda 2 - Orzoro Nestlé Promotional Polybag",
     "year": 1985,
     "theme_id": 390,
     "num_parts": 1,
@@ -17051,7 +17051,7 @@
   },
   {
     "set_num": "198575-3",
-    "name": "Fabuland Figure Bunny 3 - Orzoro Nestlé Promotional polybag",
+    "name": "Fabuland Figure Bunny 3 - Orzoro Nestlé Promotional Polybag",
     "year": 1985,
     "theme_id": 390,
     "num_parts": 1,
@@ -18781,7 +18781,7 @@
   },
   {
     "set_num": "1314-1",
-    "name": "Stop bush / Small pulley",
+    "name": "Stop Bush / Small Pulley",
     "year": 1987,
     "theme_id": 525,
     "num_parts": 210,
@@ -27951,7 +27951,7 @@
   },
   {
     "set_num": "1642-2",
-    "name": "Lego Motion 3B, Sea Eagle - International version",
+    "name": "Lego Motion 3B, Sea Eagle - International Version",
     "year": 1994,
     "theme_id": 728,
     "num_parts": 15,
@@ -27961,7 +27961,7 @@
   },
   {
     "set_num": "1644-2",
-    "name": "Lego Motion 4A, Wind Whirler - International version",
+    "name": "Lego Motion 4A, Wind Whirler - International Version",
     "year": 1994,
     "theme_id": 728,
     "num_parts": 17,
@@ -27971,7 +27971,7 @@
   },
   {
     "set_num": "1646-2",
-    "name": "Lego Motion 3A, Land Laser - International version",
+    "name": "Lego Motion 3A, Land Laser - International Version",
     "year": 1994,
     "theme_id": 728,
     "num_parts": 17,
@@ -27981,7 +27981,7 @@
   },
   {
     "set_num": "1649-2",
-    "name": "Lego Motion 4B, Sea Skimmer - International version",
+    "name": "Lego Motion 4B, Sea Skimmer - International Version",
     "year": 1994,
     "theme_id": 728,
     "num_parts": 17,
@@ -46741,7 +46741,7 @@
   },
   {
     "set_num": "1411-1",
-    "name": "Pirate's Treasure Hunt (Quaker Oats promo)",
+    "name": "Pirate's Treasure Hunt (Quaker Oats Promo)",
     "year": 2001,
     "theme_id": 273,
     "num_parts": 35,
@@ -46791,7 +46791,7 @@
   },
   {
     "set_num": "1417-1",
-    "name": "Vakama (Kabaya version)",
+    "name": "Vakama (Kabaya Version)",
     "year": 2001,
     "theme_id": 324,
     "num_parts": 26,
@@ -54091,7 +54091,7 @@
   },
   {
     "set_num": "10022-1",
-    "name": "Santa Fe Cars - Set II (dining, observation, or sleeping car)",
+    "name": "Santa Fe Cars - Set II (Dining, Observation, or Sleeping Car)",
     "year": 2002,
     "theme_id": 236,
     "num_parts": 411,
@@ -54121,7 +54121,7 @@
   },
   {
     "set_num": "10025-1",
-    "name": "Santa Fe Cars - Set I (mail or baggage car)",
+    "name": "Santa Fe Cars - Set I (Mail or Baggage Car)",
     "year": 2002,
     "theme_id": 236,
     "num_parts": 326,
@@ -55211,7 +55211,7 @@
   },
   {
     "set_num": "970618-1",
-    "name": "Axle Extenders (Pack of 50)  {Axle Joiners}",
+    "name": "Axle Extenders (Pack of 50) {Axle Joiners}",
     "year": 2002,
     "theme_id": 525,
     "num_parts": 50,
@@ -55841,7 +55841,7 @@
   },
   {
     "set_num": "1417-2",
-    "name": "Vakama (Polybag version)",
+    "name": "Vakama (Polybag Version)",
     "year": 2003,
     "theme_id": 324,
     "num_parts": 26,
@@ -96121,7 +96121,7 @@
   },
   {
     "set_num": "3186-1",
-    "name": "Emma's  Horse Trailer",
+    "name": "Emma's Horse Trailer",
     "year": 2012,
     "theme_id": 494,
     "num_parts": 233,
@@ -127371,7 +127371,7 @@
   },
   {
     "set_num": "5004805-1",
-    "name": "Jurassic World  - 3DS",
+    "name": "Jurassic World - 3DS",
     "year": 2015,
     "theme_id": 742,
     "num_parts": 0,
@@ -165501,7 +165501,7 @@
   },
   {
     "set_num": "2000460-1",
-    "name": "BOOMTOWN BUILD  Discover More",
+    "name": "BOOMTOWN BUILD Discover More",
     "year": 2019,
     "theme_id": 398,
     "num_parts": 12,
@@ -167681,7 +167681,7 @@
   },
   {
     "set_num": "200641915-1",
-    "name": "Friends  Good Vibes Card Wallet",
+    "name": "Friends Good Vibes Card Wallet",
     "year": 2019,
     "theme_id": 501,
     "num_parts": 0,
@@ -181581,7 +181581,7 @@
   },
   {
     "set_num": "43101-13",
-    "name": "Bandmates  Series 1 - Complete",
+    "name": "Bandmates Series 1 - Complete",
     "year": 2021,
     "theme_id": 713,
     "num_parts": 0,
@@ -181651,7 +181651,7 @@
   },
   {
     "set_num": "43108-0",
-    "name": "Bandmates  Series 2 - Random Box",
+    "name": "Bandmates Series 2 - Random Box",
     "year": 2021,
     "theme_id": 713,
     "num_parts": 0,
@@ -181781,7 +181781,7 @@
   },
   {
     "set_num": "43108-13",
-    "name": "Bandmates  Series 2 - Complete",
+    "name": "Bandmates Series 2 - Complete",
     "year": 2021,
     "theme_id": 713,
     "num_parts": 0,
@@ -188281,7 +188281,7 @@
   },
   {
     "set_num": "6332255-1",
-    "name": "Bandmates  Series 1 - Sealed Box",
+    "name": "Bandmates Series 1 - Sealed Box",
     "year": 2021,
     "theme_id": 713,
     "num_parts": 0,
@@ -188361,7 +188361,7 @@
   },
   {
     "set_num": "6360744-1",
-    "name": "Bandmates  Series 2 - Sealed Box",
+    "name": "Bandmates Series 2 - Sealed Box",
     "year": 2021,
     "theme_id": 713,
     "num_parts": 0,
@@ -222921,7 +222921,7 @@
   },
   {
     "set_num": "5711013131746-1",
-    "name": "Playful Bricks  Pencil Case",
+    "name": "Playful Bricks Pencil Case",
     "year": 2024,
     "theme_id": 739,
     "num_parts": 0,
@@ -229461,7 +229461,7 @@
   },
   {
     "set_num": "76456-1",
-    "name": "Harry Potter Advent  Calendar 2025",
+    "name": "Harry Potter Advent Calendar 2025",
     "year": 2025,
     "theme_id": 710,
     "num_parts": 278,
@@ -238224,7 +238224,7 @@
     "name": "Santa's Holiday Countdown",
     "year": 2026,
     "theme_id": 227,
-    "num_parts": 873,
+    "num_parts": 907,
     "img_url": "https://cdn.rebrickable.com/media/sets/40874-1.jpg",
     "theme": "Christmas",
     "parent_theme": "Seasonal"
@@ -238741,7 +238741,7 @@
   },
   {
     "set_num": "42220-1",
-    "name": "Monster Jam  Sparkle Smash Pull-Back",
+    "name": "Monster Jam Sparkle Smash Pull-Back",
     "year": 2026,
     "theme_id": 1,
     "num_parts": 243,
@@ -238951,7 +238951,7 @@
   },
   {
     "set_num": "42233-9",
-    "name": "Mighty Machines Series 1  - Complete - All Sets",
+    "name": "Mighty Machines Series 1 - Complete - All Sets",
     "year": 2026,
     "theme_id": 1,
     "num_parts": 0,
@@ -248794,7 +248794,7 @@
     "name": "Ninjago: The Epic History Activity Box",
     "year": 2026,
     "theme_id": 761,
-    "num_parts": 18,
+    "num_parts": 19,
     "img_url": "https://cdn.rebrickable.com/media/sets/9781837251995-1.jpg",
     "theme": "Activity Books with LEGO Parts",
     "parent_theme": "Books"
@@ -250241,7 +250241,7 @@
   },
   {
     "fig_num": "fig-000112",
-    "name": "LEGOLAND Red with Black hat",
+    "name": "LEGOLAND Red with Black Hat",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000112.jpg",
     "theme": "",
@@ -250529,7 +250529,7 @@
   },
   {
     "fig_num": "fig-000148",
-    "name": "Race Driver, Orange Torso, Orange Legs, Red  Helmet",
+    "name": "Race Driver, Orange Torso, Orange Legs, Red Helmet",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000148.jpg",
     "theme": "",
@@ -250977,7 +250977,7 @@
   },
   {
     "fig_num": "fig-000208",
-    "name": "Fireman, Classic, Black Fire Jacket with Red Belt and Buttons, White Helmet  (3626a Head)",
+    "name": "Fireman, Classic, Black Fire Jacket with Red Belt and Buttons, White Helmet (3626a Head)",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000208.jpg",
     "theme": "",
@@ -251625,7 +251625,7 @@
   },
   {
     "fig_num": "fig-000294",
-    "name": "Soccer Player Goalie Blue Torso with Silver print, Black Legs, Blue Cap",
+    "name": "Soccer Player Goalie Blue Torso with Silver Print, Black Legs, Blue Cap",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000294.jpg",
     "theme": "",
@@ -251929,7 +251929,7 @@
   },
   {
     "fig_num": "fig-000339",
-    "name": "Bat Lord (Fright Knights) - no Cape",
+    "name": "Bat Lord (Fright Knights) - No Cape",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000339.jpg",
     "theme": "",
@@ -253225,7 +253225,7 @@
   },
   {
     "fig_num": "fig-000505",
-    "name": "Wizard (Dragon Knights) - Majisto/Wiz, no Cape",
+    "name": "Wizard (Dragon Knights) - Majisto/Wiz, No Cape",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000505.jpg",
     "theme": "",
@@ -253721,7 +253721,7 @@
   },
   {
     "fig_num": "fig-000582",
-    "name": "Conductor - Yellow Jacket, Black legs, Red Hat",
+    "name": "Conductor - Yellow Jacket, Black Legs, Red Hat",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000582.jpg",
     "theme": "",
@@ -253993,7 +253993,7 @@
   },
   {
     "fig_num": "fig-000616",
-    "name": "Policeman, Black JAcket with Zipper, Radio, Badge, and 'POLICE' on Back, White Helmet with Visor, Silver Sunglasses",
+    "name": "Policeman, Black Jacket with Zipper, Radio, Badge, and 'POLICE' on Back, White Helmet with Visor, Silver Sunglasses",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000616.jpg",
     "theme": "",
@@ -254033,7 +254033,7 @@
   },
   {
     "fig_num": "fig-000621",
-    "name": "Wizard (Fantasy Era) - Good, no Cape",
+    "name": "Wizard (Fantasy Era) - Good, No Cape",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000621.jpg",
     "theme": "",
@@ -254105,7 +254105,7 @@
   },
   {
     "fig_num": "fig-000630",
-    "name": "Construction Worker, Orange Safety vest, Orange Legs, Grey Beard",
+    "name": "Construction Worker, Orange Safety Vest, Orange Legs, Grey Beard",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000630.jpg",
     "theme": "",
@@ -254217,7 +254217,7 @@
   },
   {
     "fig_num": "fig-000645",
-    "name": "King (Royal Knights) - Blue Legs, Blue Hips, no Cape",
+    "name": "King (Royal Knights) - Blue Legs, Blue Hips, No Cape",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000645.jpg",
     "theme": "",
@@ -254225,7 +254225,7 @@
   },
   {
     "fig_num": "fig-000646",
-    "name": "Knight (Fright Knights) - Black Helmet, no Plume",
+    "name": "Knight (Fright Knights) - Black Helmet, No Plume",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000646.jpg",
     "theme": "",
@@ -254305,7 +254305,7 @@
   },
   {
     "fig_num": "fig-000659",
-    "name": "Knight - Blue Torso, Dark Bluish Grey legs, Metallic Silver Helmet",
+    "name": "Knight - Blue Torso, Dark Bluish Grey Legs, Metallic Silver Helmet",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000659.jpg",
     "theme": "",
@@ -255673,7 +255673,7 @@
   },
   {
     "fig_num": "fig-000835",
-    "name": "Wizard (Kingdoms) - Dark Green, no Cape",
+    "name": "Wizard (Kingdoms) - Dark Green, No Cape",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000835.jpg",
     "theme": "",
@@ -257801,7 +257801,7 @@
   },
   {
     "fig_num": "fig-001112",
-    "name": "Worker - Orange Safety Vest, orange  Legs, Red Helmet, beard, Glasses",
+    "name": "Worker - Orange Safety Vest, Orange Legs, Red Helmet, Beard, Glasses",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-001112.jpg",
     "theme": "",
@@ -258553,7 +258553,7 @@
   },
   {
     "fig_num": "fig-001210",
-    "name": "Green Torso, White Legs, BLue Cap",
+    "name": "Green Torso, White Legs, Blue Cap",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-001210.jpg",
     "theme": "",
@@ -259329,7 +259329,7 @@
   },
   {
     "fig_num": "fig-001309",
-    "name": "Man - Black Torso, Blue Pants, Black hair",
+    "name": "Man - Black Torso, Blue Pants, Black Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-001309.jpg",
     "theme": "",
@@ -260513,7 +260513,7 @@
   },
   {
     "fig_num": "fig-001461",
-    "name": "Cinderella - Bright Light Blue Dress, Silver Stars, hair Band",
+    "name": "Cinderella - Bright Light Blue Dress, Silver Stars, Hair Band",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-001461.jpg",
     "theme": "",
@@ -263209,7 +263209,7 @@
   },
   {
     "fig_num": "fig-001811",
-    "name": "Lloyd, Kendo Outfit no Mask",
+    "name": "Lloyd, Kendo Outfit, No Mask",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-001811.jpg",
     "theme": "",
@@ -265041,7 +265041,7 @@
   },
   {
     "fig_num": "fig-002056",
-    "name": "Reddish Brown jacket, Porsche Sweater, Black Legs",
+    "name": "Reddish Brown Jacket, Porsche Sweater, Black Legs",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002056.jpg",
     "theme": "",
@@ -265097,7 +265097,7 @@
   },
   {
     "fig_num": "fig-002063",
-    "name": "Man - White Torso, classic Space Logo, Blue Legs, Red Cap",
+    "name": "Man - White Torso, Classic Space Logo, Blue Legs, Red Cap",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002063.jpg",
     "theme": "",
@@ -265793,7 +265793,7 @@
   },
   {
     "fig_num": "fig-002159",
-    "name": "Wyldstyle in blue jumpsuit",
+    "name": "Wyldstyle in Blue Jumpsuit",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002159.jpg",
     "theme": "",
@@ -265801,7 +265801,7 @@
   },
   {
     "fig_num": "fig-002160",
-    "name": "Robot pilot",
+    "name": "Robot Pilot",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002160.jpg",
     "theme": "",
@@ -265809,7 +265809,7 @@
   },
   {
     "fig_num": "fig-002161",
-    "name": "Wyldstyle in black jumpsuit",
+    "name": "Wyldstyle in Black Jumpsuit",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002161.jpg",
     "theme": "",
@@ -265993,7 +265993,7 @@
   },
   {
     "fig_num": "fig-002186",
-    "name": "Wyldstyle in black jumpsuit with hood",
+    "name": "Wyldstyle in Black Jumpsuit with Hood",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002186.jpg",
     "theme": "",
@@ -267361,7 +267361,7 @@
   },
   {
     "fig_num": "fig-002370",
-    "name": "Olivia - White/Lime top, Sand Blue Skirt",
+    "name": "Olivia - White/Lime Top, Sand Blue Skirt",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002370.jpg",
     "theme": "",
@@ -267393,7 +267393,7 @@
   },
   {
     "fig_num": "fig-002374",
-    "name": "Luis - Orange Sweater, Dark BLue Trousers",
+    "name": "Luis - Orange Sweater, Dark Blue Trousers",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002374.jpg",
     "theme": "",
@@ -267553,7 +267553,7 @@
   },
   {
     "fig_num": "fig-002396",
-    "name": "Livi - Black Top, Dark BLue Skirt, Glasses",
+    "name": "Livi - Black Top, Dark Blue Skirt, Glasses",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002396.jpg",
     "theme": "",
@@ -267561,7 +267561,7 @@
   },
   {
     "fig_num": "fig-002397",
-    "name": "Olivia - Dark BLue Vest, Medium Lavender Skirt, Flower",
+    "name": "Olivia - Dark Blue Vest, Medium Lavender Skirt, Flower",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002397.jpg",
     "theme": "",
@@ -267649,7 +267649,7 @@
   },
   {
     "fig_num": "fig-002409",
-    "name": "Ben - Sand Green Hoodie, Dark BLue Trousers",
+    "name": "Ben - Sand Green Hoodie, Dark Blue Trousers",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002409.jpg",
     "theme": "",
@@ -267673,7 +267673,7 @@
   },
   {
     "fig_num": "fig-002412",
-    "name": "Matthew - Tan Shirt, Sand BLue Trousers",
+    "name": "Matthew - Tan Shirt, Sand Blue Trousers",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002412.jpg",
     "theme": "",
@@ -268905,7 +268905,7 @@
   },
   {
     "fig_num": "fig-002583",
-    "name": "Daniel - Orange Shirt, Dark BLue Trousers",
+    "name": "Daniel - Orange Shirt, Dark Blue Trousers",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002583.jpg",
     "theme": "",
@@ -269201,7 +269201,7 @@
   },
   {
     "fig_num": "fig-002627",
-    "name": "Emma - Medium lavender Top, Light Aqua Apron",
+    "name": "Emma - Medium Lavender Top, Light Aqua Apron",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002627.jpg",
     "theme": "",
@@ -269969,7 +269969,7 @@
   },
   {
     "fig_num": "fig-002729",
-    "name": "Baby, White Body - Head with neck",
+    "name": "Baby, White Body - Head with Neck",
     "num_parts": 2,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002729.jpg",
     "theme": "",
@@ -272105,7 +272105,7 @@
   },
   {
     "fig_num": "fig-003010",
-    "name": "Samurai X / Nya (Possession) /  (Tournament of Elements)",
+    "name": "Samurai X / Nya (Possession) / (Tournament of Elements)",
     "num_parts": 7,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-003010.jpg",
     "theme": "",
@@ -278241,7 +278241,7 @@
   },
   {
     "fig_num": "fig-003836",
-    "name": "Skeleton, Standard Face, Straight Mechanical Arms  (3626c Head)",
+    "name": "Skeleton, Standard Face, Straight Mechanical Arms (3626c Head)",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-003836.jpg",
     "theme": "",
@@ -278265,7 +278265,7 @@
   },
   {
     "fig_num": "fig-003839",
-    "name": "Astromech Droid, R4-P44, Pearl Gray print",
+    "name": "Astromech Droid, R4-P44, Pearl Gray Print",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-003839.jpg",
     "theme": "",
@@ -279273,7 +279273,7 @@
   },
   {
     "fig_num": "fig-003980",
-    "name": "Luke Skywalker, Orange Rebel Pilot Outfit, Light Bluish Gray Hips, White Hands,  Visor on One Side of Head",
+    "name": "Luke Skywalker, Orange Rebel Pilot Outfit, Light Bluish Gray Hips, White Hands, Visor on One Side of Head",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-003980.jpg",
     "theme": "",
@@ -282337,7 +282337,7 @@
   },
   {
     "fig_num": "fig-004398",
-    "name": "Man - blue Torso, Red Legs",
+    "name": "Man - Blue Torso, Red Legs",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004398.jpg",
     "theme": "",
@@ -282705,7 +282705,7 @@
   },
   {
     "fig_num": "fig-004449",
-    "name": "Temmin 'Snap' Wexley / Resistance Pilot, Lines under Eyes",
+    "name": "Temmin 'Snap' Wexley / Resistance Pilot, Lines Under Eyes",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004449.jpg",
     "theme": "",
@@ -282809,7 +282809,7 @@
   },
   {
     "fig_num": "fig-004462",
-    "name": "Man - Red/White Striped Shirt, White Arms, Light gray Legs",
+    "name": "Man - Red/White Striped Shirt, White Arms, Light Gray Legs",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004462.jpg",
     "theme": "",
@@ -284321,7 +284321,7 @@
   },
   {
     "fig_num": "fig-004675",
-    "name": "Viking Warrior - Black Breast Plate, Dark BLue Legs",
+    "name": "Viking Warrior - Black Breast Plate, Dark Blue Legs",
     "num_parts": 7,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004675.jpg",
     "theme": "",
@@ -284377,7 +284377,7 @@
   },
   {
     "fig_num": "fig-004683",
-    "name": "Viking Warrior - Armour, Sand Blue Arms, Black  Legs",
+    "name": "Viking Warrior - Armour, Sand Blue Arms, Black Legs",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004683.jpg",
     "theme": "",
@@ -284825,7 +284825,7 @@
   },
   {
     "fig_num": "fig-004752",
-    "name": "Train Worker - Orange Safety Vest, Orange Legs, Red Helmet, red Hair",
+    "name": "Train Worker - Orange Safety Vest, Orange Legs, Red Helmet, Red Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004752.jpg",
     "theme": "",
@@ -285065,7 +285065,7 @@
   },
   {
     "fig_num": "fig-004783",
-    "name": "Train Conductor - Dark Blue Jacket, Dark Blue Legs, Dark Red Hat, Glasses (3626b head)",
+    "name": "Train Conductor - Dark Blue Jacket, Dark Blue Legs, Dark Red Hat, Glasses (3626b Head)",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004783.jpg",
     "theme": "",
@@ -285185,7 +285185,7 @@
   },
   {
     "fig_num": "fig-004798",
-    "name": "Conductor - Yellow Jacket, Dark gray Legs, Black Hat",
+    "name": "Conductor - Yellow Jacket, Dark Gray Legs, Black Hat",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004798.jpg",
     "theme": "",
@@ -285241,7 +285241,7 @@
   },
   {
     "fig_num": "fig-004805",
-    "name": "Man - With Shirt wit Truck, Blue Legs",
+    "name": "Man - With Shirt with Truck, Blue Legs",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004805.jpg",
     "theme": "",
@@ -285385,7 +285385,7 @@
   },
   {
     "fig_num": "fig-004823",
-    "name": "Woman - White Torso, Yellow Necklace, White  Legs",
+    "name": "Woman - White Torso, Yellow Necklace, White Legs",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004823.jpg",
     "theme": "",
@@ -285409,7 +285409,7 @@
   },
   {
     "fig_num": "fig-004826",
-    "name": "Train Worker - Red/White Shirt, Blue Legs, Red hat",
+    "name": "Train Worker - Red/White Shirt, Blue Legs, Red Hat",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004826.jpg",
     "theme": "",
@@ -286409,7 +286409,7 @@
   },
   {
     "fig_num": "fig-004975",
-    "name": "Man - Blue Torso, Blue Legs, Black hat",
+    "name": "Man - Blue Torso, Blue Legs, Black Hat",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004975.jpg",
     "theme": "",
@@ -287337,7 +287337,7 @@
   },
   {
     "fig_num": "fig-005105",
-    "name": "Man - Blue Torso, Light grey Legs, Black Hair",
+    "name": "Man - Blue Torso, Light Grey Legs, Black Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005105.jpg",
     "theme": "",
@@ -287433,7 +287433,7 @@
   },
   {
     "fig_num": "fig-005117",
-    "name": "Man - Red Torso, Blue Legs, Light grey Cowboy Head",
+    "name": "Man - Red Torso, Blue Legs, Light Grey Cowboy Head",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005117.jpg",
     "theme": "",
@@ -287449,7 +287449,7 @@
   },
   {
     "fig_num": "fig-005119",
-    "name": "Woman - Blue Torso, White Legs, Black tails",
+    "name": "Woman - Blue Torso, White Legs, Black Tails",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005119.jpg",
     "theme": "",
@@ -288129,7 +288129,7 @@
   },
   {
     "fig_num": "fig-005204",
-    "name": "Uruk-Hai  - Helmet, Armour",
+    "name": "Uruk-Hai - Helmet, Armour",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005204.jpg",
     "theme": "",
@@ -288137,7 +288137,7 @@
   },
   {
     "fig_num": "fig-005205",
-    "name": "Uruk-Hai  - Helmet",
+    "name": "Uruk-Hai - Helmet",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005205.jpg",
     "theme": "",
@@ -293369,7 +293369,7 @@
   },
   {
     "fig_num": "fig-005922",
-    "name": "Mirkwood Elf  - Dark Green",
+    "name": "Mirkwood Elf - Dark Green",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005922.jpg",
     "theme": "",
@@ -298177,7 +298177,7 @@
   },
   {
     "fig_num": "fig-006551",
-    "name": "Witch (Fright Knights) - Willa, no Cape",
+    "name": "Witch (Fright Knights) - Willa, No Cape",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-006551.jpg",
     "theme": "",
@@ -302673,7 +302673,7 @@
   },
   {
     "fig_num": "fig-007163",
-    "name": "Police - Black vest, Light Gray Legs, Black Hat",
+    "name": "Police - Black Vest, Light Gray Legs, Black Hat",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-007163.jpg",
     "theme": "",
@@ -302857,7 +302857,7 @@
   },
   {
     "fig_num": "fig-007197",
-    "name": "Basketball Player, Violet Torso, violet Legs 1",
+    "name": "Basketball Player, Violet Torso, Violet Legs 1",
     "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-007197.jpg",
     "theme": "",
@@ -302865,7 +302865,7 @@
   },
   {
     "fig_num": "fig-007198",
-    "name": "Basketball Player, Violet Torso, violet Legs 5",
+    "name": "Basketball Player, Violet Torso, Violet Legs 5",
     "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-007198.jpg",
     "theme": "",
@@ -302873,7 +302873,7 @@
   },
   {
     "fig_num": "fig-007199",
-    "name": "Basketball Player, Violet Torso, violet Legs 7",
+    "name": "Basketball Player, Violet Torso, Violet Legs 7",
     "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-007199.jpg",
     "theme": "",
@@ -302881,7 +302881,7 @@
   },
   {
     "fig_num": "fig-007200",
-    "name": "Basketball Player, Violet Torso, violet Legs 9",
+    "name": "Basketball Player, Violet Torso, Violet Legs 9",
     "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-007200.jpg",
     "theme": "",
@@ -302889,7 +302889,7 @@
   },
   {
     "fig_num": "fig-007201",
-    "name": "Basketball Player, Red  Torso, Red Legs #2",
+    "name": "Basketball Player, Red Torso, Red Legs #2",
     "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-007201.jpg",
     "theme": "",
@@ -302897,7 +302897,7 @@
   },
   {
     "fig_num": "fig-007202",
-    "name": "Basketball Player, Red  Torso, Red Legs #4",
+    "name": "Basketball Player, Red Torso, Red Legs #4",
     "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-007202.jpg",
     "theme": "",
@@ -302905,7 +302905,7 @@
   },
   {
     "fig_num": "fig-007203",
-    "name": "Basketball Player, Red  Torso, Red Legs #6",
+    "name": "Basketball Player, Red Torso, Red Legs #6",
     "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-007203.jpg",
     "theme": "",
@@ -302913,7 +302913,7 @@
   },
   {
     "fig_num": "fig-007204",
-    "name": "Basketball Player, Red  Torso, Red Legs #8",
+    "name": "Basketball Player, Red Torso, Red Legs #8",
     "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-007204.jpg",
     "theme": "",
@@ -302921,7 +302921,7 @@
   },
   {
     "fig_num": "fig-007205",
-    "name": "Basketball Player, Red  Torso, Red Legs #10",
+    "name": "Basketball Player, Red Torso, Red Legs #10",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-007205.jpg",
     "theme": "",
@@ -302929,7 +302929,7 @@
   },
   {
     "fig_num": "fig-007206",
-    "name": "Basketball Player, Red  Torso, Red Legs #8, Black Hair",
+    "name": "Basketball Player, Red Torso, Red Legs #8, Black Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-007206.jpg",
     "theme": "",
@@ -305033,7 +305033,7 @@
   },
   {
     "fig_num": "fig-007496",
-    "name": "Race Driver, Tan Torso, Tan Legs, White Helmet, ford",
+    "name": "Race Driver, Tan Torso, Tan Legs, White Helmet, Ford",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-007496.jpg",
     "theme": "",
@@ -305993,7 +305993,7 @@
   },
   {
     "fig_num": "fig-007628",
-    "name": "Pit Crew, Red Torso, Red Legs, Ferrari,  Fuel",
+    "name": "Pit Crew, Red Torso, Red Legs, Ferrari, Fuel",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-007628.jpg",
     "theme": "",
@@ -306081,7 +306081,7 @@
   },
   {
     "fig_num": "fig-007639",
-    "name": "Pit Crew, Red Torso, Red Legs, Ferrari,  Scuba Tank",
+    "name": "Pit Crew, Red Torso, Red Legs, Ferrari, Scuba Tank",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-007639.jpg",
     "theme": "",
@@ -306161,7 +306161,7 @@
   },
   {
     "fig_num": "fig-007649",
-    "name": "Race Driver, Black Torso, Red Legs, Red helmet",
+    "name": "Race Driver, Black Torso, Red Legs, Red Helmet",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-007649.jpg",
     "theme": "",
@@ -306481,7 +306481,7 @@
   },
   {
     "fig_num": "fig-007690",
-    "name": "Baby, White Body - Head with no neck",
+    "name": "Baby, White Body - Head with No Neck",
     "num_parts": 2,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-007690.jpg",
     "theme": "",
@@ -308569,7 +308569,7 @@
   },
   {
     "fig_num": "fig-007971",
-    "name": "Policewoman, Dark Blue Jacket with Radio and Badge, White Helmet with Visor  (3626cpr2589 Head)",
+    "name": "Policewoman, Dark Blue Jacket with Radio and Badge, White Helmet with Visor (3626cpr2589 Head)",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-007971.jpg",
     "theme": "",
@@ -309777,7 +309777,7 @@
   },
   {
     "fig_num": "fig-008126",
-    "name": "Man, Red Torso, Blue Legs, Black Hair (3626b head)",
+    "name": "Man, Red Torso, Blue Legs, Black Hair (3626b Head)",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-008126.jpg",
     "theme": "",
@@ -310553,7 +310553,7 @@
   },
   {
     "fig_num": "fig-008225",
-    "name": "Racer, White and Green Jacket with Octan Logo, Red Legs, White Helmet with Trans-Brown  Visor",
+    "name": "Racer, White and Green Jacket with Octan Logo, Red Legs, White Helmet with Trans-Brown Visor",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-008225.jpg",
     "theme": "",
@@ -311289,7 +311289,7 @@
   },
   {
     "fig_num": "fig-008324",
-    "name": "Dark Blue Torso, Suit, Dark Blue Legs, Light BLuish Grey Hair",
+    "name": "Dark Blue Torso, Suit, Dark Blue Legs, Light Bluish Grey Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-008324.jpg",
     "theme": "",
@@ -311305,7 +311305,7 @@
   },
   {
     "fig_num": "fig-008326",
-    "name": "Dark Bluish grey Torso, Jacket, Dark Purple Legs, Black Hair",
+    "name": "Dark Bluish Grey Torso, Jacket, Dark Purple Legs, Black Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-008326.jpg",
     "theme": "",
@@ -311425,7 +311425,7 @@
   },
   {
     "fig_num": "fig-008341",
-    "name": "Dark Bluish grey Torso, Jacket, Dark Purple Legs, Dark Orange Hair",
+    "name": "Dark Bluish Grey Torso, Jacket, Dark Purple Legs, Dark Orange Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-008341.jpg",
     "theme": "",
@@ -311489,7 +311489,7 @@
   },
   {
     "fig_num": "fig-008349",
-    "name": "Light Bluish Grey Torso Jacket, Dark BLuish Grey Legs, Black Hair",
+    "name": "Light Bluish Grey Torso Jacket, Dark Bluish Grey Legs, Black Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-008349.jpg",
     "theme": "",
@@ -311745,7 +311745,7 @@
   },
   {
     "fig_num": "fig-008381",
-    "name": "Black Torso Jacket, Light Bluish grey Legs, Light Bluish Grey Hair",
+    "name": "Black Torso Jacket, Light Bluish Grey Legs, Light Bluish Grey Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-008381.jpg",
     "theme": "",
@@ -311817,7 +311817,7 @@
   },
   {
     "fig_num": "fig-008390",
-    "name": "White Torso, Green Overall, Light BLuish Grey Hair",
+    "name": "White Torso, Green Overall, Light Bluish Grey Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-008390.jpg",
     "theme": "",
@@ -312297,7 +312297,7 @@
   },
   {
     "fig_num": "fig-008452",
-    "name": "Light Bluish Grey Torso Jacket, Black Legs, Light BLuish Grey Hair, 3626cpr0388",
+    "name": "Light Bluish Grey Torso Jacket, Black Legs, Light Bluish Grey Hair, 3626cpr0388",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-008452.jpg",
     "theme": "",
@@ -312633,7 +312633,7 @@
   },
   {
     "fig_num": "fig-008508",
-    "name": "Scientist - Dark BLuish Grey Torso, Light Bluish Grey Legs, Dark Orange Hair",
+    "name": "Scientist - Dark Bluish Grey Torso, Light Bluish Grey Legs, Dark Orange Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-008508.jpg",
     "theme": "",
@@ -312641,7 +312641,7 @@
   },
   {
     "fig_num": "fig-008509",
-    "name": "Scientist - White Torso, Labcoat, Light Bluish grey Legs, Medium Nougat Hair",
+    "name": "Scientist - White Torso, Labcoat, Light Bluish Grey Legs, Medium Nougat Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-008509.jpg",
     "theme": "",
@@ -312729,7 +312729,7 @@
   },
   {
     "fig_num": "fig-008520",
-    "name": "Scientist - White Torso, Labcoat, Light Bluish grey Legs, Red Cap",
+    "name": "Scientist - White Torso, Labcoat, Light Bluish Grey Legs, Red Cap",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-008520.jpg",
     "theme": "",
@@ -312737,7 +312737,7 @@
   },
   {
     "fig_num": "fig-008521",
-    "name": "Astronaut - White Torso and Legs, Lime decor, White Helmet Trans Orange Visor",
+    "name": "Astronaut - White Torso and Legs, Lime Decorations, White Helmet Trans Orange Visor",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-008521.jpg",
     "theme": "",
@@ -316241,7 +316241,7 @@
   },
   {
     "fig_num": "fig-008991",
-    "name": "Man, Red Riding Jacket, Light Gray Legs, Black Hard Hat (3626a head)",
+    "name": "Man, Red Riding Jacket, Light Gray Legs, Black Hard Hat (3626a Head)",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-008991.jpg",
     "theme": "",
@@ -317065,7 +317065,7 @@
   },
   {
     "fig_num": "fig-009125",
-    "name": "Man, Dark Blue Suit with no Tie, White Cap, Glasses",
+    "name": "Man, Dark Blue Suit with No Tie, White Cap, Glasses",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-009125.jpg",
     "theme": "",
@@ -317361,7 +317361,7 @@
   },
   {
     "fig_num": "fig-009163",
-    "name": "Blue Torso, Dark Blue Legs, Dark BLuish Grey Hair - Without Back Print",
+    "name": "Blue Torso, Dark Blue Legs, Dark Bluish Grey Hair - Without Back Print",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-009163.jpg",
     "theme": "",
@@ -317481,7 +317481,7 @@
   },
   {
     "fig_num": "fig-009178",
-    "name": "Kid - Red Torso, Light BLuish Grey Legs, Reddish Brown Hair",
+    "name": "Kid - Red Torso, Light Bluish Grey Legs, Reddish Brown Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-009178.jpg",
     "theme": "",
@@ -317513,7 +317513,7 @@
   },
   {
     "fig_num": "fig-009182",
-    "name": "Orange Torso, Reddish Brown Legs, Dark BLuish Grey Cap",
+    "name": "Orange Torso, Reddish Brown Legs, Dark Bluish Grey Cap",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-009182.jpg",
     "theme": "",
@@ -317561,7 +317561,7 @@
   },
   {
     "fig_num": "fig-009195",
-    "name": "Kid - Medium Blue Torso, Dark Blue Legs, red Cap",
+    "name": "Kid - Medium Blue Torso, Dark Blue Legs, Red Cap",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-009195.jpg",
     "theme": "",
@@ -317641,7 +317641,7 @@
   },
   {
     "fig_num": "fig-009205",
-    "name": "Train Worker - Dark Blue Torso, Dark BLue Legs, Dark Red Hat",
+    "name": "Train Worker - Dark Blue Torso, Dark Blue Legs, Dark Red Hat",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-009205.jpg",
     "theme": "",
@@ -317665,7 +317665,7 @@
   },
   {
     "fig_num": "fig-009208",
-    "name": "Medium Blue torso, Black Legs, Tan Hair",
+    "name": "Medium Blue Torso, Black Legs, Tan Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-009208.jpg",
     "theme": "",
@@ -318393,7 +318393,7 @@
   },
   {
     "fig_num": "fig-009301",
-    "name": "Woman, Cardigan Tied with Bow and Necklace, Light Bluish Gray  Legs, Dark Brown Hair",
+    "name": "Woman, Cardigan Tied with Bow and Necklace, Light Bluish Gray Legs, Dark Brown Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-009301.jpg",
     "theme": "",
@@ -318481,7 +318481,7 @@
   },
   {
     "fig_num": "fig-009312",
-    "name": "Orange Torso, Dark Blue Legs, Dark BLuish Grey Cap",
+    "name": "Orange Torso, Dark Blue Legs, Dark Bluish Grey Cap",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-009312.jpg",
     "theme": "",
@@ -318529,7 +318529,7 @@
   },
   {
     "fig_num": "fig-009318",
-    "name": "Kid - White Torso, Blue Legs, BLue Cap",
+    "name": "Kid - White Torso, Blue Legs, Blue Cap",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-009318.jpg",
     "theme": "",
@@ -318537,7 +318537,7 @@
   },
   {
     "fig_num": "fig-009319",
-    "name": "Medium Nougat Torso, Medium BLue Legs, Black Hair",
+    "name": "Medium Nougat Torso, Medium Blue Legs, Black Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-009319.jpg",
     "theme": "",
@@ -318745,7 +318745,7 @@
   },
   {
     "fig_num": "fig-009347",
-    "name": "White Torso, Dark BLue Legs, Dark Orange Hair",
+    "name": "White Torso, Dark Blue Legs, Dark Orange Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-009347.jpg",
     "theme": "",
@@ -318777,7 +318777,7 @@
   },
   {
     "fig_num": "fig-009351",
-    "name": "Kid - White Torso, Blue Legs, BLue Cap",
+    "name": "Kid - White Torso, Blue Legs, Blue Cap",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-009351.jpg",
     "theme": "",
@@ -318849,7 +318849,7 @@
   },
   {
     "fig_num": "fig-009360",
-    "name": "Light Bluish Grey Torso, Light Bluish Grey legs, Dark Red Hat",
+    "name": "Light Bluish Grey Torso, Light Bluish Grey Legs, Dark Red Hat",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-009360.jpg",
     "theme": "",
@@ -319409,7 +319409,7 @@
   },
   {
     "fig_num": "fig-009441",
-    "name": "Train Conductor, Dark Blue Suit with Tie and Train Logo, Dark Red Hat, Glasses (3626c head)",
+    "name": "Train Conductor, Dark Blue Suit with Tie and Train Logo, Dark Red Hat, Glasses (3626c Head)",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-009441.jpg",
     "theme": "",
@@ -319569,7 +319569,7 @@
   },
   {
     "fig_num": "fig-009461",
-    "name": "Worker - Orange Torso, BLue Legs, Red Helmet",
+    "name": "Worker - Orange Torso, Blue Legs, Red Helmet",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-009461.jpg",
     "theme": "",
@@ -319641,7 +319641,7 @@
   },
   {
     "fig_num": "fig-009472",
-    "name": "Woman, Red Torso, Red Legs,  Brown Hair (3626a Head)",
+    "name": "Woman, Red Torso, Red Legs, Brown Hair (3626a Head)",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-009472.jpg",
     "theme": "",
@@ -319801,7 +319801,7 @@
   },
   {
     "fig_num": "fig-009504",
-    "name": "Red Torso, White Legs, reddish Brown Hair",
+    "name": "Red Torso, White Legs, Reddish Brown Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-009504.jpg",
     "theme": "",
@@ -319969,7 +319969,7 @@
   },
   {
     "fig_num": "fig-009538",
-    "name": "Knight - Crown Symbol, Pearl Grey Breastplate, Dark Bluish Grey legs",
+    "name": "Knight - Crown Symbol, Pearl Grey Breastplate, Dark Bluish Grey Legs",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-009538.jpg",
     "theme": "",
@@ -320921,7 +320921,7 @@
   },
   {
     "fig_num": "fig-009660",
-    "name": "Pilot, Dark BLue JAcket with Tie and Wings Badge, Light Bluish Gray Legs, Black Hair, Beard",
+    "name": "Pilot, Dark Blue Jacket with Tie and Wings Badge, Light Bluish Gray Legs, Black Hair, Beard",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-009660.jpg",
     "theme": "",
@@ -324385,7 +324385,7 @@
   },
   {
     "fig_num": "fig-010176",
-    "name": "Chef - White Torso, White Legs, White Hat, Grey beard",
+    "name": "Chef - White Torso, White Legs, White Hat, Grey Beard",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010176.jpg",
     "theme": "",
@@ -324441,7 +324441,7 @@
   },
   {
     "fig_num": "fig-010203",
-    "name": "Flower - Green Torso and Legs,  Bright Light Blue Flower",
+    "name": "Flower - Green Torso and Legs, Bright Light Blue Flower",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010203.jpg",
     "theme": "",
@@ -325281,7 +325281,7 @@
   },
   {
     "fig_num": "fig-010360",
-    "name": "Black Torso Jacket, Light Bluish grey Legs, Dark Orange Hair - Pockets",
+    "name": "Black Torso Jacket, Light Bluish Grey Legs, Dark Orange Hair - Pockets",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010360.jpg",
     "theme": "",
@@ -325769,7 +325769,7 @@
   },
   {
     "fig_num": "fig-010434",
-    "name": "GNK Power Droid (Gonk) - Light/Dark grey",
+    "name": "GNK Power Droid (Gonk) - Light/Dark Grey",
     "num_parts": 7,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010434.jpg",
     "theme": "",
@@ -325873,7 +325873,7 @@
   },
   {
     "fig_num": "fig-010447",
-    "name": "Sandtrooper Squad Leader / Captain, Orange Pauldron, Neck Bracket, Plain Black Head, Dotted Mouth print",
+    "name": "Sandtrooper Squad Leader / Captain, Orange Pauldron, Neck Bracket, Plain Black Head, Dotted Mouth",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010447.jpg",
     "theme": "",
@@ -327049,7 +327049,7 @@
   },
   {
     "fig_num": "fig-010616",
-    "name": "Fire Fighter - Black Torso, Light Bluish grey Legs, White Helmet",
+    "name": "Fire Fighter - Black Torso, Light Bluish Grey Legs, White Helmet",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010616.jpg",
     "theme": "",
@@ -327169,7 +327169,7 @@
   },
   {
     "fig_num": "fig-010634",
-    "name": "Fireman, Black Fire Jacket with Reflective Stripes, Radio, and Badge, White Helmet with Visor, Cheek Lines, Dark BLuish Grey Legs",
+    "name": "Fireman, Black Fire Jacket with Reflective Stripes, Radio, and Badge, White Helmet with Visor, Cheek Lines, Dark Bluish Grey Legs",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010634.jpg",
     "theme": "",
@@ -327377,7 +327377,7 @@
   },
   {
     "fig_num": "fig-010669",
-    "name": "Elf - Bright Green Torso, Green legs, Bright Green Hat",
+    "name": "Elf - Bright Green Torso, Green Legs, Bright Green Hat",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010669.jpg",
     "theme": "",
@@ -327385,7 +327385,7 @@
   },
   {
     "fig_num": "fig-010670",
-    "name": "Elf - Bright Green Torso, Green legs, Bright Green Hat, Broad Smile",
+    "name": "Elf - Bright Green Torso, Green Legs, Bright Green Hat, Broad Smile",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010670.jpg",
     "theme": "",
@@ -327393,7 +327393,7 @@
   },
   {
     "fig_num": "fig-010671",
-    "name": "Elf - Bright Green Torso, Green legs, Bright Green Hat, Glasses",
+    "name": "Elf - Bright Green Torso, Green Legs, Bright Green Hat, Glasses",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010671.jpg",
     "theme": "",
@@ -327401,7 +327401,7 @@
   },
   {
     "fig_num": "fig-010672",
-    "name": "Elf - Bright Green Torso, Green legs, Bright Green Hat, Red Scarf",
+    "name": "Elf - Bright Green Torso, Green Legs, Bright Green Hat, Red Scarf",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010672.jpg",
     "theme": "",
@@ -327569,7 +327569,7 @@
   },
   {
     "fig_num": "fig-010699",
-    "name": "Fire Fighter - Black Torso, Light Bluish grey Legs, Silver Helmet",
+    "name": "Fire Fighter - Black Torso, Light Bluish Grey Legs, Silver Helmet",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010699.jpg",
     "theme": "",
@@ -328865,7 +328865,7 @@
   },
   {
     "fig_num": "fig-010912",
-    "name": "White Torso, Dark BLue Legs, Dark Brown Hair",
+    "name": "White Torso, Dark Blue Legs, Dark Brown Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010912.jpg",
     "theme": "",
@@ -328913,7 +328913,7 @@
   },
   {
     "fig_num": "fig-010920",
-    "name": "Blacksmith - Dark Tan Torso, Sand Blue legs, Dark Orange Hair and Beard",
+    "name": "Blacksmith - Dark Tan Torso, Sand Blue Legs, Dark Orange Hair and Beard",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010920.jpg",
     "theme": "",
@@ -329033,7 +329033,7 @@
   },
   {
     "fig_num": "fig-010941",
-    "name": "Master Wu Legacy - gold",
+    "name": "Master Wu Legacy - Gold",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010941.jpg",
     "theme": "",
@@ -330929,7 +330929,7 @@
   },
   {
     "fig_num": "fig-011279",
-    "name": "Black Falcon Castle Guard, Female - Blue Torso, Pearl Dark Grey Legs, Flat Silver helmet",
+    "name": "Black Falcon Castle Guard, Female - Blue Torso, Pearl Dark Grey Legs, Flat Silver Helmet",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-011279.jpg",
     "theme": "",
@@ -332241,7 +332241,7 @@
   },
   {
     "fig_num": "fig-011481",
-    "name": "Nora - White Top,  Medium Lavender Dress, Light Bluish Grey Hair",
+    "name": "Nora - White Top, Medium Lavender Dress, Light Bluish Grey Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-011481.jpg",
     "theme": "",
@@ -332337,7 +332337,7 @@
   },
   {
     "fig_num": "fig-011496",
-    "name": "Alex -  Farmhand, Red Head",
+    "name": "Alex - Farmhand, Red Head",
     "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-011496.jpg",
     "theme": "",
@@ -332769,7 +332769,7 @@
   },
   {
     "fig_num": "fig-011559",
-    "name": "Astronaut, Gold Visor,  Goatee Beard",
+    "name": "Astronaut, Gold Visor, Goatee Beard",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-011559.jpg",
     "theme": "",
@@ -335681,7 +335681,7 @@
   },
   {
     "fig_num": "fig-012025",
-    "name": "Policeman, Bright Light BLue Shirt, Dark Blue Legs and Cap, Stubble",
+    "name": "Policeman, Bright Light Blue Shirt, Dark Blue Legs and Cap, Stubble",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-012025.jpg",
     "theme": "",
@@ -337865,7 +337865,7 @@
   },
   {
     "fig_num": "fig-012420",
-    "name": "Korg - Shoulder  Armour",
+    "name": "Korg - Shoulder Armour",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-012420.jpg",
     "theme": "",
@@ -338073,7 +338073,7 @@
   },
   {
     "fig_num": "fig-012452",
-    "name": "Racer - Black Helmet,  Trans-Yellow Visor, Red Body",
+    "name": "Racer - Black Helmet, Trans-Yellow Visor, Red Body",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-012452.jpg",
     "theme": "",
@@ -338081,7 +338081,7 @@
   },
   {
     "fig_num": "fig-012453",
-    "name": "Racer - Lime Helmet,  Black Visor, Red Body",
+    "name": "Racer - Lime Helmet, Black Visor, Red Body",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-012453.jpg",
     "theme": "",
@@ -343601,7 +343601,7 @@
   },
   {
     "fig_num": "fig-013326",
-    "name": "Policewoman, Bright Light Blue Shirt, Dark Blue Legs, White Helmet an Visor",
+    "name": "Policewoman, Bright Light Blue Shirt, Dark Blue Legs, White Helmet and Visor",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-013326.jpg",
     "theme": "",
@@ -345281,7 +345281,7 @@
   },
   {
     "fig_num": "fig-013591",
-    "name": "Wendy Darling  - Microdoll",
+    "name": "Wendy Darling - Microdoll",
     "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-013591.jpg",
     "theme": "",
@@ -345305,7 +345305,7 @@
   },
   {
     "fig_num": "fig-013594",
-    "name": "Frodo  - Dark Green Cape, Reddish Brown Torso",
+    "name": "Frodo - Dark Green Cape, Reddish Brown Torso",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-013594.jpg",
     "theme": "",
@@ -345913,7 +345913,7 @@
   },
   {
     "fig_num": "fig-013697",
-    "name": "Owen Grady in Light Bluish Gray Shirt, Black neck Bracket",
+    "name": "Owen Grady in Light Bluish Gray Shirt, Black Neck Bracket",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-013697.jpg",
     "theme": "",
@@ -352193,7 +352193,7 @@
   },
   {
     "fig_num": "fig-014693",
-    "name": "Forensic Detective, White LAb Suit, White Cap",
+    "name": "Forensic Detective, White Lab Suit, White Cap",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-014693.jpg",
     "theme": "",
@@ -353489,7 +353489,7 @@
   },
   {
     "fig_num": "fig-014965",
-    "name": "Pilot Battle Droid, Insigna print",
+    "name": "Pilot Battle Droid, Insigna",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-014965.jpg",
     "theme": "",
@@ -357633,7 +357633,7 @@
   },
   {
     "fig_num": "fig-015727",
-    "name": "Astromech Droid, R4-P44, Pearl Titanium print",
+    "name": "Astromech Droid, R4-P44, Pearl Titanium Print",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-015727.jpg",
     "theme": "",
@@ -357649,7 +357649,7 @@
   },
   {
     "fig_num": "fig-015730",
-    "name": "Police Officer, Vibrant Yellow Safety Vest, Dark BLue Legs, Orange Life Vest, White Helmet",
+    "name": "Police Officer, Vibrant Yellow Safety Vest, Dark Blue Legs, Orange Life Vest, White Helmet",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-015730.jpg",
     "theme": "",
@@ -359977,7 +359977,7 @@
   },
   {
     "fig_num": "fig-016125",
-    "name": "Model Shop Owner, Reddish Brown Torso, Sand Blue Legs, Red beanie",
+    "name": "Model Shop Owner, Reddish Brown Torso, Sand Blue Legs, Red Beanie",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-016125.jpg",
     "theme": "",
@@ -360113,7 +360113,7 @@
   },
   {
     "fig_num": "fig-016194",
-    "name": "Guard in Dark Blue Cap, neck Bracket",
+    "name": "Guard in Dark Blue Cap, Neck Bracket",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-016194.jpg",
     "theme": "",
@@ -361729,7 +361729,7 @@
   },
   {
     "fig_num": "fig-016500",
-    "name": "Rapunzel, Big eyes, Flowers",
+    "name": "Rapunzel, Big Eyes, Flowers",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-016500.jpg",
     "theme": "",
