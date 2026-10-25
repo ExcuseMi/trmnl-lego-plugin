@@ -238224,7 +238224,7 @@
     "name": "Santa's Holiday Countdown",
     "year": 2026,
     "theme_id": 227,
-    "num_parts": 907,
+    "num_parts": 873,
     "img_url": "https://cdn.rebrickable.com/media/sets/40874-1.jpg",
     "theme": "Christmas",
     "parent_theme": "Seasonal"
@@ -238317,6 +238317,16 @@
     "num_parts": 185,
     "img_url": "https://cdn.rebrickable.com/media/sets/40887-1.jpg",
     "theme": "Pokémon",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "40889-1",
+    "name": "Build, Paint and Play!",
+    "year": 2026,
+    "theme_id": 576,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40889-1.jpg",
+    "theme": "LEGO Ideas and CUUSOO",
     "parent_theme": ""
   },
   {
@@ -244444,7 +244454,7 @@
     "name": "Dustmark Keep",
     "year": 2026,
     "theme_id": 719,
-    "num_parts": 0,
+    "num_parts": 3968,
     "img_url": "https://cdn.rebrickable.com/media/sets/910064-1.jpg",
     "theme": "BrickLink Designer Program",
     "parent_theme": ""
@@ -244454,7 +244464,7 @@
     "name": "Coconut Cape",
     "year": 2026,
     "theme_id": 719,
-    "num_parts": 0,
+    "num_parts": 2393,
     "img_url": "https://cdn.rebrickable.com/media/sets/910065-1.jpg",
     "theme": "BrickLink Designer Program",
     "parent_theme": ""
@@ -244464,7 +244474,7 @@
     "name": "Brick Railroad Locomotive",
     "year": 2026,
     "theme_id": 719,
-    "num_parts": 0,
+    "num_parts": 1347,
     "img_url": "https://cdn.rebrickable.com/media/sets/910066-1.jpg",
     "theme": "BrickLink Designer Program",
     "parent_theme": ""
@@ -244474,7 +244484,7 @@
     "name": "Hot Air Balloon",
     "year": 2026,
     "theme_id": 719,
-    "num_parts": 0,
+    "num_parts": 1539,
     "img_url": "https://cdn.rebrickable.com/media/sets/910067-1.jpg",
     "theme": "BrickLink Designer Program",
     "parent_theme": ""
@@ -244484,7 +244494,7 @@
     "name": "University of Science",
     "year": 2026,
     "theme_id": 719,
-    "num_parts": 0,
+    "num_parts": 4079,
     "img_url": "https://cdn.rebrickable.com/media/sets/910068-1.jpg",
     "theme": "BrickLink Designer Program",
     "parent_theme": ""
@@ -248324,7 +248334,7 @@
     "name": "Marvel: Odkryj Spider-Moce",
     "year": 2026,
     "theme_id": 761,
-    "num_parts": 0,
+    "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/5907762001465-1.jpg",
     "theme": "Activity Books with LEGO Parts",
     "parent_theme": "Books"
