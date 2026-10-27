@@ -11644,7 +11644,7 @@
     "name": "Main Street",
     "year": 1980,
     "theme_id": 67,
-    "num_parts": 608,
+    "num_parts": 612,
     "img_url": "https://cdn.rebrickable.com/media/sets/6390-1.jpg",
     "theme": "Classic Town",
     "parent_theme": "Town"
@@ -244474,7 +244474,7 @@
     "name": "Brick Railroad Locomotive",
     "year": 2026,
     "theme_id": 719,
-    "num_parts": 1347,
+    "num_parts": 1348,
     "img_url": "https://cdn.rebrickable.com/media/sets/910066-1.jpg",
     "theme": "BrickLink Designer Program",
     "parent_theme": ""
@@ -246046,6 +246046,16 @@
     "theme_id": 598,
     "num_parts": 37,
     "img_url": "https://cdn.rebrickable.com/media/sets/6572895-1.jpg",
+    "theme": "Promotional",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6575864-1",
+    "name": "Stitch M&T",
+    "year": 2026,
+    "theme_id": 598,
+    "num_parts": 27,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6575864-1.jpg",
     "theme": "Promotional",
     "parent_theme": ""
   },
