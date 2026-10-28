@@ -244454,7 +244454,7 @@
     "name": "Dustmark Keep",
     "year": 2026,
     "theme_id": 719,
-    "num_parts": 3968,
+    "num_parts": 3959,
     "img_url": "https://cdn.rebrickable.com/media/sets/910064-1.jpg",
     "theme": "BrickLink Designer Program",
     "parent_theme": ""
@@ -244464,7 +244464,7 @@
     "name": "Coconut Cape",
     "year": 2026,
     "theme_id": 719,
-    "num_parts": 2393,
+    "num_parts": 2387,
     "img_url": "https://cdn.rebrickable.com/media/sets/910065-1.jpg",
     "theme": "BrickLink Designer Program",
     "parent_theme": ""
@@ -244484,7 +244484,7 @@
     "name": "Hot Air Balloon",
     "year": 2026,
     "theme_id": 719,
-    "num_parts": 1539,
+    "num_parts": 883,
     "img_url": "https://cdn.rebrickable.com/media/sets/910067-1.jpg",
     "theme": "BrickLink Designer Program",
     "parent_theme": ""
@@ -244494,7 +244494,7 @@
     "name": "University of Science",
     "year": 2026,
     "theme_id": 719,
-    "num_parts": 4079,
+    "num_parts": 3981,
     "img_url": "https://cdn.rebrickable.com/media/sets/910068-1.jpg",
     "theme": "BrickLink Designer Program",
     "parent_theme": ""
@@ -245238,6 +245238,26 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/5010354-1.jpg",
     "theme": "Activity Books with LEGO Parts",
     "parent_theme": "Books"
+  },
+  {
+    "set_num": "5010365-1",
+    "name": "2027 Wall Calendar",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010365-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010366-1",
+    "name": "2027 Minifigure a Day Calendar",
+    "year": 2026,
+    "theme_id": 739,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010366-1.jpg",
+    "theme": "Stationery and Office Supplies",
+    "parent_theme": "Gear"
   },
   {
     "set_num": "5010388-1",
@@ -248710,16 +248730,6 @@
     "parent_theme": "Books"
   },
   {
-    "set_num": "9781797240282-1",
-    "name": "2027 Wall Calendar",
-    "year": 2026,
-    "theme_id": 739,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/9781797240282-1.jpg",
-    "theme": "Stationery and Office Supplies",
-    "parent_theme": "Gear"
-  },
-  {
     "set_num": "9781797240299-1",
     "name": "Easter Egg Hunt Puzzle",
     "year": 2026,
@@ -248727,16 +248737,6 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/9781797240299-1.jpg",
     "theme": "Tabletop Games and Puzzles",
-    "parent_theme": "Gear"
-  },
-  {
-    "set_num": "9781797240329-1",
-    "name": "2027 Minifigure a Day Calendar",
-    "year": 2026,
-    "theme_id": 739,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/9781797240329-1.jpg",
-    "theme": "Stationery and Office Supplies",
     "parent_theme": "Gear"
   },
   {
