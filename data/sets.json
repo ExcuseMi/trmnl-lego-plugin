@@ -67364,7 +67364,7 @@
     "name": "Vladek's Dark Fortress",
     "year": 2005,
     "theme_id": 198,
-    "num_parts": 989,
+    "num_parts": 970,
     "img_url": "https://cdn.rebrickable.com/media/sets/8877-1.jpg",
     "theme": "Knights Kingdom II",
     "parent_theme": "Castle"
@@ -74031,7 +74031,7 @@
   },
   {
     "set_num": "8133-1",
-    "name": "Rally Rider",
+    "name": "Rally Runner",
     "year": 2007,
     "theme_id": 112,
     "num_parts": 51,
@@ -238324,7 +238324,7 @@
     "name": "Build, Paint and Play!",
     "year": 2026,
     "theme_id": 576,
-    "num_parts": 0,
+    "num_parts": 158,
     "img_url": "https://cdn.rebrickable.com/media/sets/40889-1.jpg",
     "theme": "LEGO Ideas and CUUSOO",
     "parent_theme": ""
@@ -243124,7 +243124,7 @@
     "name": "Batman Returns Batmobile",
     "year": 2026,
     "theme_id": 697,
-    "num_parts": 2271,
+    "num_parts": 2269,
     "img_url": "https://cdn.rebrickable.com/media/sets/76355-1.jpg",
     "theme": "Batman",
     "parent_theme": "Super Heroes DC"
@@ -245224,7 +245224,7 @@
     "name": "Tiny Pets: Corgi",
     "year": 2026,
     "theme_id": 761,
-    "num_parts": 0,
+    "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/5010353-1.jpg",
     "theme": "Activity Books with LEGO Parts",
     "parent_theme": "Books"
@@ -246950,6 +246950,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "6678772-1",
+    "name": "Letter to Santa",
+    "year": 2026,
+    "theme_id": 738,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6678772-1.jpg",
+    "theme": "Seasonal",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "6679712-1",
     "name": "Licencja Na Zabawę",
     "year": 2026,
@@ -246957,6 +246967,16 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/6679712-1.jpg",
     "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6680477-1",
+    "name": "Soap Box Racer",
+    "year": 2026,
+    "theme_id": 598,
+    "num_parts": 38,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6680477-1.jpg",
+    "theme": "Promotional",
     "parent_theme": ""
   },
   {
@@ -248351,7 +248371,7 @@
   },
   {
     "set_num": "5907762001434-1",
-    "name": "DC Comics Batman: Epickie Pojedynki",
+    "name": "DC Comics Batman: Battle Box",
     "year": 2026,
     "theme_id": 761,
     "num_parts": 11,
@@ -248864,7 +248884,7 @@
     "name": "Ninjago: Dragons Rising: Cole's Mech Mission",
     "year": 2026,
     "theme_id": 761,
-    "num_parts": 0,
+    "num_parts": 30,
     "img_url": "https://cdn.rebrickable.com/media/sets/9781837252152-1.jpg",
     "theme": "Activity Books with LEGO Parts",
     "parent_theme": "Books"
@@ -249020,6 +249040,36 @@
     "parent_theme": "Books"
   },
   {
+    "set_num": "42709-1",
+    "name": "Pet Care & Play Center",
+    "year": 2027,
+    "theme_id": 494,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/42709-1.jpg",
+    "theme": "Friends",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "42718-1",
+    "name": "Friendship Party Bus",
+    "year": 2027,
+    "theme_id": 494,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/42718-1.jpg",
+    "theme": "Friends",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "42719-1",
+    "name": "Heartlake City Shopping Mall",
+    "year": 2027,
+    "theme_id": 494,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/42719-1.jpg",
+    "theme": "Friends",
+    "parent_theme": ""
+  },
+  {
     "set_num": "53894-1",
     "name": "Watercolor Set",
     "year": 2027,
@@ -249037,6 +249087,16 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/53895-1.jpg",
     "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "67005-1",
+    "name": "Marvel What if...? Doctor Strange Supreme",
+    "year": 2027,
+    "theme_id": 696,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/67005-1.jpg",
+    "theme": "Super Heroes Marvel",
     "parent_theme": ""
   },
   {
