@@ -10581,7 +10581,7 @@
   },
   {
     "set_num": "493-3",
-    "name": "Space Command Center (Craterplate vVersion)",
+    "name": "Space Command Center (Craterplate Version)",
     "year": 1979,
     "theme_id": 130,
     "num_parts": 177,
@@ -245224,7 +245224,7 @@
     "name": "Tiny Pets: Corgi",
     "year": 2026,
     "theme_id": 761,
-    "num_parts": 3,
+    "num_parts": 56,
     "img_url": "https://cdn.rebrickable.com/media/sets/5010353-1.jpg",
     "theme": "Activity Books with LEGO Parts",
     "parent_theme": "Books"
