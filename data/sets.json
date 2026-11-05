@@ -237370,6 +237370,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "21375-1",
+    "name": "Godzilla",
+    "year": 2026,
+    "theme_id": 576,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/21375-1.jpg",
+    "theme": "LEGO Ideas and CUUSOO",
+    "parent_theme": ""
+  },
+  {
     "set_num": "21376-1",
     "name": "Orange Cat",
     "year": 2026,
@@ -238317,6 +238327,16 @@
     "num_parts": 185,
     "img_url": "https://cdn.rebrickable.com/media/sets/40887-1.jpg",
     "theme": "Pokémon",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "40888-1",
+    "name": "Godzilla Logo & Footprint",
+    "year": 2026,
+    "theme_id": 576,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40888-1.jpg",
+    "theme": "LEGO Ideas and CUUSOO",
     "parent_theme": ""
   },
   {
@@ -243204,7 +243224,7 @@
     "name": "Sorcerer's Stone – Collectors' Edition",
     "year": 2026,
     "theme_id": 246,
-    "num_parts": 1574,
+    "num_parts": 1571,
     "img_url": "https://cdn.rebrickable.com/media/sets/76466-1.jpg",
     "theme": "Harry Potter",
     "parent_theme": ""
@@ -246534,7 +246554,7 @@
     "name": "Reindeer",
     "year": 2026,
     "theme_id": 227,
-    "num_parts": 0,
+    "num_parts": 36,
     "img_url": "https://cdn.rebrickable.com/media/sets/6644859-1.jpg",
     "theme": "Christmas",
     "parent_theme": "Seasonal"
