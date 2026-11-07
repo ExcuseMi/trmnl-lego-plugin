@@ -238750,6 +238750,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "40976-1",
+    "name": "Prosperity Lion",
+    "year": 2026,
+    "theme_id": 686,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40976-1.jpg",
+    "theme": "Chinese Traditional Festivals",
+    "parent_theme": ""
+  },
+  {
     "set_num": "42218-1",
     "name": "John Deere 1470H Wheeled Harvester",
     "year": 2026,
@@ -243656,6 +243666,26 @@
     "theme_id": 686,
     "num_parts": 1530,
     "img_url": "https://cdn.rebrickable.com/media/sets/80121-1.jpg",
+    "theme": "Chinese Traditional Festivals",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "80122-1",
+    "name": "Auspicious Pixiu Under Fortune Tree",
+    "year": 2026,
+    "theme_id": 686,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/80122-1.jpg",
+    "theme": "Chinese Traditional Festivals",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "80123-1",
+    "name": "Spring Festival Voyage",
+    "year": 2026,
+    "theme_id": 686,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/80123-1.jpg",
     "theme": "Chinese Traditional Festivals",
     "parent_theme": ""
   },
@@ -249186,6 +249216,16 @@
     "theme_id": 435,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/71875-1.jpg",
+    "theme": "Ninjago",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "71888-1",
+    "name": "Ivo's Ninja Dojo",
+    "year": 2027,
+    "theme_id": 435,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/71888-1.jpg",
     "theme": "Ninjago",
     "parent_theme": ""
   },
