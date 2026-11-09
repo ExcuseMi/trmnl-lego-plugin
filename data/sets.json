@@ -240460,16 +240460,6 @@
     "parent_theme": "Gear"
   },
   {
-    "set_num": "53724-1",
-    "name": "Cuddle Team Leader Bag Tag",
-    "year": 2026,
-    "theme_id": 731,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/53724-1.jpg",
-    "theme": "Bag and Luggage Tags",
-    "parent_theme": "Gear"
-  },
-  {
     "set_num": "53726-1",
     "name": "Fortnite Llama Stickers",
     "year": 2026,
@@ -241267,16 +241257,6 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/53908-1.jpg",
     "theme": "Stationery and Office Supplies",
-    "parent_theme": "Gear"
-  },
-  {
-    "set_num": "53909-1",
-    "name": "AirTag Holder 1 x 1 Round (All Colors)",
-    "year": 2026,
-    "theme_id": 731,
-    "num_parts": 0,
-    "img_url": "https://cdn.rebrickable.com/media/sets/53909-1.jpg",
-    "theme": "Bag and Luggage Tags",
     "parent_theme": "Gear"
   },
   {
@@ -245828,6 +245808,36 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/5010897-1.jpg",
     "theme": "Gear",
     "parent_theme": ""
+  },
+  {
+    "set_num": "5010912-1",
+    "name": "R2-D2 Holiday Sweater Key Light",
+    "year": 2026,
+    "theme_id": 503,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010912-1.jpg",
+    "theme": "Key Chain",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010916-1",
+    "name": "Cuddle Team Leader Bag Tag",
+    "year": 2026,
+    "theme_id": 731,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010916-1.jpg",
+    "theme": "Bag and Luggage Tags",
+    "parent_theme": "Gear"
+  },
+  {
+    "set_num": "5010920-1",
+    "name": "AirTag Holder 1 x 1 Round (All Colors)",
+    "year": 2026,
+    "theme_id": 731,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5010920-1.jpg",
+    "theme": "Bag and Luggage Tags",
+    "parent_theme": "Gear"
   },
   {
     "set_num": "5010927-1",
