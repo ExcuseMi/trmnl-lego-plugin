@@ -246840,6 +246840,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "6651644-1",
+    "name": "Winnie The Pooh 100 Years",
+    "year": 2026,
+    "theme_id": 635,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6651644-1.jpg",
+    "theme": "Winnie the Pooh",
+    "parent_theme": "Disney"
+  },
+  {
     "set_num": "6652991-1",
     "name": "Rock Guitar",
     "year": 2026,
@@ -246996,6 +247006,26 @@
     "theme_id": 408,
     "num_parts": 45,
     "img_url": "https://cdn.rebrickable.com/media/sets/6674871-1.jpg",
+    "theme": "LEGO Brand Store",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6675835-1",
+    "name": "I [Heart] LEGO Store Norwich Tile",
+    "year": 2026,
+    "theme_id": 408,
+    "num_parts": 1,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6675835-1.jpg",
+    "theme": "LEGO Brand Store",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6675836-1",
+    "name": "I [Heart] LEGO Store Lakeside Tile",
+    "year": 2026,
+    "theme_id": 408,
+    "num_parts": 1,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6675836-1.jpg",
     "theme": "LEGO Brand Store",
     "parent_theme": ""
   },
