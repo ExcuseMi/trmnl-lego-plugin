@@ -244524,7 +244524,7 @@
     "name": "University of Science",
     "year": 2026,
     "theme_id": 719,
-    "num_parts": 3981,
+    "num_parts": 3982,
     "img_url": "https://cdn.rebrickable.com/media/sets/910068-1.jpg",
     "theme": "BrickLink Designer Program",
     "parent_theme": ""
@@ -249437,6 +249437,76 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/72060-1.jpg",
     "theme": "Super Mario",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "75466-1",
+    "name": "Darth Vader 2 in 1 Wall Art",
+    "year": 2027,
+    "theme_id": 158,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/75466-1.jpg",
+    "theme": "Star Wars",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "75467-1",
+    "name": "A New Hope Movie Poster",
+    "year": 2027,
+    "theme_id": 158,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/75467-1.jpg",
+    "theme": "Star Wars",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "75470-1",
+    "name": "Mustafar Duel",
+    "year": 2027,
+    "theme_id": 158,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/75470-1.jpg",
+    "theme": "Star Wars",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "75478-1",
+    "name": "Rebel Y-Wing Starfighter",
+    "year": 2027,
+    "theme_id": 158,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/75478-1.jpg",
+    "theme": "Star Wars",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "75480-1",
+    "name": "Duel on Bespin",
+    "year": 2027,
+    "theme_id": 158,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/75480-1.jpg",
+    "theme": "Star Wars",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "75482-1",
+    "name": "Up-Scaled Luke Skywalker Minifigure",
+    "year": 2027,
+    "theme_id": 158,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/75482-1.jpg",
+    "theme": "Star Wars",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "75495-1",
+    "name": "Stormtrooper (Concept Art) Helmet",
+    "year": 2027,
+    "theme_id": 158,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/75495-1.jpg",
+    "theme": "Star Wars",
     "parent_theme": ""
   },
   {
