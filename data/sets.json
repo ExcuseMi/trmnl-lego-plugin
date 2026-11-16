@@ -167900,6 +167900,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "1276802156-8",
+    "name": "Batman Watch",
+    "year": 2019,
+    "theme_id": 732,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/1276802156-8.jpg",
+    "theme": "Clocks and Watches",
+    "parent_theme": "Gear"
+  },
+  {
     "set_num": "794043199738-1",
     "name": "The LEGO Movie 2: The Second Part (Original Motion Picture Soundtrack) (All Formats)",
     "year": 2019,
@@ -244484,7 +244494,7 @@
     "name": "Dustmark Keep",
     "year": 2026,
     "theme_id": 719,
-    "num_parts": 3959,
+    "num_parts": 3960,
     "img_url": "https://cdn.rebrickable.com/media/sets/910064-1.jpg",
     "theme": "BrickLink Designer Program",
     "parent_theme": ""
@@ -246990,6 +247000,16 @@
     "parent_theme": "Promotional"
   },
   {
+    "set_num": "6670939-1",
+    "name": "Macy's Parade 100 Santa Soars",
+    "year": 2026,
+    "theme_id": 227,
+    "num_parts": 145,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6670939-1.jpg",
+    "theme": "Christmas",
+    "parent_theme": "Seasonal"
+  },
+  {
     "set_num": "6671868-1",
     "name": "Yellow Pencil",
     "year": 2026,
@@ -247336,6 +247356,36 @@
     "theme_id": 501,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/10019744-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "10019745-1",
+    "name": "Eyeball Jibbitz",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/10019745-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "10019746-1",
+    "name": "Purple Holder Jibbitz",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/10019746-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "10019750-1",
+    "name": "Big Lightning Bolt Jibbitz",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/10019750-1.jpg",
     "theme": "Gear",
     "parent_theme": ""
   },
