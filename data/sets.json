@@ -236113,11 +236113,11 @@
     "set_num": "978832534839-7",
     "name": "Harry Potter: Time to Play! (Neville Longbottom Edition)",
     "year": 2025,
-    "theme_id": 497,
+    "theme_id": 761,
     "num_parts": 11,
     "img_url": "https://cdn.rebrickable.com/media/sets/978832534839-7.jpg",
-    "theme": "Books",
-    "parent_theme": ""
+    "theme": "Activity Books with LEGO Parts",
+    "parent_theme": "Books"
   },
   {
     "set_num": "978832534844-1",
@@ -245990,6 +245990,16 @@
     "parent_theme": "Gear"
   },
   {
+    "set_num": "5011071-1",
+    "name": "Gingerbread House",
+    "year": 2026,
+    "theme_id": 598,
+    "num_parts": 149,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5011071-1.jpg",
+    "theme": "Promotional",
+    "parent_theme": ""
+  },
+  {
     "set_num": "5011072-1",
     "name": "Ministry of Magic Phone Booth",
     "year": 2026,
@@ -246730,6 +246740,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "6644855-1",
+    "name": "The North-Pole Squad",
+    "year": 2026,
+    "theme_id": 598,
+    "num_parts": 55,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6644855-1.jpg",
+    "theme": "Promotional",
+    "parent_theme": ""
+  },
+  {
     "set_num": "6644859-1",
     "name": "Reindeer",
     "year": 2026,
@@ -247140,6 +247160,16 @@
     "parent_theme": "Seasonal"
   },
   {
+    "set_num": "6671145-1",
+    "name": "Mini Santa's Workshop",
+    "year": 2026,
+    "theme_id": 227,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6671145-1.jpg",
+    "theme": "Christmas",
+    "parent_theme": "Seasonal"
+  },
+  {
     "set_num": "6671868-1",
     "name": "Yellow Pencil",
     "year": 2026,
@@ -247256,16 +247286,6 @@
     "theme_id": 598,
     "num_parts": 150,
     "img_url": "https://cdn.rebrickable.com/media/sets/6681246-1.jpg",
-    "theme": "Promotional",
-    "parent_theme": ""
-  },
-  {
-    "set_num": "6681247-1",
-    "name": "Gingerbread House",
-    "year": 2026,
-    "theme_id": 598,
-    "num_parts": 149,
-    "img_url": "https://cdn.rebrickable.com/media/sets/6681247-1.jpg",
     "theme": "Promotional",
     "parent_theme": ""
   },
@@ -249553,11 +249573,11 @@
     "set_num": "9798217311330-1",
     "name": "Star Wars: Read. Build. Create. (2026 Edition)",
     "year": 2026,
-    "theme_id": 158,
+    "theme_id": 761,
     "num_parts": 8,
     "img_url": "https://cdn.rebrickable.com/media/sets/9798217311330-1.jpg",
-    "theme": "Star Wars",
-    "parent_theme": ""
+    "theme": "Activity Books with LEGO Parts",
+    "parent_theme": "Books"
   },
   {
     "set_num": "9798225060862-1",
@@ -249937,6 +249957,116 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/75495-1.jpg",
     "theme": "Star Wars",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "77267-1",
+    "name": "SPEED CHAMPIONS 77267",
+    "year": 2027,
+    "theme_id": 601,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/77267-1.jpg",
+    "theme": "Speed Champions",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "77268-1",
+    "name": "Oracle Red Bull Racing RB22 F1 Race Car",
+    "year": 2027,
+    "theme_id": 601,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/77268-1.jpg",
+    "theme": "Speed Champions",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "77269-1",
+    "name": "SPEED CHAMPIONS 77269",
+    "year": 2027,
+    "theme_id": 601,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/77269-1.jpg",
+    "theme": "Speed Champions",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "77270-1",
+    "name": "Mercedes-AMG PETRONAS W17 F1 Race Car",
+    "year": 2027,
+    "theme_id": 601,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/77270-1.jpg",
+    "theme": "Speed Champions",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "77271-1",
+    "name": "Aston Martin Aramco AMR26 F1 Race Car",
+    "year": 2027,
+    "theme_id": 601,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/77271-1.jpg",
+    "theme": "Speed Champions",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "77272-1",
+    "name": "Atlassian Williams FW48 F1 Race Car",
+    "year": 2027,
+    "theme_id": 601,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/77272-1.jpg",
+    "theme": "Speed Champions",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "77273-1",
+    "name": "Visa Cash App RB VCARB 03 F1 Race Car",
+    "year": 2027,
+    "theme_id": 601,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/77273-1.jpg",
+    "theme": "Speed Champions",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "77274-1",
+    "name": "BWT Alpine A526 F1 Race Car",
+    "year": 2027,
+    "theme_id": 601,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/77274-1.jpg",
+    "theme": "Speed Champions",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "77275-1",
+    "name": "TGR Haas VF-26 F1 Race Car",
+    "year": 2027,
+    "theme_id": 601,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/77275-1.jpg",
+    "theme": "Speed Champions",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "77276-1",
+    "name": "Audi Revolut R26 F1 Race Car",
+    "year": 2027,
+    "theme_id": 601,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/77276-1.jpg",
+    "theme": "Speed Champions",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "77277-1",
+    "name": "Cadillac MAC-26 F1 Race Car",
+    "year": 2027,
+    "theme_id": 601,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/77277-1.jpg",
+    "theme": "Speed Champions",
     "parent_theme": ""
   },
   {
@@ -250911,7 +251041,7 @@
   },
   {
     "fig_num": "fig-000097",
-    "name": "Knight (Knights Kingdom I) - Cedric the Bull, Chrome Helmet, Horn",
+    "name": "Knight, Knights Kingdom I, Cedric the Bull, Chrome Helmet, Horn",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000097.jpg",
     "theme": "",
@@ -251231,7 +251361,7 @@
   },
   {
     "fig_num": "fig-000137",
-    "name": "Soldier (Imperial Soldier) - Bicorne Hat",
+    "name": "Soldier, Imperial Soldier, Bicorne Hat",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000137.jpg",
     "theme": "",
@@ -251823,7 +251953,7 @@
   },
   {
     "fig_num": "fig-000216",
-    "name": "Knight (Royal Knights) - Blue Legs, Dark Gray Neck-Protector",
+    "name": "Knight, Royal Knights, Blue Legs, Dark Gray Neck-Protector",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000216.jpg",
     "theme": "",
@@ -251871,7 +252001,7 @@
   },
   {
     "fig_num": "fig-000222",
-    "name": "Tina - White/Silver Top, Dark Purple Skirt",
+    "name": "Tina, White/Silver Top, Dark Purple Skirt",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000222.jpg",
     "theme": "",
@@ -251951,7 +252081,7 @@
   },
   {
     "fig_num": "fig-000233",
-    "name": "Knight (Dragon Knights) - Light Gray Legs, Black Hips",
+    "name": "Knight, Dragon Knights, Light Gray Legs, Black Hips",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000233.jpg",
     "theme": "",
@@ -252055,7 +252185,7 @@
   },
   {
     "fig_num": "fig-000247",
-    "name": "Stephanie - White Jersey, Dark Blue Trousers",
+    "name": "Stephanie, White Jersey, Dark Blue Trousers",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000247.jpg",
     "theme": "",
@@ -252087,7 +252217,7 @@
   },
   {
     "fig_num": "fig-000251",
-    "name": "Knight (Scale Mail on Red) - Black Arms, Blue Legs, Black Chin-Guard",
+    "name": "Knight, Scale Mail on Red, Black Arms, Blue Legs, Black Chin-Guard",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000251.jpg",
     "theme": "",
@@ -252263,7 +252393,7 @@
   },
   {
     "fig_num": "fig-000274",
-    "name": "Timmy - Blue Legs, Red Cap",
+    "name": "Timmy, Blue Legs, Red Cap",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000274.jpg",
     "theme": "",
@@ -252495,7 +252625,7 @@
   },
   {
     "fig_num": "fig-000307",
-    "name": "Knight (Knights Kingdom I) - Bull Robber, Black Chin-Guard",
+    "name": "Knight, Knights Kingdom I, Bull Robber, Black Chin-Guard",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000307.jpg",
     "theme": "",
@@ -252799,7 +252929,7 @@
   },
   {
     "fig_num": "fig-000349",
-    "name": "Knight (Royal Knights) - Black Legs, Dark Gray Neck-Protector",
+    "name": "Knight, Royal Knights, Black Legs, Dark Gray Neck-Protector",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000349.jpg",
     "theme": "",
@@ -253103,7 +253233,7 @@
   },
   {
     "fig_num": "fig-000388",
-    "name": "Knight (Scale Mail on Red) - Red Arms, Black Legs, Dark Gray Neck-Protector",
+    "name": "Knight, Scale Mail on Red, Red Arms, Black Legs, Dark Gray Neck-Protector",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000388.jpg",
     "theme": "",
@@ -253119,7 +253249,7 @@
   },
   {
     "fig_num": "fig-000390",
-    "name": "Knight (Scale Mail on Blue) - Black Arms, Blue Legs, Dark Gray Neck-Protector",
+    "name": "Knight, Scale Mail on Blue, Black Arms, Blue Legs, Dark Gray Neck-Protector",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000390.jpg",
     "theme": "",
@@ -253191,7 +253321,7 @@
   },
   {
     "fig_num": "fig-000400",
-    "name": "Officer (Imperial Guard) - Yellow Epaulettes",
+    "name": "Officer, Imperial Guard, Yellow Epaulettes",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000400.jpg",
     "theme": "",
@@ -253247,7 +253377,7 @@
   },
   {
     "fig_num": "fig-000407",
-    "name": "Knight (Scale Mail on Red) - Black Arms, Black Legs, Black Neck-Protector",
+    "name": "Knight, Scale Mail on Red, Black Arms, Black Legs, Black Neck-Protector",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000407.jpg",
     "theme": "",
@@ -253431,7 +253561,7 @@
   },
   {
     "fig_num": "fig-000430",
-    "name": "Knight (Fright Knights) - Red Legs, Black Hips",
+    "name": "Knight, Fright Knights, Red Legs, Black Hips",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000430.jpg",
     "theme": "",
@@ -254015,7 +254145,7 @@
   },
   {
     "fig_num": "fig-000505",
-    "name": "Wizard (Dragon Knights) - Majisto/Wiz, No Cape",
+    "name": "Wizard, Dragon Knights, Majisto/Wiz, No Cape",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000505.jpg",
     "theme": "",
@@ -254207,7 +254337,7 @@
   },
   {
     "fig_num": "fig-000533",
-    "name": "Stephanie - Lavender Jacket, Scarf, Light Aqua Skirt",
+    "name": "Stephanie, Lavender Jacket, Scarf, Light Aqua Skirt",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000533.jpg",
     "theme": "",
@@ -254439,7 +254569,7 @@
   },
   {
     "fig_num": "fig-000573",
-    "name": "Wizard (Dragon Knights) - Majisto/Wiz, Plastic Cape",
+    "name": "Wizard, Dragon Knights, Majisto/Wiz, Plastic Cape",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000573.jpg",
     "theme": "",
@@ -254479,7 +254609,7 @@
   },
   {
     "fig_num": "fig-000578",
-    "name": "Train Worker - Red Vest, Blue Legs, White Helmet, Plain Face",
+    "name": "Train Worker, Red Vest, Blue Legs, White Helmet, Plain Face",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000578.jpg",
     "theme": "",
@@ -254495,7 +254625,7 @@
   },
   {
     "fig_num": "fig-000580",
-    "name": "Train Worker - Red Vest, Dark Gray Legs, White Helmet, Sunglasses",
+    "name": "Train Worker, Red Vest, Dark Gray Legs, White Helmet, Sunglasses",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000580.jpg",
     "theme": "",
@@ -254743,7 +254873,7 @@
   },
   {
     "fig_num": "fig-000611",
-    "name": "Stephanie - White Top, Magenta Skirt",
+    "name": "Stephanie, White Top, Magenta Skirt",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000611.jpg",
     "theme": "",
@@ -254823,7 +254953,7 @@
   },
   {
     "fig_num": "fig-000621",
-    "name": "Wizard (Fantasy Era) - Good, No Cape",
+    "name": "Wizard, Fantasy Era, Good, No Cape",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000621.jpg",
     "theme": "",
@@ -255015,7 +255145,7 @@
   },
   {
     "fig_num": "fig-000646",
-    "name": "Knight (Fright Knights) - Black Helmet, No Plume",
+    "name": "Knight, Fright Knights, Black Helmet, No Plume",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000646.jpg",
     "theme": "",
@@ -255095,7 +255225,7 @@
   },
   {
     "fig_num": "fig-000659",
-    "name": "Knight - Blue Torso, Dark Bluish Grey Legs, Metallic Silver Helmet",
+    "name": "Knight, Blue Torso, Dark Bluish Grey Legs, Metallic Silver Helmet",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000659.jpg",
     "theme": "",
@@ -255159,7 +255289,7 @@
   },
   {
     "fig_num": "fig-000668",
-    "name": "Soldier (Imperial Armada) - Red",
+    "name": "Soldier, Imperial Armada, Red",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000668.jpg",
     "theme": "",
@@ -255687,7 +255817,7 @@
   },
   {
     "fig_num": "fig-000736",
-    "name": "Soldier - Western, Lieutenant, Cap",
+    "name": "Soldier, Western, Lieutenant, Cap",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000736.jpg",
     "theme": "",
@@ -255879,7 +256009,7 @@
   },
   {
     "fig_num": "fig-000760",
-    "name": "Knight (Knights Kingdom I) - Gilbert the Bad, Black Helmet, Horn",
+    "name": "Knight, Knights Kingdom I, Gilbert the Bad, Black Helmet, Horn",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000760.jpg",
     "theme": "",
@@ -256463,7 +256593,7 @@
   },
   {
     "fig_num": "fig-000835",
-    "name": "Wizard (Kingdoms) - Dark Green, No Cape",
+    "name": "Wizard, Kingdoms, Dark Green, No Cape",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000835.jpg",
     "theme": "",
@@ -256511,7 +256641,7 @@
   },
   {
     "fig_num": "fig-000841",
-    "name": "Stephanie - White Top, Medium Azure Skirt",
+    "name": "Stephanie, White Top, Medium Azure Skirt",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000841.jpg",
     "theme": "",
@@ -256535,7 +256665,7 @@
   },
   {
     "fig_num": "fig-000844",
-    "name": "Timmy - Blue Legs, Blue Cap",
+    "name": "Timmy, Blue Legs, Blue Cap",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000844.jpg",
     "theme": "",
@@ -256655,7 +256785,7 @@
   },
   {
     "fig_num": "fig-000859",
-    "name": "Stephanie - White Top, Medium Lavender Skirt",
+    "name": "Stephanie, White Top, Medium Lavender Skirt",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000859.jpg",
     "theme": "",
@@ -256871,7 +257001,7 @@
   },
   {
     "fig_num": "fig-000887",
-    "name": "Time Twisters - Black Torso, Dark Gray Legs",
+    "name": "Time Twisters, Black Torso, Dark Gray Legs",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000887.jpg",
     "theme": "",
@@ -257023,7 +257153,7 @@
   },
   {
     "fig_num": "fig-000906",
-    "name": "Stephanie - Bright Pink Top, Dark Purple Skirt",
+    "name": "Stephanie, Bright Pink Top, Dark Purple Skirt",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000906.jpg",
     "theme": "",
@@ -258343,7 +258473,7 @@
   },
   {
     "fig_num": "fig-001077",
-    "name": "Stephanie - White Top, Dark Pink Skirt",
+    "name": "Stephanie, White Top, Dark Pink Skirt",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-001077.jpg",
     "theme": "",
@@ -258615,7 +258745,7 @@
   },
   {
     "fig_num": "fig-001116",
-    "name": "Knight (Knights Kingdom I) - Bull Robber, Black Helmet",
+    "name": "Knight, Knights Kingdom I, Bull Robber, Black Helmet",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-001116.jpg",
     "theme": "",
@@ -258719,7 +258849,7 @@
   },
   {
     "fig_num": "fig-001129",
-    "name": "Knight (Knights Kingdom I) - Cedric the Bull, Black Helmet",
+    "name": "Knight, Knights Kingdom I, Cedric the Bull, Black Helmet",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-001129.jpg",
     "theme": "",
@@ -259023,7 +259153,7 @@
   },
   {
     "fig_num": "fig-001169",
-    "name": "Stephanie - Sand Green Top, Magenta Skirt",
+    "name": "Stephanie, Sand Green Top, Magenta Skirt",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-001169.jpg",
     "theme": "",
@@ -259399,7 +259529,7 @@
   },
   {
     "fig_num": "fig-001217",
-    "name": "Space Villain - Pearl Dark Gray Peg Leg",
+    "name": "Space Villain, Pearl Dark Gray Peg Leg",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-001217.jpg",
     "theme": "",
@@ -259671,7 +259801,7 @@
   },
   {
     "fig_num": "fig-001252",
-    "name": "Woman - Blue Torso, Black Legs",
+    "name": "Woman, Blue Torso, Black Legs",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-001252.jpg",
     "theme": "",
@@ -259719,7 +259849,7 @@
   },
   {
     "fig_num": "fig-001258",
-    "name": "Stephanie - Light Aqua Top, Bright Pink Skirt",
+    "name": "Stephanie, Light Aqua Top, Bright Pink Skirt",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-001258.jpg",
     "theme": "",
@@ -260071,7 +260201,7 @@
   },
   {
     "fig_num": "fig-001303",
-    "name": "Stephanie - White Top, Lavender Skirt",
+    "name": "Stephanie, White Top, Lavender Skirt",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-001303.jpg",
     "theme": "",
@@ -260535,7 +260665,7 @@
   },
   {
     "fig_num": "fig-001362",
-    "name": "Stephanie - White Plaid Top, Dark Purple Skirt, Medium Azure Bow in Hair",
+    "name": "Stephanie, White Plaid Top, Dark Purple Skirt, Medium Azure Bow in Hair",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-001362.jpg",
     "theme": "",
@@ -261263,7 +261393,7 @@
   },
   {
     "fig_num": "fig-001455",
-    "name": "Knight - Dark Bluish Grey Torso, Black Legs, Light Bluish Grey Helmet",
+    "name": "Knight, Dark Bluish Grey Torso, Black Legs, Light Bluish Grey Helmet",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-001455.jpg",
     "theme": "",
@@ -261583,7 +261713,7 @@
   },
   {
     "fig_num": "fig-001497",
-    "name": "Stephanie - White Top, Magenta Skirt",
+    "name": "Stephanie, White Top, Magenta Skirt",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-001497.jpg",
     "theme": "",
@@ -261719,7 +261849,7 @@
   },
   {
     "fig_num": "fig-001514",
-    "name": "Train Worker - Red/White Shirt, Blue Legs, Brown Hair, (3626a Head)",
+    "name": "Train Worker, Red/White Shirt, Blue Legs, Brown Hair, (3626a Head)",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-001514.jpg",
     "theme": "",
@@ -262167,7 +262297,7 @@
   },
   {
     "fig_num": "fig-001571",
-    "name": "Stephanie - Magenta Top, Sand Green Apron",
+    "name": "Stephanie, Magenta Top, Sand Green Apron",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-001571.jpg",
     "theme": "",
@@ -262631,7 +262761,7 @@
   },
   {
     "fig_num": "fig-001631",
-    "name": "Stephanie - Bright Light Orange Ski Vest, Magenta Trousers",
+    "name": "Stephanie, Bright Light Orange Ski Vest, Magenta Trousers",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-001631.jpg",
     "theme": "",
@@ -262647,7 +262777,7 @@
   },
   {
     "fig_num": "fig-001633",
-    "name": "Stephanie - Christmas Sweater, Dark Blue Skirt",
+    "name": "Stephanie, Christmas Sweater, Dark Blue Skirt",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-001633.jpg",
     "theme": "",
@@ -262919,7 +263049,7 @@
   },
   {
     "fig_num": "fig-001668",
-    "name": "Train Worker - Orange Torso, Blue Legs, Red Helmet",
+    "name": "Train Worker, Orange Torso, Blue Legs, Red Helmet",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-001668.jpg",
     "theme": "",
@@ -262943,7 +263073,7 @@
   },
   {
     "fig_num": "fig-001671",
-    "name": "Stephanie - White/Magenta Jersey, Dark Blue Skirt",
+    "name": "Stephanie, White/Magenta Jersey, Dark Blue Skirt",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-001671.jpg",
     "theme": "",
@@ -262959,7 +263089,7 @@
   },
   {
     "fig_num": "fig-001673",
-    "name": "Stephanie - Azure Shirt, Dark Blue Skirt, Bow Tie",
+    "name": "Stephanie, Azure Shirt, Dark Blue Skirt, Bow Tie",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-001673.jpg",
     "theme": "",
@@ -264663,7 +264793,7 @@
   },
   {
     "fig_num": "fig-001900",
-    "name": "Sweet Mayhem - Wings, Helmet, Smile",
+    "name": "Sweet Mayhem, Wings, Helmet, Smile",
     "num_parts": 7,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-001900.jpg",
     "theme": "",
@@ -264727,7 +264857,7 @@
   },
   {
     "fig_num": "fig-001909",
-    "name": "Sweet Mayhem - Wings, Helmet, Angry",
+    "name": "Sweet Mayhem, Wings, Helmet, Angry",
     "num_parts": 7,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-001909.jpg",
     "theme": "",
@@ -264743,7 +264873,7 @@
   },
   {
     "fig_num": "fig-001911",
-    "name": "Sweet Mayhem - No Wings, Hair, Crooked Smile",
+    "name": "Sweet Mayhem, No Wings, Hair, Crooked Smile",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-001911.jpg",
     "theme": "",
@@ -264799,7 +264929,7 @@
   },
   {
     "fig_num": "fig-001918",
-    "name": "Stephanie - Medium Blue Jersey, Dark Blue Skirt",
+    "name": "Stephanie, Medium Blue Jersey, Dark Blue Skirt",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-001918.jpg",
     "theme": "",
@@ -265263,7 +265393,7 @@
   },
   {
     "fig_num": "fig-001981",
-    "name": "Sweet Mayhem - No Wings, Hair",
+    "name": "Sweet Mayhem, No Wings, Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-001981.jpg",
     "theme": "",
@@ -265279,7 +265409,7 @@
   },
   {
     "fig_num": "fig-001983",
-    "name": "Sweet Mayhem - Wings, Helmet",
+    "name": "Sweet Mayhem, Wings, Helmet",
     "num_parts": 7,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-001983.jpg",
     "theme": "",
@@ -265639,7 +265769,7 @@
   },
   {
     "fig_num": "fig-002031",
-    "name": "Stephanie - Medium Blue Top, Medium Azure Skirt",
+    "name": "Stephanie, Medium Blue Top, Medium Azure Skirt",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002031.jpg",
     "theme": "",
@@ -265903,7 +266033,7 @@
   },
   {
     "fig_num": "fig-002065",
-    "name": "Sweet Mayhem - Wings, Hair, Happy",
+    "name": "Sweet Mayhem, Wings, Hair, Happy",
     "num_parts": 7,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002065.jpg",
     "theme": "",
@@ -266087,7 +266217,7 @@
   },
   {
     "fig_num": "fig-002089",
-    "name": "Stormtrooper, First Order - Pointed Mouth",
+    "name": "Stormtrooper, First Order, Pointed Mouth",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002089.jpg",
     "theme": "",
@@ -267183,7 +267313,7 @@
   },
   {
     "fig_num": "fig-002238",
-    "name": "Space Police III - Officer",
+    "name": "Space Police III, Officer",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002238.jpg",
     "theme": "",
@@ -267303,7 +267433,7 @@
   },
   {
     "fig_num": "fig-002253",
-    "name": "Space Police III - Brick Daddy",
+    "name": "Space Police III, Brick Daddy",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002253.jpg",
     "theme": "",
@@ -267311,7 +267441,7 @@
   },
   {
     "fig_num": "fig-002254",
-    "name": "Space Police III - Jawson",
+    "name": "Space Police III, Jawson",
     "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002254.jpg",
     "theme": "",
@@ -267319,7 +267449,7 @@
   },
   {
     "fig_num": "fig-002256",
-    "name": "Space Police III - Skull Twin",
+    "name": "Space Police III, Skull Twin",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002256.jpg",
     "theme": "",
@@ -267327,7 +267457,7 @@
   },
   {
     "fig_num": "fig-002257",
-    "name": "Space Police III - Officer",
+    "name": "Space Police III, Officer",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002257.jpg",
     "theme": "",
@@ -267359,7 +267489,7 @@
   },
   {
     "fig_num": "fig-002261",
-    "name": "Space Police III - Frenzy",
+    "name": "Space Police III, Frenzy",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002261.jpg",
     "theme": "",
@@ -267383,7 +267513,7 @@
   },
   {
     "fig_num": "fig-002267",
-    "name": "Space Police III - Kranxx",
+    "name": "Space Police III, Kranxx",
     "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002267.jpg",
     "theme": "",
@@ -267391,7 +267521,7 @@
   },
   {
     "fig_num": "fig-002268",
-    "name": "Space Police III - Slizer",
+    "name": "Space Police III, Slizer",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002268.jpg",
     "theme": "",
@@ -267407,7 +267537,7 @@
   },
   {
     "fig_num": "fig-002271",
-    "name": "Space Police III - Classic Space Statue",
+    "name": "Space Police III, Classic Space Statue",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002271.jpg",
     "theme": "",
@@ -267415,7 +267545,7 @@
   },
   {
     "fig_num": "fig-002272",
-    "name": "Space Police III - Officer",
+    "name": "Space Police III, Officer",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002272.jpg",
     "theme": "",
@@ -267423,7 +267553,7 @@
   },
   {
     "fig_num": "fig-002274",
-    "name": "Space Police III - Officer",
+    "name": "Space Police III, Officer",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002274.jpg",
     "theme": "",
@@ -267439,7 +267569,7 @@
   },
   {
     "fig_num": "fig-002276",
-    "name": "Space Police III - Officer",
+    "name": "Space Police III, Officer",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002276.jpg",
     "theme": "",
@@ -267447,7 +267577,7 @@
   },
   {
     "fig_num": "fig-002277",
-    "name": "Space Police III - Officer",
+    "name": "Space Police III, Officer",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002277.jpg",
     "theme": "",
@@ -267455,7 +267585,7 @@
   },
   {
     "fig_num": "fig-002278",
-    "name": "Space Police III - Snake - With Visor",
+    "name": "Space Police III, Snake - With Visor",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002278.jpg",
     "theme": "",
@@ -267463,7 +267593,7 @@
   },
   {
     "fig_num": "fig-002279",
-    "name": "Space Police III - Officer",
+    "name": "Space Police III, Officer",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002279.jpg",
     "theme": "",
@@ -267479,7 +267609,7 @@
   },
   {
     "fig_num": "fig-002281",
-    "name": "Space Police III - Rench",
+    "name": "Space Police III, Rench",
     "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002281.jpg",
     "theme": "",
@@ -267487,7 +267617,7 @@
   },
   {
     "fig_num": "fig-002282",
-    "name": "Space Police III - Officer",
+    "name": "Space Police III, Officer",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002282.jpg",
     "theme": "",
@@ -267503,7 +267633,7 @@
   },
   {
     "fig_num": "fig-002284",
-    "name": "Space Police III - Squidtron",
+    "name": "Space Police III, Squidtron",
     "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002284.jpg",
     "theme": "",
@@ -267519,7 +267649,7 @@
   },
   {
     "fig_num": "fig-002289",
-    "name": "Space Police III - Snake",
+    "name": "Space Police III, Snake",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002289.jpg",
     "theme": "",
@@ -267543,7 +267673,7 @@
   },
   {
     "fig_num": "fig-002292",
-    "name": "Space Police III - Squidman",
+    "name": "Space Police III, Squidman",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002292.jpg",
     "theme": "",
@@ -267551,7 +267681,7 @@
   },
   {
     "fig_num": "fig-002293",
-    "name": "Space Police III - Officer",
+    "name": "Space Police III, Officer",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002293.jpg",
     "theme": "",
@@ -267591,7 +267721,7 @@
   },
   {
     "fig_num": "fig-002299",
-    "name": "Space Police III - Officer",
+    "name": "Space Police III, Officer",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002299.jpg",
     "theme": "",
@@ -267863,7 +267993,7 @@
   },
   {
     "fig_num": "fig-002334",
-    "name": "Knight (Dragon Knights) - Black Legs, Yellow Plumes, Plastic Cape",
+    "name": "Knight, Dragon Knights, Black Legs, Yellow Plumes, Plastic Cape",
     "num_parts": 8,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002334.jpg",
     "theme": "",
@@ -267879,7 +268009,7 @@
   },
   {
     "fig_num": "fig-002336",
-    "name": "Sophie - Light Aqua Shirt, Bright Pink Skirt",
+    "name": "Sophie, Light Aqua Shirt, Bright Pink Skirt",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002336.jpg",
     "theme": "",
@@ -267911,7 +268041,7 @@
   },
   {
     "fig_num": "fig-002340",
-    "name": "Theresa - Light Aqua Top, White Trousers",
+    "name": "Theresa, Light Aqua Top, White Trousers",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002340.jpg",
     "theme": "",
@@ -267919,7 +268049,7 @@
   },
   {
     "fig_num": "fig-002341",
-    "name": "Stephanie - White Top, Lime Trousers",
+    "name": "Stephanie, White Top, Lime Trousers",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002341.jpg",
     "theme": "",
@@ -267999,7 +268129,7 @@
   },
   {
     "fig_num": "fig-002351",
-    "name": "Stephanie - White Jacket, Dark Purple Skirt, Magenta Bow",
+    "name": "Stephanie, White Jacket, Dark Purple Skirt, Magenta Bow",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002351.jpg",
     "theme": "",
@@ -268031,7 +268161,7 @@
   },
   {
     "fig_num": "fig-002355",
-    "name": "Stephanie - White Blouse, White Trousers, Bow",
+    "name": "Stephanie, White Blouse, White Trousers, Bow",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002355.jpg",
     "theme": "",
@@ -268087,7 +268217,7 @@
   },
   {
     "fig_num": "fig-002362",
-    "name": "Sophie - Face Mask, White Robe",
+    "name": "Sophie, Face Mask, White Robe",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002362.jpg",
     "theme": "",
@@ -268095,7 +268225,7 @@
   },
   {
     "fig_num": "fig-002363",
-    "name": "Stephanie - Dark Blue Top, Magenta Skirt",
+    "name": "Stephanie, Dark Blue Top, Magenta Skirt",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002363.jpg",
     "theme": "",
@@ -268127,7 +268257,7 @@
   },
   {
     "fig_num": "fig-002367",
-    "name": "Stephanie - Lavender Blouse, Sand Green Skirt, Hat",
+    "name": "Stephanie, Lavender Blouse, Sand Green Skirt, Hat",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002367.jpg",
     "theme": "",
@@ -268135,7 +268265,7 @@
   },
   {
     "fig_num": "fig-002368",
-    "name": "Stephanie - White/Lime Top, Magenta Skirt",
+    "name": "Stephanie, White/Lime Top, Magenta Skirt",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002368.jpg",
     "theme": "",
@@ -268199,7 +268329,7 @@
   },
   {
     "fig_num": "fig-002378",
-    "name": "Stephanie - Light Aqua Top, Magenta Skirt",
+    "name": "Stephanie, Light Aqua Top, Magenta Skirt",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002378.jpg",
     "theme": "",
@@ -268247,7 +268377,7 @@
   },
   {
     "fig_num": "fig-002384",
-    "name": "Stephanie - Lime Bikini, Magenta Skirt, Bright Pink Flower",
+    "name": "Stephanie, Lime Bikini, Magenta Skirt, Bright Pink Flower",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002384.jpg",
     "theme": "",
@@ -268255,7 +268385,7 @@
   },
   {
     "fig_num": "fig-002385",
-    "name": "Susan - Red Vest, Red Dress",
+    "name": "Susan, Red Vest, Red Dress",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002385.jpg",
     "theme": "",
@@ -268295,7 +268425,7 @@
   },
   {
     "fig_num": "fig-002390",
-    "name": "Stephanie - White/Lime Top, Lavender Skirt, Glasses",
+    "name": "Stephanie, White/Lime Top, Lavender Skirt, Glasses",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002390.jpg",
     "theme": "",
@@ -268383,7 +268513,7 @@
   },
   {
     "fig_num": "fig-002402",
-    "name": "Stephanie - White/Silver Top, Magenta Skirt",
+    "name": "Stephanie, White/Silver Top, Magenta Skirt",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002402.jpg",
     "theme": "",
@@ -268423,7 +268553,7 @@
   },
   {
     "fig_num": "fig-002407",
-    "name": "Stephanie - Sand Green Vest, Dark Purple Skirt",
+    "name": "Stephanie, Sand Green Vest, Dark Purple Skirt",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002407.jpg",
     "theme": "",
@@ -268447,7 +268577,7 @@
   },
   {
     "fig_num": "fig-002410",
-    "name": "Stephanie - Medium Azure Top, Dark Purple Skirt",
+    "name": "Stephanie, Medium Azure Top, Dark Purple Skirt",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002410.jpg",
     "theme": "",
@@ -268479,7 +268609,7 @@
   },
   {
     "fig_num": "fig-002415",
-    "name": "Stephanie - White Top, Medium Lavender Skirt",
+    "name": "Stephanie ,White Top, Medium Lavender Skirt",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002415.jpg",
     "theme": "",
@@ -268495,7 +268625,7 @@
   },
   {
     "fig_num": "fig-002417",
-    "name": "Stephanie - White/Silver Top, Medium Azure Skirt",
+    "name": "Stephanie, White/Silver Top, Medium Azure Skirt",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002417.jpg",
     "theme": "",
@@ -268879,7 +269009,7 @@
   },
   {
     "fig_num": "fig-002471",
-    "name": "Soldier (Imperial Soldier II) - Black Beard, Blue Epaulettes",
+    "name": "Soldier, Imperial Soldier II, Black Beard, Blue Epaulettes",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002471.jpg",
     "theme": "",
@@ -268943,7 +269073,7 @@
   },
   {
     "fig_num": "fig-002480",
-    "name": "Knight (Halved Shield) - Black Legs, Neck-Protector",
+    "name": "Knight, Halved Shield, Black Legs, Neck-Protector",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002480.jpg",
     "theme": "",
@@ -268951,7 +269081,7 @@
   },
   {
     "fig_num": "fig-002481",
-    "name": "Knight (Halved Shield) - Light Gray Legs, Chin-Guard",
+    "name": "Knight, Halved Shield, Light Gray Legs, Chin-Guard",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002481.jpg",
     "theme": "",
@@ -268975,7 +269105,7 @@
   },
   {
     "fig_num": "fig-002484",
-    "name": "Knight (Scale Mail on Red) - Black Arms, Black Legs, Black Neck-Protector, Plastic Cape",
+    "name": "Knight, Scale Mail on Red, Black Arms, Black Legs, Black Neck-Protector, Plastic Cape",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002484.jpg",
     "theme": "",
@@ -269671,7 +269801,7 @@
   },
   {
     "fig_num": "fig-002580",
-    "name": "Stephanie - White Plaid Top, Dark Purple Skirt",
+    "name": "Stephanie, White Plaid Top, Dark Purple Skirt",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002580.jpg",
     "theme": "",
@@ -269711,7 +269841,7 @@
   },
   {
     "fig_num": "fig-002585",
-    "name": "Sophie - Dark Azure Vest, Dark Blue Skirt, Veterinarian",
+    "name": "Sophie, Dark Azure Vest, Dark Blue Skirt, Veterinarian",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002585.jpg",
     "theme": "",
@@ -269855,7 +269985,7 @@
   },
   {
     "fig_num": "fig-002610",
-    "name": "Stephanie - Medium Azure Ski Vest, Light Aqua Skirt",
+    "name": "Stephanie, Medium Azure Ski Vest, Light Aqua Skirt",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002610.jpg",
     "theme": "",
@@ -269879,7 +270009,7 @@
   },
   {
     "fig_num": "fig-002613",
-    "name": "Stephanie - White/Magenta Top, Dark Blue Skirt",
+    "name": "Stephanie, White/Magenta Top, Dark Blue Skirt",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002613.jpg",
     "theme": "",
@@ -269911,7 +270041,7 @@
   },
   {
     "fig_num": "fig-002617",
-    "name": "Stephanie - Dark Purple Top, Medium Azure Skirt",
+    "name": "Stephanie, Dark Purple Top, Medium Azure Skirt",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002617.jpg",
     "theme": "",
@@ -269951,7 +270081,7 @@
   },
   {
     "fig_num": "fig-002622",
-    "name": "Steve - Sand Green Shirt, Dark Blue Trousers",
+    "name": "Steve, Sand Green Shirt, Dark Blue Trousers",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002622.jpg",
     "theme": "",
@@ -270007,7 +270137,7 @@
   },
   {
     "fig_num": "fig-002629",
-    "name": "Stephanie - Medium Azure Top, Dark Blue Skirt",
+    "name": "Stephanie, Medium Azure Top, Dark Blue Skirt",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002629.jpg",
     "theme": "",
@@ -270039,7 +270169,7 @@
   },
   {
     "fig_num": "fig-002633",
-    "name": "Stephanie - Dark Purple/Medium Blue Bikini, Dark Blue Skirt",
+    "name": "Stephanie, Dark Purple/Medium Blue Bikini, Dark Blue Skirt",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002633.jpg",
     "theme": "",
@@ -270055,7 +270185,7 @@
   },
   {
     "fig_num": "fig-002635",
-    "name": "Stephanie - Azure Top, Dark Blue Skirt, Life Vest",
+    "name": "Stephanie, Azure Top, Dark Blue Skirt, Life Vest",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002635.jpg",
     "theme": "",
@@ -270079,7 +270209,7 @@
   },
   {
     "fig_num": "fig-002640",
-    "name": "Vicky - Gold Top, Black Trousers",
+    "name": "Vicky, Gold Top, Black Trousers",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002640.jpg",
     "theme": "",
@@ -270087,7 +270217,7 @@
   },
   {
     "fig_num": "fig-002641",
-    "name": "Stephanie - Medium Azure Top, Medium Azure Skirt",
+    "name": "Stephanie, Medium Azure Top, Medium Azure Skirt",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002641.jpg",
     "theme": "",
@@ -270095,7 +270225,7 @@
   },
   {
     "fig_num": "fig-002643",
-    "name": "Vicky - Red/Yellow/Black Racing Suit, Red Helmet",
+    "name": "Vicky, Red/Yellow/Black Racing Suit, Red Helmet",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002643.jpg",
     "theme": "",
@@ -270111,7 +270241,7 @@
   },
   {
     "fig_num": "fig-002645",
-    "name": "Stephanie - Medium Blue/Dark Purple Bikini, Bright Pink Skirt",
+    "name": "Stephanie, Medium Blue/Dark Purple Bikini, Bright Pink Skirt",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002645.jpg",
     "theme": "",
@@ -270135,7 +270265,7 @@
   },
   {
     "fig_num": "fig-002648",
-    "name": "Stephanie - Medium Azure Wet Suit",
+    "name": "Stephanie, Medium Azure Wet Suit",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002648.jpg",
     "theme": "",
@@ -270191,7 +270321,7 @@
   },
   {
     "fig_num": "fig-002655",
-    "name": "Vicky - Yellow Plaid Shirt, Sand Blue Trousers, Magenta Bow",
+    "name": "Vicky, Yellow Plaid Shirt, Sand Blue Trousers, Magenta Bow",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002655.jpg",
     "theme": "",
@@ -270223,7 +270353,7 @@
   },
   {
     "fig_num": "fig-002659",
-    "name": "Stephanie - Medium Azure Top, Yellow Skirt",
+    "name": "Stephanie, Medium Azure Top, Yellow Skirt",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002659.jpg",
     "theme": "",
@@ -270351,7 +270481,7 @@
   },
   {
     "fig_num": "fig-002675",
-    "name": "Stephanie - Silver/White Sport Outfit",
+    "name": "Stephanie, Silver/White Sport Outfit",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002675.jpg",
     "theme": "",
@@ -270367,7 +270497,7 @@
   },
   {
     "fig_num": "fig-002677",
-    "name": "Stephanie - Magenta/Bright Pink Top, Medium Blue Trousers, Black Cap",
+    "name": "Stephanie, Magenta/Bright Pink Top, Medium Blue Trousers, Black Cap",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002677.jpg",
     "theme": "",
@@ -270383,7 +270513,7 @@
   },
   {
     "fig_num": "fig-002679",
-    "name": "Vicky - Yellow Plaid Shirt, Yellow Skirt, Glasses",
+    "name": "Vicky, Yellow Plaid Shirt, Yellow Skirt, Glasses",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002679.jpg",
     "theme": "",
@@ -270551,7 +270681,7 @@
   },
   {
     "fig_num": "fig-002701",
-    "name": "Stephanie - Yellow Top, White Apron",
+    "name": "Stephanie, Yellow Top, White Apron",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002701.jpg",
     "theme": "",
@@ -270607,7 +270737,7 @@
   },
   {
     "fig_num": "fig-002708",
-    "name": "Stephanie - White Top, Medium Azure Skirt",
+    "name": "Stephanie, White Top, Medium Azure Skirt",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002708.jpg",
     "theme": "",
@@ -271119,7 +271249,7 @@
   },
   {
     "fig_num": "fig-002779",
-    "name": "Lloyd (Legacy) - MANTER",
+    "name": "Lloyd, Legacy, MANTER",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002779.jpg",
     "theme": "",
@@ -279047,7 +279177,7 @@
   },
   {
     "fig_num": "fig-003838",
-    "name": "Wampa (Big Fig) - Dark Tan Nose",
+    "name": "Wampa (Big Fig), Dark Tan Nose",
     "num_parts": 7,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-003838.jpg",
     "theme": "",
@@ -282975,7 +283105,7 @@
   },
   {
     "fig_num": "fig-004379",
-    "name": "Viking Warrior - Chain Mail, Red Band",
+    "name": "Viking Warrior, Chain Mail, Red Band",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004379.jpg",
     "theme": "",
@@ -282983,7 +283113,7 @@
   },
   {
     "fig_num": "fig-004380",
-    "name": "Viking Warrior - Chain Mail, Sand Green Arms",
+    "name": "Viking Warrior, Chain Mail, Sand Green Arms",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004380.jpg",
     "theme": "",
@@ -282991,7 +283121,7 @@
   },
   {
     "fig_num": "fig-004381",
-    "name": "Viking Warrior - Armour, Sand Blue Arms",
+    "name": "Viking Warrior, Armour, Sand Blue Arms",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004381.jpg",
     "theme": "",
@@ -282999,7 +283129,7 @@
   },
   {
     "fig_num": "fig-004382",
-    "name": "Viking Warrior - Armour, Sand Blue Arms, Reddish Brown Legs",
+    "name": "Viking Warrior, Armour, Sand Blue Arms, Reddish Brown Legs",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004382.jpg",
     "theme": "",
@@ -283007,7 +283137,7 @@
   },
   {
     "fig_num": "fig-004383",
-    "name": "Viking Warrior - Armour, Dark Red Arms",
+    "name": "Viking Warrior, Armour, Dark Red Arms",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004383.jpg",
     "theme": "",
@@ -283015,7 +283145,7 @@
   },
   {
     "fig_num": "fig-004384",
-    "name": "Viking Warrior - Armour, Bare Arms",
+    "name": "Viking Warrior, Armour, Bare Arms",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004384.jpg",
     "theme": "",
@@ -283095,7 +283225,7 @@
   },
   {
     "fig_num": "fig-004394",
-    "name": "Woman - Blue Torso, White Legs",
+    "name": "Woman, Blue Torso, White Legs",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004394.jpg",
     "theme": "",
@@ -283135,7 +283265,7 @@
   },
   {
     "fig_num": "fig-004399",
-    "name": "Woman - Black Torso, White Legs",
+    "name": "Woman, Black Torso, White Legs",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004399.jpg",
     "theme": "",
@@ -283151,7 +283281,7 @@
   },
   {
     "fig_num": "fig-004401",
-    "name": "Woman - Blue Torso, Red Legs",
+    "name": "Woman, Blue Torso, Red Legs",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004401.jpg",
     "theme": "",
@@ -283159,7 +283289,7 @@
   },
   {
     "fig_num": "fig-004402",
-    "name": "Woman - Blue Torso, Blue Legs",
+    "name": "Woman, Blue Torso, Blue Legs",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004402.jpg",
     "theme": "",
@@ -283287,7 +283417,7 @@
   },
   {
     "fig_num": "fig-004420",
-    "name": "Knight (Yellow Castle) - Black",
+    "name": "Knight, Yellow Castle, Black",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004420.jpg",
     "theme": "",
@@ -283311,7 +283441,7 @@
   },
   {
     "fig_num": "fig-004423",
-    "name": "Knight (Yellow Castle) - Black with Visor",
+    "name": "Knight, Yellow Castle, Black with Visor",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004423.jpg",
     "theme": "",
@@ -283319,7 +283449,7 @@
   },
   {
     "fig_num": "fig-004424",
-    "name": "Knight (Yellow Castle) - Blue",
+    "name": "Knight, Yellow Castle, Blue",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004424.jpg",
     "theme": "",
@@ -283343,7 +283473,7 @@
   },
   {
     "fig_num": "fig-004427",
-    "name": "Knight (Yellow Castle) - Blue with Visor",
+    "name": "Knight, Yellow Castle, Blue with Visor",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004427.jpg",
     "theme": "",
@@ -283383,7 +283513,7 @@
   },
   {
     "fig_num": "fig-004433",
-    "name": "Knight (Yellow Castle) - Red",
+    "name": "Knight, Yellow Castle, Red",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004433.jpg",
     "theme": "",
@@ -283407,7 +283537,7 @@
   },
   {
     "fig_num": "fig-004436",
-    "name": "Knight (Yellow Castle) - Red with Visor",
+    "name": "Knight, Yellow Castle, Red with Visor",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004436.jpg",
     "theme": "",
@@ -283423,7 +283553,7 @@
   },
   {
     "fig_num": "fig-004438",
-    "name": "Knight (Yellow Castle) - White",
+    "name": "Knight, Yellow Castle, White",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004438.jpg",
     "theme": "",
@@ -283447,7 +283577,7 @@
   },
   {
     "fig_num": "fig-004441",
-    "name": "Knight (Yellow Castle) - White with Visor",
+    "name": "Knight, Yellow Castle, White with Visor",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004441.jpg",
     "theme": "",
@@ -283623,7 +283753,7 @@
   },
   {
     "fig_num": "fig-004465",
-    "name": "Woman - Gold Necklace, White Torso, Blue Legs, Red Hair",
+    "name": "Woman, Gold Necklace, White Torso, Blue Legs, Red Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004465.jpg",
     "theme": "",
@@ -283647,7 +283777,7 @@
   },
   {
     "fig_num": "fig-004469",
-    "name": "Woman - Red Torso, Blue Legs",
+    "name": "Woman, Red Torso, Blue Legs",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004469.jpg",
     "theme": "",
@@ -283711,7 +283841,7 @@
   },
   {
     "fig_num": "fig-004477",
-    "name": "Knight (Halved Shield) - Black Legs, Chin-Guard",
+    "name": "Knight, Halved Shield, Black Legs, Chin-Guard",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004477.jpg",
     "theme": "",
@@ -283719,7 +283849,7 @@
   },
   {
     "fig_num": "fig-004478",
-    "name": "Knight (Quartered Shield) - White Legs, Black Visor",
+    "name": "Knight, Quartered Shield, White Legs, Black Visor",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004478.jpg",
     "theme": "",
@@ -283759,7 +283889,7 @@
   },
   {
     "fig_num": "fig-004486",
-    "name": "Knight (Halved Shield) - Light Gray Legs, Neck-Protector",
+    "name": "Knight, Halved Shield, Light Gray Legs, Neck-Protector",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004486.jpg",
     "theme": "",
@@ -283815,7 +283945,7 @@
   },
   {
     "fig_num": "fig-004494",
-    "name": "Knight (Thirded Shield) - Black Legs",
+    "name": "Knight, Thirded Shield, Black Legs",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004494.jpg",
     "theme": "",
@@ -283839,7 +283969,7 @@
   },
   {
     "fig_num": "fig-004497",
-    "name": "Knight (Quartered Shield) - Red Legs, Neck-Protector",
+    "name": "Knight, Quartered Shield, Red Legs, Neck-Protector",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004497.jpg",
     "theme": "",
@@ -283975,7 +284105,7 @@
   },
   {
     "fig_num": "fig-004515",
-    "name": "Knight (Quartered Shield) - White Legs, Red Visor",
+    "name": "Knight, Quartered Shield, White Legs, Red Visor",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004515.jpg",
     "theme": "",
@@ -283983,7 +284113,7 @@
   },
   {
     "fig_num": "fig-004516",
-    "name": "Knight (Quartered Shield) - Red Legs, Black Visor",
+    "name": "Knight, Quartered Shield, Red Legs, Black Visor",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004516.jpg",
     "theme": "",
@@ -284407,7 +284537,7 @@
   },
   {
     "fig_num": "fig-004572",
-    "name": "Knight, Crusader Axe,  Red Legs, Chin-Guard",
+    "name": "Knight, Crusader Axe, Red Legs, Chin-Guard",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004572.jpg",
     "theme": "",
@@ -284447,7 +284577,7 @@
   },
   {
     "fig_num": "fig-004577",
-    "name": "Knight, Crusader Lion,  Light Gray Legs, Plastic Cape",
+    "name": "Knight, Crusader Lion, Light Gray Legs, Plastic Cape",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004577.jpg",
     "theme": "",
@@ -285063,7 +285193,7 @@
   },
   {
     "fig_num": "fig-004669",
-    "name": "Viking Warrior - Armour, Sand Blue Arms, Blue Legs",
+    "name": "Viking Warrior, Armour, Sand Blue Arms, Blue Legs",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004669.jpg",
     "theme": "",
@@ -285071,7 +285201,7 @@
   },
   {
     "fig_num": "fig-004670",
-    "name": "Viking Warrior - Armour, Battle Axe on Torso, Sand Green Arms, Dark Green Legs",
+    "name": "Viking Warrior, Armour, Battle Axe on Torso, Sand Green Arms, Dark Green Legs",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004670.jpg",
     "theme": "",
@@ -285079,7 +285209,7 @@
   },
   {
     "fig_num": "fig-004671",
-    "name": "Viking Warrior - Breast Plate, Dark Green Legs",
+    "name": "Viking Warrior, Breast Plate, Dark Green Legs",
     "num_parts": 7,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004671.jpg",
     "theme": "",
@@ -285087,7 +285217,7 @@
   },
   {
     "fig_num": "fig-004672",
-    "name": "Viking Warrior - Armour, Light Bluish Grey Arms",
+    "name": "Viking Warrior, Armour, Light Bluish Grey Arms",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004672.jpg",
     "theme": "",
@@ -285095,7 +285225,7 @@
   },
   {
     "fig_num": "fig-004673",
-    "name": "Viking King - Armour, Red Legs, Black Cape",
+    "name": "Viking King, Armour, Red Legs, Black Cape",
     "num_parts": 7,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004673.jpg",
     "theme": "",
@@ -285103,7 +285233,7 @@
   },
   {
     "fig_num": "fig-004674",
-    "name": "Viking Warrior - Armour, Bare Arms, Black Legs",
+    "name": "Viking Warrior, Armour, Bare Arms, Black Legs",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004674.jpg",
     "theme": "",
@@ -285111,7 +285241,7 @@
   },
   {
     "fig_num": "fig-004675",
-    "name": "Viking Warrior - Black Breast Plate, Dark Blue Legs",
+    "name": "Viking Warrior, Black Breast Plate, Dark Blue Legs",
     "num_parts": 7,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004675.jpg",
     "theme": "",
@@ -285119,7 +285249,7 @@
   },
   {
     "fig_num": "fig-004676",
-    "name": "Viking King - Armour, Black Legs, Red Cape",
+    "name": "Viking King, Armour, Black Legs, Red Cape",
     "num_parts": 7,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004676.jpg",
     "theme": "",
@@ -285127,7 +285257,7 @@
   },
   {
     "fig_num": "fig-004677",
-    "name": "Viking Warrior - Breast Plate, Black Legs",
+    "name": "Viking Warrior, Breast Plate, Black Legs",
     "num_parts": 7,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004677.jpg",
     "theme": "",
@@ -285135,7 +285265,7 @@
   },
   {
     "fig_num": "fig-004678",
-    "name": "Viking Warrior - Armour, Battle Axe on Torso, Sand Green Arms, Dark Green Legs, Gray Hair",
+    "name": "Viking Warrior, Armour, Battle Axe on Torso, Sand Green Arms, Dark Green Legs, Gray Hair",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004678.jpg",
     "theme": "",
@@ -285143,7 +285273,7 @@
   },
   {
     "fig_num": "fig-004679",
-    "name": "Viking Warrior - Armour, Sand Blue Arms. Blue Legs",
+    "name": "Viking Warrior, Armour, Sand Blue Arms. Blue Legs",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004679.jpg",
     "theme": "",
@@ -285151,7 +285281,7 @@
   },
   {
     "fig_num": "fig-004680",
-    "name": "Viking Warrior - Breast Plate, Dark Blue Legs",
+    "name": "Viking Warrior, Breast Plate, Dark Blue Legs",
     "num_parts": 7,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004680.jpg",
     "theme": "",
@@ -285159,7 +285289,7 @@
   },
   {
     "fig_num": "fig-004681",
-    "name": "Viking Warrior - Armour, Belts, Dark Blue Arms, Black Legs",
+    "name": "Viking Warrior, Armour, Belts, Dark Blue Arms, Black Legs",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004681.jpg",
     "theme": "",
@@ -285167,7 +285297,7 @@
   },
   {
     "fig_num": "fig-004683",
-    "name": "Viking Warrior - Armour, Sand Blue Arms, Black Legs",
+    "name": "Viking Warrior, Armour, Sand Blue Arms, Black Legs",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004683.jpg",
     "theme": "",
@@ -285175,7 +285305,7 @@
   },
   {
     "fig_num": "fig-004684",
-    "name": "Viking Warrior - Armour, Battle Axe on Torso, Sand Green Arms, Dark Green Legs, Light Gray Hair",
+    "name": "Viking Warrior, Armour, Battle Axe on Torso, Sand Green Arms, Dark Green Legs, Light Gray Hair",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004684.jpg",
     "theme": "",
@@ -285183,7 +285313,7 @@
   },
   {
     "fig_num": "fig-004685",
-    "name": "Viking King - Armour, Reddish Brown Legs",
+    "name": "Viking King, Armour, Reddish Brown Legs",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004685.jpg",
     "theme": "",
@@ -285191,7 +285321,7 @@
   },
   {
     "fig_num": "fig-004687",
-    "name": "Viking Warrior - Armour, Bare Arms, Dark Green Legs",
+    "name": "Viking Warrior, Armour, Bare Arms, Dark Green Legs",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004687.jpg",
     "theme": "",
@@ -285207,7 +285337,7 @@
   },
   {
     "fig_num": "fig-004689",
-    "name": "Woman - Red Torso, Black Legs",
+    "name": "Woman, Red Torso, Black Legs",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004689.jpg",
     "theme": "",
@@ -285247,7 +285377,7 @@
   },
   {
     "fig_num": "fig-004694",
-    "name": "Woman - Blue Jogging Suit",
+    "name": "Woman, Blue Jogging Suit",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004694.jpg",
     "theme": "",
@@ -285303,7 +285433,7 @@
   },
   {
     "fig_num": "fig-004701",
-    "name": "Trolls - Poppy with Cupcake, Flower",
+    "name": "Trolls, Poppy with Cupcake, Flower",
     "num_parts": 7,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004701.jpg",
     "theme": "",
@@ -285311,7 +285441,7 @@
   },
   {
     "fig_num": "fig-004702",
-    "name": "Trolls - Poppy with Cupcake, Swirl",
+    "name": "Trolls, Poppy with Cupcake, Swirl",
     "num_parts": 8,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004702.jpg",
     "theme": "",
@@ -285319,7 +285449,7 @@
   },
   {
     "fig_num": "fig-004703",
-    "name": "Trolls - Poppy",
+    "name": "Trolls, Poppy",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004703.jpg",
     "theme": "",
@@ -285327,7 +285457,7 @@
   },
   {
     "fig_num": "fig-004706",
-    "name": "Trolls - Hickory",
+    "name": "Trolls, Hickory",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004706.jpg",
     "theme": "",
@@ -285335,7 +285465,7 @@
   },
   {
     "fig_num": "fig-004709",
-    "name": "Trolls - Biggie & Mr. Dinkels",
+    "name": "Trolls, Biggie & Mr. Dinkels",
     "num_parts": 13,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004709.jpg",
     "theme": "",
@@ -285343,7 +285473,7 @@
   },
   {
     "fig_num": "fig-004710",
-    "name": "Trolls - Branch with Medium Azure Sunglasses",
+    "name": "Trolls, Branch with Medium Azure Sunglasses",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004710.jpg",
     "theme": "",
@@ -285351,7 +285481,7 @@
   },
   {
     "fig_num": "fig-004711",
-    "name": "Soldier (Bluecoat) - Admiral",
+    "name": "Soldier, Bluecoat, Admiral",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004711.jpg",
     "theme": "",
@@ -285359,7 +285489,7 @@
   },
   {
     "fig_num": "fig-004712",
-    "name": "Soldier (Bluecoat) - Sergeant, Stubble",
+    "name": "Soldier, Bluecoat, Sergeant, Stubble",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004712.jpg",
     "theme": "",
@@ -285367,7 +285497,7 @@
   },
   {
     "fig_num": "fig-004713",
-    "name": "Soldier (Bluecoat) - Sweating, Hat",
+    "name": "Soldier, Bluecoat, Sweating, Hat",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004713.jpg",
     "theme": "",
@@ -285375,7 +285505,7 @@
   },
   {
     "fig_num": "fig-004714",
-    "name": "Soldier (Bluecoat) - Sergeant, Brown Goatee",
+    "name": "Soldier, Bluecoat, Sergeant, Brown Goatee",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004714.jpg",
     "theme": "",
@@ -285383,7 +285513,7 @@
   },
   {
     "fig_num": "fig-004715",
-    "name": "Soldier (Bluecoat) - Smile",
+    "name": "Soldier, Bluecoat, Smile",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004715.jpg",
     "theme": "",
@@ -285391,7 +285521,7 @@
   },
   {
     "fig_num": "fig-004716",
-    "name": "Soldier (Bluecoat) - Lopsided Smile",
+    "name": "Soldier, Bluecoat, Lopsided Smile",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004716.jpg",
     "theme": "",
@@ -285399,7 +285529,7 @@
   },
   {
     "fig_num": "fig-004717",
-    "name": "Soldier (Bluecoat) - Grin",
+    "name": "Soldier, Bluecoat, Grin",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004717.jpg",
     "theme": "",
@@ -285407,7 +285537,7 @@
   },
   {
     "fig_num": "fig-004718",
-    "name": "Soldier (Bluecoat) - Governor",
+    "name": "Soldier, Bluecoat, Governor",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004718.jpg",
     "theme": "",
@@ -285415,7 +285545,7 @@
   },
   {
     "fig_num": "fig-004719",
-    "name": "Soldier (Bluecoat) - Reddish Brown Hair",
+    "name": "Soldier, Bluecoat, Reddish Brown Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004719.jpg",
     "theme": "",
@@ -285423,7 +285553,7 @@
   },
   {
     "fig_num": "fig-004720",
-    "name": "Soldier (Bluecoat) - Black Hair",
+    "name": "Soldier, Bluecoat, Black Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004720.jpg",
     "theme": "",
@@ -285431,7 +285561,7 @@
   },
   {
     "fig_num": "fig-004721",
-    "name": "Soldier (Bluecoat) - Tan Hair",
+    "name": "Soldier, Bluecoat, Tan Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004721.jpg",
     "theme": "",
@@ -285439,7 +285569,7 @@
   },
   {
     "fig_num": "fig-004722",
-    "name": "Soldier (Bluecoat) - Admiral, Chess King",
+    "name": "Soldier, Bluecoat, Admiral, Chess King",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004722.jpg",
     "theme": "",
@@ -285447,7 +285577,7 @@
   },
   {
     "fig_num": "fig-004723",
-    "name": "Soldier (Imperial Armada) - Green",
+    "name": "Soldier, Imperial Armada, Green",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004723.jpg",
     "theme": "",
@@ -285455,7 +285585,7 @@
   },
   {
     "fig_num": "fig-004724",
-    "name": "Soldier (Imperial Armada) - Red, Captain",
+    "name": "Soldier, Imperial Armada, Red, Captain",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004724.jpg",
     "theme": "",
@@ -285463,7 +285593,7 @@
   },
   {
     "fig_num": "fig-004730",
-    "name": "Trolls - Guy Diamond",
+    "name": "Trolls, Guy Diamond",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004730.jpg",
     "theme": "",
@@ -285471,7 +285601,7 @@
   },
   {
     "fig_num": "fig-004732",
-    "name": "Trolls - Mermaid",
+    "name": "Trolls, Mermaid",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004732.jpg",
     "theme": "",
@@ -285479,7 +285609,7 @@
   },
   {
     "fig_num": "fig-004734",
-    "name": "Trolls - Barb",
+    "name": "Trolls, Barb",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004734.jpg",
     "theme": "",
@@ -285527,7 +285657,7 @@
   },
   {
     "fig_num": "fig-004741",
-    "name": "Train Machinist - White Torso, Blue Overall, Blue Hat",
+    "name": "Train Machinist, White Torso, Blue Overall, Blue Hat",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004741.jpg",
     "theme": "",
@@ -285567,7 +285697,7 @@
   },
   {
     "fig_num": "fig-004746",
-    "name": "Train Driver - Orange Vest, Olive Green Legs, Red Cap",
+    "name": "Train Driver, Orange Vest, Olive Green Legs, Red Cap",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004746.jpg",
     "theme": "",
@@ -285575,7 +285705,7 @@
   },
   {
     "fig_num": "fig-004747",
-    "name": "Train Driver - Orange Vest, Olive Green Legs, Red Helmet, Female",
+    "name": "Train Driver, Orange Vest, Olive Green Legs, Red Helmet, Female",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004747.jpg",
     "theme": "",
@@ -285583,7 +285713,7 @@
   },
   {
     "fig_num": "fig-004748",
-    "name": "Train Worker - Orange Vest, Dark Blue Legs, Light Yellow Hair, Female",
+    "name": "Train Worker, Orange Vest, Dark Blue Legs, Light Yellow Hair, Female",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004748.jpg",
     "theme": "",
@@ -285591,7 +285721,7 @@
   },
   {
     "fig_num": "fig-004749",
-    "name": "Train Machinist - White Torso, Blue Striped Overall, Blue Hat",
+    "name": "Train Machinist, White Torso, Blue Striped Overall, Blue Hat",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004749.jpg",
     "theme": "",
@@ -285599,7 +285729,7 @@
   },
   {
     "fig_num": "fig-004750",
-    "name": "Train Worker - Orange Safety Vest, Orange Legs, Red Helmet",
+    "name": "Train Worker, Orange Safety Vest, Orange Legs, Red Helmet",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004750.jpg",
     "theme": "",
@@ -285607,7 +285737,7 @@
   },
   {
     "fig_num": "fig-004751",
-    "name": "Train Worker - Orange Safety Vest, Orange Legs, Red Helmet",
+    "name": "Train Worker, Orange Safety Vest, Orange Legs, Red Helmet",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004751.jpg",
     "theme": "",
@@ -285615,7 +285745,7 @@
   },
   {
     "fig_num": "fig-004752",
-    "name": "Train Worker - Orange Safety Vest, Orange Legs, Red Helmet, Red Hair",
+    "name": "Train Worker, Orange Safety Vest, Orange Legs, Red Helmet, Red Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004752.jpg",
     "theme": "",
@@ -285647,7 +285777,7 @@
   },
   {
     "fig_num": "fig-004756",
-    "name": "Soldier (Imperial Guard) - Admiral",
+    "name": "Soldier, Imperial Guard, Admiral",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004756.jpg",
     "theme": "",
@@ -285655,7 +285785,7 @@
   },
   {
     "fig_num": "fig-004757",
-    "name": "Soldier (Imperial Guard) - Blue Epaulettes",
+    "name": "Soldier, Imperial Guard, Blue Epaulettes",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004757.jpg",
     "theme": "",
@@ -285663,7 +285793,7 @@
   },
   {
     "fig_num": "fig-004758",
-    "name": "Soldier (Imperial Guard) - Admiral, Plume",
+    "name": "Soldier, Imperial Guard, Admiral, Plume",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004758.jpg",
     "theme": "",
@@ -285671,7 +285801,7 @@
   },
   {
     "fig_num": "fig-004759",
-    "name": "Soldier (Imperial Soldier) - Backpack, 3626a",
+    "name": "Soldier, Imperial Soldier, Backpack, 3626a",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004759.jpg",
     "theme": "",
@@ -285679,7 +285809,7 @@
   },
   {
     "fig_num": "fig-004760",
-    "name": "Soldier (Imperial Soldier) - Governor, Red Plume",
+    "name": "Soldier, Imperial Soldier, Governor, Red Plume",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004760.jpg",
     "theme": "",
@@ -285687,7 +285817,7 @@
   },
   {
     "fig_num": "fig-004761",
-    "name": "Soldier (Imperial Soldier) - Yellow Epaulettes, 3626a",
+    "name": "Soldier, Imperial Soldier, Yellow Epaulettes, 3626a",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004761.jpg",
     "theme": "",
@@ -285695,7 +285825,7 @@
   },
   {
     "fig_num": "fig-004762",
-    "name": "Soldier (Imperial Soldier) - Backpack, 3626b",
+    "name": "Soldier, Imperial Soldier, Backpack, 3626b",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004762.jpg",
     "theme": "",
@@ -285703,7 +285833,7 @@
   },
   {
     "fig_num": "fig-004763",
-    "name": "Soldier (Imperial Soldier) - Governor, Yellow Plume",
+    "name": "Soldier, Imperial Soldier, Governor, Yellow Plume",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004763.jpg",
     "theme": "",
@@ -285711,7 +285841,7 @@
   },
   {
     "fig_num": "fig-004764",
-    "name": "Soldier (Imperial Soldier) - Red Epaulettes",
+    "name": "Soldier, Imperial Soldier, Red Epaulettes",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004764.jpg",
     "theme": "",
@@ -285719,7 +285849,7 @@
   },
   {
     "fig_num": "fig-004765",
-    "name": "Soldier (Imperial Soldier) - Reissue",
+    "name": "Soldier, Imperial Soldier, Reissue",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004765.jpg",
     "theme": "",
@@ -285831,7 +285961,7 @@
   },
   {
     "fig_num": "fig-004780",
-    "name": "Train Machinist - White Torso, Blue Overall, Blue Hat, Red Scarf",
+    "name": "Train Machinist, White Torso, Blue Overall, Blue Hat, Red Scarf",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004780.jpg",
     "theme": "",
@@ -285855,7 +285985,7 @@
   },
   {
     "fig_num": "fig-004783",
-    "name": "Train Conductor - Dark Blue Jacket, Dark Blue Legs, Dark Red Hat, Glasses (3626b Head)",
+    "name": "Train Conductor, Dark Blue Jacket, Dark Blue Legs, Dark Red Hat, Glasses (3626b Head)",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004783.jpg",
     "theme": "",
@@ -285863,7 +285993,7 @@
   },
   {
     "fig_num": "fig-004784",
-    "name": "Woman - Medium Blue Jacket, White Legs",
+    "name": "Woman, Medium Blue Jacket, White Legs",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004784.jpg",
     "theme": "",
@@ -285903,7 +286033,7 @@
   },
   {
     "fig_num": "fig-004789",
-    "name": "Train Worker - Red Vest, Blue Legs, White Helmet, Moustache",
+    "name": "Train Worker, Red Vest, Blue Legs, White Helmet, Moustache",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004789.jpg",
     "theme": "",
@@ -285911,7 +286041,7 @@
   },
   {
     "fig_num": "fig-004790",
-    "name": "Train Worker - Red Vest, Blue Legs, White Helmet, Sunglasses",
+    "name": "Train Worker, Red Vest, Blue Legs, White Helmet, Sunglasses",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004790.jpg",
     "theme": "",
@@ -286039,7 +286169,7 @@
   },
   {
     "fig_num": "fig-004806",
-    "name": "Train Worker - Red/White Shirt, Blue Legs, Brown Hair (3626b Head)",
+    "name": "Train Worker, Red/White Shirt, Blue Legs, Brown Hair (3626b Head)",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004806.jpg",
     "theme": "",
@@ -286047,7 +286177,7 @@
   },
   {
     "fig_num": "fig-004807",
-    "name": "Train Worker - Red/White Shirt, Blue Legs, Red Cap",
+    "name": "Train Worker, Red/White Shirt, Blue Legs, Red Cap",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004807.jpg",
     "theme": "",
@@ -286063,7 +286193,7 @@
   },
   {
     "fig_num": "fig-004809",
-    "name": "Train Worker - Red Vest, Dark Gray Legs, White Helmet, Moustache",
+    "name": "Train Worker, Red Vest, Dark Gray Legs, White Helmet, Moustache",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004809.jpg",
     "theme": "",
@@ -286071,7 +286201,7 @@
   },
   {
     "fig_num": "fig-004810",
-    "name": "Train Worker - Red/White Shirt, Blue Legs, Red Helmet",
+    "name": "Train Worker, Red/White Shirt, Blue Legs, Red Helmet",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004810.jpg",
     "theme": "",
@@ -286087,7 +286217,7 @@
   },
   {
     "fig_num": "fig-004812",
-    "name": "Train Employee - Yellow Torso, Yellow Legs, Red Hat, Red Mask, Red Cape",
+    "name": "Train Employee, Yellow Torso, Yellow Legs, Red Hat, Red Mask, Red Cape",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004812.jpg",
     "theme": "",
@@ -286095,7 +286225,7 @@
   },
   {
     "fig_num": "fig-004813",
-    "name": "Woman - Medium Blue Torso, Light Bluish Gray Legs",
+    "name": "Woman, Medium Blue Torso, Light Bluish Gray Legs",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004813.jpg",
     "theme": "",
@@ -286167,7 +286297,7 @@
   },
   {
     "fig_num": "fig-004822",
-    "name": "Woman - Red and White Striped Shirt, Red Legs, Black Hair (3626b Head)",
+    "name": "Woman, Red and White Striped Shirt, Red Legs, Black Hair (3626b Head)",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004822.jpg",
     "theme": "",
@@ -286191,7 +286321,7 @@
   },
   {
     "fig_num": "fig-004825",
-    "name": "Train Worker - Blue Jacket, Black Legs, Female",
+    "name": "Train Worker, Blue Jacket, Black Legs, Female",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004825.jpg",
     "theme": "",
@@ -286199,7 +286329,7 @@
   },
   {
     "fig_num": "fig-004826",
-    "name": "Train Worker - Red/White Shirt, Blue Legs, Red Hat",
+    "name": "Train Worker, Red/White Shirt, Blue Legs, Red Hat",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004826.jpg",
     "theme": "",
@@ -286255,7 +286385,7 @@
   },
   {
     "fig_num": "fig-004833",
-    "name": "Train Worker - Blue Jacket, Black Legs, Female, Black Hair",
+    "name": "Train Worker, Blue Jacket, Black Legs, Female, Black Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004833.jpg",
     "theme": "",
@@ -286703,7 +286833,7 @@
   },
   {
     "fig_num": "fig-004907",
-    "name": "Woman - Blue Jogging Suite, White Legs",
+    "name": "Woman, Blue Jogging Suite, White Legs",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004907.jpg",
     "theme": "",
@@ -286711,7 +286841,7 @@
   },
   {
     "fig_num": "fig-004908",
-    "name": "Train Employee - Blue Torso, Black Legs, Red Hat",
+    "name": "Train Employee, Blue Torso, Black Legs, Red Hat",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004908.jpg",
     "theme": "",
@@ -286719,7 +286849,7 @@
   },
   {
     "fig_num": "fig-004909",
-    "name": "Train Employee - Blue Torso, Red Legs, Red Cap",
+    "name": "Train Employee, Blue Torso, Red Legs, Red Cap",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004909.jpg",
     "theme": "",
@@ -286727,7 +286857,7 @@
   },
   {
     "fig_num": "fig-004910",
-    "name": "Train Worker - Red Vest, Dark Gray Legs, Black Hair, Mustache",
+    "name": "Train Worker, Red Vest, Dark Gray Legs, Black Hair, Mustache",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004910.jpg",
     "theme": "",
@@ -286911,7 +287041,7 @@
   },
   {
     "fig_num": "fig-004933",
-    "name": "Woman - Blue Jogging Suite, Dark Gray Legs",
+    "name": "Woman, Blue Jogging Suite, Dark Gray Legs",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004933.jpg",
     "theme": "",
@@ -286919,7 +287049,7 @@
   },
   {
     "fig_num": "fig-004935",
-    "name": "Train Worker - Red Vest, Black Legs, White Helmet, Sunglasses",
+    "name": "Train Worker, Red Vest, Black Legs, White Helmet, Sunglasses",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004935.jpg",
     "theme": "",
@@ -286935,7 +287065,7 @@
   },
   {
     "fig_num": "fig-004938",
-    "name": "Train Worker - Red Vest, Black Legs, White Helmet, Mustache",
+    "name": "Train Worker, Red Vest, Black Legs, White Helmet, Mustache",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004938.jpg",
     "theme": "",
@@ -286983,7 +287113,7 @@
   },
   {
     "fig_num": "fig-004945",
-    "name": "Woman - Blue Jogging Suite, Blue Legs",
+    "name": "Woman, Blue Jogging Suite, Blue Legs",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004945.jpg",
     "theme": "",
@@ -287071,7 +287201,7 @@
   },
   {
     "fig_num": "fig-004959",
-    "name": "Train Employee - Yellow Torso, Dark Grey Legs, Red Hat",
+    "name": "Train Employee, Yellow Torso, Dark Grey Legs, Red Hat",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004959.jpg",
     "theme": "",
@@ -288239,7 +288369,7 @@
   },
   {
     "fig_num": "fig-005119",
-    "name": "Woman - Blue Torso, White Legs, Black Tails",
+    "name": "Woman, Blue Torso, White Legs, Black Tails",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005119.jpg",
     "theme": "",
@@ -288359,7 +288489,7 @@
   },
   {
     "fig_num": "fig-005134",
-    "name": "Woman - Red Sweater, Tan Legs, Reddish Brown Hair, Black Eyebrows",
+    "name": "Woman, Red Sweater, Tan Legs, Reddish Brown Hair, Black Eyebrows",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005134.jpg",
     "theme": "",
@@ -288431,7 +288561,7 @@
   },
   {
     "fig_num": "fig-005143",
-    "name": "Time Twisters - Black Torso, Light Gray Vest, Dark Gray Legs",
+    "name": "Time Twisters, Black Torso, Light Gray Vest, Dark Gray Legs",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005143.jpg",
     "theme": "",
@@ -288703,7 +288833,7 @@
   },
   {
     "fig_num": "fig-005177",
-    "name": "Tonto - Dirty",
+    "name": "Tonto, Dirty",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005177.jpg",
     "theme": "",
@@ -289591,7 +289721,7 @@
   },
   {
     "fig_num": "fig-005293",
-    "name": "Soldier (Imperial Soldier II) - Governor",
+    "name": "Soldier, Imperial Soldier II, Governor",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005293.jpg",
     "theme": "",
@@ -289639,7 +289769,7 @@
   },
   {
     "fig_num": "fig-005300",
-    "name": "Soldier (Imperial Soldier II) - Governor, Red Plume",
+    "name": "Soldier, Imperial Soldier II, Governor, Red Plume",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005300.jpg",
     "theme": "",
@@ -289647,7 +289777,7 @@
   },
   {
     "fig_num": "fig-005301",
-    "name": "Soldier (Imperial Soldier II) - Black Beard, Blue Epaulette, Red Plume",
+    "name": "Soldier, Imperial Soldier II, Black Beard, Blue Epaulette, Red Plume",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005301.jpg",
     "theme": "",
@@ -289671,7 +289801,7 @@
   },
   {
     "fig_num": "fig-005304",
-    "name": "Soldier (Imperial Soldier II) - Brown Beard, Red Plume",
+    "name": "Soldier, Imperial Soldier II, Brown Beard, Red Plume",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005304.jpg",
     "theme": "",
@@ -289727,7 +289857,7 @@
   },
   {
     "fig_num": "fig-005311",
-    "name": "Soldier (Imperial Soldier II) - Long Moustache, Red Plume",
+    "name": "Soldier, Imperial Soldier II, Long Moustache, Red Plume",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005311.jpg",
     "theme": "",
@@ -289767,7 +289897,7 @@
   },
   {
     "fig_num": "fig-005316",
-    "name": "Soldier (Imperial Soldier II) - Brown Beard",
+    "name": "Soldier, Imperial Soldier II, Brown Beard",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005316.jpg",
     "theme": "",
@@ -289775,7 +289905,7 @@
   },
   {
     "fig_num": "fig-005317",
-    "name": "Soldier (Imperial Soldier II) - Cheek Lines",
+    "name": "Soldier, Imperial Soldier II, Cheek Lines",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005317.jpg",
     "theme": "",
@@ -289783,7 +289913,7 @@
   },
   {
     "fig_num": "fig-005318",
-    "name": "Soldier (Imperial Soldier II) - Black Beard",
+    "name": "Soldier, Imperial Soldier II, Black Beard",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005318.jpg",
     "theme": "",
@@ -289791,7 +289921,7 @@
   },
   {
     "fig_num": "fig-005319",
-    "name": "Soldier (Imperial Soldier II) - Scowl",
+    "name": "Soldier, Imperial Soldier II, Scowl",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005319.jpg",
     "theme": "",
@@ -289799,7 +289929,7 @@
   },
   {
     "fig_num": "fig-005320",
-    "name": "Soldier (Imperial Soldier II) - Shako, Scowl",
+    "name": "Soldier, Imperial Soldier II, Shako, Scowl",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005320.jpg",
     "theme": "",
@@ -289807,7 +289937,7 @@
   },
   {
     "fig_num": "fig-005322",
-    "name": "Soldier (Imperial Soldier II) - Shako, Smile, Backpack",
+    "name": "Soldier, Imperial Soldier II, Shako, Smile, Backpack",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005322.jpg",
     "theme": "",
@@ -289815,7 +289945,7 @@
   },
   {
     "fig_num": "fig-005323",
-    "name": "Soldier (Imperial Soldier II) - Printed Shako, Brown Beard",
+    "name": "Soldier, Imperial Soldier II, Printed Shako, Brown Beard",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005323.jpg",
     "theme": "",
@@ -290727,7 +290857,7 @@
   },
   {
     "fig_num": "fig-005453",
-    "name": "Soldier (Imperial Soldier II) - Printed Shako, Black Beard",
+    "name": "Soldier, Imperial Soldier II, Printed Shako, Black Beard",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005453.jpg",
     "theme": "",
@@ -290783,7 +290913,7 @@
   },
   {
     "fig_num": "fig-005461",
-    "name": "Soldier (Imperial Soldier II) - Printed Shako, Smile, Reddish Brown Eyebrows",
+    "name": "Soldier, Imperial Soldier II, Printed Shako, Smile, Reddish Brown Eyebrows",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005461.jpg",
     "theme": "",
@@ -290807,7 +290937,7 @@
   },
   {
     "fig_num": "fig-005464",
-    "name": "Soldier (Imperial Soldier II) - Printed Shako, Cheek Lines",
+    "name": "Soldier, Imperial Soldier II, Printed Shako, Cheek Lines",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005464.jpg",
     "theme": "",
@@ -290815,7 +290945,7 @@
   },
   {
     "fig_num": "fig-005465",
-    "name": "Soldier (Imperial Soldier II) - Printed Shako, Scowl",
+    "name": "Soldier, Imperial Soldier II, Printed Shako, Scowl",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005465.jpg",
     "theme": "",
@@ -290847,7 +290977,7 @@
   },
   {
     "fig_num": "fig-005469",
-    "name": "Soldier (Imperial Soldier II) - Printed Shako, Gray Beard",
+    "name": "Soldier, Imperial Soldier II, Printed Shako, Gray Beard",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005469.jpg",
     "theme": "",
@@ -290903,7 +291033,7 @@
   },
   {
     "fig_num": "fig-005476",
-    "name": "Soldier (Imperial Soldier II) - Printed Shako, Smirk",
+    "name": "Soldier, Imperial Soldier II, Printed Shako, Smirk",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005476.jpg",
     "theme": "",
@@ -293007,7 +293137,7 @@
   },
   {
     "fig_num": "fig-005772",
-    "name": "Victoria - Orange Dress",
+    "name": "Victoria, Orange Dress",
     "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005772.jpg",
     "theme": "",
@@ -293951,7 +294081,7 @@
   },
   {
     "fig_num": "fig-005896",
-    "name": "Thorin Oakenshield - Chain Mail",
+    "name": "Thorin Oakenshield, Chain Mail",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005896.jpg",
     "theme": "",
@@ -293999,7 +294129,7 @@
   },
   {
     "fig_num": "fig-005902",
-    "name": "Tauriel - Green/Reddish Brown",
+    "name": "Tauriel, Green/Reddish Brown",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005902.jpg",
     "theme": "",
@@ -294119,7 +294249,7 @@
   },
   {
     "fig_num": "fig-005917",
-    "name": "Tauriel - Dark Green/Dark Brown",
+    "name": "Tauriel, Dark Green/Dark Brown",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005917.jpg",
     "theme": "",
@@ -294151,7 +294281,7 @@
   },
   {
     "fig_num": "fig-005921",
-    "name": "Thorin Oakenshield - Lake-Town",
+    "name": "Thorin Oakenshield, Lake-Town",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005921.jpg",
     "theme": "",
@@ -294383,7 +294513,7 @@
   },
   {
     "fig_num": "fig-005953",
-    "name": "Stephanie - Lime Bikini, Magenta Skirt and Life Jacket",
+    "name": "Stephanie, Lime Bikini, Magenta Skirt and Life Jacket",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005953.jpg",
     "theme": "",
@@ -298967,7 +299097,7 @@
   },
   {
     "fig_num": "fig-006551",
-    "name": "Witch (Fright Knights) - Willa, No Cape",
+    "name": "Witch, Fright Knights, Willa, No Cape",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-006551.jpg",
     "theme": "",
@@ -298975,7 +299105,7 @@
   },
   {
     "fig_num": "fig-006552",
-    "name": "Knight (Royal Knights) - Black Legs, Dark Gray Helmet",
+    "name": "Knight, Royal Knights, Black Legs, Dark Gray Helmet",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-006552.jpg",
     "theme": "",
@@ -300247,7 +300377,7 @@
   },
   {
     "fig_num": "fig-006720",
-    "name": "Knight (Scale Mail on Red) - Black Arms, Blue Legs, White Plume",
+    "name": "Knight, Scale Mail on Red, Black Arms, Blue Legs, White Plume",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-006720.jpg",
     "theme": "",
@@ -300255,7 +300385,7 @@
   },
   {
     "fig_num": "fig-006721",
-    "name": "Knight (Scale Mail on Red) - Black Arms, Light Gray Legs, Dark Gray Chin-Guard",
+    "name": "Knight, Scale Mail on Red, Black Arms, Light Gray Legs, Dark Gray Chin-Guard",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-006721.jpg",
     "theme": "",
@@ -300263,7 +300393,7 @@
   },
   {
     "fig_num": "fig-006722",
-    "name": "Knight (Scale Mail on Red) - Black Arms, Light Gray Legs, Dark Gray Neck-Protector",
+    "name": "Knight, Scale Mail on Red, Black Arms, Light Gray Legs, Dark Gray Neck-Protector",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-006722.jpg",
     "theme": "",
@@ -300271,7 +300401,7 @@
   },
   {
     "fig_num": "fig-006723",
-    "name": "Knight (Scale Mail on Red) - Blue Arms, Black Legs, Black Chin-Guard",
+    "name": "Knight, Scale Mail on Red, Blue Arms, Black Legs, Black Chin-Guard",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-006723.jpg",
     "theme": "",
@@ -300279,7 +300409,7 @@
   },
   {
     "fig_num": "fig-006724",
-    "name": "Knight (Scale Mail on Red) - Blue Arms, Black Legs, Dark Gray Neck-Protector",
+    "name": "Knight, Scale Mail on Red, Blue Arms, Black Legs, Dark Gray Neck-Protector",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-006724.jpg",
     "theme": "",
@@ -300287,7 +300417,7 @@
   },
   {
     "fig_num": "fig-006725",
-    "name": "Knight (Scale Mail on Red) - Blue Arms, Blue Legs, Black Neck-Protector",
+    "name": "Knight, Scale Mail on Red, Blue Arms, Blue Legs, Black Neck-Protector",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-006725.jpg",
     "theme": "",
@@ -300295,7 +300425,7 @@
   },
   {
     "fig_num": "fig-006726",
-    "name": "Knight (Scale Mail on Red) - Blue Arms, Light Gray Legs, Dark Gray Chin-Guard",
+    "name": "Knight, Scale Mail on Red, Blue Arms, Light Gray Legs, Dark Gray Chin-Guard",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-006726.jpg",
     "theme": "",
@@ -300303,7 +300433,7 @@
   },
   {
     "fig_num": "fig-006727",
-    "name": "Knight (Scale Mail on Red) - Blue Arms, Light Gray Legs, Dark Gray Neck-Protector",
+    "name": "Knight, Scale Mail on Red, Blue Arms, Light Gray Legs, Dark Gray Neck-Protector",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-006727.jpg",
     "theme": "",
@@ -300311,7 +300441,7 @@
   },
   {
     "fig_num": "fig-006728",
-    "name": "Knight (Scale Mail on Red) - Blue Arms, Red Legs, Black Neck-Protector",
+    "name": "Knight, Scale Mail on Red, Blue Arms, Red Legs, Black Neck-Protector",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-006728.jpg",
     "theme": "",
@@ -300319,7 +300449,7 @@
   },
   {
     "fig_num": "fig-006729",
-    "name": "Knight (Scale Mail on Red) - Black Arms, White Legs",
+    "name": "Knight, Scale Mail on Red, Black Arms, White Legs",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-006729.jpg",
     "theme": "",
@@ -300327,7 +300457,7 @@
   },
   {
     "fig_num": "fig-006730",
-    "name": "Knight (Scale Mail on Red) - Red Arms, Blue Legs, Black Neck-Protector",
+    "name": "Knight, Scale Mail on Red, Red Arms, Blue Legs, Black Neck-Protector",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-006730.jpg",
     "theme": "",
@@ -300335,7 +300465,7 @@
   },
   {
     "fig_num": "fig-006731",
-    "name": "Knight (Scale Mail on Red) - Red Arms, Blue Legs, Dark Gray Neck-Protector",
+    "name": "Knight, Scale Mail on Red, Red Arms, Blue Legs, Dark Gray Neck-Protector",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-006731.jpg",
     "theme": "",
@@ -300343,7 +300473,7 @@
   },
   {
     "fig_num": "fig-006732",
-    "name": "Knight (Scale Mail on Red) - Red Arms, Red Legs, Black Chin-Guard",
+    "name": "Knight, Scale Mail on Red, Red Arms, Red Legs, Black Chin-Guard",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-006732.jpg",
     "theme": "",
@@ -300351,7 +300481,7 @@
   },
   {
     "fig_num": "fig-006733",
-    "name": "Knight (Scale Mail on Red) - Red Arms, Red Legs, Black Neck-Protector",
+    "name": "Knight, Scale Mail on Red, Red Arms, Red Legs, Black Neck-Protector",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-006733.jpg",
     "theme": "",
@@ -300391,7 +300521,7 @@
   },
   {
     "fig_num": "fig-006738",
-    "name": "Knight (Scale Mail on Blue) - Black Arms, Blue Legs, Black Chin-Guard",
+    "name": "Knight, Scale Mail on Blue, Black Arms, Blue Legs, Black Chin-Guard",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-006738.jpg",
     "theme": "",
@@ -300399,7 +300529,7 @@
   },
   {
     "fig_num": "fig-006739",
-    "name": "Knight (Scale Mail on Blue) - Black Arms, Red Legs",
+    "name": "Knight, Scale Mail on Blue, Black Arms, Red Legs",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-006739.jpg",
     "theme": "",
@@ -300407,7 +300537,7 @@
   },
   {
     "fig_num": "fig-006740",
-    "name": "Princess Alyssa (Fantasy Era) - Reddish Brown Hair",
+    "name": "Princess Alyssa, Fantasy Era, Reddish Brown Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-006740.jpg",
     "theme": "",
@@ -300415,7 +300545,7 @@
   },
   {
     "fig_num": "fig-006741",
-    "name": "Maiden (Kingdoms) - Dark Orange Hair",
+    "name": "Maiden, Kingdoms, Dark Orange Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-006741.jpg",
     "theme": "",
@@ -300423,7 +300553,7 @@
   },
   {
     "fig_num": "fig-006742",
-    "name": "Maiden (Knights Kingdom I) - Black Cone Hat",
+    "name": "Maiden, Knights Kingdom I, Black Cone Hat",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-006742.jpg",
     "theme": "",
@@ -300535,7 +300665,7 @@
   },
   {
     "fig_num": "fig-006756",
-    "name": "Maiden (Fantasy Era) - Dark Brown Hair",
+    "name": "Maiden, Fantasy Era, Dark Brown Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-006756.jpg",
     "theme": "",
@@ -300567,7 +300697,7 @@
   },
   {
     "fig_num": "fig-006760",
-    "name": "Maiden (Fantasy Era) - Brown Skirt, Reddish Brown Hair",
+    "name": "Maiden, Fantasy Era, Brown Skirt, Reddish Brown Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-006760.jpg",
     "theme": "",
@@ -300599,7 +300729,7 @@
   },
   {
     "fig_num": "fig-006764",
-    "name": "Maiden (Blue Lion) - Dark Red Hair",
+    "name": "Maiden, Blue Lion, Dark Red Hair",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-006764.jpg",
     "theme": "",
@@ -300623,7 +300753,7 @@
   },
   {
     "fig_num": "fig-006767",
-    "name": "Maiden (Kingdoms) - Reddish Brown Hair",
+    "name": "Maiden, Kingdoms, Reddish Brown Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-006767.jpg",
     "theme": "",
@@ -300639,7 +300769,7 @@
   },
   {
     "fig_num": "fig-006769",
-    "name": "Maiden (Kingdoms) - Dark Orange Hair",
+    "name": "Maiden, Kingdoms, Dark Orange Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-006769.jpg",
     "theme": "",
@@ -300663,7 +300793,7 @@
   },
   {
     "fig_num": "fig-006772",
-    "name": "Maiden (Kingdoms) - Black Hair",
+    "name": "Maiden, Kingdoms, Black Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-006772.jpg",
     "theme": "",
@@ -300711,7 +300841,7 @@
   },
   {
     "fig_num": "fig-006783",
-    "name": "Peasant (Fantasy Era) - Tan Hair",
+    "name": "Peasant, Fantasy Era, Tan Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-006783.jpg",
     "theme": "",
@@ -300719,7 +300849,7 @@
   },
   {
     "fig_num": "fig-006784",
-    "name": "Peasant (Fantasy Era) - Dark Brown Hood",
+    "name": "Peasant, Fantasy Era, Dark Brown Hood",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-006784.jpg",
     "theme": "",
@@ -300727,7 +300857,7 @@
   },
   {
     "fig_num": "fig-006785",
-    "name": "Peasant (Fantasy Era) - Dark Tan Hair",
+    "name": "Peasant, Fantasy Era, Dark Tan Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-006785.jpg",
     "theme": "",
@@ -300735,7 +300865,7 @@
   },
   {
     "fig_num": "fig-006786",
-    "name": "Peasant (Kingdoms) - Dark Tan Hair",
+    "name": "Peasant, Kingdoms, Dark Tan Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-006786.jpg",
     "theme": "",
@@ -300743,7 +300873,7 @@
   },
   {
     "fig_num": "fig-006787",
-    "name": "Peasant (Kingdoms) - Dark Brown Hood",
+    "name": "Peasant, Kingdoms, Dark Brown Hood",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-006787.jpg",
     "theme": "",
@@ -301527,7 +301657,7 @@
   },
   {
     "fig_num": "fig-006894",
-    "name": "Woman - Black Jacket, Brown Legs",
+    "name": "Woman, Black Jacket, Brown Legs",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-006894.jpg",
     "theme": "",
@@ -301583,7 +301713,7 @@
   },
   {
     "fig_num": "fig-006901",
-    "name": "Knight (Dragon Knights) - Light Gray Legs, Light Gray Hips",
+    "name": "Knight, Dragon Knights, Light Gray Legs, Light Gray Hips",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-006901.jpg",
     "theme": "",
@@ -301591,7 +301721,7 @@
   },
   {
     "fig_num": "fig-006902",
-    "name": "Knight (Dragon Knights) - Black Legs, Red Hips, Blue Plumes",
+    "name": "Knight, Dragon Knights, Black Legs, Red Hips, Blue Plumes",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-006902.jpg",
     "theme": "",
@@ -301599,7 +301729,7 @@
   },
   {
     "fig_num": "fig-006903",
-    "name": "Knight (Dragon Knights) - Black Legs, Red Hips, Red Plumes",
+    "name": "Knight, Dragon Knights, Black Legs, Red Hips, Red Plumes",
     "num_parts": 7,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-006903.jpg",
     "theme": "",
@@ -301607,7 +301737,7 @@
   },
   {
     "fig_num": "fig-006904",
-    "name": "Knight (Dragon Knights) - Black Legs, Yellow Plumes",
+    "name": "Knight, Dragon Knights, Black Legs, Yellow Plumes",
     "num_parts": 7,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-006904.jpg",
     "theme": "",
@@ -301623,7 +301753,7 @@
   },
   {
     "fig_num": "fig-006906",
-    "name": "Knight (Dragon Knights) - Black Legs, Neck-Protector",
+    "name": "Knight, Dragon Knights, Black Legs, Neck-Protector",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-006906.jpg",
     "theme": "",
@@ -301631,7 +301761,7 @@
   },
   {
     "fig_num": "fig-006907",
-    "name": "Knight (Dragon Knights) - Black Legs, Black Hips, Red Plumes",
+    "name": "Knight, Dragon Knights, Black Legs, Black Hips, Red Plumes",
     "num_parts": 7,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-006907.jpg",
     "theme": "",
@@ -301671,7 +301801,7 @@
   },
   {
     "fig_num": "fig-006914",
-    "name": "Wizard Morax (Fantasy Era) - Evil, Cape",
+    "name": "Wizard Morax, Fantasy Era, Evil, Cape",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-006914.jpg",
     "theme": "",
@@ -301679,7 +301809,7 @@
   },
   {
     "fig_num": "fig-006915",
-    "name": "Wizard (Fantasy Era) - Good, Cape",
+    "name": "Wizard, Fantasy Era, Good, Cape",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-006915.jpg",
     "theme": "",
@@ -301687,7 +301817,7 @@
   },
   {
     "fig_num": "fig-006916",
-    "name": "Wizard (Kingdoms) - Blue, 3626c",
+    "name": "Wizard, Kingdoms, Blue, 3626c",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-006916.jpg",
     "theme": "",
@@ -301711,7 +301841,7 @@
   },
   {
     "fig_num": "fig-006920",
-    "name": "Wizard (Kingdoms) - Blue, 3626b",
+    "name": "Wizard, Kingdoms, Blue, 3626b",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-006920.jpg",
     "theme": "",
@@ -301807,7 +301937,7 @@
   },
   {
     "fig_num": "fig-006945",
-    "name": "Wizard (Kingdoms) - Dark Green, Cape",
+    "name": "Wizard, Kingdoms, Dark Green, Cape",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-006945.jpg",
     "theme": "",
@@ -301823,7 +301953,7 @@
   },
   {
     "fig_num": "fig-006947",
-    "name": "Wizard (Knights Kingdom) - Blue",
+    "name": "Wizard, Knights Kingdom, Blue",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-006947.jpg",
     "theme": "",
@@ -303031,7 +303161,7 @@
   },
   {
     "fig_num": "fig-007108",
-    "name": "Knight (Royal Knights) - Black Legs, Red Helmet, Red Plume",
+    "name": "Knight, Royal Knights, Black Legs, Red Helmet, Red Plume",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-007108.jpg",
     "theme": "",
@@ -303039,7 +303169,7 @@
   },
   {
     "fig_num": "fig-007109",
-    "name": "Knight (Royal Knights) - Red Legs",
+    "name": "Knight, Royal Knights, Red Legs",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-007109.jpg",
     "theme": "",
@@ -303055,7 +303185,7 @@
   },
   {
     "fig_num": "fig-007111",
-    "name": "Knight (Royal Knights) - Blue Legs, Black Neck-Protector",
+    "name": "Knight, Royal Knights, Blue Legs, Black Neck-Protector",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-007111.jpg",
     "theme": "",
@@ -303063,7 +303193,7 @@
   },
   {
     "fig_num": "fig-007112",
-    "name": "Knight (Fright Knights) - Black Helmet, Red Triple-Plume",
+    "name": "Knight, Fright Knights, Black Helmet, Red Triple-Plume",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-007112.jpg",
     "theme": "",
@@ -303071,7 +303201,7 @@
   },
   {
     "fig_num": "fig-007113",
-    "name": "Knight (Fright Knights) - Black Helmet, Red Plume",
+    "name": "Knight, Fright Knights, Black Helmet, Red Plume",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-007113.jpg",
     "theme": "",
@@ -303079,7 +303209,7 @@
   },
   {
     "fig_num": "fig-007114",
-    "name": "Knight (Fright Knights) - Dark Gray Legs, Black Chin-Guard",
+    "name": "Knight, Fright Knights, Dark Gray Legs, Black Chin-Guard",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-007114.jpg",
     "theme": "",
@@ -303087,7 +303217,7 @@
   },
   {
     "fig_num": "fig-007115",
-    "name": "Knight (Fright Knights) - Dark Gray Legs, Black Neck-Protector",
+    "name": "Knight, Fright Knights, Dark Gray Legs, Black Neck-Protector",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-007115.jpg",
     "theme": "",
@@ -303095,7 +303225,7 @@
   },
   {
     "fig_num": "fig-007116",
-    "name": "Knight (Fright Knights) - Red Legs, Red Hips",
+    "name": "Knight, Fright Knights, Red Legs, Red Hips",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-007116.jpg",
     "theme": "",
@@ -303103,7 +303233,7 @@
   },
   {
     "fig_num": "fig-007117",
-    "name": "Witch (Fright Knights) - Willa, Cape",
+    "name": "Witch, Fright Knights, Willa, Cape",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-007117.jpg",
     "theme": "",
@@ -303247,7 +303377,7 @@
   },
   {
     "fig_num": "fig-007135",
-    "name": "Woman - Blue Jogging Suite, Light Gray Legs",
+    "name": "Woman, Blue Jogging Suite, Light Gray Legs",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-007135.jpg",
     "theme": "",
@@ -306791,7 +306921,7 @@
   },
   {
     "fig_num": "fig-007629",
-    "name": "Knight (Knights Kingdom I) - Dark Bluish Gray Legs, Armor",
+    "name": "Knight, Knights Kingdom I, Dark Bluish Gray Legs, Armor",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-007629.jpg",
     "theme": "",
@@ -306799,7 +306929,7 @@
   },
   {
     "fig_num": "fig-007630",
-    "name": "Knight (Knights Kingdom I) - Black Legs, Armor",
+    "name": "Knight, Knights Kingdom I, Black Legs, Armor",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-007630.jpg",
     "theme": "",
@@ -306807,7 +306937,7 @@
   },
   {
     "fig_num": "fig-007631",
-    "name": "Knight (Knights Kingdom I) - Light Bluish Gray Legs, Armor, Black Moustache",
+    "name": "Knight, Knights Kingdom I, Light Bluish Gray Legs, Armor, Black Moustache",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-007631.jpg",
     "theme": "",
@@ -306815,7 +306945,7 @@
   },
   {
     "fig_num": "fig-007632",
-    "name": "Knight (Knights Kingdom I) - Light Bluish Gray Legs, Armor, Brown Moustache",
+    "name": "Knight, Knights Kingdom I, Light Bluish Gray Legs, Armor, Brown Moustache",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-007632.jpg",
     "theme": "",
@@ -306823,7 +306953,7 @@
   },
   {
     "fig_num": "fig-007633",
-    "name": "Knight (Knights Kingdom I) - Red Legs, Armor",
+    "name": "Knight, Knights Kingdom I, Red Legs, Armor",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-007633.jpg",
     "theme": "",
@@ -306831,7 +306961,7 @@
   },
   {
     "fig_num": "fig-007634",
-    "name": "Knight (Knights Kingdom I) - Cedric the Bull, Black Helmet, Horn",
+    "name": "Knight, Knights Kingdom I, Cedric the Bull, Black Helmet, Horn",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-007634.jpg",
     "theme": "",
@@ -307119,7 +307249,7 @@
   },
   {
     "fig_num": "fig-007670",
-    "name": "Knight (Knights Kingdom I) - Gilbert the Bad, Black Helmet",
+    "name": "Knight, Knights Kingdom I, Gilbert the Bad, Black Helmet",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-007670.jpg",
     "theme": "",
@@ -307143,7 +307273,7 @@
   },
   {
     "fig_num": "fig-007673",
-    "name": "Knight (Knights Kingdom I) - Leather on Legs, Armor",
+    "name": "Knight, Knights Kingdom I, Leather on Legs, Armor",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-007673.jpg",
     "theme": "",
@@ -307151,7 +307281,7 @@
   },
   {
     "fig_num": "fig-007674",
-    "name": "Knight (Knights Kingdom I) - Leather on Legs",
+    "name": "Knight, Knights Kingdom I, Leather on Legs",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-007674.jpg",
     "theme": "",
@@ -307167,7 +307297,7 @@
   },
   {
     "fig_num": "fig-007676",
-    "name": "Knight (Knights Kingdom I) - Princess Storm",
+    "name": "Knight, Knights Kingdom I, Princess Storm",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-007676.jpg",
     "theme": "",
@@ -307175,7 +307305,7 @@
   },
   {
     "fig_num": "fig-007677",
-    "name": "Knight (Knights Kingdom I) - Plate on Legs, Red Plume",
+    "name": "Knight, Knights Kingdom I, Plate on Legs, Red Plume",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-007677.jpg",
     "theme": "",
@@ -307183,7 +307313,7 @@
   },
   {
     "fig_num": "fig-007678",
-    "name": "Knight (Knights Kingdom I) - Plate on Legs",
+    "name": "Knight, Knights Kingdom I, Plate on Legs",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-007678.jpg",
     "theme": "",
@@ -307551,7 +307681,7 @@
   },
   {
     "fig_num": "fig-007739",
-    "name": "Knight (Knights Kingdom I) - Bull Robber, Black Neck-Protector",
+    "name": "Knight, Knights Kingdom I, Bull Robber, Black Neck-Protector",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-007739.jpg",
     "theme": "",
@@ -309023,7 +309153,7 @@
   },
   {
     "fig_num": "fig-007926",
-    "name": "Knight - Black Torso, Black Legs",
+    "name": "Knight, Black Torso, Black Legs",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-007926.jpg",
     "theme": "",
@@ -309063,7 +309193,7 @@
   },
   {
     "fig_num": "fig-007931",
-    "name": "Knight - Dark Bluish Gray Torso, Light Bluish Grey Legs, Quiver",
+    "name": "Knight, Dark Bluish Gray Torso, Light Bluish Grey Legs, Quiver",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-007931.jpg",
     "theme": "",
@@ -312783,7 +312913,7 @@
   },
   {
     "fig_num": "fig-008412",
-    "name": "Timmy - Green Wizard Hat, Black Legs",
+    "name": "Timmy, Green Wizard Hat, Black Legs",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-008412.jpg",
     "theme": "",
@@ -313407,7 +313537,7 @@
   },
   {
     "fig_num": "fig-008506",
-    "name": "Technician - Dark Blue Torso, Dark Blue Legs, White Helmet",
+    "name": "Technician, Dark Blue Torso, Dark Blue Legs, White Helmet",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-008506.jpg",
     "theme": "",
@@ -313503,7 +313633,7 @@
   },
   {
     "fig_num": "fig-008518",
-    "name": "Technician - Dark Blue Torso, Dark Blue Legs, White Helmet, Reddish Brown Hair",
+    "name": "Technician, Dark Blue Torso, Dark Blue Legs, White Helmet, Reddish Brown Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-008518.jpg",
     "theme": "",
@@ -313615,7 +313745,7 @@
   },
   {
     "fig_num": "fig-008532",
-    "name": "Technician - Dark Blue Torso, Dark Blue Legs, White Helmet, Dark Brown Hair",
+    "name": "Technician, Dark Blue Torso, Dark Blue Legs, White Helmet, Dark Brown Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-008532.jpg",
     "theme": "",
@@ -313623,7 +313753,7 @@
   },
   {
     "fig_num": "fig-008533",
-    "name": "Technician - Dark Blue Torso, Dark Blue Legs, Welding Mask",
+    "name": "Technician, Dark Blue Torso, Dark Blue Legs, Welding Mask",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-008533.jpg",
     "theme": "",
@@ -315511,7 +315641,7 @@
   },
   {
     "fig_num": "fig-008782",
-    "name": "Knight (Knights Kingdom II) - Hero, Black Beard",
+    "name": "Knight, Knights Kingdom II, Hero, Black Beard",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-008782.jpg",
     "theme": "",
@@ -315519,7 +315649,7 @@
   },
   {
     "fig_num": "fig-008783",
-    "name": "Knight (Knights Kingdom II) - Hero, Smile",
+    "name": "Knight, Knights Kingdom II, Hero, Smile",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-008783.jpg",
     "theme": "",
@@ -315527,7 +315657,7 @@
   },
   {
     "fig_num": "fig-008785",
-    "name": "Knight (Knights Kingdom II) - Hero, Light Gray Beard",
+    "name": "Knight, Knights Kingdom II, Hero, Light Gray Beard",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-008785.jpg",
     "theme": "",
@@ -315583,7 +315713,7 @@
   },
   {
     "fig_num": "fig-008792",
-    "name": "Tony Stark - Silver Cameo",
+    "name": "Tony Stark, Silver Cameo",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-008792.jpg",
     "theme": "",
@@ -316447,7 +316577,7 @@
   },
   {
     "fig_num": "fig-008904",
-    "name": "Stephanie - Olive Green Jacket, Olive Green Skirt, Bright Light Yellow Hair",
+    "name": "Stephanie, Olive Green Jacket, Olive Green Skirt, Bright Light Yellow Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-008904.jpg",
     "theme": "",
@@ -316847,7 +316977,7 @@
   },
   {
     "fig_num": "fig-008967",
-    "name": "Stephanie - Sand Green Top, Bright Pink Skirt",
+    "name": "Stephanie, Sand Green Top, Bright Pink Skirt",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-008967.jpg",
     "theme": "",
@@ -316871,7 +317001,7 @@
   },
   {
     "fig_num": "fig-008970",
-    "name": "Stephanie - Medium Azure Top, Medium Azure Skirt",
+    "name": "Stephanie, Medium Azure Top, Medium Azure Skirt",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-008970.jpg",
     "theme": "",
@@ -316927,7 +317057,7 @@
   },
   {
     "fig_num": "fig-008977",
-    "name": "Stephanie - Magenta Top, White Apron",
+    "name": "Stephanie, Magenta Top, White Apron",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-008977.jpg",
     "theme": "",
@@ -316951,7 +317081,7 @@
   },
   {
     "fig_num": "fig-008981",
-    "name": "Stephanie - Medium Azure Jacket, Dark Blue Skirt",
+    "name": "Stephanie, Medium Azure Jacket, Dark Blue Skirt",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-008981.jpg",
     "theme": "",
@@ -317639,7 +317769,7 @@
   },
   {
     "fig_num": "fig-009078",
-    "name": "Statue - Lilly Light Bluish Gray Hair in Bun",
+    "name": "Statue, Lilly Light Bluish Gray Hair in Bun",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-009078.jpg",
     "theme": "",
@@ -318063,7 +318193,7 @@
   },
   {
     "fig_num": "fig-009152",
-    "name": "Soldier - Castle, Dark Bluish Grey Torso, Blue Legs, Light Bluish Grey Helmet",
+    "name": "Soldier, Castle, Dark Bluish Grey Torso, Blue Legs, Light Bluish Grey Helmet",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-009152.jpg",
     "theme": "",
@@ -318071,7 +318201,7 @@
   },
   {
     "fig_num": "fig-009153",
-    "name": "Knight - Black Torso, Black Legs, Pearl Dark Gray Helmet",
+    "name": "Knight, Black Torso, Black Legs, Pearl Dark Gray Helmet",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-009153.jpg",
     "theme": "",
@@ -318199,7 +318329,7 @@
   },
   {
     "fig_num": "fig-009169",
-    "name": "Train Worker - Dark Blue Torso, Sand Blue Legs, Dark Orange Hair",
+    "name": "Train Worker, Dark Blue Torso, Sand Blue Legs, Dark Orange Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-009169.jpg",
     "theme": "",
@@ -318215,7 +318345,7 @@
   },
   {
     "fig_num": "fig-009171",
-    "name": "Train Worker - Light Bluish Grey Torso, Dark Blue Legs, Red Scarf, Black Kepi",
+    "name": "Train Worker, Light Bluish Grey Torso, Dark Blue Legs, Red Scarf, Black Kepi",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-009171.jpg",
     "theme": "",
@@ -318431,7 +318561,7 @@
   },
   {
     "fig_num": "fig-009205",
-    "name": "Train Worker - Dark Blue Torso, Dark Blue Legs, Dark Red Hat",
+    "name": "Train Worker, Dark Blue Torso, Dark Blue Legs, Dark Red Hat",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-009205.jpg",
     "theme": "",
@@ -318463,7 +318593,7 @@
   },
   {
     "fig_num": "fig-009209",
-    "name": "Train Worker - Orange Torso, Light Bluish Grey Legs, Dark Brown Hair",
+    "name": "Train Worker, Orange Torso, Light Bluish Grey Legs, Dark Brown Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-009209.jpg",
     "theme": "",
@@ -318479,7 +318609,7 @@
   },
   {
     "fig_num": "fig-009211",
-    "name": "Train Worker, Maersk - Dark Bluish Grey Beard",
+    "name": "Train Worker, Maersk, Dark Bluish Grey Beard",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-009211.jpg",
     "theme": "",
@@ -318487,7 +318617,7 @@
   },
   {
     "fig_num": "fig-009212",
-    "name": "Train Worker, Maersk - Sunglasses",
+    "name": "Train Worker, Maersk, Sunglasses",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-009212.jpg",
     "theme": "",
@@ -318495,7 +318625,7 @@
   },
   {
     "fig_num": "fig-009213",
-    "name": "Train Worker, Maersk - Glasses",
+    "name": "Train Worker, Maersk, Glasses",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-009213.jpg",
     "theme": "",
@@ -319695,7 +319825,7 @@
   },
   {
     "fig_num": "fig-009370",
-    "name": "Statue - Gold Wings",
+    "name": "Statue, Gold Wings",
     "num_parts": 10,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-009370.jpg",
     "theme": "",
@@ -320695,7 +320825,7 @@
   },
   {
     "fig_num": "fig-009527",
-    "name": "Knight - Light Bluish Grey Armour with Crown",
+    "name": "Knight, Light Bluish Grey Armour with Crown",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-009527.jpg",
     "theme": "",
@@ -320759,7 +320889,7 @@
   },
   {
     "fig_num": "fig-009538",
-    "name": "Knight - Crown Symbol, Pearl Grey Breastplate, Dark Bluish Grey Legs",
+    "name": "Knight, Crown Symbol, Pearl Grey Breastplate, Dark Bluish Grey Legs",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-009538.jpg",
     "theme": "",
@@ -325391,7 +325521,7 @@
   },
   {
     "fig_num": "fig-010255",
-    "name": "Train Conductor - Medium Blue",
+    "name": "Train Conductor, Medium Blue",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010255.jpg",
     "theme": "",
@@ -325399,7 +325529,7 @@
   },
   {
     "fig_num": "fig-010256",
-    "name": "Train Conductor - Medium Blue, Female",
+    "name": "Train Conductor, Medium Blue, Female",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010256.jpg",
     "theme": "",
@@ -325543,7 +325673,7 @@
   },
   {
     "fig_num": "fig-010278",
-    "name": "Tony Stark - Light Bluish Grey Shirt",
+    "name": "Tony Stark, Light Bluish Grey Shirt",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010278.jpg",
     "theme": "",
@@ -325887,7 +326017,7 @@
   },
   {
     "fig_num": "fig-010332",
-    "name": "Stephanie - White Top, Magenta Skirt, Medium Azure Bow",
+    "name": "Stephanie, White Top, Magenta Skirt, Medium Azure Bow",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010332.jpg",
     "theme": "",
@@ -325919,7 +326049,7 @@
   },
   {
     "fig_num": "fig-010337",
-    "name": "Stephanie - Medium Azure Top, Dark Blue Skirt, Bow",
+    "name": "Stephanie, Medium Azure Top, Dark Blue Skirt, Bow",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010337.jpg",
     "theme": "",
@@ -325935,7 +326065,7 @@
   },
   {
     "fig_num": "fig-010339",
-    "name": "Stephanie - Medium Azure Top, Dark Blue Skirt, Sunglasses",
+    "name": "Stephanie, Medium Azure Top, Dark Blue Skirt, Sunglasses",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010339.jpg",
     "theme": "",
@@ -326623,7 +326753,7 @@
   },
   {
     "fig_num": "fig-010442",
-    "name": "Mouse Droid (MSE-6-series Repair Droid) - Dark Bluish Gray, Solid Stud",
+    "name": "Mouse Droid (MSE-6-series Repair Droid), Dark Bluish Gray, Solid Stud",
     "num_parts": 9,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010442.jpg",
     "theme": "",
@@ -326935,7 +327065,7 @@
   },
   {
     "fig_num": "fig-010481",
-    "name": "Mouse Droid (MSE-6-series Repair Droid) - Dark Bluish Gray, Open Stud",
+    "name": "Mouse Droid (MSE-6-series Repair Droid), Dark Bluish Gray, Open Stud",
     "num_parts": 9,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010481.jpg",
     "theme": "",
@@ -326967,7 +327097,7 @@
   },
   {
     "fig_num": "fig-010485",
-    "name": "Mouse Droid (MSE-6-series Repair Droid) - Sloped Sides",
+    "name": "Mouse Droid (MSE-6-series Repair Droid), Sloped Sides",
     "num_parts": 16,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010485.jpg",
     "theme": "",
@@ -326975,7 +327105,7 @@
   },
   {
     "fig_num": "fig-010486",
-    "name": "Technic Figure Black/Light Gray Legs, Dark Turquoise Torso with Yellow, Black, Silver Print, Light Gray Mechanical Left Arm - Printed Helmet",
+    "name": "Technic Figure Black/Light Gray Legs, Dark Turquoise Torso with Yellow, Black, Silver Print, Light Gray Mechanical Left Arm, Printed Helmet",
     "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010486.jpg",
     "theme": "",
@@ -326983,7 +327113,7 @@
   },
   {
     "fig_num": "fig-010487",
-    "name": "Technic Figure Black/Light Gray Legs, Dark Turquoise Torso with Yellow, Black, Silver Print, Light Gray Mechanical Left Arm - Dark Turquoise Helmet",
+    "name": "Technic Figure Black/Light Gray Legs, Dark Turquoise Torso with Yellow, Black, Silver Print, Light Gray Mechanical Left Arm, Dark Turquoise Helmet",
     "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010487.jpg",
     "theme": "",
@@ -326991,7 +327121,7 @@
   },
   {
     "fig_num": "fig-010488",
-    "name": "Technic Figure Black Legs, Light Gray Top with 2 Brown Belts, Black Arms - Black Helmet",
+    "name": "Technic Figure Black Legs, Light Gray Top with 2 Brown Belts, Black Arms, Black Helmet",
     "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010488.jpg",
     "theme": "",
@@ -326999,7 +327129,7 @@
   },
   {
     "fig_num": "fig-010489",
-    "name": "Technic Figure Black Legs, White Top with Police Logo, Black Arms - White Helmet",
+    "name": "Technic Figure Black Legs, White Top with Police Logo, Black Arms, White Helmet",
     "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010489.jpg",
     "theme": "",
@@ -327007,7 +327137,7 @@
   },
   {
     "fig_num": "fig-010490",
-    "name": "Technic Figure Blue Legs, Light Gray Top with Wave and Orca Print, Blue Arms - White Helmet",
+    "name": "Technic Figure Blue Legs, Light Gray Top with Wave and Orca Print, Blue Arms, White Helmet",
     "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010490.jpg",
     "theme": "",
@@ -327015,7 +327145,7 @@
   },
   {
     "fig_num": "fig-010491",
-    "name": "Technic Figure Blue Legs, Light Gray Top with Wave and Orca Print, Blue Arms - Blue Helmet",
+    "name": "Technic Figure Blue Legs, Light Gray Top with Wave and Orca Print, Blue Arms, Blue Helmet",
     "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010491.jpg",
     "theme": "",
@@ -327023,7 +327153,7 @@
   },
   {
     "fig_num": "fig-010492",
-    "name": "Technic Figure Red Legs, Red Top with Fire Print, Black Arms - Red Helmet",
+    "name": "Technic Figure Red Legs, Red Top with Fire Print, Black Arms, Red Helmet",
     "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010492.jpg",
     "theme": "",
@@ -327031,7 +327161,7 @@
   },
   {
     "fig_num": "fig-010493",
-    "name": "Technic Figure Orange/Black Legs, Orange Torso with Silver Print, Black Arms, Black Hair - Dark Turquoise Helmet",
+    "name": "Technic Figure Orange/Black Legs, Orange Torso with Silver Print, Black Arms, Black Hair, Dark Turquoise Helmet",
     "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010493.jpg",
     "theme": "",
@@ -327039,7 +327169,7 @@
   },
   {
     "fig_num": "fig-010494",
-    "name": "Technic Figure Blue Legs, Red Top with Zip, Blue Arms, Black Hair - White Helmet",
+    "name": "Technic Figure Blue Legs, Red Top with Zip, Blue Arms, Black Hair, White Helmet",
     "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010494.jpg",
     "theme": "",
@@ -327047,7 +327177,7 @@
   },
   {
     "fig_num": "fig-010495",
-    "name": "Technic Figure Yellow Legs, Yellow Top [Power Puller Driver] - Yellow Helmet",
+    "name": "Technic Figure Yellow Legs, Yellow Top [Power Puller Driver], Yellow Helmet",
     "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010495.jpg",
     "theme": "",
@@ -327055,7 +327185,7 @@
   },
   {
     "fig_num": "fig-010496",
-    "name": "Technic Figure Blue Legs, Blue Top with Technic Logo, Black Hair and Sunglasses - Black Helmet",
+    "name": "Technic Figure Blue Legs, Blue Top with Technic Logo, Black Hair and Sunglasses, Black Helmet",
     "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010496.jpg",
     "theme": "",
@@ -327063,7 +327193,7 @@
   },
   {
     "fig_num": "fig-010497",
-    "name": "Technic Figure Red Legs, Red Top with Technic Logo and Black Hair - White Helmet",
+    "name": "Technic Figure Red Legs, Red Top with Technic Logo and Black Hair, White Helmet",
     "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010497.jpg",
     "theme": "",
@@ -327071,7 +327201,7 @@
   },
   {
     "fig_num": "fig-010498",
-    "name": "Technic Figure Cyborg, Black Legs, Purple Armour, Mechanical Arms, Dark Gray Head, Cyborg Eyepiece - Purple Vest",
+    "name": "Technic Figure Cyborg, Black Legs, Purple Armour, Mechanical Arms, Dark Gray Head, Cyborg Eyepiece, Purple Vest",
     "num_parts": 2,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010498.jpg",
     "theme": "",
@@ -327079,7 +327209,7 @@
   },
   {
     "fig_num": "fig-010499",
-    "name": "Technic Figure White Legs, White Top with Red Vest, Red Arms, Black Hair - Red Helmet",
+    "name": "Technic Figure White Legs, White Top with Red Vest, Red Arms, Black Hair, Red Helmet",
     "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010499.jpg",
     "theme": "",
@@ -327087,7 +327217,7 @@
   },
   {
     "fig_num": "fig-010500",
-    "name": "Technic Figure White Legs, White Top with Red Arrow Stripes Print, Blue Arms - Blue Helmet",
+    "name": "Technic Figure White Legs, White Top with Red Arrow Stripes Print, Blue Arms, Blue Helmet",
     "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010500.jpg",
     "theme": "",
@@ -327095,7 +327225,7 @@
   },
   {
     "fig_num": "fig-010501",
-    "name": "Technic Figure Blue Legs, White Top with Zip & Shoulder Harness Print, Blue Arms - Blue Helmet",
+    "name": "Technic Figure Blue Legs, White Top with Zip & Shoulder Harness Print, Blue Arms, Blue Helmet",
     "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010501.jpg",
     "theme": "",
@@ -327103,7 +327233,7 @@
   },
   {
     "fig_num": "fig-010502",
-    "name": "Technic Figure Blue Legs, White Top with Zip & Shoulder Harness Print, Blue Arms - White Helmet",
+    "name": "Technic Figure Blue Legs, White Top with Zip & Shoulder Harness Print, Blue Arms, White Helmet",
     "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010502.jpg",
     "theme": "",
@@ -327111,7 +327241,7 @@
   },
   {
     "fig_num": "fig-010503",
-    "name": "Technic Figure White Legs, White Top with Red Stripes Print, Black Arms [Skier] - White Helmet",
+    "name": "Technic Figure White Legs, White Top with Red Stripes Print, Black Arms [Skier], White Helmet",
     "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010503.jpg",
     "theme": "",
@@ -327119,7 +327249,7 @@
   },
   {
     "fig_num": "fig-010504",
-    "name": "Technic Figure Blue Legs, Red Top with Zipper Print, Black Arms - White Helmet",
+    "name": "Technic Figure Blue Legs, Red Top with Zipper Print, Black Arms, White Helmet",
     "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010504.jpg",
     "theme": "",
@@ -327407,7 +327537,7 @@
   },
   {
     "fig_num": "fig-010550",
-    "name": "Wheeler - Santa",
+    "name": "Wheeler, Santa",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010550.jpg",
     "theme": "",
@@ -327887,7 +328017,7 @@
   },
   {
     "fig_num": "fig-010623",
-    "name": "Space Villain - Flat Silver Peg Leg",
+    "name": "Space Villain, Flat Silver Peg Leg",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010623.jpg",
     "theme": "",
@@ -328127,7 +328257,7 @@
   },
   {
     "fig_num": "fig-010663",
-    "name": "Train Worker - Blue Torso, Dark Gray Legs, Red Hat",
+    "name": "Train Worker, Blue Torso, Dark Gray Legs, Red Hat",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010663.jpg",
     "theme": "",
@@ -328135,7 +328265,7 @@
   },
   {
     "fig_num": "fig-010664",
-    "name": "Train Worker - Blue Torso, Dark Gray Legs, Red Helmet",
+    "name": "Train Worker, Blue Torso, Dark Gray Legs, Red Helmet",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010664.jpg",
     "theme": "",
@@ -328439,7 +328569,7 @@
   },
   {
     "fig_num": "fig-010714",
-    "name": "Wacky Witch - Black Legs",
+    "name": "Wacky Witch, Black Legs",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010714.jpg",
     "theme": "",
@@ -328663,7 +328793,7 @@
   },
   {
     "fig_num": "fig-010753",
-    "name": "Wandering Trader - Blue",
+    "name": "Wandering Trader, Blue",
     "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010753.jpg",
     "theme": "",
@@ -329351,7 +329481,7 @@
   },
   {
     "fig_num": "fig-010867",
-    "name": "Stephanie - Dark Turquoise Top, Dark Blue Skirt, Dark Purple Cat Ears",
+    "name": "Stephanie, Dark Turquoise Top, Dark Blue Skirt, Dark Purple Cat Ears",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010867.jpg",
     "theme": "",
@@ -329551,7 +329681,7 @@
   },
   {
     "fig_num": "fig-010899",
-    "name": "Stephanie - White Doctor Coat, Magenta Skirt",
+    "name": "Stephanie, White Doctor Coat, Magenta Skirt",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010899.jpg",
     "theme": "",
@@ -329711,7 +329841,7 @@
   },
   {
     "fig_num": "fig-010921",
-    "name": "Woman - Green Tunic, Dark Tan/Reddish Brown Legs, Dark Brown Hair, Quiver",
+    "name": "Woman, Green Tunic, Dark Tan/Reddish Brown Legs, Dark Brown Hair, Quiver",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010921.jpg",
     "theme": "",
@@ -330471,7 +330601,7 @@
   },
   {
     "fig_num": "fig-011054",
-    "name": "Stephanie - White Plaid Top, Dark Purple Skirt",
+    "name": "Stephanie, White Plaid Top, Dark Purple Skirt",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-011054.jpg",
     "theme": "",
@@ -330615,7 +330745,7 @@
   },
   {
     "fig_num": "fig-011077",
-    "name": "White Torso, Blue Legs, Brown Hair - 3626a Head",
+    "name": "White Torso, Blue Legs, Brown Hair, 3626a Head",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-011077.jpg",
     "theme": "",
@@ -330791,7 +330921,7 @@
   },
   {
     "fig_num": "fig-011112",
-    "name": "Stephanie - White Apron",
+    "name": "Stephanie, White Apron",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-011112.jpg",
     "theme": "",
@@ -330807,7 +330937,7 @@
   },
   {
     "fig_num": "fig-011114",
-    "name": "Stephanie - Silver Top, Magenta Skirt",
+    "name": "Stephanie, Silver Top, Magenta Skirt",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-011114.jpg",
     "theme": "",
@@ -331295,7 +331425,7 @@
   },
   {
     "fig_num": "fig-011198",
-    "name": "Wampa (Big Fig) - Tan Nose",
+    "name": "Wampa (Big Fig), Tan Nose",
     "num_parts": 7,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-011198.jpg",
     "theme": "",
@@ -331767,7 +331897,7 @@
   },
   {
     "fig_num": "fig-011288",
-    "name": "Stormtrooper, First Order - Rounded Mouth",
+    "name": "Stormtrooper, First Order, Rounded Mouth",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-011288.jpg",
     "theme": "",
@@ -332919,7 +333049,7 @@
   },
   {
     "fig_num": "fig-011467",
-    "name": "Stephanie - Dark Red Uniform",
+    "name": "Stephanie, Dark Red Uniform",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-011467.jpg",
     "theme": "",
@@ -332951,7 +333081,7 @@
   },
   {
     "fig_num": "fig-011471",
-    "name": "Stella - White Top, White Skirt, Light Aqua Hair",
+    "name": "Stella, White Top, White Skirt, Light Aqua Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-011471.jpg",
     "theme": "",
@@ -333015,7 +333145,7 @@
   },
   {
     "fig_num": "fig-011479",
-    "name": "Stephanie - Dark Pink/Silver Top, Dark Pink Pants, Face Paint",
+    "name": "Stephanie, Dark Pink/Silver Top, Dark Pink Pants, Face Paint",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-011479.jpg",
     "theme": "",
@@ -333047,7 +333177,7 @@
   },
   {
     "fig_num": "fig-011483",
-    "name": "Steve - Pearl Titanium Armour",
+    "name": "Steve, Pearl Titanium Armour",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-011483.jpg",
     "theme": "",
@@ -333751,7 +333881,7 @@
   },
   {
     "fig_num": "fig-011597",
-    "name": "Tiana - MicroDoll with Crown",
+    "name": "Tiana, MicroDoll with Crown",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-011597.jpg",
     "theme": "",
@@ -334599,7 +334729,7 @@
   },
   {
     "fig_num": "fig-011743",
-    "name": "Winter Soldier - Captain America Suit",
+    "name": "Winter Soldier, Captain America Suit",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-011743.jpg",
     "theme": "",
@@ -334639,7 +334769,7 @@
   },
   {
     "fig_num": "fig-011750",
-    "name": "Spider Man - Zombie Hunter",
+    "name": "Spider Man, Zombie Hunter",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-011750.jpg",
     "theme": "",
@@ -334743,7 +334873,7 @@
   },
   {
     "fig_num": "fig-011766",
-    "name": "Stephanie - Microdoll, Medium Azure Dress",
+    "name": "Stephanie, Microdoll, Medium Azure Dress",
     "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-011766.jpg",
     "theme": "",
@@ -336143,7 +336273,7 @@
   },
   {
     "fig_num": "fig-011982",
-    "name": "Statue - Red with Chinese Symbols",
+    "name": "Statue, Red with Chinese Symbols",
     "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-011982.jpg",
     "theme": "",
@@ -336903,7 +337033,7 @@
   },
   {
     "fig_num": "fig-012089",
-    "name": "Tiana - Jewel Dress",
+    "name": "Tiana, Jewel Dress",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-012089.jpg",
     "theme": "",
@@ -337135,7 +337265,7 @@
   },
   {
     "fig_num": "fig-012129",
-    "name": "Stephanie - Silver Top, Medium Azure Skirt, Bright Pink Hat",
+    "name": "Stephanie, Silver Top, Medium Azure Skirt, Bright Pink Hat",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-012129.jpg",
     "theme": "",
@@ -337207,7 +337337,7 @@
   },
   {
     "fig_num": "fig-012138",
-    "name": "Stephanie - Silver Top, Magenta Skirt, Bright Pink Hat",
+    "name": "Stephanie, Silver Top, Magenta Skirt, Bright Pink Hat",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-012138.jpg",
     "theme": "",
@@ -337247,7 +337377,7 @@
   },
   {
     "fig_num": "fig-012143",
-    "name": "Trevor - White Shirt, Black Pants, Black Hair",
+    "name": "Trevor, White Shirt, Black Pants, Black Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-012143.jpg",
     "theme": "",
@@ -338279,7 +338409,7 @@
   },
   {
     "fig_num": "fig-012352",
-    "name": "Stephanie - Bright Light Blue Bikini Top with White Flowers, Dark Purple Skirt, Magenta Hat",
+    "name": "Stephanie, Bright Light Blue Bikini Top with White Flowers, Dark Purple Skirt, Magenta Hat",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-012352.jpg",
     "theme": "",
@@ -338383,7 +338513,7 @@
   },
   {
     "fig_num": "fig-012366",
-    "name": "White Bone Demon - Glow In The Dark Bone",
+    "name": "White Bone Demon, Glow In The Dark Bone",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-012366.jpg",
     "theme": "",
@@ -338543,7 +338673,7 @@
   },
   {
     "fig_num": "fig-012397",
-    "name": "Nindroid (Legacy) - Harness",
+    "name": "Nindroid (Legacy), Harness",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-012397.jpg",
     "theme": "",
@@ -338655,7 +338785,7 @@
   },
   {
     "fig_num": "fig-012420",
-    "name": "Korg - Shoulder Armour",
+    "name": "Korg, Shoulder Armour",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-012420.jpg",
     "theme": "",
@@ -339199,7 +339329,7 @@
   },
   {
     "fig_num": "fig-012508",
-    "name": "Tim Murphy - Muddy",
+    "name": "Tim Murphy, Muddy",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-012508.jpg",
     "theme": "",
@@ -339391,7 +339521,7 @@
   },
   {
     "fig_num": "fig-012539",
-    "name": "Steve - Micro",
+    "name": "Steve, Micro",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-012539.jpg",
     "theme": "",
@@ -339399,7 +339529,7 @@
   },
   {
     "fig_num": "fig-012541",
-    "name": "Villager - Micro",
+    "name": "Villager, Micro",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-012541.jpg",
     "theme": "",
@@ -339551,7 +339681,7 @@
   },
   {
     "fig_num": "fig-012573",
-    "name": "Thor - Long Hair, Blue Suit",
+    "name": "Thor, Long Hair, Blue Suit",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-012573.jpg",
     "theme": "",
@@ -339575,7 +339705,7 @@
   },
   {
     "fig_num": "fig-012576",
-    "name": "Korg - Fur Collar",
+    "name": "Korg, Fur Collar",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-012576.jpg",
     "theme": "",
@@ -339615,7 +339745,7 @@
   },
   {
     "fig_num": "fig-012582",
-    "name": "William - Space Suit",
+    "name": "William, Space Suit",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-012582.jpg",
     "theme": "",
@@ -341271,7 +341401,7 @@
   },
   {
     "fig_num": "fig-012830",
-    "name": "Stephanie - Wetsuit, Lifejacket, Coral Cap",
+    "name": "Stephanie, Wetsuit, Lifejacket, Coral Cap",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-012830.jpg",
     "theme": "",
@@ -341359,7 +341489,7 @@
   },
   {
     "fig_num": "fig-012841",
-    "name": "Stephanie - White/Medium Azure Top, Medium Azure Skirt",
+    "name": "Stephanie, White/Medium Azure Top, Medium Azure Skirt",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-012841.jpg",
     "theme": "",
@@ -341663,7 +341793,7 @@
   },
   {
     "fig_num": "fig-012882",
-    "name": "Tiana - Leaves Dress",
+    "name": "Tiana, Leaves Dress",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-012882.jpg",
     "theme": "",
@@ -343303,7 +343433,7 @@
   },
   {
     "fig_num": "fig-013154",
-    "name": "The Mandalorian / Din Djarin - Head Print, Arm Print",
+    "name": "The Mandalorian / Din Djarin, Head Print, Arm Print",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-013154.jpg",
     "theme": "",
@@ -343551,7 +343681,7 @@
   },
   {
     "fig_num": "fig-013216",
-    "name": "Stephanie - Silver Top, Magenta Skirt, Bow",
+    "name": "Stephanie, Silver Top, Magenta Skirt, Bow",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-013216.jpg",
     "theme": "",
@@ -343911,7 +344041,7 @@
   },
   {
     "fig_num": "fig-013264",
-    "name": "Victoria - Yellow Dress",
+    "name": "Victoria, Yellow Dress",
     "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-013264.jpg",
     "theme": "",
@@ -343967,7 +344097,7 @@
   },
   {
     "fig_num": "fig-013273",
-    "name": "Victoria - Lime Dress",
+    "name": "Victoria, Lime Dress",
     "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-013273.jpg",
     "theme": "",
@@ -345303,7 +345433,7 @@
   },
   {
     "fig_num": "fig-013454",
-    "name": "T-Rex Costume Fan - Minifigure",
+    "name": "T-Rex Costume Fan, Minifigure",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-013454.jpg",
     "theme": "",
@@ -345407,7 +345537,7 @@
   },
   {
     "fig_num": "fig-013490",
-    "name": "Tailor - Red Torso, Sand Blue Legs, Reddish Brown Hair",
+    "name": "Tailor, Red Torso, Sand Blue Legs, Reddish Brown Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-013490.jpg",
     "theme": "",
@@ -346071,7 +346201,7 @@
   },
   {
     "fig_num": "fig-013591",
-    "name": "Wendy Darling - Microdoll",
+    "name": "Wendy Darling, Microdoll",
     "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-013591.jpg",
     "theme": "",
@@ -346111,7 +346241,7 @@
   },
   {
     "fig_num": "fig-013596",
-    "name": "Statue - Dress/Robe, Straight Hair",
+    "name": "Statue, Dress/Robe, Straight Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-013596.jpg",
     "theme": "",
@@ -346119,7 +346249,7 @@
   },
   {
     "fig_num": "fig-013597",
-    "name": "Statue - Legs, Wavy Hair",
+    "name": "Statue, Legs, Wavy Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-013597.jpg",
     "theme": "",
@@ -346127,7 +346257,7 @@
   },
   {
     "fig_num": "fig-013598",
-    "name": "Statue - Legs, Straight Hair",
+    "name": "Statue, Legs, Straight Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-013598.jpg",
     "theme": "",
@@ -346183,7 +346313,7 @@
   },
   {
     "fig_num": "fig-013606",
-    "name": "Peregrin Took (Pippin) - Reddish Brown Cape",
+    "name": "Peregrin Took (Pippin), Reddish Brown Cape",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-013606.jpg",
     "theme": "",
@@ -346191,7 +346321,7 @@
   },
   {
     "fig_num": "fig-013607",
-    "name": "Meriadoc Brandybuck (Merry) - Light Nougat Feet",
+    "name": "Meriadoc Brandybuck (Merry), Light Nougat Feet",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-013607.jpg",
     "theme": "",
@@ -346271,7 +346401,7 @@
   },
   {
     "fig_num": "fig-013620",
-    "name": "Statue - Dress/Robe, Wavy Hair",
+    "name": "Statue, Dress/Robe, Wavy Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-013620.jpg",
     "theme": "",
@@ -346863,7 +346993,7 @@
   },
   {
     "fig_num": "fig-013724",
-    "name": "Tiana - Minifig",
+    "name": "Tiana, Minifig",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-013724.jpg",
     "theme": "",
@@ -346951,7 +347081,7 @@
   },
   {
     "fig_num": "fig-013737",
-    "name": "TIE Pilot - Female",
+    "name": "TIE Pilot, Female",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-013737.jpg",
     "theme": "",
@@ -349151,7 +349281,7 @@
   },
   {
     "fig_num": "fig-014102",
-    "name": "Prince Charming (Henry) - Minifig",
+    "name": "Prince Charming (Henry), Minifig",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-014102.jpg",
     "theme": "",
@@ -349223,7 +349353,7 @@
   },
   {
     "fig_num": "fig-014112",
-    "name": "Soldier (Bluecoat) - Captain, Female",
+    "name": "Soldier, Bluecoat, Captain, Female",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-014112.jpg",
     "theme": "",
@@ -349247,7 +349377,7 @@
   },
   {
     "fig_num": "fig-014116",
-    "name": "Soldier (Bluecoat) - Admiral",
+    "name": "Soldier, Bluecoat, Admiral",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-014116.jpg",
     "theme": "",
@@ -349255,7 +349385,7 @@
   },
   {
     "fig_num": "fig-014117",
-    "name": "Soldier (Bluecoat) - Backpack, Red Epaulette, Reddish Brown Sideburns",
+    "name": "Soldier, Bluecoat, Backpack, Red Epaulette, Reddish Brown Sideburns",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-014117.jpg",
     "theme": "",
@@ -349263,7 +349393,7 @@
   },
   {
     "fig_num": "fig-014118",
-    "name": "Soldier (Bluecoat) - Backpack, Red Epaulette, Black Moustache",
+    "name": "Soldier, Bluecoat, Backpack, Red Epaulette, Black Moustache",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-014118.jpg",
     "theme": "",
@@ -349271,7 +349401,7 @@
   },
   {
     "fig_num": "fig-014119",
-    "name": "Soldier (Bluecoat) - Backpack, Red Epaulette, Female",
+    "name": "Soldier, Bluecoat, Backpack, Red Epaulette, Female",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-014119.jpg",
     "theme": "",
@@ -349279,7 +349409,7 @@
   },
   {
     "fig_num": "fig-014120",
-    "name": "Soldier (Bluecoat) - Captain, Female, Reddish Brow Hair",
+    "name": "Soldier, Bluecoat, Captain, Female, Reddish Brow Hair",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-014120.jpg",
     "theme": "",
@@ -350743,7 +350873,7 @@
   },
   {
     "fig_num": "fig-014344",
-    "name": "Wendy Darling - Minifig",
+    "name": "Wendy Darling, Minifig",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-014344.jpg",
     "theme": "",
@@ -350927,7 +351057,7 @@
   },
   {
     "fig_num": "fig-014370",
-    "name": "Wildlife Guard - Neck Bracket, Helmet",
+    "name": "Wildlife Guard, Neck Bracket, Helmet",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-014370.jpg",
     "theme": "",
@@ -351247,7 +351377,7 @@
   },
   {
     "fig_num": "fig-014420",
-    "name": "Wizard (Dragon Knights) - Majisto/Wizard, Robe",
+    "name": "Wizard, Dragon Knights, Majisto/Wizard, Robe",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-014420.jpg",
     "theme": "",
@@ -351255,7 +351385,7 @@
   },
   {
     "fig_num": "fig-014421",
-    "name": "Knight (Dragon Knights) - Reissue, Black Legs, Shoulder Gaurds",
+    "name": "Knight, Dragon Knights, Reissue, Black Legs, Shoulder Gaurds",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-014421.jpg",
     "theme": "",
@@ -351551,7 +351681,7 @@
   },
   {
     "fig_num": "fig-014464",
-    "name": "Statue - Legs, Beard",
+    "name": "Statue, Legs, Beard",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-014464.jpg",
     "theme": "",
@@ -351559,7 +351689,7 @@
   },
   {
     "fig_num": "fig-014465",
-    "name": "Statue - Dress/Robe",
+    "name": "Statue, Dress/Robe",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-014465.jpg",
     "theme": "",
@@ -351871,7 +352001,7 @@
   },
   {
     "fig_num": "fig-014512",
-    "name": "Stephanie - Adult, Lavender Jacket, Lavender Pants",
+    "name": "Stephanie, Adult, Lavender Jacket, Lavender Pants",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-014512.jpg",
     "theme": "",
@@ -352895,7 +353025,7 @@
   },
   {
     "fig_num": "fig-014680",
-    "name": "Lloyd (Legacy) - MASTER",
+    "name": "Lloyd, Legacy, MASTER",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-014680.jpg",
     "theme": "",
@@ -353087,7 +353217,7 @@
   },
   {
     "fig_num": "fig-014716",
-    "name": "Woman - Red Sweater, Tan Legs, Reddish Brown Hair, Brown Eyebrows",
+    "name": "Woman, Red Sweater, Tan Legs, Reddish Brown Hair, Brown Eyebrows",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-014716.jpg",
     "theme": "",
@@ -353623,7 +353753,7 @@
   },
   {
     "fig_num": "fig-014802",
-    "name": "Stormtrooper - Medium Brown Head",
+    "name": "Stormtrooper, Medium Brown Head",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-014802.jpg",
     "theme": "",
@@ -353631,7 +353761,7 @@
   },
   {
     "fig_num": "fig-014804",
-    "name": "Stormtrooper - Light Nougat Head, White Arms",
+    "name": "Stormtrooper, Light Nougat Head, White Arms",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-014804.jpg",
     "theme": "",
@@ -354143,7 +354273,7 @@
   },
   {
     "fig_num": "fig-014948",
-    "name": "Tow Mater, Raised Right Eye - Later Release",
+    "name": "Tow Mater, Raised Right Eye, Later Release",
     "num_parts": 52,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-014948.jpg",
     "theme": "",
@@ -357215,7 +357345,7 @@
   },
   {
     "fig_num": "fig-015465",
-    "name": "Tiana - Microdoll",
+    "name": "Tiana, Microdoll",
     "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-015465.jpg",
     "theme": "",
@@ -359735,7 +359865,7 @@
   },
   {
     "fig_num": "fig-015956",
-    "name": "Toad - Happy",
+    "name": "Toad, Happy",
     "num_parts": 13,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-015956.jpg",
     "theme": "",
@@ -361383,7 +361513,7 @@
   },
   {
     "fig_num": "fig-016286",
-    "name": "Victoria - Blue Dress",
+    "name": "Victoria, Blue Dress",
     "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-016286.jpg",
     "theme": "",
@@ -362583,7 +362713,7 @@
   },
   {
     "fig_num": "fig-016512",
-    "name": "Soldier (Imperial Soldier) - Yellow Epaulettes, 3626b",
+    "name": "Soldier, Imperial Soldier, Yellow Epaulettes, 3626b",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-016512.jpg",
     "theme": "",
