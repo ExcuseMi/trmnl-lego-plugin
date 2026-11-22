@@ -223330,6 +223330,16 @@
     "parent_theme": "Books"
   },
   {
+    "set_num": "9780593958957-1",
+    "name": "Marvel: Read. Build. Create",
+    "year": 2024,
+    "theme_id": 758,
+    "num_parts": 5,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9780593958957-1.jpg",
+    "theme": "Non-fiction Books",
+    "parent_theme": "Books"
+  },
+  {
     "set_num": "9780593958964-1",
     "name": "Star Wars: Read. Build. Create.",
     "year": 2024,
@@ -236110,26 +236120,6 @@
     "parent_theme": "Gear"
   },
   {
-    "set_num": "978832534839-7",
-    "name": "Harry Potter: Time to Play! (Neville Longbottom Edition)",
-    "year": 2025,
-    "theme_id": 761,
-    "num_parts": 11,
-    "img_url": "https://cdn.rebrickable.com/media/sets/978832534839-7.jpg",
-    "theme": "Activity Books with LEGO Parts",
-    "parent_theme": "Books"
-  },
-  {
-    "set_num": "978832534844-1",
-    "name": "City: Time to Play (Astronaut Spacewalk)",
-    "year": 2025,
-    "theme_id": 761,
-    "num_parts": 14,
-    "img_url": "https://cdn.rebrickable.com/media/sets/978832534844-1.jpg",
-    "theme": "Activity Books with LEGO Parts",
-    "parent_theme": "Books"
-  },
-  {
     "set_num": "5056635618573-1",
     "name": "LEGO Party (All Formats)",
     "year": 2025,
@@ -236536,6 +236526,26 @@
     "theme_id": 761,
     "num_parts": 10,
     "img_url": "https://cdn.rebrickable.com/media/sets/9788325347215-1.jpg",
+    "theme": "Activity Books with LEGO Parts",
+    "parent_theme": "Books"
+  },
+  {
+    "set_num": "9788325348397-1",
+    "name": "Harry Potter: Time to Play! (Neville Longbottom Edition)",
+    "year": 2025,
+    "theme_id": 761,
+    "num_parts": 11,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9788325348397-1.jpg",
+    "theme": "Activity Books with LEGO Parts",
+    "parent_theme": "Books"
+  },
+  {
+    "set_num": "9788325348441-1",
+    "name": "City: Time to Play (Astronaut Spacewalk)",
+    "year": 2025,
+    "theme_id": 761,
+    "num_parts": 14,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9788325348441-1.jpg",
     "theme": "Activity Books with LEGO Parts",
     "parent_theme": "Books"
   },
@@ -238564,7 +238574,7 @@
     "name": "Retro Jukebox",
     "year": 2026,
     "theme_id": 301,
-    "num_parts": 0,
+    "num_parts": 287,
     "img_url": "https://cdn.rebrickable.com/media/sets/40914-1.jpg",
     "theme": "Other",
     "parent_theme": ""
@@ -238604,7 +238614,7 @@
     "name": "Winter Snow Globe",
     "year": 2026,
     "theme_id": 301,
-    "num_parts": 0,
+    "num_parts": 231,
     "img_url": "https://cdn.rebrickable.com/media/sets/40918-1.jpg",
     "theme": "Other",
     "parent_theme": ""
@@ -249570,13 +249580,53 @@
     "parent_theme": "Books"
   },
   {
+    "set_num": "9798217311316-1",
+    "name": "Marvel: Read. Build. Create. (2026 Edition)",
+    "year": 2026,
+    "theme_id": 758,
+    "num_parts": 5,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9798217311316-1.jpg",
+    "theme": "Non-fiction Books",
+    "parent_theme": "Books"
+  },
+  {
     "set_num": "9798217311330-1",
     "name": "Star Wars: Read. Build. Create. (2026 Edition)",
     "year": 2026,
-    "theme_id": 761,
+    "theme_id": 758,
     "num_parts": 8,
     "img_url": "https://cdn.rebrickable.com/media/sets/9798217311330-1.jpg",
-    "theme": "Activity Books with LEGO Parts",
+    "theme": "Non-fiction Books",
+    "parent_theme": "Books"
+  },
+  {
+    "set_num": "9798217311347-1",
+    "name": "Minecraft: Read. Build. Create.",
+    "year": 2026,
+    "theme_id": 758,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9798217311347-1.jpg",
+    "theme": "Non-fiction Books",
+    "parent_theme": "Books"
+  },
+  {
+    "set_num": "9798217311354-1",
+    "name": "Ninjago: Read. Build. Create. (2026 Edition)",
+    "year": 2026,
+    "theme_id": 758,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9798217311354-1.jpg",
+    "theme": "Non-fiction Books",
+    "parent_theme": "Books"
+  },
+  {
+    "set_num": "9798217311361-1",
+    "name": "Harry Potter: Read. Build. Create. (2026 Edition)",
+    "year": 2026,
+    "theme_id": 758,
+    "num_parts": 6,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9798217311361-1.jpg",
+    "theme": "Non-fiction Books",
     "parent_theme": "Books"
   },
   {
@@ -250220,6 +250270,16 @@
     "parent_theme": "Books"
   },
   {
+    "set_num": "9780241845882-1",
+    "name": "DK Super Readers Level 2: City: Speed Quest",
+    "year": 2027,
+    "theme_id": 759,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/9780241845882-1.jpg",
+    "theme": "Story Books",
+    "parent_theme": "Books"
+  },
+  {
     "set_num": "9781534357921-1",
     "name": "Ninjago: Masters of Spinjitzu",
     "year": 2027,
@@ -250689,7 +250749,7 @@
   },
   {
     "fig_num": "fig-000053",
-    "name": "Pirate - Blue Jacket, Black Legs, Brown Tricorne",
+    "name": "Pirate, Blue Jacket, Black Legs, Brown Tricorne",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000053.jpg",
     "theme": "",
@@ -252433,7 +252493,7 @@
   },
   {
     "fig_num": "fig-000280",
-    "name": "Pirate - Shirt with Knife, Blue Legs, Black Bicorne",
+    "name": "Pirate, Shirt with Knife, Blue Legs, Black Bicorne",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000280.jpg",
     "theme": "",
@@ -252561,7 +252621,7 @@
   },
   {
     "fig_num": "fig-000297",
-    "name": "Pirate - Red/Black Stripes, Blue Legs, Blue Bandana",
+    "name": "Pirate, Red/Black Stripes, Blue Legs, Blue Bandana",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000297.jpg",
     "theme": "",
@@ -252697,7 +252757,7 @@
   },
   {
     "fig_num": "fig-000317",
-    "name": "Lillie - Christmas Sweater, Red Skirt",
+    "name": "Lillie, Christmas Sweater, Red Skirt",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000317.jpg",
     "theme": "",
@@ -253193,7 +253253,7 @@
   },
   {
     "fig_num": "fig-000382",
-    "name": "Pirate - Blue Jacket, Light Gray Legs, Black Tricorne",
+    "name": "Pirate, Blue Jacket, Light Gray Legs, Black Tricorne",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000382.jpg",
     "theme": "",
@@ -253201,7 +253261,7 @@
   },
   {
     "fig_num": "fig-000383",
-    "name": "Pirate - Red Stripes, Blue Legs, Red Bandana, 3626a",
+    "name": "Pirate, Red Stripes, Blue Legs, Red Bandana, 3626a",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000383.jpg",
     "theme": "",
@@ -253353,7 +253413,7 @@
   },
   {
     "fig_num": "fig-000404",
-    "name": "Pirate - Blue Stripes, Black Legs, Black Tricorne",
+    "name": "Pirate, Blue Stripes, Black Legs, Black Tricorne",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000404.jpg",
     "theme": "",
@@ -255129,7 +255189,7 @@
   },
   {
     "fig_num": "fig-000644",
-    "name": "Peasant - Light Gray Legs, Brown Hood",
+    "name": "Peasant, Light Gray Legs, Brown Hood",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000644.jpg",
     "theme": "",
@@ -255233,7 +255293,7 @@
   },
   {
     "fig_num": "fig-000660",
-    "name": "Paisley - White Top, Sand Blue Legs, Medium Lavendar Fanny Pack",
+    "name": "Paisley, White Top, Sand Blue Legs, Medium Lavendar Fanny Pack",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000660.jpg",
     "theme": "",
@@ -255249,7 +255309,7 @@
   },
   {
     "fig_num": "fig-000662",
-    "name": "Pirate - Blue Jacket, Light Gray Legs, Brown Tricorne (3626b Head)",
+    "name": "Pirate, Blue Jacket, Light Gray Legs, Brown Tricorne (3626b Head)",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000662.jpg",
     "theme": "",
@@ -255273,7 +255333,7 @@
   },
   {
     "fig_num": "fig-000665",
-    "name": "Pirate - Blue Stripes, White Legs, Red Bandana, 3626a",
+    "name": "Pirate, Blue Stripes, White Legs, Red Bandana, 3626a",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000665.jpg",
     "theme": "",
@@ -255281,7 +255341,7 @@
   },
   {
     "fig_num": "fig-000666",
-    "name": "Pirate - Blue Jacket, Black Legs, Black Bicorne",
+    "name": "Pirate, Blue Jacket, Black Legs, Black Bicorne",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000666.jpg",
     "theme": "",
@@ -256713,7 +256773,7 @@
   },
   {
     "fig_num": "fig-000850",
-    "name": "Pirate - Anchor Tattoo, Dark Green Legs, Dark Green Bandana",
+    "name": "Pirate, Anchor Tattoo, Dark Green Legs, Dark Green Bandana",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000850.jpg",
     "theme": "",
@@ -256721,7 +256781,7 @@
   },
   {
     "fig_num": "fig-000851",
-    "name": "Pirate - Blue Jacket, White Legs, Brown Bicorne, 3626a",
+    "name": "Pirate, Blue Jacket, White Legs, Brown Bicorne, 3626a",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000851.jpg",
     "theme": "",
@@ -257809,7 +257869,7 @@
   },
   {
     "fig_num": "fig-000989",
-    "name": "Leo - White/Coral Top, Coral Pants",
+    "name": "Leo, White/Coral Top, Coral Pants",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000989.jpg",
     "theme": "",
@@ -258441,7 +258501,7 @@
   },
   {
     "fig_num": "fig-001073",
-    "name": "Pirate - Blue Jacket, White Legs, Brown Bicorne, 3626b",
+    "name": "Pirate, Blue Jacket, White Legs, Brown Bicorne, 3626b",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-001073.jpg",
     "theme": "",
@@ -259681,7 +259741,7 @@
   },
   {
     "fig_num": "fig-001236",
-    "name": "Pirate - Brown Shirt, Black Legs, Black Tricorne",
+    "name": "Pirate, Brown Shirt, Black Legs, Black Tricorne",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-001236.jpg",
     "theme": "",
@@ -261313,7 +261373,7 @@
   },
   {
     "fig_num": "fig-001445",
-    "name": "Pirate - Medium Blue Stripes, Black Legs, Red Bandana",
+    "name": "Pirate, Medium Blue Stripes, Black Legs, Red Bandana",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-001445.jpg",
     "theme": "",
@@ -263025,7 +263085,7 @@
   },
   {
     "fig_num": "fig-001665",
-    "name": "Pilot - Blue Torso, Blue Legs, White Helmet",
+    "name": "Pilot, Blue Torso, Blue Legs, White Helmet",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-001665.jpg",
     "theme": "",
@@ -263489,7 +263549,7 @@
   },
   {
     "fig_num": "fig-001723",
-    "name": "Lester - LEGO Brand Store Exclusive",
+    "name": "Lester, LEGO Brand Store Exclusive",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-001723.jpg",
     "theme": "",
@@ -265033,7 +265093,7 @@
   },
   {
     "fig_num": "fig-001933",
-    "name": "Pilot - Dark Orange Torso, Dark Orange Legs, White Helmet",
+    "name": "Pilot, Dark Orange Torso, Dark Orange Legs, White Helmet",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-001933.jpg",
     "theme": "",
@@ -268025,7 +268085,7 @@
   },
   {
     "fig_num": "fig-002338",
-    "name": "Peter - White Shirt, Blue Trousers",
+    "name": "Peter, White Shirt, Blue Trousers",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002338.jpg",
     "theme": "",
@@ -268633,7 +268693,7 @@
   },
   {
     "fig_num": "fig-002418",
-    "name": "Laurie - Dark Pink Top, Sand Blue Overall",
+    "name": "Laurie, Dark Pink Top, Sand Blue Overall",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002418.jpg",
     "theme": "",
@@ -270033,7 +270093,7 @@
   },
   {
     "fig_num": "fig-002616",
-    "name": "Liam - Bright Green/Yellow Shirt, Sand Blue Trousers",
+    "name": "Liam, Bright Green/Yellow Shirt, Sand Blue Trousers",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002616.jpg",
     "theme": "",
@@ -270377,7 +270437,7 @@
   },
   {
     "fig_num": "fig-002662",
-    "name": "Lillie - White Jacket, Sand Blue Trousers, Chef's Hat",
+    "name": "Lillie, White Jacket, Sand Blue Trousers, Chef's Hat",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002662.jpg",
     "theme": "",
@@ -270721,7 +270781,7 @@
   },
   {
     "fig_num": "fig-002706",
-    "name": "Lillie - White Jacket, Dark Pink Trousers, Chef's Hat",
+    "name": "Lillie, White Jacket, Dark Pink Trousers, Chef's Hat",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002706.jpg",
     "theme": "",
@@ -284449,7 +284509,7 @@
   },
   {
     "fig_num": "fig-004561",
-    "name": "Lex Luthor - Black Suit, 3626b Head",
+    "name": "Lex Luthor, Black Suit, 3626b Head",
     "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004561.jpg",
     "theme": "",
@@ -286073,7 +286133,7 @@
   },
   {
     "fig_num": "fig-004794",
-    "name": "Police - Sheriff, Black Suit",
+    "name": "Police, Sheriff, Black Suit",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004794.jpg",
     "theme": "",
@@ -287145,7 +287205,7 @@
   },
   {
     "fig_num": "fig-004950",
-    "name": "Police - Sheriff, Black Suit, Brown Hair",
+    "name": "Police, Sheriff, Black Suit, Brown Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-004950.jpg",
     "theme": "",
@@ -288057,7 +288117,7 @@
   },
   {
     "fig_num": "fig-005078",
-    "name": "Pirate - Short Red Legs, Red Bandana",
+    "name": "Pirate, Short Red Legs, Red Bandana",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005078.jpg",
     "theme": "",
@@ -288097,7 +288157,7 @@
   },
   {
     "fig_num": "fig-005084",
-    "name": "Pirate - Light Bluish Gray Legs, White Bandana",
+    "name": "Pirate, Light Bluish Gray Legs, White Bandana",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005084.jpg",
     "theme": "",
@@ -288105,7 +288165,7 @@
   },
   {
     "fig_num": "fig-005085",
-    "name": "Pirate - Red Stripes, Black Legs, White Bandana",
+    "name": "Pirate, Red Stripes, Black Legs, White Bandana",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005085.jpg",
     "theme": "",
@@ -288113,7 +288173,7 @@
   },
   {
     "fig_num": "fig-005086",
-    "name": "Pirate - Red Stripes, Blue Legs, White Bandana",
+    "name": "Pirate, Red Stripes, Blue Legs, White Bandana",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005086.jpg",
     "theme": "",
@@ -288121,7 +288181,7 @@
   },
   {
     "fig_num": "fig-005087",
-    "name": "Pirate - Red/Black Stripes, Blue Legs, Red Bandana, Scar",
+    "name": "Pirate, Red/Black Stripes, Blue Legs, Red Bandana, Scar",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005087.jpg",
     "theme": "",
@@ -288129,7 +288189,7 @@
   },
   {
     "fig_num": "fig-005088",
-    "name": "Pirate - Red Stripes, Red Legs, Red Bandana",
+    "name": "Pirate, Red Stripes, Red Legs, Red Bandana",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005088.jpg",
     "theme": "",
@@ -288137,7 +288197,7 @@
   },
   {
     "fig_num": "fig-005089",
-    "name": "Pirate - Red Stripes, Black Legs, Red Bandana, Scar",
+    "name": "Pirate, Red Stripes, Black Legs, Red Bandana, Scar",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005089.jpg",
     "theme": "",
@@ -288145,7 +288205,7 @@
   },
   {
     "fig_num": "fig-005090",
-    "name": "Pirate - Red Stripes, Red Legs, Brown Crow's Feet",
+    "name": "Pirate, Red Stripes, Red Legs, Brown Crow's Feet",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005090.jpg",
     "theme": "",
@@ -288153,7 +288213,7 @@
   },
   {
     "fig_num": "fig-005091",
-    "name": "Pirate - Captain, Black Legs, Pearl Gold Hook",
+    "name": "Pirate, Captain, Black Legs, Pearl Gold Hook",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005091.jpg",
     "theme": "",
@@ -288177,7 +288237,7 @@
   },
   {
     "fig_num": "fig-005095",
-    "name": "Pirate - Blue Stripes, Black Legs, Red Bandana",
+    "name": "Pirate, Blue Stripes, Black Legs, Red Bandana",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005095.jpg",
     "theme": "",
@@ -288185,7 +288245,7 @@
   },
   {
     "fig_num": "fig-005096",
-    "name": "Pirate - Blue Stripes, Blue Legs, Black Tricorne",
+    "name": "Pirate, Blue Stripes, Blue Legs, Black Tricorne",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005096.jpg",
     "theme": "",
@@ -288201,7 +288261,7 @@
   },
   {
     "fig_num": "fig-005098",
-    "name": "Pirate - Blue Stripes, Blue Legs, Red Bandana, Head Solid Stud",
+    "name": "Pirate, Blue Stripes, Blue Legs, Red Bandana, Head Solid Stud",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005098.jpg",
     "theme": "",
@@ -288209,7 +288269,7 @@
   },
   {
     "fig_num": "fig-005099",
-    "name": "Pirate - Blue Stripes, Blue Legs, Red Bandana, Gold Belt Buckle, 3626b",
+    "name": "Pirate, Blue Stripes, Blue Legs, Red Bandana, Gold Belt Buckle, 3626b",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005099.jpg",
     "theme": "",
@@ -288305,7 +288365,7 @@
   },
   {
     "fig_num": "fig-005111",
-    "name": "Pirate - Blue Stripes, Light Gray Legs, Red Bandana, 3626a",
+    "name": "Pirate, Blue Stripes, Light Gray Legs, Red Bandana, 3626a",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005111.jpg",
     "theme": "",
@@ -288321,7 +288381,7 @@
   },
   {
     "fig_num": "fig-005113",
-    "name": "Pirate - Blue Stripes, Light Gray Legs, Red Bandana, 3626b",
+    "name": "Pirate, Blue Stripes, Light Gray Legs, Red Bandana, 3626b",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005113.jpg",
     "theme": "",
@@ -288345,7 +288405,7 @@
   },
   {
     "fig_num": "fig-005116",
-    "name": "Pirate - Blue Stripes, Red Legs, Red Bandana",
+    "name": "Pirate, Blue Stripes, Red Legs, Red Bandana",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005116.jpg",
     "theme": "",
@@ -288361,7 +288421,7 @@
   },
   {
     "fig_num": "fig-005118",
-    "name": "Pirate - Blue Stripes, White Legs, Blue Bandana",
+    "name": "Pirate, Blue Stripes, White Legs, Blue Bandana",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005118.jpg",
     "theme": "",
@@ -288409,7 +288469,7 @@
   },
   {
     "fig_num": "fig-005124",
-    "name": "Pirate - Blue Stripes, White Legs, Red Bandana, Gold Belt Buckle, 3626b",
+    "name": "Pirate, Blue Stripes, White Legs, Red Bandana, Gold Belt Buckle, 3626b",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005124.jpg",
     "theme": "",
@@ -288417,7 +288477,7 @@
   },
   {
     "fig_num": "fig-005125",
-    "name": "Pirate - Red/Black Stripes, Black Legs, Black Tricorne",
+    "name": "Pirate, Red/Black Stripes, Black Legs, Black Tricorne",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005125.jpg",
     "theme": "",
@@ -288425,7 +288485,7 @@
   },
   {
     "fig_num": "fig-005126",
-    "name": "Pirate - Red/Black Stripes, Black Legs, Blue Bandana",
+    "name": "Pirate, Red/Black Stripes, Black Legs, Blue Bandana",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005126.jpg",
     "theme": "",
@@ -288505,7 +288565,7 @@
   },
   {
     "fig_num": "fig-005136",
-    "name": "Pirate - Red/Black Stripes, Black Legs, Red Bandana, Eyepatch (Old)",
+    "name": "Pirate, Red/Black Stripes, Black Legs, Red Bandana, Eyepatch (Old)",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005136.jpg",
     "theme": "",
@@ -288513,7 +288573,7 @@
   },
   {
     "fig_num": "fig-005137",
-    "name": "Pirate - Red/Black Stripes, Blue Legs, Black Tricorne",
+    "name": "Pirate, Red/Black Stripes, Blue Legs, Black Tricorne",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005137.jpg",
     "theme": "",
@@ -288529,7 +288589,7 @@
   },
   {
     "fig_num": "fig-005139",
-    "name": "Pirate - Red/Black Stripes, Blue Legs, Red Bandana",
+    "name": "Pirate, Red/Black Stripes, Blue Legs, Red Bandana",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005139.jpg",
     "theme": "",
@@ -288537,7 +288597,7 @@
   },
   {
     "fig_num": "fig-005140",
-    "name": "Pirate - Red/Black Stripes, Green Legs, Blue Bandana",
+    "name": "Pirate, Red/Black Stripes, Green Legs, Blue Bandana",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005140.jpg",
     "theme": "",
@@ -288553,7 +288613,7 @@
   },
   {
     "fig_num": "fig-005142",
-    "name": "Pirate - Red/Black Stripes, Red Legs, Blue Bandana",
+    "name": "Pirate, Red/Black Stripes, Red Legs, Blue Bandana",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005142.jpg",
     "theme": "",
@@ -288585,7 +288645,7 @@
   },
   {
     "fig_num": "fig-005146",
-    "name": "Pirate - Red/Black Stripes, Black Legs, Red Bandana, Eyepatch (New)",
+    "name": "Pirate, Red/Black Stripes, Black Legs, Red Bandana, Eyepatch (New)",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005146.jpg",
     "theme": "",
@@ -288601,7 +288661,7 @@
   },
   {
     "fig_num": "fig-005148",
-    "name": "Pirate - Red Stripes, Peg Leg, Black Tricorne",
+    "name": "Pirate, Red Stripes, Peg Leg, Black Tricorne",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005148.jpg",
     "theme": "",
@@ -288609,7 +288669,7 @@
   },
   {
     "fig_num": "fig-005149",
-    "name": "Pirate - Red Stripes, Blue Legs, Blue Bandana",
+    "name": "Pirate, Red Stripes, Blue Legs, Blue Bandana",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005149.jpg",
     "theme": "",
@@ -288617,7 +288677,7 @@
   },
   {
     "fig_num": "fig-005150",
-    "name": "Pirate - Red Stripes, Blue Legs, Red Bandana, 3626b",
+    "name": "Pirate, Red Stripes, Blue Legs, Red Bandana, 3626b",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005150.jpg",
     "theme": "",
@@ -288625,7 +288685,7 @@
   },
   {
     "fig_num": "fig-005151",
-    "name": "Pirate - Red Stripes, Light Gray Legs, Blue Bandana, 3626b",
+    "name": "Pirate, Red Stripes, Light Gray Legs, Blue Bandana, 3626b",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005151.jpg",
     "theme": "",
@@ -288633,7 +288693,7 @@
   },
   {
     "fig_num": "fig-005152",
-    "name": "Pirate - Red Stripes, Light Gray Legs, Blue Bandana, 3626a",
+    "name": "Pirate, Red Stripes, Light Gray Legs, Blue Bandana, 3626a",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005152.jpg",
     "theme": "",
@@ -288641,7 +288701,7 @@
   },
   {
     "fig_num": "fig-005153",
-    "name": "Pirate - Red Stripes, Light Gray Legs, Red Bandana",
+    "name": "Pirate, Red Stripes, Light Gray Legs, Red Bandana",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005153.jpg",
     "theme": "",
@@ -288649,7 +288709,7 @@
   },
   {
     "fig_num": "fig-005154",
-    "name": "Pirate - Red Stripes, Red Legs, Red Bandana",
+    "name": "Pirate, Red Stripes, Red Legs, Red Bandana",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005154.jpg",
     "theme": "",
@@ -288657,7 +288717,7 @@
   },
   {
     "fig_num": "fig-005155",
-    "name": "Pirate - Red Stripes, White Legs, Black Tricorne",
+    "name": "Pirate, Red Stripes, White Legs, Black Tricorne",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005155.jpg",
     "theme": "",
@@ -288665,7 +288725,7 @@
   },
   {
     "fig_num": "fig-005156",
-    "name": "Pirate - Red Stripes, White Legs, Blue Bandana",
+    "name": "Pirate, Red Stripes, White Legs, Blue Bandana",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005156.jpg",
     "theme": "",
@@ -288673,7 +288733,7 @@
   },
   {
     "fig_num": "fig-005157",
-    "name": "Pirate - Red Stripes, White Legs, Red Bandana, 3626b",
+    "name": "Pirate, Red Stripes, White Legs, Red Bandana, 3626b",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005157.jpg",
     "theme": "",
@@ -288681,7 +288741,7 @@
   },
   {
     "fig_num": "fig-005158",
-    "name": "Pirate - Red Stripes, White Legs, Red Bandana, 3626a",
+    "name": "Pirate, Red Stripes, White Legs, Red Bandana, 3626a",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005158.jpg",
     "theme": "",
@@ -288689,7 +288749,7 @@
   },
   {
     "fig_num": "fig-005159",
-    "name": "Pirate - Anchor Tattoo, Dark Tan Legs, White Bandana",
+    "name": "Pirate, Anchor Tattoo, Dark Tan Legs, White Bandana",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005159.jpg",
     "theme": "",
@@ -288697,7 +288757,7 @@
   },
   {
     "fig_num": "fig-005160",
-    "name": "Pirate - Anchor Tattoo, Black Legs, Reddish Brown Tricorne",
+    "name": "Pirate, Anchor Tattoo, Black Legs, Reddish Brown Tricorne",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005160.jpg",
     "theme": "",
@@ -288705,7 +288765,7 @@
   },
   {
     "fig_num": "fig-005161",
-    "name": "Pirate - Dark Purple Vest, Anchor Tattoo, Blue Legs, Red Bandana",
+    "name": "Pirate, Dark Purple Vest, Anchor Tattoo, Blue Legs, Red Bandana",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005161.jpg",
     "theme": "",
@@ -289065,7 +289125,7 @@
   },
   {
     "fig_num": "fig-005206",
-    "name": "Pirate - Anchor Tattoo, Light Gray Legs, Black Bandana",
+    "name": "Pirate, Anchor Tattoo, Light Gray Legs, Black Bandana",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005206.jpg",
     "theme": "",
@@ -289073,7 +289133,7 @@
   },
   {
     "fig_num": "fig-005207",
-    "name": "Pirate - Anchor Tattoo, Black Legs, Blue Bandana, Gold Tooth",
+    "name": "Pirate, Anchor Tattoo, Black Legs, Blue Bandana, Gold Tooth",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005207.jpg",
     "theme": "",
@@ -289081,7 +289141,7 @@
   },
   {
     "fig_num": "fig-005208",
-    "name": "Pirate - Anchor Tattoo, Blue Legs, Dark Green Bandana",
+    "name": "Pirate, Anchor Tattoo, Blue Legs, Dark Green Bandana",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005208.jpg",
     "theme": "",
@@ -289089,7 +289149,7 @@
   },
   {
     "fig_num": "fig-005209",
-    "name": "Pirate - Anchor Tattoo, Dark Green Legs, Red Bandana",
+    "name": "Pirate, Anchor Tattoo, Dark Green Legs, Red Bandana",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005209.jpg",
     "theme": "",
@@ -289097,7 +289157,7 @@
   },
   {
     "fig_num": "fig-005210",
-    "name": "Pirate - Anchor Tattoo, Black Legs, Blue Bandana",
+    "name": "Pirate, Anchor Tattoo, Black Legs, Blue Bandana",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005210.jpg",
     "theme": "",
@@ -289105,7 +289165,7 @@
   },
   {
     "fig_num": "fig-005211",
-    "name": "Pirate - Anchor Tattoo, Castaway, Blue Bandana",
+    "name": "Pirate, Anchor Tattoo, Castaway, Blue Bandana",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005211.jpg",
     "theme": "",
@@ -289113,7 +289173,7 @@
   },
   {
     "fig_num": "fig-005212",
-    "name": "Pirate - Anchor Tattoo, Castaway, Light Bluish Gray Hair",
+    "name": "Pirate, Anchor Tattoo, Castaway, Light Bluish Gray Hair",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005212.jpg",
     "theme": "",
@@ -289121,7 +289181,7 @@
   },
   {
     "fig_num": "fig-005213",
-    "name": "Pirate - Anchor Tattoo, Green Legs, Blue Bandana",
+    "name": "Pirate, Anchor Tattoo, Green Legs, Blue Bandana",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005213.jpg",
     "theme": "",
@@ -289137,7 +289197,7 @@
   },
   {
     "fig_num": "fig-005215",
-    "name": "Pirate - Anchor Tattoo, Tan Legs, Blue Bandana",
+    "name": "Pirate, Anchor Tattoo, Tan Legs, Blue Bandana",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005215.jpg",
     "theme": "",
@@ -289145,7 +289205,7 @@
   },
   {
     "fig_num": "fig-005216",
-    "name": "Pirate - Shirt with Knife, Peg Leg",
+    "name": "Pirate, Shirt with Knife, Peg Leg",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005216.jpg",
     "theme": "",
@@ -289153,7 +289213,7 @@
   },
   {
     "fig_num": "fig-005217",
-    "name": "Pirate - Shirt with Knife, Peg Leg, Blue Epaulettes",
+    "name": "Pirate, Shirt with Knife, Peg Leg, Blue Epaulettes",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005217.jpg",
     "theme": "",
@@ -289161,7 +289221,7 @@
   },
   {
     "fig_num": "fig-005218",
-    "name": "Pirate - Shirt with Knife, Black Legs, Black Bicorne",
+    "name": "Pirate, Shirt with Knife, Black Legs, Black Bicorne",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005218.jpg",
     "theme": "",
@@ -289169,7 +289229,7 @@
   },
   {
     "fig_num": "fig-005219",
-    "name": "Pirate - Shirt with Knife, Black Legs, Brown Tricorne",
+    "name": "Pirate, Shirt with Knife, Black Legs, Brown Tricorne",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005219.jpg",
     "theme": "",
@@ -289241,7 +289301,7 @@
   },
   {
     "fig_num": "fig-005229",
-    "name": "Pirate - Captain, Pearl Gold Hook, Bicorne with Skull",
+    "name": "Pirate, Captain, Pearl Gold Hook, Bicorne with Skull",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005229.jpg",
     "theme": "",
@@ -289297,7 +289357,7 @@
   },
   {
     "fig_num": "fig-005236",
-    "name": "Pirate - Captain, Pearl Gold Hook, Bicorne",
+    "name": "Pirate, Captain, Pearl Gold Hook, Bicorne",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005236.jpg",
     "theme": "",
@@ -289329,7 +289389,7 @@
   },
   {
     "fig_num": "fig-005242",
-    "name": "Pirate - Captain, Light Gray Hook, Bicorne",
+    "name": "Pirate, Captain, Light Gray Hook, Bicorne",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005242.jpg",
     "theme": "",
@@ -289353,7 +289413,7 @@
   },
   {
     "fig_num": "fig-005245",
-    "name": "Pirate - Captain, Black Legs, Plume, Reddish Brown Eyebrows",
+    "name": "Pirate, Captain, Black Legs, Plume, Reddish Brown Eyebrows",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005245.jpg",
     "theme": "",
@@ -289449,7 +289509,7 @@
   },
   {
     "fig_num": "fig-005257",
-    "name": "Pirate - Captain, Flat Silver Hook, Red Plume",
+    "name": "Pirate, Captain, Flat Silver Hook, Red Plume",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005257.jpg",
     "theme": "",
@@ -289489,7 +289549,7 @@
   },
   {
     "fig_num": "fig-005262",
-    "name": "Pirate - Captain, Light Gray Hook, Bicorne with Skull, 3626b",
+    "name": "Pirate, Captain, Light Gray Hook, Bicorne with Skull, 3626b",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005262.jpg",
     "theme": "",
@@ -289513,7 +289573,7 @@
   },
   {
     "fig_num": "fig-005267",
-    "name": "Pirate - Captain, Light Gray Hook, Bicorne with Skull, 3626a",
+    "name": "Pirate, Captain, Light Gray Hook, Bicorne with Skull, 3626a",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005267.jpg",
     "theme": "",
@@ -291225,7 +291285,7 @@
   },
   {
     "fig_num": "fig-005503",
-    "name": "Pirate - Blue Jacket, White Legs, Black Tricorne (3626b Head)",
+    "name": "Pirate, Blue Jacket, White Legs, Black Tricorne (3626b Head)",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005503.jpg",
     "theme": "",
@@ -291305,7 +291365,7 @@
   },
   {
     "fig_num": "fig-005514",
-    "name": "Pirate - Blue Jacket, Light Gray Legs, Brown Tricorne (3626a Head)",
+    "name": "Pirate, Blue Jacket, Light Gray Legs, Brown Tricorne (3626a Head)",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005514.jpg",
     "theme": "",
@@ -291313,7 +291373,7 @@
   },
   {
     "fig_num": "fig-005515",
-    "name": "Pirate - Cook",
+    "name": "Pirate, Cook",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005515.jpg",
     "theme": "",
@@ -291361,7 +291421,7 @@
   },
   {
     "fig_num": "fig-005521",
-    "name": "Pirate - Brown Shirt, Peg Leg, Black Tricorne",
+    "name": "Pirate, Brown Shirt, Peg Leg, Black Tricorne",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005521.jpg",
     "theme": "",
@@ -291369,7 +291429,7 @@
   },
   {
     "fig_num": "fig-005522",
-    "name": "Pirate - Brown Shirt, Green Legs, Black Tricorne",
+    "name": "Pirate, Brown Shirt, Green Legs, Black Tricorne",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005522.jpg",
     "theme": "",
@@ -291377,7 +291437,7 @@
   },
   {
     "fig_num": "fig-005523",
-    "name": "Pirate - Brown Shirt, Light Gray Legs, Black Tricorne",
+    "name": "Pirate, Brown Shirt, Light Gray Legs, Black Tricorne",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005523.jpg",
     "theme": "",
@@ -291385,7 +291445,7 @@
   },
   {
     "fig_num": "fig-005524",
-    "name": "Pirate - Brown Shirt, Light Gray Legs, Brown Tricorne",
+    "name": "Pirate, Brown Shirt, Light Gray Legs, Brown Tricorne",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005524.jpg",
     "theme": "",
@@ -291393,7 +291453,7 @@
   },
   {
     "fig_num": "fig-005525",
-    "name": "Pirate - Brown Vest, Blue Legs, Brown Tricorne",
+    "name": "Pirate, Brown Vest, Blue Legs, Brown Tricorne",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005525.jpg",
     "theme": "",
@@ -291401,7 +291461,7 @@
   },
   {
     "fig_num": "fig-005526",
-    "name": "Pirate - Brown Vest, Light Gray Legs, Black Tricorne",
+    "name": "Pirate, Brown Vest, Light Gray Legs, Black Tricorne",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005526.jpg",
     "theme": "",
@@ -291409,7 +291469,7 @@
   },
   {
     "fig_num": "fig-005527",
-    "name": "Pirate - Female, Black Hair with Bandana, Yellow Arms",
+    "name": "Pirate, Female, Black Hair with Bandana, Yellow Arms",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005527.jpg",
     "theme": "",
@@ -291417,7 +291477,7 @@
   },
   {
     "fig_num": "fig-005528",
-    "name": "Pirate - Female, Black Legs, Red Bandana",
+    "name": "Pirate, Female, Black Legs, Red Bandana",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005528.jpg",
     "theme": "",
@@ -291425,7 +291485,7 @@
   },
   {
     "fig_num": "fig-005529",
-    "name": "Pirate - Female, Blue Legs, Dark Brown Hair",
+    "name": "Pirate, Female, Blue Legs, Dark Brown Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005529.jpg",
     "theme": "",
@@ -291433,7 +291493,7 @@
   },
   {
     "fig_num": "fig-005532",
-    "name": "Pirate - Female, White Legs, Blue Bandana, 3626a",
+    "name": "Pirate, Female, White Legs, Blue Bandana, 3626a",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005532.jpg",
     "theme": "",
@@ -291441,7 +291501,7 @@
   },
   {
     "fig_num": "fig-005533",
-    "name": "Pirate - Female, White Legs, Blue Bandana, 3626b",
+    "name": "Pirate, Female, White Legs, Blue Bandana, 3626b",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005533.jpg",
     "theme": "",
@@ -291449,7 +291509,7 @@
   },
   {
     "fig_num": "fig-005534",
-    "name": "Pirate - Female, White Legs, Red Bandana",
+    "name": "Pirate, Female, White Legs, Red Bandana",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005534.jpg",
     "theme": "",
@@ -291457,7 +291517,7 @@
   },
   {
     "fig_num": "fig-005535",
-    "name": "Pirate - Female, Black Hair with Bandana, White Arms",
+    "name": "Pirate, Female, Black Hair with Bandana, White Arms",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005535.jpg",
     "theme": "",
@@ -291465,7 +291525,7 @@
   },
   {
     "fig_num": "fig-005536",
-    "name": "Pirate - Green Vest, Peg Leg, Black Bicorne",
+    "name": "Pirate, Green Vest, Peg Leg, Black Bicorne",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005536.jpg",
     "theme": "",
@@ -291473,7 +291533,7 @@
   },
   {
     "fig_num": "fig-005537",
-    "name": "Pirate - Green Vest, Black Legs, Black Bandana",
+    "name": "Pirate, Green Vest, Black Legs, Black Bandana",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005537.jpg",
     "theme": "",
@@ -291481,7 +291541,7 @@
   },
   {
     "fig_num": "fig-005538",
-    "name": "Pirate - Green Vest, Black Legs, Brown Tricorne",
+    "name": "Pirate, Green Vest, Black Legs, Brown Tricorne",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005538.jpg",
     "theme": "",
@@ -291489,7 +291549,7 @@
   },
   {
     "fig_num": "fig-005539",
-    "name": "Pirate - Green Vest, Black Legs, Red Bandana",
+    "name": "Pirate, Green Vest, Black Legs, Red Bandana",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005539.jpg",
     "theme": "",
@@ -291497,7 +291557,7 @@
   },
   {
     "fig_num": "fig-005540",
-    "name": "Pirate - Green Vest, Blue Legs, Red Bandana",
+    "name": "Pirate, Green Vest, Blue Legs, Red Bandana",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005540.jpg",
     "theme": "",
@@ -291505,7 +291565,7 @@
   },
   {
     "fig_num": "fig-005541",
-    "name": "Pirate - Green Vest, Red Legs, Brown Tricorne",
+    "name": "Pirate, Green Vest, Red Legs, Brown Tricorne",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005541.jpg",
     "theme": "",
@@ -291513,7 +291573,7 @@
   },
   {
     "fig_num": "fig-005542",
-    "name": "Pirate - Green Jacket, Light Bluish Grey Legs, Brown Tricorne",
+    "name": "Pirate, Green Jacket, Light Bluish Grey Legs, Brown Tricorne",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005542.jpg",
     "theme": "",
@@ -291521,7 +291581,7 @@
   },
   {
     "fig_num": "fig-005543",
-    "name": "Pirate - Green Stripes, Black Legs, Black Tricorne",
+    "name": "Pirate, Green Stripes, Black Legs, Black Tricorne",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005543.jpg",
     "theme": "",
@@ -291529,7 +291589,7 @@
   },
   {
     "fig_num": "fig-005544",
-    "name": "Pirate - Green Stripes, Black Legs, Blue Bandana",
+    "name": "Pirate, Green Stripes, Black Legs, Blue Bandana",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005544.jpg",
     "theme": "",
@@ -291537,7 +291597,7 @@
   },
   {
     "fig_num": "fig-005545",
-    "name": "Pirate - Green Stripes, Blue Legs, Dark Green Bandana",
+    "name": "Pirate, Green Stripes, Blue Legs, Dark Green Bandana",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005545.jpg",
     "theme": "",
@@ -291545,7 +291605,7 @@
   },
   {
     "fig_num": "fig-005546",
-    "name": "Pirate - Green Stripes, Reddish Brown Legs, Blue Bandana",
+    "name": "Pirate, Green Stripes, Reddish Brown Legs, Blue Bandana",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005546.jpg",
     "theme": "",
@@ -291553,7 +291613,7 @@
   },
   {
     "fig_num": "fig-005547",
-    "name": "Pirate - Green Stripes, Reddish Brown Legs, Red Bandana",
+    "name": "Pirate, Green Stripes, Reddish Brown Legs, Red Bandana",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005547.jpg",
     "theme": "",
@@ -291561,7 +291621,7 @@
   },
   {
     "fig_num": "fig-005548",
-    "name": "Pirate - Green Stripes, Dark Green Legs, Dark Green Bandana",
+    "name": "Pirate, Green Stripes, Dark Green Legs, Dark Green Bandana",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005548.jpg",
     "theme": "",
@@ -291569,7 +291629,7 @@
   },
   {
     "fig_num": "fig-005549",
-    "name": "Pirate - Green Stripes, Reddish Brown Legs, Dark Green Bandana, Black Beard",
+    "name": "Pirate, Green Stripes, Reddish Brown Legs, Dark Green Bandana, Black Beard",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005549.jpg",
     "theme": "",
@@ -291585,7 +291645,7 @@
   },
   {
     "fig_num": "fig-005555",
-    "name": "Pirate - Blue Vest, Tan Legs, Black Tricorne (3626b Head)",
+    "name": "Pirate, Blue Vest, Tan Legs, Black Tricorne (3626b Head)",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005555.jpg",
     "theme": "",
@@ -291593,7 +291653,7 @@
   },
   {
     "fig_num": "fig-005556",
-    "name": "Pirate - Blue Vest, Black Legs, Black Tricorne",
+    "name": "Pirate, Blue Vest, Black Legs, Black Tricorne",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005556.jpg",
     "theme": "",
@@ -291601,7 +291661,7 @@
   },
   {
     "fig_num": "fig-005557",
-    "name": "Pirate - Blue Vest, Dark Green Legs, Dark Green Bandana",
+    "name": "Pirate, Blue Vest, Dark Green Legs, Dark Green Bandana",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005557.jpg",
     "theme": "",
@@ -291609,7 +291669,7 @@
   },
   {
     "fig_num": "fig-005558",
-    "name": "Pirate - Blue Vest, Dark Green Legs, Dark Green Bandana, Long Moustache",
+    "name": "Pirate, Blue Vest, Dark Green Legs, Dark Green Bandana, Long Moustache",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005558.jpg",
     "theme": "",
@@ -291617,7 +291677,7 @@
   },
   {
     "fig_num": "fig-005559",
-    "name": "Pirate - Blue Vest, Green Legs, Dark Green Bandana, Smirk",
+    "name": "Pirate, Blue Vest, Green Legs, Dark Green Bandana, Smirk",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005559.jpg",
     "theme": "",
@@ -291625,7 +291685,7 @@
   },
   {
     "fig_num": "fig-005560",
-    "name": "Pirate - Blue Vest, Green Legs, Dark Green Bandana",
+    "name": "Pirate, Blue Vest, Green Legs, Dark Green Bandana",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005560.jpg",
     "theme": "",
@@ -291633,7 +291693,7 @@
   },
   {
     "fig_num": "fig-005561",
-    "name": "Pirate - Blue Vest, Red Legs, Dark Red Bandana, Bushy Eyebrows",
+    "name": "Pirate, Blue Vest, Red Legs, Dark Red Bandana, Bushy Eyebrows",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005561.jpg",
     "theme": "",
@@ -291641,7 +291701,7 @@
   },
   {
     "fig_num": "fig-005562",
-    "name": "Pirate - Blue Vest, Red Legs, Dark Red Bandana, Scowl",
+    "name": "Pirate, Blue Vest, Red Legs, Dark Red Bandana, Scowl",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005562.jpg",
     "theme": "",
@@ -291649,7 +291709,7 @@
   },
   {
     "fig_num": "fig-005563",
-    "name": "Pirate - Blue Vest, Reddish Brown Legs, Red Bandana, Reddish Brown Eyebrows",
+    "name": "Pirate, Blue Vest, Reddish Brown Legs, Red Bandana, Reddish Brown Eyebrows",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005563.jpg",
     "theme": "",
@@ -291657,7 +291717,7 @@
   },
   {
     "fig_num": "fig-005564",
-    "name": "Pirate - Blue Vest, Short Tan Legs, Red Bandana",
+    "name": "Pirate, Blue Vest, Short Tan Legs, Red Bandana",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005564.jpg",
     "theme": "",
@@ -291665,7 +291725,7 @@
   },
   {
     "fig_num": "fig-005565",
-    "name": "Pirate - Blue Vest, Red Legs, Black Bicorne",
+    "name": "Pirate, Blue Vest, Red Legs, Black Bicorne",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005565.jpg",
     "theme": "",
@@ -300881,7 +300941,7 @@
   },
   {
     "fig_num": "fig-006788",
-    "name": "Peasant - Blue Legs",
+    "name": "Peasant, Blue Legs",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-006788.jpg",
     "theme": "",
@@ -300889,7 +300949,7 @@
   },
   {
     "fig_num": "fig-006789",
-    "name": "Peasant - Light Gray Legs, Black Hood",
+    "name": "Peasant, Light Gray Legs, Black Hood",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-006789.jpg",
     "theme": "",
@@ -300897,7 +300957,7 @@
   },
   {
     "fig_num": "fig-006790",
-    "name": "Peasant - Red Legs, Brown Hair",
+    "name": "Peasant, Red Legs, Brown Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-006790.jpg",
     "theme": "",
@@ -300905,7 +300965,7 @@
   },
   {
     "fig_num": "fig-006791",
-    "name": "Peasant - Red Legs, Black Hood",
+    "name": "Peasant, Red Legs, Black Hood",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-006791.jpg",
     "theme": "",
@@ -303593,7 +303653,7 @@
   },
   {
     "fig_num": "fig-007163",
-    "name": "Police - Black Vest, Light Gray Legs, Black Hat",
+    "name": "Police, Black Vest, Light Gray Legs, Black Hat",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-007163.jpg",
     "theme": "",
@@ -313089,7 +313149,7 @@
   },
   {
     "fig_num": "fig-008435",
-    "name": "Police - Bright Light Blue Shirt, Dark Blue Legs",
+    "name": "Police, Bright Light Blue Shirt, Dark Blue Legs",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-008435.jpg",
     "theme": "",
@@ -313545,7 +313605,7 @@
   },
   {
     "fig_num": "fig-008507",
-    "name": "Launch Director - Black Torso, Dark Bluish Grey Legs, Reddish Brown Hair",
+    "name": "Launch Director, Black Torso, Dark Bluish Grey Legs, Reddish Brown Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-008507.jpg",
     "theme": "",
@@ -313641,7 +313701,7 @@
   },
   {
     "fig_num": "fig-008519",
-    "name": "Launch Director - Black Torso, Dark Bluish Grey Legs, Dark Bluish Grey Hair",
+    "name": "Launch Director, Black Torso, Dark Bluish Grey Legs, Dark Bluish Grey Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-008519.jpg",
     "theme": "",
@@ -313729,7 +313789,7 @@
   },
   {
     "fig_num": "fig-008530",
-    "name": "Physician - White Labcoat, Dark Blue Legs, Red Cap",
+    "name": "Physician, White Labcoat, Dark Blue Legs, Red Cap",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-008530.jpg",
     "theme": "",
@@ -317625,7 +317685,7 @@
   },
   {
     "fig_num": "fig-009054",
-    "name": "Paula - Policewoman, Black Jacket with Zipper and Badge, White Helmet with 'POLICE' and Visor",
+    "name": "Paula, Policewoman, Black Jacket with Zipper and Badge, White Helmet with 'POLICE' and Visor",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-009054.jpg",
     "theme": "",
@@ -317881,7 +317941,7 @@
   },
   {
     "fig_num": "fig-009102",
-    "name": "Leo - White/Coral Top, Yellow Pants",
+    "name": "Leo, White/Coral Top, Yellow Pants",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-009102.jpg",
     "theme": "",
@@ -318113,7 +318173,7 @@
   },
   {
     "fig_num": "fig-009142",
-    "name": "Pilot - Black Torso, Black Legs Black Hat",
+    "name": "Pilot, Black Torso, Black Legs Black Hat",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-009142.jpg",
     "theme": "",
@@ -318137,7 +318197,7 @@
   },
   {
     "fig_num": "fig-009145",
-    "name": "Pilot - Blue Torso, Blue Legs, Reddish Brown Hair",
+    "name": "Pilot, Blue Torso, Blue Legs, Reddish Brown Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-009145.jpg",
     "theme": "",
@@ -319609,7 +319669,7 @@
   },
   {
     "fig_num": "fig-009340",
-    "name": "Pirate - Blue Torso, Dark Tan Legs, Red Cap",
+    "name": "Pirate, Blue Torso, Dark Tan Legs, Red Cap",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-009340.jpg",
     "theme": "",
@@ -319737,7 +319797,7 @@
   },
   {
     "fig_num": "fig-009356",
-    "name": "Pilot - Dark Blue Torso, Dark Blue Legs, Black Helmet",
+    "name": "Pilot, Dark Blue Torso, Dark Blue Legs, Black Helmet",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-009356.jpg",
     "theme": "",
@@ -319873,7 +319933,7 @@
   },
   {
     "fig_num": "fig-009377",
-    "name": "Police - Black Torso, Black Legs, Black Helmet",
+    "name": "Police, Black Torso, Black Legs, Black Helmet",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-009377.jpg",
     "theme": "",
@@ -320881,7 +320941,7 @@
   },
   {
     "fig_num": "fig-009536",
-    "name": "Pirate - White/Green Vest, Reddish Brown Legs, Dark Green Bandana",
+    "name": "Pirate, White/Green Vest, Reddish Brown Legs, Dark Green Bandana",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-009536.jpg",
     "theme": "",
@@ -325193,7 +325253,7 @@
   },
   {
     "fig_num": "fig-010126",
-    "name": "Pirate - Blue Torso, White Legs, Black Hat (3626c Head)",
+    "name": "Pirate, Blue Torso, White Legs, Black Hat (3626c Head)",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010126.jpg",
     "theme": "",
@@ -325481,7 +325541,7 @@
   },
   {
     "fig_num": "fig-010250",
-    "name": "Pepper Potts / Rescue - Red Armour",
+    "name": "Pepper Potts / Rescue, Red Armour",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010250.jpg",
     "theme": "",
@@ -325513,7 +325573,7 @@
   },
   {
     "fig_num": "fig-010254",
-    "name": "Police - Black Jacket, Black Legs, White Helmet",
+    "name": "Police, Black Jacket, Black Legs, White Helmet",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010254.jpg",
     "theme": "",
@@ -325609,7 +325669,7 @@
   },
   {
     "fig_num": "fig-010267",
-    "name": "Plankton - Helmet",
+    "name": "Plankton, Helmet",
     "num_parts": 10,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010267.jpg",
     "theme": "",
@@ -325697,7 +325757,7 @@
   },
   {
     "fig_num": "fig-010281",
-    "name": "Pilot - White Torso, Dark Blue Legs, White Helmet",
+    "name": "Pilot, White Torso, Dark Blue Legs, White Helmet",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010281.jpg",
     "theme": "",
@@ -325705,7 +325765,7 @@
   },
   {
     "fig_num": "fig-010282",
-    "name": "Pilot - White Torso, Red Legs, White Helmet",
+    "name": "Pilot, White Torso, Red Legs, White Helmet",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010282.jpg",
     "theme": "",
@@ -326041,7 +326101,7 @@
   },
   {
     "fig_num": "fig-010336",
-    "name": "Liam - Bright Green/Yellow Shirt, Sand Blue Trousers, Life Vest",
+    "name": "Liam, Bright Green/Yellow Shirt, Sand Blue Trousers, Life Vest",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010336.jpg",
     "theme": "",
@@ -326225,7 +326285,7 @@
   },
   {
     "fig_num": "fig-010363",
-    "name": "Ley-La - Gold Outfit",
+    "name": "Ley-La, Gold Outfit",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010363.jpg",
     "theme": "",
@@ -326641,7 +326701,7 @@
   },
   {
     "fig_num": "fig-010428",
-    "name": "Launch Command - Astronaut, Helmet, Trans-Neon Green Visor, Blue Airtanks",
+    "name": "Launch Command, Astronaut, Helmet, Trans-Neon Green Visor, Blue Airtanks",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010428.jpg",
     "theme": "",
@@ -326665,7 +326725,7 @@
   },
   {
     "fig_num": "fig-010431",
-    "name": "Pit Droid - Brown and White (Anakin)",
+    "name": "Pit Droid, Brown and White (Anakin)",
     "num_parts": 12,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010431.jpg",
     "theme": "",
@@ -326673,7 +326733,7 @@
   },
   {
     "fig_num": "fig-010432",
-    "name": "Pit Droid - Brown and White (Gasgano)",
+    "name": "Pit Droid, Brown and White (Gasgano)",
     "num_parts": 12,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010432.jpg",
     "theme": "",
@@ -326681,7 +326741,7 @@
   },
   {
     "fig_num": "fig-010433",
-    "name": "Pit Droid - Brown and White (Sebulba)",
+    "name": "Pit Droid, Brown and White (Sebulba)",
     "num_parts": 12,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010433.jpg",
     "theme": "",
@@ -327505,7 +327565,7 @@
   },
   {
     "fig_num": "fig-010545",
-    "name": "Poe Dameron - Festive",
+    "name": "Poe Dameron, Festive",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010545.jpg",
     "theme": "",
@@ -327953,7 +328013,7 @@
   },
   {
     "fig_num": "fig-010614",
-    "name": "Pilot - Black Torso, White Legs, Black Cap",
+    "name": "Pilot, Black Torso, White Legs, Black Cap",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010614.jpg",
     "theme": "",
@@ -327961,7 +328021,7 @@
   },
   {
     "fig_num": "fig-010615",
-    "name": "Pilot - Black Torso, White Legs, Black Hair",
+    "name": "Pilot, Black Torso, White Legs, Black Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010615.jpg",
     "theme": "",
@@ -327977,7 +328037,7 @@
   },
   {
     "fig_num": "fig-010617",
-    "name": "Police - Black Torso, Dark Bluish Grey Legs, Black Cap",
+    "name": "Police, Black Torso, Dark Bluish Grey Legs, Black Cap",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010617.jpg",
     "theme": "",
@@ -328529,7 +328589,7 @@
   },
   {
     "fig_num": "fig-010705",
-    "name": "Police - Black Torso, Dark Bluish Grey Legs, Black Cap",
+    "name": "Police, Black Torso, Dark Bluish Grey Legs, Black Cap",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010705.jpg",
     "theme": "",
@@ -328537,7 +328597,7 @@
   },
   {
     "fig_num": "fig-010706",
-    "name": "Police - Black Torso, Dark Bluish Grey Legs, Black Hat",
+    "name": "Police, Black Torso, Dark Bluish Grey Legs, Black Hat",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010706.jpg",
     "theme": "",
@@ -328545,7 +328605,7 @@
   },
   {
     "fig_num": "fig-010707",
-    "name": "Police - Black Torso, Dark Bluish Grey Legs, White Helmet, Black Visor",
+    "name": "Police, Black Torso, Dark Bluish Grey Legs, White Helmet, Black Visor",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010707.jpg",
     "theme": "",
@@ -329505,7 +329565,7 @@
   },
   {
     "fig_num": "fig-010870",
-    "name": "Pilot - Orange Torso, Orange Legs, White Helmet",
+    "name": "Pilot, Orange Torso, Orange Legs, White Helmet",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010870.jpg",
     "theme": "",
@@ -329825,7 +329885,7 @@
   },
   {
     "fig_num": "fig-010917",
-    "name": "Police - Bright Light Blue Shirt, Dark Blue Legs, White Helmet",
+    "name": "Police, Bright Light Blue Shirt, Dark Blue Legs, White Helmet",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010917.jpg",
     "theme": "",
@@ -330081,7 +330141,7 @@
   },
   {
     "fig_num": "fig-010963",
-    "name": "Overlord - Trans-Purple Head, Black Torso, Shoulder Guard",
+    "name": "Overlord, Trans-Purple Head, Black Torso, Shoulder Guard",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010963.jpg",
     "theme": "",
@@ -330465,7 +330525,7 @@
   },
   {
     "fig_num": "fig-011036",
-    "name": "Pilot - Black Torso, Light Grey Legs, White Cap",
+    "name": "Pilot, Black Torso, Light Grey Legs, White Cap",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-011036.jpg",
     "theme": "",
@@ -330473,7 +330533,7 @@
   },
   {
     "fig_num": "fig-011037",
-    "name": "Pilot - Black Torso, White Legs, Red Hair",
+    "name": "Pilot, Black Torso, White Legs, Red Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-011037.jpg",
     "theme": "",
@@ -330625,7 +330685,7 @@
   },
   {
     "fig_num": "fig-011059",
-    "name": "Pilot - Blue Torso, Blue Legs, Black Hair",
+    "name": "Pilot, Blue Torso, Blue Legs, Black Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-011059.jpg",
     "theme": "",
@@ -330633,7 +330693,7 @@
   },
   {
     "fig_num": "fig-011062",
-    "name": "Pilot - Reddish Brown Torso, Blue Legs, White Helmet",
+    "name": "Pilot, Reddish Brown Torso, Blue Legs, White Helmet",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-011062.jpg",
     "theme": "",
@@ -330641,7 +330701,7 @@
   },
   {
     "fig_num": "fig-011063",
-    "name": "Pilot - Black Torso, Black Legs Black Hat",
+    "name": "Pilot, Black Torso, Black Legs Black Hat",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-011063.jpg",
     "theme": "",
@@ -330681,7 +330741,7 @@
   },
   {
     "fig_num": "fig-011068",
-    "name": "Pilot - Black Torso, Blue Legs, Black Cap",
+    "name": "Pilot, Black Torso, Blue Legs, Black Cap",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-011068.jpg",
     "theme": "",
@@ -330705,7 +330765,7 @@
   },
   {
     "fig_num": "fig-011071",
-    "name": "Police - Black Torso, Red Legs, White Fire Helmet",
+    "name": "Police, Black Torso, Red Legs, White Fire Helmet",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-011071.jpg",
     "theme": "",
@@ -330825,7 +330885,7 @@
   },
   {
     "fig_num": "fig-011098",
-    "name": "Peter Parker - Spider-Man Suit",
+    "name": "Peter Parker, Spider-Man Suit",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-011098.jpg",
     "theme": "",
@@ -331449,7 +331509,7 @@
   },
   {
     "fig_num": "fig-011210",
-    "name": "Police - Sand Blue Torso, Dark Blue Legs, White Helmet",
+    "name": "Police, Sand Blue Torso, Dark Blue Legs, White Helmet",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-011210.jpg",
     "theme": "",
@@ -331753,7 +331813,7 @@
   },
   {
     "fig_num": "fig-011267",
-    "name": "Police - Black Torso, Light Grey Legs, Black Cap",
+    "name": "Police, Black Torso, Light Grey Legs, Black Cap",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-011267.jpg",
     "theme": "",
@@ -334353,7 +334413,7 @@
   },
   {
     "fig_num": "fig-011684",
-    "name": "Leo - Blue Torso, Green Legs, Medium Nougat Hair",
+    "name": "Leo, Blue Torso, Green Legs, Medium Nougat Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-011684.jpg",
     "theme": "",
@@ -336321,7 +336381,7 @@
   },
   {
     "fig_num": "fig-011990",
-    "name": "Police Officer - Justin Justice - Bright Light Blue Shirt, Dark Blue Legs, Dark Blue Cap",
+    "name": "Police Officer, Justin Justice - Bright Light Blue Shirt, Dark Blue Legs, Dark Blue Cap",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-011990.jpg",
     "theme": "",
@@ -336969,7 +337029,7 @@
   },
   {
     "fig_num": "fig-012079",
-    "name": "Layla - Dark Turquoise Top, White Skirt",
+    "name": "Layla, Dark Turquoise Top, White Skirt",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-012079.jpg",
     "theme": "",
@@ -337225,7 +337285,7 @@
   },
   {
     "fig_num": "fig-012120",
-    "name": "P.I.X.A.L. - EVO",
+    "name": "P.I.X.A.L., EVO",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-012120.jpg",
     "theme": "",
@@ -337313,7 +337373,7 @@
   },
   {
     "fig_num": "fig-012135",
-    "name": "Layla - Magenta Top, Bright Light Blue Skirt, Dark Brown Hair",
+    "name": "Layla, Magenta Top, Bright Light Blue Skirt, Dark Brown Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-012135.jpg",
     "theme": "",
@@ -339337,7 +339397,7 @@
   },
   {
     "fig_num": "fig-012509",
-    "name": "Lex Murphy - Muddy",
+    "name": "Lex Murphy, Muddy",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-012509.jpg",
     "theme": "",
@@ -341577,7 +341637,7 @@
   },
   {
     "fig_num": "fig-012853",
-    "name": "Overlord - Trans-Purple Head, Black Torso",
+    "name": "Overlord, Trans-Purple Head, Black Torso",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-012853.jpg",
     "theme": "",
@@ -341825,7 +341885,7 @@
   },
   {
     "fig_num": "fig-012887",
-    "name": "Police Officer - Dark Blue Torso, Legs and Helmet",
+    "name": "Police Officer, Dark Blue Torso, Legs and Helmet",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-012887.jpg",
     "theme": "",
@@ -343497,7 +343557,7 @@
   },
   {
     "fig_num": "fig-013179",
-    "name": "Police Officer - Bright Light Blue Torso, Dark Blue Legs and Helmet",
+    "name": "Police Officer, Bright Light Blue Torso, Dark Blue Legs and Helmet",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-013179.jpg",
     "theme": "",
@@ -343921,7 +343981,7 @@
   },
   {
     "fig_num": "fig-013249",
-    "name": "Leo - White/Coral Top, Dark Turquoise Pants",
+    "name": "Leo, White/Coral Top, Dark Turquoise Pants",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-013249.jpg",
     "theme": "",
@@ -343937,7 +343997,7 @@
   },
   {
     "fig_num": "fig-013251",
-    "name": "Liann - White Top, Lime Pants",
+    "name": "Liann, White Top, Lime Pants",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-013251.jpg",
     "theme": "",
@@ -343953,7 +344013,7 @@
   },
   {
     "fig_num": "fig-013253",
-    "name": "Paisley - Dark Pink Top, Sand Blue Legs",
+    "name": "Paisley, Dark Pink Top, Sand Blue Legs",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-013253.jpg",
     "theme": "",
@@ -344017,7 +344077,7 @@
   },
   {
     "fig_num": "fig-013261",
-    "name": "Paisley - Bright Pink Pajamas",
+    "name": "Paisley, Bright Pink Pajamas",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-013261.jpg",
     "theme": "",
@@ -344025,7 +344085,7 @@
   },
   {
     "fig_num": "fig-013262",
-    "name": "Liann - White Top, Bright Light Blue Skirt",
+    "name": "Liann, White Top, Bright Light Blue Skirt",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-013262.jpg",
     "theme": "",
@@ -344057,7 +344117,7 @@
   },
   {
     "fig_num": "fig-013267",
-    "name": "Paisley - Dark Pink Top, Light Aqua Legs",
+    "name": "Paisley, Dark Pink Top, Light Aqua Legs",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-013267.jpg",
     "theme": "",
@@ -344065,7 +344125,7 @@
   },
   {
     "fig_num": "fig-013269",
-    "name": "Liann - White Top, Bright Light Orange Skirt",
+    "name": "Liann, White Top, Bright Light Orange Skirt",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-013269.jpg",
     "theme": "",
@@ -344073,7 +344133,7 @@
   },
   {
     "fig_num": "fig-013270",
-    "name": "Leo - Colored Top, Coral Pants",
+    "name": "Leo, Colored Top, Coral Pants",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-013270.jpg",
     "theme": "",
@@ -344113,7 +344173,7 @@
   },
   {
     "fig_num": "fig-013275",
-    "name": "Peter - Lime Shirt, Sand Blue Pants",
+    "name": "Peter, Lime Shirt, Sand Blue Pants",
     "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-013275.jpg",
     "theme": "",
@@ -344121,7 +344181,7 @@
   },
   {
     "fig_num": "fig-013276",
-    "name": "Liann - Coral Top, Dark Azure Pants",
+    "name": "Liann, Coral Top, Dark Azure Pants",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-013276.jpg",
     "theme": "",
@@ -344201,7 +344261,7 @@
   },
   {
     "fig_num": "fig-013286",
-    "name": "Leo - Dark Azure Top, Yellow Pants",
+    "name": "Leo, Dark Azure Top, Yellow Pants",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-013286.jpg",
     "theme": "",
@@ -344225,7 +344285,7 @@
   },
   {
     "fig_num": "fig-013289",
-    "name": "Leo - Lime Shirt, Coral Pants",
+    "name": "Leo, Lime Shirt, Coral Pants",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-013289.jpg",
     "theme": "",
@@ -344297,7 +344357,7 @@
   },
   {
     "fig_num": "fig-013298",
-    "name": "Paisley - Lavender Top, Light Aqua Legs",
+    "name": "Paisley, Lavender Top, Light Aqua Legs",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-013298.jpg",
     "theme": "",
@@ -345441,7 +345501,7 @@
   },
   {
     "fig_num": "fig-013455",
-    "name": "Orc - Minifigure",
+    "name": "Orc, Minifigure",
     "num_parts": 7,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-013455.jpg",
     "theme": "",
@@ -345513,7 +345573,7 @@
   },
   {
     "fig_num": "fig-013487",
-    "name": "Pizza Chef - White Torso, White Legs, White Hat, White Beard",
+    "name": "Pizza Chef, White Torso, White Legs, White Hat, White Beard",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-013487.jpg",
     "theme": "",
@@ -345561,7 +345621,7 @@
   },
   {
     "fig_num": "fig-013493",
-    "name": "Pizza Delivery Driver - Dark Green Torso, Red Legs, Medium Nougat Hair",
+    "name": "Pizza Delivery Driver, Dark Green Torso, Red Legs, Medium Nougat Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-013493.jpg",
     "theme": "",
@@ -345649,7 +345709,7 @@
   },
   {
     "fig_num": "fig-013505",
-    "name": "Police Officer - Bright Light Blue Torso, Dark Blue Legs, White Helmet",
+    "name": "Police Officer, Bright Light Blue Torso, Dark Blue Legs, White Helmet",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-013505.jpg",
     "theme": "",
@@ -345665,7 +345725,7 @@
   },
   {
     "fig_num": "fig-013510",
-    "name": "Paramedic - Vibrant Yellow Torso, Sand Green Legs, Reddish Brown Hair",
+    "name": "Paramedic, Vibrant Yellow Torso, Sand Green Legs, Reddish Brown Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-013510.jpg",
     "theme": "",
@@ -345673,7 +345733,7 @@
   },
   {
     "fig_num": "fig-013511",
-    "name": "Paramedic - Vibrant Yellow Torso, Sand Green Legs, Dark Turquoise Cap",
+    "name": "Paramedic, Vibrant Yellow Torso, Sand Green Legs, Dark Turquoise Cap",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-013511.jpg",
     "theme": "",
@@ -345689,7 +345749,7 @@
   },
   {
     "fig_num": "fig-013515",
-    "name": "Lex Luthor - Black Suit, 3626c Head",
+    "name": "Lex Luthor, Black Suit, 3626c Head",
     "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-013515.jpg",
     "theme": "",
@@ -346209,7 +346269,7 @@
   },
   {
     "fig_num": "fig-013592",
-    "name": "Peter Pan - Microdoll",
+    "name": "Peter Pan, Microdoll",
     "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-013592.jpg",
     "theme": "",
@@ -346921,7 +346981,7 @@
   },
   {
     "fig_num": "fig-013714",
-    "name": "Oswald the Lucky Rabbit - Minifig",
+    "name": "Oswald the Lucky Rabbit, Minifig",
     "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-013714.jpg",
     "theme": "",
@@ -348049,7 +348109,7 @@
   },
   {
     "fig_num": "fig-013889",
-    "name": "Paisley - Lavender Top, Light Aqua Legs, Sunglasses",
+    "name": "Paisley, Lavender Top, Light Aqua Legs, Sunglasses",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-013889.jpg",
     "theme": "",
@@ -348073,7 +348133,7 @@
   },
   {
     "fig_num": "fig-013892",
-    "name": "Liann - Coral/Bright Light Orange Top, Sand Blue Legs, Flower",
+    "name": "Liann, Coral/Bright Light Orange Top, Sand Blue Legs, Flower",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-013892.jpg",
     "theme": "",
@@ -348097,7 +348157,7 @@
   },
   {
     "fig_num": "fig-013895",
-    "name": "Paisley - White Top, Dark Blue Skirt",
+    "name": "Paisley, White Top, Dark Blue Skirt",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-013895.jpg",
     "theme": "",
@@ -348145,7 +348205,7 @@
   },
   {
     "fig_num": "fig-013903",
-    "name": "Liann - White Top, Bright Light Blue Skirt",
+    "name": "Liann, White Top, Bright Light Blue Skirt",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-013903.jpg",
     "theme": "",
@@ -348169,7 +348229,7 @@
   },
   {
     "fig_num": "fig-013910",
-    "name": "Leo - Yellow Shirt, Coral Pants",
+    "name": "Leo, Yellow Shirt, Coral Pants",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-013910.jpg",
     "theme": "",
@@ -348217,7 +348277,7 @@
   },
   {
     "fig_num": "fig-013916",
-    "name": "Leo - Sport Outfit",
+    "name": "Leo, Sport Outfit",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-013916.jpg",
     "theme": "",
@@ -348257,7 +348317,7 @@
   },
   {
     "fig_num": "fig-013929",
-    "name": "Paisley - White Top, Sand Blue Legs",
+    "name": "Paisley, White Top, Sand Blue Legs",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-013929.jpg",
     "theme": "",
@@ -349369,7 +349429,7 @@
   },
   {
     "fig_num": "fig-014114",
-    "name": "Pirate - White Torso, Green Legs, Red Bandana",
+    "name": "Pirate, White Torso, Green Legs, Red Bandana",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-014114.jpg",
     "theme": "",
@@ -350417,7 +350477,7 @@
   },
   {
     "fig_num": "fig-014283",
-    "name": "Leo - Bright Light Blue Sweater, Sand Blue Legs, Reddish Brown Hair",
+    "name": "Leo, Bright Light Blue Sweater, Sand Blue Legs, Reddish Brown Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-014283.jpg",
     "theme": "",
@@ -350769,7 +350829,7 @@
   },
   {
     "fig_num": "fig-014331",
-    "name": "Paisley - Magenta Coat, Light Aqua Legs",
+    "name": "Paisley, Magenta Coat, Light Aqua Legs",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-014331.jpg",
     "theme": "",
@@ -350785,7 +350845,7 @@
   },
   {
     "fig_num": "fig-014333",
-    "name": "Liann - Orange/Yellow Ski Suit",
+    "name": "Liann, Orange/Yellow Ski Suit",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-014333.jpg",
     "theme": "",
@@ -351321,7 +351381,7 @@
   },
   {
     "fig_num": "fig-014410",
-    "name": "Pirate - Blue Jacket, Black Legs, Black Tricorne",
+    "name": "Pirate, Blue Jacket, Black Legs, Black Tricorne",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-014410.jpg",
     "theme": "",
@@ -352041,7 +352101,7 @@
   },
   {
     "fig_num": "fig-014520",
-    "name": "Paisley - Bright Light Yellow Top, Light Aqua Pants",
+    "name": "Paisley, Bright Light Yellow Top, Light Aqua Pants",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-014520.jpg",
     "theme": "",
@@ -352777,7 +352837,7 @@
   },
   {
     "fig_num": "fig-014639",
-    "name": "Liann - Lime and Coral Shirt, Lime Pants",
+    "name": "Liann, Lime and Coral Shirt, Lime Pants",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-014639.jpg",
     "theme": "",
@@ -352793,7 +352853,7 @@
   },
   {
     "fig_num": "fig-014641",
-    "name": "Liann - Lime and Coral Shirt, Sand Blue Pants with Black Boots",
+    "name": "Liann, Lime and Coral Shirt, Sand Blue Pants with Black Boots",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-014641.jpg",
     "theme": "",
@@ -352801,7 +352861,7 @@
   },
   {
     "fig_num": "fig-014642",
-    "name": "Paisley - Bright Light Yellow Top, Sand Blue Pants, Medium Lavender Headphones",
+    "name": "Paisley, Bright Light Yellow Top, Sand Blue Pants, Medium Lavender Headphones",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-014642.jpg",
     "theme": "",
@@ -352905,7 +352965,7 @@
   },
   {
     "fig_num": "fig-014658",
-    "name": "Liann - Lime and Coral Shirt, Bright Light Orange Shorts",
+    "name": "Liann, Lime and Coral Shirt, Bright Light Orange Shorts",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-014658.jpg",
     "theme": "",
@@ -352913,7 +352973,7 @@
   },
   {
     "fig_num": "fig-014659",
-    "name": "Liann - Medium Lavender Top, Lime Pants, Smile",
+    "name": "Liann, Medium Lavender Top, Lime Pants, Smile",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-014659.jpg",
     "theme": "",
@@ -352921,7 +352981,7 @@
   },
   {
     "fig_num": "fig-014660",
-    "name": "Liann - Medium Lavender Top, Bright Ligt Orange Shorts",
+    "name": "Liann, Medium Lavender Top, Bright Ligt Orange Shorts",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-014660.jpg",
     "theme": "",
@@ -352953,7 +353013,7 @@
   },
   {
     "fig_num": "fig-014666",
-    "name": "Paisley - Bright Light Yellow Top, Sand Blue Pants",
+    "name": "Paisley, Bright Light Yellow Top, Sand Blue Pants",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-014666.jpg",
     "theme": "",
@@ -353081,7 +353141,7 @@
   },
   {
     "fig_num": "fig-014689",
-    "name": "Police Officer - Black Torso, Dark Blue Legs, Black Hair",
+    "name": "Police Officer, Black Torso, Dark Blue Legs, Black Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-014689.jpg",
     "theme": "",
@@ -353121,7 +353181,7 @@
   },
   {
     "fig_num": "fig-014694",
-    "name": "Police Officer - Black Torso, Dark Blue Legs, Short Black Hair",
+    "name": "Police Officer, Black Torso, Dark Blue Legs, Short Black Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-014694.jpg",
     "theme": "",
@@ -353129,7 +353189,7 @@
   },
   {
     "fig_num": "fig-014695",
-    "name": "Police Officer - Bright Light Blue Torso, Dark Blue Legs, Dark Orange Hair",
+    "name": "Police Officer, Bright Light Blue Torso, Dark Blue Legs, Dark Orange Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-014695.jpg",
     "theme": "",
@@ -353225,7 +353285,7 @@
   },
   {
     "fig_num": "fig-014718",
-    "name": "Police Officer, Pilot - Black Torso, Dark Blue Legs, White Helmet",
+    "name": "Police Officer, Pilot, Black Torso, Dark Blue Legs, White Helmet",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-014718.jpg",
     "theme": "",
@@ -354721,7 +354781,7 @@
   },
   {
     "fig_num": "fig-015016",
-    "name": "Paisley - Striped Top, Sand Blue Legs",
+    "name": "Paisley, Striped Top, Sand Blue Legs",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-015016.jpg",
     "theme": "",
@@ -354753,7 +354813,7 @@
   },
   {
     "fig_num": "fig-015022",
-    "name": "Leo - Red Shirt, Yellow Pants, Life Vest",
+    "name": "Leo, Red Shirt, Yellow Pants, Life Vest",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-015022.jpg",
     "theme": "",
@@ -354777,7 +354837,7 @@
   },
   {
     "fig_num": "fig-015025",
-    "name": "Paisley - Adventure Camp, Medium Lavender Shorts",
+    "name": "Paisley, Adventure Camp, Medium Lavender Shorts",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-015025.jpg",
     "theme": "",
@@ -354817,7 +354877,7 @@
   },
   {
     "fig_num": "fig-015030",
-    "name": "Liann - Adventure Camp, Lime Pants",
+    "name": "Liann, Adventure Camp, Lime Pants",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-015030.jpg",
     "theme": "",
@@ -354825,7 +354885,7 @@
   },
   {
     "fig_num": "fig-015031",
-    "name": "Leo - Red Shirt, Blue Shorts",
+    "name": "Leo, Red Shirt, Blue Shorts",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-015031.jpg",
     "theme": "",
@@ -354889,7 +354949,7 @@
   },
   {
     "fig_num": "fig-015041",
-    "name": "Leo - Adventure Camp, Coral Pants",
+    "name": "Leo, Adventure Camp, Coral Pants",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-015041.jpg",
     "theme": "",
@@ -354977,7 +355037,7 @@
   },
   {
     "fig_num": "fig-015060",
-    "name": "Peter - Neutral Expression",
+    "name": "Peter, Neutral Expression",
     "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-015060.jpg",
     "theme": "",
@@ -354985,7 +355045,7 @@
   },
   {
     "fig_num": "fig-015061",
-    "name": "Liann - Bright Light Yellow Top, Sand Blue Pants",
+    "name": "Liann, Bright Light Yellow Top, Sand Blue Pants",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-015061.jpg",
     "theme": "",
@@ -357289,7 +357349,7 @@
   },
   {
     "fig_num": "fig-015455",
-    "name": "Leia - Ugly Christmas Sweater",
+    "name": "Leia, Ugly Christmas Sweater",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-015455.jpg",
     "theme": "",
@@ -357305,7 +357365,7 @@
   },
   {
     "fig_num": "fig-015459",
-    "name": "Paisley - Microdoll",
+    "name": "Paisley, Microdoll",
     "num_parts": 3,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-015459.jpg",
     "theme": "",
@@ -358689,7 +358749,7 @@
   },
   {
     "fig_num": "fig-015749",
-    "name": "Paisley - Lavender Top, Nougat Skirt",
+    "name": "Paisley, Lavender Top, Nougat Skirt",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-015749.jpg",
     "theme": "",
@@ -358721,7 +358781,7 @@
   },
   {
     "fig_num": "fig-015754",
-    "name": "Paisley - Bright Light Yellow Top, Medium Lavender Skirt",
+    "name": "Paisley, Bright Light Yellow Top, Medium Lavender Skirt",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-015754.jpg",
     "theme": "",
@@ -358737,7 +358797,7 @@
   },
   {
     "fig_num": "fig-015756",
-    "name": "Liann - White Top, Bright Light Orange Skirt",
+    "name": "Liann, White Top, Bright Light Orange Skirt",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-015756.jpg",
     "theme": "",
@@ -358753,7 +358813,7 @@
   },
   {
     "fig_num": "fig-015758",
-    "name": "Leo - Dark Turquoise Jacket, Yellow Shorts",
+    "name": "Leo, Dark Turquoise Jacket, Yellow Shorts",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-015758.jpg",
     "theme": "",
@@ -358761,7 +358821,7 @@
   },
   {
     "fig_num": "fig-015759",
-    "name": "Liann - Pajama",
+    "name": "Liann, Pajama",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-015759.jpg",
     "theme": "",
@@ -358769,7 +358829,7 @@
   },
   {
     "fig_num": "fig-015760",
-    "name": "Paisley - Pajama",
+    "name": "Paisley, Pajama",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-015760.jpg",
     "theme": "",
@@ -358785,7 +358845,7 @@
   },
   {
     "fig_num": "fig-015762",
-    "name": "Leo - Dark Pink Jacket, Yellow Pants",
+    "name": "Leo, Dark Pink Jacket, Yellow Pants",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-015762.jpg",
     "theme": "",
@@ -358849,7 +358909,7 @@
   },
   {
     "fig_num": "fig-015772",
-    "name": "Leo - Reddish Orange Apron",
+    "name": "Leo, Reddish Orange Apron",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-015772.jpg",
     "theme": "",
@@ -358937,7 +358997,7 @@
   },
   {
     "fig_num": "fig-015783",
-    "name": "Liann - Coral Overall",
+    "name": "Liann, Coral Overall",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-015783.jpg",
     "theme": "",
@@ -358961,7 +359021,7 @@
   },
   {
     "fig_num": "fig-015786",
-    "name": "Paisley - Bright Light Yellow Top, Dark Tan Shorts",
+    "name": "Paisley, Bright Light Yellow Top, Dark Tan Shorts",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-015786.jpg",
     "theme": "",
@@ -359017,7 +359077,7 @@
   },
   {
     "fig_num": "fig-015793",
-    "name": "Paisley - Bright Pink Top, Sand Blue Pants",
+    "name": "Paisley, Bright Pink Top, Sand Blue Pants",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-015793.jpg",
     "theme": "",
@@ -359025,7 +359085,7 @@
   },
   {
     "fig_num": "fig-015794",
-    "name": "Petch - Coral Shirt",
+    "name": "Petch, Coral Shirt",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-015794.jpg",
     "theme": "",
@@ -359857,7 +359917,7 @@
   },
   {
     "fig_num": "fig-015953",
-    "name": "Police Officer Lucy Lawson - Black Torso, Dark Blue Legs, Reddish Brown Hair",
+    "name": "Police Officer Lucy Lawson, Black Torso, Dark Blue Legs, Reddish Brown Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-015953.jpg",
     "theme": "",
@@ -360137,7 +360197,7 @@
   },
   {
     "fig_num": "fig-015997",
-    "name": "Police Officer, Pilot - Black Torso, Dark Blue Legs, White Helmet",
+    "name": "Police Officer, Pilot, Black Torso, Dark Blue Legs, White Helmet",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-015997.jpg",
     "theme": "",
@@ -361505,7 +361565,7 @@
   },
   {
     "fig_num": "fig-016285",
-    "name": "Liann - Coral Jacket, Tan Pants",
+    "name": "Liann, Coral Jacket, Tan Pants",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-016285.jpg",
     "theme": "",
@@ -361521,7 +361581,7 @@
   },
   {
     "fig_num": "fig-016287",
-    "name": "Leo - Coral Shirt, Bright Green Shorts",
+    "name": "Leo, Coral Shirt, Bright Green Shorts",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-016287.jpg",
     "theme": "",
@@ -361529,7 +361589,7 @@
   },
   {
     "fig_num": "fig-016288",
-    "name": "Liann - Dark Azure Top, Bright Light Yellow Shorts",
+    "name": "Liann, Dark Azure Top, Bright Light Yellow Shorts",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-016288.jpg",
     "theme": "",
@@ -361545,7 +361605,7 @@
   },
   {
     "fig_num": "fig-016290",
-    "name": "Leo - Red Shirt, Yellow Shorts",
+    "name": "Leo, Red Shirt, Yellow Shorts",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-016290.jpg",
     "theme": "",
@@ -361561,7 +361621,7 @@
   },
   {
     "fig_num": "fig-016292",
-    "name": "Paisley - Fairy Costume",
+    "name": "Paisley, Fairy Costume",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-016292.jpg",
     "theme": "",
@@ -361569,7 +361629,7 @@
   },
   {
     "fig_num": "fig-016293",
-    "name": "Leo - Bunny Costume",
+    "name": "Leo, Bunny Costume",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-016293.jpg",
     "theme": "",
@@ -361601,7 +361661,7 @@
   },
   {
     "fig_num": "fig-016297",
-    "name": "Paisley - Lavender Top, Shorts",
+    "name": "Paisley, Lavender Top, Shorts",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-016297.jpg",
     "theme": "",
@@ -361697,7 +361757,7 @@
   },
   {
     "fig_num": "fig-016310",
-    "name": "Liann - Super Hero Costume",
+    "name": "Liann, Super Hero Costume",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-016310.jpg",
     "theme": "",
@@ -362497,7 +362557,7 @@
   },
   {
     "fig_num": "fig-016476",
-    "name": "Liann - White Shirt with Panda, Bright Light Orange Shorts",
+    "name": "Liann, White Shirt with Panda, Bright Light Orange Shorts",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-016476.jpg",
     "theme": "",
@@ -363481,7 +363541,7 @@
   },
   {
     "fig_num": "fig-016747",
-    "name": "Leo - Dark Azure Pajama",
+    "name": "Leo, Dark Azure Pajama",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-016747.jpg",
     "theme": "",
