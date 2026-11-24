@@ -192704,7 +192704,7 @@
     "name": "BMW Motorrad M 1000 RR",
     "year": 2022,
     "theme_id": 1,
-    "num_parts": 1922,
+    "num_parts": 1920,
     "img_url": "https://cdn.rebrickable.com/media/sets/42130-1.jpg",
     "theme": "Technic",
     "parent_theme": ""
@@ -234634,7 +234634,7 @@
     "name": "Canada Tennis",
     "year": 2025,
     "theme_id": 408,
-    "num_parts": 0,
+    "num_parts": 43,
     "img_url": "https://cdn.rebrickable.com/media/sets/6603984-1.jpg",
     "theme": "LEGO Brand Store",
     "parent_theme": ""
@@ -247230,6 +247230,36 @@
     "parent_theme": ""
   },
   {
+    "set_num": "6677056-1",
+    "name": "Gryffindor",
+    "year": 2026,
+    "theme_id": 598,
+    "num_parts": 38,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6677056-1.jpg",
+    "theme": "Promotional",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6677056-2",
+    "name": "Hufflepuff",
+    "year": 2026,
+    "theme_id": 598,
+    "num_parts": 29,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6677056-2.jpg",
+    "theme": "Promotional",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6677056-4",
+    "name": "Slytherin",
+    "year": 2026,
+    "theme_id": 598,
+    "num_parts": 23,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6677056-4.jpg",
+    "theme": "Promotional",
+    "parent_theme": ""
+  },
+  {
     "set_num": "6677492-1",
     "name": "I [Heart] LEGO Store Lyon Tile",
     "year": 2026,
@@ -254859,7 +254889,7 @@
   },
   {
     "fig_num": "fig-000598",
-    "name": "Man, White Torso, Blue Overall, Blue Cap - 3626b Head",
+    "name": "Man, White Torso, Blue Overall, Blue Cap, 3626b Head",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-000598.jpg",
     "theme": "",
@@ -269955,7 +269985,7 @@
   },
   {
     "fig_num": "fig-002588",
-    "name": "Andrea- Magenta Vest, Light Aqua Skirt",
+    "name": "Andrea, Magenta Vest, Light Aqua Skirt",
     "num_parts": 6,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-002588.jpg",
     "theme": "",
@@ -278811,7 +278841,7 @@
   },
   {
     "fig_num": "fig-003778",
-    "name": "Savage Opress -3626b Head",
+    "name": "Savage Opress, 3626b Head",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-003778.jpg",
     "theme": "",
@@ -288363,7 +288393,7 @@
   },
   {
     "fig_num": "fig-005107",
-    "name": "Woman -Blue Jacket, Blue Legs, Red Hair",
+    "name": "Woman, Blue Jacket, Blue Legs, Red Hair",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-005107.jpg",
     "theme": "",
@@ -330307,7 +330337,7 @@
   },
   {
     "fig_num": "fig-010988",
-    "name": "Nindroid with Dual Sided Head (Legacy) -neck Bracket",
+    "name": "Nindroid with Dual Sided Head (Legacy), Neck Bracket",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-010988.jpg",
     "theme": "",
@@ -338891,7 +338921,7 @@
   },
   {
     "fig_num": "fig-012423",
-    "name": "Savage Opress -3626c Head",
+    "name": "Savage Opress, 3626c Head",
     "num_parts": 5,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-012423.jpg",
     "theme": "",
