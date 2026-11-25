@@ -234634,7 +234634,7 @@
     "name": "Canada Tennis",
     "year": 2025,
     "theme_id": 408,
-    "num_parts": 43,
+    "num_parts": 45,
     "img_url": "https://cdn.rebrickable.com/media/sets/6603984-1.jpg",
     "theme": "LEGO Brand Store",
     "parent_theme": ""
@@ -246080,6 +246080,16 @@
     "parent_theme": ""
   },
   {
+    "set_num": "5011174-1",
+    "name": "Christmas Craft Set",
+    "year": 2026,
+    "theme_id": 501,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/5011174-1.jpg",
+    "theme": "Gear",
+    "parent_theme": ""
+  },
+  {
     "set_num": "5011185-1",
     "name": "Herschel Heritage Tote - Monogram Black",
     "year": 2026,
@@ -247246,6 +247256,16 @@
     "theme_id": 598,
     "num_parts": 29,
     "img_url": "https://cdn.rebrickable.com/media/sets/6677056-2.jpg",
+    "theme": "Promotional",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "6677056-3",
+    "name": "Ravenclaw",
+    "year": 2026,
+    "theme_id": 598,
+    "num_parts": 24,
+    "img_url": "https://cdn.rebrickable.com/media/sets/6677056-3.jpg",
     "theme": "Promotional",
     "parent_theme": ""
   },
@@ -249888,6 +249908,16 @@
     "img_url": "https://cdn.rebrickable.com/media/sets/67012-1.jpg",
     "theme": "Batman",
     "parent_theme": "Super Heroes DC"
+  },
+  {
+    "set_num": "67023-1",
+    "name": "Marvel Rivals: Jeff the Land Shark",
+    "year": 2027,
+    "theme_id": 696,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/67023-1.jpg",
+    "theme": "Super Heroes Marvel",
+    "parent_theme": ""
   },
   {
     "set_num": "71873-1",
