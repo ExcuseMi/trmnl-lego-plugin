@@ -22624,7 +22624,7 @@
     "name": "Forbidden Island",
     "year": 1989,
     "theme_id": 148,
-    "num_parts": 171,
+    "num_parts": 190,
     "img_url": "https://cdn.rebrickable.com/media/sets/6270-1.jpg",
     "theme": "Pirates I",
     "parent_theme": "Pirates"
@@ -224934,7 +224934,7 @@
     "name": "Nova's Doghouse Build",
     "year": 2025,
     "theme_id": 494,
-    "num_parts": 51,
+    "num_parts": 50,
     "img_url": "https://cdn.rebrickable.com/media/sets/30697-1.jpg",
     "theme": "Friends",
     "parent_theme": ""
@@ -249810,12 +249810,32 @@
     "parent_theme": ""
   },
   {
+    "set_num": "40992-1",
+    "name": "Harry, Draco & Hagrid Figures",
+    "year": 2027,
+    "theme_id": 610,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/40992-1.jpg",
+    "theme": "Brickheadz",
+    "parent_theme": ""
+  },
+  {
     "set_num": "42709-1",
     "name": "Pet Care & Play Center",
     "year": 2027,
     "theme_id": 494,
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/42709-1.jpg",
+    "theme": "Friends",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "42717-1",
+    "name": "Family Dollhouse",
+    "year": 2027,
+    "theme_id": 494,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/42717-1.jpg",
     "theme": "Friends",
     "parent_theme": ""
   },
@@ -250087,6 +250107,56 @@
     "num_parts": 0,
     "img_url": "https://cdn.rebrickable.com/media/sets/75495-1.jpg",
     "theme": "Star Wars",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "76481-1",
+    "name": "Privet Drive",
+    "year": 2027,
+    "theme_id": 246,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/76481-1.jpg",
+    "theme": "Harry Potter",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "76482-1",
+    "name": "Gryffindor Common Room",
+    "year": 2027,
+    "theme_id": 246,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/76482-1.jpg",
+    "theme": "Harry Potter",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "76487-1",
+    "name": "Hogwarts Express & Platform 9¾",
+    "year": 2027,
+    "theme_id": 246,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/76487-1.jpg",
+    "theme": "Harry Potter",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "77084-1",
+    "name": "P-1000",
+    "year": 2027,
+    "theme_id": 766,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/77084-1.jpg",
+    "theme": "Fortnite",
+    "parent_theme": ""
+  },
+  {
+    "set_num": "77088-1",
+    "name": "Guaco's Tacos",
+    "year": 2027,
+    "theme_id": 766,
+    "num_parts": 0,
+    "img_url": "https://cdn.rebrickable.com/media/sets/77088-1.jpg",
+    "theme": "Fortnite",
     "parent_theme": ""
   },
   {
@@ -363151,7 +363221,7 @@
   },
   {
     "fig_num": "fig-016636",
-    "name": "Marilyn Thornhil",
+    "name": "Marilyn Thornhill",
     "num_parts": 4,
     "img_url": "https://cdn.rebrickable.com/media/sets/fig-016636.jpg",
     "theme": "",
