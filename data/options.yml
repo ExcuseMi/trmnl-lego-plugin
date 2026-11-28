@@ -297,7 +297,7 @@
   - Off-Road (13): off-road|1|13
   - One Piece (17): one-piece|1|17
   - Orient Expedition (22): orient-expedition|1|22
-  - Other (111): other|1|111
+  - Other (112): other|1|112
   - Outback (5): outback|1|5
   - Overwatch (9): overwatch|1|9
   - Paradisa (18): paradisa|1|18
@@ -475,7 +475,7 @@
   optional: true
 - keyname: themes_brickset
   field_type: select
-  name: Filter by Themes – Brickset (176)
+  name: Filter by Themes – Brickset (175)
   description: <strong>Required:</strong> Select at least one theme, OR set a min/max year below. Only applicable when using Brickset as your data source.
   multiple: true
   options:
@@ -654,7 +654,6 @@
   - Xtra: Xtra
   - Znap: Znap
   - tbd: tbd
-  - '{Undefined}': '{Undefined}'
   help_text: Use <kbd>⌘</kbd>+<kbd>click</kbd> or <kbd>Ctrl</kbd>+<kbd>click</kbd> to select multiple themes.<br /><strong>You must select at least one theme OR specify a year range.</strong>
   optional: true
 - keyname: brickset_order_by
